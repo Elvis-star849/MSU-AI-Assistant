@@ -1,0 +1,26 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-10-06T11:09:35+00:00",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "embedding_dim": 384,
+  "normalized_embeddings": true,
+  "query_prefix": "Represent this sentence for searching relevant passages: ",
+  "chunk_size": 800,
+  "chunk_overlap": 150,
+  "chunk_count": 10732,
+  "chunks_per_source": {
+    "MSU Humanities Yearbook": 5614,
+    "MSU Sciences Yearbook Vol. 2": 5118
+  },
+  "corpus_fingerprint": "sha256:545d0dabe1fbe022baf9dd5dfaadaaee6637490e9a2f5fef9e04cf1d455e41f5",
+  "build_fingerprint": "sha256:8e0e357fc8e85e7b133d98ce33b80986846fb7d883ecc39572445d31a0299fa4",
+  "vectors_checksum": "sha256:38d4153f6e6ef7315acf29185e7b389a33f383fd1d4b1588b86621cd6d20b22a",
+  "index_type": "IndexFlatIP",
+  "faiss_version": "1.15.1",
+  "bm25": {
+    "variant": "BM25Okapi",
+    "k1": 1.5,
+    "b": 0.75,
+    "tokenizer": "v1"
+  }
+}
