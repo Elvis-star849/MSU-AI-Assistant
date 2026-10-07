@@ -1,0 +1,350 @@
+{
+  "status": "FROZEN - approved by project owner; do not edit",
+  "selection": {
+    "course_codes": "random.Random(20261007).sample of 12 codes per yearbook from module-description chunks (title + 'This/The module/course ...'), excluding Stage 4 codes and codes whose description titles differ; first 5 per book -> exact code, next 5 -> code in context, 2 spares per book",
+    "natural_language_topics": "random.Random(20261007).sample of 22 from 152 numbered section headings on pages <= 200 (general regulations), excluding Stage 4 topics; taken in sample order, skipping (a) department/faculty names and learning-outcome bullets, (b) more than 2 postgraduate-research topics, (c) headings with no substantive section text (rule (c) added while drafting: 'Structure of Semester' only refers to Faculty Regulations; 'Transfer of Technology' exists only in a table of contents)",
+    "answer_pages_found_by": "plain text search of the chunk text for each section's distinctive wording - no retriever used"
+  },
+  "grading": "2 = chunk alone is sufficient for an LLM to answer correctly; 1 = relevant but insufficient; 0 = irrelevant",
+  "questions": [
+    {
+      "id": "N1",
+      "category": "natural_language",
+      "question": "What is a faculty board responsible for?",
+      "sufficient": "Lists faculty board functions: regulate teaching and study of the faculty's subjects (subject to Senate approval), report to Senate on faculty matters, deal with matters referred/delegated by Senate",
+      "pages": [
+        "Hum 31",
+        "Sci 32",
+        "Hum 81"
+      ]
+    },
+    {
+      "id": "N2",
+      "category": "natural_language",
+      "question": "How are archaeology students taught and assessed?",
+      "sufficient": "Teaching: lectures, tutorials, labs, seminars, group work, site visits, field school, excavations, research projects; assessment: written and oral exams, tests, field school reports, seminar presentations, final-year project reports",
+      "pages": [
+        "Hum 169"
+      ]
+    },
+    {
+      "id": "N3",
+      "category": "natural_language",
+      "question": "Who chairs Council meetings when the Chancellor is not there?",
+      "sufficient": "The chairman of Council presides, or in his absence the vice-chairman; if all are absent, members present elect someone to preside",
+      "pages": [
+        "Hum 18",
+        "Sci 19"
+      ]
+    },
+    {
+      "id": "N4",
+      "category": "natural_language",
+      "question": "Who are the members of Midlands State University?",
+      "sufficient": "The membership list: Chancellor, Vice-Chancellor, Pro-Vice-Chancellors, Council members, Senate members, staff (+ registered students and Convocation, which continue on p.15). Grade 2 for the chunk with the main list (a)-(f); the p.15 continuation alone is grade 1",
+      "pages": [
+        "Hum 14",
+        "Hum 15"
+      ],
+      "note": "answer split across two chunks"
+    },
+    {
+      "id": "N5",
+      "category": "natural_language",
+      "question": "Can I switch from an MPhil to a PhD, and when?",
+      "sufficient": "Yes: after at least 12 months of study, on supervisor recommendation, with a Faculty Higher Degrees Committee recommendation to Research and Innovation; DCAA recommends to Senate",
+      "pages": [
+        "Hum 151",
+        "Sci 154"
+      ]
+    },
+    {
+      "id": "N6",
+      "category": "natural_language",
+      "question": "If something in my residence room gets broken, will I have to pay for it?",
+      "sufficient": "Residents must compensate the University in full for damage they cause; damage to a study-bedroom is presumed caused by its allocated resident unless proved otherwise",
+      "pages": [
+        "Hum 108"
+      ]
+    },
+    {
+      "id": "N7",
+      "category": "natural_language",
+      "question": "What qualification do I need to apply for an MPhil?",
+      "sufficient": "An appropriate honours degree (ZNQF Level 8) or equivalent",
+      "pages": [
+        "Hum 149",
+        "Sci 151"
+      ]
+    },
+    {
+      "id": "N8",
+      "category": "natural_language",
+      "question": "What do I have to sign when I register as a student?",
+      "sufficient": "A statement acknowledging receipt of the student conduct rules and undertaking to conduct oneself in accordance with them",
+      "pages": [
+        "Hum 105"
+      ]
+    },
+    {
+      "id": "N9",
+      "category": "natural_language",
+      "question": "How does the university decide to award an honorary doctorate?",
+      "sufficient": "For outstanding intellectual/creative achievement or leadership; initiated by a faculty through Departmental and Faculty Boards; Honorary Degrees and Distinctions Committee recommends to Senate and Council",
+      "pages": [
+        "Hum 156",
+        "Sci 159"
+      ]
+    },
+    {
+      "id": "N10",
+      "category": "natural_language",
+      "question": "If I repeat a module, which marks will count?",
+      "sufficient": "Only the marks obtained in the repeat examination are credited",
+      "pages": [
+        "Hum 122",
+        "Hum 368",
+        "Hum 372",
+        "Hum 378",
+        "Hum 407",
+        "Hum 413",
+        "Hum 418",
+        "Hum 424"
+      ]
+    },
+    {
+      "id": "E1",
+      "category": "exact_code",
+      "question": "What is DSC 603 about?",
+      "sufficient": "Description of DSC603 Research Methods in Communication",
+      "pages": [
+        "Hum 304"
+      ]
+    },
+    {
+      "id": "E2",
+      "category": "exact_code",
+      "question": "Describe BM134",
+      "sufficient": "Description of BM134 Business Ethics",
+      "pages": [
+        "Sci 542"
+      ]
+    },
+    {
+      "id": "E3",
+      "category": "exact_code",
+      "question": "SEMA 204",
+      "sufficient": "Description of SEMA204 Introduction to Numerical Methods",
+      "pages": [
+        "Hum 573"
+      ]
+    },
+    {
+      "id": "E4",
+      "category": "exact_code",
+      "question": "what is ham105",
+      "sufficient": "Description of HAM105 Adventure Tourism",
+      "pages": [
+        "Sci 590"
+      ]
+    },
+    {
+      "id": "E5",
+      "category": "exact_code",
+      "question": "Tell me about the module SEPS101",
+      "sufficient": "Description of SEPS101 Historical Issues of Physical Education, Sports and the Olympic Movement",
+      "pages": [
+        "Hum 576"
+      ]
+    },
+    {
+      "id": "E6",
+      "category": "exact_code",
+      "question": "What is MSCM 703 about?",
+      "sufficient": "Description of MSCM703 Procurement Theory and Practice",
+      "pages": [
+        "Sci 584"
+      ]
+    },
+    {
+      "id": "E7",
+      "category": "exact_code",
+      "question": "Describe HPHS 201",
+      "sufficient": "Description of HPHS201 Public Policy and Human Rights",
+      "pages": [
+        "Hum 864"
+      ]
+    },
+    {
+      "id": "E8",
+      "category": "exact_code",
+      "question": "MIM732",
+      "sufficient": "Description of MIM732 Advanced Databases",
+      "pages": [
+        "Sci 528"
+      ]
+    },
+    {
+      "id": "E9",
+      "category": "exact_code",
+      "question": "what is baeh 141",
+      "sufficient": "Description of BAEH141 Literary Criticism",
+      "pages": [
+        "Hum 247"
+      ]
+    },
+    {
+      "id": "E10",
+      "category": "exact_code",
+      "question": "Tell me about the module CIT 135",
+      "sufficient": "Description of CIT135 Operating Systems, Computer Applications and Architecture",
+      "pages": [
+        "Sci 489"
+      ]
+    },
+    {
+      "id": "C1",
+      "category": "code_in_context",
+      "question": "I'm a second-year languages student thinking of taking HALCS 211. What topics does it cover?",
+      "sufficient": "Description of HALCS211 Introduction to Gender Studies",
+      "pages": [
+        "Hum 261"
+      ]
+    },
+    {
+      "id": "C2",
+      "category": "code_in_context",
+      "question": "How many credits is MECDP704 worth, and which semester is it taught in?",
+      "sufficient": "Programme table: 18 credits, Level 1 Semester 2",
+      "pages": [
+        "Hum 431"
+      ],
+      "answer_type": "table"
+    },
+    {
+      "id": "C3",
+      "category": "code_in_context",
+      "question": "My lecturer recommended MEHD733 for history teachers. What will I learn in it?",
+      "sufficient": "Description of MEHD733 Curriculum and Pedagogical Issues in History Education",
+      "pages": [
+        "Hum 525"
+      ]
+    },
+    {
+      "id": "C4",
+      "category": "code_in_context",
+      "question": "What kind of instrumentation and analytical techniques does MSECH704 cover?",
+      "sufficient": "Description of MSECH704 Advanced Chemical Instrumentation and Analytical Techniques",
+      "pages": [
+        "Hum 604"
+      ]
+    },
+    {
+      "id": "C5",
+      "category": "code_in_context",
+      "question": "How many credits do I get for passing SEMA 102?",
+      "sufficient": "Programme table listing SEMA102 Linear Mathematics with 12 credits",
+      "pages": [
+        "Hum 556",
+        "Hum 564",
+        "Hum 570"
+      ],
+      "answer_type": "table"
+    },
+    {
+      "id": "C6",
+      "category": "code_in_context",
+      "question": "In which level and semester is HMETE103 normally taken?",
+      "sufficient": "Programme table: Level 1 Semester 1",
+      "pages": [
+        "Sci 674",
+        "Sci 684"
+      ],
+      "answer_type": "table"
+    },
+    {
+      "id": "C7",
+      "category": "code_in_context",
+      "question": "I'm studying nutrition. What does HNS 124 teach about food?",
+      "sufficient": "Description of HNS124 Food Chemistry",
+      "pages": [
+        "Sci 1108"
+      ]
+    },
+    {
+      "id": "C8",
+      "category": "code_in_context",
+      "question": "Is MIP845 about solar and other renewable energy sources? What does it cover?",
+      "sufficient": "Description of MIP845 Renewable Energies",
+      "pages": [
+        "Sci 1095"
+      ]
+    },
+    {
+      "id": "C9",
+      "category": "code_in_context",
+      "question": "Which other modules are taken in the same semester as MFA700?",
+      "sufficient": "Programme table, Level 1 Semester 1: MFA701 Money Laundering and Asset Tracing, MFA702 Compliance and Governance, MFA703 Big Data Analytics in Forensic Accounting, MFA704 Professional Ethics in Forensic Auditing",
+      "pages": [
+        "Sci 414"
+      ],
+      "answer_type": "table"
+    },
+    {
+      "id": "C10",
+      "category": "code_in_context",
+      "question": "As a first-year accounting student I have to take BM135. What is it about?",
+      "sufficient": "Description of BM135 Commercial Law",
+      "pages": [
+        "Sci 388",
+        "Sci 398",
+        "Sci 542"
+      ]
+    },
+    {
+      "id": "O1",
+      "category": "out_of_scope",
+      "question": "What is on the menu in the student cafeteria today?",
+      "check": "'cafeteria' and 'canteen' absent; 'menu' only in module text"
+    },
+    {
+      "id": "O2",
+      "category": "out_of_scope",
+      "question": "Who won the 2023 Zimbabwe presidential election?",
+      "check": "'presidential' absent"
+    },
+    {
+      "id": "O3",
+      "category": "out_of_scope",
+      "question": "What is the WiFi password for the MSU library?",
+      "check": "No password; near miss: library WiFi hotspots are mentioned (Hum 928, Sci 1127-1128)"
+    },
+    {
+      "id": "O4",
+      "category": "out_of_scope",
+      "question": "How do I apply for a UK student visa?",
+      "check": "'visa' absent"
+    },
+    {
+      "id": "O5",
+      "category": "out_of_scope",
+      "question": "What time does the campus gym open?",
+      "check": "'gym' only as a staff job title (Hum 103)"
+    }
+  ],
+  "frozen_at": "2026-10-07T10:14:12+02:00",
+  "stage4_freeze": {
+    "stage": 4,
+    "frozen_at": "2026-10-07T09:57:51+02:00",
+    "corpus_fingerprint": "sha256:545d0dabe1fbe022baf9dd5dfaadaaee6637490e9a2f5fef9e04cf1d455e41f5",
+    "sha256": {
+      "src/vectorstore.py": "b6f8fd0ee70d92d5c69529cc66fd369e38e6eea68f344aa51edf6653c44f2573",
+      "src/embedding.py": "05f65108efcae8a613b22ad5b45a431b14cc05ac28818d3cf4c9b2b3dae15119",
+      "src/data_loader.py": "8d80ac4d3c72d66652a1c46edd47f5b97e6d5c582a4240421c33103b37d7a893",
+      "faiss_store/index.faiss": "5408db93da95136005e7e2aa098af46d752c600c3052486aba8ac15dcdf49280",
+      "faiss_store/chunks.jsonl": "19e29210ce20a66785d52a02962ab0e7beca89033cd18de722005e09ff9eb21e",
+      "faiss_store/manifest.json": "1dc465508ffb8daa7ee49b99a9337bfbf7a3a474124960f2a233b4ff025434d4",
+      "msu_chatbot_pipeline.ipynb": "a043c9d07f8e27969179fcbbd120d4d9d2d592ce7b33a1cb6d7a6e7234b4c006"
+    }
+  }
+}

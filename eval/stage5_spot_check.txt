@@ -1,0 +1,104 @@
+Stage 5 grading spot-check: 20 of the 289 graded top-5 chunks, stratified by my grade
+(7 graded 2, 7 graded 1, 6 graded 0; seed 20261008) and shuffled.
+Grades: 2 = sufficient on its own, 1 = relevant but insufficient, 0 = irrelevant.
+Please mark each AGREE / DISAGREE (and your grade if you disagree).
+
+--- 1. N8: What do I have to sign when I register as a student?
+    Sufficient answer must contain: A statement acknowledging receipt of the student conduct rules and undertaking to conduct oneself in accordance with them
+    Chunk 2063 (MSU Humanities Yearbook, p.374)   MY GRADE: 0   YOUR VERDICT: ____
+    BIEAT109 Sign Language, Braille and other Curriculum Languages The module seeks to assist students to be proficient in Sign Language, Braille and be able to make their adaptations and modifications to the content and complexity of teaching it and other curriculum languages in a manner that suits the profiles
+
+--- 2. N10: If I repeat a module, which marks will count?
+    Sufficient answer must contain: Only the marks obtained in the repeat examination are credited
+    Chunk 2329 (MSU Humanities Yearbook, p.418)   MY GRADE: 2   YOUR VERDICT: ____
+    10. FAILURE TO SATISFY EXAMINERS A candidate who fails to satisfy the examiners may be required by the Senate to write 'supplementary examinations or 'repeat' or 'withdraw'. If a student is repeating a module(s) he or she shall only be credited with the marks obtained during the repeat examination. 'Withdraw' means that the student shall withdraw from the university. For the prescribed project candidates shall be informed in advance of the deadline for submission of such project. 'Carry over' means carry over modules from the previous level to the subsequent level. Retake means redo module(s) failed in the previous semester within the same level.
+
+--- 3. E5: Tell me about the module SEPS101
+    Sufficient answer must contain: Description of SEPS101 Historical Issues of Physical Education, Sports and the Olympic Movement
+    Chunk 3308 (MSU Humanities Yearbook, p.575)   MY GRADE: 1   YOUR VERDICT: ____
+    9.0 PROVISION FOR PROGRESSION Refer to Section 5 of the Faculty Regulations 10.0 FAILURE TO SATISFY EXAMINERS Refer to Section 8 of the Faculty Regulations 11.0 GRADING AND DEGREE CLASSIFICATION Refer to Section 6 of the Faculty Regulations 12.0 DEGREE WEIGHTING Refer to Section 7 of the Faculty Regulations. 13.0 PROGRAMME STRUCTURE Level 1 Semester 1 Code Module Description Credits BED133 Information Communication Technology 12 BED144 School Curriculum and Innovation 12 BCHS131 Cultural and Heritage Studies 12 SEPS101 Historical Issues of Physical Education, Sports and the Olympic Movement 12 SEPS102 Athletics Skills, Coaching and Officiating 12 SEPS103 Pedagogy and Coaching: The Science for Attainment 12 Level 1 Semester 2 BED131 Research Methods and Statistics
+
+--- 4. E2: Describe BM134
+    Sufficient answer must contain: Description of BM134 Business Ethics
+    Chunk 8103 (MSU Sciences Yearbook Vol. 2, p.593)   MY GRADE: 0   YOUR VERDICT: ____
+    ACC135 Financial Accounting 1A- Refer to Accounting Sciences Department ACC138 Financial Accounting 1B- Refer to Accounting Sciences Department BM131 Principles of Business Management- Refer to Management Sciences Department BM438 Strategic Management- Refer to Management Sciences Department BM436 Organisational Behaviour- Refer to Management Sciences Department CS131 Basic Communication Skills- Refer to Communication Skills Centre HCS135 Introduction to Information Technology- Refer to Information and Marketing Sciences Department EC134 Economic Principles 1- Refer to Economic Sciences Department MM135 Quality Management- Refer to Information and Marketing Sciences Department REGULATIONS FOR THE BACHELOR OF COMMERCE HONOURS DEGREE IN SUSTAINABLE TOURISM MANAGEMENT AND PLANNING (BS14)
+
+--- 5. N8: What do I have to sign when I register as a student?
+    Sufficient answer must contain: A statement acknowledging receipt of the student conduct rules and undertaking to conduct oneself in accordance with them
+    Chunk 421 (MSU Humanities Yearbook, p.105)   MY GRADE: 2   YOUR VERDICT: ____
+    2. UNDERTAKING AT REGISTRATION When registering as a member of the University a student shall be given a copy of these rules and shall sign a statement in which he/she acknowledges that he/she has been furnished with the rules, and he/she undertakes to conduct himself/herself while a student of the University in accordance therewith and with any amendments duly made thereto.
+
+--- 6. N8: What do I have to sign when I register as a student?
+    Sufficient answer must contain: A statement acknowledging receipt of the student conduct rules and undertaking to conduct oneself in accordance with them
+    Chunk 532 (MSU Humanities Yearbook, p.130)   MY GRADE: 0   YOUR VERDICT: ____
+    the Chairperson of the Department concerned shall be necessary. 3.5.11 After taking due consideration of the academic progress of the student, the Senate may require or allow a student originally registered for one programme or subject to register for another programme or subject on the completion of either the First Semester or Second Semester of the programme for which he/ she is registered. 3.5.12 Normally, no programme shall commence with fewer than ten students.
+
+--- 7. C2: How many credits is MECDP704 worth, and which semester is it taught in?
+    Sufficient answer must contain: Programme table: 18 credits, Level 1 Semester 2
+    Chunk 2415 (MSU Humanities Yearbook, p.432)   MY GRADE: 1   YOUR VERDICT: ____
+    MECDP 704 Management of Early Childhood Programmes This module examines issues and responsibilities related to the management of early childhood development programmes. It enables students to develop knowledge, skills and attitudes in the management of programmes for young children. The module focuses on general theories and practices of management and supervision that will allow students to manage planning, organisation, curriculum evaluation, resources, finances and programmes in relation to Early Childhood Development.
+
+--- 8. E4: what is ham105
+    Sufficient answer must contain: Description of HAM105 Adventure Tourism
+    Chunk 9790 (MSU Sciences Yearbook Vol. 2, p.944)   MY GRADE: 0   YOUR VERDICT: ____
+    HAIML223* Mini Project 10 HCSCI234* Research Methods 10 HCSEC221* Network Programming (Pre. HCSEC123) 10 HCSE224* Object Oriented Programming (Pre. HCSE231) 10 Level 3 Semester 1 Code Module Description Credits HAIML311* Work-Related Learning I 40 Level 3 Semester 2 Code Module Description Credits HAIML321* Work-Related Learning II (Pre. HAIML311) 80 Level 4 Semester 1 Code Module Description Credits HCSEC411* Blockchain Technology 10 HCSE432 Embedded Systems 10 HCSE433* IoT and Cloud Systems Engineering 10 HAIML411* Neural Networks 10 HAIML412* Metaverse 10 HAIML413* Robotics 10 Level 4 Semester 2 Code Module Description Credits HCSE422* Image Processing and Machine Vision 10 HAIML421* Human AI Interaction 10 HAIML422 Games Development
+
+--- 9. E7: Describe HPHS 201
+    Sufficient answer must contain: Description of HPHS201 Public Policy and Human Rights
+    Chunk 5170 (MSU Humanities Yearbook, p.862)   MY GRADE: 0   YOUR VERDICT: ____
+    12 HPHS 204 Research Methods 12 GSSS231 Gender Studies for Social Sciences 12 ENT205 Entrepreneurship 1 12 LEVEL 2.2 HPHS 206 Gender, Human Rights and Social Justice 12 HPHS 207 Civil Society and Human Rights 12 HPHS 208 Religion and Principles of Non-violence 12 HPHS 209 Security Alternatives and Demilitarisation 12 HPHS 210 Peace and Reconciliation 12
+
+--- 10. E1: What is DSC 603 about?
+    Sufficient answer must contain: Description of DSC603 Research Methods in Communication
+    Chunk 1618 (MSU Humanities Yearbook, p.304)   MY GRADE: 2   YOUR VERDICT: ____
+    DSC 602 Public Relations Communication This module focuses on the theoretical and practical elements of Public Relations Communication. Emphasis is placed on the various communication efforts made by organisations to endear themselves to their public and how they utilise new communication technologies in this regard. DSC 603 Research Methods in Communication This module equips students with skills in conducting research that is aimed at producing knowledge about human communication. Students shall learn the various scientific procedures for carrying out research in the field of communication. DSC 604 Strategic Writing This module stresses the importance of writing to achieve specific organisational goals. Among the texts students shall
+
+--- 11. N6: If something in my residence room gets broken, will I have to pay for it?
+    Sufficient answer must contain: Residents must compensate the University in full for damage they cause; damage to a study-bedroom is presumed caused by its allocated resident unless proved otherwise
+    Chunk 434 (MSU Humanities Yearbook, p.107)   MY GRADE: 1   YOUR VERDICT: ____
+    5.1 A Warden of a hall of Residence shall have the power to investigate any breach of these rules by a student of his/her Hall of Residence committed within any Hall of Residence and to make any of the following orders in respect of such student adjusted by him to have committed a breach of these rules:- 5.1.1 to reprimand a student. 5.1.2 to withdraw an existing resident student privilege, eg exeat. 5.1.3 to impose a fine which shall be determined by the University from time to time. 5.1.4 to order a student to pay the University the amount of any financial loss caused to the University. Such an order may be made on the person or persons who caused the loss or where identity cannot be established, on members of the residence in which the loss was sustained.
+
+--- 12. E2: Describe BM134
+    Sufficient answer must contain: Description of BM134 Business Ethics
+    Chunk 7837 (MSU Sciences Yearbook Vol. 2, p.542)   MY GRADE: 2   YOUR VERDICT: ____
+    BM134 Business Ethics The module examines the history and development of business Ethics by highlighting some models of moral behaviour and how they could be related to various situations in the business world. It explores the variant ethical theories such as utilitarianism, deontological ethics, and egoism. The Module also seeks to expose students to critical thinking necessary in resolving moral dilemmas vis-àvis the most pressing ethical issues in business such as fraud, insider trading, whistle blowing and many others.
+
+--- 13. N1: What is a faculty board responsible for?
+    Sufficient answer must contain: Lists faculty board functions: regulate teaching and study of the faculty's subjects (subject to Senate approval), report to Senate on faculty matters, deal with matters referred/delegated by Senate
+    Chunk 5709 (MSU Sciences Yearbook Vol. 2, p.31)   MY GRADE: 1   YOUR VERDICT: ____
+    (b) such persons as may be assigned to the faculty board by the Senate; and (c) two students elected annually by the students in the faculty. Functions of faculty boards 14.
+
+--- 14. E5: Tell me about the module SEPS101
+    Sufficient answer must contain: Description of SEPS101 Historical Issues of Physical Education, Sports and the Olympic Movement
+    Chunk 3341 (MSU Humanities Yearbook, p.580)   MY GRADE: 0   YOUR VERDICT: ____
+    SEMA101: Calculus The module exposes Number systems: Natural, integral, rational and irrational, The principle of mathematical induction, The real number system: decimal and geometrical representation, inequalities and their solution sets, Functions: different types of functions and their inverses, Limits of functions, Continuity, Sequences and Series, Differentiation, Integration and their applications and the Mean value theorems. SEPH101: General Mechanics, Waves and Optics The module shall introduce the concepts covering kinematics, projectiles, vectors, Newton's Laws, forces, momentum, gravity, work, energy, and power. It shall also deal with wave motion, the general equation of wave motion, Reflection of waves, refraction of waves, Fermat's principle and its applications.
+
+--- 15. N10: If I repeat a module, which marks will count?
+    Sufficient answer must contain: Only the marks obtained in the repeat examination are credited
+    Chunk 566 (MSU Humanities Yearbook, p.136)   MY GRADE: 1   YOUR VERDICT: ____
+    14.6 Repeat • A candidate, who is not proceeding to the subsequent level of the programme but has passed at least 50% of the modules in that level of the programme, may be allowed to repeat failed modules. • 'Repeat' failed modules will be allowed in cases where a candidate has passed 50% of the modules in that level of the programme but cannot proceed to the next level. In such cases the student will be allowed to retain credits for the passed modules. • Repeat a level means repeat all modules of the level. This will apply to candidates who will have failed more than 50% of the modules taken in that level. In this case candidates will be required to repeat all modules both passed and failed modules in that level.
+
+--- 16. C5: How many credits do I get for passing SEMA 102?
+    Sufficient answer must contain: Programme table listing SEMA102 Linear Mathematics with 12 credits
+    Chunk 3250 (MSU Humanities Yearbook, p.566)   MY GRADE: 1   YOUR VERDICT: ____
+    SEMA102: Linear Mathematics The module focuses on complex numbers (geometric representation, algebra), De Moivre's theorem, polynomials and roots of polynomial equations, matrices and determinants (algebra of matrices, inverses, definition and manipulation of determinants, solutions of simultaneous linear equations, applications to geometry and vectors), differential equations: separable, homogeneous, exact, integrating factors, linear equation with constant coefficients.
+
+--- 17. C10: As a first-year accounting student I have to take BM135. What is it about?
+    Sufficient answer must contain: Description of BM135 Commercial Law
+    Chunk 7297 (MSU Sciences Yearbook Vol. 2, p.442)   MY GRADE: 1   YOUR VERDICT: ____
+    CS131 Communication Skills (Refer to Centre for Communication Skills for the module synopsis) BM131 Principles of Management (Refer to Department of Management Sciences for the module synopsis) HCS135 Introduction to Information Technology (Refer to Department of Information and Marketing Sciences for the module synopsis) ACC135 Financial Accounting 1A Refer to the Department of Accounting Sciences for the module synopsis. ACC136 Financial Accounting 1B Refer to the Department of Accounting Sciences for the module synopsis. CIT140 Principles of Machine Learning (Refer to Department of Information and Marketing Sciences for the module synopsis) BM135 Commercial Law (Refer to Department of Management Sciences for the module synopsis)
+
+--- 18. C2: How many credits is MECDP704 worth, and which semester is it taught in?
+    Sufficient answer must contain: Programme table: 18 credits, Level 1 Semester 2
+    Chunk 2409 (MSU Humanities Yearbook, p.431)   MY GRADE: 2   YOUR VERDICT: ____
+    13. PROGRAMME STRUCTURE Level 1 Semester 1 Code Module Description Credits MECDP701 Theories of Child Development in Socio-Cultural Contexts 18 MECDP702 Curriculum Innovation and Industrialisation in Early Childhood Development 18 MED731 Advanced Research Methods and Statistics 18 MICT732 Advanced Information Communication Technology in Education 18 MECDP703 Pertinent Contemporary Issues in Early Childhood Development Education 18 Level 1 Semester 2 MECDP704 Management of Early Childhood Programmes 18 MECDP705 Child Rights and Social Justice 18 MECDP706 Cross- Cultural Parenting Systems and Practices in Early Childhood Development 18 MECDP707 Project Planning, Implementation and Evaluation in Early Childhood Development 18 FED132 Financial Management in Educational Institutions
+
+--- 19. N5: Can I switch from an MPhil to a PhD, and when?
+    Sufficient answer must contain: Yes: after at least 12 months of study, on supervisor recommendation, with a Faculty Higher Degrees Committee recommendation to Research and Innovation; DCAA recommends to Senate
+    Chunk 640 (MSU Humanities Yearbook, p.151)   MY GRADE: 2   YOUR VERDICT: ____
+    7.3.1 Recommend to Senate for Provisional, Full Registration, Termination or Extension of Studies decisions. 8. UPGRADE FROM MPHIL TO PhD/DPHIL A candidate registered for the MPhil degree may apply for upgrading to PhD/DPhil, after completion of not less than twelve (12) months' studies if their supervisor(s) so recommend(s), upgrade registration to PhD/DPhil. The application shall be accompanied by a written recommendation from the Faculty Higher Degrees Committee, School or Institute, submitted to the Research and Innovation Division. DCAA shall make a determination and recommend to Senate for approval. The duration of further study, if any, which shall be required to pursue for the PhD/DPhil shall be prescribed by Senate.
+
+--- 20. N2: How are archaeology students taught and assessed?
+    Sufficient answer must contain: Teaching: lectures, tutorials, labs, seminars, group work, site visits, field school, excavations, research projects; assessment: written and oral exams, tests, field school reports, seminar presentations, final-year project reports
+    Chunk 731 (MSU Humanities Yearbook, p.169)   MY GRADE: 2   YOUR VERDICT: ____
+    of archaeology 5. PROGRAMME DELIVERY TEACHING AND LEARNING METHODS: Lectures, tutorials, laboratory classes, seminars, group work, site visits, field school, excavations, research projects, individual independent study ASSESSMENT METHODS: Written and oral examinations, tests, field school reports, seminar presentations, and final year research project reports. 6. PROGRAMME COMPETENCES Generic: • Multidisciplinarity: Ability to draw appropriately from multiple academic disciplines to define and solve problems based on an understanding of complex phenomena

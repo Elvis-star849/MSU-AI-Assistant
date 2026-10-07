@@ -1,0 +1,278 @@
+{
+ "reasons": {
+  "code_not_in_embedding": "Vector embeddings do not represent course codes: retrieves look-alike modules or programme tables instead of the named module",
+  "unfiltered_fusion": "Plain RRF has no code filter: chunks that the vector list ranks moderately (other modules) outrank BM25's exact code match",
+  "bm25_vocabulary_mismatch": "BM25 needs the same words: question wording differs from the regulation's wording (no stemming/synonyms), so other chunks win",
+  "fusion_dilution": "Fusing BM25 into a natural-language question pushes vector's correct chunk below chunks both lists rank moderately",
+  "generic_query_list_answer": "Generic question ('members of the University'); the answer chunk is a bare list with few topical words, ranked ~100th by both retrievers",
+  "code_crowding": "Code appears in 15 chunks (programme tables, 'refer to department' stubs); the 3 description chunks rank 8th-12th within that set"
+ },
+ "top5_misses": [
+  {
+   "question_id": "N2",
+   "method": "bm25",
+   "reason": "bm25_vocabulary_mismatch",
+   "note": "'taught/assessed' vs 'TEACHING AND LEARNING METHODS / ASSESSMENT METHODS'; archaeology module synopses win"
+  },
+  {
+   "question_id": "N2",
+   "method": "rrf",
+   "reason": "fusion_dilution",
+   "note": ""
+  },
+  {
+   "question_id": "N2",
+   "method": "hybrid",
+   "reason": "fusion_dilution",
+   "note": ""
+  },
+  {
+   "question_id": "N4",
+   "method": "vector",
+   "reason": "generic_query_list_answer",
+   "note": "membership chunk (Hum p14) is vector rank 109, BM25 rank 71"
+  },
+  {
+   "question_id": "N4",
+   "method": "bm25",
+   "reason": "generic_query_list_answer",
+   "note": ""
+  },
+  {
+   "question_id": "N4",
+   "method": "rrf",
+   "reason": "generic_query_list_answer",
+   "note": ""
+  },
+  {
+   "question_id": "N4",
+   "method": "hybrid",
+   "reason": "generic_query_list_answer",
+   "note": ""
+  },
+  {
+   "question_id": "N4",
+   "method": "routed",
+   "reason": "generic_query_list_answer",
+   "note": ""
+  },
+  {
+   "question_id": "N6",
+   "method": "bm25",
+   "reason": "bm25_vocabulary_mismatch",
+   "note": "'broken/pay' vs 'damage/compensate'; warden/proctor 'financial loss' clauses win (graded 1)"
+  },
+  {
+   "question_id": "N7",
+   "method": "bm25",
+   "reason": "bm25_vocabulary_mismatch",
+   "note": "'qualification' vs 'Applicants must have obtained'; 'mphil' matches MPhil programme lists everywhere"
+  },
+  {
+   "question_id": "N7",
+   "method": "rrf",
+   "reason": "fusion_dilution",
+   "note": ""
+  },
+  {
+   "question_id": "N7",
+   "method": "hybrid",
+   "reason": "fusion_dilution",
+   "note": ""
+  },
+  {
+   "question_id": "N9",
+   "method": "bm25",
+   "reason": "bm25_vocabulary_mismatch",
+   "note": "'honorary' matches short departmental 'honorary degrees will be awarded' notes; 'doctorate' vs 'Doctor'"
+  },
+  {
+   "question_id": "E2",
+   "method": "vector",
+   "reason": "code_not_in_embedding",
+   "note": ""
+  },
+  {
+   "question_id": "E2",
+   "method": "rrf",
+   "reason": "unfiltered_fusion",
+   "note": ""
+  },
+  {
+   "question_id": "E3",
+   "method": "vector",
+   "reason": "code_not_in_embedding",
+   "note": "sufficient chunk only at rank 10"
+  },
+  {
+   "question_id": "E4",
+   "method": "vector",
+   "reason": "code_not_in_embedding",
+   "note": ""
+  },
+  {
+   "question_id": "E4",
+   "method": "rrf",
+   "reason": "unfiltered_fusion",
+   "note": "sufficient chunk at rank 6"
+  },
+  {
+   "question_id": "E5",
+   "method": "vector",
+   "reason": "code_not_in_embedding",
+   "note": ""
+  },
+  {
+   "question_id": "E8",
+   "method": "vector",
+   "reason": "code_not_in_embedding",
+   "note": ""
+  },
+  {
+   "question_id": "E10",
+   "method": "vector",
+   "reason": "code_not_in_embedding",
+   "note": ""
+  },
+  {
+   "question_id": "E10",
+   "method": "rrf",
+   "reason": "unfiltered_fusion",
+   "note": ""
+  },
+  {
+   "question_id": "C1",
+   "method": "vector",
+   "reason": "code_not_in_embedding",
+   "note": ""
+  },
+  {
+   "question_id": "C1",
+   "method": "rrf",
+   "reason": "unfiltered_fusion",
+   "note": ""
+  },
+  {
+   "question_id": "C6",
+   "method": "vector",
+   "reason": "code_not_in_embedding",
+   "note": "sufficient chunk at rank 6"
+  },
+  {
+   "question_id": "C7",
+   "method": "vector",
+   "reason": "code_not_in_embedding",
+   "note": ""
+  },
+  {
+   "question_id": "C7",
+   "method": "rrf",
+   "reason": "unfiltered_fusion",
+   "note": ""
+  },
+  {
+   "question_id": "C9",
+   "method": "vector",
+   "reason": "code_not_in_embedding",
+   "note": ""
+  },
+  {
+   "question_id": "C9",
+   "method": "rrf",
+   "reason": "unfiltered_fusion",
+   "note": "sufficient chunk at rank 8"
+  },
+  {
+   "question_id": "C10",
+   "method": "vector",
+   "reason": "code_crowding",
+   "note": ""
+  },
+  {
+   "question_id": "C10",
+   "method": "bm25",
+   "reason": "code_crowding",
+   "note": ""
+  },
+  {
+   "question_id": "C10",
+   "method": "rrf",
+   "reason": "code_crowding",
+   "note": ""
+  },
+  {
+   "question_id": "C10",
+   "method": "hybrid",
+   "reason": "code_crowding",
+   "note": ""
+  },
+  {
+   "question_id": "C10",
+   "method": "routed",
+   "reason": "code_crowding",
+   "note": "code-filtered set has 15 chunks; descriptions at within-set vector ranks 8/10/11 and BM25 ranks 10/11/12; a description reaches rank 10"
+  }
+ ],
+ "routed_top1_losses": [
+  {
+   "question_id": "N1",
+   "explanation": "Adjacent clause first: 'Composition of Faculty Boards' chunk (grade 1) above the functions chunk (#2)"
+  },
+  {
+   "question_id": "N4",
+   "explanation": "Retrieval miss (see failures)"
+  },
+  {
+   "question_id": "N7",
+   "explanation": "Adjacent clause first: PhD entry requirement (5.2) above the MPhil requirement (5.1, #3)"
+  },
+  {
+   "question_id": "N10",
+   "explanation": "Related rule first: '14.6 Repeat' (who may repeat) above the marks rule (#2)"
+  },
+  {
+   "question_id": "E1",
+   "explanation": "Programme table first; RRF tie (v#2,b#1 vs v#1,b#2) broken towards BM25 by the Stage 4 tie-break"
+  },
+  {
+   "question_id": "E6",
+   "explanation": "Programme table first; RRF tie broken towards BM25 by the Stage 4 tie-break"
+  },
+  {
+   "question_id": "E7",
+   "explanation": "Programme table first; RRF tie broken towards BM25 by the Stage 4 tie-break"
+  },
+  {
+   "question_id": "E10",
+   "explanation": "Programme table first; RRF tie broken towards BM25 by the Stage 4 tie-break"
+  },
+  {
+   "question_id": "C3",
+   "explanation": "Programme table first; RRF tie broken towards BM25 by the Stage 4 tie-break"
+  },
+  {
+   "question_id": "E2",
+   "explanation": "Programme table ranked #1 by BOTH retrievers (no tie); description #2"
+  },
+  {
+   "question_id": "E4",
+   "explanation": "Programme table ranked #1 by BOTH retrievers; description #2"
+  },
+  {
+   "question_id": "C1",
+   "explanation": "Programme table ranked #1 by BOTH retrievers; description #2"
+  },
+  {
+   "question_id": "C7",
+   "explanation": "Programme table ranked #1 by BOTH retrievers; description #2"
+  },
+  {
+   "question_id": "C10",
+   "explanation": "Cross-reference stub ranked #1 by both retrievers; description only at #10 (see failures)"
+  },
+  {
+   "question_id": "E3",
+   "explanation": "Code ambiguity: 'SEMA204: Real Analysis' (another programme's SEMA204 description) first; answer-key module at #3"
+  }
+ ]
+}
