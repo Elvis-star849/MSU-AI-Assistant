@@ -1,0 +1,72 @@
+{
+ "purpose": "S6-6 frozen system; run_s6_6.py refuses to run unless every hash matches",
+ "frozen_at": "2026-10-08",
+ "git_commit": "88293e9e8b54dfce933a9ea83cdf5f7847bc3379",
+ "working_tree_vs_commit": {
+  "modified_tracked_files": [
+   "val/stage6/experiments.json"
+  ],
+  "untracked_files": [
+   "eval/stage6/make_s6_6_sheet.py",
+   "eval/stage6/report_s6_6.py",
+   "eval/stage6/run_s6_6.py"
+  ],
+  "note": "experiments.json (log only) was updated after the commit; run_s6_6.py, make_s6_6_sheet.py and report_s6_6.py were written after the commit and are frozen here by hash"
+ },
+ "corpus_fingerprint": "sha256:545d0dabe1fbe022baf9dd5dfaadaaee6637490e9a2f5fef9e04cf1d455e41f5",
+ "configuration": {
+  "arm0": "FaissVectorStore('faiss_store').query(q, 10, 'routed')  # Stage 4 routed, BM25 tie-break",
+  "arm1": "routed_search(faiss_store, q, 10, tie_break='vector')",
+  "arm2": "routed_search(faiss_store_v2, q, 10, tie_break='vector')",
+  "arm3": "routed_search(faiss_store_v2, q, 10, 'vector') -> MiniLM rerank(with_heading=True)",
+  "embedding_model": "BAAI/bge-small-en-v1.5 @ 5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2 @ 233902d25c440f23af6f7d6e94d2946bac0bee0a",
+  "structure_version": "v2",
+  "rrf_k": 60,
+  "candidates_per_retriever": 50,
+  "returned": 5,
+  "lists_scored_to_rank": 10
+ },
+ "environment": {
+  "python": "3.12.3",
+  "torch": "2.14.0+cpu",
+  "transformers": "5.17.0",
+  "sentence_transformers": "6.1.0",
+  "faiss": "1.15.1",
+  "rank_bm25": "0.2.2"
+ },
+ "sha256": {
+  "src/vectorstore.py": "b6f8fd0ee70d92d5c69529cc66fd369e38e6eea68f344aa51edf6653c44f2573",
+  "src/embedding.py": "05f65108efcae8a613b22ad5b45a431b14cc05ac28818d3cf4c9b2b3dae15119",
+  "src/retrieval_v2.py": "8bf62fba1fba816d791f731e86dfc3c9d625fedbf2532c3f41df1ec3fd81e2c3",
+  "src/rerank.py": "1dd33b0b11c2baafa437c576bcaca449664e266a0f1d5bed2a82a98a78324289",
+  "src/structure.py": "d9a0c6074b4b838b69f57a8f5965c1c859426546a0d20fa55cc9077cc874c7a4",
+  "src/heading_store.py": "b673d6441f99a55357c57587351c983ce4baf7ff2d9034d008e46cbf98dc3897",
+  "src/ambiguity.py": "c37b74f6492249914d71d3cecb2dee0f7e60cea117ecdbc11abfd33a23dd5c82",
+  "faiss_store/index.faiss": "5408db93da95136005e7e2aa098af46d752c600c3052486aba8ac15dcdf49280",
+  "faiss_store/chunks.jsonl": "19e29210ce20a66785d52a02962ab0e7beca89033cd18de722005e09ff9eb21e",
+  "faiss_store/manifest.json": "1dc465508ffb8daa7ee49b99a9337bfbf7a3a474124960f2a233b4ff025434d4",
+  "faiss_store_v2/index.faiss": "5cbc37d0499c442a764dd20ebee3b239129ff9aa87d7c0f02796694b1289f466",
+  "faiss_store_v2/chunks.jsonl": "a58bc3d7ea8478ca2c40d4ec288324c32692b549708f0a8733a4c52282bd136c",
+  "faiss_store_v2/manifest.json": "535a13bd18c174358e3a80304c05d9246150e6baa531cd58c28f499dfd8dae09",
+  "eval/stage6/holdout_questions.json": "cdb30eb3de68b28862f3c058b11e93aa13a5c86fab96aa07cb9f675582a51601",
+  "eval/stage6/baseline_hashes.json": "c9c2e4f4700980dae0367d8b386b7a49ca4f474cef7298956e17b9ddd0815ccc",
+  "eval/stage5_questions.json": "434045f9a63ad2ba79aba6fd63e031f8c96564179025db9154d2531839817f0d",
+  "eval/stage5_grades.json": "03dcd2b613339448921f7b751449bad08bf3a963fb89a4464c26e08e02c7f9c3",
+  "eval/stage6/run_s6_6.py": "b53afd10fe63affe115c2e96651bc4729002016d4b05b83528b99bc4c2bbc4c3",
+  "eval/stage6/make_s6_6_sheet.py": "8009870aa357224bf645a7eae10eddc519f376a3c48866bc45b53c8163c6a1c0",
+  "eval/stage6/report_s6_6.py": "df5ddf87de0da803dd3e81973e003cac8647cc40f933dcf9d711044336eaaef9",
+  "~/.cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L-6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a/config.json": "380e02c93f431831be65d99a4e7e5f67c133985bf2e77d9d4eba46847190bacc",
+  "~/.cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L-6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a/model.safetensors": "821d1aa69520101d6e0737f78a042ae25b19e5cb9160701909d10434f4aeb0ae",
+  "~/.cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L-6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a/tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+  "~/.cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L-6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a/tokenizer_config.json": "a5c2e5a7b1a29a0702cd28c08a399b5ecc110c263009d17f7e3b415f25905fd8",
+  "~/.cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L-6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a/special_tokens_map.json": "3c3507f36dff57bce437223db3b3081d1e2b52ec3e56ee55438193ecb2c94dd6",
+  "~/.cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L-6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+  "~/.cache/huggingface/hub/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json": "094f8e891b932f2000c92cfc663bac4c62069f5d8af5b5278c4306aef3084750",
+  "~/.cache/huggingface/hub/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/model.safetensors": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+  "~/.cache/huggingface/hub/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+  "~/.cache/huggingface/hub/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+  "~/.cache/huggingface/hub/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/sentence_bert_config.json": "84e39fda68ccbff05bfa723ae9c0e70e23e2ec373b76e0f8c6e71af72a693cbf",
+  "~/.cache/huggingface/hub/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/1_Pooling/config.json": "d1caf60c96f5fba2157c0c26b76d80818fad6cf0b8eb5e73ec372ff9818eba5c"
+ }
+}

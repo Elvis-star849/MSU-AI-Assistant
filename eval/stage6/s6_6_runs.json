@@ -1,0 +1,7630 @@
+{
+ "opened_at": "2026-10-08T02:54:12+0200",
+ "git_commit": "88293e9e8b54dfce933a9ea83cdf5f7847bc3379",
+ "holdout_sha256": "cdb30eb3de68b28862f3c058b11e93aa13a5c86fab96aa07cb9f675582a51601",
+ "top": 10,
+ "arms": {
+  "arm0": "Stage 4 routed, faiss_store/",
+  "arm1": "T1, faiss_store/",
+  "arm2": "T1, faiss_store_v2/",
+  "arm3": "T1, faiss_store_v2/ -> MiniLM (heading + text)"
+ },
+ "latency": {
+  "arm0": {
+   "total_median_ms": 75,
+   "total_p95_ms": 588
+  },
+  "arm1": {
+   "total_median_ms": 66,
+   "total_p95_ms": 127
+  },
+  "arm2": {
+   "total_median_ms": 67,
+   "total_p95_ms": 318
+  },
+  "arm3": {
+   "total_median_ms": 452,
+   "total_p95_ms": 1431,
+   "rerank_added_median_ms": 366,
+   "rerank_added_p95_ms": 1332
+  }
+ },
+ "runs": {
+  "arm0": {
+   "H-N1": [
+    {
+     "rank": 1,
+     "chunk_id": 5819,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 152,
+     "score": 0.799895167350769,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 632,
+     "source": "MSU Humanities Yearbook",
+     "page": 150,
+     "score": 0.7868385314941406,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 640,
+     "source": "MSU Humanities Yearbook",
+     "page": 151,
+     "score": 0.7753865718841553,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5826,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 154,
+     "score": 0.7689459323883057,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 641,
+     "source": "MSU Humanities Yearbook",
+     "page": 152,
+     "score": 0.7534222602844238,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 626,
+     "source": "MSU Humanities Yearbook",
+     "page": 149,
+     "score": 0.7534026503562927,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5813,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 151,
+     "score": 0.7525519132614136,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5827,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 154,
+     "score": 0.7476562261581421,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 639,
+     "source": "MSU Humanities Yearbook",
+     "page": 151,
+     "score": 0.7336978912353516,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5816,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 152,
+     "score": 0.733677089214325,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N2": [
+    {
+     "rank": 1,
+     "chunk_id": 5795,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 146,
+     "score": 0.8251193761825562,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 608,
+     "source": "MSU Humanities Yearbook",
+     "page": 144,
+     "score": 0.7717279195785522,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3681,
+     "source": "MSU Humanities Yearbook",
+     "page": 635,
+     "score": 0.771073579788208,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 689,
+     "source": "MSU Humanities Yearbook",
+     "page": 162,
+     "score": 0.757004976272583,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 562,
+     "source": "MSU Humanities Yearbook",
+     "page": 135,
+     "score": 0.7534294724464417,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 676,
+     "source": "MSU Humanities Yearbook",
+     "page": 159,
+     "score": 0.7533809542655945,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7443,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 467,
+     "score": 0.7532464861869812,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 8155,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 603,
+     "score": 0.7526026964187622,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 8074,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 588,
+     "score": 0.7476533055305481,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7654,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 506,
+     "score": 0.7423282861709595,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N3": [
+    {
+     "rank": 1,
+     "chunk_id": 604,
+     "source": "MSU Humanities Yearbook",
+     "page": 144,
+     "score": 0.7490192651748657,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8253,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 622,
+     "score": 0.7429955005645752,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8218,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 615,
+     "score": 0.7422922253608704,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3367,
+     "source": "MSU Humanities Yearbook",
+     "page": 584,
+     "score": 0.7297916412353516,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8317,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 635,
+     "score": 0.7213295698165894,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 543,
+     "source": "MSU Humanities Yearbook",
+     "page": 132,
+     "score": 0.7205711603164673,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 9055,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 790,
+     "score": 0.7189871072769165,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 3746,
+     "source": "MSU Humanities Yearbook",
+     "page": 644,
+     "score": 0.7183579206466675,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 8113,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 595,
+     "score": 0.7175832986831665,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 8154,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 603,
+     "score": 0.7171078324317932,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N4": [
+    {
+     "rank": 1,
+     "chunk_id": 424,
+     "source": "MSU Humanities Yearbook",
+     "page": 105,
+     "score": 0.7019515037536621,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 39,
+     "source": "MSU Humanities Yearbook",
+     "page": 15,
+     "score": 0.6914981603622437,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5632,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 15,
+     "score": 0.6816331148147583,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1670,
+     "source": "MSU Humanities Yearbook",
+     "page": 314,
+     "score": 0.645399808883667,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1834,
+     "source": "MSU Humanities Yearbook",
+     "page": 336,
+     "score": 0.6392358541488647,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1833,
+     "source": "MSU Humanities Yearbook",
+     "page": 336,
+     "score": 0.638925313949585,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 591,
+     "source": "MSU Humanities Yearbook",
+     "page": 140,
+     "score": 0.6359473466873169,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 42,
+     "source": "MSU Humanities Yearbook",
+     "page": 15,
+     "score": 0.6341857314109802,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1315,
+     "source": "MSU Humanities Yearbook",
+     "page": 251,
+     "score": 0.6332194209098816,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1506,
+     "source": "MSU Humanities Yearbook",
+     "page": 285,
+     "score": 0.6312088966369629,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N5": [
+    {
+     "rank": 1,
+     "chunk_id": 370,
+     "source": "MSU Humanities Yearbook",
+     "page": 94,
+     "score": 0.7845665216445923,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 374,
+     "source": "MSU Humanities Yearbook",
+     "page": 95,
+     "score": 0.7161272764205933,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 360,
+     "source": "MSU Humanities Yearbook",
+     "page": 93,
+     "score": 0.715812087059021,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 373,
+     "source": "MSU Humanities Yearbook",
+     "page": 95,
+     "score": 0.7094776630401611,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 372,
+     "source": "MSU Humanities Yearbook",
+     "page": 95,
+     "score": 0.7092000246047974,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3787,
+     "source": "MSU Humanities Yearbook",
+     "page": 650,
+     "score": 0.6900947690010071,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 3910,
+     "source": "MSU Humanities Yearbook",
+     "page": 669,
+     "score": 0.6890214681625366,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7092,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 404,
+     "score": 0.6812494397163391,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 3879,
+     "source": "MSU Humanities Yearbook",
+     "page": 664,
+     "score": 0.676026463508606,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 6118,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 213,
+     "score": 0.6759840250015259,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N6": [
+    {
+     "rank": 1,
+     "chunk_id": 5685,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 25,
+     "score": 0.7350525856018066,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 88,
+     "source": "MSU Humanities Yearbook",
+     "page": 25,
+     "score": 0.7284762263298035,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 21,
+     "source": "MSU Humanities Yearbook",
+     "page": 11,
+     "score": 0.6446123123168945,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5698,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 28,
+     "score": 0.6341842412948608,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5666,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 21,
+     "score": 0.6339617371559143,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 69,
+     "source": "MSU Humanities Yearbook",
+     "page": 21,
+     "score": 0.6297392845153809,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5716,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 33,
+     "score": 0.6294399499893188,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 146,
+     "source": "MSU Humanities Yearbook",
+     "page": 40,
+     "score": 0.6252096891403198,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 231,
+     "source": "MSU Humanities Yearbook",
+     "page": 63,
+     "score": 0.6243079900741577,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5713,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 32,
+     "score": 0.6226565837860107,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N7": [
+    {
+     "rank": 1,
+     "chunk_id": 7630,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 502,
+     "score": 0.890621542930603,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8134,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 599,
+     "score": 0.8735560178756714,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8094,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 592,
+     "score": 0.8488736748695374,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 8181,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 607,
+     "score": 0.8407033681869507,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 7680,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 512,
+     "score": 0.8354882001876831,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 851,
+     "source": "MSU Humanities Yearbook",
+     "page": 188,
+     "score": 0.785263180732727,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7520,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 482,
+     "score": 0.7712433934211731,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7309,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 444,
+     "score": 0.7704828977584839,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 3581,
+     "source": "MSU Humanities Yearbook",
+     "page": 620,
+     "score": 0.7632268667221069,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7262,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 435,
+     "score": 0.7615474462509155,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N8": [
+    {
+     "rank": 1,
+     "chunk_id": 1386,
+     "source": "MSU Humanities Yearbook",
+     "page": 263,
+     "score": 0.8257914781570435,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1172,
+     "source": "MSU Humanities Yearbook",
+     "page": 231,
+     "score": 0.8257123231887817,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2867,
+     "source": "MSU Humanities Yearbook",
+     "page": 505,
+     "score": 0.813849687576294,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1096,
+     "source": "MSU Humanities Yearbook",
+     "page": 221,
+     "score": 0.813599705696106,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 510,
+     "source": "MSU Humanities Yearbook",
+     "page": 125,
+     "score": 0.8118806481361389,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1015,
+     "source": "MSU Humanities Yearbook",
+     "page": 211,
+     "score": 0.8063688278198242,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 4936,
+     "source": "MSU Humanities Yearbook",
+     "page": 824,
+     "score": 0.8062949180603027,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 4213,
+     "source": "MSU Humanities Yearbook",
+     "page": 716,
+     "score": 0.8045957684516907,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 513,
+     "source": "MSU Humanities Yearbook",
+     "page": 125,
+     "score": 0.80342698097229,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 4212,
+     "source": "MSU Humanities Yearbook",
+     "page": 716,
+     "score": 0.803230881690979,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N9": [
+    {
+     "rank": 1,
+     "chunk_id": 102,
+     "source": "MSU Humanities Yearbook",
+     "page": 29,
+     "score": 0.7275540232658386,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5700,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 29,
+     "score": 0.7272341251373291,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5650,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 18,
+     "score": 0.6953377723693848,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5703,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 30,
+     "score": 0.6901863813400269,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5649,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 18,
+     "score": 0.6892157196998596,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5647,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 18,
+     "score": 0.6850780248641968,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 53,
+     "source": "MSU Humanities Yearbook",
+     "page": 18,
+     "score": 0.6844720840454102,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 106,
+     "source": "MSU Humanities Yearbook",
+     "page": 30,
+     "score": 0.675994873046875,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 103,
+     "source": "MSU Humanities Yearbook",
+     "page": 29,
+     "score": 0.6693689823150635,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5657,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 20,
+     "score": 0.6674613952636719,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N10": [
+    {
+     "rank": 1,
+     "chunk_id": 526,
+     "source": "MSU Humanities Yearbook",
+     "page": 129,
+     "score": 0.7770206332206726,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2001,
+     "source": "MSU Humanities Yearbook",
+     "page": 364,
+     "score": 0.7730903625488281,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 7802,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 534,
+     "score": 0.7666771411895752,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 671,
+     "source": "MSU Humanities Yearbook",
+     "page": 159,
+     "score": 0.7597991228103638,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 9334,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 849,
+     "score": 0.7591844201087952,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 2651,
+     "source": "MSU Humanities Yearbook",
+     "page": 470,
+     "score": 0.7560704350471497,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 3577,
+     "source": "MSU Humanities Yearbook",
+     "page": 619,
+     "score": 0.7530574202537537,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 527,
+     "source": "MSU Humanities Yearbook",
+     "page": 129,
+     "score": 0.7516681551933289,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 4205,
+     "source": "MSU Humanities Yearbook",
+     "page": 715,
+     "score": 0.7515657544136047,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 2958,
+     "source": "MSU Humanities Yearbook",
+     "page": 519,
+     "score": 0.7514314651489258,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-E1": [
+    {
+     "rank": 1,
+     "chunk_id": 2607,
+     "source": "MSU Humanities Yearbook",
+     "page": 463,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2608,
+     "source": "MSU Humanities Yearbook",
+     "page": 463,
+     "score": 0.032266458495966696,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2623,
+     "source": "MSU Humanities Yearbook",
+     "page": 465,
+     "score": 0.03200204813108039,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 2598,
+     "source": "MSU Humanities Yearbook",
+     "page": 461,
+     "score": 0.03125,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 2584,
+     "source": "MSU Humanities Yearbook",
+     "page": 459,
+     "score": 0.03076923076923077,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E2": [
+    {
+     "rank": 1,
+     "chunk_id": 8449,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 662,
+     "score": 0.032266458495966696,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8456,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 664,
+     "score": 0.032266458495966696,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8450,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 662,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E3": [
+    {
+     "rank": 1,
+     "chunk_id": 3152,
+     "source": "MSU Humanities Yearbook",
+     "page": 551,
+     "score": 0.032266458495966696,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3072,
+     "source": "MSU Humanities Yearbook",
+     "page": 538,
+     "score": 0.032266458495966696,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3058,
+     "source": "MSU Humanities Yearbook",
+     "page": 536,
+     "score": 0.031754032258064516,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3064,
+     "source": "MSU Humanities Yearbook",
+     "page": 537,
+     "score": 0.0315136476426799,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 3057,
+     "source": "MSU Humanities Yearbook",
+     "page": 536,
+     "score": 0.031009615384615385,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3157,
+     "source": "MSU Humanities Yearbook",
+     "page": 552,
+     "score": 0.030303030303030304,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E4": [
+    {
+     "rank": 1,
+     "chunk_id": 10505,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1090,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10513,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1092,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E5": [
+    {
+     "rank": 1,
+     "chunk_id": 875,
+     "source": "MSU Humanities Yearbook",
+     "page": 191,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 889,
+     "source": "MSU Humanities Yearbook",
+     "page": 193,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E6": [
+    {
+     "rank": 1,
+     "chunk_id": 9894,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 962,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 9890,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 961,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E7": [
+    {
+     "rank": 1,
+     "chunk_id": 4070,
+     "source": "MSU Humanities Yearbook",
+     "page": 695,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 4096,
+     "source": "MSU Humanities Yearbook",
+     "page": 698,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E8": [
+    {
+     "rank": 1,
+     "chunk_id": 6410,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 272,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6424,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 274,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E9": [
+    {
+     "rank": 1,
+     "chunk_id": 4170,
+     "source": "MSU Humanities Yearbook",
+     "page": 710,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 4275,
+     "source": "MSU Humanities Yearbook",
+     "page": 726,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 4309,
+     "source": "MSU Humanities Yearbook",
+     "page": 730,
+     "score": 0.031746031746031744,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 4171,
+     "source": "MSU Humanities Yearbook",
+     "page": 710,
+     "score": 0.03125,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4276,
+     "source": "MSU Humanities Yearbook",
+     "page": 726,
+     "score": 0.03076923076923077,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E10": [
+    {
+     "rank": 1,
+     "chunk_id": 7114,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 408,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7098,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 405,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C1": [
+    {
+     "rank": 1,
+     "chunk_id": 2344,
+     "source": "MSU Humanities Yearbook",
+     "page": 421,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2332,
+     "source": "MSU Humanities Yearbook",
+     "page": 419,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C2": [
+    {
+     "rank": 1,
+     "chunk_id": 1025,
+     "source": "MSU Humanities Yearbook",
+     "page": 213,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1178,
+     "source": "MSU Humanities Yearbook",
+     "page": 232,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1194,
+     "source": "MSU Humanities Yearbook",
+     "page": 234,
+     "score": 0.031746031746031744,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1042,
+     "source": "MSU Humanities Yearbook",
+     "page": 215,
+     "score": 0.03125,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C3": [
+    {
+     "rank": 1,
+     "chunk_id": 1302,
+     "source": "MSU Humanities Yearbook",
+     "page": 250,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1273,
+     "source": "MSU Humanities Yearbook",
+     "page": 246,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C4": [
+    {
+     "rank": 1,
+     "chunk_id": 5271,
+     "source": "MSU Humanities Yearbook",
+     "page": 880,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5268,
+     "source": "MSU Humanities Yearbook",
+     "page": 879,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C5": [
+    {
+     "rank": 1,
+     "chunk_id": 2607,
+     "source": "MSU Humanities Yearbook",
+     "page": 463,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2618,
+     "source": "MSU Humanities Yearbook",
+     "page": 464,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C6": [
+    {
+     "rank": 1,
+     "chunk_id": 7873,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 550,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7888,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 553,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C7": [
+    {
+     "rank": 1,
+     "chunk_id": 6757,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 340,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6748,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 338,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C8": [
+    {
+     "rank": 1,
+     "chunk_id": 6106,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 210,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6100,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 209,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C9": [
+    {
+     "rank": 1,
+     "chunk_id": 6410,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 272,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6421,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 274,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C10": [
+    {
+     "rank": 1,
+     "chunk_id": 6652,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 319,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6657,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 320,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-O1": [
+    {
+     "rank": 1,
+     "chunk_id": 212,
+     "source": "MSU Humanities Yearbook",
+     "page": 57,
+     "score": 0.6021014451980591,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2829,
+     "source": "MSU Humanities Yearbook",
+     "page": 499,
+     "score": 0.5831122398376465,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 130,
+     "source": "MSU Humanities Yearbook",
+     "page": 35,
+     "score": 0.5774285793304443,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 179,
+     "source": "MSU Humanities Yearbook",
+     "page": 48,
+     "score": 0.566730260848999,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5744,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 76,
+     "score": 0.5646031498908997,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3133,
+     "source": "MSU Humanities Yearbook",
+     "page": 548,
+     "score": 0.5632671117782593,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 264,
+     "source": "MSU Humanities Yearbook",
+     "page": 75,
+     "score": 0.5632621049880981,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 15,
+     "source": "MSU Humanities Yearbook",
+     "page": 8,
+     "score": 0.5595341920852661,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 3225,
+     "source": "MSU Humanities Yearbook",
+     "page": 562,
+     "score": 0.5593529343605042,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5737,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 75,
+     "score": 0.5582473278045654,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-O2": [
+    {
+     "rank": 1,
+     "chunk_id": 266,
+     "source": "MSU Humanities Yearbook",
+     "page": 75,
+     "score": 0.5764771699905396,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10454,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1078,
+     "score": 0.5712674260139465,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 6806,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 348,
+     "score": 0.5704069137573242,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 287,
+     "source": "MSU Humanities Yearbook",
+     "page": 79,
+     "score": 0.5696996450424194,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5767,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 80,
+     "score": 0.5682990550994873,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 267,
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "score": 0.5652687549591064,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 3180,
+     "source": "MSU Humanities Yearbook",
+     "page": 555,
+     "score": 0.5635972023010254,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 6807,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 349,
+     "score": 0.5572006702423096,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 10455,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1078,
+     "score": 0.5568510293960571,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 10272,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1041,
+     "score": 0.5563413500785828,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-O3": [
+    {
+     "rank": 1,
+     "chunk_id": 9766,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 939,
+     "score": 0.571169912815094,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 9556,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 901,
+     "score": 0.5684006810188293,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 498,
+     "source": "MSU Humanities Yearbook",
+     "page": 123,
+     "score": 0.4990743398666382,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 9828,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 950,
+     "score": 0.49712011218070984,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 9764,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 938,
+     "score": 0.49551457166671753,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 9858,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 956,
+     "score": 0.49495598673820496,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 651,
+     "source": "MSU Humanities Yearbook",
+     "page": 153,
+     "score": 0.48993581533432007,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5837,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 156,
+     "score": 0.4874640107154846,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 3827,
+     "source": "MSU Humanities Yearbook",
+     "page": 657,
+     "score": 0.4872339963912964,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 2042,
+     "source": "MSU Humanities Yearbook",
+     "page": 371,
+     "score": 0.48704612255096436,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-O4": [
+    {
+     "rank": 1,
+     "chunk_id": 5904,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 171,
+     "score": 0.5708814859390259,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 4858,
+     "source": "MSU Humanities Yearbook",
+     "page": 812,
+     "score": 0.5498375296592712,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5950,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 179,
+     "score": 0.5472111701965332,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 10011,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 988,
+     "score": 0.5458244681358337,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1041,
+     "source": "MSU Humanities Yearbook",
+     "page": 215,
+     "score": 0.538330614566803,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7329,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 446,
+     "score": 0.5375642776489258,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5962,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 181,
+     "score": 0.5375576019287109,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 3692,
+     "source": "MSU Humanities Yearbook",
+     "page": 636,
+     "score": 0.5372341275215149,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7321,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 445,
+     "score": 0.5362124443054199,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7056,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 398,
+     "score": 0.5361225605010986,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-O5": [
+    {
+     "rank": 1,
+     "chunk_id": 241,
+     "source": "MSU Humanities Yearbook",
+     "page": 67,
+     "score": 0.5851163864135742,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 272,
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "score": 0.5524797439575195,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5751,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 77,
+     "score": 0.5523812770843506,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 271,
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "score": 0.5515970587730408,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5752,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 77,
+     "score": 0.5493940114974976,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5624,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 7,
+     "score": 0.5482178330421448,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 172,
+     "source": "MSU Humanities Yearbook",
+     "page": 46,
+     "score": 0.5409255027770996,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 9,
+     "source": "MSU Humanities Yearbook",
+     "page": 6,
+     "score": 0.5394001007080078,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 596,
+     "source": "MSU Humanities Yearbook",
+     "page": 141,
+     "score": 0.5359877347946167,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 197,
+     "source": "MSU Humanities Yearbook",
+     "page": 54,
+     "score": 0.5354387164115906,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "arm1": {
+   "H-N1": [
+    {
+     "rank": 1,
+     "chunk_id": 5819,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 152,
+     "score": 0.799895167350769,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 632,
+     "source": "MSU Humanities Yearbook",
+     "page": 150,
+     "score": 0.7868385314941406,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 640,
+     "source": "MSU Humanities Yearbook",
+     "page": 151,
+     "score": 0.7753865718841553,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5826,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 154,
+     "score": 0.7689459323883057,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 641,
+     "source": "MSU Humanities Yearbook",
+     "page": 152,
+     "score": 0.7534222602844238,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 626,
+     "source": "MSU Humanities Yearbook",
+     "page": 149,
+     "score": 0.7534026503562927,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5813,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 151,
+     "score": 0.7525519132614136,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5827,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 154,
+     "score": 0.7476562261581421,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 639,
+     "source": "MSU Humanities Yearbook",
+     "page": 151,
+     "score": 0.7336978912353516,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5816,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 152,
+     "score": 0.733677089214325,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N2": [
+    {
+     "rank": 1,
+     "chunk_id": 5795,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 146,
+     "score": 0.8251193761825562,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 608,
+     "source": "MSU Humanities Yearbook",
+     "page": 144,
+     "score": 0.7717279195785522,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3681,
+     "source": "MSU Humanities Yearbook",
+     "page": 635,
+     "score": 0.771073579788208,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 689,
+     "source": "MSU Humanities Yearbook",
+     "page": 162,
+     "score": 0.757004976272583,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 562,
+     "source": "MSU Humanities Yearbook",
+     "page": 135,
+     "score": 0.7534294724464417,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 676,
+     "source": "MSU Humanities Yearbook",
+     "page": 159,
+     "score": 0.7533809542655945,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7443,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 467,
+     "score": 0.7532464861869812,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 8155,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 603,
+     "score": 0.7526026964187622,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 8074,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 588,
+     "score": 0.7476533055305481,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7654,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 506,
+     "score": 0.7423282861709595,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N3": [
+    {
+     "rank": 1,
+     "chunk_id": 604,
+     "source": "MSU Humanities Yearbook",
+     "page": 144,
+     "score": 0.7490192651748657,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8253,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 622,
+     "score": 0.7429955005645752,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8218,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 615,
+     "score": 0.7422922253608704,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3367,
+     "source": "MSU Humanities Yearbook",
+     "page": 584,
+     "score": 0.7297916412353516,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8317,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 635,
+     "score": 0.7213295698165894,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 543,
+     "source": "MSU Humanities Yearbook",
+     "page": 132,
+     "score": 0.7205711603164673,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 9055,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 790,
+     "score": 0.7189871072769165,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 3746,
+     "source": "MSU Humanities Yearbook",
+     "page": 644,
+     "score": 0.7183579206466675,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 8113,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 595,
+     "score": 0.7175832986831665,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 8154,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 603,
+     "score": 0.7171078324317932,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N4": [
+    {
+     "rank": 1,
+     "chunk_id": 424,
+     "source": "MSU Humanities Yearbook",
+     "page": 105,
+     "score": 0.7019515037536621,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 39,
+     "source": "MSU Humanities Yearbook",
+     "page": 15,
+     "score": 0.6914981603622437,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5632,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 15,
+     "score": 0.6816331148147583,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1670,
+     "source": "MSU Humanities Yearbook",
+     "page": 314,
+     "score": 0.645399808883667,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1834,
+     "source": "MSU Humanities Yearbook",
+     "page": 336,
+     "score": 0.6392358541488647,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1833,
+     "source": "MSU Humanities Yearbook",
+     "page": 336,
+     "score": 0.638925313949585,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 591,
+     "source": "MSU Humanities Yearbook",
+     "page": 140,
+     "score": 0.6359473466873169,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 42,
+     "source": "MSU Humanities Yearbook",
+     "page": 15,
+     "score": 0.6341857314109802,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1315,
+     "source": "MSU Humanities Yearbook",
+     "page": 251,
+     "score": 0.6332194209098816,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1506,
+     "source": "MSU Humanities Yearbook",
+     "page": 285,
+     "score": 0.6312088966369629,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N5": [
+    {
+     "rank": 1,
+     "chunk_id": 370,
+     "source": "MSU Humanities Yearbook",
+     "page": 94,
+     "score": 0.7845665216445923,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 374,
+     "source": "MSU Humanities Yearbook",
+     "page": 95,
+     "score": 0.7161272764205933,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 360,
+     "source": "MSU Humanities Yearbook",
+     "page": 93,
+     "score": 0.715812087059021,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 373,
+     "source": "MSU Humanities Yearbook",
+     "page": 95,
+     "score": 0.7094776630401611,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 372,
+     "source": "MSU Humanities Yearbook",
+     "page": 95,
+     "score": 0.7092000246047974,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3787,
+     "source": "MSU Humanities Yearbook",
+     "page": 650,
+     "score": 0.6900947690010071,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 3910,
+     "source": "MSU Humanities Yearbook",
+     "page": 669,
+     "score": 0.6890214681625366,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7092,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 404,
+     "score": 0.6812494397163391,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 3879,
+     "source": "MSU Humanities Yearbook",
+     "page": 664,
+     "score": 0.676026463508606,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 6118,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 213,
+     "score": 0.6759840250015259,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N6": [
+    {
+     "rank": 1,
+     "chunk_id": 5685,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 25,
+     "score": 0.7350525856018066,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 88,
+     "source": "MSU Humanities Yearbook",
+     "page": 25,
+     "score": 0.7284762263298035,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 21,
+     "source": "MSU Humanities Yearbook",
+     "page": 11,
+     "score": 0.6446123123168945,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5698,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 28,
+     "score": 0.6341842412948608,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5666,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 21,
+     "score": 0.6339617371559143,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 69,
+     "source": "MSU Humanities Yearbook",
+     "page": 21,
+     "score": 0.6297392845153809,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5716,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 33,
+     "score": 0.6294399499893188,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 146,
+     "source": "MSU Humanities Yearbook",
+     "page": 40,
+     "score": 0.6252096891403198,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 231,
+     "source": "MSU Humanities Yearbook",
+     "page": 63,
+     "score": 0.6243079900741577,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5713,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 32,
+     "score": 0.6226565837860107,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N7": [
+    {
+     "rank": 1,
+     "chunk_id": 7630,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 502,
+     "score": 0.890621542930603,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8134,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 599,
+     "score": 0.8735560178756714,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8094,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 592,
+     "score": 0.8488736748695374,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 8181,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 607,
+     "score": 0.8407033681869507,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 7680,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 512,
+     "score": 0.8354882001876831,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 851,
+     "source": "MSU Humanities Yearbook",
+     "page": 188,
+     "score": 0.785263180732727,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7520,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 482,
+     "score": 0.7712433934211731,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7309,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 444,
+     "score": 0.7704828977584839,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 3581,
+     "source": "MSU Humanities Yearbook",
+     "page": 620,
+     "score": 0.7632268667221069,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7262,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 435,
+     "score": 0.7615474462509155,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N8": [
+    {
+     "rank": 1,
+     "chunk_id": 1386,
+     "source": "MSU Humanities Yearbook",
+     "page": 263,
+     "score": 0.8257914781570435,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1172,
+     "source": "MSU Humanities Yearbook",
+     "page": 231,
+     "score": 0.8257123231887817,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2867,
+     "source": "MSU Humanities Yearbook",
+     "page": 505,
+     "score": 0.813849687576294,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1096,
+     "source": "MSU Humanities Yearbook",
+     "page": 221,
+     "score": 0.813599705696106,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 510,
+     "source": "MSU Humanities Yearbook",
+     "page": 125,
+     "score": 0.8118806481361389,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1015,
+     "source": "MSU Humanities Yearbook",
+     "page": 211,
+     "score": 0.8063688278198242,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 4936,
+     "source": "MSU Humanities Yearbook",
+     "page": 824,
+     "score": 0.8062949180603027,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 4213,
+     "source": "MSU Humanities Yearbook",
+     "page": 716,
+     "score": 0.8045957684516907,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 513,
+     "source": "MSU Humanities Yearbook",
+     "page": 125,
+     "score": 0.80342698097229,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 4212,
+     "source": "MSU Humanities Yearbook",
+     "page": 716,
+     "score": 0.803230881690979,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N9": [
+    {
+     "rank": 1,
+     "chunk_id": 102,
+     "source": "MSU Humanities Yearbook",
+     "page": 29,
+     "score": 0.7275540232658386,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5700,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 29,
+     "score": 0.7272341251373291,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5650,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 18,
+     "score": 0.6953377723693848,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5703,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 30,
+     "score": 0.6901863813400269,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5649,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 18,
+     "score": 0.6892157196998596,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5647,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 18,
+     "score": 0.6850780248641968,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 53,
+     "source": "MSU Humanities Yearbook",
+     "page": 18,
+     "score": 0.6844720840454102,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 106,
+     "source": "MSU Humanities Yearbook",
+     "page": 30,
+     "score": 0.675994873046875,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 103,
+     "source": "MSU Humanities Yearbook",
+     "page": 29,
+     "score": 0.6693689823150635,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5657,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 20,
+     "score": 0.6674613952636719,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N10": [
+    {
+     "rank": 1,
+     "chunk_id": 526,
+     "source": "MSU Humanities Yearbook",
+     "page": 129,
+     "score": 0.7770206332206726,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2001,
+     "source": "MSU Humanities Yearbook",
+     "page": 364,
+     "score": 0.7730903625488281,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 7802,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 534,
+     "score": 0.7666771411895752,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 671,
+     "source": "MSU Humanities Yearbook",
+     "page": 159,
+     "score": 0.7597991228103638,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 9334,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 849,
+     "score": 0.7591844201087952,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 2651,
+     "source": "MSU Humanities Yearbook",
+     "page": 470,
+     "score": 0.7560704350471497,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 3577,
+     "source": "MSU Humanities Yearbook",
+     "page": 619,
+     "score": 0.7530574202537537,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 527,
+     "source": "MSU Humanities Yearbook",
+     "page": 129,
+     "score": 0.7516681551933289,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 4205,
+     "source": "MSU Humanities Yearbook",
+     "page": 715,
+     "score": 0.7515657544136047,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 2958,
+     "source": "MSU Humanities Yearbook",
+     "page": 519,
+     "score": 0.7514314651489258,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-E1": [
+    {
+     "rank": 1,
+     "chunk_id": 2607,
+     "source": "MSU Humanities Yearbook",
+     "page": 463,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2608,
+     "source": "MSU Humanities Yearbook",
+     "page": 463,
+     "score": 0.032266458495966696,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2623,
+     "source": "MSU Humanities Yearbook",
+     "page": 465,
+     "score": 0.03200204813108039,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 2598,
+     "source": "MSU Humanities Yearbook",
+     "page": 461,
+     "score": 0.03125,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 2584,
+     "source": "MSU Humanities Yearbook",
+     "page": 459,
+     "score": 0.03076923076923077,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E2": [
+    {
+     "rank": 1,
+     "chunk_id": 8456,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 664,
+     "score": 0.032266458495966696,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8449,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 662,
+     "score": 0.032266458495966696,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8450,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 662,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E3": [
+    {
+     "rank": 1,
+     "chunk_id": 3072,
+     "source": "MSU Humanities Yearbook",
+     "page": 538,
+     "score": 0.032266458495966696,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3152,
+     "source": "MSU Humanities Yearbook",
+     "page": 551,
+     "score": 0.032266458495966696,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3058,
+     "source": "MSU Humanities Yearbook",
+     "page": 536,
+     "score": 0.031754032258064516,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3064,
+     "source": "MSU Humanities Yearbook",
+     "page": 537,
+     "score": 0.0315136476426799,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 3057,
+     "source": "MSU Humanities Yearbook",
+     "page": 536,
+     "score": 0.031009615384615385,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3157,
+     "source": "MSU Humanities Yearbook",
+     "page": 552,
+     "score": 0.030303030303030304,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E4": [
+    {
+     "rank": 1,
+     "chunk_id": 10513,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1092,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10505,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1090,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E5": [
+    {
+     "rank": 1,
+     "chunk_id": 889,
+     "source": "MSU Humanities Yearbook",
+     "page": 193,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 875,
+     "source": "MSU Humanities Yearbook",
+     "page": 191,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E6": [
+    {
+     "rank": 1,
+     "chunk_id": 9894,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 962,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 9890,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 961,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E7": [
+    {
+     "rank": 1,
+     "chunk_id": 4070,
+     "source": "MSU Humanities Yearbook",
+     "page": 695,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 4096,
+     "source": "MSU Humanities Yearbook",
+     "page": 698,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E8": [
+    {
+     "rank": 1,
+     "chunk_id": 6410,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 272,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6424,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 274,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E9": [
+    {
+     "rank": 1,
+     "chunk_id": 4170,
+     "source": "MSU Humanities Yearbook",
+     "page": 710,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 4275,
+     "source": "MSU Humanities Yearbook",
+     "page": 726,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 4309,
+     "source": "MSU Humanities Yearbook",
+     "page": 730,
+     "score": 0.031746031746031744,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 4171,
+     "source": "MSU Humanities Yearbook",
+     "page": 710,
+     "score": 0.03125,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4276,
+     "source": "MSU Humanities Yearbook",
+     "page": 726,
+     "score": 0.03076923076923077,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E10": [
+    {
+     "rank": 1,
+     "chunk_id": 7114,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 408,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7098,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 405,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C1": [
+    {
+     "rank": 1,
+     "chunk_id": 2344,
+     "source": "MSU Humanities Yearbook",
+     "page": 421,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2332,
+     "source": "MSU Humanities Yearbook",
+     "page": 419,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C2": [
+    {
+     "rank": 1,
+     "chunk_id": 1025,
+     "source": "MSU Humanities Yearbook",
+     "page": 213,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1178,
+     "source": "MSU Humanities Yearbook",
+     "page": 232,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1194,
+     "source": "MSU Humanities Yearbook",
+     "page": 234,
+     "score": 0.031746031746031744,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1042,
+     "source": "MSU Humanities Yearbook",
+     "page": 215,
+     "score": 0.03125,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C3": [
+    {
+     "rank": 1,
+     "chunk_id": 1302,
+     "source": "MSU Humanities Yearbook",
+     "page": 250,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1273,
+     "source": "MSU Humanities Yearbook",
+     "page": 246,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C4": [
+    {
+     "rank": 1,
+     "chunk_id": 5271,
+     "source": "MSU Humanities Yearbook",
+     "page": 880,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5268,
+     "source": "MSU Humanities Yearbook",
+     "page": 879,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C5": [
+    {
+     "rank": 1,
+     "chunk_id": 2607,
+     "source": "MSU Humanities Yearbook",
+     "page": 463,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2618,
+     "source": "MSU Humanities Yearbook",
+     "page": 464,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C6": [
+    {
+     "rank": 1,
+     "chunk_id": 7873,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 550,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7888,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 553,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C7": [
+    {
+     "rank": 1,
+     "chunk_id": 6757,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 340,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6748,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 338,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C8": [
+    {
+     "rank": 1,
+     "chunk_id": 6106,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 210,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6100,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 209,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C9": [
+    {
+     "rank": 1,
+     "chunk_id": 6410,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 272,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6421,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 274,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C10": [
+    {
+     "rank": 1,
+     "chunk_id": 6652,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 319,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6657,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 320,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-O1": [
+    {
+     "rank": 1,
+     "chunk_id": 212,
+     "source": "MSU Humanities Yearbook",
+     "page": 57,
+     "score": 0.6021014451980591,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2829,
+     "source": "MSU Humanities Yearbook",
+     "page": 499,
+     "score": 0.5831122398376465,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 130,
+     "source": "MSU Humanities Yearbook",
+     "page": 35,
+     "score": 0.5774285793304443,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 179,
+     "source": "MSU Humanities Yearbook",
+     "page": 48,
+     "score": 0.566730260848999,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5744,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 76,
+     "score": 0.5646031498908997,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3133,
+     "source": "MSU Humanities Yearbook",
+     "page": 548,
+     "score": 0.5632671117782593,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 264,
+     "source": "MSU Humanities Yearbook",
+     "page": 75,
+     "score": 0.5632621049880981,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 15,
+     "source": "MSU Humanities Yearbook",
+     "page": 8,
+     "score": 0.5595341920852661,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 3225,
+     "source": "MSU Humanities Yearbook",
+     "page": 562,
+     "score": 0.5593529343605042,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5737,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 75,
+     "score": 0.5582473278045654,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-O2": [
+    {
+     "rank": 1,
+     "chunk_id": 266,
+     "source": "MSU Humanities Yearbook",
+     "page": 75,
+     "score": 0.5764771699905396,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10454,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1078,
+     "score": 0.5712674260139465,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 6806,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 348,
+     "score": 0.5704069137573242,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 287,
+     "source": "MSU Humanities Yearbook",
+     "page": 79,
+     "score": 0.5696996450424194,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5767,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 80,
+     "score": 0.5682990550994873,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 267,
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "score": 0.5652687549591064,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 3180,
+     "source": "MSU Humanities Yearbook",
+     "page": 555,
+     "score": 0.5635972023010254,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 6807,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 349,
+     "score": 0.5572006702423096,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 10455,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1078,
+     "score": 0.5568510293960571,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 10272,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1041,
+     "score": 0.5563413500785828,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-O3": [
+    {
+     "rank": 1,
+     "chunk_id": 9766,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 939,
+     "score": 0.571169912815094,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 9556,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 901,
+     "score": 0.5684006810188293,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 498,
+     "source": "MSU Humanities Yearbook",
+     "page": 123,
+     "score": 0.4990743398666382,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 9828,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 950,
+     "score": 0.49712011218070984,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 9764,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 938,
+     "score": 0.49551457166671753,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 9858,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 956,
+     "score": 0.49495598673820496,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 651,
+     "source": "MSU Humanities Yearbook",
+     "page": 153,
+     "score": 0.48993581533432007,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5837,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 156,
+     "score": 0.4874640107154846,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 3827,
+     "source": "MSU Humanities Yearbook",
+     "page": 657,
+     "score": 0.4872339963912964,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 2042,
+     "source": "MSU Humanities Yearbook",
+     "page": 371,
+     "score": 0.48704612255096436,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-O4": [
+    {
+     "rank": 1,
+     "chunk_id": 5904,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 171,
+     "score": 0.5708814859390259,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 4858,
+     "source": "MSU Humanities Yearbook",
+     "page": 812,
+     "score": 0.5498375296592712,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5950,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 179,
+     "score": 0.5472111701965332,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 10011,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 988,
+     "score": 0.5458244681358337,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1041,
+     "source": "MSU Humanities Yearbook",
+     "page": 215,
+     "score": 0.538330614566803,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7329,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 446,
+     "score": 0.5375642776489258,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5962,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 181,
+     "score": 0.5375576019287109,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 3692,
+     "source": "MSU Humanities Yearbook",
+     "page": 636,
+     "score": 0.5372341275215149,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7321,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 445,
+     "score": 0.5362124443054199,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7056,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 398,
+     "score": 0.5361225605010986,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-O5": [
+    {
+     "rank": 1,
+     "chunk_id": 241,
+     "source": "MSU Humanities Yearbook",
+     "page": 67,
+     "score": 0.5851163864135742,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 272,
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "score": 0.5524797439575195,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5751,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 77,
+     "score": 0.5523812770843506,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 271,
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "score": 0.5515970587730408,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5752,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 77,
+     "score": 0.5493940114974976,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5624,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 7,
+     "score": 0.5482178330421448,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 172,
+     "source": "MSU Humanities Yearbook",
+     "page": 46,
+     "score": 0.5409255027770996,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 9,
+     "source": "MSU Humanities Yearbook",
+     "page": 6,
+     "score": 0.5394001007080078,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 596,
+     "source": "MSU Humanities Yearbook",
+     "page": 141,
+     "score": 0.5359877347946167,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 197,
+     "source": "MSU Humanities Yearbook",
+     "page": 54,
+     "score": 0.5354387164115906,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "arm2": {
+   "H-N1": [
+    {
+     "rank": 1,
+     "chunk_id": 5819,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 152,
+     "score": 0.8055505752563477,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 632,
+     "source": "MSU Humanities Yearbook",
+     "page": 150,
+     "score": 0.7908608913421631,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 640,
+     "source": "MSU Humanities Yearbook",
+     "page": 151,
+     "score": 0.7647570967674255,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5826,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 154,
+     "score": 0.7582342624664307,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 641,
+     "source": "MSU Humanities Yearbook",
+     "page": 152,
+     "score": 0.7454267144203186,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5827,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 154,
+     "score": 0.7440824508666992,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5818,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 152,
+     "score": 0.731117844581604,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 631,
+     "source": "MSU Humanities Yearbook",
+     "page": 150,
+     "score": 0.7303063869476318,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5813,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 151,
+     "score": 0.7250202298164368,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 626,
+     "source": "MSU Humanities Yearbook",
+     "page": 149,
+     "score": 0.7214202284812927,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N2": [
+    {
+     "rank": 1,
+     "chunk_id": 5795,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 146,
+     "score": 0.831787109375,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 608,
+     "source": "MSU Humanities Yearbook",
+     "page": 144,
+     "score": 0.7678961157798767,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 562,
+     "source": "MSU Humanities Yearbook",
+     "page": 135,
+     "score": 0.7628220915794373,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 7389,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 457,
+     "score": 0.7593420743942261,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 7783,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 531,
+     "score": 0.7496615052223206,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8074,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 588,
+     "score": 0.7490589618682861,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 689,
+     "source": "MSU Humanities Yearbook",
+     "page": 162,
+     "score": 0.7474807500839233,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 8155,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 603,
+     "score": 0.7474550008773804,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 3681,
+     "source": "MSU Humanities Yearbook",
+     "page": 635,
+     "score": 0.7462367415428162,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 676,
+     "source": "MSU Humanities Yearbook",
+     "page": 159,
+     "score": 0.7445307970046997,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N3": [
+    {
+     "rank": 1,
+     "chunk_id": 8253,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 622,
+     "score": 0.7219598889350891,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8317,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 635,
+     "score": 0.714449405670166,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 616,
+     "source": "MSU Humanities Yearbook",
+     "page": 146,
+     "score": 0.7143694162368774,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5860,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 162,
+     "score": 0.7142552137374878,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5803,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 148,
+     "score": 0.7129224538803101,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8218,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 615,
+     "score": 0.712914228439331,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 565,
+     "source": "MSU Humanities Yearbook",
+     "page": 135,
+     "score": 0.706880509853363,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 543,
+     "source": "MSU Humanities Yearbook",
+     "page": 132,
+     "score": 0.7065140008926392,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 604,
+     "source": "MSU Humanities Yearbook",
+     "page": 144,
+     "score": 0.7050451636314392,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 8884,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 754,
+     "score": 0.703249990940094,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N4": [
+    {
+     "rank": 1,
+     "chunk_id": 5632,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 15,
+     "score": 0.7103238105773926,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 39,
+     "source": "MSU Humanities Yearbook",
+     "page": 15,
+     "score": 0.6950168609619141,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 424,
+     "source": "MSU Humanities Yearbook",
+     "page": 105,
+     "score": 0.6746010184288025,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 42,
+     "source": "MSU Humanities Yearbook",
+     "page": 15,
+     "score": 0.6455879211425781,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1670,
+     "source": "MSU Humanities Yearbook",
+     "page": 314,
+     "score": 0.6390783786773682,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1706,
+     "source": "MSU Humanities Yearbook",
+     "page": 319,
+     "score": 0.6385790109634399,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1743,
+     "source": "MSU Humanities Yearbook",
+     "page": 324,
+     "score": 0.6376996040344238,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 2231,
+     "source": "MSU Humanities Yearbook",
+     "page": 403,
+     "score": 0.6376594305038452,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1718,
+     "source": "MSU Humanities Yearbook",
+     "page": 320,
+     "score": 0.6336700916290283,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1685,
+     "source": "MSU Humanities Yearbook",
+     "page": 316,
+     "score": 0.6330617070198059,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N5": [
+    {
+     "rank": 1,
+     "chunk_id": 370,
+     "source": "MSU Humanities Yearbook",
+     "page": 94,
+     "score": 0.7711899876594543,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 374,
+     "source": "MSU Humanities Yearbook",
+     "page": 95,
+     "score": 0.7082744836807251,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 360,
+     "source": "MSU Humanities Yearbook",
+     "page": 93,
+     "score": 0.7056542634963989,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 373,
+     "source": "MSU Humanities Yearbook",
+     "page": 95,
+     "score": 0.6805301904678345,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 2149,
+     "source": "MSU Humanities Yearbook",
+     "page": 391,
+     "score": 0.6789774894714355,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 372,
+     "source": "MSU Humanities Yearbook",
+     "page": 95,
+     "score": 0.6786152720451355,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 10102,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1004,
+     "score": 0.6687040328979492,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 2736,
+     "source": "MSU Humanities Yearbook",
+     "page": 484,
+     "score": 0.6682010889053345,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1715,
+     "source": "MSU Humanities Yearbook",
+     "page": 320,
+     "score": 0.6676438450813293,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 8682,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 710,
+     "score": 0.6666560769081116,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N6": [
+    {
+     "rank": 1,
+     "chunk_id": 5685,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 25,
+     "score": 0.7342878580093384,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 88,
+     "source": "MSU Humanities Yearbook",
+     "page": 25,
+     "score": 0.720081090927124,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5716,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 33,
+     "score": 0.6418098211288452,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5713,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 32,
+     "score": 0.6369552612304688,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 115,
+     "source": "MSU Humanities Yearbook",
+     "page": 32,
+     "score": 0.6329353451728821,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5698,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 28,
+     "score": 0.6318409442901611,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5666,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 21,
+     "score": 0.6275790929794312,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 21,
+     "source": "MSU Humanities Yearbook",
+     "page": 11,
+     "score": 0.6270022392272949,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5676,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 23,
+     "score": 0.6263499855995178,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 118,
+     "source": "MSU Humanities Yearbook",
+     "page": 33,
+     "score": 0.6246587038040161,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N7": [
+    {
+     "rank": 1,
+     "chunk_id": 7630,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 502,
+     "score": 0.8888696432113647,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8134,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 599,
+     "score": 0.8428791761398315,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8181,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 607,
+     "score": 0.8247177600860596,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 8094,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 592,
+     "score": 0.8179517984390259,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 7680,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 512,
+     "score": 0.7969530820846558,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7575,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 491,
+     "score": 0.7681465148925781,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7309,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 444,
+     "score": 0.7652179002761841,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 6228,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 238,
+     "score": 0.7589256763458252,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 3581,
+     "source": "MSU Humanities Yearbook",
+     "page": 620,
+     "score": 0.7490134239196777,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7008,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 390,
+     "score": 0.7436503767967224,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N8": [
+    {
+     "rank": 1,
+     "chunk_id": 1015,
+     "source": "MSU Humanities Yearbook",
+     "page": 211,
+     "score": 0.8151357173919678,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1016,
+     "source": "MSU Humanities Yearbook",
+     "page": 211,
+     "score": 0.812120795249939,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1172,
+     "source": "MSU Humanities Yearbook",
+     "page": 231,
+     "score": 0.8103917837142944,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 510,
+     "source": "MSU Humanities Yearbook",
+     "page": 125,
+     "score": 0.8100977540016174,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4212,
+     "source": "MSU Humanities Yearbook",
+     "page": 716,
+     "score": 0.8069508671760559,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1096,
+     "source": "MSU Humanities Yearbook",
+     "page": 221,
+     "score": 0.8062046766281128,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 4213,
+     "source": "MSU Humanities Yearbook",
+     "page": 716,
+     "score": 0.8033125996589661,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1386,
+     "source": "MSU Humanities Yearbook",
+     "page": 263,
+     "score": 0.8015760779380798,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 2524,
+     "source": "MSU Humanities Yearbook",
+     "page": 449,
+     "score": 0.7991726398468018,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 2867,
+     "source": "MSU Humanities Yearbook",
+     "page": 505,
+     "score": 0.7947231531143188,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N9": [
+    {
+     "rank": 1,
+     "chunk_id": 5648,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 18,
+     "score": 0.7276867628097534,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5650,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 18,
+     "score": 0.7224511504173279,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 102,
+     "source": "MSU Humanities Yearbook",
+     "page": 29,
+     "score": 0.7181111574172974,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5700,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 29,
+     "score": 0.716094970703125,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 54,
+     "source": "MSU Humanities Yearbook",
+     "page": 18,
+     "score": 0.7132476568222046,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 55,
+     "source": "MSU Humanities Yearbook",
+     "page": 18,
+     "score": 0.7015887498855591,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5649,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 18,
+     "score": 0.6969105005264282,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 53,
+     "source": "MSU Humanities Yearbook",
+     "page": 18,
+     "score": 0.6918614506721497,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5657,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 20,
+     "score": 0.6855220198631287,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5703,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 30,
+     "score": 0.6852632761001587,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-N10": [
+    {
+     "rank": 1,
+     "chunk_id": 526,
+     "source": "MSU Humanities Yearbook",
+     "page": 129,
+     "score": 0.7754632234573364,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 866,
+     "source": "MSU Humanities Yearbook",
+     "page": 190,
+     "score": 0.7654719948768616,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 527,
+     "source": "MSU Humanities Yearbook",
+     "page": 129,
+     "score": 0.7654167413711548,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 2001,
+     "source": "MSU Humanities Yearbook",
+     "page": 364,
+     "score": 0.7617427706718445,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 7590,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 493,
+     "score": 0.7597099542617798,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 4059,
+     "source": "MSU Humanities Yearbook",
+     "page": 693,
+     "score": 0.7561676502227783,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 4263,
+     "source": "MSU Humanities Yearbook",
+     "page": 723,
+     "score": 0.751982569694519,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7826,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 539,
+     "score": 0.7519403100013733,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 514,
+     "source": "MSU Humanities Yearbook",
+     "page": 126,
+     "score": 0.750206708908081,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 4110,
+     "source": "MSU Humanities Yearbook",
+     "page": 701,
+     "score": 0.7459769248962402,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-E1": [
+    {
+     "rank": 1,
+     "chunk_id": 2623,
+     "source": "MSU Humanities Yearbook",
+     "page": 465,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2608,
+     "source": "MSU Humanities Yearbook",
+     "page": 463,
+     "score": 0.03200204813108039,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2607,
+     "source": "MSU Humanities Yearbook",
+     "page": 463,
+     "score": 0.031754032258064516,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 2598,
+     "source": "MSU Humanities Yearbook",
+     "page": 461,
+     "score": 0.03149801587301587,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 2584,
+     "source": "MSU Humanities Yearbook",
+     "page": 459,
+     "score": 0.03076923076923077,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E2": [
+    {
+     "rank": 1,
+     "chunk_id": 8449,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 662,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8456,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 664,
+     "score": 0.032266458495966696,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8450,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 662,
+     "score": 0.03200204813108039,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E3": [
+    {
+     "rank": 1,
+     "chunk_id": 3072,
+     "source": "MSU Humanities Yearbook",
+     "page": 538,
+     "score": 0.032266458495966696,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3152,
+     "source": "MSU Humanities Yearbook",
+     "page": 551,
+     "score": 0.032266458495966696,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3058,
+     "source": "MSU Humanities Yearbook",
+     "page": 536,
+     "score": 0.031754032258064516,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3064,
+     "source": "MSU Humanities Yearbook",
+     "page": 537,
+     "score": 0.03128054740957967,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 3157,
+     "source": "MSU Humanities Yearbook",
+     "page": 552,
+     "score": 0.031009615384615385,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3057,
+     "source": "MSU Humanities Yearbook",
+     "page": 536,
+     "score": 0.030536130536130537,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E4": [
+    {
+     "rank": 1,
+     "chunk_id": 10513,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1092,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10505,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1090,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E5": [
+    {
+     "rank": 1,
+     "chunk_id": 889,
+     "source": "MSU Humanities Yearbook",
+     "page": 193,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 875,
+     "source": "MSU Humanities Yearbook",
+     "page": 191,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E6": [
+    {
+     "rank": 1,
+     "chunk_id": 9894,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 962,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 9890,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 961,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E7": [
+    {
+     "rank": 1,
+     "chunk_id": 4096,
+     "source": "MSU Humanities Yearbook",
+     "page": 698,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 4070,
+     "source": "MSU Humanities Yearbook",
+     "page": 695,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E8": [
+    {
+     "rank": 1,
+     "chunk_id": 6410,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 272,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6424,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 274,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E9": [
+    {
+     "rank": 1,
+     "chunk_id": 4309,
+     "source": "MSU Humanities Yearbook",
+     "page": 730,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 4170,
+     "source": "MSU Humanities Yearbook",
+     "page": 710,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 4275,
+     "source": "MSU Humanities Yearbook",
+     "page": 726,
+     "score": 0.031746031746031744,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 4171,
+     "source": "MSU Humanities Yearbook",
+     "page": 710,
+     "score": 0.03125,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4276,
+     "source": "MSU Humanities Yearbook",
+     "page": 726,
+     "score": 0.03076923076923077,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E10": [
+    {
+     "rank": 1,
+     "chunk_id": 7114,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 408,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7098,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 405,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C1": [
+    {
+     "rank": 1,
+     "chunk_id": 2344,
+     "source": "MSU Humanities Yearbook",
+     "page": 421,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2332,
+     "source": "MSU Humanities Yearbook",
+     "page": 419,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C2": [
+    {
+     "rank": 1,
+     "chunk_id": 1194,
+     "source": "MSU Humanities Yearbook",
+     "page": 234,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1178,
+     "source": "MSU Humanities Yearbook",
+     "page": 232,
+     "score": 0.032018442622950824,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1042,
+     "source": "MSU Humanities Yearbook",
+     "page": 215,
+     "score": 0.031754032258064516,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1025,
+     "source": "MSU Humanities Yearbook",
+     "page": 213,
+     "score": 0.031746031746031744,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C3": [
+    {
+     "rank": 1,
+     "chunk_id": 1302,
+     "source": "MSU Humanities Yearbook",
+     "page": 250,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1273,
+     "source": "MSU Humanities Yearbook",
+     "page": 246,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C4": [
+    {
+     "rank": 1,
+     "chunk_id": 5271,
+     "source": "MSU Humanities Yearbook",
+     "page": 880,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5268,
+     "source": "MSU Humanities Yearbook",
+     "page": 879,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C5": [
+    {
+     "rank": 1,
+     "chunk_id": 2607,
+     "source": "MSU Humanities Yearbook",
+     "page": 463,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2618,
+     "source": "MSU Humanities Yearbook",
+     "page": 464,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C6": [
+    {
+     "rank": 1,
+     "chunk_id": 7873,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 550,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7888,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 553,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C7": [
+    {
+     "rank": 1,
+     "chunk_id": 6757,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 340,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6748,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 338,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C8": [
+    {
+     "rank": 1,
+     "chunk_id": 6106,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 210,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6100,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 209,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C9": [
+    {
+     "rank": 1,
+     "chunk_id": 6410,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 272,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6421,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 274,
+     "score": 0.03252247488101534,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C10": [
+    {
+     "rank": 1,
+     "chunk_id": 6652,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 319,
+     "score": 0.03278688524590164,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6657,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 320,
+     "score": 0.03225806451612903,
+     "rerank_score": null,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-O1": [
+    {
+     "rank": 1,
+     "chunk_id": 212,
+     "source": "MSU Humanities Yearbook",
+     "page": 57,
+     "score": 0.5895171165466309,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 130,
+     "source": "MSU Humanities Yearbook",
+     "page": 35,
+     "score": 0.5689464807510376,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5744,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 76,
+     "score": 0.5669707655906677,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 264,
+     "source": "MSU Humanities Yearbook",
+     "page": 75,
+     "score": 0.5667269229888916,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5737,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 75,
+     "score": 0.5620394945144653,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 263,
+     "source": "MSU Humanities Yearbook",
+     "page": 75,
+     "score": 0.5618922710418701,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5743,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 76,
+     "score": 0.5603026151657104,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 3329,
+     "source": "MSU Humanities Yearbook",
+     "page": 578,
+     "score": 0.5602927207946777,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 15,
+     "source": "MSU Humanities Yearbook",
+     "page": 8,
+     "score": 0.5595341920852661,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 243,
+     "source": "MSU Humanities Yearbook",
+     "page": 68,
+     "score": 0.5593748092651367,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-O2": [
+    {
+     "rank": 1,
+     "chunk_id": 5767,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 80,
+     "score": 0.5842018127441406,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 287,
+     "source": "MSU Humanities Yearbook",
+     "page": 79,
+     "score": 0.5820562839508057,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 266,
+     "source": "MSU Humanities Yearbook",
+     "page": 75,
+     "score": 0.5796400308609009,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 10454,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1078,
+     "score": 0.5676785111427307,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5746,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 76,
+     "score": 0.5667355060577393,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 267,
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "score": 0.5659424662590027,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 6332,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 256,
+     "score": 0.5650610327720642,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 6806,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 348,
+     "score": 0.557552695274353,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5740,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 75,
+     "score": 0.5561457276344299,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 6362,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 262,
+     "score": 0.5549870133399963,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-O3": [
+    {
+     "rank": 1,
+     "chunk_id": 9556,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 901,
+     "score": 0.5401840209960938,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 9766,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 939,
+     "score": 0.5230509638786316,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 9764,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 938,
+     "score": 0.4980947971343994,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 7783,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 531,
+     "score": 0.4929494261741638,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 434,
+     "source": "MSU Humanities Yearbook",
+     "page": 107,
+     "score": 0.48746219277381897,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7548,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 487,
+     "score": 0.4858974814414978,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 542,
+     "source": "MSU Humanities Yearbook",
+     "page": 132,
+     "score": 0.48512789607048035,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1261,
+     "source": "MSU Humanities Yearbook",
+     "page": 243,
+     "score": 0.4850422143936157,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 533,
+     "source": "MSU Humanities Yearbook",
+     "page": 130,
+     "score": 0.4849933385848999,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7784,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 531,
+     "score": 0.48434174060821533,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-O4": [
+    {
+     "rank": 1,
+     "chunk_id": 5904,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 171,
+     "score": 0.5789095759391785,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 4858,
+     "source": "MSU Humanities Yearbook",
+     "page": 812,
+     "score": 0.5564262866973877,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 10011,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 988,
+     "score": 0.5478128790855408,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 6063,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 200,
+     "score": 0.5301945209503174,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5950,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 179,
+     "score": 0.5289024114608765,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 10119,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1008,
+     "score": 0.5274551510810852,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7379,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 455,
+     "score": 0.5268725156784058,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1041,
+     "source": "MSU Humanities Yearbook",
+     "page": 215,
+     "score": 0.5250635147094727,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7321,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 445,
+     "score": 0.5248539447784424,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7271,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 437,
+     "score": 0.5240861773490906,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ],
+   "H-O5": [
+    {
+     "rank": 1,
+     "chunk_id": 241,
+     "source": "MSU Humanities Yearbook",
+     "page": 67,
+     "score": 0.5780094861984253,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5624,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 7,
+     "score": 0.5482178330421448,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 9,
+     "source": "MSU Humanities Yearbook",
+     "page": 6,
+     "score": 0.5394001603126526,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 8,
+     "source": "MSU Humanities Yearbook",
+     "page": 6,
+     "score": 0.5329341888427734,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 271,
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "score": 0.5281473398208618,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5751,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 77,
+     "score": 0.5275458693504333,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5622,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 5,
+     "score": 0.5274056196212769,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5752,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 77,
+     "score": 0.525358259677887,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 237,
+     "source": "MSU Humanities Yearbook",
+     "page": 66,
+     "score": 0.5240287780761719,
+     "rerank_score": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 272,
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "score": 0.5230779647827148,
+     "rerank_score": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "arm3": {
+   "H-N1": [
+    {
+     "rank": 1,
+     "chunk_id": 5819,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 152,
+     "score": 0.8055505752563477,
+     "rerank_score": 7.255420207977295,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 632,
+     "source": "MSU Humanities Yearbook",
+     "page": 150,
+     "score": 0.7908608913421631,
+     "rerank_score": 6.508559226989746,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 640,
+     "source": "MSU Humanities Yearbook",
+     "page": 151,
+     "score": 0.7647570967674255,
+     "rerank_score": 6.008631229400635,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5826,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 154,
+     "score": 0.7582342624664307,
+     "rerank_score": 5.7125396728515625,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5813,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 151,
+     "score": 0.7250202298164368,
+     "rerank_score": 2.8478403091430664,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 626,
+     "source": "MSU Humanities Yearbook",
+     "page": 149,
+     "score": 0.7214202284812927,
+     "rerank_score": 2.8478403091430664,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5818,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 152,
+     "score": 0.731117844581604,
+     "rerank_score": 2.2944486141204834,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 631,
+     "source": "MSU Humanities Yearbook",
+     "page": 150,
+     "score": 0.7303063869476318,
+     "rerank_score": 2.2944486141204834,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 641,
+     "source": "MSU Humanities Yearbook",
+     "page": 152,
+     "score": 0.7454267144203186,
+     "rerank_score": 1.922692060470581,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5827,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 154,
+     "score": 0.7440824508666992,
+     "rerank_score": 1.922692060470581,
+     "route": "vector"
+    }
+   ],
+   "H-N2": [
+    {
+     "rank": 1,
+     "chunk_id": 5795,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 146,
+     "score": 0.831787109375,
+     "rerank_score": 7.619681358337402,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 608,
+     "source": "MSU Humanities Yearbook",
+     "page": 144,
+     "score": 0.7678961157798767,
+     "rerank_score": 5.431034088134766,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 7389,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 457,
+     "score": 0.7593420743942261,
+     "rerank_score": 4.764575958251953,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 7783,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 531,
+     "score": 0.7496615052223206,
+     "rerank_score": 4.34988260269165,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 3681,
+     "source": "MSU Humanities Yearbook",
+     "page": 635,
+     "score": 0.7462367415428162,
+     "rerank_score": 4.3408589363098145,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 562,
+     "source": "MSU Humanities Yearbook",
+     "page": 135,
+     "score": 0.7628220915794373,
+     "rerank_score": 3.7905478477478027,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 8074,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 588,
+     "score": 0.7490589618682861,
+     "rerank_score": 3.0806283950805664,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 8155,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 603,
+     "score": 0.7474550008773804,
+     "rerank_score": 1.6016238927841187,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 689,
+     "source": "MSU Humanities Yearbook",
+     "page": 162,
+     "score": 0.7474807500839233,
+     "rerank_score": 1.2727866172790527,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 676,
+     "source": "MSU Humanities Yearbook",
+     "page": 159,
+     "score": 0.7445307970046997,
+     "rerank_score": 0.8519249558448792,
+     "route": "vector"
+    }
+   ],
+   "H-N3": [
+    {
+     "rank": 1,
+     "chunk_id": 543,
+     "source": "MSU Humanities Yearbook",
+     "page": 132,
+     "score": 0.7065140008926392,
+     "rerank_score": 2.3989739418029785,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8317,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 635,
+     "score": 0.714449405670166,
+     "rerank_score": 1.6679186820983887,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 604,
+     "source": "MSU Humanities Yearbook",
+     "page": 144,
+     "score": 0.7050451636314392,
+     "rerank_score": 0.9921548366546631,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5860,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 162,
+     "score": 0.7142552137374878,
+     "rerank_score": -0.12208282202482224,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8253,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 622,
+     "score": 0.7219598889350891,
+     "rerank_score": -0.1910303831100464,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8218,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 615,
+     "score": 0.712914228439331,
+     "rerank_score": -0.2383546680212021,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 8884,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 754,
+     "score": 0.703249990940094,
+     "rerank_score": -1.4554446935653687,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 565,
+     "source": "MSU Humanities Yearbook",
+     "page": 135,
+     "score": 0.706880509853363,
+     "rerank_score": -1.5564146041870117,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 616,
+     "source": "MSU Humanities Yearbook",
+     "page": 146,
+     "score": 0.7143694162368774,
+     "rerank_score": -3.95874285697937,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5803,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 148,
+     "score": 0.7129224538803101,
+     "rerank_score": -4.47929048538208,
+     "route": "vector"
+    }
+   ],
+   "H-N4": [
+    {
+     "rank": 1,
+     "chunk_id": 5632,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 15,
+     "score": 0.7103238105773926,
+     "rerank_score": 1.2031737565994263,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 39,
+     "source": "MSU Humanities Yearbook",
+     "page": 15,
+     "score": 0.6950168609619141,
+     "rerank_score": 0.16777144372463226,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 42,
+     "source": "MSU Humanities Yearbook",
+     "page": 15,
+     "score": 0.6455879211425781,
+     "rerank_score": -7.845355033874512,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 424,
+     "source": "MSU Humanities Yearbook",
+     "page": 105,
+     "score": 0.6746010184288025,
+     "rerank_score": -8.528172492980957,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1706,
+     "source": "MSU Humanities Yearbook",
+     "page": 319,
+     "score": 0.6385790109634399,
+     "rerank_score": -10.413362503051758,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1743,
+     "source": "MSU Humanities Yearbook",
+     "page": 324,
+     "score": 0.6376996040344238,
+     "rerank_score": -10.811159133911133,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1670,
+     "source": "MSU Humanities Yearbook",
+     "page": 314,
+     "score": 0.6390783786773682,
+     "rerank_score": -10.856121063232422,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1685,
+     "source": "MSU Humanities Yearbook",
+     "page": 316,
+     "score": 0.6330617070198059,
+     "rerank_score": -10.899940490722656,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1718,
+     "source": "MSU Humanities Yearbook",
+     "page": 320,
+     "score": 0.6336700916290283,
+     "rerank_score": -11.010210037231445,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 2231,
+     "source": "MSU Humanities Yearbook",
+     "page": 403,
+     "score": 0.6376594305038452,
+     "rerank_score": -11.114145278930664,
+     "route": "vector"
+    }
+   ],
+   "H-N5": [
+    {
+     "rank": 1,
+     "chunk_id": 370,
+     "source": "MSU Humanities Yearbook",
+     "page": 94,
+     "score": 0.7711899876594543,
+     "rerank_score": 4.903328895568848,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 373,
+     "source": "MSU Humanities Yearbook",
+     "page": 95,
+     "score": 0.6805301904678345,
+     "rerank_score": 3.464348316192627,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 372,
+     "source": "MSU Humanities Yearbook",
+     "page": 95,
+     "score": 0.6786152720451355,
+     "rerank_score": 2.8745970726013184,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 374,
+     "source": "MSU Humanities Yearbook",
+     "page": 95,
+     "score": 0.7082744836807251,
+     "rerank_score": 0.972830057144165,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 360,
+     "source": "MSU Humanities Yearbook",
+     "page": 93,
+     "score": 0.7056542634963989,
+     "rerank_score": -2.23126220703125,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8682,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 710,
+     "score": 0.6666560769081116,
+     "rerank_score": -3.7335774898529053,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 2736,
+     "source": "MSU Humanities Yearbook",
+     "page": 484,
+     "score": 0.6682010889053345,
+     "rerank_score": -5.901982307434082,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10102,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1004,
+     "score": 0.6687040328979492,
+     "rerank_score": -7.957653045654297,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1715,
+     "source": "MSU Humanities Yearbook",
+     "page": 320,
+     "score": 0.6676438450813293,
+     "rerank_score": -8.707015991210938,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 2149,
+     "source": "MSU Humanities Yearbook",
+     "page": 391,
+     "score": 0.6789774894714355,
+     "rerank_score": -10.562543869018555,
+     "route": "vector"
+    }
+   ],
+   "H-N6": [
+    {
+     "rank": 1,
+     "chunk_id": 88,
+     "source": "MSU Humanities Yearbook",
+     "page": 25,
+     "score": 0.720081090927124,
+     "rerank_score": 2.8480193614959717,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5685,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 25,
+     "score": 0.7342878580093384,
+     "rerank_score": 2.357062578201294,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5716,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 33,
+     "score": 0.6418098211288452,
+     "rerank_score": -0.534651517868042,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 118,
+     "source": "MSU Humanities Yearbook",
+     "page": 33,
+     "score": 0.6246587038040161,
+     "rerank_score": -1.2228429317474365,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5698,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 28,
+     "score": 0.6318409442901611,
+     "rerank_score": -1.3843328952789307,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5713,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 32,
+     "score": 0.6369552612304688,
+     "rerank_score": -1.970580816268921,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 21,
+     "source": "MSU Humanities Yearbook",
+     "page": 11,
+     "score": 0.6270022392272949,
+     "rerank_score": -2.430304765701294,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 115,
+     "source": "MSU Humanities Yearbook",
+     "page": 32,
+     "score": 0.6329353451728821,
+     "rerank_score": -5.016018867492676,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5666,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 21,
+     "score": 0.6275790929794312,
+     "rerank_score": -6.9232587814331055,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5676,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 23,
+     "score": 0.6263499855995178,
+     "rerank_score": -7.0366387367248535,
+     "route": "vector"
+    }
+   ],
+   "H-N7": [
+    {
+     "rank": 1,
+     "chunk_id": 7630,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 502,
+     "score": 0.8888696432113647,
+     "rerank_score": 10.20434284210205,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8094,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 592,
+     "score": 0.8179517984390259,
+     "rerank_score": 7.933894157409668,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8181,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 607,
+     "score": 0.8247177600860596,
+     "rerank_score": 7.918943405151367,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 8134,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 599,
+     "score": 0.8428791761398315,
+     "rerank_score": 7.637967109680176,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 7680,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 512,
+     "score": 0.7969530820846558,
+     "rerank_score": 7.536378383636475,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 6228,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 238,
+     "score": 0.7589256763458252,
+     "rerank_score": 6.275773048400879,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 3581,
+     "source": "MSU Humanities Yearbook",
+     "page": 620,
+     "score": 0.7490134239196777,
+     "rerank_score": 6.110002517700195,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7309,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 444,
+     "score": 0.7652179002761841,
+     "rerank_score": 5.523340702056885,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7008,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 390,
+     "score": 0.7436503767967224,
+     "rerank_score": 4.986373424530029,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7575,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 491,
+     "score": 0.7681465148925781,
+     "rerank_score": 4.978401184082031,
+     "route": "vector"
+    }
+   ],
+   "H-N8": [
+    {
+     "rank": 1,
+     "chunk_id": 510,
+     "source": "MSU Humanities Yearbook",
+     "page": 125,
+     "score": 0.8100977540016174,
+     "rerank_score": 7.380967140197754,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1172,
+     "source": "MSU Humanities Yearbook",
+     "page": 231,
+     "score": 0.8103917837142944,
+     "rerank_score": 6.756136894226074,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1016,
+     "source": "MSU Humanities Yearbook",
+     "page": 211,
+     "score": 0.812120795249939,
+     "rerank_score": 3.7277562618255615,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1015,
+     "source": "MSU Humanities Yearbook",
+     "page": 211,
+     "score": 0.8151357173919678,
+     "rerank_score": 3.3002285957336426,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4212,
+     "source": "MSU Humanities Yearbook",
+     "page": 716,
+     "score": 0.8069508671760559,
+     "rerank_score": 2.8772225379943848,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 2867,
+     "source": "MSU Humanities Yearbook",
+     "page": 505,
+     "score": 0.7947231531143188,
+     "rerank_score": 2.762547254562378,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1096,
+     "source": "MSU Humanities Yearbook",
+     "page": 221,
+     "score": 0.8062046766281128,
+     "rerank_score": 2.713660717010498,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 4213,
+     "source": "MSU Humanities Yearbook",
+     "page": 716,
+     "score": 0.8033125996589661,
+     "rerank_score": 2.4951658248901367,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1386,
+     "source": "MSU Humanities Yearbook",
+     "page": 263,
+     "score": 0.8015760779380798,
+     "rerank_score": 2.105048656463623,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 2524,
+     "source": "MSU Humanities Yearbook",
+     "page": 449,
+     "score": 0.7991726398468018,
+     "rerank_score": 1.4949760437011719,
+     "route": "vector"
+    }
+   ],
+   "H-N9": [
+    {
+     "rank": 1,
+     "chunk_id": 5648,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 18,
+     "score": 0.7276867628097534,
+     "rerank_score": -1.601093053817749,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 54,
+     "source": "MSU Humanities Yearbook",
+     "page": 18,
+     "score": 0.7132476568222046,
+     "rerank_score": -1.7405638694763184,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5649,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 18,
+     "score": 0.6969105005264282,
+     "rerank_score": -1.7632887363433838,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5650,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 18,
+     "score": 0.7224511504173279,
+     "rerank_score": -2.7014923095703125,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 53,
+     "source": "MSU Humanities Yearbook",
+     "page": 18,
+     "score": 0.6918614506721497,
+     "rerank_score": -3.567201614379883,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 102,
+     "source": "MSU Humanities Yearbook",
+     "page": 29,
+     "score": 0.7181111574172974,
+     "rerank_score": -3.740466594696045,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 55,
+     "source": "MSU Humanities Yearbook",
+     "page": 18,
+     "score": 0.7015887498855591,
+     "rerank_score": -4.216158390045166,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5700,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 29,
+     "score": 0.716094970703125,
+     "rerank_score": -4.35124397277832,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5703,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 30,
+     "score": 0.6852632761001587,
+     "rerank_score": -5.654322624206543,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5657,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 20,
+     "score": 0.6855220198631287,
+     "rerank_score": -6.740480422973633,
+     "route": "vector"
+    }
+   ],
+   "H-N10": [
+    {
+     "rank": 1,
+     "chunk_id": 526,
+     "source": "MSU Humanities Yearbook",
+     "page": 129,
+     "score": 0.7754632234573364,
+     "rerank_score": 3.4399304389953613,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 527,
+     "source": "MSU Humanities Yearbook",
+     "page": 129,
+     "score": 0.7654167413711548,
+     "rerank_score": 2.4110944271087646,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 4059,
+     "source": "MSU Humanities Yearbook",
+     "page": 693,
+     "score": 0.7561676502227783,
+     "rerank_score": 2.1807775497436523,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 4263,
+     "source": "MSU Humanities Yearbook",
+     "page": 723,
+     "score": 0.751982569694519,
+     "rerank_score": 2.0018796920776367,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4110,
+     "source": "MSU Humanities Yearbook",
+     "page": 701,
+     "score": 0.7459769248962402,
+     "rerank_score": 1.72161066532135,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7826,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 539,
+     "score": 0.7519403100013733,
+     "rerank_score": 1.6753971576690674,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 2001,
+     "source": "MSU Humanities Yearbook",
+     "page": 364,
+     "score": 0.7617427706718445,
+     "rerank_score": 1.4977216720581055,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7590,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 493,
+     "score": 0.7597099542617798,
+     "rerank_score": 1.0980794429779053,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 514,
+     "source": "MSU Humanities Yearbook",
+     "page": 126,
+     "score": 0.750206708908081,
+     "rerank_score": 0.9919745922088623,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 866,
+     "source": "MSU Humanities Yearbook",
+     "page": 190,
+     "score": 0.7654719948768616,
+     "rerank_score": -0.3121444880962372,
+     "route": "vector"
+    }
+   ],
+   "H-E1": [
+    {
+     "rank": 1,
+     "chunk_id": 2623,
+     "source": "MSU Humanities Yearbook",
+     "page": 465,
+     "score": 0.03278688524590164,
+     "rerank_score": 5.494078636169434,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2598,
+     "source": "MSU Humanities Yearbook",
+     "page": 461,
+     "score": 0.03149801587301587,
+     "rerank_score": 4.481703758239746,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2607,
+     "source": "MSU Humanities Yearbook",
+     "page": 463,
+     "score": 0.031754032258064516,
+     "rerank_score": -2.616194486618042,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 2608,
+     "source": "MSU Humanities Yearbook",
+     "page": 463,
+     "score": 0.03200204813108039,
+     "rerank_score": -2.7927074432373047,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 2584,
+     "source": "MSU Humanities Yearbook",
+     "page": 459,
+     "score": 0.03076923076923077,
+     "rerank_score": -6.018045425415039,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E2": [
+    {
+     "rank": 1,
+     "chunk_id": 8456,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 664,
+     "score": 0.032266458495966696,
+     "rerank_score": 3.042369842529297,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8449,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 662,
+     "score": 0.03252247488101534,
+     "rerank_score": 1.9012689590454102,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8450,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 662,
+     "score": 0.03200204813108039,
+     "rerank_score": 1.745349645614624,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E3": [
+    {
+     "rank": 1,
+     "chunk_id": 3072,
+     "source": "MSU Humanities Yearbook",
+     "page": 538,
+     "score": 0.032266458495966696,
+     "rerank_score": 7.226988315582275,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3064,
+     "source": "MSU Humanities Yearbook",
+     "page": 537,
+     "score": 0.03128054740957967,
+     "rerank_score": 5.420670509338379,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3157,
+     "source": "MSU Humanities Yearbook",
+     "page": 552,
+     "score": 0.031009615384615385,
+     "rerank_score": -0.7633892297744751,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3152,
+     "source": "MSU Humanities Yearbook",
+     "page": 551,
+     "score": 0.032266458495966696,
+     "rerank_score": -2.508967638015747,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 3058,
+     "source": "MSU Humanities Yearbook",
+     "page": 536,
+     "score": 0.031754032258064516,
+     "rerank_score": -3.016310453414917,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3057,
+     "source": "MSU Humanities Yearbook",
+     "page": 536,
+     "score": 0.030536130536130537,
+     "rerank_score": -4.272364616394043,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E4": [
+    {
+     "rank": 1,
+     "chunk_id": 10513,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1092,
+     "score": 0.03278688524590164,
+     "rerank_score": 6.47520112991333,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10505,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1090,
+     "score": 0.03225806451612903,
+     "rerank_score": 3.8589699268341064,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E5": [
+    {
+     "rank": 1,
+     "chunk_id": 889,
+     "source": "MSU Humanities Yearbook",
+     "page": 193,
+     "score": 0.03278688524590164,
+     "rerank_score": 0.45421910285949707,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 875,
+     "source": "MSU Humanities Yearbook",
+     "page": 191,
+     "score": 0.03225806451612903,
+     "rerank_score": -8.861923217773438,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E6": [
+    {
+     "rank": 1,
+     "chunk_id": 9894,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 962,
+     "score": 0.03278688524590164,
+     "rerank_score": 5.197418212890625,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 9890,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 961,
+     "score": 0.03225806451612903,
+     "rerank_score": -7.8356146812438965,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E7": [
+    {
+     "rank": 1,
+     "chunk_id": 4096,
+     "source": "MSU Humanities Yearbook",
+     "page": 698,
+     "score": 0.03278688524590164,
+     "rerank_score": 4.506229877471924,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 4070,
+     "source": "MSU Humanities Yearbook",
+     "page": 695,
+     "score": 0.03225806451612903,
+     "rerank_score": -0.3890672028064728,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E8": [
+    {
+     "rank": 1,
+     "chunk_id": 6410,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 272,
+     "score": 0.03252247488101534,
+     "rerank_score": -0.16440308094024658,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6424,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 274,
+     "score": 0.03252247488101534,
+     "rerank_score": -1.4740486145019531,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E9": [
+    {
+     "rank": 1,
+     "chunk_id": 4309,
+     "source": "MSU Humanities Yearbook",
+     "page": 730,
+     "score": 0.03278688524590164,
+     "rerank_score": 6.41292667388916,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 4171,
+     "source": "MSU Humanities Yearbook",
+     "page": 710,
+     "score": 0.03125,
+     "rerank_score": 2.7650351524353027,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 4276,
+     "source": "MSU Humanities Yearbook",
+     "page": 726,
+     "score": 0.03076923076923077,
+     "rerank_score": 2.688467025756836,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 4170,
+     "source": "MSU Humanities Yearbook",
+     "page": 710,
+     "score": 0.03225806451612903,
+     "rerank_score": 1.9096567630767822,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4275,
+     "source": "MSU Humanities Yearbook",
+     "page": 726,
+     "score": 0.031746031746031744,
+     "rerank_score": 1.47983717918396,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-E10": [
+    {
+     "rank": 1,
+     "chunk_id": 7114,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 408,
+     "score": 0.03278688524590164,
+     "rerank_score": 3.127678394317627,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7098,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 405,
+     "score": 0.03225806451612903,
+     "rerank_score": -4.981621742248535,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C1": [
+    {
+     "rank": 1,
+     "chunk_id": 2344,
+     "source": "MSU Humanities Yearbook",
+     "page": 421,
+     "score": 0.03278688524590164,
+     "rerank_score": 0.5484829545021057,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2332,
+     "source": "MSU Humanities Yearbook",
+     "page": 419,
+     "score": 0.03225806451612903,
+     "rerank_score": -5.483348369598389,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C2": [
+    {
+     "rank": 1,
+     "chunk_id": 1025,
+     "source": "MSU Humanities Yearbook",
+     "page": 213,
+     "score": 0.031746031746031744,
+     "rerank_score": 0.048172108829021454,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1178,
+     "source": "MSU Humanities Yearbook",
+     "page": 232,
+     "score": 0.032018442622950824,
+     "rerank_score": -3.6594457626342773,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 1042,
+     "source": "MSU Humanities Yearbook",
+     "page": 215,
+     "score": 0.031754032258064516,
+     "rerank_score": -7.788304328918457,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1194,
+     "source": "MSU Humanities Yearbook",
+     "page": 234,
+     "score": 0.03252247488101534,
+     "rerank_score": -7.986729621887207,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C3": [
+    {
+     "rank": 1,
+     "chunk_id": 1302,
+     "source": "MSU Humanities Yearbook",
+     "page": 250,
+     "score": 0.03278688524590164,
+     "rerank_score": 1.8017513751983643,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1273,
+     "source": "MSU Humanities Yearbook",
+     "page": 246,
+     "score": 0.03225806451612903,
+     "rerank_score": 0.6746999621391296,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C4": [
+    {
+     "rank": 1,
+     "chunk_id": 5271,
+     "source": "MSU Humanities Yearbook",
+     "page": 880,
+     "score": 0.03278688524590164,
+     "rerank_score": 2.8745341300964355,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5268,
+     "source": "MSU Humanities Yearbook",
+     "page": 879,
+     "score": 0.03225806451612903,
+     "rerank_score": -5.833311080932617,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C5": [
+    {
+     "rank": 1,
+     "chunk_id": 2618,
+     "source": "MSU Humanities Yearbook",
+     "page": 464,
+     "score": 0.03252247488101534,
+     "rerank_score": -4.2374420166015625,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2607,
+     "source": "MSU Humanities Yearbook",
+     "page": 463,
+     "score": 0.03252247488101534,
+     "rerank_score": -6.695808410644531,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C6": [
+    {
+     "rank": 1,
+     "chunk_id": 7873,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 550,
+     "score": 0.03252247488101534,
+     "rerank_score": 4.074318885803223,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7888,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 553,
+     "score": 0.03252247488101534,
+     "rerank_score": -3.5544676780700684,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C7": [
+    {
+     "rank": 1,
+     "chunk_id": 6757,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 340,
+     "score": 0.03278688524590164,
+     "rerank_score": 5.162542343139648,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6748,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 338,
+     "score": 0.03225806451612903,
+     "rerank_score": 1.3036842346191406,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C8": [
+    {
+     "rank": 1,
+     "chunk_id": 6106,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 210,
+     "score": 0.03278688524590164,
+     "rerank_score": 7.30389404296875,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6100,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 209,
+     "score": 0.03225806451612903,
+     "rerank_score": 1.1563903093338013,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C9": [
+    {
+     "rank": 1,
+     "chunk_id": 6410,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 272,
+     "score": 0.03252247488101534,
+     "rerank_score": -2.1213738918304443,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6421,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 274,
+     "score": 0.03252247488101534,
+     "rerank_score": -2.450300931930542,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-C10": [
+    {
+     "rank": 1,
+     "chunk_id": 6657,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 320,
+     "score": 0.03225806451612903,
+     "rerank_score": 0.9283217191696167,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6652,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 319,
+     "score": 0.03278688524590164,
+     "rerank_score": 0.19607952237129211,
+     "route": "code_hybrid"
+    }
+   ],
+   "H-O1": [
+    {
+     "rank": 1,
+     "chunk_id": 5744,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 76,
+     "score": 0.5669707655906677,
+     "rerank_score": -5.90501594543457,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 264,
+     "source": "MSU Humanities Yearbook",
+     "page": 75,
+     "score": 0.5667269229888916,
+     "rerank_score": -5.90501594543457,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 263,
+     "source": "MSU Humanities Yearbook",
+     "page": 75,
+     "score": 0.5618922710418701,
+     "rerank_score": -7.179588317871094,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5743,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 76,
+     "score": 0.5603026151657104,
+     "rerank_score": -7.179588317871094,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5737,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 75,
+     "score": 0.5620394945144653,
+     "rerank_score": -7.756726264953613,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 15,
+     "source": "MSU Humanities Yearbook",
+     "page": 8,
+     "score": 0.5595341920852661,
+     "rerank_score": -9.170462608337402,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 3329,
+     "source": "MSU Humanities Yearbook",
+     "page": 578,
+     "score": 0.5602927207946777,
+     "rerank_score": -10.12608814239502,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 212,
+     "source": "MSU Humanities Yearbook",
+     "page": 57,
+     "score": 0.5895171165466309,
+     "rerank_score": -10.895584106445312,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 130,
+     "source": "MSU Humanities Yearbook",
+     "page": 35,
+     "score": 0.5689464807510376,
+     "rerank_score": -11.164913177490234,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 243,
+     "source": "MSU Humanities Yearbook",
+     "page": 68,
+     "score": 0.5593748092651367,
+     "rerank_score": -11.178627967834473,
+     "route": "vector"
+    }
+   ],
+   "H-O2": [
+    {
+     "rank": 1,
+     "chunk_id": 5767,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 80,
+     "score": 0.5842018127441406,
+     "rerank_score": -4.994462966918945,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 287,
+     "source": "MSU Humanities Yearbook",
+     "page": 79,
+     "score": 0.5820562839508057,
+     "rerank_score": -4.994462966918945,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5746,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 76,
+     "score": 0.5667355060577393,
+     "rerank_score": -5.099381446838379,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 266,
+     "source": "MSU Humanities Yearbook",
+     "page": 75,
+     "score": 0.5796400308609009,
+     "rerank_score": -5.320242881774902,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 267,
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "score": 0.5659424662590027,
+     "rerank_score": -6.127373695373535,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5740,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 75,
+     "score": 0.5561457276344299,
+     "rerank_score": -7.38934850692749,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 10454,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1078,
+     "score": 0.5676785111427307,
+     "rerank_score": -11.245101928710938,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 6332,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 256,
+     "score": 0.5650610327720642,
+     "rerank_score": -11.258392333984375,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 6362,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 262,
+     "score": 0.5549870133399963,
+     "rerank_score": -11.282925605773926,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 6806,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 348,
+     "score": 0.557552695274353,
+     "rerank_score": -11.313379287719727,
+     "route": "vector"
+    }
+   ],
+   "H-O3": [
+    {
+     "rank": 1,
+     "chunk_id": 9766,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 939,
+     "score": 0.5230509638786316,
+     "rerank_score": -10.883976936340332,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 9556,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 901,
+     "score": 0.5401840209960938,
+     "rerank_score": -11.167977333068848,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 533,
+     "source": "MSU Humanities Yearbook",
+     "page": 130,
+     "score": 0.4849933385848999,
+     "rerank_score": -11.205239295959473,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 434,
+     "source": "MSU Humanities Yearbook",
+     "page": 107,
+     "score": 0.48746219277381897,
+     "rerank_score": -11.251806259155273,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 542,
+     "source": "MSU Humanities Yearbook",
+     "page": 132,
+     "score": 0.48512789607048035,
+     "rerank_score": -11.289824485778809,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 9764,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 938,
+     "score": 0.4980947971343994,
+     "rerank_score": -11.29240608215332,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7548,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 487,
+     "score": 0.4858974814414978,
+     "rerank_score": -11.302888870239258,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1261,
+     "source": "MSU Humanities Yearbook",
+     "page": 243,
+     "score": 0.4850422143936157,
+     "rerank_score": -11.321537017822266,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7783,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 531,
+     "score": 0.4929494261741638,
+     "rerank_score": -11.345663070678711,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7784,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 531,
+     "score": 0.48434174060821533,
+     "rerank_score": -11.413972854614258,
+     "route": "vector"
+    }
+   ],
+   "H-O4": [
+    {
+     "rank": 1,
+     "chunk_id": 4858,
+     "source": "MSU Humanities Yearbook",
+     "page": 812,
+     "score": 0.5564262866973877,
+     "rerank_score": -11.022878646850586,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7379,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 455,
+     "score": 0.5268725156784058,
+     "rerank_score": -11.288698196411133,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 10011,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 988,
+     "score": 0.5478128790855408,
+     "rerank_score": -11.288983345031738,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 6063,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 200,
+     "score": 0.5301945209503174,
+     "rerank_score": -11.298137664794922,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 10119,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1008,
+     "score": 0.5274551510810852,
+     "rerank_score": -11.303153991699219,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5950,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 179,
+     "score": 0.5289024114608765,
+     "rerank_score": -11.304286003112793,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1041,
+     "source": "MSU Humanities Yearbook",
+     "page": 215,
+     "score": 0.5250635147094727,
+     "rerank_score": -11.309925079345703,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7321,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 445,
+     "score": 0.5248539447784424,
+     "rerank_score": -11.325926780700684,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5904,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 171,
+     "score": 0.5789095759391785,
+     "rerank_score": -11.351638793945312,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7271,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 437,
+     "score": 0.5240861773490906,
+     "rerank_score": -11.362041473388672,
+     "route": "vector"
+    }
+   ],
+   "H-O5": [
+    {
+     "rank": 1,
+     "chunk_id": 241,
+     "source": "MSU Humanities Yearbook",
+     "page": 67,
+     "score": 0.5780094861984253,
+     "rerank_score": -9.895665168762207,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5624,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 7,
+     "score": 0.5482178330421448,
+     "rerank_score": -10.952011108398438,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 271,
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "score": 0.5281473398208618,
+     "rerank_score": -11.067085266113281,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5751,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 77,
+     "score": 0.5275458693504333,
+     "rerank_score": -11.067085266113281,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5752,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 77,
+     "score": 0.525358259677887,
+     "rerank_score": -11.13566780090332,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 272,
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "score": 0.5230779647827148,
+     "rerank_score": -11.13566780090332,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 8,
+     "source": "MSU Humanities Yearbook",
+     "page": 6,
+     "score": 0.5329341888427734,
+     "rerank_score": -11.227155685424805,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5622,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 5,
+     "score": 0.5274056196212769,
+     "rerank_score": -11.281110763549805,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 9,
+     "source": "MSU Humanities Yearbook",
+     "page": 6,
+     "score": 0.5394001603126526,
+     "rerank_score": -11.295831680297852,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 237,
+     "source": "MSU Humanities Yearbook",
+     "page": 66,
+     "score": 0.5240287780761719,
+     "rerank_score": -11.306818008422852,
+     "route": "vector"
+    }
+   ]
+  }
+ }
+}

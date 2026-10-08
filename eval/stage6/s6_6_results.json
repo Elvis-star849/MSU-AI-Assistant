@@ -1,0 +1,429 @@
+{
+ "summary": {
+  "arm0": {
+   "natural_language": {
+    "top1": 6,
+    "top3": 7,
+    "top5": 9,
+    "mrr10": 0.69
+   },
+   "exact_code": {
+    "top1": 2,
+    "top3": 10,
+    "top5": 10,
+    "mrr10": 0.567
+   },
+   "code_in_context": {
+    "top1": 8,
+    "top3": 9,
+    "top5": 9,
+    "mrr10": 0.85
+   },
+   "overall": {
+    "top1": 16,
+    "top3": 26,
+    "top5": 28,
+    "mrr10": 0.702
+   }
+  },
+  "arm1": {
+   "natural_language": {
+    "top1": 6,
+    "top3": 7,
+    "top5": 9,
+    "mrr10": 0.69
+   },
+   "exact_code": {
+    "top1": 6,
+    "top3": 10,
+    "top5": 10,
+    "mrr10": 0.767
+   },
+   "code_in_context": {
+    "top1": 8,
+    "top3": 9,
+    "top5": 9,
+    "mrr10": 0.85
+   },
+   "overall": {
+    "top1": 20,
+    "top3": 26,
+    "top5": 28,
+    "mrr10": 0.769
+   }
+  },
+  "arm2": {
+   "natural_language": {
+    "top1": 6,
+    "top3": 6,
+    "top5": 7,
+    "mrr10": 0.666
+   },
+   "exact_code": {
+    "top1": 8,
+    "top3": 10,
+    "top5": 10,
+    "mrr10": 0.9
+   },
+   "code_in_context": {
+    "top1": 7,
+    "top3": 9,
+    "top5": 9,
+    "mrr10": 0.8
+   },
+   "overall": {
+    "top1": 21,
+    "top3": 25,
+    "top5": 26,
+    "mrr10": 0.789
+   }
+  },
+  "arm3": {
+   "natural_language": {
+    "top1": 8,
+    "top3": 9,
+    "top5": 9,
+    "mrr10": 0.848
+   },
+   "exact_code": {
+    "top1": 9,
+    "top3": 10,
+    "top5": 10,
+    "mrr10": 0.95
+   },
+   "code_in_context": {
+    "top1": 8,
+    "top3": 9,
+    "top5": 9,
+    "mrr10": 0.85
+   },
+   "overall": {
+    "top1": 25,
+    "top3": 28,
+    "top5": 28,
+    "mrr10": 0.883
+   }
+  }
+ },
+ "ranks": {
+  "arm0": {
+   "H-N1": null,
+   "H-N2": 1,
+   "H-N3": 1,
+   "H-N4": 2,
+   "H-N5": 1,
+   "H-N6": 1,
+   "H-N7": 1,
+   "H-N8": 5,
+   "H-N9": 5,
+   "H-N10": 1,
+   "H-E1": 3,
+   "H-E2": 2,
+   "H-E3": 2,
+   "H-E4": 2,
+   "H-E5": 2,
+   "H-E6": 1,
+   "H-E7": 2,
+   "H-E8": 2,
+   "H-E9": 3,
+   "H-E10": 1,
+   "H-C1": 1,
+   "H-C2": 1,
+   "H-C3": 1,
+   "H-C4": 1,
+   "H-C5": 1,
+   "H-C6": null,
+   "H-C7": 1,
+   "H-C8": 1,
+   "H-C9": 1,
+   "H-C10": 2
+  },
+  "arm1": {
+   "H-N1": null,
+   "H-N2": 1,
+   "H-N3": 1,
+   "H-N4": 2,
+   "H-N5": 1,
+   "H-N6": 1,
+   "H-N7": 1,
+   "H-N8": 5,
+   "H-N9": 5,
+   "H-N10": 1,
+   "H-E1": 3,
+   "H-E2": 1,
+   "H-E3": 1,
+   "H-E4": 1,
+   "H-E5": 1,
+   "H-E6": 1,
+   "H-E7": 2,
+   "H-E8": 2,
+   "H-E9": 3,
+   "H-E10": 1,
+   "H-C1": 1,
+   "H-C2": 1,
+   "H-C3": 1,
+   "H-C4": 1,
+   "H-C5": 1,
+   "H-C6": null,
+   "H-C7": 1,
+   "H-C8": 1,
+   "H-C9": 1,
+   "H-C10": 2
+  },
+  "arm2": {
+   "H-N1": 7,
+   "H-N2": 1,
+   "H-N3": 8,
+   "H-N4": 1,
+   "H-N5": 1,
+   "H-N6": 1,
+   "H-N7": 1,
+   "H-N8": 4,
+   "H-N9": 7,
+   "H-N10": 1,
+   "H-E1": 1,
+   "H-E2": 2,
+   "H-E3": 1,
+   "H-E4": 1,
+   "H-E5": 1,
+   "H-E6": 1,
+   "H-E7": 1,
+   "H-E8": 2,
+   "H-E9": 1,
+   "H-E10": 1,
+   "H-C1": 1,
+   "H-C2": 2,
+   "H-C3": 1,
+   "H-C4": 1,
+   "H-C5": 1,
+   "H-C6": null,
+   "H-C7": 1,
+   "H-C8": 1,
+   "H-C9": 1,
+   "H-C10": 2
+  },
+  "arm3": {
+   "H-N1": 7,
+   "H-N2": 1,
+   "H-N3": 1,
+   "H-N4": 1,
+   "H-N5": 1,
+   "H-N6": 1,
+   "H-N7": 1,
+   "H-N8": 1,
+   "H-N9": 3,
+   "H-N10": 1,
+   "H-E1": 1,
+   "H-E2": 1,
+   "H-E3": 1,
+   "H-E4": 1,
+   "H-E5": 1,
+   "H-E6": 1,
+   "H-E7": 1,
+   "H-E8": 2,
+   "H-E9": 1,
+   "H-E10": 1,
+   "H-C1": 1,
+   "H-C2": 1,
+   "H-C3": 1,
+   "H-C4": 1,
+   "H-C5": 2,
+   "H-C6": null,
+   "H-C7": 1,
+   "H-C8": 1,
+   "H-C9": 1,
+   "H-C10": 1
+  }
+ },
+ "pairs": {
+  "arm0_vs_arm1": {
+   "improved": [
+    "H-E2 2->1",
+    "H-E3 2->1",
+    "H-E4 2->1",
+    "H-E5 2->1"
+   ],
+   "worse": [],
+   "unchanged": [
+    "H-N1",
+    "H-N2",
+    "H-N3",
+    "H-N4",
+    "H-N5",
+    "H-N6",
+    "H-N7",
+    "H-N8",
+    "H-N9",
+    "H-N10",
+    "H-E1",
+    "H-E6",
+    "H-E7",
+    "H-E8",
+    "H-E9",
+    "H-E10",
+    "H-C1",
+    "H-C2",
+    "H-C3",
+    "H-C4",
+    "H-C5",
+    "H-C6",
+    "H-C7",
+    "H-C8",
+    "H-C9",
+    "H-C10"
+   ]
+  },
+  "arm1_vs_arm2": {
+   "improved": [
+    "H-N1 -->7",
+    "H-N4 2->1",
+    "H-N8 5->4",
+    "H-E1 3->1",
+    "H-E7 2->1",
+    "H-E9 3->1"
+   ],
+   "worse": [
+    "H-N3 1->8",
+    "H-N9 5->7",
+    "H-E2 1->2",
+    "H-C2 1->2"
+   ],
+   "unchanged": [
+    "H-N2",
+    "H-N5",
+    "H-N6",
+    "H-N7",
+    "H-N10",
+    "H-E3",
+    "H-E4",
+    "H-E5",
+    "H-E6",
+    "H-E8",
+    "H-E10",
+    "H-C1",
+    "H-C3",
+    "H-C4",
+    "H-C5",
+    "H-C6",
+    "H-C7",
+    "H-C8",
+    "H-C9",
+    "H-C10"
+   ]
+  },
+  "arm2_vs_arm3": {
+   "improved": [
+    "H-N3 8->1",
+    "H-N8 4->1",
+    "H-N9 7->3",
+    "H-E2 2->1",
+    "H-C2 2->1",
+    "H-C10 2->1"
+   ],
+   "worse": [
+    "H-C5 1->2"
+   ],
+   "unchanged": [
+    "H-N1",
+    "H-N2",
+    "H-N4",
+    "H-N5",
+    "H-N6",
+    "H-N7",
+    "H-N10",
+    "H-E1",
+    "H-E3",
+    "H-E4",
+    "H-E5",
+    "H-E6",
+    "H-E7",
+    "H-E8",
+    "H-E9",
+    "H-E10",
+    "H-C1",
+    "H-C3",
+    "H-C4",
+    "H-C6",
+    "H-C7",
+    "H-C8",
+    "H-C9"
+   ]
+  },
+  "arm0_vs_arm3": {
+   "improved": [
+    "H-N1 -->7",
+    "H-N4 2->1",
+    "H-N8 5->1",
+    "H-N9 5->3",
+    "H-E1 3->1",
+    "H-E2 2->1",
+    "H-E3 2->1",
+    "H-E4 2->1",
+    "H-E5 2->1",
+    "H-E7 2->1",
+    "H-E9 3->1",
+    "H-C10 2->1"
+   ],
+   "worse": [
+    "H-C5 1->2"
+   ],
+   "unchanged": [
+    "H-N2",
+    "H-N3",
+    "H-N5",
+    "H-N6",
+    "H-N7",
+    "H-N10",
+    "H-E6",
+    "H-E8",
+    "H-E10",
+    "H-C1",
+    "H-C2",
+    "H-C3",
+    "H-C4",
+    "H-C6",
+    "H-C7",
+    "H-C8",
+    "H-C9"
+   ]
+  }
+ },
+ "latency": {
+  "arm0": {
+   "total_median_ms": 75,
+   "total_p95_ms": 588
+  },
+  "arm1": {
+   "total_median_ms": 66,
+   "total_p95_ms": 127
+  },
+  "arm2": {
+   "total_median_ms": 67,
+   "total_p95_ms": 318
+  },
+  "arm3": {
+   "total_median_ms": 452,
+   "total_p95_ms": 1431,
+   "rerank_added_median_ms": 366,
+   "rerank_added_p95_ms": 1332
+  }
+ },
+ "primary_claim": {
+  "conditions": {
+   "top5_not_lower": true,
+   "top1_plus_3": true,
+   "more_improved_than_worse": true,
+   "latency_within_budget": true
+  },
+  "passed": true,
+  "wording": "Passing means the system passed the predefined Stage 6 engineering/generalisation criteria; it is not statistical proof of generalisation (30 in-scope questions)."
+ },
+ "reranker_value": {
+  "arm2_within_one_of_arm3_at_top1_and_top5": false,
+  "rule": "if within one at both, discuss explicitly whether MiniLM justifies its complexity and latency (recommend dropping it as simpler and cheaper); otherwise recommend keeping it"
+ },
+ "tie_break": {
+  "confirmed": true
+ },
+ "fallback_if_reranker_kept": "arm1"
+}

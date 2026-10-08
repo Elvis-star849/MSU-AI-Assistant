@@ -1,0 +1,122 @@
+S6-6 grading spot-check: 20 grades (7 graded 2, 7 graded 1, 6 graded 0), drawn with random.Random(20261009) from all 137 S6-6 grades.
+For each: mark AGREE or DISAGREE (and the grade you would give).
+
+#1  H-N1: When can a PhD or MPhil student apply for full registration?
+    Answer key (sufficient): At the end of the provisional registration period, provided the candidate has successfully presented their final supervised proposal at a scheduled Faculty, School or Institute Seminar Series (otherwise extension or termination may be recommended)
+    Chunk [H-N1-r03] MSU Humanities Yearbook, p. 150: 6.1.2 The candidate shall be given one semester (six months) to complete and defend (at a faculty organised seminar series) the full proposal. The semester will not be counted as part of the training period. Extension of period rests with Senate. 6.2 Full Registration At the end of the provisional registration period, a candidate shall be required to apply for full registration provided they have successfully presented their final supervised proposal at a scheduled Faculty, School or Institute Seminar Series. If the candidate fails to meet the requirements for full registration within the stipulated time, the Faculty Higher Degrees Committees, the School, Institute or Departmental Board may recommend period of extension for approval by Senate, or termination of studies.
+    MY GRADE: 2
+    YOUR VERDICT: 
+
+#2  H-N3: What do I need to do to be allowed to sit the exam for a module?
+    Answer key (sufficient): Attend all lectures, tutorials, seminars and practical work and do the approved activities/assignments, and meet the department's (Senate-approved) requirements for the module; otherwise the student may not take that module's examination
+    Chunk [H-N3-t01] MSU Sciences Yearbook Vol. 2, p. 148: 21. EXAMINERS AND DETERMINATION OF RESULTS 21.1 WRITTEN MODULES Two Examiners of whom one shall be a moderator shall be appointed by Senate on the recommendation of the Faculty Higher Degrees Committee to examine written modules in respect of the taught Master's Degree programmes and Post Graduate Diploma programmes. 1.2 APPEALS 1.2.1 All re-mark requests will not be entertained unless directed by Senate. However, a student who has been given a withdraw or a discontinue decision may appeal in writing to the Registrar within twenty-one days after the publication of the examination results. 1.2.2 An application entered on a candidate's behalf by a person other than the aggrieved candidate himself/herself shall not be entertained.
+    MY GRADE: 0
+    YOUR VERDICT: 
+
+#3  H-N1: When can a PhD or MPhil student apply for full registration?
+    Answer key (sufficient): At the end of the provisional registration period, provided the candidate has successfully presented their final supervised proposal at a scheduled Faculty, School or Institute Seminar Series (otherwise extension or termination may be recommended)
+    Chunk [H-N1-r06] MSU Sciences Yearbook Vol. 2, p. 152: 5.2 PhD/Doctor of Philosophy 5.2.1 A candidate must be in possession of a pass in a relevant Master's or MPhil degree (ZNQF Level 9) or its equivalence, in a field offered by the University. 5.3 Application Requirements and Procedure 5.3.1 Application for MPhil or PhD/DPhil shall be made online on https://ww5.msu.ac.zw on the MSU-Postgraduate Studies Portal. 5.3.2 A one-to-four paged concept note, certified copies of academic, and professional qualifications shall be required. 5.3.3 A motivational statement, or curriculum vitae or resume, and or any such additional documents, and or artefacts, recordings or publications may be requested. 5.3.4 Proficiency in English language, or any such, as may be deemed relevant to be used for training shall be verified. 6. REGISTRATION
+    MY GRADE: 0
+    YOUR VERDICT: 
+
+#4  H-N1: When can a PhD or MPhil student apply for full registration?
+    Answer key (sufficient): At the end of the provisional registration period, provided the candidate has successfully presented their final supervised proposal at a scheduled Faculty, School or Institute Seminar Series (otherwise extension or termination may be recommended)
+    Chunk [H-N1-r01] MSU Humanities Yearbook, p. 149: 2.2 The objective of the Masters degree by research (MPhil) and doctoral study (PhD/DPhil) is to guide students to do original research. Thesis produced should be original and suitable for at least two publications in an accredited peer- reviewed indexed journal as a contribution towards knowledge and insight of the discipline. 2.3 The degrees shall be offered in all Departments within all Faculties; Schools, and Institutes. Fields of study or research shall be determined by Senate. 2.4 The maximum timeframe expected for a decision on provisional and full registration from the date of receipt of the application shall normally be 21 working days respectively. 3. REGULATIONS
+    MY GRADE: 1
+    YOUR VERDICT: 
+
+#5  H-N4: Can the university refuse to admit someone because of their religion or race?
+    Answer key (sufficient): No test of religious or political belief, race, ethnic origin, nationality or gender may be imposed for admission as staff or student or to hold office; the University may still give preference to citizens or residents of Zimbabwe
+    Chunk [H-N4-t07] MSU Humanities Yearbook, p. 15: [amended by the General Laws Amendment (No.2) Act 2002 promulgated on the 24th January, 2003 - with retrospective effect, in terms of clause 47 - from the 4th February, 2002 (g) registered students; and (h) the Convocation. 6 Prohibition against discrimination in membership of University (1) No test of religious or political belief, race, ethnic origin, nationality or gender shall be imposed upon or required of any person in order to entitle him to be admitted as a member of staff or student of the University or to hold any office therein or privilege thereof. (2) Nothing in subsection (1) shall be construed as preventing the University from giving preference to citizens or residents of Zimbabwe when making appointments or promotions or when admitting students.
+    MY GRADE: 2
+    YOUR VERDICT: 
+
+#6  H-C4: What kind of project management techniques does DPCR635 cover?
+    Answer key (sufficient): Description of DPCR635 Project Management
+    Chunk [H-C4-t02] MSU Humanities Yearbook, p. 880: DPCR 635 Project Management The module is primarily about the rationale, context, and methods of planning, appraising and evaluating development projects and programmes. The module primarily focuses on appraising the financial and economic efficiency of peacekeeping-related projects. The module covers planning and management techniques for the project cycle; including project identification and logical framework analysis.
+    MY GRADE: 2
+    YOUR VERDICT: 
+
+#7  H-N9: When does a Council member lose their seat?
+    Answer key (sufficient): A member vacates office (a) after resigning with the required notice, (b) on starting a prison sentence of 6 months or more without the option of a fine, (c) if disqualified under section 12(a)/(b), (d) if absent without permission from three consecutive Council meetings. Grade 2 for a chunk with at least three of the four grounds; fewer is grade 1
+    Chunk [H-N9-r01] MSU Humanities Yearbook, p. 18: whether or not any portion has been suspended, imposed without the option of a fine in any country; or (c) if he becomes disqualified in terms of paragraph (a) or (b) of section twelve to hold office as member; or [amended by the General Laws Amendment (No.2) Act 2002 promulgated on the 24th January, 2003 - with retrospective effect, in terms of clause 47 - from the 4th February, 2002 (d) if he is absent without the permission of the Council from three consecutive meetings of the Council.
+    MY GRADE: 1
+    YOUR VERDICT: 
+
+#8  H-E8: MHORT711
+    Answer key (sufficient): Description of MHORT711 Viticulture and Oenology
+    Chunk [H-E8-t02] MSU Sciences Yearbook Vol. 2, p. 274: MHORT 711 Viticulture and Oenology The module will cover basic grape morphology and production directions. Wine grape cultivars. An introduction to the composition of grapes, must and wine, as well as micro- organisms in winemaking. The fundamentals of alcoholic fermentation, cellar equipment and production methods. An introduction to wine styles and wine evaluation. Fining and clarification of wine: fining trials, filtration of wine. Bottling principles. Wine faults. Blending of wines and evaluation.
+    MY GRADE: 2
+    YOUR VERDICT: 
+
+#9  H-E9: what is indso 413
+    Answer key (sufficient): Description of INDSO413 Economy, Society and Governance
+    Chunk [H-E9-t05] MSU Humanities Yearbook, p. 710: 24 Elective Modules (choose one) INDSO 413 Economy, Society and Governance 12 MPM408 Migration Management and Protection 12 MODULE SYNOPSES SOSP 101 Introduction to Sociology In this module, students gain a theoretical foundation for understanding social issues. The module begins with a discussion of the theoretical origins of Sociology, its key concepts, similarities and differences with other social science subjects. Students are expected to acquire critical, analytical and practical skills that will also serve them in other social science modules as well. Students are introduced to some critical evaluation of discourse on the nature, antecedents and trends in sociological theorising.
+    MY GRADE: 1
+    YOUR VERDICT: 
+
+#10  H-E1: What is MLMD 111 about?
+    Answer key (sufficient): Description of MLMD111 Advanced Guidance and Counselling for Educational Managers
+    Chunk [H-E1-t01] MSU Humanities Yearbook, p. 463: 18 MLMD103 Organisational Behaviour 18 MED 731 Advanced Research Methods and Statistics 18 MICT732 Advanced Information Communication Technology in Education 18 Level 1 Semester 2 MLMD104 Supervision, Assessment and Evaluation in Education 18 MLMD105 Strategic Human Resources Development in Education 18 MLMD106 Policy and Legal Issues in Education 18 MED733 Gender Discourse in Education 18 MLMD107 Corporate Ethics and Financial Management in Education 18 Level 2 Semester 1 MLMD108 Managing Change of Innovation 18 One elective from the following MLMD109 *Advanced Economics of Education 18 MLMD110 *Programme Evaluation in Education 18 MLMD111 *Advanced Guidance and Counselling for Educational Managers 18 MLMD112 *Leading Learning in Crises Contexts
+    MY GRADE: 1
+    YOUR VERDICT: 
+
+#11  H-N5: What is included in a lecturer's annual performance report?
+    Answer key (sufficient): An assessment of the member's teaching, research, innovation and industrialisation (items 7.4 and 7.5), with an additional section for innovation, consultancy, creative work and enterprise development; placed in the personal file by the Head/Chairperson of Department
+    Chunk [H-N5-t06] MSU Humanities Yearbook, p. 95: 7.10.2.4 Seminars All Departments are required to encourage members of staff to hold seminars on relevant subjects of their choice to which staff and students should be invited to attend. Assessment of presentations in seminars and public lectures may become part of the evaluation of the members of staff's application for promotion. 7.10.2.5 Report on Research, Innovation, Creative Work and Enterprise Development The section of the Annual Performance Report on a member's research shall comprise: A report prepared by the member of staff, on his/her peer reviewed publications, innovation, creative work, filing or registration of IPR; enterprise development; conference papers, conference talks and the status of his/her work in progress during that year.
+    MY GRADE: 1
+    YOUR VERDICT: 
+
+#12  H-N3: What do I need to do to be allowed to sit the exam for a module?
+    Answer key (sufficient): Attend all lectures, tutorials, seminars and practical work and do the approved activities/assignments, and meet the department's (Senate-approved) requirements for the module; otherwise the student may not take that module's examination
+    Chunk [H-N3-t07] MSU Sciences Yearbook Vol. 2, p. 162: permission of the Executive Dean of the Faculty will automatically fail the module. 4.1.3. In their third level, students go on Work-Related Learning for a period of at least ten (10) months and during this period they should undertake a Research Project. 4.1.4. For each semester, all pre-requisites that apply to a module shall be listed in the special regulations for the degree programme of which the module forms a part. A student shall not register for a module unless he/she has passed all pre- requisites for that module. 4.1.5. A student may include in his/her programme, modules offered by other Departments. 4.1.6. A student's selection of modules will be subject to the approval of the Dean of the Faculty and Chairpersons of all respective Departments. The selection will
+    MY GRADE: 0
+    YOUR VERDICT: 
+
+#13  H-N9: When does a Council member lose their seat?
+    Answer key (sufficient): A member vacates office (a) after resigning with the required notice, (b) on starting a prison sentence of 6 months or more without the option of a fine, (c) if disqualified under section 12(a)/(b), (d) if absent without permission from three consecutive Council meetings. Grade 2 for a chunk with at least three of the four grounds; fewer is grade 1
+    Chunk [H-N9-t04] MSU Sciences Yearbook Vol. 2, p. 18: (c) if he becomes disqualified in terms of paragraph (a) or (b) of section twelve to hold office as member; or [amended by the General Laws Amendment (No.2) Act 2002 promulgated on the 24th January, 2003 - with retrospective effect, in terms of clause 47 - from the 4th February, 2002 (d) if he is absent without the permission of the Council from three consecutive meetings of the Council.
+    MY GRADE: 1
+    YOUR VERDICT: 
+
+#14  H-C8: Is MAIDA706 about designing databases for socio-economic data? What does it cover?
+    Answer key (sufficient): Description of MAIDA706 Socio-economic Data Base Systems Design
+    Chunk [H-C8-t01] MSU Sciences Yearbook Vol. 2, p. 210: MAIDA706 Socio-economic Data Base Systems Design The module covers the following topics; Information in Social Context, Socio-economic data, Aggregate and disaggregate data, Cross-sectional and longitudinal data, Sources of socio- economic data, Database design, determining data to be stored, Principle of orthogonal design, determining data relationships, Concept mapping, logically structuring data, Entity- Relationship model, Database normalization, Conceptual schema and Physical design of the database.
+    MY GRADE: 2
+    YOUR VERDICT: 
+
+#15  H-N1: When can a PhD or MPhil student apply for full registration?
+    Answer key (sufficient): At the end of the provisional registration period, provided the candidate has successfully presented their final supervised proposal at a scheduled Faculty, School or Institute Seminar Series (otherwise extension or termination may be recommended)
+    Chunk [H-N1-r02] MSU Sciences Yearbook Vol. 2, p. 152: 6.1.2 The candidate shall be given one semester (six months) to complete and defend (at a faculty organised seminar series) the full proposal. The semester will not be counted as part of the training period. Extension of period rests with Senate. 6.2 Full Registration At the end of the provisional registration period, a candidate shall be required to apply for full registration provided they have successfully presented their final supervised proposal at a scheduled Faculty, School or Institute Seminar Series. If the candidate fails to meet the requirements for full registration within the stipulated time, the Faculty Higher Degrees Committees, the School, Institute or Departmental Board may recommend period of extension for approval by Senate, or termination of studies.
+    MY GRADE: 2
+    YOUR VERDICT: 
+
+#16  H-N6: Who sits on the university's Finance Committee?
+    Answer key (sufficient): Every Pro-Vice-Chancellor; 3 Council members who are not staff (one is Chairperson); 2 persons appointed by Senate; the Bursar (secretary); the Registrar; a representative of the deans appointed by Council
+    Chunk [H-N6-t09] MSU Humanities Yearbook, p. 32: (b) the vice-chairman of the Council; and (c) the Vice-Chancellor; and (d) every Pro-Vice-Chancellor; and (e) two persons appointed by the Council from among its members who are not members of the Senate; and (f) three persons appointed by the Senate from among its members. (2) The joint committee constituted by this Statute shall consider each applicant to a vacancy in the office of Registrar, Bursar or Librarian and shall make recommendations thereon to the Council.
+    MY GRADE: 0
+    YOUR VERDICT: 
+
+#17  H-E10: Tell me about the module FDB 206
+    Answer key (sufficient): Description of FDB206 Programming in Finance and Banking
+    Chunk [H-E10-t01] MSU Sciences Yearbook Vol. 2, p. 408: FDB205 Banking Law and Practice This module examines the law and practice relating to Banking in Zimbabwe and at the international level. It covers the history and development of the Zimbabwean banking system, the role of regulators, the relationships between banker and customer, accounts of customers, banking instruments, different types of banks, principles of lending, deposits, advance securities, exchange controls and bank supervision and control are covered in the module. FDB206 Programming in Finance and Banking This module concentrates on helping students to appreciate and use programming languages important in the banking and finance industry. It concentrates on the following languages: Python, Java, Scala, C++ and SQL
+    MY GRADE: 2
+    YOUR VERDICT: 
+
+#18  H-N2: How early must I submit my master's dissertation proposal for approval?
+    Answer key (sufficient): To the appropriate department not less than six months before the completion of the dissertation; once approved it may not be changed without Senate permission
+    Chunk [H-N2-t07] MSU Sciences Yearbook Vol. 2, p. 457: cases, on the recommendation of the Examiners, candidates may be permitted to resubmit the dissertation or project at a later date, normally within three months of the original submission deadline. Unless otherwise determined by Senate, the maximum mark allowed for such work should be 50%. 9. PROVISION FOR PROGRESSION Refer to section 6 of the Faculty Regulations.
+    MY GRADE: 0
+    YOUR VERDICT: 
+
+#19  H-N6: Who sits on the university's Finance Committee?
+    Answer key (sufficient): Every Pro-Vice-Chancellor; 3 Council members who are not staff (one is Chairperson); 2 persons appointed by Senate; the Bursar (secretary); the Registrar; a representative of the deans appointed by Council
+    Chunk [H-N6-t01] MSU Humanities Yearbook, p. 11: 27. Student Disciplinary Committee. 28. Finance Committee. 28A. Service of process. 29. Statutes. 30. Regulations. 31. Validity of decisions of Council, Senate, Convocation and boards and committees. SCHEDULE: Statutes of the University. ACT To establish the Midlands State University and to provide for matters connected therewith or incidental thereto. [amended by General Laws Amendment (No.2) Act 2002] [Date of Commencement: 28 May, 1999.] ENACTED by the President and the Parliament of Zimbabwe.
+    MY GRADE: 0
+    YOUR VERDICT: 
+
+#20  H-N3: What do I need to do to be allowed to sit the exam for a module?
+    Answer key (sufficient): Attend all lectures, tutorials, seminars and practical work and do the approved activities/assignments, and meet the department's (Senate-approved) requirements for the module; otherwise the student may not take that module's examination
+    Chunk [H-N3-t04] MSU Sciences Yearbook Vol. 2, p. 615: 5.4 Items that should constitute the continuous assessment, and the weighting attached to each item, shall depend on the module in question. 5.5 With the exception of dissertation, sessional examination shall be conducted in all modules. 5.6 To be admitted for examinations, a candidate must: 5.6.1 Be a registered student of the University in accordance with the General Postgraduate Regulations. 6. PROVISIONS FOR PROGRESSION 6.1 The Faculty Post Graduate Studies Board of Examiners shall meet at the end of each semester to ratify the marks obtained by candidates. 6.2 A student shall progress automatically from one level to the other even carrying the modules from the previous level. 7. FAILURE TO SATISFY THE EXAMINERS
+    MY GRADE: 1
+    YOUR VERDICT: 
