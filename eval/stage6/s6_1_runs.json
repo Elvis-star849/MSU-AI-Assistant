@@ -1,0 +1,5851 @@
+{
+ "variants": {
+  "baseline": "bm25",
+  "T1": "vector",
+  "T2": "neutral"
+ },
+ "runs": {
+  "N1": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 298,
+     "page": 81,
+     "score": 0.7488377094268799,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5710,
+     "page": 32,
+     "score": 0.7435556054115295,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 111,
+     "page": 31,
+     "score": 0.739970326423645,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5709,
+     "page": 31,
+     "score": 0.7214357852935791,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 371,
+     "page": 95,
+     "score": 0.7183066606521606,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 305,
+     "page": 83,
+     "score": 0.713719367980957,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 299,
+     "page": 82,
+     "score": 0.712367057800293,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 289,
+     "page": 79,
+     "score": 0.7123358845710754,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 291,
+     "page": 80,
+     "score": 0.7106072902679443,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 112,
+     "page": 32,
+     "score": 0.7006029486656189,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 298,
+     "page": 81,
+     "score": 0.7488377094268799,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5710,
+     "page": 32,
+     "score": 0.7435556054115295,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 111,
+     "page": 31,
+     "score": 0.739970326423645,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5709,
+     "page": 31,
+     "score": 0.7214357852935791,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 371,
+     "page": 95,
+     "score": 0.7183066606521606,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 305,
+     "page": 83,
+     "score": 0.713719367980957,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 299,
+     "page": 82,
+     "score": 0.712367057800293,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 289,
+     "page": 79,
+     "score": 0.7123358845710754,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 291,
+     "page": 80,
+     "score": 0.7106072902679443,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 112,
+     "page": 32,
+     "score": 0.7006029486656189,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 298,
+     "page": 81,
+     "score": 0.7488377094268799,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5710,
+     "page": 32,
+     "score": 0.7435556054115295,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 111,
+     "page": 31,
+     "score": 0.739970326423645,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5709,
+     "page": 31,
+     "score": 0.7214357852935791,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 371,
+     "page": 95,
+     "score": 0.7183066606521606,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 305,
+     "page": 83,
+     "score": 0.713719367980957,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 299,
+     "page": 82,
+     "score": 0.712367057800293,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 289,
+     "page": 79,
+     "score": 0.7123358845710754,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 291,
+     "page": 80,
+     "score": 0.7106072902679443,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 112,
+     "page": 32,
+     "score": 0.7006029486656189,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "N2": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 731,
+     "page": 169,
+     "score": 0.7535775899887085,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 727,
+     "page": 169,
+     "score": 0.7380422353744507,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 734,
+     "page": 170,
+     "score": 0.7371494770050049,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 742,
+     "page": 171,
+     "score": 0.7316492199897766,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 697,
+     "page": 164,
+     "score": 0.721365213394165,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1205,
+     "page": 235,
+     "score": 0.7145845890045166,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 733,
+     "page": 170,
+     "score": 0.7131884098052979,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 730,
+     "page": 169,
+     "score": 0.7058520913124084,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 747,
+     "page": 172,
+     "score": 0.7055964469909668,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 729,
+     "page": 169,
+     "score": 0.7054626941680908,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 731,
+     "page": 169,
+     "score": 0.7535775899887085,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 727,
+     "page": 169,
+     "score": 0.7380422353744507,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 734,
+     "page": 170,
+     "score": 0.7371494770050049,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 742,
+     "page": 171,
+     "score": 0.7316492199897766,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 697,
+     "page": 164,
+     "score": 0.721365213394165,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1205,
+     "page": 235,
+     "score": 0.7145845890045166,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 733,
+     "page": 170,
+     "score": 0.7131884098052979,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 730,
+     "page": 169,
+     "score": 0.7058520913124084,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 747,
+     "page": 172,
+     "score": 0.7055964469909668,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 729,
+     "page": 169,
+     "score": 0.7054626941680908,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 731,
+     "page": 169,
+     "score": 0.7535775899887085,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 727,
+     "page": 169,
+     "score": 0.7380422353744507,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 734,
+     "page": 170,
+     "score": 0.7371494770050049,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 742,
+     "page": 171,
+     "score": 0.7316492199897766,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 697,
+     "page": 164,
+     "score": 0.721365213394165,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1205,
+     "page": 235,
+     "score": 0.7145845890045166,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 733,
+     "page": 170,
+     "score": 0.7131884098052979,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 730,
+     "page": 169,
+     "score": 0.7058520913124084,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 747,
+     "page": 172,
+     "score": 0.7055964469909668,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 729,
+     "page": 169,
+     "score": 0.7054626941680908,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "N3": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 5652,
+     "page": 19,
+     "score": 0.8053920269012451,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 105,
+     "page": 29,
+     "score": 0.7330721616744995,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 56,
+     "page": 18,
+     "score": 0.7142794132232666,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 106,
+     "page": 30,
+     "score": 0.7032614350318909,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5703,
+     "page": 30,
+     "score": 0.6847958564758301,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5713,
+     "page": 32,
+     "score": 0.6800704598426819,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 107,
+     "page": 30,
+     "score": 0.6727955341339111,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 12,
+     "page": 8,
+     "score": 0.6710208058357239,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 302,
+     "page": 83,
+     "score": 0.6680622100830078,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 13,
+     "page": 8,
+     "score": 0.6642931699752808,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 5652,
+     "page": 19,
+     "score": 0.8053920269012451,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 105,
+     "page": 29,
+     "score": 0.7330721616744995,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 56,
+     "page": 18,
+     "score": 0.7142794132232666,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 106,
+     "page": 30,
+     "score": 0.7032614350318909,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5703,
+     "page": 30,
+     "score": 0.6847958564758301,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5713,
+     "page": 32,
+     "score": 0.6800704598426819,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 107,
+     "page": 30,
+     "score": 0.6727955341339111,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 12,
+     "page": 8,
+     "score": 0.6710208058357239,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 302,
+     "page": 83,
+     "score": 0.6680622100830078,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 13,
+     "page": 8,
+     "score": 0.6642931699752808,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 5652,
+     "page": 19,
+     "score": 0.8053920269012451,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 105,
+     "page": 29,
+     "score": 0.7330721616744995,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 56,
+     "page": 18,
+     "score": 0.7142794132232666,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 106,
+     "page": 30,
+     "score": 0.7032614350318909,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5703,
+     "page": 30,
+     "score": 0.6847958564758301,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5713,
+     "page": 32,
+     "score": 0.6800704598426819,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 107,
+     "page": 30,
+     "score": 0.6727955341339111,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 12,
+     "page": 8,
+     "score": 0.6710208058357239,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 302,
+     "page": 83,
+     "score": 0.6680622100830078,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 13,
+     "page": 8,
+     "score": 0.6642931699752808,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "N4": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 596,
+     "page": 141,
+     "score": 0.7040239572525024,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5604,
+     "page": 929,
+     "score": 0.6982235908508301,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 10724,
+     "page": 1129,
+     "score": 0.695235013961792,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5737,
+     "page": 75,
+     "score": 0.6914631128311157,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 257,
+     "page": 74,
+     "score": 0.680584192276001,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 10723,
+     "page": 1129,
+     "score": 0.679100513458252,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 19,
+     "page": 10,
+     "score": 0.6783062219619751,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 393,
+     "page": 99,
+     "score": 0.675612211227417,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5747,
+     "page": 76,
+     "score": 0.6754695177078247,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 322,
+     "page": 87,
+     "score": 0.6752550601959229,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 596,
+     "page": 141,
+     "score": 0.7040239572525024,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5604,
+     "page": 929,
+     "score": 0.6982235908508301,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 10724,
+     "page": 1129,
+     "score": 0.695235013961792,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5737,
+     "page": 75,
+     "score": 0.6914631128311157,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 257,
+     "page": 74,
+     "score": 0.680584192276001,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 10723,
+     "page": 1129,
+     "score": 0.679100513458252,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 19,
+     "page": 10,
+     "score": 0.6783062219619751,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 393,
+     "page": 99,
+     "score": 0.675612211227417,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5747,
+     "page": 76,
+     "score": 0.6754695177078247,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 322,
+     "page": 87,
+     "score": 0.6752550601959229,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 596,
+     "page": 141,
+     "score": 0.7040239572525024,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5604,
+     "page": 929,
+     "score": 0.6982235908508301,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 10724,
+     "page": 1129,
+     "score": 0.695235013961792,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5737,
+     "page": 75,
+     "score": 0.6914631128311157,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 257,
+     "page": 74,
+     "score": 0.680584192276001,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 10723,
+     "page": 1129,
+     "score": 0.679100513458252,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 19,
+     "page": 10,
+     "score": 0.6783062219619751,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 393,
+     "page": 99,
+     "score": 0.675612211227417,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5747,
+     "page": 76,
+     "score": 0.6754695177078247,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 322,
+     "page": 87,
+     "score": 0.6752550601959229,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "N5": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 5826,
+     "page": 154,
+     "score": 0.7422511577606201,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 640,
+     "page": 151,
+     "score": 0.7389979362487793,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5827,
+     "page": 154,
+     "score": 0.723918080329895,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 641,
+     "page": 152,
+     "score": 0.7204585671424866,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5813,
+     "page": 151,
+     "score": 0.7107262015342712,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5819,
+     "page": 152,
+     "score": 0.706916093826294,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 626,
+     "page": 149,
+     "score": 0.7057625651359558,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 632,
+     "page": 150,
+     "score": 0.6926348209381104,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5829,
+     "page": 154,
+     "score": 0.687472403049469,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5816,
+     "page": 152,
+     "score": 0.6809356808662415,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 5826,
+     "page": 154,
+     "score": 0.7422511577606201,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 640,
+     "page": 151,
+     "score": 0.7389979362487793,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5827,
+     "page": 154,
+     "score": 0.723918080329895,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 641,
+     "page": 152,
+     "score": 0.7204585671424866,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5813,
+     "page": 151,
+     "score": 0.7107262015342712,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5819,
+     "page": 152,
+     "score": 0.706916093826294,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 626,
+     "page": 149,
+     "score": 0.7057625651359558,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 632,
+     "page": 150,
+     "score": 0.6926348209381104,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5829,
+     "page": 154,
+     "score": 0.687472403049469,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5816,
+     "page": 152,
+     "score": 0.6809356808662415,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 5826,
+     "page": 154,
+     "score": 0.7422511577606201,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 640,
+     "page": 151,
+     "score": 0.7389979362487793,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5827,
+     "page": 154,
+     "score": 0.723918080329895,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 641,
+     "page": 152,
+     "score": 0.7204585671424866,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5813,
+     "page": 151,
+     "score": 0.7107262015342712,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5819,
+     "page": 152,
+     "score": 0.706916093826294,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 626,
+     "page": 149,
+     "score": 0.7057625651359558,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 632,
+     "page": 150,
+     "score": 0.6926348209381104,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5829,
+     "page": 154,
+     "score": 0.687472403049469,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5816,
+     "page": 152,
+     "score": 0.6809356808662415,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "N6": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 438,
+     "page": 108,
+     "score": 0.6999021768569946,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 443,
+     "page": 109,
+     "score": 0.6380462646484375,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5610,
+     "page": 930,
+     "score": 0.6158921718597412,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 10729,
+     "page": 1130,
+     "score": 0.6011090874671936,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 444,
+     "page": 109,
+     "score": 0.5968510508537292,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 434,
+     "page": 107,
+     "score": 0.5880399942398071,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5611,
+     "page": 930,
+     "score": 0.5811426639556885,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 439,
+     "page": 108,
+     "score": 0.5799540877342224,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 442,
+     "page": 109,
+     "score": 0.5696497559547424,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 556,
+     "page": 134,
+     "score": 0.5652206540107727,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 438,
+     "page": 108,
+     "score": 0.6999021768569946,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 443,
+     "page": 109,
+     "score": 0.6380462646484375,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5610,
+     "page": 930,
+     "score": 0.6158921718597412,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 10729,
+     "page": 1130,
+     "score": 0.6011090874671936,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 444,
+     "page": 109,
+     "score": 0.5968510508537292,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 434,
+     "page": 107,
+     "score": 0.5880399942398071,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5611,
+     "page": 930,
+     "score": 0.5811426639556885,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 439,
+     "page": 108,
+     "score": 0.5799540877342224,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 442,
+     "page": 109,
+     "score": 0.5696497559547424,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 556,
+     "page": 134,
+     "score": 0.5652206540107727,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 438,
+     "page": 108,
+     "score": 0.6999021768569946,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 443,
+     "page": 109,
+     "score": 0.6380462646484375,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5610,
+     "page": 930,
+     "score": 0.6158921718597412,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 10729,
+     "page": 1130,
+     "score": 0.6011090874671936,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 444,
+     "page": 109,
+     "score": 0.5968510508537292,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 434,
+     "page": 107,
+     "score": 0.5880399942398071,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5611,
+     "page": 930,
+     "score": 0.5811426639556885,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 439,
+     "page": 108,
+     "score": 0.5799540877342224,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 442,
+     "page": 109,
+     "score": 0.5696497559547424,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 556,
+     "page": 134,
+     "score": 0.5652206540107727,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "N7": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 5816,
+     "page": 152,
+     "score": 0.7452961206436157,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5829,
+     "page": 154,
+     "score": 0.7300629019737244,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 628,
+     "page": 149,
+     "score": 0.7143984436988831,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 643,
+     "page": 152,
+     "score": 0.7094110250473022,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4656,
+     "page": 781,
+     "score": 0.7023597955703735,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 653,
+     "page": 154,
+     "score": 0.6950366497039795,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5819,
+     "page": 152,
+     "score": 0.6921992897987366,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 4057,
+     "page": 692,
+     "score": 0.6881940960884094,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 641,
+     "page": 152,
+     "score": 0.6840696334838867,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 866,
+     "page": 190,
+     "score": 0.6807819604873657,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 5816,
+     "page": 152,
+     "score": 0.7452961206436157,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5829,
+     "page": 154,
+     "score": 0.7300629019737244,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 628,
+     "page": 149,
+     "score": 0.7143984436988831,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 643,
+     "page": 152,
+     "score": 0.7094110250473022,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4656,
+     "page": 781,
+     "score": 0.7023597955703735,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 653,
+     "page": 154,
+     "score": 0.6950366497039795,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5819,
+     "page": 152,
+     "score": 0.6921992897987366,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 4057,
+     "page": 692,
+     "score": 0.6881940960884094,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 641,
+     "page": 152,
+     "score": 0.6840696334838867,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 866,
+     "page": 190,
+     "score": 0.6807819604873657,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 5816,
+     "page": 152,
+     "score": 0.7452961206436157,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5829,
+     "page": 154,
+     "score": 0.7300629019737244,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 628,
+     "page": 149,
+     "score": 0.7143984436988831,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 643,
+     "page": 152,
+     "score": 0.7094110250473022,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4656,
+     "page": 781,
+     "score": 0.7023597955703735,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 653,
+     "page": 154,
+     "score": 0.6950366497039795,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5819,
+     "page": 152,
+     "score": 0.6921992897987366,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 4057,
+     "page": 692,
+     "score": 0.6881940960884094,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 641,
+     "page": 152,
+     "score": 0.6840696334838867,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 866,
+     "page": 190,
+     "score": 0.6807819604873657,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "N8": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 421,
+     "page": 105,
+     "score": 0.7320642471313477,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 529,
+     "page": 130,
+     "score": 0.725835919380188,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 630,
+     "page": 150,
+     "score": 0.7221872210502625,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5817,
+     "page": 152,
+     "score": 0.7197173833847046,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1220,
+     "page": 237,
+     "score": 0.700890064239502,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7723,
+     "page": 520,
+     "score": 0.7007488012313843,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7724,
+     "page": 521,
+     "score": 0.6921955347061157,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 8253,
+     "page": 622,
+     "score": 0.6919712424278259,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 6950,
+     "page": 379,
+     "score": 0.690149188041687,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 532,
+     "page": 130,
+     "score": 0.6875627636909485,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 421,
+     "page": 105,
+     "score": 0.7320642471313477,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 529,
+     "page": 130,
+     "score": 0.725835919380188,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 630,
+     "page": 150,
+     "score": 0.7221872210502625,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5817,
+     "page": 152,
+     "score": 0.7197173833847046,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1220,
+     "page": 237,
+     "score": 0.700890064239502,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7723,
+     "page": 520,
+     "score": 0.7007488012313843,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7724,
+     "page": 521,
+     "score": 0.6921955347061157,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 8253,
+     "page": 622,
+     "score": 0.6919712424278259,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 6950,
+     "page": 379,
+     "score": 0.690149188041687,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 532,
+     "page": 130,
+     "score": 0.6875627636909485,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 421,
+     "page": 105,
+     "score": 0.7320642471313477,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 529,
+     "page": 130,
+     "score": 0.725835919380188,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 630,
+     "page": 150,
+     "score": 0.7221872210502625,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5817,
+     "page": 152,
+     "score": 0.7197173833847046,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1220,
+     "page": 237,
+     "score": 0.700890064239502,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7723,
+     "page": 520,
+     "score": 0.7007488012313843,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7724,
+     "page": 521,
+     "score": 0.6921955347061157,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 8253,
+     "page": 622,
+     "score": 0.6919712424278259,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 6950,
+     "page": 379,
+     "score": 0.690149188041687,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 532,
+     "page": 130,
+     "score": 0.6875627636909485,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "N9": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 5851,
+     "page": 159,
+     "score": 0.7806195020675659,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 664,
+     "page": 156,
+     "score": 0.7651056051254272,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5131,
+     "page": 855,
+     "score": 0.7190219759941101,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 4066,
+     "page": 694,
+     "score": 0.700972318649292,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5023,
+     "page": 839,
+     "score": 0.7001909017562866,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 4717,
+     "page": 789,
+     "score": 0.688752293586731,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5848,
+     "page": 159,
+     "score": 0.6866090297698975,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 662,
+     "page": 156,
+     "score": 0.6850520372390747,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 419,
+     "page": 104,
+     "score": 0.6820130348205566,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5844,
+     "page": 158,
+     "score": 0.6775803565979004,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 5851,
+     "page": 159,
+     "score": 0.7806195020675659,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 664,
+     "page": 156,
+     "score": 0.7651056051254272,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5131,
+     "page": 855,
+     "score": 0.7190219759941101,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 4066,
+     "page": 694,
+     "score": 0.700972318649292,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5023,
+     "page": 839,
+     "score": 0.7001909017562866,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 4717,
+     "page": 789,
+     "score": 0.688752293586731,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5848,
+     "page": 159,
+     "score": 0.6866090297698975,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 662,
+     "page": 156,
+     "score": 0.6850520372390747,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 419,
+     "page": 104,
+     "score": 0.6820130348205566,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5844,
+     "page": 158,
+     "score": 0.6775803565979004,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 5851,
+     "page": 159,
+     "score": 0.7806195020675659,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 664,
+     "page": 156,
+     "score": 0.7651056051254272,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5131,
+     "page": 855,
+     "score": 0.7190219759941101,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 4066,
+     "page": 694,
+     "score": 0.700972318649292,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5023,
+     "page": 839,
+     "score": 0.7001909017562866,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 4717,
+     "page": 789,
+     "score": 0.688752293586731,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5848,
+     "page": 159,
+     "score": 0.6866090297698975,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 662,
+     "page": 156,
+     "score": 0.6850520372390747,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 419,
+     "page": 104,
+     "score": 0.6820130348205566,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5844,
+     "page": 158,
+     "score": 0.6775803565979004,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "N10": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 566,
+     "page": 136,
+     "score": 0.7516371607780457,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2364,
+     "page": 424,
+     "score": 0.7336283326148987,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2329,
+     "page": 418,
+     "score": 0.7312819957733154,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 2019,
+     "page": 368,
+     "score": 0.7287443280220032,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8319,
+     "page": 636,
+     "score": 0.7238703966140747,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 2293,
+     "page": 413,
+     "score": 0.7130863666534424,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 2085,
+     "page": 378,
+     "score": 0.708054780960083,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 2253,
+     "page": 407,
+     "score": 0.7062160968780518,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 2050,
+     "page": 372,
+     "score": 0.7061811685562134,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 497,
+     "page": 122,
+     "score": 0.7043139934539795,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 566,
+     "page": 136,
+     "score": 0.7516371607780457,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2364,
+     "page": 424,
+     "score": 0.7336283326148987,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2329,
+     "page": 418,
+     "score": 0.7312819957733154,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 2019,
+     "page": 368,
+     "score": 0.7287443280220032,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8319,
+     "page": 636,
+     "score": 0.7238703966140747,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 2293,
+     "page": 413,
+     "score": 0.7130863666534424,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 2085,
+     "page": 378,
+     "score": 0.708054780960083,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 2253,
+     "page": 407,
+     "score": 0.7062160968780518,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 2050,
+     "page": 372,
+     "score": 0.7061811685562134,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 497,
+     "page": 122,
+     "score": 0.7043139934539795,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 566,
+     "page": 136,
+     "score": 0.7516371607780457,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2364,
+     "page": 424,
+     "score": 0.7336283326148987,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2329,
+     "page": 418,
+     "score": 0.7312819957733154,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 2019,
+     "page": 368,
+     "score": 0.7287443280220032,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8319,
+     "page": 636,
+     "score": 0.7238703966140747,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 2293,
+     "page": 413,
+     "score": 0.7130863666534424,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 2085,
+     "page": 378,
+     "score": 0.708054780960083,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 2253,
+     "page": 407,
+     "score": 0.7062160968780518,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 2050,
+     "page": 372,
+     "score": 0.7061811685562134,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 497,
+     "page": 122,
+     "score": 0.7043139934539795,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "E1": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 1616,
+     "page": 303,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1618,
+     "page": 304,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 1618,
+     "page": 304,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1616,
+     "page": 303,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 1616,
+     "page": 303,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1618,
+     "page": 304,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "E2": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 7832,
+     "page": 541,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7837,
+     "page": 542,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 7832,
+     "page": 541,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7837,
+     "page": 542,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 7832,
+     "page": 541,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7837,
+     "page": 542,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "E3": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 3190,
+     "page": 556,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3282,
+     "page": 571,
+     "score": 0.032266458495966696,
+     "vector_rank": 3,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3300,
+     "page": 573,
+     "score": 0.03200204813108039,
+     "vector_rank": 2,
+     "bm25_rank": 3,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 3190,
+     "page": 556,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3282,
+     "page": 571,
+     "score": 0.032266458495966696,
+     "vector_rank": 3,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3300,
+     "page": 573,
+     "score": 0.03200204813108039,
+     "vector_rank": 2,
+     "bm25_rank": 3,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 3190,
+     "page": 556,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3282,
+     "page": 571,
+     "score": 0.032266458495966696,
+     "vector_rank": 3,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3300,
+     "page": 573,
+     "score": 0.03200204813108039,
+     "vector_rank": 2,
+     "bm25_rank": 3,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "E4": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 8076,
+     "page": 589,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8084,
+     "page": 590,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 8076,
+     "page": 589,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8084,
+     "page": 590,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 8076,
+     "page": 589,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8084,
+     "page": 590,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "E5": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 3314,
+     "page": 576,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3308,
+     "page": 575,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 3314,
+     "page": 576,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3308,
+     "page": 575,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 3314,
+     "page": 576,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3308,
+     "page": 575,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "E6": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 8050,
+     "page": 583,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8053,
+     "page": 584,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 8053,
+     "page": 584,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8050,
+     "page": 583,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 8050,
+     "page": 583,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8053,
+     "page": 584,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "E7": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 5169,
+     "page": 862,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5180,
+     "page": 864,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 5180,
+     "page": 864,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5169,
+     "page": 862,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 5169,
+     "page": 862,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5180,
+     "page": 864,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "E8": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 7762,
+     "page": 528,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7760,
+     "page": 528,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 7760,
+     "page": 528,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7762,
+     "page": 528,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 7760,
+     "page": 528,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7762,
+     "page": 528,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "E9": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 1277,
+     "page": 247,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1271,
+     "page": 246,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 1277,
+     "page": 247,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1271,
+     "page": 246,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 1277,
+     "page": 247,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1271,
+     "page": 246,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "E10": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 7549,
+     "page": 487,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7557,
+     "page": 489,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 7557,
+     "page": 489,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7549,
+     "page": 487,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 7549,
+     "page": 487,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7557,
+     "page": 489,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "C1": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 1360,
+     "page": 259,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1371,
+     "page": 261,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 1360,
+     "page": 259,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1371,
+     "page": 261,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 1360,
+     "page": 259,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1371,
+     "page": 261,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "C2": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 2409,
+     "page": 431,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2415,
+     "page": 432,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 2409,
+     "page": 431,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2415,
+     "page": 432,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 2409,
+     "page": 431,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2415,
+     "page": 432,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "C3": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 2987,
+     "page": 524,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2993,
+     "page": 525,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 2993,
+     "page": 525,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2987,
+     "page": 524,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 2987,
+     "page": 524,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2993,
+     "page": 525,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "C4": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 3490,
+     "page": 604,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3484,
+     "page": 603,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 3490,
+     "page": 604,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3484,
+     "page": 603,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 3490,
+     "page": 604,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3484,
+     "page": 603,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "C5": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 3185,
+     "page": 556,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3237,
+     "page": 564,
+     "score": 0.0315136476426799,
+     "vector_rank": 2,
+     "bm25_rank": 5,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3280,
+     "page": 570,
+     "score": 0.03149801587301587,
+     "vector_rank": 3,
+     "bm25_rank": 4,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3287,
+     "page": 571,
+     "score": 0.03128054740957967,
+     "vector_rank": 6,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 3250,
+     "page": 566,
+     "score": 0.03125763125763126,
+     "vector_rank": 5,
+     "bm25_rank": 3,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3187,
+     "page": 556,
+     "score": 0.030776515151515152,
+     "vector_rank": 4,
+     "bm25_rank": 6,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 3185,
+     "page": 556,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3237,
+     "page": 564,
+     "score": 0.0315136476426799,
+     "vector_rank": 2,
+     "bm25_rank": 5,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3280,
+     "page": 570,
+     "score": 0.03149801587301587,
+     "vector_rank": 3,
+     "bm25_rank": 4,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3287,
+     "page": 571,
+     "score": 0.03128054740957967,
+     "vector_rank": 6,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 3250,
+     "page": 566,
+     "score": 0.03125763125763126,
+     "vector_rank": 5,
+     "bm25_rank": 3,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3187,
+     "page": 556,
+     "score": 0.030776515151515152,
+     "vector_rank": 4,
+     "bm25_rank": 6,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 3185,
+     "page": 556,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3237,
+     "page": 564,
+     "score": 0.0315136476426799,
+     "vector_rank": 2,
+     "bm25_rank": 5,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3280,
+     "page": 570,
+     "score": 0.03149801587301587,
+     "vector_rank": 3,
+     "bm25_rank": 4,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3287,
+     "page": 571,
+     "score": 0.03128054740957967,
+     "vector_rank": 6,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 3250,
+     "page": 566,
+     "score": 0.03125763125763126,
+     "vector_rank": 5,
+     "bm25_rank": 3,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3187,
+     "page": 556,
+     "score": 0.030776515151515152,
+     "vector_rank": 4,
+     "bm25_rank": 6,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "C6": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 8511,
+     "page": 674,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8560,
+     "page": 684,
+     "score": 0.032266458495966696,
+     "vector_rank": 3,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8510,
+     "page": 674,
+     "score": 0.03200204813108039,
+     "vector_rank": 2,
+     "bm25_rank": 3,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 8517,
+     "page": 676,
+     "score": 0.031009615384615385,
+     "vector_rank": 4,
+     "bm25_rank": 5,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8567,
+     "page": 686,
+     "score": 0.030776515151515152,
+     "vector_rank": 6,
+     "bm25_rank": 4,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8518,
+     "page": 676,
+     "score": 0.030536130536130537,
+     "vector_rank": 5,
+     "bm25_rank": 6,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 8511,
+     "page": 674,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8560,
+     "page": 684,
+     "score": 0.032266458495966696,
+     "vector_rank": 3,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8510,
+     "page": 674,
+     "score": 0.03200204813108039,
+     "vector_rank": 2,
+     "bm25_rank": 3,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 8517,
+     "page": 676,
+     "score": 0.031009615384615385,
+     "vector_rank": 4,
+     "bm25_rank": 5,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8567,
+     "page": 686,
+     "score": 0.030776515151515152,
+     "vector_rank": 6,
+     "bm25_rank": 4,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8518,
+     "page": 676,
+     "score": 0.030536130536130537,
+     "vector_rank": 5,
+     "bm25_rank": 6,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 8511,
+     "page": 674,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8560,
+     "page": 684,
+     "score": 0.032266458495966696,
+     "vector_rank": 3,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8510,
+     "page": 674,
+     "score": 0.03200204813108039,
+     "vector_rank": 2,
+     "bm25_rank": 3,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 8517,
+     "page": 676,
+     "score": 0.031009615384615385,
+     "vector_rank": 4,
+     "bm25_rank": 5,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8567,
+     "page": 686,
+     "score": 0.030776515151515152,
+     "vector_rank": 6,
+     "bm25_rank": 4,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8518,
+     "page": 676,
+     "score": 0.030536130536130537,
+     "vector_rank": 5,
+     "bm25_rank": 6,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "C7": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 10586,
+     "page": 1105,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10599,
+     "page": 1108,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 10586,
+     "page": 1105,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10599,
+     "page": 1108,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 10586,
+     "page": 1105,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10599,
+     "page": 1108,
+     "score": 0.03225806451612903,
+     "vector_rank": 2,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "C8": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 10530,
+     "page": 1095,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 10530,
+     "page": 1095,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 10530,
+     "page": 1095,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "C9": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 7151,
+     "page": 414,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7153,
+     "page": 415,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 7153,
+     "page": 415,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7151,
+     "page": 414,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 7151,
+     "page": 414,
+     "score": 0.03252247488101534,
+     "vector_rank": 2,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7153,
+     "page": 415,
+     "score": 0.03252247488101534,
+     "vector_rank": 1,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "C10": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 7350,
+     "page": 451,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7832,
+     "page": 541,
+     "score": 0.03200204813108039,
+     "vector_rank": 2,
+     "bm25_rank": 3,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 7297,
+     "page": 442,
+     "score": 0.031754032258064516,
+     "vector_rank": 4,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 7971,
+     "page": 568,
+     "score": 0.03125763125763126,
+     "vector_rank": 3,
+     "bm25_rank": 5,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 6981,
+     "page": 385,
+     "score": 0.030303030303030304,
+     "vector_rank": 6,
+     "bm25_rank": 6,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7045,
+     "page": 396,
+     "score": 0.029877369007803793,
+     "vector_rank": 5,
+     "bm25_rank": 9,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 6980,
+     "page": 385,
+     "score": 0.029850746268656716,
+     "vector_rank": 7,
+     "bm25_rank": 7,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7339,
+     "page": 449,
+     "score": 0.02919863597612958,
+     "vector_rank": 9,
+     "bm25_rank": 8,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7246,
+     "page": 434,
+     "score": 0.029138513513513514,
+     "vector_rank": 14,
+     "bm25_rank": 4,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7838,
+     "page": 542,
+     "score": 0.028594771241830064,
+     "vector_rank": 8,
+     "bm25_rank": 12,
+     "route": "code_hybrid"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 7350,
+     "page": 451,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7832,
+     "page": 541,
+     "score": 0.03200204813108039,
+     "vector_rank": 2,
+     "bm25_rank": 3,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 7297,
+     "page": 442,
+     "score": 0.031754032258064516,
+     "vector_rank": 4,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 7971,
+     "page": 568,
+     "score": 0.03125763125763126,
+     "vector_rank": 3,
+     "bm25_rank": 5,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 6981,
+     "page": 385,
+     "score": 0.030303030303030304,
+     "vector_rank": 6,
+     "bm25_rank": 6,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7045,
+     "page": 396,
+     "score": 0.029877369007803793,
+     "vector_rank": 5,
+     "bm25_rank": 9,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 6980,
+     "page": 385,
+     "score": 0.029850746268656716,
+     "vector_rank": 7,
+     "bm25_rank": 7,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7339,
+     "page": 449,
+     "score": 0.02919863597612958,
+     "vector_rank": 9,
+     "bm25_rank": 8,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7246,
+     "page": 434,
+     "score": 0.029138513513513514,
+     "vector_rank": 14,
+     "bm25_rank": 4,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7838,
+     "page": 542,
+     "score": 0.028594771241830064,
+     "vector_rank": 8,
+     "bm25_rank": 12,
+     "route": "code_hybrid"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 7350,
+     "page": 451,
+     "score": 0.03278688524590164,
+     "vector_rank": 1,
+     "bm25_rank": 1,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7832,
+     "page": 541,
+     "score": 0.03200204813108039,
+     "vector_rank": 2,
+     "bm25_rank": 3,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 7297,
+     "page": 442,
+     "score": 0.031754032258064516,
+     "vector_rank": 4,
+     "bm25_rank": 2,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 7971,
+     "page": 568,
+     "score": 0.03125763125763126,
+     "vector_rank": 3,
+     "bm25_rank": 5,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 6981,
+     "page": 385,
+     "score": 0.030303030303030304,
+     "vector_rank": 6,
+     "bm25_rank": 6,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7045,
+     "page": 396,
+     "score": 0.029877369007803793,
+     "vector_rank": 5,
+     "bm25_rank": 9,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 6980,
+     "page": 385,
+     "score": 0.029850746268656716,
+     "vector_rank": 7,
+     "bm25_rank": 7,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7339,
+     "page": 449,
+     "score": 0.02919863597612958,
+     "vector_rank": 9,
+     "bm25_rank": 8,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7246,
+     "page": 434,
+     "score": 0.029138513513513514,
+     "vector_rank": 14,
+     "bm25_rank": 4,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7838,
+     "page": 542,
+     "score": 0.028594771241830064,
+     "vector_rank": 8,
+     "bm25_rank": 12,
+     "route": "code_hybrid"
+    }
+   ]
+  },
+  "O1": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 8168,
+     "page": 606,
+     "score": 0.6821060180664062,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8087,
+     "page": 591,
+     "score": 0.637680172920227,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 241,
+     "page": 67,
+     "score": 0.6376134157180786,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3505,
+     "page": 606,
+     "score": 0.6363360285758972,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8167,
+     "page": 606,
+     "score": 0.6190143823623657,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8086,
+     "page": 591,
+     "score": 0.6141612529754639,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 10544,
+     "page": 1098,
+     "score": 0.6135040521621704,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10549,
+     "page": 1099,
+     "score": 0.6079723834991455,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 8165,
+     "page": 605,
+     "score": 0.6045989990234375,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 8172,
+     "page": 606,
+     "score": 0.6024198532104492,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 8168,
+     "page": 606,
+     "score": 0.6821060180664062,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8087,
+     "page": 591,
+     "score": 0.637680172920227,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 241,
+     "page": 67,
+     "score": 0.6376134157180786,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3505,
+     "page": 606,
+     "score": 0.6363360285758972,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8167,
+     "page": 606,
+     "score": 0.6190143823623657,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8086,
+     "page": 591,
+     "score": 0.6141612529754639,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 10544,
+     "page": 1098,
+     "score": 0.6135040521621704,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10549,
+     "page": 1099,
+     "score": 0.6079723834991455,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 8165,
+     "page": 605,
+     "score": 0.6045989990234375,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 8172,
+     "page": 606,
+     "score": 0.6024198532104492,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 8168,
+     "page": 606,
+     "score": 0.6821060180664062,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8087,
+     "page": 591,
+     "score": 0.637680172920227,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 241,
+     "page": 67,
+     "score": 0.6376134157180786,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3505,
+     "page": 606,
+     "score": 0.6363360285758972,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8167,
+     "page": 606,
+     "score": 0.6190143823623657,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8086,
+     "page": 591,
+     "score": 0.6141612529754639,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 10544,
+     "page": 1098,
+     "score": 0.6135040521621704,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10549,
+     "page": 1099,
+     "score": 0.6079723834991455,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 8165,
+     "page": 605,
+     "score": 0.6045989990234375,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 8172,
+     "page": 606,
+     "score": 0.6024198532104492,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "O2": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 257,
+     "page": 74,
+     "score": 0.6120554208755493,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5737,
+     "page": 75,
+     "score": 0.6112439632415771,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5633,
+     "page": 15,
+     "score": 0.5963659882545471,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1158,
+     "page": 229,
+     "score": 0.5955748558044434,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 40,
+     "page": 15,
+     "score": 0.5931206345558167,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 2829,
+     "page": 499,
+     "score": 0.5713436007499695,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 2216,
+     "page": 401,
+     "score": 0.5709558725357056,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 4758,
+     "page": 795,
+     "score": 0.5705023407936096,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1041,
+     "page": 215,
+     "score": 0.561087965965271,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 3225,
+     "page": 562,
+     "score": 0.5600014925003052,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 257,
+     "page": 74,
+     "score": 0.6120554208755493,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5737,
+     "page": 75,
+     "score": 0.6112439632415771,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5633,
+     "page": 15,
+     "score": 0.5963659882545471,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1158,
+     "page": 229,
+     "score": 0.5955748558044434,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 40,
+     "page": 15,
+     "score": 0.5931206345558167,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 2829,
+     "page": 499,
+     "score": 0.5713436007499695,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 2216,
+     "page": 401,
+     "score": 0.5709558725357056,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 4758,
+     "page": 795,
+     "score": 0.5705023407936096,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1041,
+     "page": 215,
+     "score": 0.561087965965271,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 3225,
+     "page": 562,
+     "score": 0.5600014925003052,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 257,
+     "page": 74,
+     "score": 0.6120554208755493,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5737,
+     "page": 75,
+     "score": 0.6112439632415771,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5633,
+     "page": 15,
+     "score": 0.5963659882545471,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1158,
+     "page": 229,
+     "score": 0.5955748558044434,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 40,
+     "page": 15,
+     "score": 0.5931206345558167,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 2829,
+     "page": 499,
+     "score": 0.5713436007499695,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 2216,
+     "page": 401,
+     "score": 0.5709558725357056,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 4758,
+     "page": 795,
+     "score": 0.5705023407936096,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1041,
+     "page": 215,
+     "score": 0.561087965965271,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 3225,
+     "page": 562,
+     "score": 0.5600014925003052,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "O3": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 5599,
+     "page": 928,
+     "score": 0.7245941162109375,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10719,
+     "page": 1128,
+     "score": 0.7226085662841797,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 9556,
+     "page": 901,
+     "score": 0.7069145441055298,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5595,
+     "page": 928,
+     "score": 0.6901721954345703,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5374,
+     "page": 897,
+     "score": 0.6891963481903076,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 9858,
+     "page": 956,
+     "score": 0.688661515712738,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 10715,
+     "page": 1127,
+     "score": 0.6877444982528687,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10730,
+     "page": 1131,
+     "score": 0.6862746477127075,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5604,
+     "page": 929,
+     "score": 0.6828259229660034,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 10724,
+     "page": 1129,
+     "score": 0.6823693513870239,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 5599,
+     "page": 928,
+     "score": 0.7245941162109375,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10719,
+     "page": 1128,
+     "score": 0.7226085662841797,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 9556,
+     "page": 901,
+     "score": 0.7069145441055298,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5595,
+     "page": 928,
+     "score": 0.6901721954345703,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5374,
+     "page": 897,
+     "score": 0.6891963481903076,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 9858,
+     "page": 956,
+     "score": 0.688661515712738,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 10715,
+     "page": 1127,
+     "score": 0.6877444982528687,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10730,
+     "page": 1131,
+     "score": 0.6862746477127075,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5604,
+     "page": 929,
+     "score": 0.6828259229660034,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 10724,
+     "page": 1129,
+     "score": 0.6823693513870239,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 5599,
+     "page": 928,
+     "score": 0.7245941162109375,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10719,
+     "page": 1128,
+     "score": 0.7226085662841797,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 9556,
+     "page": 901,
+     "score": 0.7069145441055298,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5595,
+     "page": 928,
+     "score": 0.6901721954345703,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5374,
+     "page": 897,
+     "score": 0.6891963481903076,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 9858,
+     "page": 956,
+     "score": 0.688661515712738,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 10715,
+     "page": 1127,
+     "score": 0.6877444982528687,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10730,
+     "page": 1131,
+     "score": 0.6862746477127075,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5604,
+     "page": 929,
+     "score": 0.6828259229660034,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 10724,
+     "page": 1129,
+     "score": 0.6823693513870239,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "O4": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 1317,
+     "page": 252,
+     "score": 0.6469243168830872,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 527,
+     "page": 129,
+     "score": 0.6367954611778259,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 6950,
+     "page": 379,
+     "score": 0.6360673904418945,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1220,
+     "page": 237,
+     "score": 0.6297953128814697,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 528,
+     "page": 129,
+     "score": 0.6256953477859497,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 6940,
+     "page": 377,
+     "score": 0.615263044834137,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7964,
+     "page": 566,
+     "score": 0.6149460077285767,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7807,
+     "page": 536,
+     "score": 0.6138454675674438,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7724,
+     "page": 521,
+     "score": 0.6099216341972351,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 6939,
+     "page": 377,
+     "score": 0.6096076369285583,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 1317,
+     "page": 252,
+     "score": 0.6469243168830872,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 527,
+     "page": 129,
+     "score": 0.6367954611778259,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 6950,
+     "page": 379,
+     "score": 0.6360673904418945,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1220,
+     "page": 237,
+     "score": 0.6297953128814697,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 528,
+     "page": 129,
+     "score": 0.6256953477859497,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 6940,
+     "page": 377,
+     "score": 0.615263044834137,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7964,
+     "page": 566,
+     "score": 0.6149460077285767,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7807,
+     "page": 536,
+     "score": 0.6138454675674438,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7724,
+     "page": 521,
+     "score": 0.6099216341972351,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 6939,
+     "page": 377,
+     "score": 0.6096076369285583,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 1317,
+     "page": 252,
+     "score": 0.6469243168830872,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 527,
+     "page": 129,
+     "score": 0.6367954611778259,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 6950,
+     "page": 379,
+     "score": 0.6360673904418945,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1220,
+     "page": 237,
+     "score": 0.6297953128814697,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 528,
+     "page": 129,
+     "score": 0.6256953477859497,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 6940,
+     "page": 377,
+     "score": 0.615263044834137,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7964,
+     "page": 566,
+     "score": 0.6149460077285767,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7807,
+     "page": 536,
+     "score": 0.6138454675674438,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7724,
+     "page": 521,
+     "score": 0.6099216341972351,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 6939,
+     "page": 377,
+     "score": 0.6096076369285583,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  },
+  "O5": {
+   "baseline": [
+    {
+     "rank": 1,
+     "chunk_id": 9,
+     "page": 6,
+     "score": 0.6173785924911499,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5767,
+     "page": 80,
+     "score": 0.6100116968154907,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 287,
+     "page": 79,
+     "score": 0.6086757183074951,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 10718,
+     "page": 1128,
+     "score": 0.592186689376831,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 418,
+     "page": 104,
+     "score": 0.586869478225708,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 441,
+     "page": 109,
+     "score": 0.5862299799919128,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5598,
+     "page": 928,
+     "score": 0.5854188799858093,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5751,
+     "page": 77,
+     "score": 0.5823976397514343,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 271,
+     "page": 76,
+     "score": 0.5761615037918091,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5750,
+     "page": 77,
+     "score": 0.5700294971466064,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T1": [
+    {
+     "rank": 1,
+     "chunk_id": 9,
+     "page": 6,
+     "score": 0.6173785924911499,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5767,
+     "page": 80,
+     "score": 0.6100116968154907,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 287,
+     "page": 79,
+     "score": 0.6086757183074951,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 10718,
+     "page": 1128,
+     "score": 0.592186689376831,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 418,
+     "page": 104,
+     "score": 0.586869478225708,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 441,
+     "page": 109,
+     "score": 0.5862299799919128,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5598,
+     "page": 928,
+     "score": 0.5854188799858093,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5751,
+     "page": 77,
+     "score": 0.5823976397514343,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 271,
+     "page": 76,
+     "score": 0.5761615037918091,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5750,
+     "page": 77,
+     "score": 0.5700294971466064,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ],
+   "T2": [
+    {
+     "rank": 1,
+     "chunk_id": 9,
+     "page": 6,
+     "score": 0.6173785924911499,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5767,
+     "page": 80,
+     "score": 0.6100116968154907,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 287,
+     "page": 79,
+     "score": 0.6086757183074951,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 10718,
+     "page": 1128,
+     "score": 0.592186689376831,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 418,
+     "page": 104,
+     "score": 0.586869478225708,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 441,
+     "page": 109,
+     "score": 0.5862299799919128,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5598,
+     "page": 928,
+     "score": 0.5854188799858093,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5751,
+     "page": 77,
+     "score": 0.5823976397514343,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 271,
+     "page": 76,
+     "score": 0.5761615037918091,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5750,
+     "page": 77,
+     "score": 0.5700294971466064,
+     "vector_rank": null,
+     "bm25_rank": null,
+     "route": "vector"
+    }
+   ]
+  }
+ }
+}

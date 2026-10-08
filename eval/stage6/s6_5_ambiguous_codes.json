@@ -1,0 +1,7307 @@
+{
+ "ambiguity_py_sha256": "c37b74f6492249914d71d3cecb2dee0f7e60cea117ecdbc11abfd33a23dd5c82",
+ "codes_with_titles": 5509,
+ "ambiguous": 246,
+ "codes": {
+  "acc135": [
+   {
+    "title": "Financial Accounting IA",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 431",
+     "MSU Sciences Yearbook Vol. 2 p. 433",
+     "MSU Sciences Yearbook Vol. 2 p. 440",
+     "MSU Sciences Yearbook Vol. 2 p. 442",
+     "MSU Sciences Yearbook Vol. 2 p. 449",
+     "MSU Sciences Yearbook Vol. 2 p. 451",
+     "MSU Sciences Yearbook Vol. 2 p. 497",
+     "MSU Sciences Yearbook Vol. 2 p. 499",
+     "MSU Sciences Yearbook Vol. 2 p. 509"
+    ],
+    "chunk_ids": [
+     7234,
+     7241,
+     7286,
+     7297,
+     7339,
+     7350,
+     7603,
+     7613,
+     7661
+    ]
+   },
+   {
+    "title": "Financial Accounting for Business 1A",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 507",
+     "MSU Sciences Yearbook Vol. 2 p. 568",
+     "MSU Sciences Yearbook Vol. 2 p. 575",
+     "MSU Sciences Yearbook Vol. 2 p. 593",
+     "MSU Sciences Yearbook Vol. 2 p. 600"
+    ],
+    "chunk_ids": [
+     7656,
+     7971,
+     8002,
+     8103,
+     8142
+    ]
+   }
+  ],
+  "acc136": [
+   {
+    "title": "Financial Accounting IB",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 432",
+     "MSU Sciences Yearbook Vol. 2 p. 433",
+     "MSU Sciences Yearbook Vol. 2 p. 440",
+     "MSU Sciences Yearbook Vol. 2 p. 442",
+     "MSU Sciences Yearbook Vol. 2 p. 449",
+     "MSU Sciences Yearbook Vol. 2 p. 451",
+     "MSU Sciences Yearbook Vol. 2 p. 509"
+    ],
+    "chunk_ids": [
+     7235,
+     7245,
+     7286,
+     7297,
+     7339,
+     7350,
+     7664
+    ]
+   },
+   {
+    "title": "Financial Accounting for Business",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 568",
+     "MSU Sciences Yearbook Vol. 2 p. 575"
+    ],
+    "chunk_ids": [
+     7971,
+     8002
+    ]
+   }
+  ],
+  "aecs131": [
+   {
+    "title": "Introduction to Information Communication Technology",
+    "pages": [
+     "MSU Humanities Yearbook p. 564",
+     "MSU Humanities Yearbook p. 566"
+    ],
+    "chunk_ids": [
+     3237,
+     3248
+    ]
+   },
+   {
+    "title": "Introduction to Computers and Computer Applications",
+    "pages": [
+     "MSU Humanities Yearbook p. 584",
+     "MSU Humanities Yearbook p. 587"
+    ],
+    "chunk_ids": [
+     3368,
+     3380
+    ]
+   }
+  ],
+  "afld305": [
+   {
+    "title": "Applied Accounting Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 475",
+     "MSU Humanities Yearbook p. 476"
+    ],
+    "chunk_ids": [
+     2682,
+     2684
+    ]
+   },
+   {
+    "title": "Applied Economics I",
+    "pages": [
+     "MSU Humanities Yearbook p. 517",
+     "MSU Humanities Yearbook p. 517"
+    ],
+    "chunk_ids": [
+     2941,
+     2946
+    ]
+   }
+  ],
+  "aged233": [
+   {
+    "title": "Microeconomics for Agricultural Economics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 165",
+     "MSU Sciences Yearbook Vol. 2 p. 174",
+     "MSU Sciences Yearbook Vol. 2 p. 177"
+    ],
+    "chunk_ids": [
+     5875,
+     5919,
+     5934
+    ]
+   },
+   {
+    "title": "M1CRO",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 168"
+    ],
+    "chunk_ids": [
+     5887
+    ]
+   }
+  ],
+  "aged235": [
+   {
+    "title": "Economics of Environmental Management",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 165",
+     "MSU Sciences Yearbook Vol. 2 p. 168",
+     "MSU Sciences Yearbook Vol. 2 p. 177",
+     "MSU Sciences Yearbook Vol. 2 p. 183",
+     "MSU Sciences Yearbook Vol. 2 p. 187"
+    ],
+    "chunk_ids": [
+     5875,
+     5888,
+     5935,
+     5972,
+     5995
+    ]
+   },
+   {
+    "title": "Farm Business Management",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 174"
+    ],
+    "chunk_ids": [
+     5919
+    ]
+   }
+  ],
+  "aged238": [
+   {
+    "title": "Econometrics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 166",
+     "MSU Sciences Yearbook Vol. 2 p. 169"
+    ],
+    "chunk_ids": [
+     5876,
+     5893
+    ]
+   },
+   {
+    "title": "Farm Business Management",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 169",
+     "MSU Sciences Yearbook Vol. 2 p. 177",
+     "MSU Sciences Yearbook Vol. 2 p. 194",
+     "MSU Sciences Yearbook Vol. 2 p. 198"
+    ],
+    "chunk_ids": [
+     5892,
+     5938,
+     6031,
+     6052
+    ]
+   }
+  ],
+  "aghort480": [
+   {
+    "title": "Dissertation",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 216",
+     "MSU Sciences Yearbook Vol. 2 p. 219",
+     "MSU Sciences Yearbook Vol. 2 p. 225",
+     "MSU Sciences Yearbook Vol. 2 p. 231",
+     "MSU Sciences Yearbook Vol. 2 p. 235",
+     "MSU Sciences Yearbook Vol. 2 p. 237",
+     "MSU Sciences Yearbook Vol. 2 p. 242",
+     "MSU Sciences Yearbook Vol. 2 p. 250",
+     "MSU Sciences Yearbook Vol. 2 p. 250",
+     "MSU Sciences Yearbook Vol. 2 p. 255"
+    ],
+    "chunk_ids": [
+     6127,
+     6145,
+     6168,
+     6195,
+     6212,
+     6226,
+     6243,
+     6290,
+     6291,
+     6327
+    ]
+   },
+   {
+    "title": "Research Project",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 245"
+    ],
+    "chunk_ids": [
+     6266
+    ]
+   }
+  ],
+  "agpr131": [
+   {
+    "title": "Agricultural Practice I",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 165",
+     "MSU Sciences Yearbook Vol. 2 p. 166",
+     "MSU Sciences Yearbook Vol. 2 p. 183",
+     "MSU Sciences Yearbook Vol. 2 p. 214",
+     "MSU Sciences Yearbook Vol. 2 p. 217",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 226",
+     "MSU Sciences Yearbook Vol. 2 p. 234",
+     "MSU Sciences Yearbook Vol. 2 p. 234",
+     "MSU Sciences Yearbook Vol. 2 p. 241",
+     "MSU Sciences Yearbook Vol. 2 p. 249",
+     "MSU Sciences Yearbook Vol. 2 p. 251",
+     "MSU Sciences Yearbook Vol. 2 p. 277",
+     "MSU Sciences Yearbook Vol. 2 p. 295",
+     "MSU Sciences Yearbook Vol. 2 p. 295",
+     "MSU Sciences Yearbook Vol. 2 p. 311",
+     "MSU Sciences Yearbook Vol. 2 p. 345",
+     "MSU Sciences Yearbook Vol. 2 p. 346"
+    ],
+    "chunk_ids": [
+     5873,
+     5878,
+     5971,
+     6123,
+     6132,
+     6164,
+     6165,
+     6170,
+     6208,
+     6209,
+     6240,
+     6289,
+     6300,
+     6433,
+     6532,
+     6533,
+     6612,
+     6783,
+     6787
+    ]
+   },
+   {
+    "title": "Practices in Farm Entrepreneurial skills",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 174",
+     "MSU Sciences Yearbook Vol. 2 p. 184",
+     "MSU Sciences Yearbook Vol. 2 p. 194",
+     "MSU Sciences Yearbook Vol. 2 p. 195"
+    ],
+    "chunk_ids": [
+     5918,
+     5976,
+     6029,
+     6033
+    ]
+   }
+  ],
+  "agpr132": [
+   {
+    "title": "Agricultural Practice II",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 165",
+     "MSU Sciences Yearbook Vol. 2 p. 166",
+     "MSU Sciences Yearbook Vol. 2 p. 183",
+     "MSU Sciences Yearbook Vol. 2 p. 214",
+     "MSU Sciences Yearbook Vol. 2 p. 214",
+     "MSU Sciences Yearbook Vol. 2 p. 217",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 226",
+     "MSU Sciences Yearbook Vol. 2 p. 234",
+     "MSU Sciences Yearbook Vol. 2 p. 241",
+     "MSU Sciences Yearbook Vol. 2 p. 249",
+     "MSU Sciences Yearbook Vol. 2 p. 251",
+     "MSU Sciences Yearbook Vol. 2 p. 277",
+     "MSU Sciences Yearbook Vol. 2 p. 279",
+     "MSU Sciences Yearbook Vol. 2 p. 295",
+     "MSU Sciences Yearbook Vol. 2 p. 312",
+     "MSU Sciences Yearbook Vol. 2 p. 345"
+    ],
+    "chunk_ids": [
+     5874,
+     5879,
+     5972,
+     6123,
+     6124,
+     6132,
+     6165,
+     6170,
+     6209,
+     6240,
+     6289,
+     6300,
+     6433,
+     6445,
+     6533,
+     6613,
+     6784
+    ]
+   },
+   {
+    "title": "Practices in Farm Entrepreneurial Skills",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 174",
+     "MSU Sciences Yearbook Vol. 2 p. 175",
+     "MSU Sciences Yearbook Vol. 2 p. 184",
+     "MSU Sciences Yearbook Vol. 2 p. 194",
+     "MSU Sciences Yearbook Vol. 2 p. 194",
+     "MSU Sciences Yearbook Vol. 2 p. 195"
+    ],
+    "chunk_ids": [
+     5918,
+     5922,
+     5977,
+     6029,
+     6030,
+     6034
+    ]
+   }
+  ],
+  "agpr332": [
+   {
+    "title": "Academic Supervisor's Assessment Report All level 1.1 modules",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 166",
+     "MSU Sciences Yearbook Vol. 2 p. 184",
+     "MSU Sciences Yearbook Vol. 2 p. 195",
+     "MSU Sciences Yearbook Vol. 2 p. 215",
+     "MSU Sciences Yearbook Vol. 2 p. 225",
+     "MSU Sciences Yearbook Vol. 2 p. 235",
+     "MSU Sciences Yearbook Vol. 2 p. 235",
+     "MSU Sciences Yearbook Vol. 2 p. 242",
+     "MSU Sciences Yearbook Vol. 2 p. 250",
+     "MSU Sciences Yearbook Vol. 2 p. 277",
+     "MSU Sciences Yearbook Vol. 2 p. 288",
+     "MSU Sciences Yearbook Vol. 2 p. 296",
+     "MSU Sciences Yearbook Vol. 2 p. 304",
+     "MSU Sciences Yearbook Vol. 2 p. 312",
+     "MSU Sciences Yearbook Vol. 2 p. 324",
+     "MSU Sciences Yearbook Vol. 2 p. 330",
+     "MSU Sciences Yearbook Vol. 2 p. 330",
+     "MSU Sciences Yearbook Vol. 2 p. 338",
+     "MSU Sciences Yearbook Vol. 2 p. 338",
+     "MSU Sciences Yearbook Vol. 2 p. 345",
+     "MSU Sciences Yearbook Vol. 2 p. 354"
+    ],
+    "chunk_ids": [
+     5876,
+     5974,
+     6032,
+     6126,
+     6167,
+     6211,
+     6212,
+     6242,
+     6290,
+     6435,
+     6492,
+     6535,
+     6575,
+     6614,
+     6677,
+     6701,
+     6702,
+     6748,
+     6749,
+     6785,
+     6828
+    ]
+   },
+   {
+    "title": "Academic Supervisors Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 282"
+    ],
+    "chunk_ids": [
+     6462
+    ]
+   }
+  ],
+  "agpr333": [
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 166",
+     "MSU Sciences Yearbook Vol. 2 p. 282"
+    ],
+    "chunk_ids": [
+     5876,
+     6462
+    ]
+   },
+   {
+    "title": "Academic Supervisor's Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 195",
+     "MSU Sciences Yearbook Vol. 2 p. 215",
+     "MSU Sciences Yearbook Vol. 2 p. 225",
+     "MSU Sciences Yearbook Vol. 2 p. 235",
+     "MSU Sciences Yearbook Vol. 2 p. 235",
+     "MSU Sciences Yearbook Vol. 2 p. 242",
+     "MSU Sciences Yearbook Vol. 2 p. 250",
+     "MSU Sciences Yearbook Vol. 2 p. 250",
+     "MSU Sciences Yearbook Vol. 2 p. 278",
+     "MSU Sciences Yearbook Vol. 2 p. 288",
+     "MSU Sciences Yearbook Vol. 2 p. 296",
+     "MSU Sciences Yearbook Vol. 2 p. 304",
+     "MSU Sciences Yearbook Vol. 2 p. 312",
+     "MSU Sciences Yearbook Vol. 2 p. 324",
+     "MSU Sciences Yearbook Vol. 2 p. 330",
+     "MSU Sciences Yearbook Vol. 2 p. 338",
+     "MSU Sciences Yearbook Vol. 2 p. 345",
+     "MSU Sciences Yearbook Vol. 2 p. 354"
+    ],
+    "chunk_ids": [
+     6032,
+     6126,
+     6167,
+     6211,
+     6212,
+     6242,
+     6290,
+     6291,
+     6436,
+     6492,
+     6535,
+     6575,
+     6614,
+     6677,
+     6702,
+     6749,
+     6785,
+     6828
+    ]
+   }
+  ],
+  "agro132": [
+   {
+    "title": "Introduction to Genetics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 214",
+     "MSU Sciences Yearbook Vol. 2 p. 216",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 226",
+     "MSU Sciences Yearbook Vol. 2 p. 234",
+     "MSU Sciences Yearbook Vol. 2 p. 277",
+     "MSU Sciences Yearbook Vol. 2 p. 279",
+     "MSU Sciences Yearbook Vol. 2 p. 288",
+     "MSU Sciences Yearbook Vol. 2 p. 289",
+     "MSU Sciences Yearbook Vol. 2 p. 295",
+     "MSU Sciences Yearbook Vol. 2 p. 297",
+     "MSU Sciences Yearbook Vol. 2 p. 304",
+     "MSU Sciences Yearbook Vol. 2 p. 312",
+     "MSU Sciences Yearbook Vol. 2 p. 313"
+    ],
+    "chunk_ids": [
+     6123,
+     6129,
+     6165,
+     6172,
+     6209,
+     6433,
+     6445,
+     6490,
+     6497,
+     6533,
+     6541,
+     6574,
+     6613,
+     6620
+    ]
+   },
+   {
+    "title": "Principles of Genetics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 241",
+     "MSU Sciences Yearbook Vol. 2 p. 243",
+     "MSU Sciences Yearbook Vol. 2 p. 249",
+     "MSU Sciences Yearbook Vol. 2 p. 249",
+     "MSU Sciences Yearbook Vol. 2 p. 252"
+    ],
+    "chunk_ids": [
+     6240,
+     6254,
+     6288,
+     6289,
+     6304
+    ]
+   }
+  ],
+  "agro234": [
+   {
+    "title": "Value addition in Agriculture",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 166"
+    ],
+    "chunk_ids": [
+     5876
+    ]
+   },
+   {
+    "title": "Weed Science and Management",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 215",
+     "MSU Sciences Yearbook Vol. 2 p. 217",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 227",
+     "MSU Sciences Yearbook Vol. 2 p. 235",
+     "MSU Sciences Yearbook Vol. 2 p. 250",
+     "MSU Sciences Yearbook Vol. 2 p. 253"
+    ],
+    "chunk_ids": [
+     6125,
+     6137,
+     6166,
+     6176,
+     6211,
+     6290,
+     6313
+    ]
+   },
+   {
+    "title": "Weed Biology and Ecology",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 241",
+     "MSU Sciences Yearbook Vol. 2 p. 244"
+    ],
+    "chunk_ids": [
+     6241,
+     6259
+    ]
+   }
+  ],
+  "agro238": [
+   {
+    "title": "Seed Science and Production",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 215",
+     "MSU Sciences Yearbook Vol. 2 p. 218",
+     "MSU Sciences Yearbook Vol. 2 p. 228",
+     "MSU Sciences Yearbook Vol. 2 p. 241"
+    ],
+    "chunk_ids": [
+     6125,
+     6140,
+     6180,
+     6241
+    ]
+   },
+   {
+    "title": "Seed Science & Technology",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 225"
+    ],
+    "chunk_ids": [
+     6167
+    ]
+   }
+  ],
+  "anth303": [
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 703"
+    ],
+    "chunk_ids": [
+     4123
+    ]
+   },
+   {
+    "title": "Work-Related Learning Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 706"
+    ],
+    "chunk_ids": [
+     4145
+    ]
+   }
+  ],
+  "avcm402": [
+   {
+    "title": "Agriculture Marketing and Value Chain Financing",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 178"
+    ],
+    "chunk_ids": [
+     5945
+    ]
+   },
+   {
+    "title": "Agricultural Trade and Policy",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 179",
+     "MSU Sciences Yearbook Vol. 2 p. 179"
+    ],
+    "chunk_ids": [
+     5949,
+     5950
+    ]
+   }
+  ],
+  "awm430": [
+   {
+    "title": "Dissertation",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 354",
+     "MSU Sciences Yearbook Vol. 2 p. 356"
+    ],
+    "chunk_ids": [
+     6828,
+     6842
+    ]
+   },
+   {
+    "title": "Irrigation Water Management",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 354",
+     "MSU Sciences Yearbook Vol. 2 p. 356"
+    ],
+    "chunk_ids": [
+     6828,
+     6843
+    ]
+   }
+  ],
+  "bcs104": [
+   {
+    "title": "Database Concepts",
+    "pages": [
+     "MSU Humanities Yearbook p. 382"
+    ],
+    "chunk_ids": [
+     2097
+    ]
+   },
+   {
+    "title": "Introduction to Programming",
+    "pages": [
+     "MSU Humanities Yearbook p. 390"
+    ],
+    "chunk_ids": [
+     2144
+    ]
+   }
+  ],
+  "bcs105": [
+   {
+    "title": "Object Oriented Programming I",
+    "pages": [
+     "MSU Humanities Yearbook p. 382"
+    ],
+    "chunk_ids": [
+     2097
+    ]
+   },
+   {
+    "title": "Database concepts",
+    "pages": [
+     "MSU Humanities Yearbook p. 394",
+     "MSU Humanities Yearbook p. 394"
+    ],
+    "chunk_ids": [
+     2171,
+     2172
+    ]
+   }
+  ],
+  "bcs106": [
+   {
+    "title": "Teaching and Learning in Computer Science Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 382"
+    ],
+    "chunk_ids": [
+     2097
+    ]
+   },
+   {
+    "title": "Object Oriented Programming I",
+    "pages": [
+     "MSU Humanities Yearbook p. 394"
+    ],
+    "chunk_ids": [
+     2172
+    ]
+   }
+  ],
+  "bcs203": [
+   {
+    "title": "Curriculum Development in Computer Science Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 383",
+     "MSU Humanities Yearbook p. 399"
+    ],
+    "chunk_ids": [
+     2102,
+     2198
+    ]
+   },
+   {
+    "title": "Internet and Web Design",
+    "pages": [
+     "MSU Humanities Yearbook p. 385"
+    ],
+    "chunk_ids": [
+     2108
+    ]
+   }
+  ],
+  "bcs204": [
+   {
+    "title": "Assessment in Computer Science Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 385"
+    ],
+    "chunk_ids": [
+     2108
+    ]
+   },
+   {
+    "title": "Internet and Web Design",
+    "pages": [
+     "MSU Humanities Yearbook p. 405",
+     "MSU Humanities Yearbook p. 405"
+    ],
+    "chunk_ids": [
+     2241,
+     2242
+    ]
+   }
+  ],
+  "bcs205": [
+   {
+    "title": "Software Engineering",
+    "pages": [
+     "MSU Humanities Yearbook p. 385"
+    ],
+    "chunk_ids": [
+     2108
+    ]
+   },
+   {
+    "title": "Assessment in Computer Science Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 405"
+    ],
+    "chunk_ids": [
+     2242
+    ]
+   }
+  ],
+  "bed132": [
+   {
+    "title": "Applied Educational Foundations",
+    "pages": [
+     "MSU Humanities Yearbook p. 474",
+     "MSU Humanities Yearbook p. 497",
+     "MSU Humanities Yearbook p. 499",
+     "MSU Humanities Yearbook p. 501",
+     "MSU Humanities Yearbook p. 503",
+     "MSU Humanities Yearbook p. 509",
+     "MSU Humanities Yearbook p. 517"
+    ],
+    "chunk_ids": [
+     2673,
+     2810,
+     2826,
+     2838,
+     2856,
+     2891,
+     2941
+    ]
+   },
+   {
+    "title": "Psychological Perspectives and Issues in Primary Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 474"
+    ],
+    "chunk_ids": [
+     2674
+    ]
+   }
+  ],
+  "bed133": [
+   {
+    "title": "Information and Communication Technology in Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 368",
+     "MSU Humanities Yearbook p. 369",
+     "MSU Humanities Yearbook p. 373",
+     "MSU Humanities Yearbook p. 373",
+     "MSU Humanities Yearbook p. 374",
+     "MSU Humanities Yearbook p. 378",
+     "MSU Humanities Yearbook p. 378",
+     "MSU Humanities Yearbook p. 386",
+     "MSU Humanities Yearbook p. 408",
+     "MSU Humanities Yearbook p. 409",
+     "MSU Humanities Yearbook p. 414",
+     "MSU Humanities Yearbook p. 415",
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 420",
+     "MSU Humanities Yearbook p. 424",
+     "MSU Humanities Yearbook p. 426",
+     "MSU Humanities Yearbook p. 445",
+     "MSU Humanities Yearbook p. 446",
+     "MSU Humanities Yearbook p. 446",
+     "MSU Humanities Yearbook p. 450",
+     "MSU Humanities Yearbook p. 451",
+     "MSU Humanities Yearbook p. 497",
+     "MSU Humanities Yearbook p. 497",
+     "MSU Humanities Yearbook p. 501",
+     "MSU Humanities Yearbook p. 502",
+     "MSU Humanities Yearbook p. 505",
+     "MSU Humanities Yearbook p. 505",
+     "MSU Humanities Yearbook p. 509",
+     "MSU Humanities Yearbook p. 513",
+     "MSU Humanities Yearbook p. 513",
+     "MSU Humanities Yearbook p. 532",
+     "MSU Humanities Yearbook p. 535",
+     "MSU Humanities Yearbook p. 536",
+     "MSU Humanities Yearbook p. 540",
+     "MSU Humanities Yearbook p. 541",
+     "MSU Humanities Yearbook p. 550",
+     "MSU Humanities Yearbook p. 559",
+     "MSU Humanities Yearbook p. 559",
+     "MSU Humanities Yearbook p. 560",
+     "MSU Humanities Yearbook p. 570",
+     "MSU Humanities Yearbook p. 571",
+     "MSU Humanities Yearbook p. 575",
+     "MSU Humanities Yearbook p. 575",
+     "MSU Humanities Yearbook p. 579",
+     "MSU Humanities Yearbook p. 579",
+     "MSU Humanities Yearbook p. 580",
+     "MSU Humanities Yearbook p. 592",
+     "MSU Humanities Yearbook p. 593"
+    ],
+    "chunk_ids": [
+     2021,
+     2026,
+     2051,
+     2052,
+     2056,
+     2086,
+     2087,
+     2110,
+     2256,
+     2263,
+     2295,
+     2301,
+     2331,
+     2336,
+     2366,
+     2374,
+     2497,
+     2501,
+     2502,
+     2527,
+     2532,
+     2810,
+     2812,
+     2837,
+     2841,
+     2867,
+     2868,
+     2890,
+     2918,
+     2920,
+     3033,
+     3056,
+     3060,
+     3081,
+     3084,
+     3143,
+     3204,
+     3205,
+     3207,
+     3280,
+     3283,
+     3308,
+     3311,
+     3334,
+     3335,
+     3338,
+     3419,
+     3422
+    ]
+   },
+   {
+    "title": "Research Methods and Statistics",
+    "pages": [
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 517"
+    ],
+    "chunk_ids": [
+     2331,
+     2332,
+     2941
+    ]
+   },
+   {
+    "title": "Educational Technology and Innovation",
+    "pages": [
+     "MSU Humanities Yearbook p. 474",
+     "MSU Humanities Yearbook p. 474",
+     "MSU Humanities Yearbook p. 483",
+     "MSU Humanities Yearbook p. 516",
+     "MSU Humanities Yearbook p. 516"
+    ],
+    "chunk_ids": [
+     2673,
+     2675,
+     2732,
+     2939,
+     2940
+    ]
+   }
+  ],
+  "bed139": [
+   {
+    "title": "Teaching, Educational Media & Micro-Teaching",
+    "pages": [
+     "MSU Humanities Yearbook p. 474",
+     "MSU Humanities Yearbook p. 483"
+    ],
+    "chunk_ids": [
+     2673,
+     2728
+    ]
+   },
+   {
+    "title": "Teaching and Learning Skills and Micro",
+    "pages": [
+     "MSU Humanities Yearbook p. 585",
+     "MSU Humanities Yearbook p. 585"
+    ],
+    "chunk_ids": [
+     3370,
+     3371
+    ]
+   }
+  ],
+  "bed140": [
+   {
+    "title": "Computer Applications in Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 483",
+     "MSU Humanities Yearbook p. 506",
+     "MSU Humanities Yearbook p. 510",
+     "MSU Humanities Yearbook p. 517",
+     "MSU Humanities Yearbook p. 585",
+     "MSU Humanities Yearbook p. 585"
+    ],
+    "chunk_ids": [
+     2728,
+     2870,
+     2893,
+     2942,
+     3370,
+     3371
+    ]
+   },
+   {
+    "title": "Education Media Practice & Micro Teaching",
+    "pages": [
+     "MSU Humanities Yearbook p. 565",
+     "MSU Humanities Yearbook p. 568"
+    ],
+    "chunk_ids": [
+     3239,
+     3263
+    ]
+   }
+  ],
+  "bed231": [
+   {
+    "title": "Assessment and Evaluation",
+    "pages": [
+     "MSU Humanities Yearbook p. 450",
+     "MSU Humanities Yearbook p. 452",
+     "MSU Humanities Yearbook p. 474",
+     "MSU Humanities Yearbook p. 475",
+     "MSU Humanities Yearbook p. 483",
+     "MSU Humanities Yearbook p. 484",
+     "MSU Humanities Yearbook p. 497",
+     "MSU Humanities Yearbook p. 501",
+     "MSU Humanities Yearbook p. 501",
+     "MSU Humanities Yearbook p. 502",
+     "MSU Humanities Yearbook p. 505",
+     "MSU Humanities Yearbook p. 507",
+     "MSU Humanities Yearbook p. 509",
+     "MSU Humanities Yearbook p. 511",
+     "MSU Humanities Yearbook p. 513",
+     "MSU Humanities Yearbook p. 514",
+     "MSU Humanities Yearbook p. 518",
+     "MSU Humanities Yearbook p. 533",
+     "MSU Humanities Yearbook p. 536",
+     "MSU Humanities Yearbook p. 537",
+     "MSU Humanities Yearbook p. 537",
+     "MSU Humanities Yearbook p. 540",
+     "MSU Humanities Yearbook p. 541",
+     "MSU Humanities Yearbook p. 545",
+     "MSU Humanities Yearbook p. 545",
+     "MSU Humanities Yearbook p. 546",
+     "MSU Humanities Yearbook p. 549",
+     "MSU Humanities Yearbook p. 550",
+     "MSU Humanities Yearbook p. 559",
+     "MSU Humanities Yearbook p. 561",
+     "MSU Humanities Yearbook p. 564",
+     "MSU Humanities Yearbook p. 567",
+     "MSU Humanities Yearbook p. 571",
+     "MSU Humanities Yearbook p. 572",
+     "MSU Humanities Yearbook p. 575",
+     "MSU Humanities Yearbook p. 576",
+     "MSU Humanities Yearbook p. 579",
+     "MSU Humanities Yearbook p. 580",
+     "MSU Humanities Yearbook p. 584",
+     "MSU Humanities Yearbook p. 585",
+     "MSU Humanities Yearbook p. 585",
+     "MSU Humanities Yearbook p. 592",
+     "MSU Humanities Yearbook p. 593"
+    ],
+    "chunk_ids": [
+     2527,
+     2536,
+     2673,
+     2679,
+     2728,
+     2738,
+     2810,
+     2837,
+     2838,
+     2848,
+     2868,
+     2877,
+     2891,
+     2904,
+     2919,
+     2926,
+     2950,
+     3040,
+     3057,
+     3062,
+     3063,
+     3081,
+     3089,
+     3110,
+     3111,
+     3119,
+     3139,
+     3145,
+     3205,
+     3215,
+     3238,
+     3258,
+     3281,
+     3291,
+     3309,
+     3319,
+     3335,
+     3343,
+     3369,
+     3370,
+     3371,
+     3419,
+     3429
+    ]
+   },
+   {
+    "title": "Measurement and Evaluation in Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 498"
+    ],
+    "chunk_ids": [
+     2819
+    ]
+   }
+  ],
+  "bed323": [
+   {
+    "title": "School-Based Teaching Practice Assessment",
+    "pages": [
+     "MSU Humanities Yearbook p. 474",
+     "MSU Humanities Yearbook p. 474",
+     "MSU Humanities Yearbook p. 483",
+     "MSU Humanities Yearbook p. 483",
+     "MSU Humanities Yearbook p. 565",
+     "MSU Humanities Yearbook p. 585",
+     "MSU Humanities Yearbook p. 585"
+    ],
+    "chunk_ids": [
+     2673,
+     2674,
+     2728,
+     2729,
+     3239,
+     3371,
+     3372
+    ]
+   },
+   {
+    "title": "Research Project",
+    "pages": [
+     "MSU Humanities Yearbook p. 474",
+     "MSU Humanities Yearbook p. 483"
+    ],
+    "chunk_ids": [
+     2674,
+     2729
+    ]
+   }
+  ],
+  "befm231": [
+   {
+    "title": "School Administration and Financial Management in",
+    "pages": [
+     "MSU Humanities Yearbook p. 368",
+     "MSU Humanities Yearbook p. 368",
+     "MSU Humanities Yearbook p. 370",
+     "MSU Humanities Yearbook p. 373",
+     "MSU Humanities Yearbook p. 375",
+     "MSU Humanities Yearbook p. 382",
+     "MSU Humanities Yearbook p. 382",
+     "MSU Humanities Yearbook p. 395",
+     "MSU Humanities Yearbook p. 408",
+     "MSU Humanities Yearbook p. 410",
+     "MSU Humanities Yearbook p. 414",
+     "MSU Humanities Yearbook p. 415",
+     "MSU Humanities Yearbook p. 421",
+     "MSU Humanities Yearbook p. 425",
+     "MSU Humanities Yearbook p. 425",
+     "MSU Humanities Yearbook p. 428",
+     "MSU Humanities Yearbook p. 450",
+     "MSU Humanities Yearbook p. 452",
+     "MSU Humanities Yearbook p. 474",
+     "MSU Humanities Yearbook p. 483",
+     "MSU Humanities Yearbook p. 497",
+     "MSU Humanities Yearbook p. 499",
+     "MSU Humanities Yearbook p. 501",
+     "MSU Humanities Yearbook p. 503",
+     "MSU Humanities Yearbook p. 506",
+     "MSU Humanities Yearbook p. 507",
+     "MSU Humanities Yearbook p. 509",
+     "MSU Humanities Yearbook p. 511",
+     "MSU Humanities Yearbook p. 515",
+     "MSU Humanities Yearbook p. 518",
+     "MSU Humanities Yearbook p. 533",
+     "MSU Humanities Yearbook p. 536",
+     "MSU Humanities Yearbook p. 537",
+     "MSU Humanities Yearbook p. 540",
+     "MSU Humanities Yearbook p. 542",
+     "MSU Humanities Yearbook p. 545",
+     "MSU Humanities Yearbook p. 547",
+     "MSU Humanities Yearbook p. 550",
+     "MSU Humanities Yearbook p. 551",
+     "MSU Humanities Yearbook p. 560",
+     "MSU Humanities Yearbook p. 565",
+     "MSU Humanities Yearbook p. 568",
+     "MSU Humanities Yearbook p. 571",
+     "MSU Humanities Yearbook p. 572",
+     "MSU Humanities Yearbook p. 575",
+     "MSU Humanities Yearbook p. 577",
+     "MSU Humanities Yearbook p. 579",
+     "MSU Humanities Yearbook p. 581",
+     "MSU Humanities Yearbook p. 592",
+     "MSU Humanities Yearbook p. 594"
+    ],
+    "chunk_ids": [
+     2021,
+     2022,
+     2034,
+     2053,
+     2069,
+     2097,
+     2098,
+     2176,
+     2257,
+     2275,
+     2296,
+     2308,
+     2349,
+     2368,
+     2369,
+     2397,
+     2527,
+     2540,
+     2674,
+     2729,
+     2811,
+     2825,
+     2838,
+     2855,
+     2869,
+     2879,
+     2891,
+     2907,
+     2930,
+     2953,
+     3043,
+     3057,
+     3067,
+     3082,
+     3095,
+     3111,
+     3125,
+     3141,
+     3150,
+     3206,
+     3239,
+     3270,
+     3281,
+     3293,
+     3309,
+     3323,
+     3335,
+     3351,
+     3420,
+     3433
+    ]
+   },
+   {
+    "title": "Educational Management",
+    "pages": [
+     "MSU Humanities Yearbook p. 501"
+    ],
+    "chunk_ids": [
+     2839
+    ]
+   }
+  ],
+  "beie501": [
+   {
+    "title": "Entrepreneurship and Industrialisation in Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 450",
+     "MSU Humanities Yearbook p. 452",
+     "MSU Humanities Yearbook p. 474",
+     "MSU Humanities Yearbook p. 475",
+     "MSU Humanities Yearbook p. 483",
+     "MSU Humanities Yearbook p. 484",
+     "MSU Humanities Yearbook p. 497",
+     "MSU Humanities Yearbook p. 497",
+     "MSU Humanities Yearbook p. 501",
+     "MSU Humanities Yearbook p. 503",
+     "MSU Humanities Yearbook p. 506",
+     "MSU Humanities Yearbook p. 507",
+     "MSU Humanities Yearbook p. 509",
+     "MSU Humanities Yearbook p. 511",
+     "MSU Humanities Yearbook p. 513",
+     "MSU Humanities Yearbook p. 514",
+     "MSU Humanities Yearbook p. 518",
+     "MSU Humanities Yearbook p. 533",
+     "MSU Humanities Yearbook p. 536",
+     "MSU Humanities Yearbook p. 537",
+     "MSU Humanities Yearbook p. 540",
+     "MSU Humanities Yearbook p. 545",
+     "MSU Humanities Yearbook p. 547",
+     "MSU Humanities Yearbook p. 549",
+     "MSU Humanities Yearbook p. 550",
+     "MSU Humanities Yearbook p. 560",
+     "MSU Humanities Yearbook p. 565",
+     "MSU Humanities Yearbook p. 568",
+     "MSU Humanities Yearbook p. 571",
+     "MSU Humanities Yearbook p. 572",
+     "MSU Humanities Yearbook p. 575",
+     "MSU Humanities Yearbook p. 577",
+     "MSU Humanities Yearbook p. 579",
+     "MSU Humanities Yearbook p. 581"
+    ],
+    "chunk_ids": [
+     2527,
+     2538,
+     2673,
+     2681,
+     2728,
+     2740,
+     2810,
+     2811,
+     2838,
+     2854,
+     2869,
+     2878,
+     2891,
+     2905,
+     2919,
+     2929,
+     2952,
+     3042,
+     3057,
+     3066,
+     3082,
+     3111,
+     3123,
+     3139,
+     3147,
+     3206,
+     3239,
+     3264,
+     3281,
+     3295,
+     3309,
+     3322,
+     3335,
+     3349
+    ]
+   },
+   {
+    "title": "Entrepreneurship and Financial Management",
+    "pages": [
+     "MSU Humanities Yearbook p. 474",
+     "MSU Humanities Yearbook p. 484"
+    ],
+    "chunk_ids": [
+     2677,
+     2734
+    ]
+   },
+   {
+    "title": "Entrepreneurship for Educators",
+    "pages": [
+     "MSU Humanities Yearbook p. 498",
+     "MSU Humanities Yearbook p. 586",
+     "MSU Humanities Yearbook p. 586"
+    ],
+    "chunk_ids": [
+     2824,
+     3373,
+     3374
+    ]
+   },
+   {
+    "title": "Entrepreneurship and Industrialisation in Food Technology and Design",
+    "pages": [
+     "MSU Humanities Yearbook p. 561",
+     "MSU Humanities Yearbook p. 592"
+    ],
+    "chunk_ids": [
+     3220,
+     3420
+    ]
+   },
+   {
+    "title": "Entrepreneurship in Textile Technology and Design Business",
+    "pages": [
+     "MSU Humanities Yearbook p. 594"
+    ],
+    "chunk_ids": [
+     3435
+    ]
+   }
+  ],
+  "bhc434": [
+   {
+    "title": "Healthcare Quality Management",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 550"
+    ],
+    "chunk_ids": [
+     7874
+    ]
+   },
+   {
+    "title": "Occupational Health, Quality and Safety",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 554"
+    ],
+    "chunk_ids": [
+     7897
+    ]
+   }
+  ],
+  "bieat105": [
+   {
+    "title": "Adaptations for Sensory and Neuro-developmental Disabilities",
+    "pages": [
+     "MSU Humanities Yearbook p. 373",
+     "MSU Humanities Yearbook p. 374"
+    ],
+    "chunk_ids": [
+     2052,
+     2058
+    ]
+   },
+   {
+    "title": "Teaching Practice",
+    "pages": [
+     "MSU Humanities Yearbook p. 375"
+    ],
+    "chunk_ids": [
+     2068
+    ]
+   }
+  ],
+  "bieat106": [
+   {
+    "title": "Adaptations for Locomotor and Multiple Disabilities",
+    "pages": [
+     "MSU Humanities Yearbook p. 373",
+     "MSU Humanities Yearbook p. 374"
+    ],
+    "chunk_ids": [
+     2052,
+     2059
+    ]
+   },
+   {
+    "title": "Curriculum Planning and Design",
+    "pages": [
+     "MSU Humanities Yearbook p. 374"
+    ],
+    "chunk_ids": [
+     2060
+    ]
+   }
+  ],
+  "bm135": [
+   {
+    "title": "Commercial Law",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 385",
+     "MSU Sciences Yearbook Vol. 2 p. 385",
+     "MSU Sciences Yearbook Vol. 2 p. 388",
+     "MSU Sciences Yearbook Vol. 2 p. 396",
+     "MSU Sciences Yearbook Vol. 2 p. 398",
+     "MSU Sciences Yearbook Vol. 2 p. 434",
+     "MSU Sciences Yearbook Vol. 2 p. 440",
+     "MSU Sciences Yearbook Vol. 2 p. 442",
+     "MSU Sciences Yearbook Vol. 2 p. 449",
+     "MSU Sciences Yearbook Vol. 2 p. 451",
+     "MSU Sciences Yearbook Vol. 2 p. 451",
+     "MSU Sciences Yearbook Vol. 2 p. 541",
+     "MSU Sciences Yearbook Vol. 2 p. 542",
+     "MSU Sciences Yearbook Vol. 2 p. 568"
+    ],
+    "chunk_ids": [
+     6980,
+     6981,
+     6992,
+     7045,
+     7054,
+     7246,
+     7286,
+     7297,
+     7339,
+     7350,
+     7351,
+     7832,
+     7838,
+     7971
+    ]
+   },
+   {
+    "title": "Business Law I",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 432"
+    ],
+    "chunk_ids": [
+     7235
+    ]
+   }
+  ],
+  "bm436": [
+   {
+    "title": "Management Accounting",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 542",
+     "MSU Sciences Yearbook Vol. 2 p. 546"
+    ],
+    "chunk_ids": [
+     7834,
+     7858
+    ]
+   },
+   {
+    "title": "Organisational Behaviour- Refer to Management Sciences Department",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 593",
+     "MSU Sciences Yearbook Vol. 2 p. 609"
+    ],
+    "chunk_ids": [
+     8103,
+     8192
+    ]
+   }
+  ],
+  "bma203": [
+   {
+    "title": "Ordinary Differential Equations",
+    "pages": [
+     "MSU Humanities Yearbook p. 383",
+     "MSU Humanities Yearbook p. 398"
+    ],
+    "chunk_ids": [
+     2101,
+     2194
+    ]
+   },
+   {
+    "title": "Mechanics I",
+    "pages": [
+     "MSU Humanities Yearbook p. 385"
+    ],
+    "chunk_ids": [
+     2107
+    ]
+   }
+  ],
+  "bma204": [
+   {
+    "title": "Numerical Methods",
+    "pages": [
+     "MSU Humanities Yearbook p. 385"
+    ],
+    "chunk_ids": [
+     2107
+    ]
+   },
+   {
+    "title": "Mechanics",
+    "pages": [
+     "MSU Humanities Yearbook p. 404"
+    ],
+    "chunk_ids": [
+     2238
+    ]
+   }
+  ],
+  "bma205": [
+   {
+    "title": "Statistics",
+    "pages": [
+     "MSU Humanities Yearbook p. 385"
+    ],
+    "chunk_ids": [
+     2107
+    ]
+   },
+   {
+    "title": "Numerical Methods",
+    "pages": [
+     "MSU Humanities Yearbook p. 404"
+    ],
+    "chunk_ids": [
+     2238
+    ]
+   }
+  ],
+  "bna103": [
+   {
+    "title": "Indangalilo jokupenyengula makwalo",
+    "pages": [
+     "MSU Humanities Yearbook p. 379",
+     "MSU Humanities Yearbook p. 387"
+    ],
+    "chunk_ids": [
+     2089,
+     2122
+    ]
+   },
+   {
+    "title": "Kutoloka nokupandulila lulimi (Translation and",
+    "pages": [
+     "MSU Humanities Yearbook p. 381",
+     "MSU Humanities Yearbook p. 381"
+    ],
+    "chunk_ids": [
+     2094,
+     2095
+    ]
+   }
+  ],
+  "bna104": [
+   {
+    "title": "Bulongwa bwolulimi lwechiNambya",
+    "pages": [
+     "MSU Humanities Yearbook p. 381",
+     "MSU Humanities Yearbook p. 381"
+    ],
+    "chunk_ids": [
+     2094,
+     2095
+    ]
+   },
+   {
+    "title": "Kutolika nokupandulila lulimi",
+    "pages": [
+     "MSU Humanities Yearbook p. 392"
+    ],
+    "chunk_ids": [
+     2157
+    ]
+   }
+  ],
+  "bna105": [
+   {
+    "title": "Kupyeka makwalo",
+    "pages": [
+     "MSU Humanities Yearbook p. 381"
+    ],
+    "chunk_ids": [
+     2095
+    ]
+   },
+   {
+    "title": "Bulongwa bwolulimi lwechiNambya",
+    "pages": [
+     "MSU Humanities Yearbook p. 392"
+    ],
+    "chunk_ids": [
+     2157
+    ]
+   }
+  ],
+  "bnd103": [
+   {
+    "title": "Ilithiritsha yabantwana yesiNdebele [Children's Literature",
+    "pages": [
+     "MSU Humanities Yearbook p. 381"
+    ],
+    "chunk_ids": [
+     2094
+    ]
+   },
+   {
+    "title": "Ilithiritsha engalotshwanga",
+    "pages": [
+     "MSU Humanities Yearbook p. 391"
+    ],
+    "chunk_ids": [
+     2152
+    ]
+   }
+  ],
+  "bnd104": [
+   {
+    "title": "Izindlela zokufundisa IsiNdebele ephurayimari [Methods of",
+    "pages": [
+     "MSU Humanities Yearbook p. 381"
+    ],
+    "chunk_ids": [
+     2094
+    ]
+   },
+   {
+    "title": "Izindlelala zokufundisa IsiNdebele",
+    "pages": [
+     "MSU Humanities Yearbook p. 391"
+    ],
+    "chunk_ids": [
+     2153
+    ]
+   }
+  ],
+  "bnd203": [
+   {
+    "title": "Ukulaya lokucebisa esiNdebeleni [Guidance and Counselling in",
+    "pages": [
+     "MSU Humanities Yearbook p. 382"
+    ],
+    "chunk_ids": [
+     2098
+    ]
+   },
+   {
+    "title": "Ukulaya lokucebisa esiNdbeleni",
+    "pages": [
+     "MSU Humanities Yearbook p. 395"
+    ],
+    "chunk_ids": [
+     2181
+    ]
+   }
+  ],
+  "bpct103": [
+   {
+    "title": "Sociological Foundations in Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 414"
+    ],
+    "chunk_ids": [
+     2295
+    ]
+   },
+   {
+    "title": "Sociological Perspectives of Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 414"
+    ],
+    "chunk_ids": [
+     2299
+    ]
+   }
+  ],
+  "bse103": [
+   {
+    "title": "Systematic Problem Solving and Computer Programming",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 324",
+     "MSU Sciences Yearbook Vol. 2 p. 325"
+    ],
+    "chunk_ids": [
+     6676,
+     6679
+    ]
+   },
+   {
+    "title": "Engineering Mathematics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 338",
+     "MSU Sciences Yearbook Vol. 2 p. 339"
+    ],
+    "chunk_ids": [
+     6748,
+     6753
+    ]
+   }
+  ],
+  "bse105": [
+   {
+    "title": "Calculus",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 324",
+     "MSU Sciences Yearbook Vol. 2 p. 325"
+    ],
+    "chunk_ids": [
+     6676,
+     6679
+    ]
+   },
+   {
+    "title": "Engineering Mechanics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 338",
+     "MSU Sciences Yearbook Vol. 2 p. 340"
+    ],
+    "chunk_ids": [
+     6748,
+     6755
+    ]
+   }
+  ],
+  "bse201": [
+   {
+    "title": "Project Management & Design in Biosystems Engineering",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 324",
+     "MSU Sciences Yearbook Vol. 2 p. 325",
+     "MSU Sciences Yearbook Vol. 2 p. 325"
+    ],
+    "chunk_ids": [
+     6676,
+     6680,
+     6681
+    ]
+   },
+   {
+    "title": "Engineering Mathematics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 338",
+     "MSU Sciences Yearbook Vol. 2 p. 340"
+    ],
+    "chunk_ids": [
+     6748,
+     6756
+    ]
+   }
+  ],
+  "bsh101": [
+   {
+    "title": "Nhoroondo yeMutauro weChiShona [History of the",
+    "pages": [
+     "MSU Humanities Yearbook p. 379",
+     "MSU Humanities Yearbook p. 387"
+    ],
+    "chunk_ids": [
+     2088,
+     2115
+    ]
+   },
+   {
+    "title": "Sociological Foundations in Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 419"
+    ],
+    "chunk_ids": [
+     2331,
+     2334
+    ]
+   }
+  ],
+  "bsh102": [
+   {
+    "title": "Pfungwa dzeKuongorora Uvaranomwe (Theories of Literary",
+    "pages": [
+     "MSU Humanities Yearbook p. 379"
+    ],
+    "chunk_ids": [
+     2088
+    ]
+   },
+   {
+    "title": "Pfungwa Dzokuongorora Nadzo Uvaranomwe",
+    "pages": [
+     "MSU Humanities Yearbook p. 387"
+    ],
+    "chunk_ids": [
+     2116
+    ]
+   },
+   {
+    "title": "Introduction to Civic Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 419"
+    ],
+    "chunk_ids": [
+     2331,
+     2334
+    ]
+   }
+  ],
+  "bsh103": [
+   {
+    "title": "Mutinhiro weMutauro nemubatanidzwa weMitinhiro",
+    "pages": [
+     "MSU Humanities Yearbook p. 379",
+     "MSU Humanities Yearbook p. 387"
+    ],
+    "chunk_ids": [
+     2088,
+     2117
+    ]
+   },
+   {
+    "title": "Psychology of Teaching and Learning",
+    "pages": [
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 420",
+     "MSU Humanities Yearbook p. 420"
+    ],
+    "chunk_ids": [
+     2331,
+     2336,
+     2337
+    ]
+   }
+  ],
+  "bsh104": [
+   {
+    "title": "Kuturikira",
+    "pages": [
+     "MSU Humanities Yearbook p. 381",
+     "MSU Humanities Yearbook p. 391"
+    ],
+    "chunk_ids": [
+     2094,
+     2154
+    ]
+   },
+   {
+    "title": "Trends and Traditions in Philosophy of Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 420"
+    ],
+    "chunk_ids": [
+     2331,
+     2338
+    ]
+   }
+  ],
+  "bsh105": [
+   {
+    "title": "Dudziramutauro reChiShona",
+    "pages": [
+     "MSU Humanities Yearbook p. 381",
+     "MSU Humanities Yearbook p. 391"
+    ],
+    "chunk_ids": [
+     2094,
+     2154
+    ]
+   },
+   {
+    "title": "Studies in Inclusion and Exclusion",
+    "pages": [
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 420"
+    ],
+    "chunk_ids": [
+     2331,
+     2339
+    ]
+   }
+  ],
+  "bsh106": [
+   {
+    "title": "Kupepeta Zvinyorwa zveChiShona",
+    "pages": [
+     "MSU Humanities Yearbook p. 381",
+     "MSU Humanities Yearbook p. 391"
+    ],
+    "chunk_ids": [
+     2094,
+     2155
+    ]
+   },
+   {
+    "title": "Deviance and Social Control in Various Social Contexts",
+    "pages": [
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 420"
+    ],
+    "chunk_ids": [
+     2331,
+     2340
+    ]
+   }
+  ],
+  "bsh201": [
+   {
+    "title": "Kudzidzisa ChiShona Zvakanaka kuPuraimari [Effective",
+    "pages": [
+     "MSU Humanities Yearbook p. 382",
+     "MSU Humanities Yearbook p. 396"
+    ],
+    "chunk_ids": [
+     2098,
+     2182
+    ]
+   },
+   {
+    "title": "Interface Between School and Family",
+    "pages": [
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 421"
+    ],
+    "chunk_ids": [
+     2332,
+     2345
+    ]
+   }
+  ],
+  "bsh202": [
+   {
+    "title": "Nganonyorwa",
+    "pages": [
+     "MSU Humanities Yearbook p. 382",
+     "MSU Humanities Yearbook p. 382",
+     "MSU Humanities Yearbook p. 396"
+    ],
+    "chunk_ids": [
+     2098,
+     2099,
+     2182
+    ]
+   },
+   {
+    "title": "Cyber Culture and Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 421"
+    ],
+    "chunk_ids": [
+     2332,
+     2346
+    ]
+   }
+  ],
+  "bsh203": [
+   {
+    "title": "Ukama hweMutauro Pfungwa neNharaunda",
+    "pages": [
+     "MSU Humanities Yearbook p. 384",
+     "MSU Humanities Yearbook p. 400"
+    ],
+    "chunk_ids": [
+     2103,
+     2209
+    ]
+   },
+   {
+    "title": "Education, Technology and Social Change",
+    "pages": [
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 421"
+    ],
+    "chunk_ids": [
+     2332,
+     2347
+    ]
+   }
+  ],
+  "bsh204": [
+   {
+    "title": "Mitemo yezveMutauro muZimbabwe Language Policy and",
+    "pages": [
+     "MSU Humanities Yearbook p. 384",
+     "MSU Humanities Yearbook p. 384"
+    ],
+    "chunk_ids": [
+     2103,
+     2104
+    ]
+   },
+   {
+    "title": "Mitemo yezveMitauro muZimbabwe",
+    "pages": [
+     "MSU Humanities Yearbook p. 400"
+    ],
+    "chunk_ids": [
+     2209
+    ]
+   },
+   {
+    "title": "Mass Media, Culture and Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 421"
+    ],
+    "chunk_ids": [
+     2332,
+     2351
+    ]
+   }
+  ],
+  "bsh205": [
+   {
+    "title": "Kuumba Zvinyorwa",
+    "pages": [
+     "MSU Humanities Yearbook p. 384",
+     "MSU Humanities Yearbook p. 400"
+    ],
+    "chunk_ids": [
+     2104,
+     2210
+    ]
+   },
+   {
+    "title": "Classrooms as Spaces for Creativity",
+    "pages": [
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 422"
+    ],
+    "chunk_ids": [
+     2332,
+     2352
+    ]
+   }
+  ],
+  "bsh206": [
+   {
+    "title": "Mapazi eMutauro weChiShona",
+    "pages": [
+     "MSU Humanities Yearbook p. 384",
+     "MSU Humanities Yearbook p. 401"
+    ],
+    "chunk_ids": [
+     2104,
+     2211
+    ]
+   },
+   {
+    "title": "Introduction to Gender, Sexuality and Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 419",
+     "MSU Humanities Yearbook p. 422"
+    ],
+    "chunk_ids": [
+     2332,
+     2333,
+     2353
+    ]
+   }
+  ],
+  "bsot203": [
+   {
+    "title": "Tsebeliso le meaho ka puo",
+    "pages": [
+     "MSU Humanities Yearbook p. 385"
+    ],
+    "chunk_ids": [
+     2106
+    ]
+   },
+   {
+    "title": "Meaho le tsebelisoeapuo",
+    "pages": [
+     "MSU Humanities Yearbook p. 402"
+    ],
+    "chunk_ids": [
+     2222
+    ]
+   }
+  ],
+  "bton203": [
+   {
+    "title": "Zyamiyeeyo azyabukkale mumilaka",
+    "pages": [
+     "MSU Humanities Yearbook p. 384",
+     "MSU Humanities Yearbook p. 402"
+    ],
+    "chunk_ids": [
+     2105,
+     2218
+    ]
+   },
+   {
+    "title": "Vhushaka ha zwa kuhumbulele na matshilisano kha zwa",
+    "pages": [
+     "MSU Humanities Yearbook p. 385"
+    ],
+    "chunk_ids": [
+     2106
+    ]
+   }
+  ],
+  "bton204": [
+   {
+    "title": "Mulawo wamulaka amabambe muZimbabwe (Language Policy",
+    "pages": [
+     "MSU Humanities Yearbook p. 384",
+     "MSU Humanities Yearbook p. 402"
+    ],
+    "chunk_ids": [
+     2105,
+     2218
+    ]
+   },
+   {
+    "title": "Milayo ya Kushumiselwe kwa zwa Luambo Zimbabwe",
+    "pages": [
+     "MSU Humanities Yearbook p. 385"
+    ],
+    "chunk_ids": [
+     2106
+    ]
+   }
+  ],
+  "bton205": [
+   {
+    "title": "Zyakulifulila",
+    "pages": [
+     "MSU Humanities Yearbook p. 385",
+     "MSU Humanities Yearbook p. 402"
+    ],
+    "chunk_ids": [
+     2106,
+     2219
+    ]
+   },
+   {
+    "title": "Vhutsila ha Manwala",
+    "pages": [
+     "MSU Humanities Yearbook p. 385"
+    ],
+    "chunk_ids": [
+     2106
+    ]
+   }
+  ],
+  "bton206": [
+   {
+    "title": "Ngambwiido mumulaka wachiTonga",
+    "pages": [
+     "MSU Humanities Yearbook p. 385",
+     "MSU Humanities Yearbook p. 402"
+    ],
+    "chunk_ids": [
+     2106,
+     2219
+    ]
+   },
+   {
+    "title": "U Nyambotavhi",
+    "pages": [
+     "MSU Humanities Yearbook p. 385"
+    ],
+    "chunk_ids": [
+     2106
+    ]
+   }
+  ],
+  "cmi131": [
+   {
+    "title": "Principles of Marketing",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 507",
+     "MSU Sciences Yearbook Vol. 2 p. 508",
+     "MSU Sciences Yearbook Vol. 2 p. 541",
+     "MSU Sciences Yearbook Vol. 2 p. 543",
+     "MSU Sciences Yearbook Vol. 2 p. 543",
+     "MSU Sciences Yearbook Vol. 2 p. 549",
+     "MSU Sciences Yearbook Vol. 2 p. 552"
+    ],
+    "chunk_ids": [
+     7656,
+     7660,
+     7832,
+     7843,
+     7844,
+     7872,
+     7882
+    ]
+   },
+   {
+    "title": "Introduction to Marketing",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 568"
+    ],
+    "chunk_ids": [
+     7971
+    ]
+   }
+  ],
+  "dpcr640": [
+   {
+    "title": "Dissertation",
+    "pages": [
+     "MSU Humanities Yearbook p. 879"
+    ],
+    "chunk_ids": [
+     5268
+    ]
+   },
+   {
+    "title": "Peacebuilding and Conflict Transformation in Africa",
+    "pages": [
+     "MSU Humanities Yearbook p. 880"
+    ],
+    "chunk_ids": [
+     5276
+    ]
+   }
+  ],
+  "dpcr641": [
+   {
+    "title": "Peacebuilding and Conflict Transformation in Africa",
+    "pages": [
+     "MSU Humanities Yearbook p. 879",
+     "MSU Humanities Yearbook p. 879"
+    ],
+    "chunk_ids": [
+     5268,
+     5269
+    ]
+   },
+   {
+    "title": "International Institutions and Peacekeeping",
+    "pages": [
+     "MSU Humanities Yearbook p. 880"
+    ],
+    "chunk_ids": [
+     5276
+    ]
+   }
+  ],
+  "dpcr642": [
+   {
+    "title": "International Institutions and Peacekeeping",
+    "pages": [
+     "MSU Humanities Yearbook p. 879",
+     "MSU Humanities Yearbook p. 879"
+    ],
+    "chunk_ids": [
+     5268,
+     5269
+    ]
+   },
+   {
+    "title": "Migration, Displacement and Peacebuilding",
+    "pages": [
+     "MSU Humanities Yearbook p. 880"
+    ],
+    "chunk_ids": [
+     5277
+    ]
+   }
+  ],
+  "dpcr643": [
+   {
+    "title": "Migration, Displacement and Peacebuilding",
+    "pages": [
+     "MSU Humanities Yearbook p. 879"
+    ],
+    "chunk_ids": [
+     5269
+    ]
+   },
+   {
+    "title": "Dissertation",
+    "pages": [
+     "MSU Humanities Yearbook p. 880"
+    ],
+    "chunk_ids": [
+     5278
+    ]
+   }
+  ],
+  "dph125": [
+   {
+    "title": "ICT for Development Practice",
+    "pages": [
+     "MSU Humanities Yearbook p. 191"
+    ],
+    "chunk_ids": [
+     875
+    ]
+   },
+   {
+    "title": "Information Communication Technology for Development Practice",
+    "pages": [
+     "MSU Humanities Yearbook p. 193"
+    ],
+    "chunk_ids": [
+     887
+    ]
+   }
+  ],
+  "dph214": [
+   {
+    "title": "Managing Displacement and Migration for Development",
+    "pages": [
+     "MSU Humanities Yearbook p. 191",
+     "MSU Humanities Yearbook p. 194"
+    ],
+    "chunk_ids": [
+     875,
+     894
+    ]
+   },
+   {
+    "title": "Community Health Practice",
+    "pages": [
+     "MSU Humanities Yearbook p. 194"
+    ],
+    "chunk_ids": [
+     896
+    ]
+   }
+  ],
+  "dsh222": [
+   {
+    "title": "Project Planning and Development",
+    "pages": [
+     "MSU Humanities Yearbook p. 316",
+     "MSU Humanities Yearbook p. 323",
+     "MSU Humanities Yearbook p. 331"
+    ],
+    "chunk_ids": [
+     1683,
+     1740,
+     1795
+    ]
+   },
+   {
+    "title": "Project Management, Monitoring and Evaluation",
+    "pages": [
+     "MSU Humanities Yearbook p. 320",
+     "MSU Humanities Yearbook p. 325",
+     "MSU Humanities Yearbook p. 333"
+    ],
+    "chunk_ids": [
+     1713,
+     1753,
+     1809
+    ]
+   }
+  ],
+  "dsi134": [
+   {
+    "title": "Principles of Programming Languages",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 468"
+    ],
+    "chunk_ids": [
+     7445
+    ]
+   },
+   {
+    "title": "Principles of Programming for Data Science and Informatics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 470",
+     "MSU Sciences Yearbook Vol. 2 p. 470"
+    ],
+    "chunk_ids": [
+     7453,
+     7454
+    ]
+   }
+  ],
+  "dswk634": [
+   {
+    "title": "Research Methods in Social Work",
+    "pages": [
+     "MSU Humanities Yearbook p. 914"
+    ],
+    "chunk_ids": [
+     5492
+    ]
+   },
+   {
+    "title": "Research Methods and Statistics",
+    "pages": [
+     "MSU Humanities Yearbook p. 915"
+    ],
+    "chunk_ids": [
+     5506
+    ]
+   }
+  ],
+  "ec131": [
+   {
+    "title": "Economic Principles I",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 385",
+     "MSU Sciences Yearbook Vol. 2 p. 386",
+     "MSU Sciences Yearbook Vol. 2 p. 396",
+     "MSU Sciences Yearbook Vol. 2 p. 397",
+     "MSU Sciences Yearbook Vol. 2 p. 405",
+     "MSU Sciences Yearbook Vol. 2 p. 410",
+     "MSU Sciences Yearbook Vol. 2 p. 431",
+     "MSU Sciences Yearbook Vol. 2 p. 432",
+     "MSU Sciences Yearbook Vol. 2 p. 440",
+     "MSU Sciences Yearbook Vol. 2 p. 441",
+     "MSU Sciences Yearbook Vol. 2 p. 449",
+     "MSU Sciences Yearbook Vol. 2 p. 450",
+     "MSU Sciences Yearbook Vol. 2 p. 507",
+     "MSU Sciences Yearbook Vol. 2 p. 507",
+     "MSU Sciences Yearbook Vol. 2 p. 508",
+     "MSU Sciences Yearbook Vol. 2 p. 509",
+     "MSU Sciences Yearbook Vol. 2 p. 509",
+     "MSU Sciences Yearbook Vol. 2 p. 540",
+     "MSU Sciences Yearbook Vol. 2 p. 543",
+     "MSU Sciences Yearbook Vol. 2 p. 575",
+     "MSU Sciences Yearbook Vol. 2 p. 581",
+     "MSU Sciences Yearbook Vol. 2 p. 601",
+     "MSU Sciences Yearbook Vol. 2 p. 609"
+    ],
+    "chunk_ids": [
+     6980,
+     6984,
+     7044,
+     7048,
+     7097,
+     7133,
+     7233,
+     7237,
+     7286,
+     7290,
+     7339,
+     7342,
+     7655,
+     7656,
+     7660,
+     7664,
+     7665,
+     7831,
+     7843,
+     8002,
+     8038,
+     8143,
+     8192
+    ]
+   },
+   {
+    "title": "Principles of Economics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 568"
+    ],
+    "chunk_ids": [
+     7971
+    ]
+   }
+  ],
+  "ec134": [
+   {
+    "title": "Economic Principles II",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 385",
+     "MSU Sciences Yearbook Vol. 2 p. 388",
+     "MSU Sciences Yearbook Vol. 2 p. 405",
+     "MSU Sciences Yearbook Vol. 2 p. 405",
+     "MSU Sciences Yearbook Vol. 2 p. 410",
+     "MSU Sciences Yearbook Vol. 2 p. 432",
+     "MSU Sciences Yearbook Vol. 2 p. 433",
+     "MSU Sciences Yearbook Vol. 2 p. 440",
+     "MSU Sciences Yearbook Vol. 2 p. 441",
+     "MSU Sciences Yearbook Vol. 2 p. 449",
+     "MSU Sciences Yearbook Vol. 2 p. 450",
+     "MSU Sciences Yearbook Vol. 2 p. 507",
+     "MSU Sciences Yearbook Vol. 2 p. 575",
+     "MSU Sciences Yearbook Vol. 2 p. 575",
+     "MSU Sciences Yearbook Vol. 2 p. 593",
+     "MSU Sciences Yearbook Vol. 2 p. 601",
+     "MSU Sciences Yearbook Vol. 2 p. 609"
+    ],
+    "chunk_ids": [
+     6981,
+     6994,
+     7097,
+     7098,
+     7133,
+     7235,
+     7241,
+     7286,
+     7293,
+     7339,
+     7345,
+     7656,
+     8002,
+     8003,
+     8103,
+     8143,
+     8192
+    ]
+   },
+   {
+    "title": "Macroeconomics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 541",
+     "MSU Sciences Yearbook Vol. 2 p. 543"
+    ],
+    "chunk_ids": [
+     7832,
+     7843
+    ]
+   },
+   {
+    "title": "Principles of Economics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 568"
+    ],
+    "chunk_ids": [
+     7971
+    ]
+   }
+  ],
+  "ec235": [
+   {
+    "title": "International Economics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 432",
+     "MSU Sciences Yearbook Vol. 2 p. 434",
+     "MSU Sciences Yearbook Vol. 2 p. 449",
+     "MSU Sciences Yearbook Vol. 2 p. 452"
+    ],
+    "chunk_ids": [
+     7235,
+     7253,
+     7340,
+     7356
+    ]
+   },
+   {
+    "title": "Agricultural Economics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 441"
+    ],
+    "chunk_ids": [
+     7289
+    ]
+   }
+  ],
+  "ec445": [
+   {
+    "title": "Disseratation/Research Project",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 432",
+     "MSU Sciences Yearbook Vol. 2 p. 437",
+     "MSU Sciences Yearbook Vol. 2 p. 441",
+     "MSU Sciences Yearbook Vol. 2 p. 446",
+     "MSU Sciences Yearbook Vol. 2 p. 450",
+     "MSU Sciences Yearbook Vol. 2 p. 454"
+    ],
+    "chunk_ids": [
+     7237,
+     7275,
+     7289,
+     7328,
+     7341,
+     7373
+    ]
+   },
+   {
+    "title": "Research project/Dissertation",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 445"
+    ],
+    "chunk_ids": [
+     7316
+    ]
+   }
+  ],
+  "ecdp109": [
+   {
+    "title": "Science, Technology, Mathematics and Innovation in Early",
+    "pages": [
+     "MSU Humanities Yearbook p. 408",
+     "MSU Humanities Yearbook p. 410",
+     "MSU Humanities Yearbook p. 410"
+    ],
+    "chunk_ids": [
+     2257,
+     2269,
+     2270
+    ]
+   },
+   {
+    "title": "Language Arts in Early Childhood Development",
+    "pages": [
+     "MSU Humanities Yearbook p. 410",
+     "MSU Humanities Yearbook p. 410"
+    ],
+    "chunk_ids": [
+     2270,
+     2271
+    ]
+   }
+  ],
+  "edgs231": [
+   {
+    "title": "Gender Studies for Educators",
+    "pages": [
+     "MSU Humanities Yearbook p. 370",
+     "MSU Humanities Yearbook p. 375",
+     "MSU Humanities Yearbook p. 395",
+     "MSU Humanities Yearbook p. 410",
+     "MSU Humanities Yearbook p. 416",
+     "MSU Humanities Yearbook p. 421",
+     "MSU Humanities Yearbook p. 425",
+     "MSU Humanities Yearbook p. 427",
+     "MSU Humanities Yearbook p. 451",
+     "MSU Humanities Yearbook p. 452",
+     "MSU Humanities Yearbook p. 474",
+     "MSU Humanities Yearbook p. 475",
+     "MSU Humanities Yearbook p. 483",
+     "MSU Humanities Yearbook p. 484",
+     "MSU Humanities Yearbook p. 497",
+     "MSU Humanities Yearbook p. 497",
+     "MSU Humanities Yearbook p. 498",
+     "MSU Humanities Yearbook p. 501",
+     "MSU Humanities Yearbook p. 503",
+     "MSU Humanities Yearbook p. 506",
+     "MSU Humanities Yearbook p. 507",
+     "MSU Humanities Yearbook p. 509",
+     "MSU Humanities Yearbook p. 511",
+     "MSU Humanities Yearbook p. 513",
+     "MSU Humanities Yearbook p. 514",
+     "MSU Humanities Yearbook p. 517",
+     "MSU Humanities Yearbook p. 518",
+     "MSU Humanities Yearbook p. 533",
+     "MSU Humanities Yearbook p. 536",
+     "MSU Humanities Yearbook p. 537",
+     "MSU Humanities Yearbook p. 540",
+     "MSU Humanities Yearbook p. 542",
+     "MSU Humanities Yearbook p. 545",
+     "MSU Humanities Yearbook p. 547",
+     "MSU Humanities Yearbook p. 549",
+     "MSU Humanities Yearbook p. 549",
+     "MSU Humanities Yearbook p. 550",
+     "MSU Humanities Yearbook p. 560",
+     "MSU Humanities Yearbook p. 561",
+     "MSU Humanities Yearbook p. 564",
+     "MSU Humanities Yearbook p. 567",
+     "MSU Humanities Yearbook p. 571",
+     "MSU Humanities Yearbook p. 572",
+     "MSU Humanities Yearbook p. 575",
+     "MSU Humanities Yearbook p. 577",
+     "MSU Humanities Yearbook p. 579",
+     "MSU Humanities Yearbook p. 581",
+     "MSU Humanities Yearbook p. 592",
+     "MSU Humanities Yearbook p. 594"
+    ],
+    "chunk_ids": [
+     2033,
+     2067,
+     2175,
+     2271,
+     2310,
+     2348,
+     2367,
+     2387,
+     2528,
+     2542,
+     2673,
+     2678,
+     2728,
+     2737,
+     2810,
+     2811,
+     2820,
+     2838,
+     2853,
+     2869,
+     2880,
+     2891,
+     2908,
+     2919,
+     2927,
+     2941,
+     2954,
+     3041,
+     3057,
+     3065,
+     3082,
+     3093,
+     3111,
+     3124,
+     3139,
+     3140,
+     3148,
+     3206,
+     3218,
+     3238,
+     3259,
+     3281,
+     3294,
+     3309,
+     3321,
+     3335,
+     3351,
+     3420,
+     3432
+    ]
+   },
+   {
+    "title": "Introduction to Gender Studies",
+    "pages": [
+     "MSU Humanities Yearbook p. 584",
+     "MSU Humanities Yearbook p. 585",
+     "MSU Humanities Yearbook p. 585"
+    ],
+    "chunk_ids": [
+     3369,
+     3370,
+     3371
+    ]
+   }
+  ],
+  "efa331": [
+   {
+    "title": "Sociology of Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 482",
+     "MSU Humanities Yearbook p. 564",
+     "MSU Humanities Yearbook p. 584"
+    ],
+    "chunk_ids": [
+     2727,
+     3237,
+     3368
+    ]
+   },
+   {
+    "title": "Sociological Foundations of Early Childhood Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 483"
+    ],
+    "chunk_ids": [
+     2730
+    ]
+   }
+  ],
+  "efa332": [
+   {
+    "title": "Psychology of Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 483",
+     "MSU Humanities Yearbook p. 564",
+     "MSU Humanities Yearbook p. 584"
+    ],
+    "chunk_ids": [
+     2728,
+     3237,
+     3368
+    ]
+   },
+   {
+    "title": "Psychological Theories of Child Development",
+    "pages": [
+     "MSU Humanities Yearbook p. 483"
+    ],
+    "chunk_ids": [
+     2730
+    ]
+   }
+  ],
+  "efa334": [
+   {
+    "title": "Understanding the Curriculum",
+    "pages": [
+     "MSU Humanities Yearbook p. 483",
+     "MSU Humanities Yearbook p. 584"
+    ],
+    "chunk_ids": [
+     2728,
+     3369
+    ]
+   },
+   {
+    "title": "Schools Curriculum Competencies and Innovation",
+    "pages": [
+     "MSU Humanities Yearbook p. 513",
+     "MSU Humanities Yearbook p. 564",
+     "MSU Humanities Yearbook p. 566"
+    ],
+    "chunk_ids": [
+     2921,
+     3237,
+     3252
+    ]
+   }
+  ],
+  "gs211": [
+   {
+    "title": "Gender Studies for Business",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 481",
+     "MSU Sciences Yearbook Vol. 2 p. 481",
+     "MSU Sciences Yearbook Vol. 2 p. 569",
+     "MSU Sciences Yearbook Vol. 2 p. 1062"
+    ],
+    "chunk_ids": [
+     7515,
+     7516,
+     7972,
+     10367
+    ]
+   },
+   {
+    "title": "Gender Studies Refer to Gender studies department",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 1066"
+    ],
+    "chunk_ids": [
+     10393
+    ]
+   },
+   {
+    "title": "Introduction to Gender Studies",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 1098",
+     "MSU Sciences Yearbook Vol. 2 p. 1098",
+     "MSU Sciences Yearbook Vol. 2 p. 1105",
+     "MSU Sciences Yearbook Vol. 2 p. 1106"
+    ],
+    "chunk_ids": [
+     10542,
+     10543,
+     10587,
+     10591
+    ]
+   }
+  ],
+  "gs231": [
+   {
+    "title": "Gender Studies",
+    "pages": [
+     "MSU Humanities Yearbook p. 286",
+     "MSU Humanities Yearbook p. 288",
+     "MSU Humanities Yearbook p. 292",
+     "MSU Humanities Yearbook p. 294",
+     "MSU Humanities Yearbook p. 294",
+     "MSU Humanities Yearbook p. 297",
+     "MSU Humanities Yearbook p. 299",
+     "MSU Sciences Yearbook Vol. 2 p. 277",
+     "MSU Sciences Yearbook Vol. 2 p. 280",
+     "MSU Sciences Yearbook Vol. 2 p. 295",
+     "MSU Sciences Yearbook Vol. 2 p. 295",
+     "MSU Sciences Yearbook Vol. 2 p. 304",
+     "MSU Sciences Yearbook Vol. 2 p. 312",
+     "MSU Sciences Yearbook Vol. 2 p. 368",
+     "MSU Sciences Yearbook Vol. 2 p. 370",
+     "MSU Sciences Yearbook Vol. 2 p. 760",
+     "MSU Sciences Yearbook Vol. 2 p. 765",
+     "MSU Sciences Yearbook Vol. 2 p. 765",
+     "MSU Sciences Yearbook Vol. 2 p. 773",
+     "MSU Sciences Yearbook Vol. 2 p. 773",
+     "MSU Sciences Yearbook Vol. 2 p. 779",
+     "MSU Sciences Yearbook Vol. 2 p. 799",
+     "MSU Sciences Yearbook Vol. 2 p. 803",
+     "MSU Sciences Yearbook Vol. 2 p. 811",
+     "MSU Sciences Yearbook Vol. 2 p. 811",
+     "MSU Sciences Yearbook Vol. 2 p. 827",
+     "MSU Sciences Yearbook Vol. 2 p. 842",
+     "MSU Sciences Yearbook Vol. 2 p. 842",
+     "MSU Sciences Yearbook Vol. 2 p. 845",
+     "MSU Sciences Yearbook Vol. 2 p. 852",
+     "MSU Sciences Yearbook Vol. 2 p. 855",
+     "MSU Sciences Yearbook Vol. 2 p. 865",
+     "MSU Sciences Yearbook Vol. 2 p. 898",
+     "MSU Sciences Yearbook Vol. 2 p. 902",
+     "MSU Sciences Yearbook Vol. 2 p. 913",
+     "MSU Sciences Yearbook Vol. 2 p. 920",
+     "MSU Sciences Yearbook Vol. 2 p. 920",
+     "MSU Sciences Yearbook Vol. 2 p. 923",
+     "MSU Sciences Yearbook Vol. 2 p. 930",
+     "MSU Sciences Yearbook Vol. 2 p. 930",
+     "MSU Sciences Yearbook Vol. 2 p. 935",
+     "MSU Sciences Yearbook Vol. 2 p. 943",
+     "MSU Sciences Yearbook Vol. 2 p. 947",
+     "MSU Sciences Yearbook Vol. 2 p. 970",
+     "MSU Sciences Yearbook Vol. 2 p. 979",
+     "MSU Sciences Yearbook Vol. 2 p. 983",
+     "MSU Sciences Yearbook Vol. 2 p. 998",
+     "MSU Sciences Yearbook Vol. 2 p. 1021",
+     "MSU Sciences Yearbook Vol. 2 p. 1026",
+     "MSU Sciences Yearbook Vol. 2 p. 1033",
+     "MSU Sciences Yearbook Vol. 2 p. 1038",
+     "MSU Sciences Yearbook Vol. 2 p. 1049",
+     "MSU Sciences Yearbook Vol. 2 p. 1053",
+     "MSU Sciences Yearbook Vol. 2 p. 1099"
+    ],
+    "chunk_ids": [
+     1508,
+     1522,
+     1544,
+     1556,
+     1557,
+     1575,
+     1589,
+     6434,
+     6452,
+     6533,
+     6534,
+     6574,
+     6613,
+     6895,
+     6905,
+     8909,
+     8931,
+     8932,
+     8967,
+     8968,
+     8998,
+     9087,
+     9108,
+     9132,
+     9133,
+     9208,
+     9300,
+     9301,
+     9315,
+     9344,
+     9358,
+     9400,
+     9540,
+     9559,
+     9615,
+     9653,
+     9654,
+     9673,
+     9709,
+     9710,
+     9739,
+     9789,
+     9808,
+     9929,
+     9980,
+     9994,
+     10072,
+     10168,
+     10205,
+     10232,
+     10257,
+     10306,
+     10326,
+     10547
+    ]
+   },
+   {
+    "title": "Introduction to Gender",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 861"
+    ],
+    "chunk_ids": [
+     9381
+    ]
+   }
+  ],
+  "gsb211": [
+   {
+    "title": "Gender Studies for Business",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 386",
+     "MSU Sciences Yearbook Vol. 2 p. 388",
+     "MSU Sciences Yearbook Vol. 2 p. 396",
+     "MSU Sciences Yearbook Vol. 2 p. 399",
+     "MSU Sciences Yearbook Vol. 2 p. 405",
+     "MSU Sciences Yearbook Vol. 2 p. 410",
+     "MSU Sciences Yearbook Vol. 2 p. 435",
+     "MSU Sciences Yearbook Vol. 2 p. 440",
+     "MSU Sciences Yearbook Vol. 2 p. 449",
+     "MSU Sciences Yearbook Vol. 2 p. 453",
+     "MSU Sciences Yearbook Vol. 2 p. 453",
+     "MSU Sciences Yearbook Vol. 2 p. 468",
+     "MSU Sciences Yearbook Vol. 2 p. 469",
+     "MSU Sciences Yearbook Vol. 2 p. 479",
+     "MSU Sciences Yearbook Vol. 2 p. 487",
+     "MSU Sciences Yearbook Vol. 2 p. 487",
+     "MSU Sciences Yearbook Vol. 2 p. 490",
+     "MSU Sciences Yearbook Vol. 2 p. 490",
+     "MSU Sciences Yearbook Vol. 2 p. 497",
+     "MSU Sciences Yearbook Vol. 2 p. 500",
+     "MSU Sciences Yearbook Vol. 2 p. 507",
+     "MSU Sciences Yearbook Vol. 2 p. 510",
+     "MSU Sciences Yearbook Vol. 2 p. 540",
+     "MSU Sciences Yearbook Vol. 2 p. 543",
+     "MSU Sciences Yearbook Vol. 2 p. 549",
+     "MSU Sciences Yearbook Vol. 2 p. 549",
+     "MSU Sciences Yearbook Vol. 2 p. 553",
+     "MSU Sciences Yearbook Vol. 2 p. 575",
+     "MSU Sciences Yearbook Vol. 2 p. 581",
+     "MSU Sciences Yearbook Vol. 2 p. 589",
+     "MSU Sciences Yearbook Vol. 2 p. 590",
+     "MSU Sciences Yearbook Vol. 2 p. 598",
+     "MSU Sciences Yearbook Vol. 2 p. 598",
+     "MSU Sciences Yearbook Vol. 2 p. 607"
+    ],
+    "chunk_ids": [
+     6982,
+     6997,
+     7045,
+     7061,
+     7098,
+     7133,
+     7259,
+     7286,
+     7339,
+     7363,
+     7364,
+     7445,
+     7450,
+     7500,
+     7548,
+     7549,
+     7569,
+     7570,
+     7603,
+     7620,
+     7656,
+     7671,
+     7831,
+     7842,
+     7871,
+     7872,
+     7889,
+     8003,
+     8038,
+     8076,
+     8085,
+     8125,
+     8126,
+     8180
+    ]
+   },
+   {
+    "title": "Introduction to Gender Studies",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 431",
+     "MSU Sciences Yearbook Vol. 2 p. 431",
+     "MSU Sciences Yearbook Vol. 2 p. 443"
+    ],
+    "chunk_ids": [
+     7233,
+     7234,
+     7306
+    ]
+   }
+  ],
+  "gsss201": [
+   {
+    "title": "Gender Studies for Social Sciences",
+    "pages": [
+     "MSU Humanities Yearbook p. 648",
+     "MSU Humanities Yearbook p. 653",
+     "MSU Humanities Yearbook p. 654",
+     "MSU Humanities Yearbook p. 659",
+     "MSU Humanities Yearbook p. 661",
+     "MSU Humanities Yearbook p. 665",
+     "MSU Humanities Yearbook p. 667",
+     "MSU Humanities Yearbook p. 694",
+     "MSU Humanities Yearbook p. 697",
+     "MSU Humanities Yearbook p. 703",
+     "MSU Humanities Yearbook p. 704",
+     "MSU Humanities Yearbook p. 717",
+     "MSU Humanities Yearbook p. 720",
+     "MSU Humanities Yearbook p. 786",
+     "MSU Humanities Yearbook p. 791",
+     "MSU Humanities Yearbook p. 825",
+     "MSU Humanities Yearbook p. 856",
+     "MSU Humanities Yearbook p. 858",
+     "MSU Humanities Yearbook p. 869"
+    ],
+    "chunk_ids": [
+     3773,
+     3800,
+     3811,
+     3840,
+     3852,
+     3881,
+     3894,
+     4068,
+     4087,
+     4122,
+     4133,
+     4217,
+     4237,
+     4694,
+     4730,
+     4940,
+     5133,
+     5144,
+     5213
+    ]
+   },
+   {
+    "title": "Introduction to Gender Studies",
+    "pages": [
+     "MSU Humanities Yearbook p. 827"
+    ],
+    "chunk_ids": [
+     4949
+    ]
+   }
+  ],
+  "habb443": [
+   {
+    "title": "Bioinformatics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 761",
+     "MSU Sciences Yearbook Vol. 2 p. 766"
+    ],
+    "chunk_ids": [
+     8910,
+     8939
+    ]
+   },
+   {
+    "title": "Molecular Modelling and Drug Design",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 780"
+    ],
+    "chunk_ids": [
+     9005
+    ]
+   }
+  ],
+  "haws131": [
+   {
+    "title": "Anatomy and Physiology of Animals",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 277",
+     "MSU Sciences Yearbook Vol. 2 p. 277",
+     "MSU Sciences Yearbook Vol. 2 p. 278",
+     "MSU Sciences Yearbook Vol. 2 p. 288",
+     "MSU Sciences Yearbook Vol. 2 p. 288",
+     "MSU Sciences Yearbook Vol. 2 p. 289",
+     "MSU Sciences Yearbook Vol. 2 p. 295",
+     "MSU Sciences Yearbook Vol. 2 p. 295",
+     "MSU Sciences Yearbook Vol. 2 p. 296",
+     "MSU Sciences Yearbook Vol. 2 p. 304"
+    ],
+    "chunk_ids": [
+     6433,
+     6434,
+     6439,
+     6490,
+     6491,
+     6494,
+     6533,
+     6534,
+     6536,
+     6574
+    ]
+   },
+   {
+    "title": "Introduction to Chemistry",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 288"
+    ],
+    "chunk_ids": [
+     6490
+    ]
+   }
+  ],
+  "haws132": [
+   {
+    "title": "Principles of Biochemistry",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 214",
+     "MSU Sciences Yearbook Vol. 2 p. 220",
+     "MSU Sciences Yearbook Vol. 2 p. 220",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 231",
+     "MSU Sciences Yearbook Vol. 2 p. 234",
+     "MSU Sciences Yearbook Vol. 2 p. 238",
+     "MSU Sciences Yearbook Vol. 2 p. 241",
+     "MSU Sciences Yearbook Vol. 2 p. 246",
+     "MSU Sciences Yearbook Vol. 2 p. 249",
+     "MSU Sciences Yearbook Vol. 2 p. 250"
+    ],
+    "chunk_ids": [
+     6123,
+     6151,
+     6152,
+     6164,
+     6165,
+     6196,
+     6209,
+     6230,
+     6240,
+     6277,
+     6288,
+     6293
+    ]
+   },
+   {
+    "title": "Introduction to Biochemistry",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 277",
+     "MSU Sciences Yearbook Vol. 2 p. 288",
+     "MSU Sciences Yearbook Vol. 2 p. 288",
+     "MSU Sciences Yearbook Vol. 2 p. 289",
+     "MSU Sciences Yearbook Vol. 2 p. 295",
+     "MSU Sciences Yearbook Vol. 2 p. 297",
+     "MSU Sciences Yearbook Vol. 2 p. 312",
+     "MSU Sciences Yearbook Vol. 2 p. 313"
+    ],
+    "chunk_ids": [
+     6433,
+     6490,
+     6491,
+     6496,
+     6533,
+     6539,
+     6613,
+     6618
+    ]
+   }
+  ],
+  "haws137": [
+   {
+    "title": "Fundamentals of Food Chemistry",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 288",
+     "MSU Sciences Yearbook Vol. 2 p. 290"
+    ],
+    "chunk_ids": [
+     6490,
+     6503
+    ]
+   },
+   {
+    "title": "Animals in Society",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 295",
+     "MSU Sciences Yearbook Vol. 2 p. 295"
+    ],
+    "chunk_ids": [
+     6532,
+     6533
+    ]
+   }
+  ],
+  "haws139": [
+   {
+    "title": "Cell Biology and Technology",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 288",
+     "MSU Sciences Yearbook Vol. 2 p. 290"
+    ],
+    "chunk_ids": [
+     6490,
+     6500
+    ]
+   },
+   {
+    "title": "Poultry Anatomy and Physiology",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 312",
+     "MSU Sciences Yearbook Vol. 2 p. 313"
+    ],
+    "chunk_ids": [
+     6613,
+     6617
+    ]
+   }
+  ],
+  "haws148": [
+   {
+    "title": "Dairy Chemistry",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 299"
+    ],
+    "chunk_ids": [
+     6555
+    ]
+   },
+   {
+    "title": "Vertebrate Biology",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 304",
+     "MSU Sciences Yearbook Vol. 2 p. 305"
+    ],
+    "chunk_ids": [
+     6574,
+     6585
+    ]
+   }
+  ],
+  "haws239": [
+   {
+    "title": "Principles of Food Microbiology",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 288",
+     "MSU Sciences Yearbook Vol. 2 p. 290"
+    ],
+    "chunk_ids": [
+     6491,
+     6505
+    ]
+   },
+   {
+    "title": "Applied Cattle Nutrition",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 296",
+     "MSU Sciences Yearbook Vol. 2 p. 299"
+    ],
+    "chunk_ids": [
+     6535,
+     6555
+    ]
+   }
+  ],
+  "haws240": [
+   {
+    "title": "Introduction to Animal Products Processing and Preservation",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 288"
+    ],
+    "chunk_ids": [
+     6491
+    ]
+   },
+   {
+    "title": "Introduction to Food Processing, Preservation, and Safety",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 291"
+    ],
+    "chunk_ids": [
+     6507
+    ]
+   },
+   {
+    "title": "Physiology of Lactation",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 296",
+     "MSU Sciences Yearbook Vol. 2 p. 300"
+    ],
+    "chunk_ids": [
+     6535,
+     6560
+    ]
+   },
+   {
+    "title": "Conservation Biology",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 304",
+     "MSU Sciences Yearbook Vol. 2 p. 306"
+    ],
+    "chunk_ids": [
+     6574,
+     6589
+    ]
+   }
+  ],
+  "haws432": [
+   {
+    "title": "Beef Cattle, Goat and Sheep Production",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 283",
+     "MSU Sciences Yearbook Vol. 2 p. 288",
+     "MSU Sciences Yearbook Vol. 2 p. 288",
+     "MSU Sciences Yearbook Vol. 2 p. 291"
+    ],
+    "chunk_ids": [
+     6465,
+     6491,
+     6492,
+     6513
+    ]
+   },
+   {
+    "title": "Wildlife Products Processing",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 304",
+     "MSU Sciences Yearbook Vol. 2 p. 304",
+     "MSU Sciences Yearbook Vol. 2 p. 308"
+    ],
+    "chunk_ids": [
+     6575,
+     6576,
+     6600
+    ]
+   }
+  ],
+  "haws434": [
+   {
+    "title": "Pig and Poultry Production",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 283",
+     "MSU Sciences Yearbook Vol. 2 p. 288",
+     "MSU Sciences Yearbook Vol. 2 p. 288",
+     "MSU Sciences Yearbook Vol. 2 p. 292"
+    ],
+    "chunk_ids": [
+     6468,
+     6491,
+     6492,
+     6516
+    ]
+   },
+   {
+    "title": "Natural Resources Economics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 304",
+     "MSU Sciences Yearbook Vol. 2 p. 304",
+     "MSU Sciences Yearbook Vol. 2 p. 308"
+    ],
+    "chunk_ids": [
+     6575,
+     6576,
+     6601
+    ]
+   }
+  ],
+  "haws443": [
+   {
+    "title": "Dairy Science and Technology",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 289",
+     "MSU Sciences Yearbook Vol. 2 p. 292"
+    ],
+    "chunk_ids": [
+     6493,
+     6519
+    ]
+   },
+   {
+    "title": "Replacement Animal Rearing and Management",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 296",
+     "MSU Sciences Yearbook Vol. 2 p. 296",
+     "MSU Sciences Yearbook Vol. 2 p. 300"
+    ],
+    "chunk_ids": [
+     6535,
+     6536,
+     6561
+    ]
+   }
+  ],
+  "haws444": [
+   {
+    "title": "Processing of Poultry and Fishery Products",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 289",
+     "MSU Sciences Yearbook Vol. 2 p. 292"
+    ],
+    "chunk_ids": [
+     6493,
+     6520
+    ]
+   },
+   {
+    "title": "Intensive Dairy Production",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 296",
+     "MSU Sciences Yearbook Vol. 2 p. 300",
+     "MSU Sciences Yearbook Vol. 2 p. 300"
+    ],
+    "chunk_ids": [
+     6536,
+     6564,
+     6565
+    ]
+   }
+  ],
+  "haws445": [
+   {
+    "title": "Animal By-products Processing",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 293"
+    ],
+    "chunk_ids": [
+     6522
+    ]
+   },
+   {
+    "title": "Dairy Effluent Management",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 296",
+     "MSU Sciences Yearbook Vol. 2 p. 300"
+    ],
+    "chunk_ids": [
+     6536,
+     6562
+    ]
+   }
+  ],
+  "haws448": [
+   {
+    "title": "Dairy Milking Machine Management",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 296",
+     "MSU Sciences Yearbook Vol. 2 p. 301"
+    ],
+    "chunk_ids": [
+     6536,
+     6567
+    ]
+   },
+   {
+    "title": "Natural Resources Management and Climate Change",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 304",
+     "MSU Sciences Yearbook Vol. 2 p. 308"
+    ],
+    "chunk_ids": [
+     6576,
+     6603
+    ]
+   }
+  ],
+  "haws449": [
+   {
+    "title": "Dairy Enterprise Management",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 296",
+     "MSU Sciences Yearbook Vol. 2 p. 301"
+    ],
+    "chunk_ids": [
+     6536,
+     6566
+    ]
+   },
+   {
+    "title": "Social Ecology and Policy",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 305",
+     "MSU Sciences Yearbook Vol. 2 p. 308"
+    ],
+    "chunk_ids": [
+     6577,
+     6604
+    ]
+   }
+  ],
+  "hcp333": [
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 653"
+    ],
+    "chunk_ids": [
+     3801
+    ]
+   },
+   {
+    "title": "Work-Related Learning Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 655"
+    ],
+    "chunk_ids": [
+     3818
+    ]
+   }
+  ],
+  "hcs115": [
+   {
+    "title": "Introduction to Information Technology",
+    "pages": [
+     "MSU Humanities Yearbook p. 186",
+     "MSU Humanities Yearbook p. 826",
+     "MSU Humanities Yearbook p. 826",
+     "MSU Humanities Yearbook p. 856",
+     "MSU Humanities Yearbook p. 857",
+     "MSU Humanities Yearbook p. 862",
+     "MSU Humanities Yearbook p. 863",
+     "MSU Humanities Yearbook p. 869",
+     "MSU Humanities Yearbook p. 870",
+     "MSU Humanities Yearbook p. 870",
+     "MSU Sciences Yearbook Vol. 2 p. 185"
+    ],
+    "chunk_ids": [
+     834,
+     4945,
+     4946,
+     5133,
+     5137,
+     5169,
+     5174,
+     5212,
+     5217,
+     5218,
+     5981
+    ]
+   },
+   {
+    "title": "Introduction to Computers",
+    "pages": [
+     "MSU Humanities Yearbook p. 315",
+     "MSU Humanities Yearbook p. 317",
+     "MSU Humanities Yearbook p. 317",
+     "MSU Humanities Yearbook p. 323",
+     "MSU Humanities Yearbook p. 323",
+     "MSU Humanities Yearbook p. 324",
+     "MSU Humanities Yearbook p. 324",
+     "MSU Humanities Yearbook p. 330"
+    ],
+    "chunk_ids": [
+     1682,
+     1689,
+     1690,
+     1739,
+     1740,
+     1747,
+     1748,
+     1794
+    ]
+   }
+  ],
+  "hcs135": [
+   {
+    "title": "Introduction to Information Technology",
+    "pages": [
+     "MSU Humanities Yearbook p. 184",
+     "MSU Humanities Yearbook p. 213",
+     "MSU Humanities Yearbook p. 214",
+     "MSU Humanities Yearbook p. 222",
+     "MSU Humanities Yearbook p. 224",
+     "MSU Humanities Yearbook p. 231",
+     "MSU Humanities Yearbook p. 233",
+     "MSU Humanities Yearbook p. 246",
+     "MSU Humanities Yearbook p. 247",
+     "MSU Humanities Yearbook p. 247",
+     "MSU Humanities Yearbook p. 255",
+     "MSU Humanities Yearbook p. 259",
+     "MSU Humanities Yearbook p. 260",
+     "MSU Humanities Yearbook p. 278",
+     "MSU Humanities Yearbook p. 279",
+     "MSU Humanities Yearbook p. 286",
+     "MSU Humanities Yearbook p. 287",
+     "MSU Humanities Yearbook p. 291",
+     "MSU Humanities Yearbook p. 294",
+     "MSU Humanities Yearbook p. 297",
+     "MSU Humanities Yearbook p. 332",
+     "MSU Humanities Yearbook p. 332",
+     "MSU Humanities Yearbook p. 621",
+     "MSU Humanities Yearbook p. 623",
+     "MSU Humanities Yearbook p. 647",
+     "MSU Humanities Yearbook p. 648",
+     "MSU Humanities Yearbook p. 653",
+     "MSU Humanities Yearbook p. 654",
+     "MSU Humanities Yearbook p. 659",
+     "MSU Humanities Yearbook p. 659",
+     "MSU Humanities Yearbook p. 660",
+     "MSU Humanities Yearbook p. 665",
+     "MSU Humanities Yearbook p. 666",
+     "MSU Humanities Yearbook p. 671",
+     "MSU Humanities Yearbook p. 672",
+     "MSU Humanities Yearbook p. 694",
+     "MSU Humanities Yearbook p. 697",
+     "MSU Humanities Yearbook p. 697",
+     "MSU Humanities Yearbook p. 703",
+     "MSU Humanities Yearbook p. 704",
+     "MSU Humanities Yearbook p. 709",
+     "MSU Humanities Yearbook p. 711",
+     "MSU Humanities Yearbook p. 717",
+     "MSU Humanities Yearbook p. 718",
+     "MSU Humanities Yearbook p. 725",
+     "MSU Humanities Yearbook p. 727",
+     "MSU Humanities Yearbook p. 750",
+     "MSU Humanities Yearbook p. 750",
+     "MSU Humanities Yearbook p. 752",
+     "MSU Humanities Yearbook p. 756",
+     "MSU Humanities Yearbook p. 756",
+     "MSU Humanities Yearbook p. 757",
+     "MSU Humanities Yearbook p. 757",
+     "MSU Humanities Yearbook p. 761",
+     "MSU Humanities Yearbook p. 763",
+     "MSU Humanities Yearbook p. 784",
+     "MSU Humanities Yearbook p. 790",
+     "MSU Humanities Yearbook p. 825",
+     "MSU Humanities Yearbook p. 896",
+     "MSU Humanities Yearbook p. 897",
+     "MSU Humanities Yearbook p. 901",
+     "MSU Humanities Yearbook p. 902",
+     "MSU Sciences Yearbook Vol. 2 p. 165",
+     "MSU Sciences Yearbook Vol. 2 p. 165",
+     "MSU Sciences Yearbook Vol. 2 p. 167",
+     "MSU Sciences Yearbook Vol. 2 p. 176",
+     "MSU Sciences Yearbook Vol. 2 p. 183",
+     "MSU Sciences Yearbook Vol. 2 p. 196",
+     "MSU Sciences Yearbook Vol. 2 p. 214",
+     "MSU Sciences Yearbook Vol. 2 p. 216",
+     "MSU Sciences Yearbook Vol. 2 p. 220",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 226",
+     "MSU Sciences Yearbook Vol. 2 p. 226",
+     "MSU Sciences Yearbook Vol. 2 p. 234",
+     "MSU Sciences Yearbook Vol. 2 p. 241",
+     "MSU Sciences Yearbook Vol. 2 p. 247",
+     "MSU Sciences Yearbook Vol. 2 p. 249",
+     "MSU Sciences Yearbook Vol. 2 p. 251",
+     "MSU Sciences Yearbook Vol. 2 p. 278",
+     "MSU Sciences Yearbook Vol. 2 p. 329",
+     "MSU Sciences Yearbook Vol. 2 p. 345",
+     "MSU Sciences Yearbook Vol. 2 p. 385",
+     "MSU Sciences Yearbook Vol. 2 p. 387",
+     "MSU Sciences Yearbook Vol. 2 p. 396",
+     "MSU Sciences Yearbook Vol. 2 p. 397",
+     "MSU Sciences Yearbook Vol. 2 p. 405",
+     "MSU Sciences Yearbook Vol. 2 p. 410",
+     "MSU Sciences Yearbook Vol. 2 p. 431",
+     "MSU Sciences Yearbook Vol. 2 p. 431",
+     "MSU Sciences Yearbook Vol. 2 p. 433",
+     "MSU Sciences Yearbook Vol. 2 p. 440",
+     "MSU Sciences Yearbook Vol. 2 p. 442",
+     "MSU Sciences Yearbook Vol. 2 p. 449",
+     "MSU Sciences Yearbook Vol. 2 p. 451",
+     "MSU Sciences Yearbook Vol. 2 p. 540",
+     "MSU Sciences Yearbook Vol. 2 p. 543",
+     "MSU Sciences Yearbook Vol. 2 p. 549",
+     "MSU Sciences Yearbook Vol. 2 p. 568",
+     "MSU Sciences Yearbook Vol. 2 p. 575",
+     "MSU Sciences Yearbook Vol. 2 p. 581",
+     "MSU Sciences Yearbook Vol. 2 p. 593"
+    ],
+    "chunk_ids": [
+     825,
+     1024,
+     1033,
+     1100,
+     1112,
+     1176,
+     1187,
+     1271,
+     1280,
+     1281,
+     1334,
+     1359,
+     1366,
+     1465,
+     1471,
+     1507,
+     1510,
+     1543,
+     1559,
+     1574,
+     1801,
+     1802,
+     3588,
+     3595,
+     3760,
+     3765,
+     3800,
+     3805,
+     3839,
+     3840,
+     3845,
+     3881,
+     3886,
+     3925,
+     3929,
+     4067,
+     4082,
+     4083,
+     4122,
+     4129,
+     4167,
+     4175,
+     4216,
+     4224,
+     4272,
+     4288,
+     4455,
+     4456,
+     4464,
+     4492,
+     4493,
+     4498,
+     4499,
+     4526,
+     4531,
+     4683,
+     4722,
+     4939,
+     5367,
+     5374,
+     5402,
+     5411,
+     5873,
+     5874,
+     5883,
+     5927,
+     5971,
+     6038,
+     6123,
+     6131,
+     6153,
+     6164,
+     6165,
+     6173,
+     6174,
+     6209,
+     6240,
+     6278,
+     6289,
+     6299,
+     6439,
+     6700,
+     6784,
+     6980,
+     6986,
+     7044,
+     7049,
+     7097,
+     7133,
+     7233,
+     7234,
+     7241,
+     7286,
+     7297,
+     7339,
+     7350,
+     7831,
+     7842,
+     7871,
+     7971,
+     8002,
+     8038,
+     8103
+    ]
+   },
+   {
+    "title": "Introduction to IT",
+    "pages": [
+     "MSU Humanities Yearbook p. 191",
+     "MSU Humanities Yearbook p. 191",
+     "MSU Sciences Yearbook Vol. 2 p. 507",
+     "MSU Sciences Yearbook Vol. 2 p. 509"
+    ],
+    "chunk_ids": [
+     874,
+     875,
+     7656,
+     7661
+    ]
+   },
+   {
+    "title": "Information, Communication and Technology",
+    "pages": [
+     "MSU Humanities Yearbook p. 254",
+     "MSU Humanities Yearbook p. 455",
+     "MSU Humanities Yearbook p. 456"
+    ],
+    "chunk_ids": [
+     1328,
+     2556,
+     2561
+    ]
+   },
+   {
+    "title": "Refer to Academic Regulations for HCS degrees.",
+    "pages": [
+     "MSU Humanities Yearbook p. 298"
+    ],
+    "chunk_ids": [
+     1580
+    ]
+   },
+   {
+    "title": "Information Technology & Computer Applications",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 551"
+    ],
+    "chunk_ids": [
+     7880
+    ]
+   }
+  ],
+  "hcsci132": [
+   {
+    "title": "Principles of Programming Language",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 368",
+     "MSU Sciences Yearbook Vol. 2 p. 370",
+     "MSU Sciences Yearbook Vol. 2 p. 370",
+     "MSU Sciences Yearbook Vol. 2 p. 898",
+     "MSU Sciences Yearbook Vol. 2 p. 899",
+     "MSU Sciences Yearbook Vol. 2 p. 909",
+     "MSU Sciences Yearbook Vol. 2 p. 910",
+     "MSU Sciences Yearbook Vol. 2 p. 919",
+     "MSU Sciences Yearbook Vol. 2 p. 921",
+     "MSU Sciences Yearbook Vol. 2 p. 943",
+     "MSU Sciences Yearbook Vol. 2 p. 945",
+     "MSU Sciences Yearbook Vol. 2 p. 969",
+     "MSU Sciences Yearbook Vol. 2 p. 979",
+     "MSU Sciences Yearbook Vol. 2 p. 983",
+     "MSU Sciences Yearbook Vol. 2 p. 998",
+     "MSU Sciences Yearbook Vol. 2 p. 1048",
+     "MSU Sciences Yearbook Vol. 2 p. 1050",
+     "MSU Sciences Yearbook Vol. 2 p. 1062",
+     "MSU Sciences Yearbook Vol. 2 p. 1064"
+    ],
+    "chunk_ids": [
+     6895,
+     6904,
+     6905,
+     9539,
+     9544,
+     9593,
+     9598,
+     9652,
+     9659,
+     9788,
+     9794,
+     9927,
+     9980,
+     9993,
+     10072,
+     10304,
+     10311,
+     10367,
+     10374
+    ]
+   },
+   {
+    "title": "Fundamentals of Programming Languages",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 930",
+     "MSU Sciences Yearbook Vol. 2 p. 931"
+    ],
+    "chunk_ids": [
+     9708,
+     9713
+    ]
+   }
+  ],
+  "hcse135": [
+   {
+    "title": "Databases Design and Development",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 368",
+     "MSU Sciences Yearbook Vol. 2 p. 371"
+    ],
+    "chunk_ids": [
+     6896,
+     6908
+    ]
+   },
+   {
+    "title": "Database Systems",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 898",
+     "MSU Sciences Yearbook Vol. 2 p. 898",
+     "MSU Sciences Yearbook Vol. 2 p. 901",
+     "MSU Sciences Yearbook Vol. 2 p. 909",
+     "MSU Sciences Yearbook Vol. 2 p. 911",
+     "MSU Sciences Yearbook Vol. 2 p. 920",
+     "MSU Sciences Yearbook Vol. 2 p. 922",
+     "MSU Sciences Yearbook Vol. 2 p. 930",
+     "MSU Sciences Yearbook Vol. 2 p. 933",
+     "MSU Sciences Yearbook Vol. 2 p. 943",
+     "MSU Sciences Yearbook Vol. 2 p. 946"
+    ],
+    "chunk_ids": [
+     9539,
+     9540,
+     9551,
+     9593,
+     9605,
+     9653,
+     9668,
+     9709,
+     9726,
+     9789,
+     9802
+    ]
+   }
+  ],
+  "hdp431": [
+   {
+    "title": "Developmental Psychopathology and Clinical Applications",
+    "pages": [
+     "MSU Humanities Yearbook p. 659",
+     "MSU Humanities Yearbook p. 662"
+    ],
+    "chunk_ids": [
+     3841,
+     3858
+    ]
+   },
+   {
+    "title": "Disabilities and Development",
+    "pages": [
+     "MSU Humanities Yearbook p. 662"
+    ],
+    "chunk_ids": [
+     3860
+    ]
+   }
+  ],
+  "hdp432": [
+   {
+    "title": "Disabilities and Development",
+    "pages": [
+     "MSU Humanities Yearbook p. 659"
+    ],
+    "chunk_ids": [
+     3841
+    ]
+   },
+   {
+    "title": "Behavioral and Emotional Problems of Children",
+    "pages": [
+     "MSU Humanities Yearbook p. 662"
+    ],
+    "chunk_ids": [
+     3861
+    ]
+   }
+  ],
+  "hdp433": [
+   {
+    "title": "Behavioural and Emotional Problems of Children",
+    "pages": [
+     "MSU Humanities Yearbook p. 659"
+    ],
+    "chunk_ids": [
+     3841
+    ]
+   },
+   {
+    "title": "Ageing and Senescence",
+    "pages": [
+     "MSU Humanities Yearbook p. 662"
+    ],
+    "chunk_ids": [
+     3863
+    ]
+   }
+  ],
+  "hdp434": [
+   {
+    "title": "Ageing and Senescence",
+    "pages": [
+     "MSU Humanities Yearbook p. 660"
+    ],
+    "chunk_ids": [
+     3842
+    ]
+   },
+   {
+    "title": "Dissertation",
+    "pages": [
+     "MSU Humanities Yearbook p. 663"
+    ],
+    "chunk_ids": [
+     3868
+    ]
+   }
+  ],
+  "hdp435": [
+   {
+    "title": "Applied Developmental Psychology",
+    "pages": [
+     "MSU Humanities Yearbook p. 660",
+     "MSU Humanities Yearbook p. 662"
+    ],
+    "chunk_ids": [
+     3842,
+     3864
+    ]
+   },
+   {
+    "title": "Dissertation",
+    "pages": [
+     "MSU Humanities Yearbook p. 660",
+     "MSU Humanities Yearbook p. 660"
+    ],
+    "chunk_ids": [
+     3842,
+     3843
+    ]
+   }
+  ],
+  "heee402": [
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 640"
+    ],
+    "chunk_ids": [
+     8333
+    ]
+   },
+   {
+    "title": "Student's Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 645"
+    ],
+    "chunk_ids": [
+     8367
+    ]
+   }
+  ],
+  "heee403": [
+   {
+    "title": "Student's Industrial Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 640"
+    ],
+    "chunk_ids": [
+     8333
+    ]
+   },
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 646"
+    ],
+    "chunk_ids": [
+     8369
+    ]
+   }
+  ],
+  "hegp114": [
+   {
+    "title": "Mathematics Foundations",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 705",
+     "MSU Sciences Yearbook Vol. 2 p. 707",
+     "MSU Sciences Yearbook Vol. 2 p. 714",
+     "MSU Sciences Yearbook Vol. 2 p. 715"
+    ],
+    "chunk_ids": [
+     8658,
+     8663,
+     8699,
+     8702
+    ]
+   },
+   {
+    "title": "Fundamentals of Geology",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 720",
+     "MSU Sciences Yearbook Vol. 2 p. 721"
+    ],
+    "chunk_ids": [
+     8727,
+     8732
+    ]
+   }
+  ],
+  "hegp310": [
+   {
+    "title": "Academic Supervisor's Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 721"
+    ],
+    "chunk_ids": [
+     8729
+    ]
+   },
+   {
+    "title": "Work-Related Learning Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 724"
+    ],
+    "chunk_ids": [
+     8745
+    ]
+   }
+  ],
+  "hegp311": [
+   {
+    "title": "Students' Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 721"
+    ],
+    "chunk_ids": [
+     8729
+    ]
+   },
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 724"
+    ],
+    "chunk_ids": [
+     8746
+    ]
+   }
+  ],
+  "hegp314": [
+   {
+    "title": "Employers' Assessment Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 721"
+    ],
+    "chunk_ids": [
+     8729
+    ]
+   },
+   {
+    "title": "Academic Supervisor's Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 724"
+    ],
+    "chunk_ids": [
+     8747
+    ]
+   }
+  ],
+  "hfee402": [
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 650"
+    ],
+    "chunk_ids": [
+     8390
+    ]
+   },
+   {
+    "title": "Student's Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 656"
+    ],
+    "chunk_ids": [
+     8421
+    ]
+   }
+  ],
+  "hfee403": [
+   {
+    "title": "Student's Industrial Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 650"
+    ],
+    "chunk_ids": [
+     8390
+    ]
+   },
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 656",
+     "MSU Sciences Yearbook Vol. 2 p. 656"
+    ],
+    "chunk_ids": [
+     8421,
+     8422
+    ]
+   }
+  ],
+  "hfta205": [
+   {
+    "title": "Theatre and Performance Theory",
+    "pages": [
+     "MSU Humanities Yearbook p. 278",
+     "MSU Humanities Yearbook p. 281"
+    ],
+    "chunk_ids": [
+     1466,
+     1479
+    ]
+   },
+   {
+    "title": "Film, Theatre and Advertising",
+    "pages": [
+     "MSU Humanities Yearbook p. 278",
+     "MSU Humanities Yearbook p. 282"
+    ],
+    "chunk_ids": [
+     1466,
+     1486
+    ]
+   }
+  ],
+  "hfta413": [
+   {
+    "title": "Theatre and Film Design",
+    "pages": [
+     "MSU Humanities Yearbook p. 279",
+     "MSU Humanities Yearbook p. 282"
+    ],
+    "chunk_ids": [
+     1467,
+     1490
+    ]
+   },
+   {
+    "title": "Children's Theatre and Animation",
+    "pages": [
+     "MSU Humanities Yearbook p. 279",
+     "MSU Humanities Yearbook p. 283"
+    ],
+    "chunk_ids": [
+     1467,
+     1492
+    ]
+   }
+  ],
+  "hgeol212": [
+   {
+    "title": "Research Methods and Technical Writing",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 705",
+     "MSU Sciences Yearbook Vol. 2 p. 705",
+     "MSU Sciences Yearbook Vol. 2 p. 708",
+     "MSU Sciences Yearbook Vol. 2 p. 708"
+    ],
+    "chunk_ids": [
+     8658,
+     8659,
+     8671,
+     8672
+    ]
+   },
+   {
+    "title": "Geochemistry",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 714",
+     "MSU Sciences Yearbook Vol. 2 p. 715"
+    ],
+    "chunk_ids": [
+     8699,
+     8707
+    ]
+   }
+  ],
+  "hgeol414": [
+   {
+    "title": "Geometallurgy and Mineral Beneficiation",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 706",
+     "MSU Sciences Yearbook Vol. 2 p. 710",
+     "MSU Sciences Yearbook Vol. 2 p. 714",
+     "MSU Sciences Yearbook Vol. 2 p. 717"
+    ],
+    "chunk_ids": [
+     8660,
+     8684,
+     8700,
+     8715
+    ]
+   },
+   {
+    "title": "Petrophysics and Formation Evaluation",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 721"
+    ],
+    "chunk_ids": [
+     8730
+    ]
+   }
+  ],
+  "hgeol421": [
+   {
+    "title": "Geology of Zimbabwe and Southern Africa",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 706",
+     "MSU Sciences Yearbook Vol. 2 p. 711",
+     "MSU Sciences Yearbook Vol. 2 p. 714",
+     "MSU Sciences Yearbook Vol. 2 p. 714",
+     "MSU Sciences Yearbook Vol. 2 p. 717"
+    ],
+    "chunk_ids": [
+     8660,
+     8686,
+     8700,
+     8701,
+     8716
+    ]
+   },
+   {
+    "title": "Mine Design and Planning",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 706"
+    ],
+    "chunk_ids": [
+     8660
+    ]
+   }
+  ],
+  "hhp333": [
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 666"
+    ],
+    "chunk_ids": [
+     3883
+    ]
+   },
+   {
+    "title": "Work-Related Learning Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 668"
+    ],
+    "chunk_ids": [
+     3901
+    ]
+   }
+  ],
+  "hish233": [
+   {
+    "title": "Europe between 1789 and 1918",
+    "pages": [
+     "MSU Humanities Yearbook p. 213",
+     "MSU Humanities Yearbook p. 215"
+    ],
+    "chunk_ids": [
+     1025,
+     1044
+    ]
+   },
+   {
+    "title": "Zimbabwean History to Independence",
+    "pages": [
+     "MSU Humanities Yearbook p. 226"
+    ],
+    "chunk_ids": [
+     1126
+    ]
+   }
+  ],
+  "hish237": [
+   {
+    "title": "United States of America since 1860",
+    "pages": [
+     "MSU Humanities Yearbook p. 213",
+     "MSU Humanities Yearbook p. 213"
+    ],
+    "chunk_ids": [
+     1025,
+     1026
+    ]
+   },
+   {
+    "title": "USA since 1860",
+    "pages": [
+     "MSU Humanities Yearbook p. 216"
+    ],
+    "chunk_ids": [
+     1053
+    ]
+   }
+  ],
+  "hmat132": [
+   {
+    "title": "Linear Algebra",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 969",
+     "MSU Sciences Yearbook Vol. 2 p. 972"
+    ],
+    "chunk_ids": [
+     9927,
+     9933
+    ]
+   },
+   {
+    "title": "Linear Mathematics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 983",
+     "MSU Sciences Yearbook Vol. 2 p. 986",
+     "MSU Sciences Yearbook Vol. 2 p. 997",
+     "MSU Sciences Yearbook Vol. 2 p. 998",
+     "MSU Sciences Yearbook Vol. 2 p. 1033",
+     "MSU Sciences Yearbook Vol. 2 p. 1037",
+     "MSU Sciences Yearbook Vol. 2 p. 1048",
+     "MSU Sciences Yearbook Vol. 2 p. 1051",
+     "MSU Sciences Yearbook Vol. 2 p. 1062",
+     "MSU Sciences Yearbook Vol. 2 p. 1064",
+     "MSU Sciences Yearbook Vol. 2 p. 1064"
+    ],
+    "chunk_ids": [
+     9993,
+     10000,
+     10071,
+     10074,
+     10232,
+     10248,
+     10305,
+     10315,
+     10367,
+     10379,
+     10380
+    ]
+   }
+  ],
+  "hmat231": [
+   {
+    "title": "Ordinary Differential Equations",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 970",
+     "MSU Sciences Yearbook Vol. 2 p. 999",
+     "MSU Sciences Yearbook Vol. 2 p. 1062",
+     "MSU Sciences Yearbook Vol. 2 p. 1065"
+    ],
+    "chunk_ids": [
+     9929,
+     10078,
+     10367,
+     10387
+    ]
+   },
+   {
+    "title": "ODEs",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 998"
+    ],
+    "chunk_ids": [
+     10072
+    ]
+   }
+  ],
+  "hmat233": [
+   {
+    "title": "Introduction to PDEs and Fourier Series",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 970"
+    ],
+    "chunk_ids": [
+     9929
+    ]
+   },
+   {
+    "title": "Partial Differential Equations and Fourier Series",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 984"
+    ],
+    "chunk_ids": [
+     9995
+    ]
+   }
+  ],
+  "hmech314": [
+   {
+    "title": "Fluid Dynamics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 662"
+    ],
+    "chunk_ids": [
+     8450
+    ]
+   },
+   {
+    "title": "Fluid Mechanics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 666"
+    ],
+    "chunk_ids": [
+     8473
+    ]
+   }
+  ],
+  "hmete225": [
+   {
+    "title": "Heat and Mass Transfer",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 675",
+     "MSU Sciences Yearbook Vol. 2 p. 677",
+     "MSU Sciences Yearbook Vol. 2 p. 685",
+     "MSU Sciences Yearbook Vol. 2 p. 688"
+    ],
+    "chunk_ids": [
+     8513,
+     8526,
+     8561,
+     8574
+    ]
+   },
+   {
+    "title": "Introduction to Extractive Metallurgy",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 678"
+    ],
+    "chunk_ids": [
+     8528
+    ]
+   }
+  ],
+  "hmete226": [
+   {
+    "title": "Nanoscience II",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 678"
+    ],
+    "chunk_ids": [
+     8528
+    ]
+   },
+   {
+    "title": "Mineral Beneficiation II",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 685",
+     "MSU Sciences Yearbook Vol. 2 p. 688"
+    ],
+    "chunk_ids": [
+     8561,
+     8575
+    ]
+   }
+  ],
+  "hmete227": [
+   {
+    "title": "Engineering Mechanics II",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 675"
+    ],
+    "chunk_ids": [
+     8513
+    ]
+   },
+   {
+    "title": "Plant Machinery and Materials Handling",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 685",
+     "MSU Sciences Yearbook Vol. 2 p. 688",
+     "MSU Sciences Yearbook Vol. 2 p. 688"
+    ],
+    "chunk_ids": [
+     8561,
+     8575,
+     8576
+    ]
+   }
+  ],
+  "hmine216": [
+   {
+    "title": "Mineral Beneficiation",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 677"
+    ],
+    "chunk_ids": [
+     8524
+    ]
+   },
+   {
+    "title": "Computer applications in mining",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 696",
+     "MSU Sciences Yearbook Vol. 2 p. 698",
+     "MSU Sciences Yearbook Vol. 2 p. 698"
+    ],
+    "chunk_ids": [
+     8612,
+     8621,
+     8622
+    ]
+   }
+  ],
+  "hmine227": [
+   {
+    "title": "Engineering Mechanics II",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 678",
+     "MSU Sciences Yearbook Vol. 2 p. 678"
+    ],
+    "chunk_ids": [
+     8528,
+     8529
+    ]
+   },
+   {
+    "title": "Thermodynamics and Fluid Mechanics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 696",
+     "MSU Sciences Yearbook Vol. 2 p. 699"
+    ],
+    "chunk_ids": [
+     8612,
+     8628
+    ]
+   }
+  ],
+  "hmtcs231": [
+   {
+    "title": "Information Security and Visualisations",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 970",
+     "MSU Sciences Yearbook Vol. 2 p. 974"
+    ],
+    "chunk_ids": [
+     9929,
+     9949
+    ]
+   },
+   {
+    "title": "Introduction to Partial Differential Equations and Fourier Series",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 976"
+    ],
+    "chunk_ids": [
+     9957
+    ]
+   }
+  ],
+  "hoip333": [
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 672"
+    ],
+    "chunk_ids": [
+     3927
+    ]
+   },
+   {
+    "title": "Work-Related Learning Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 674"
+    ],
+    "chunk_ids": [
+     3944
+    ]
+   }
+  ],
+  "hort131": [
+   {
+    "title": "Principles of Microbiology",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 214",
+     "MSU Sciences Yearbook Vol. 2 p. 220",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 228",
+     "MSU Sciences Yearbook Vol. 2 p. 234",
+     "MSU Sciences Yearbook Vol. 2 p. 235",
+     "MSU Sciences Yearbook Vol. 2 p. 241",
+     "MSU Sciences Yearbook Vol. 2 p. 242",
+     "MSU Sciences Yearbook Vol. 2 p. 249",
+     "MSU Sciences Yearbook Vol. 2 p. 249",
+     "MSU Sciences Yearbook Vol. 2 p. 251",
+     "MSU Sciences Yearbook Vol. 2 p. 338",
+     "MSU Sciences Yearbook Vol. 2 p. 339"
+    ],
+    "chunk_ids": [
+     6123,
+     6153,
+     6165,
+     6184,
+     6209,
+     6213,
+     6240,
+     6248,
+     6288,
+     6289,
+     6296,
+     6748,
+     6751
+    ]
+   },
+   {
+    "title": "Introduction to Microbiology",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 329",
+     "MSU Sciences Yearbook Vol. 2 p. 329",
+     "MSU Sciences Yearbook Vol. 2 p. 331"
+    ],
+    "chunk_ids": [
+     6699,
+     6700,
+     6706
+    ]
+   }
+  ],
+  "hort231": [
+   {
+    "title": "Biology and Management of Plant Pathogens",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 214",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 229",
+     "MSU Sciences Yearbook Vol. 2 p. 234",
+     "MSU Sciences Yearbook Vol. 2 p. 236",
+     "MSU Sciences Yearbook Vol. 2 p. 250",
+     "MSU Sciences Yearbook Vol. 2 p. 253"
+    ],
+    "chunk_ids": [
+     6124,
+     6165,
+     6166,
+     6186,
+     6210,
+     6218,
+     6290,
+     6313
+    ]
+   },
+   {
+    "title": "Plant Pathogen Biology and Ecology",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 241",
+     "MSU Sciences Yearbook Vol. 2 p. 244"
+    ],
+    "chunk_ids": [
+     6241,
+     6261
+    ]
+   }
+  ],
+  "hort235": [
+   {
+    "title": "Biology and Management of Plant Insect Pests",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 215",
+     "MSU Sciences Yearbook Vol. 2 p. 217",
+     "MSU Sciences Yearbook Vol. 2 p. 218",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 229",
+     "MSU Sciences Yearbook Vol. 2 p. 235",
+     "MSU Sciences Yearbook Vol. 2 p. 236",
+     "MSU Sciences Yearbook Vol. 2 p. 250",
+     "MSU Sciences Yearbook Vol. 2 p. 253"
+    ],
+    "chunk_ids": [
+     6125,
+     6135,
+     6142,
+     6166,
+     6188,
+     6211,
+     6219,
+     6290,
+     6314
+    ]
+   },
+   {
+    "title": "Insect Pest Biology and Ecology",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 241",
+     "MSU Sciences Yearbook Vol. 2 p. 244"
+    ],
+    "chunk_ids": [
+     6241,
+     6262
+    ]
+   }
+  ],
+  "hphs207": [
+   {
+    "title": "Civil Society and Human Rights",
+    "pages": [
+     "MSU Humanities Yearbook p. 862"
+    ],
+    "chunk_ids": [
+     5170
+    ]
+   },
+   {
+    "title": "Civil Society and Social Justice",
+    "pages": [
+     "MSU Humanities Yearbook p. 865"
+    ],
+    "chunk_ids": [
+     5186
+    ]
+   }
+  ],
+  "hphs332": [
+   {
+    "title": "Work- Related Learning Academic Supervisor Assessment",
+    "pages": [
+     "MSU Humanities Yearbook p. 863"
+    ],
+    "chunk_ids": [
+     5171
+    ]
+   },
+   {
+    "title": "Work- Related Academic Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 865"
+    ],
+    "chunk_ids": [
+     5192
+    ]
+   }
+  ],
+  "hplg332": [
+   {
+    "title": "Work-Related Learning Academic Supervisor Assessment",
+    "pages": [
+     "MSU Humanities Yearbook p. 869"
+    ],
+    "chunk_ids": [
+     5214
+    ]
+   },
+   {
+    "title": "Work- Related Academic Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 872"
+    ],
+    "chunk_ids": [
+     5231
+    ]
+   }
+  ],
+  "hpmg302": [
+   {
+    "title": "Work Integrated Learning Academic Supervisor Assessment",
+    "pages": [
+     "MSU Humanities Yearbook p. 789"
+    ],
+    "chunk_ids": [
+     4719
+    ]
+   },
+   {
+    "title": "Work-Related Academic Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 792"
+    ],
+    "chunk_ids": [
+     4736
+    ]
+   }
+  ],
+  "hpmg303": [
+   {
+    "title": "Work Integrated Learning Work Supervisor's Assessment",
+    "pages": [
+     "MSU Humanities Yearbook p. 789"
+    ],
+    "chunk_ids": [
+     4719
+    ]
+   },
+   {
+    "title": "Work-Related Learning Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 792"
+    ],
+    "chunk_ids": [
+     4736
+    ]
+   }
+  ],
+  "hpsg104": [
+   {
+    "title": "Theories of International Relations",
+    "pages": [
+     "MSU Humanities Yearbook p. 795",
+     "MSU Humanities Yearbook p. 796"
+    ],
+    "chunk_ids": [
+     4757,
+     4763
+    ]
+   },
+   {
+    "title": "Leadership, Theory and Practice",
+    "pages": [
+     "MSU Humanities Yearbook p. 870"
+    ],
+    "chunk_ids": [
+     5217
+    ]
+   }
+  ],
+  "hpsg302": [
+   {
+    "title": "Work Integrated Learning Academic Supervisor Assessment",
+    "pages": [
+     "MSU Humanities Yearbook p. 795"
+    ],
+    "chunk_ids": [
+     4758
+    ]
+   },
+   {
+    "title": "Work-Related Academic Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 797"
+    ],
+    "chunk_ids": [
+     4773
+    ]
+   }
+  ],
+  "hpsg303": [
+   {
+    "title": "Work Integrated Learning Work Supervisor's Assessment",
+    "pages": [
+     "MSU Humanities Yearbook p. 795"
+    ],
+    "chunk_ids": [
+     4758
+    ]
+   },
+   {
+    "title": "Work-Related Learning Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 797"
+    ],
+    "chunk_ids": [
+     4774
+    ]
+   }
+  ],
+  "hrm233": [
+   {
+    "title": "Elements of Labour Law",
+    "pages": [
+     "MSU Humanities Yearbook p. 712"
+    ],
+    "chunk_ids": [
+     4182
+    ]
+   },
+   {
+    "title": "Human Resource Policy and Practice",
+    "pages": [
+     "MSU Humanities Yearbook p. 825",
+     "MSU Humanities Yearbook p. 825",
+     "MSU Humanities Yearbook p. 827"
+    ],
+    "chunk_ids": [
+     4939,
+     4940,
+     4950
+    ]
+   }
+  ],
+  "hrm343": [
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 825",
+     "MSU Humanities Yearbook p. 825"
+    ],
+    "chunk_ids": [
+     4940,
+     4941
+    ]
+   },
+   {
+    "title": "Work- Related Learning Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 828"
+    ],
+    "chunk_ids": [
+     4960
+    ]
+   }
+  ],
+  "hrs218": [
+   {
+    "title": "Selected Themes in African Indigenous Religions",
+    "pages": [
+     "MSU Humanities Yearbook p. 316",
+     "MSU Humanities Yearbook p. 319"
+    ],
+    "chunk_ids": [
+     1683,
+     1712
+    ]
+   },
+   {
+    "title": "Pastoral Counselling",
+    "pages": [
+     "MSU Humanities Yearbook p. 316",
+     "MSU Humanities Yearbook p. 316"
+    ],
+    "chunk_ids": [
+     1684,
+     1685
+    ]
+   }
+  ],
+  "hsta105": [
+   {
+    "title": "Regression and ANOVA I",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 983",
+     "MSU Sciences Yearbook Vol. 2 p. 998"
+    ],
+    "chunk_ids": [
+     9993,
+     10072
+    ]
+   },
+   {
+    "title": "Regression and Analysis of Variance I",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 999"
+    ],
+    "chunk_ids": [
+     10076
+    ]
+   }
+  ],
+  "hsta132": [
+   {
+    "title": "Applied Statistics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 898",
+     "MSU Sciences Yearbook Vol. 2 p. 902",
+     "MSU Sciences Yearbook Vol. 2 p. 920",
+     "MSU Sciences Yearbook Vol. 2 p. 922",
+     "MSU Sciences Yearbook Vol. 2 p. 998"
+    ],
+    "chunk_ids": [
+     9540,
+     9558,
+     9653,
+     9665,
+     10072
+    ]
+   },
+   {
+    "title": "Introduction to Statistics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 983",
+     "MSU Sciences Yearbook Vol. 2 p. 986",
+     "MSU Sciences Yearbook Vol. 2 p. 999"
+    ],
+    "chunk_ids": [
+     9993,
+     10001,
+     10075
+    ]
+   }
+  ],
+  "hsta231": [
+   {
+    "title": "Design and Design Issues",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 998",
+     "MSU Sciences Yearbook Vol. 2 p. 999"
+    ],
+    "chunk_ids": [
+     10072,
+     10079
+    ]
+   },
+   {
+    "title": "Official, Social and Economic Statistics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 998"
+    ],
+    "chunk_ids": [
+     10072
+    ]
+   }
+  ],
+  "hsvg238": [
+   {
+    "title": "Multi-Dimensional Modelling",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 368"
+    ],
+    "chunk_ids": [
+     6896
+    ]
+   },
+   {
+    "title": "Survey Camp",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 369",
+     "MSU Sciences Yearbook Vol. 2 p. 369",
+     "MSU Sciences Yearbook Vol. 2 p. 373"
+    ],
+    "chunk_ids": [
+     6898,
+     6899,
+     6921
+    ]
+   }
+  ],
+  "hsvg426": [
+   {
+    "title": "Professional ethics and business matters",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 369",
+     "MSU Sciences Yearbook Vol. 2 p. 369",
+     "MSU Sciences Yearbook Vol. 2 p. 373"
+    ],
+    "chunk_ids": [
+     6898,
+     6899,
+     6923
+    ]
+   },
+   {
+    "title": "Differential Equations",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 369",
+     "MSU Sciences Yearbook Vol. 2 p. 374"
+    ],
+    "chunk_ids": [
+     6899,
+     6929
+    ]
+   }
+  ],
+  "hsvg430": [
+   {
+    "title": "Geostatistics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 368",
+     "MSU Sciences Yearbook Vol. 2 p. 368",
+     "MSU Sciences Yearbook Vol. 2 p. 373"
+    ],
+    "chunk_ids": [
+     6896,
+     6897,
+     6921
+    ]
+   },
+   {
+    "title": "Cadastres and Land Information Systems",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 369",
+     "MSU Sciences Yearbook Vol. 2 p. 369"
+    ],
+    "chunk_ids": [
+     6899,
+     6900
+    ]
+   }
+  ],
+  "hsvg431": [
+   {
+    "title": "Geospatial Big Data and Artificial Intelligence",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 368",
+     "MSU Sciences Yearbook Vol. 2 p. 373"
+    ],
+    "chunk_ids": [
+     6897,
+     6922
+    ]
+   },
+   {
+    "title": "Geology and Mine Planning",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 369",
+     "MSU Sciences Yearbook Vol. 2 p. 375"
+    ],
+    "chunk_ids": [
+     6900,
+     6933
+    ]
+   }
+  ],
+  "hsvg434": [
+   {
+    "title": "Digital Image processing",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 369",
+     "MSU Sciences Yearbook Vol. 2 p. 369"
+    ],
+    "chunk_ids": [
+     6898,
+     6900
+    ]
+   },
+   {
+    "title": "Final Year Project",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 369",
+     "MSU Sciences Yearbook Vol. 2 p. 369",
+     "MSU Sciences Yearbook Vol. 2 p. 375"
+    ],
+    "chunk_ids": [
+     6899,
+     6900,
+     6933
+    ]
+   }
+  ],
+  "hubs202": [
+   {
+    "title": "Applied Business Studies Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 477",
+     "MSU Humanities Yearbook p. 477"
+    ],
+    "chunk_ids": [
+     2690,
+     2696
+    ]
+   },
+   {
+    "title": "Methods of Teaching Business Studies",
+    "pages": [
+     "MSU Humanities Yearbook p. 509",
+     "MSU Humanities Yearbook p. 511"
+    ],
+    "chunk_ids": [
+     2891,
+     2906
+    ]
+   }
+  ],
+  "hubs403": [
+   {
+    "title": "Applied Marketing",
+    "pages": [
+     "MSU Humanities Yearbook p. 477",
+     "MSU Humanities Yearbook p. 477",
+     "MSU Humanities Yearbook p. 478"
+    ],
+    "chunk_ids": [
+     2690,
+     2691,
+     2698
+    ]
+   },
+   {
+    "title": "Principles of Marketing",
+    "pages": [
+     "MSU Humanities Yearbook p. 509",
+     "MSU Humanities Yearbook p. 509",
+     "MSU Humanities Yearbook p. 511"
+    ],
+    "chunk_ids": [
+     2891,
+     2892,
+     2911
+    ]
+   }
+  ],
+  "huec201": [
+   {
+    "title": "Applied Economics Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 478",
+     "MSU Humanities Yearbook p. 479"
+    ],
+    "chunk_ids": [
+     2699,
+     2703
+    ]
+   },
+   {
+    "title": "Methods of Teaching Economics",
+    "pages": [
+     "MSU Humanities Yearbook p. 506",
+     "MSU Humanities Yearbook p. 507"
+    ],
+    "chunk_ids": [
+     2869,
+     2882
+    ]
+   }
+  ],
+  "huec402": [
+   {
+    "title": "Industrial Economics",
+    "pages": [
+     "MSU Humanities Yearbook p. 478",
+     "MSU Humanities Yearbook p. 479"
+    ],
+    "chunk_ids": [
+     2699,
+     2705
+    ]
+   },
+   {
+    "title": "Money and Banking",
+    "pages": [
+     "MSU Humanities Yearbook p. 506",
+     "MSU Humanities Yearbook p. 507"
+    ],
+    "chunk_ids": [
+     2869,
+     2881
+    ]
+   }
+  ],
+  "huep103": [
+   {
+    "title": "Pedagogy and Coaching: The Science for Attainment",
+    "pages": [
+     "MSU Humanities Yearbook p. 479",
+     "MSU Humanities Yearbook p. 479",
+     "MSU Humanities Yearbook p. 480"
+    ],
+    "chunk_ids": [
+     2707,
+     2708,
+     2711
+    ]
+   },
+   {
+    "title": "Generic Games Skills: Theory and Practice",
+    "pages": [
+     "MSU Humanities Yearbook p. 479",
+     "MSU Humanities Yearbook p. 479",
+     "MSU Humanities Yearbook p. 480"
+    ],
+    "chunk_ids": [
+     2707,
+     2708,
+     2712
+    ]
+   }
+  ],
+  "huep202": [
+   {
+    "title": "The Art and Science of Movement in Gymnastics:",
+    "pages": [
+     "MSU Humanities Yearbook p. 479",
+     "MSU Humanities Yearbook p. 480"
+    ],
+    "chunk_ids": [
+     2708,
+     2713
+    ]
+   },
+   {
+    "title": "Generic Sports Management and Organisation",
+    "pages": [
+     "MSU Humanities Yearbook p. 479",
+     "MSU Humanities Yearbook p. 480"
+    ],
+    "chunk_ids": [
+     2708,
+     2714
+    ]
+   }
+  ],
+  "iksm206": [
+   {
+    "title": "Languages, Dialects and Linguistic Diversity in Zimbabwe",
+    "pages": [
+     "MSU Humanities Yearbook p. 501",
+     "MSU Humanities Yearbook p. 504"
+    ],
+    "chunk_ids": [
+     2839,
+     2858
+    ]
+   },
+   {
+    "title": "Contemporary Issues in Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 501",
+     "MSU Humanities Yearbook p. 504"
+    ],
+    "chunk_ids": [
+     2839,
+     2860
+    ]
+   }
+  ],
+  "indso333": [
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 710"
+    ],
+    "chunk_ids": [
+     4169
+    ]
+   },
+   {
+    "title": "Work Related Learning Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 713"
+    ],
+    "chunk_ids": [
+     4189
+    ]
+   }
+  ],
+  "is136": [
+   {
+    "title": "Ethical Hacking and Penetration Testing",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 478",
+     "MSU Sciences Yearbook Vol. 2 p. 478",
+     "MSU Sciences Yearbook Vol. 2 p. 480"
+    ],
+    "chunk_ids": [
+     7498,
+     7499,
+     7506
+    ]
+   },
+   {
+    "title": "Introduction to Programming",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 480"
+    ],
+    "chunk_ids": [
+     7507
+    ]
+   }
+  ],
+  "is137": [
+   {
+    "title": "Introduction to Programming",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 478",
+     "MSU Sciences Yearbook Vol. 2 p. 478"
+    ],
+    "chunk_ids": [
+     7498,
+     7499
+    ]
+   },
+   {
+    "title": "Discrete Mathematics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 480"
+    ],
+    "chunk_ids": [
+     7509
+    ]
+   }
+  ],
+  "is139": [
+   {
+    "title": "Discrete Mathematics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 478"
+    ],
+    "chunk_ids": [
+     7499
+    ]
+   },
+   {
+    "title": "Research Methods and Statistics",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 481"
+    ],
+    "chunk_ids": [
+     7510
+    ]
+   }
+  ],
+  "is140": [
+   {
+    "title": "Cyberspace Ethics and Laws",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 478"
+    ],
+    "chunk_ids": [
+     7499
+    ]
+   },
+   {
+    "title": "Organisational Behaviour",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 481"
+    ],
+    "chunk_ids": [
+     7511
+    ]
+   }
+  ],
+  "lb306": [
+   {
+    "title": "Human Rights Law",
+    "pages": [
+     "MSU Humanities Yearbook p. 621",
+     "MSU Humanities Yearbook p. 625"
+    ],
+    "chunk_ids": [
+     3589,
+     3613
+    ]
+   },
+   {
+    "title": "Labour & Employment Law",
+    "pages": [
+     "MSU Humanities Yearbook p. 625"
+    ],
+    "chunk_ids": [
+     3614
+    ]
+   }
+  ],
+  "lgm302": [
+   {
+    "title": "Work Integrated Learning Academic Supervisor Assessment",
+    "pages": [
+     "MSU Humanities Yearbook p. 783"
+    ],
+    "chunk_ids": [
+     4672
+    ]
+   },
+   {
+    "title": "Work -Related Academic Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 786"
+    ],
+    "chunk_ids": [
+     4697
+    ]
+   }
+  ],
+  "lgm303": [
+   {
+    "title": "Work Integrated Learning Work Supervisor's Assessment",
+    "pages": [
+     "MSU Humanities Yearbook p. 783"
+    ],
+    "chunk_ids": [
+     4672
+    ]
+   },
+   {
+    "title": "Work-Related Learning Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 786"
+    ],
+    "chunk_ids": [
+     4697
+    ]
+   }
+  ],
+  "lwr135": [
+   {
+    "title": "Principles of Soil Sciences",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 165",
+     "MSU Sciences Yearbook Vol. 2 p. 167",
+     "MSU Sciences Yearbook Vol. 2 p. 214",
+     "MSU Sciences Yearbook Vol. 2 p. 220",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 231",
+     "MSU Sciences Yearbook Vol. 2 p. 234",
+     "MSU Sciences Yearbook Vol. 2 p. 238",
+     "MSU Sciences Yearbook Vol. 2 p. 241",
+     "MSU Sciences Yearbook Vol. 2 p. 246",
+     "MSU Sciences Yearbook Vol. 2 p. 249",
+     "MSU Sciences Yearbook Vol. 2 p. 252",
+     "MSU Sciences Yearbook Vol. 2 p. 345",
+     "MSU Sciences Yearbook Vol. 2 p. 347",
+     "MSU Sciences Yearbook Vol. 2 p. 353",
+     "MSU Sciences Yearbook Vol. 2 p. 353",
+     "MSU Sciences Yearbook Vol. 2 p. 354"
+    ],
+    "chunk_ids": [
+     5873,
+     5884,
+     6123,
+     6153,
+     6164,
+     6196,
+     6209,
+     6230,
+     6240,
+     6277,
+     6288,
+     6305,
+     6783,
+     6795,
+     6826,
+     6827,
+     6832
+    ]
+   },
+   {
+    "title": "Introduction to Soil Science",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 277",
+     "MSU Sciences Yearbook Vol. 2 p. 280",
+     "MSU Sciences Yearbook Vol. 2 p. 280",
+     "MSU Sciences Yearbook Vol. 2 p. 295",
+     "MSU Sciences Yearbook Vol. 2 p. 298",
+     "MSU Sciences Yearbook Vol. 2 p. 329",
+     "MSU Sciences Yearbook Vol. 2 p. 329",
+     "MSU Sciences Yearbook Vol. 2 p. 331"
+    ],
+    "chunk_ids": [
+     6433,
+     6450,
+     6451,
+     6533,
+     6547,
+     6699,
+     6700,
+     6705
+    ]
+   }
+  ],
+  "lwr137": [
+   {
+    "title": "Soil fertility and plant mineral nutrition",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 214",
+     "MSU Sciences Yearbook Vol. 2 p. 220",
+     "MSU Sciences Yearbook Vol. 2 p. 224",
+     "MSU Sciences Yearbook Vol. 2 p. 234",
+     "MSU Sciences Yearbook Vol. 2 p. 241",
+     "MSU Sciences Yearbook Vol. 2 p. 249",
+     "MSU Sciences Yearbook Vol. 2 p. 253"
+    ],
+    "chunk_ids": [
+     6123,
+     6153,
+     6165,
+     6209,
+     6240,
+     6289,
+     6316
+    ]
+   },
+   {
+    "title": "Soil fertility Management",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 345",
+     "MSU Sciences Yearbook Vol. 2 p. 348"
+    ],
+    "chunk_ids": [
+     6784,
+     6801
+    ]
+   }
+  ],
+  "lwr236": [
+   {
+    "title": "Irrigation Systems Design",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 215",
+     "MSU Sciences Yearbook Vol. 2 p. 220",
+     "MSU Sciences Yearbook Vol. 2 p. 225",
+     "MSU Sciences Yearbook Vol. 2 p. 235",
+     "MSU Sciences Yearbook Vol. 2 p. 241",
+     "MSU Sciences Yearbook Vol. 2 p. 345",
+     "MSU Sciences Yearbook Vol. 2 p. 349",
+     "MSU Sciences Yearbook Vol. 2 p. 353",
+     "MSU Sciences Yearbook Vol. 2 p. 356"
+    ],
+    "chunk_ids": [
+     6125,
+     6154,
+     6167,
+     6211,
+     6241,
+     6784,
+     6811,
+     6827,
+     6841
+    ]
+   },
+   {
+    "title": "Principles of Irrigation",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 345",
+     "MSU Sciences Yearbook Vol. 2 p. 348"
+    ],
+    "chunk_ids": [
+     6784,
+     6802
+    ]
+   }
+  ],
+  "lwr246": [
+   {
+    "title": "Climate Change and Adaptation",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 166",
+     "MSU Sciences Yearbook Vol. 2 p. 168",
+     "MSU Sciences Yearbook Vol. 2 p. 184",
+     "MSU Sciences Yearbook Vol. 2 p. 188",
+     "MSU Sciences Yearbook Vol. 2 p. 188",
+     "MSU Sciences Yearbook Vol. 2 p. 330",
+     "MSU Sciences Yearbook Vol. 2 p. 333"
+    ],
+    "chunk_ids": [
+     5876,
+     5890,
+     5974,
+     5996,
+     5997,
+     6701,
+     6718
+    ]
+   },
+   {
+    "title": "Meteorology and Climate Change",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 345",
+     "MSU Sciences Yearbook Vol. 2 p. 345",
+     "MSU Sciences Yearbook Vol. 2 p. 348"
+    ],
+    "chunk_ids": [
+     6784,
+     6785,
+     6806
+    ]
+   }
+  ],
+  "maai138": [
+   {
+    "title": "Introduction to Artificial Intelligence and Media Practice",
+    "pages": [
+     "MSU Humanities Yearbook p. 286",
+     "MSU Humanities Yearbook p. 287"
+    ],
+    "chunk_ids": [
+     1507,
+     1514
+    ]
+   },
+   {
+    "title": "Animation Production Process",
+    "pages": [
+     "MSU Humanities Yearbook p. 286",
+     "MSU Humanities Yearbook p. 288"
+    ],
+    "chunk_ids": [
+     1507,
+     1518
+    ]
+   }
+  ],
+  "maai234": [
+   {
+    "title": "Stop Motion",
+    "pages": [
+     "MSU Humanities Yearbook p. 286",
+     "MSU Humanities Yearbook p. 286",
+     "MSU Humanities Yearbook p. 288"
+    ],
+    "chunk_ids": [
+     1507,
+     1508,
+     1519
+    ]
+   },
+   {
+    "title": "Visual Effects and Environments",
+    "pages": [
+     "MSU Humanities Yearbook p. 286",
+     "MSU Humanities Yearbook p. 288"
+    ],
+    "chunk_ids": [
+     1508,
+     1520
+    ]
+   }
+  ],
+  "mabb800": [
+   {
+    "title": "Dissertation",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 319"
+    ],
+    "chunk_ids": [
+     6652
+    ]
+   },
+   {
+    "title": "Research Project",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 321"
+    ],
+    "chunk_ids": [
+     6665
+    ]
+   }
+  ],
+  "madp825": [
+   {
+    "title": "Development Practice Paper",
+    "pages": [
+     "MSU Humanities Yearbook p. 203",
+     "MSU Humanities Yearbook p. 203"
+    ],
+    "chunk_ids": [
+     962,
+     963
+    ]
+   },
+   {
+    "title": "Development Practice Project/Dissertation",
+    "pages": [
+     "MSU Humanities Yearbook p. 205"
+    ],
+    "chunk_ids": [
+     982
+    ]
+   }
+  ],
+  "magh706": [
+   {
+    "title": "National Identities and Global Citizenship",
+    "pages": [
+     "MSU Humanities Yearbook p. 242"
+    ],
+    "chunk_ids": [
+     1254
+    ]
+   },
+   {
+    "title": "Africa and the New World Order",
+    "pages": [
+     "MSU Humanities Yearbook p. 243"
+    ],
+    "chunk_ids": [
+     1258
+    ]
+   }
+  ],
+  "magh707": [
+   {
+    "title": "Africa and the Modern World",
+    "pages": [
+     "MSU Humanities Yearbook p. 242"
+    ],
+    "chunk_ids": [
+     1254
+    ]
+   },
+   {
+    "title": "Europe and Russia since 1945",
+    "pages": [
+     "MSU Humanities Yearbook p. 243"
+    ],
+    "chunk_ids": [
+     1259
+    ]
+   }
+  ],
+  "magh708": [
+   {
+    "title": "Europe and Russia since 1945",
+    "pages": [
+     "MSU Humanities Yearbook p. 242"
+    ],
+    "chunk_ids": [
+     1254
+    ]
+   },
+   {
+    "title": "The Middle East and New Conflicts in the Contemporary World",
+    "pages": [
+     "MSU Humanities Yearbook p. 243"
+    ],
+    "chunk_ids": [
+     1259
+    ]
+   }
+  ],
+  "magh709": [
+   {
+    "title": "Asia and Global Connections since 1945",
+    "pages": [
+     "MSU Humanities Yearbook p. 242"
+    ],
+    "chunk_ids": [
+     1254
+    ]
+   },
+   {
+    "title": "International Terrorism",
+    "pages": [
+     "MSU Humanities Yearbook p. 243"
+    ],
+    "chunk_ids": [
+     1260
+    ]
+   }
+  ],
+  "magh710": [
+   {
+    "title": "International Terrorism",
+    "pages": [
+     "MSU Humanities Yearbook p. 242"
+    ],
+    "chunk_ids": [
+     1254
+    ]
+   },
+   {
+    "title": "The Americas and the Pacific Basin since 1945",
+    "pages": [
+     "MSU Humanities Yearbook p. 243"
+    ],
+    "chunk_ids": [
+     1260
+    ]
+   }
+  ],
+  "magh711": [
+   {
+    "title": "The Americas and the Pacific Basin since 1945",
+    "pages": [
+     "MSU Humanities Yearbook p. 242"
+    ],
+    "chunk_ids": [
+     1254
+    ]
+   },
+   {
+    "title": "Asia and Global Connections since 1945",
+    "pages": [
+     "MSU Humanities Yearbook p. 243"
+    ],
+    "chunk_ids": [
+     1261
+    ]
+   }
+  ],
+  "magh712": [
+   {
+    "title": "Global Challenges in the 21stCentury",
+    "pages": [
+     "MSU Humanities Yearbook p. 242",
+     "MSU Humanities Yearbook p. 242"
+    ],
+    "chunk_ids": [
+     1254,
+     1255
+    ]
+   },
+   {
+    "title": "National Identities and Global Citizenship",
+    "pages": [
+     "MSU Humanities Yearbook p. 243"
+    ],
+    "chunk_ids": [
+     1261
+    ]
+   }
+  ],
+  "mam707": [
+   {
+    "title": "Innovation and Entrepreneurship in the Cultural & Creative Industries",
+    "pages": [
+     "MSU Humanities Yearbook p. 847",
+     "MSU Humanities Yearbook p. 848"
+    ],
+    "chunk_ids": [
+     5070,
+     5079
+    ]
+   },
+   {
+    "title": "Music Innovation and Entrepreneurship",
+    "pages": [
+     "MSU Humanities Yearbook p. 850"
+    ],
+    "chunk_ids": [
+     5094
+    ]
+   }
+  ],
+  "mars507": [
+   {
+    "title": "Inter-Religious Dialogue: Christianity and African Culture",
+    "pages": [
+     "MSU Humanities Yearbook p. 341",
+     "MSU Humanities Yearbook p. 341",
+     "MSU Humanities Yearbook p. 341",
+     "MSU Humanities Yearbook p. 343",
+     "MSU Humanities Yearbook p. 346"
+    ],
+    "chunk_ids": [
+     1854,
+     1855,
+     1856,
+     1861,
+     1883
+    ]
+   },
+   {
+    "title": "Interreligious Dialogue in African and Asian Religions",
+    "pages": [
+     "MSU Humanities Yearbook p. 342",
+     "MSU Humanities Yearbook p. 348"
+    ],
+    "chunk_ids": [
+     1857,
+     1892
+    ]
+   },
+   {
+    "title": "Inter-Religious Dialogue: African Indigenous Religion and Islam/",
+    "pages": [
+     "MSU Humanities Yearbook p. 345"
+    ],
+    "chunk_ids": [
+     1872
+    ]
+   }
+  ],
+  "mars521": [
+   {
+    "title": "Special Study of an Epoch/Christian History and Thought up the middle",
+    "pages": [
+     "MSU Humanities Yearbook p. 341"
+    ],
+    "chunk_ids": [
+     1855
+    ]
+   },
+   {
+    "title": "Christian History and Thought from the Reformation to the Present",
+    "pages": [
+     "MSU Humanities Yearbook p. 346"
+    ],
+    "chunk_ids": [
+     1881
+    ]
+   }
+  ],
+  "mcrp704": [
+   {
+    "title": "Migration: Refuge Policy and",
+    "pages": [
+     "MSU Humanities Yearbook p. 737"
+    ],
+    "chunk_ids": [
+     4355
+    ]
+   },
+   {
+    "title": "Migration: Refugee Policy and Human Rights in Global Context",
+    "pages": [
+     "MSU Humanities Yearbook p. 737"
+    ],
+    "chunk_ids": [
+     4363
+    ]
+   }
+  ],
+  "mcs714": [
+   {
+    "title": "Plant Biotechnology",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 261"
+    ],
+    "chunk_ids": [
+     6353
+    ]
+   },
+   {
+    "title": "Molecular Plant Breeding",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 263"
+    ],
+    "chunk_ids": [
+     6368
+    ]
+   }
+  ],
+  "mcs721": [
+   {
+    "title": "Plant Breeding for Stress & Nutritional Quality",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 261"
+    ],
+    "chunk_ids": [
+     6353
+    ]
+   },
+   {
+    "title": "Statistical Analysis for Plant Breeders",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 263"
+    ],
+    "chunk_ids": [
+     6370
+    ]
+   }
+  ],
+  "mech903": [
+   {
+    "title": "Environmental Pollution Risk Management",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 886"
+    ],
+    "chunk_ids": [
+     9490
+    ]
+   },
+   {
+    "title": "Environment Management and Risk Assessment",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 888"
+    ],
+    "chunk_ids": [
+     9499
+    ]
+   }
+  ],
+  "med733": [
+   {
+    "title": "Gender Discourse in Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 431",
+     "MSU Humanities Yearbook p. 432",
+     "MSU Humanities Yearbook p. 434",
+     "MSU Humanities Yearbook p. 436",
+     "MSU Humanities Yearbook p. 438",
+     "MSU Humanities Yearbook p. 439",
+     "MSU Humanities Yearbook p. 442",
+     "MSU Humanities Yearbook p. 443",
+     "MSU Humanities Yearbook p. 459",
+     "MSU Humanities Yearbook p. 461",
+     "MSU Humanities Yearbook p. 463"
+    ],
+    "chunk_ids": [
+     2410,
+     2420,
+     2429,
+     2439,
+     2450,
+     2463,
+     2475,
+     2486,
+     2584,
+     2594,
+     2607
+    ]
+   },
+   {
+    "title": "Advanced Research Methods and Statistics",
+    "pages": [
+     "MSU Humanities Yearbook p. 434"
+    ],
+    "chunk_ids": [
+     2429
+    ]
+   },
+   {
+    "title": "Dissertation",
+    "pages": [
+     "MSU Humanities Yearbook p. 442"
+    ],
+    "chunk_ids": [
+     2475
+    ]
+   }
+  ],
+  "med743": [
+   {
+    "title": "Gender Discourse in Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 464",
+     "MSU Humanities Yearbook p. 521",
+     "MSU Humanities Yearbook p. 521",
+     "MSU Humanities Yearbook p. 528",
+     "MSU Humanities Yearbook p. 597",
+     "MSU Humanities Yearbook p. 597",
+     "MSU Humanities Yearbook p. 600",
+     "MSU Humanities Yearbook p. 601",
+     "MSU Humanities Yearbook p. 603",
+     "MSU Humanities Yearbook p. 603",
+     "MSU Humanities Yearbook p. 610",
+     "MSU Humanities Yearbook p. 611",
+     "MSU Humanities Yearbook p. 613",
+     "MSU Humanities Yearbook p. 614",
+     "MSU Humanities Yearbook p. 616",
+     "MSU Humanities Yearbook p. 617"
+    ],
+    "chunk_ids": [
+     2617,
+     2966,
+     2967,
+     3009,
+     3449,
+     3454,
+     3468,
+     3473,
+     3484,
+     3488,
+     3526,
+     3532,
+     3545,
+     3550,
+     3562,
+     3568
+    ]
+   },
+   {
+    "title": "Advanced Gender Studies in Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 524",
+     "MSU Humanities Yearbook p. 525",
+     "MSU Humanities Yearbook p. 528",
+     "MSU Humanities Yearbook p. 528",
+     "MSU Humanities Yearbook p. 528",
+     "MSU Humanities Yearbook p. 606",
+     "MSU Humanities Yearbook p. 607"
+    ],
+    "chunk_ids": [
+     2987,
+     2994,
+     3008,
+     3009,
+     3011,
+     3504,
+     3510
+    ]
+   }
+  ],
+  "mehd734": [
+   {
+    "title": "Colonialism and Development in Africa",
+    "pages": [
+     "MSU Humanities Yearbook p. 524"
+    ],
+    "chunk_ids": [
+     2987
+    ]
+   },
+   {
+    "title": "Political Economy of Colonialism and Independent Africa",
+    "pages": [
+     "MSU Humanities Yearbook p. 526"
+    ],
+    "chunk_ids": [
+     2997
+    ]
+   }
+  ],
+  "meil702": [
+   {
+    "title": "Tourism, Cultural Heritage Management and Sustainable Development",
+    "pages": [
+     "MSU Humanities Yearbook p. 528",
+     "MSU Humanities Yearbook p. 529"
+    ],
+    "chunk_ids": [
+     3008,
+     3018
+    ]
+   },
+   {
+    "title": "Practice in Africa Tourism, Sustainable Development and",
+    "pages": [
+     "MSU Humanities Yearbook p. 528"
+    ],
+    "chunk_ids": [
+     3008
+    ]
+   }
+  ],
+  "mes732": [
+   {
+    "title": "Environmental Toxicology andQuality",
+    "pages": [
+     "MSU Humanities Yearbook p. 773"
+    ],
+    "chunk_ids": [
+     4600
+    ]
+   },
+   {
+    "title": "Environmental Quality and Toxicology",
+    "pages": [
+     "MSU Humanities Yearbook p. 774"
+    ],
+    "chunk_ids": [
+     4603
+    ]
+   }
+  ],
+  "mfsn735": [
+   {
+    "title": "HIV/AIDS Nutritional aspects of food",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 1113"
+    ],
+    "chunk_ids": [
+     10629
+    ]
+   },
+   {
+    "title": "Nutrition and HIV/AIDS",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 1114",
+     "MSU Sciences Yearbook Vol. 2 p. 1114"
+    ],
+    "chunk_ids": [
+     10636,
+     10637
+    ]
+   }
+  ],
+  "mgde236": [
+   {
+    "title": "Concept development in Multimedia Design",
+    "pages": [
+     "MSU Humanities Yearbook p. 291",
+     "MSU Humanities Yearbook p. 293"
+    ],
+    "chunk_ids": [
+     1543,
+     1550
+    ]
+   },
+   {
+    "title": "Advertising Design and Copywriting",
+    "pages": [
+     "MSU Humanities Yearbook p. 292",
+     "MSU Humanities Yearbook p. 293"
+    ],
+    "chunk_ids": [
+     1544,
+     1554
+    ]
+   }
+  ],
+  "mgeo721": [
+   {
+    "title": "Dynamics of Urban Geography",
+    "pages": [
+     "MSU Humanities Yearbook p. 778",
+     "MSU Humanities Yearbook p. 780",
+     "MSU Humanities Yearbook p. 780"
+    ],
+    "chunk_ids": [
+     4630,
+     4651,
+     4652
+    ]
+   },
+   {
+    "title": "Global Health Geographies",
+    "pages": [
+     "MSU Humanities Yearbook p. 780"
+    ],
+    "chunk_ids": [
+     4652
+    ]
+   }
+  ],
+  "mgeo722": [
+   {
+    "title": "Dynamics of Rural Geography",
+    "pages": [
+     "MSU Humanities Yearbook p. 778"
+    ],
+    "chunk_ids": [
+     4630
+    ]
+   },
+   {
+    "title": "Disaster Risk Management",
+    "pages": [
+     "MSU Humanities Yearbook p. 780"
+    ],
+    "chunk_ids": [
+     4654
+    ]
+   }
+  ],
+  "mgeo723": [
+   {
+    "title": "Global Health Geographies",
+    "pages": [
+     "MSU Humanities Yearbook p. 778"
+    ],
+    "chunk_ids": [
+     4630
+    ]
+   },
+   {
+    "title": "Geography of Gender",
+    "pages": [
+     "MSU Humanities Yearbook p. 780"
+    ],
+    "chunk_ids": [
+     4655
+    ]
+   }
+  ],
+  "mgpss709": [
+   {
+    "title": "Crisis Monitoring and Conflict Early Warning Systems",
+    "pages": [
+     "MSU Humanities Yearbook p. 882"
+    ],
+    "chunk_ids": [
+     5286
+    ]
+   },
+   {
+    "title": "Terrorism, Counterterrorism andRadicalisation.",
+    "pages": [
+     "MSU Humanities Yearbook p. 883"
+    ],
+    "chunk_ids": [
+     5293
+    ]
+   }
+  ],
+  "mgpss710": [
+   {
+    "title": "Terrorism and De-radicalisation",
+    "pages": [
+     "MSU Humanities Yearbook p. 882"
+    ],
+    "chunk_ids": [
+     5286
+    ]
+   },
+   {
+    "title": "Crisis Monitoring and Conflict Early Warning System",
+    "pages": [
+     "MSU Humanities Yearbook p. 883"
+    ],
+    "chunk_ids": [
+     5293
+    ]
+   }
+  ],
+  "mhrm743": [
+   {
+    "title": "HR Consultancy",
+    "pages": [
+     "MSU Humanities Yearbook p. 833",
+     "MSU Humanities Yearbook p. 833"
+    ],
+    "chunk_ids": [
+     4988,
+     4989
+    ]
+   },
+   {
+    "title": "Human Resource Consultancy",
+    "pages": [
+     "MSU Humanities Yearbook p. 834"
+    ],
+    "chunk_ids": [
+     4997
+    ]
+   }
+  ],
+  "mhrm744": [
+   {
+    "title": "Management of Change",
+    "pages": [
+     "MSU Humanities Yearbook p. 833",
+     "MSU Humanities Yearbook p. 833"
+    ],
+    "chunk_ids": [
+     4988,
+     4989
+    ]
+   },
+   {
+    "title": "Managing Change",
+    "pages": [
+     "MSU Humanities Yearbook p. 834"
+    ],
+    "chunk_ids": [
+     4998
+    ]
+   }
+  ],
+  "mieat705": [
+   {
+    "title": "Digitalisation in Inclusive Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 434",
+     "MSU Humanities Yearbook p. 435"
+    ],
+    "chunk_ids": [
+     2429,
+     2435
+    ]
+   },
+   {
+    "title": "Practicum",
+    "pages": [
+     "MSU Humanities Yearbook p. 435"
+    ],
+    "chunk_ids": [
+     2435
+    ]
+   }
+  ],
+  "mieat706": [
+   {
+    "title": "Practicum",
+    "pages": [
+     "MSU Humanities Yearbook p. 434"
+    ],
+    "chunk_ids": [
+     2429
+    ]
+   },
+   {
+    "title": "Disability, Gender and Health",
+    "pages": [
+     "MSU Humanities Yearbook p. 435"
+    ],
+    "chunk_ids": [
+     2436
+    ]
+   }
+  ],
+  "mieat707": [
+   {
+    "title": "Disability, Gender and Health",
+    "pages": [
+     "MSU Humanities Yearbook p. 434"
+    ],
+    "chunk_ids": [
+     2429
+    ]
+   },
+   {
+    "title": "Programme Design, Implementation and Evaluation",
+    "pages": [
+     "MSU Humanities Yearbook p. 436"
+    ],
+    "chunk_ids": [
+     2438
+    ]
+   }
+  ],
+  "mieat708": [
+   {
+    "title": "Programme Design, Implementation and Evaluation",
+    "pages": [
+     "MSU Humanities Yearbook p. 434"
+    ],
+    "chunk_ids": [
+     2429
+    ]
+   },
+   {
+    "title": "Comparative Studies in Inclusive Education and Assistive Technologies",
+    "pages": [
+     "MSU Humanities Yearbook p. 436"
+    ],
+    "chunk_ids": [
+     2440
+    ]
+   }
+  ],
+  "mmt708": [
+   {
+    "title": "Audio Recording Technology",
+    "pages": [
+     "MSU Humanities Yearbook p. 847"
+    ],
+    "chunk_ids": [
+     5072
+    ]
+   },
+   {
+    "title": "Paradigms for Music Technology",
+    "pages": [
+     "MSU Humanities Yearbook p. 852"
+    ],
+    "chunk_ids": [
+     5114
+    ]
+   }
+  ],
+  "mmt709": [
+   {
+    "title": "Paradigms for Music Technology",
+    "pages": [
+     "MSU Humanities Yearbook p. 847"
+    ],
+    "chunk_ids": [
+     5072
+    ]
+   },
+   {
+    "title": "Audio Recording Technology",
+    "pages": [
+     "MSU Humanities Yearbook p. 852"
+    ],
+    "chunk_ids": [
+     5114
+    ]
+   }
+  ],
+  "mof737": [
+   {
+    "title": "Ultrafast Physics & Plasmas",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 1090",
+     "MSU Sciences Yearbook Vol. 2 p. 1092"
+    ],
+    "chunk_ids": [
+     10505,
+     10513
+    ]
+   },
+   {
+    "title": "Advanced Research Methods",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 1092",
+     "MSU Sciences Yearbook Vol. 2 p. 1092"
+    ],
+    "chunk_ids": [
+     10513,
+     10514
+    ]
+   }
+  ],
+  "mpg710": [
+   {
+    "title": "Religion, Gender and Ethics in Africa",
+    "pages": [
+     "MSU Humanities Yearbook p. 885"
+    ],
+    "chunk_ids": [
+     5302
+    ]
+   },
+   {
+    "title": "Electives",
+    "pages": [
+     "MSU Humanities Yearbook p. 887"
+    ],
+    "chunk_ids": [
+     5310
+    ]
+   }
+  ],
+  "mpg711": [
+   {
+    "title": "Women, Peace and Security",
+    "pages": [
+     "MSU Humanities Yearbook p. 885"
+    ],
+    "chunk_ids": [
+     5302
+    ]
+   },
+   {
+    "title": "Peace, Leadership and Governance",
+    "pages": [
+     "MSU Humanities Yearbook p. 887"
+    ],
+    "chunk_ids": [
+     5310
+    ]
+   }
+  ],
+  "mpm333": [
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 718"
+    ],
+    "chunk_ids": [
+     4219
+    ]
+   },
+   {
+    "title": "Work-Related Learning Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 722"
+    ],
+    "chunk_ids": [
+     4249
+    ]
+   }
+  ],
+  "mpsa711": [
+   {
+    "title": "Revenue and Expenditure Management",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 421",
+     "MSU Sciences Yearbook Vol. 2 p. 423"
+    ],
+    "chunk_ids": [
+     7181,
+     7193
+    ]
+   },
+   {
+    "title": "Dissertation.",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 423"
+    ],
+    "chunk_ids": [
+     7197
+    ]
+   }
+  ],
+  "msege708": [
+   {
+    "title": "Measurement and Evaluation in Geography and Environmental Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 610"
+    ],
+    "chunk_ids": [
+     3527
+    ]
+   },
+   {
+    "title": "Curriculum and Pedagogical Issues in Geography and Environmental Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 611"
+    ],
+    "chunk_ids": [
+     3536
+    ]
+   }
+  ],
+  "msett705": [
+   {
+    "title": "Curriculum and Pedagogical Issues in Textile Technology and Design",
+    "pages": [
+     "MSU Humanities Yearbook p. 617"
+    ],
+    "chunk_ids": [
+     3563
+    ]
+   },
+   {
+    "title": "Curriculum and Pedagogical Issues in Fashion and Textiles Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 618"
+    ],
+    "chunk_ids": [
+     3571
+    ]
+   }
+  ],
+  "msw832": [
+   {
+    "title": "Research Project",
+    "pages": [
+     "MSU Humanities Yearbook p. 920",
+     "MSU Humanities Yearbook p. 925",
+     "MSU Humanities Yearbook p. 925"
+    ],
+    "chunk_ids": [
+     5538,
+     5573,
+     5574
+    ]
+   },
+   {
+    "title": "Dissertation",
+    "pages": [
+     "MSU Humanities Yearbook p. 922",
+     "MSU Humanities Yearbook p. 926"
+    ],
+    "chunk_ids": [
+     5556,
+     5587
+    ]
+   }
+  ],
+  "pdte531": [
+   {
+    "title": "Foundations of Education",
+    "pages": [
+     "MSU Humanities Yearbook p. 471"
+    ],
+    "chunk_ids": [
+     2657
+    ]
+   },
+   {
+    "title": "Educational Foundations",
+    "pages": [
+     "MSU Humanities Yearbook p. 471"
+    ],
+    "chunk_ids": [
+     2658
+    ]
+   }
+  ],
+  "psy433": [
+   {
+    "title": "Organisational Culture and Climate",
+    "pages": [
+     "MSU Humanities Yearbook p. 674"
+    ],
+    "chunk_ids": [
+     3946
+    ]
+   },
+   {
+    "title": "Organisational Psychology",
+    "pages": [
+     "MSU Humanities Yearbook p. 902",
+     "MSU Humanities Yearbook p. 907"
+    ],
+    "chunk_ids": [
+     5405,
+     5452
+    ]
+   }
+  ],
+  "secs101": [
+   {
+    "title": "Computer Technology Concepts and Practices",
+    "pages": [
+     "MSU Humanities Yearbook p. 545",
+     "MSU Humanities Yearbook p. 546"
+    ],
+    "chunk_ids": [
+     3110,
+     3114
+    ]
+   },
+   {
+    "title": "Computers and Computer Applications",
+    "pages": [
+     "MSU Humanities Yearbook p. 553",
+     "MSU Humanities Yearbook p. 554"
+    ],
+    "chunk_ids": [
+     3169,
+     3171
+    ]
+   }
+  ],
+  "sema103": [
+   {
+    "title": "Applied Statistics",
+    "pages": [
+     "MSU Humanities Yearbook p. 556",
+     "MSU Humanities Yearbook p. 556",
+     "MSU Humanities Yearbook p. 556",
+     "MSU Humanities Yearbook p. 564",
+     "MSU Humanities Yearbook p. 570"
+    ],
+    "chunk_ids": [
+     3185,
+     3188,
+     3189,
+     3237,
+     3280
+    ]
+   },
+   {
+    "title": "Descriptive Statistics",
+    "pages": [
+     "MSU Humanities Yearbook p. 566",
+     "MSU Humanities Yearbook p. 572"
+    ],
+    "chunk_ids": [
+     3251,
+     3288
+    ]
+   }
+  ],
+  "sema104": [
+   {
+    "title": "Numerical Methods",
+    "pages": [
+     "MSU Humanities Yearbook p. 556",
+     "MSU Humanities Yearbook p. 556",
+     "MSU Humanities Yearbook p. 571"
+    ],
+    "chunk_ids": [
+     3185,
+     3188,
+     3281
+    ]
+   },
+   {
+    "title": "Probability Theory",
+    "pages": [
+     "MSU Humanities Yearbook p. 572"
+    ],
+    "chunk_ids": [
+     3289
+    ]
+   }
+  ],
+  "sema106": [
+   {
+    "title": "Probability Theory",
+    "pages": [
+     "MSU Humanities Yearbook p. 556",
+     "MSU Humanities Yearbook p. 556",
+     "MSU Humanities Yearbook p. 556"
+    ],
+    "chunk_ids": [
+     3185,
+     3186,
+     3187
+    ]
+   },
+   {
+    "title": "Mathematics Teaching for Sustainable Development",
+    "pages": [
+     "MSU Humanities Yearbook p. 571",
+     "MSU Humanities Yearbook p. 572"
+    ],
+    "chunk_ids": [
+     3281,
+     3290
+    ]
+   }
+  ],
+  "sema204": [
+   {
+    "title": "Real Analysis",
+    "pages": [
+     "MSU Humanities Yearbook p. 556"
+    ],
+    "chunk_ids": [
+     3190
+    ]
+   },
+   {
+    "title": "Introduction to Numerical Methods",
+    "pages": [
+     "MSU Humanities Yearbook p. 571",
+     "MSU Humanities Yearbook p. 573"
+    ],
+    "chunk_ids": [
+     3282,
+     3300
+    ]
+   }
+  ],
+  "sema402": [
+   {
+    "title": "Vector Analysis",
+    "pages": [
+     "MSU Humanities Yearbook p. 557"
+    ],
+    "chunk_ids": [
+     3191
+    ]
+   },
+   {
+    "title": "Regression and ANOVA",
+    "pages": [
+     "MSU Humanities Yearbook p. 565",
+     "MSU Humanities Yearbook p. 568"
+    ],
+    "chunk_ids": [
+     3239,
+     3271
+    ]
+   }
+  ],
+  "soc215": [
+   {
+    "title": "Sociology of Health and Medicine",
+    "pages": [
+     "MSU Humanities Yearbook p. 695"
+    ],
+    "chunk_ids": [
+     4069
+    ]
+   },
+   {
+    "title": "Sociology of Medicine and Healthcare",
+    "pages": [
+     "MSU Humanities Yearbook p. 698"
+    ],
+    "chunk_ids": [
+     4092
+    ]
+   }
+  ],
+  "soc343": [
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 695"
+    ],
+    "chunk_ids": [
+     4069
+    ]
+   },
+   {
+    "title": "Work-Related Learning Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 698"
+    ],
+    "chunk_ids": [
+     4095
+    ]
+   }
+  ],
+  "sosp215": [
+   {
+    "title": "Sociology of Health and Medicine",
+    "pages": [
+     "MSU Humanities Yearbook p. 726"
+    ],
+    "chunk_ids": [
+     4274
+    ]
+   },
+   {
+    "title": "Sociology of Medicine and Healthcare",
+    "pages": [
+     "MSU Humanities Yearbook p. 729"
+    ],
+    "chunk_ids": [
+     4302
+    ]
+   }
+  ],
+  "sosp333": [
+   {
+    "title": "Employer's Assessment Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 726"
+    ],
+    "chunk_ids": [
+     4274
+    ]
+   },
+   {
+    "title": "Work-Related Learning Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 729"
+    ],
+    "chunk_ids": [
+     4305
+    ]
+   }
+  ],
+  "swk342": [
+   {
+    "title": "Work Supervisor Reportand Oral Presentation",
+    "pages": [
+     "MSU Humanities Yearbook p. 901"
+    ],
+    "chunk_ids": [
+     5404
+    ]
+   },
+   {
+    "title": "Work-Related Academic Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 905"
+    ],
+    "chunk_ids": [
+     5436
+    ]
+   }
+  ],
+  "swk343": [
+   {
+    "title": "Academic Supervisor Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 901"
+    ],
+    "chunk_ids": [
+     5404
+    ]
+   },
+   {
+    "title": "Work-Related Learning Supervisor's Report",
+    "pages": [
+     "MSU Humanities Yearbook p. 905"
+    ],
+    "chunk_ids": [
+     5436
+    ]
+   }
+  ],
+  "thm136": [
+   {
+    "title": "Zimbabwe Tourism Geography",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 589",
+     "MSU Sciences Yearbook Vol. 2 p. 590"
+    ],
+    "chunk_ids": [
+     8076,
+     8080
+    ]
+   },
+   {
+    "title": "Introduction to the Tourism and Hospitality Industry",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 596",
+     "MSU Sciences Yearbook Vol. 2 p. 597",
+     "MSU Sciences Yearbook Vol. 2 p. 604",
+     "MSU Sciences Yearbook Vol. 2 p. 605"
+    ],
+    "chunk_ids": [
+     8115,
+     8119,
+     8157,
+     8160
+    ]
+   }
+  ],
+  "thm231": [
+   {
+    "title": "Food and Beverage Operations",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 589",
+     "MSU Sciences Yearbook Vol. 2 p. 591"
+    ],
+    "chunk_ids": [
+     8076,
+     8086
+    ]
+   },
+   {
+    "title": "Food and Beverage Management",
+    "pages": [
+     "MSU Sciences Yearbook Vol. 2 p. 604",
+     "MSU Sciences Yearbook Vol. 2 p. 604",
+     "MSU Sciences Yearbook Vol. 2 p. 605"
+    ],
+    "chunk_ids": [
+     8157,
+     8158,
+     8165
+    ]
+   }
+  ],
+  "udswk211": [
+   {
+    "title": "Field Work",
+    "pages": [
+     "MSU Humanities Yearbook p. 896"
+    ],
+    "chunk_ids": [
+     5369
+    ]
+   },
+   {
+    "title": "Work-Related Learning/ Fieldwork",
+    "pages": [
+     "MSU Humanities Yearbook p. 899"
+    ],
+    "chunk_ids": [
+     5390
+    ]
+   }
+  ]
+ }
+}

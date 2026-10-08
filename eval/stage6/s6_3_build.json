@@ -1,0 +1,45 @@
+{
+ "build_s": 2023.1,
+ "timings": {
+  "headings_s": 3.2,
+  "embed_s": 2014.6,
+  "bm25_build_s": 4.4,
+  "save_s": 0.4
+ },
+ "sizes_bytes": {
+  "chunks.jsonl": 10072929,
+  "index.faiss": 16484397,
+  "manifest.json": 1154
+ },
+ "manifest": {
+  "manifest_version": 1,
+  "created_at": "2026-10-07T23:41:09+00:00",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "embedding_dim": 384,
+  "normalized_embeddings": true,
+  "query_prefix": "Represent this sentence for searching relevant passages: ",
+  "chunk_size": 800,
+  "chunk_overlap": 150,
+  "chunk_count": 10732,
+  "chunks_per_source": {
+   "MSU Humanities Yearbook": 5614,
+   "MSU Sciences Yearbook Vol. 2": 5118
+  },
+  "corpus_fingerprint": "sha256:545d0dabe1fbe022baf9dd5dfaadaaee6637490e9a2f5fef9e04cf1d455e41f5",
+  "build_fingerprint": "sha256:8e0e357fc8e85e7b133d98ce33b80986846fb7d883ecc39572445d31a0299fa4",
+  "vectors_checksum": "sha256:4a4abafb5234021ec95d7020a7f91a8697a99e2b1fb9cd543c1a105b655218fc",
+  "index_type": "IndexFlatIP",
+  "faiss_version": "1.15.1",
+  "bm25": {
+   "variant": "BM25Okapi",
+   "k1": 1.5,
+   "b": 0.75,
+   "tokenizer": "v1"
+  },
+  "structure_version": "v2",
+  "heading_fingerprint": "sha256:7ce5f4d96a17b4498b3de1240afb563c5b73cefd9ef92114e6c467cd49c68b8c",
+  "index_text": "citation header + heading line + chunk body; BM25: heading line + body; code filter: body only"
+ },
+ "chunks_with_heading": 10695,
+ "structure_py_sha256": "d9a0c6074b4b838b69f57a8f5965c1c859426546a0d20fa55cc9077cc874c7a4"
+}

@@ -1,0 +1,17 @@
+{
+ "purpose": "Stage 6 baseline: these files must stay byte-identical throughout Stage 6; checked before every experiment run",
+ "recorded_at": "2026-10-07",
+ "git_commit": "e4aaf1f",
+ "corpus_fingerprint": "sha256:545d0dabe1fbe022baf9dd5dfaadaaee6637490e9a2f5fef9e04cf1d455e41f5",
+ "sha256": {
+  "src/vectorstore.py": "b6f8fd0ee70d92d5c69529cc66fd369e38e6eea68f344aa51edf6653c44f2573",
+  "faiss_store/manifest.json": "1dc465508ffb8daa7ee49b99a9337bfbf7a3a474124960f2a233b4ff025434d4",
+  "faiss_store/index.faiss": "5408db93da95136005e7e2aa098af46d752c600c3052486aba8ac15dcdf49280",
+  "faiss_store/chunks.jsonl": "19e29210ce20a66785d52a02962ab0e7beca89033cd18de722005e09ff9eb21e",
+  "eval/stage5_questions.json": "434045f9a63ad2ba79aba6fd63e031f8c96564179025db9154d2531839817f0d",
+  "eval/stage5_runs.json": "4927e980661d959a2ee3d47c8b8a4f0514288d98e4b398c25166eefbaae70b4d",
+  "eval/stage5_grades.json": "03dcd2b613339448921f7b751449bad08bf3a963fb89a4464c26e08e02c7f9c3",
+  "eval/stage5_failures.json": "db8f508609801d8c5819df2b24b87abf4fbf5bd0fe798a3d69dcd3f99f7e6c61",
+  "eval/stage5_spot_check.txt": "ab9fda58d71f835177b06aac405bb61c5c170774e2175965d6d5322e7d9e51df"
+ }
+}

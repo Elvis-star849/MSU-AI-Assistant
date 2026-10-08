@@ -1,0 +1,993 @@
+{
+  "plan": "eval/stage6/plan.md",
+  "baseline": "eval/stage6/baseline_hashes.json",
+  "experiments": [
+    {
+      "id": "S6-0",
+      "date": "2026-10-07",
+      "status": "completed",
+      "what": "Preparation. Baseline hashes recorded (eval/stage6/baseline_hashes.json). Held-out set drafted with the Stage 5 sampling procedure (seed 20261009, eval/stage6/sample_holdout.py), approved by the project owner without changes (H-N9 and H-C6 kept despite split answers; the two sampled overlaps kept), frozen as eval/stage6/holdout_questions.json and marked read-only. No retrieval system has been run on it.",
+      "holdout_sha256": "cdb30eb3de68b28862f3c058b11e93aa13a5c86fab96aa07cb9f675582a51601",
+      "stage5_spot_check": {
+        "sample": "eval/stage5_spot_check.txt",
+        "items": 20,
+        "agreed": 20,
+        "agreement": "20/20 (100%)",
+        "grading_changes": 0
+      },
+      "hypothesis": null,
+      "retrieval_changed": false,
+      "results": null,
+      "decision": "completed"
+    },
+    {
+      "id": "S6-1",
+      "date": "2026-10-07",
+      "status": "completed",
+      "what": "Tie-break for equal RRF scores in code-aware hybrid. baseline = BM25 rank wins (Stage 4); T1 = vector rank wins; T2 = neutral (better of the two ranks, then chunk order). Implemented in src/retrieval_v2.py; src/vectorstore.py unchanged.",
+      "hypothesis": "Letting vector rank decide ties promotes module descriptions above programme tables without losing any Top-5 hits.",
+      "fixed": "index, chunks, embedding model, RRF k=60, 50 candidates per retriever, routing, vector-only route for questions without codes",
+      "data": "Stage 5 development set (30 scored questions); baseline variant reproduced Stage 5 routed top-10 exactly for all 35 questions; no new chunks needed grading",
+      "results": {
+        "baseline": {
+          "natural_language": {
+            "top1": 6,
+            "top3": 9,
+            "top5": 9,
+            "mrr10": 0.733
+          },
+          "exact_code": {
+            "top1": 3,
+            "top3": 10,
+            "top5": 10,
+            "mrr10": 0.633
+          },
+          "code_in_context": {
+            "top1": 6,
+            "top3": 9,
+            "top5": 9,
+            "mrr10": 0.76
+          },
+          "overall": {
+            "top1": 15,
+            "top3": 28,
+            "top5": 28,
+            "mrr10": 0.709
+          }
+        },
+        "T1": {
+          "natural_language": {
+            "top1": 6,
+            "top3": 9,
+            "top5": 9,
+            "mrr10": 0.733
+          },
+          "exact_code": {
+            "top1": 6,
+            "top3": 10,
+            "top5": 10,
+            "mrr10": 0.783
+          },
+          "code_in_context": {
+            "top1": 6,
+            "top3": 9,
+            "top5": 9,
+            "mrr10": 0.76
+          },
+          "overall": {
+            "top1": 18,
+            "top3": 28,
+            "top5": 28,
+            "mrr10": 0.759
+          }
+        },
+        "T2": {
+          "natural_language": {
+            "top1": 6,
+            "top3": 9,
+            "top5": 9,
+            "mrr10": 0.733
+          },
+          "exact_code": {
+            "top1": 2,
+            "top3": 10,
+            "top5": 10,
+            "mrr10": 0.583
+          },
+          "code_in_context": {
+            "top1": 6,
+            "top3": 9,
+            "top5": 9,
+            "mrr10": 0.76
+          },
+          "overall": {
+            "top1": 14,
+            "top3": 28,
+            "top5": 28,
+            "mrr10": 0.692
+          }
+        }
+      },
+      "per_question_changes": {
+        "T1": {
+          "improved": [
+            "E1",
+            "E6",
+            "E7",
+            "E10",
+            "C3"
+          ],
+          "worse": [
+            "E8",
+            "C9"
+          ]
+        },
+        "T2": {
+          "improved": [],
+          "worse": [
+            "E8"
+          ]
+        }
+      },
+      "table_answer_questions_harmed": {
+        "T1": [
+          "C9 (rank 1 -> 2)"
+        ],
+        "T2": []
+      },
+      "latency": "no additional computation (same candidate lists, different sort key)",
+      "recommendation": "T1: provisional accept (meets +2 Top-1 rule: 15 -> 18, no Top-5 change), to be confirmed after S6-2 as the no-reranker fallback. T2: reject (14 Top-1; in practice breaks ties by page order, which favours tables).",
+      "caveat": "Development evidence only. The tie-break was diagnosed on these same questions, and only 7 of 20 code questions have a rank-1 tie, so the effect rests on 7 cases.",
+      "decision": {
+        "date": "2026-10-07",
+        "by": "project owner",
+        "T1": "provisionally accepted as the Stage 6 configuration and the no-reranker fallback; final decision after S6-2",
+        "T2": "rejected",
+        "reasons": [
+          "overall Top-1 15 -> 18/30",
+          "MRR@10 0.709 -> 0.759",
+          "Top-3 and Top-5 unchanged at 28/30",
+          "no category Top-5 regression",
+          "no computational cost"
+        ],
+        "limitation": "T1 is not the final fix for table-versus-description ranking: on C9 it prefers a description where the question needs a programme table"
+      }
+    },
+    {
+      "id": "S6-2",
+      "date": "2026-10-07",
+      "status": "completed",
+      "what": "Cross-encoder reranking of T1 routed candidates (src/rerank.py). Models: BAAI/bge-reranker-base (rev 2cfc18c9, file hash verified) and cross-encoder/ms-marco-MiniLM-L-6-v2. Pools N = 5, 10, 20, 30; ranks after the pool keep T1 order up to rank 10. Reranker sees chunk text without the citation header.",
+      "hypothesis": "A cross-encoder separates description-wanting from table-wanting questions and neighbouring clauses; a pool above 10 also recovers C10.",
+      "fixed": "index, chunks, embedding model, routing, T1 candidate generation, RRF settings",
+      "grading": "42 chunks first seen in S6-2 graded blind (eval/stage6/grades.json, 4 graded 2); Stage 5 grades unchanged",
+      "results": {
+        "bge@5": {
+          "summary": {
+            "top1": 21,
+            "top3": 28,
+            "top5": 28,
+            "mrr10": 0.809
+          },
+          "by_category": {
+            "natural_language": {
+              "top1": 5,
+              "top3": 9,
+              "top5": 9,
+              "mrr10": 0.667
+            },
+            "exact_code": {
+              "top1": 7,
+              "top3": 10,
+              "top5": 10,
+              "mrr10": 0.85
+            },
+            "code_in_context": {
+              "top1": 9,
+              "top3": 9,
+              "top5": 9,
+              "mrr10": 0.91
+            }
+          },
+          "changes_vs_T1": {
+            "improved": [
+              "N7 3->2",
+              "N10 2->1",
+              "E2 2->1",
+              "E3 3->2",
+              "E8 2->1",
+              "C1 2->1",
+              "C7 2->1",
+              "C9 2->1"
+            ],
+            "worse": [
+              "N1 2->3",
+              "N2 1->3",
+              "N9 1->2",
+              "E9 1->2"
+            ]
+          },
+          "added_ms": {
+            "median": 2333,
+            "p95": 5266
+          },
+          "load_s": 11.96,
+          "memory_mb": 894
+        },
+        "bge@10": {
+          "summary": {
+            "top1": 21,
+            "top3": 29,
+            "top5": 29,
+            "mrr10": 0.811
+          },
+          "by_category": {
+            "natural_language": {
+              "top1": 5,
+              "top3": 9,
+              "top5": 9,
+              "mrr10": 0.65
+            },
+            "exact_code": {
+              "top1": 7,
+              "top3": 10,
+              "top5": 10,
+              "mrr10": 0.85
+            },
+            "code_in_context": {
+              "top1": 9,
+              "top3": 10,
+              "top5": 10,
+              "mrr10": 0.933
+            }
+          },
+          "changes_vs_T1": {
+            "improved": [
+              "N7 3->2",
+              "N10 2->1",
+              "E2 2->1",
+              "E3 3->2",
+              "E8 2->1",
+              "C1 2->1",
+              "C7 2->1",
+              "C9 2->1",
+              "C10 10->3"
+            ],
+            "worse": [
+              "N1 2->3",
+              "N2 1->3",
+              "N9 1->3",
+              "E9 1->2"
+            ]
+          },
+          "added_ms": {
+            "median": 3878,
+            "p95": 8476
+          },
+          "load_s": 11.96,
+          "memory_mb": 894
+        },
+        "bge@20": {
+          "summary": {
+            "top1": 21,
+            "top3": 28,
+            "top5": 28,
+            "mrr10": 0.806
+          },
+          "by_category": {
+            "natural_language": {
+              "top1": 5,
+              "top3": 8,
+              "top5": 8,
+              "mrr10": 0.633
+            },
+            "exact_code": {
+              "top1": 7,
+              "top3": 10,
+              "top5": 10,
+              "mrr10": 0.85
+            },
+            "code_in_context": {
+              "top1": 9,
+              "top3": 10,
+              "top5": 10,
+              "mrr10": 0.933
+            }
+          },
+          "changes_vs_T1": {
+            "improved": [
+              "N7 3->2",
+              "N10 2->1",
+              "E2 2->1",
+              "E3 3->2",
+              "E8 2->1",
+              "C1 2->1",
+              "C7 2->1",
+              "C9 2->1",
+              "C10 10->3"
+            ],
+            "worse": [
+              "N1 2->3",
+              "N2 1->3",
+              "N9 1->6",
+              "E9 1->2"
+            ]
+          },
+          "added_ms": {
+            "median": 3625,
+            "p95": 17989
+          },
+          "load_s": 11.96,
+          "memory_mb": 894
+        },
+        "bge@30": {
+          "summary": {
+            "top1": 20,
+            "top3": 28,
+            "top5": 28,
+            "mrr10": 0.787
+          },
+          "by_category": {
+            "natural_language": {
+              "top1": 4,
+              "top3": 8,
+              "top5": 8,
+              "mrr10": 0.579
+            },
+            "exact_code": {
+              "top1": 7,
+              "top3": 10,
+              "top5": 10,
+              "mrr10": 0.85
+            },
+            "code_in_context": {
+              "top1": 9,
+              "top3": 10,
+              "top5": 10,
+              "mrr10": 0.933
+            }
+          },
+          "changes_vs_T1": {
+            "improved": [
+              "N7 3->2",
+              "N10 2->1",
+              "E2 2->1",
+              "E3 3->2",
+              "E8 2->1",
+              "C1 2->1",
+              "C7 2->1",
+              "C9 2->1",
+              "C10 10->3"
+            ],
+            "worse": [
+              "N1 2->3",
+              "N2 1->3",
+              "N3 1->2",
+              "N9 1->8",
+              "E9 1->2"
+            ]
+          },
+          "added_ms": {
+            "median": 4491,
+            "p95": 29144
+          },
+          "load_s": 11.96,
+          "memory_mb": 894
+        },
+        "minilm@5": {
+          "summary": {
+            "top1": 23,
+            "top3": 27,
+            "top5": 28,
+            "mrr10": 0.845
+          },
+          "by_category": {
+            "natural_language": {
+              "top1": 7,
+              "top3": 8,
+              "top5": 9,
+              "mrr10": 0.775
+            },
+            "exact_code": {
+              "top1": 9,
+              "top3": 10,
+              "top5": 10,
+              "mrr10": 0.95
+            },
+            "code_in_context": {
+              "top1": 7,
+              "top3": 9,
+              "top5": 9,
+              "mrr10": 0.81
+            }
+          },
+          "changes_vs_T1": {
+            "improved": [
+              "N1 2->1",
+              "N10 2->1",
+              "E2 2->1",
+              "E3 3->2",
+              "E4 2->1",
+              "E8 2->1",
+              "C1 2->1"
+            ],
+            "worse": [
+              "N6 1->2",
+              "N7 3->4"
+            ]
+          },
+          "added_ms": {
+            "median": 358,
+            "p95": 769
+          },
+          "load_s": 0.55,
+          "memory_mb": 113
+        },
+        "minilm@10": {
+          "summary": {
+            "top1": 24,
+            "top3": 28,
+            "top5": 29,
+            "mrr10": 0.875
+          },
+          "by_category": {
+            "natural_language": {
+              "top1": 7,
+              "top3": 8,
+              "top5": 9,
+              "mrr10": 0.775
+            },
+            "exact_code": {
+              "top1": 9,
+              "top3": 10,
+              "top5": 10,
+              "mrr10": 0.95
+            },
+            "code_in_context": {
+              "top1": 8,
+              "top3": 10,
+              "top5": 10,
+              "mrr10": 0.9
+            }
+          },
+          "changes_vs_T1": {
+            "improved": [
+              "N1 2->1",
+              "N10 2->1",
+              "E2 2->1",
+              "E3 3->2",
+              "E4 2->1",
+              "E8 2->1",
+              "C1 2->1",
+              "C10 10->1"
+            ],
+            "worse": [
+              "N6 1->2",
+              "N7 3->4"
+            ]
+          },
+          "added_ms": {
+            "median": 514,
+            "p95": 1418
+          },
+          "load_s": 0.55,
+          "memory_mb": 113
+        },
+        "minilm@20": {
+          "summary": {
+            "top1": 24,
+            "top3": 28,
+            "top5": 29,
+            "mrr10": 0.875
+          },
+          "by_category": {
+            "natural_language": {
+              "top1": 7,
+              "top3": 8,
+              "top5": 9,
+              "mrr10": 0.775
+            },
+            "exact_code": {
+              "top1": 9,
+              "top3": 10,
+              "top5": 10,
+              "mrr10": 0.95
+            },
+            "code_in_context": {
+              "top1": 8,
+              "top3": 10,
+              "top5": 10,
+              "mrr10": 0.9
+            }
+          },
+          "changes_vs_T1": {
+            "improved": [
+              "N1 2->1",
+              "N10 2->1",
+              "E2 2->1",
+              "E3 3->2",
+              "E4 2->1",
+              "E8 2->1",
+              "C1 2->1",
+              "C10 10->1"
+            ],
+            "worse": [
+              "N6 1->2",
+              "N7 3->4"
+            ]
+          },
+          "added_ms": {
+            "median": 590,
+            "p95": 2667
+          },
+          "load_s": 0.55,
+          "memory_mb": 113
+        },
+        "minilm@30": {
+          "summary": {
+            "top1": 24,
+            "top3": 28,
+            "top5": 29,
+            "mrr10": 0.875
+          },
+          "by_category": {
+            "natural_language": {
+              "top1": 7,
+              "top3": 8,
+              "top5": 9,
+              "mrr10": 0.775
+            },
+            "exact_code": {
+              "top1": 9,
+              "top3": 10,
+              "top5": 10,
+              "mrr10": 0.95
+            },
+            "code_in_context": {
+              "top1": 8,
+              "top3": 10,
+              "top5": 10,
+              "mrr10": 0.9
+            }
+          },
+          "changes_vs_T1": {
+            "improved": [
+              "N1 2->1",
+              "N10 2->1",
+              "E2 2->1",
+              "E3 3->2",
+              "E4 2->1",
+              "E8 2->1",
+              "C1 2->1",
+              "C10 10->1"
+            ],
+            "worse": [
+              "N6 1->2",
+              "N7 3->4"
+            ]
+          },
+          "added_ms": {
+            "median": 426,
+            "p95": 4168
+          },
+          "load_s": 0.55,
+          "memory_mb": 113
+        }
+      },
+      "T1_reference": {
+        "top1": 18,
+        "top3": 28,
+        "top5": 28,
+        "mrr10": 0.759
+      },
+      "pool_rule_result": {
+        "bge": {
+          "best_top1": 21,
+          "best_top5": 29,
+          "chosen_pool": null
+        },
+        "minilm": {
+          "best_top1": 24,
+          "best_top5": 29,
+          "chosen_pool": 5
+        }
+      },
+      "out_of_scope_side_measurement": {
+        "bge": {
+          "out_of_scope": [
+            0.18,
+            0.25,
+            0.77,
+            0.92,
+            0.99
+          ],
+          "in_scope_min": 0.12,
+          "in_scope_median": 0.79,
+          "in_scope_below_max_out_of_scope": 27
+        },
+        "minilm": {
+          "out_of_scope": [
+            -6.87,
+            -3.41,
+            -2.5,
+            -2.26,
+            0.35
+          ],
+          "in_scope_min": -5.11,
+          "in_scope_median": 4.06,
+          "in_scope_below_max_out_of_scope": 6
+        }
+      },
+      "latency_caveat": "Single timed pass per configuration; medians do not rise consistently with pool size, so the machine's background load is mixed in. A repeated, interleaved re-measurement (eval/stage6/bench_s6_2_latency.py) was stopped by Claude Code because the system was low on memory (2.7 of 15.9 GB free) and has not been re-run.",
+      "recommendation": "Reject bge-reranker-base (lower quality than MiniLM, hurts N1/N2/N9, over the latency budget at every pool size). Accept MiniLM. The pre-agreed pool rule selects N=5; N=10 additionally fixes C10 (+1 Top-1/Top-3/Top-5) for about +150 ms median, and choosing it would be an owner override of the rule.",
+      "decision": {
+        "date": "2026-10-08",
+        "by": "project owner",
+        "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2 accepted; BAAI/bge-reranker-base rejected (lower quality, larger model, higher load cost and latency)",
+        "pool": "N=10 - DOCUMENTED OWNER OVERRIDE of the pre-agreed smallest-pool rule, which selected N=5. N=10 did not win under the original rule.",
+        "override_reason": "MiniLM@10 vs @5: Top-1 23->24, Top-3 27->28, Top-5 28->29, MRR@10 0.845->0.875, C10 rank 10->1; extra median reranking latency small and within the experimental budget",
+        "provisional_configuration": "T1 candidate generation -> top 10 candidates -> MiniLM cross-encoder rerank -> best 5",
+        "fallback": "T1 (no reranker) when reranking is unavailable",
+        "known_limitations": [
+          "N6 regressed rank 1 -> 2",
+          "N7 regressed rank 3 -> 4 (out of Top-3, still in Top-5); natural-language Top-3 9 -> 8",
+          "C9 (needs a programme table) still rank 2: MiniLM does not fix this table-versus-description case",
+          "E3 ambiguous code still rank 2 (Stage 7 requirement)",
+          "N4 still a Top-10 miss (target of S6-3)",
+          "latency from a single noisy pass; repeated re-measurement stopped for low system memory and not yet re-run"
+        ]
+      }
+    },
+    {
+      "id": "S6-3",
+      "date": "2026-10-08",
+      "status": "completed",
+      "what": "Heading-aware retrieval: same chunks/ids/text; inherited document headings (src/structure.py v2) added to the embedded text and BM25 tokens only; new index faiss_store_v2/ (corpus fingerprint identical to faiss_store/). A: MiniLM sees original chunk text. B: MiniLM sees heading + chunk text.",
+      "hypothesis": "Inherited headings let retrieval find chunks whose own text lacks the question's words (target N4), without harming other questions.",
+      "compared_against": "accepted configuration: T1 -> top 10 -> MiniLM -> best 5 on faiss_store/",
+      "fixed": "chunks, chunk text, embedding model, routing/code filter (body only), T1 tie-break, pool 10, MiniLM",
+      "heading_detection": {
+        "v1_sample_seed63": "25/30",
+        "v2_sample_seed64": "24/30 (section only 25/30)",
+        "note": "v1 defects found by the seed-63 sample were fixed in v2 before any index build; v2 measured on a fresh sample; file eval/stage6/s6_3_heading_check.md"
+      },
+      "disclosures": [
+        "The 'heading at the top of a chunk governs it' bug was noticed on chunk 38 (the N4 answer chunk); the fix is a general rule.",
+        "Stage 5 analysis wrongly said N4's heading was in another chunk; chunk 38 starts with its own heading. The gain comes from the inherited part title (MIDLANDS STATE UNIVERSITY ACT) plus the heading in the indexed text."
+      ],
+      "build": {
+        "seconds": 2023.1,
+        "embed_s": 2014.6,
+        "sizes_bytes": {
+          "chunks.jsonl": 10072929,
+          "index.faiss": 16484397,
+          "manifest.json": 1154
+        },
+        "structure_py_sha256": "d9a0c6074b4b838b69f57a8f5965c1c859426546a0d20fa55cc9077cc874c7a4"
+      },
+      "new_blind_grades": 11,
+      "results": {
+        "accepted": {
+          "natural_language": {
+            "top1": 7,
+            "top3": 8,
+            "top5": 9,
+            "mrr10": 0.775
+          },
+          "exact_code": {
+            "top1": 9,
+            "top3": 10,
+            "top5": 10,
+            "mrr10": 0.95
+          },
+          "code_in_context": {
+            "top1": 8,
+            "top3": 10,
+            "top5": 10,
+            "mrr10": 0.9
+          },
+          "overall": {
+            "top1": 24,
+            "top3": 28,
+            "top5": 29,
+            "mrr10": 0.875
+          }
+        },
+        "A": {
+          "natural_language": {
+            "top1": 7,
+            "top3": 8,
+            "top5": 9,
+            "mrr10": 0.787
+          },
+          "exact_code": {
+            "top1": 9,
+            "top3": 10,
+            "top5": 10,
+            "mrr10": 0.95
+          },
+          "code_in_context": {
+            "top1": 8,
+            "top3": 10,
+            "top5": 10,
+            "mrr10": 0.9
+          },
+          "overall": {
+            "top1": 24,
+            "top3": 28,
+            "top5": 29,
+            "mrr10": 0.879
+          }
+        },
+        "B": {
+          "natural_language": {
+            "top1": 7,
+            "top3": 9,
+            "top5": 10,
+            "mrr10": 0.825
+          },
+          "exact_code": {
+            "top1": 9,
+            "top3": 10,
+            "top5": 10,
+            "mrr10": 0.95
+          },
+          "code_in_context": {
+            "top1": 8,
+            "top3": 9,
+            "top5": 10,
+            "mrr10": 0.875
+          },
+          "overall": {
+            "top1": 24,
+            "top3": 28,
+            "top5": 30,
+            "mrr10": 0.883
+          }
+        },
+        "T1_v1": {
+          "natural_language": {
+            "top1": 6,
+            "top3": 9,
+            "top5": 9,
+            "mrr10": 0.733
+          },
+          "exact_code": {
+            "top1": 6,
+            "top3": 10,
+            "top5": 10,
+            "mrr10": 0.783
+          },
+          "code_in_context": {
+            "top1": 6,
+            "top3": 9,
+            "top5": 9,
+            "mrr10": 0.76
+          },
+          "overall": {
+            "top1": 18,
+            "top3": 28,
+            "top5": 28,
+            "mrr10": 0.759
+          }
+        },
+        "T1_v2": {
+          "natural_language": {
+            "top1": 7,
+            "top3": 9,
+            "top5": 10,
+            "mrr10": 0.825
+          },
+          "exact_code": {
+            "top1": 9,
+            "top3": 10,
+            "top5": 10,
+            "mrr10": 0.95
+          },
+          "code_in_context": {
+            "top1": 7,
+            "top3": 10,
+            "top5": 10,
+            "mrr10": 0.85
+          },
+          "overall": {
+            "top1": 23,
+            "top3": 29,
+            "top5": 30,
+            "mrr10": 0.875
+          }
+        }
+      },
+      "variants": {
+        "A": {
+          "changes": {
+            "improved": [
+              "N4 -->8"
+            ],
+            "worse": [],
+            "unchanged": [
+              "N1",
+              "N2",
+              "N3",
+              "N5",
+              "N6",
+              "N7",
+              "N8",
+              "N9",
+              "N10",
+              "E1",
+              "E2",
+              "E3",
+              "E4",
+              "E5",
+              "E6",
+              "E7",
+              "E8",
+              "E9",
+              "E10",
+              "C1",
+              "C2",
+              "C3",
+              "C4",
+              "C5",
+              "C6",
+              "C7",
+              "C8",
+              "C9",
+              "C10"
+            ]
+          },
+          "N4_rank": 8,
+          "lost_top5": [],
+          "meaningful_regression": false,
+          "criterion_A": false,
+          "criterion_B": false
+        },
+        "B": {
+          "changes": {
+            "improved": [
+              "N4 -->1",
+              "C7 2->1"
+            ],
+            "worse": [
+              "N1 1->2",
+              "C5 1->4"
+            ],
+            "unchanged": [
+              "N2",
+              "N3",
+              "N5",
+              "N6",
+              "N7",
+              "N8",
+              "N9",
+              "N10",
+              "E1",
+              "E2",
+              "E3",
+              "E4",
+              "E5",
+              "E6",
+              "E7",
+              "E8",
+              "E9",
+              "E10",
+              "C1",
+              "C2",
+              "C3",
+              "C4",
+              "C6",
+              "C8",
+              "C9",
+              "C10"
+            ]
+          },
+          "N4_rank": 1,
+          "lost_top5": [],
+          "meaningful_regression": false,
+          "criterion_A": false,
+          "criterion_B": true
+        }
+      },
+      "added_ms": {
+        "accepted": {
+          "median": 405,
+          "p95": 1392
+        },
+        "A": {
+          "median": 394,
+          "p95": 1660
+        },
+        "B": {
+          "median": 601,
+          "p95": 2757
+        }
+      },
+      "n4_diagnosis": {
+        "v1": {
+          "vector_rank": 109,
+          "bm25_rank": 71
+        },
+        "v2": {
+          "vector_rank": 1,
+          "bm25_rank": 1
+        },
+        "v2_heading": "Section: MIDLANDS STATE UNIVERSITY ACT > 5 Membership of the University"
+      },
+      "regressions": {
+        "B": [
+          "C5 (needs a programme table) rank 1 -> 4: the SEMA102 description chunks now carry the heading 'SEMA 102 Linear Mathematics', and the table chunk carries a wrong inherited heading (SEGE 405 ...)",
+          "N1 rank 1 -> 2"
+        ]
+      },
+      "observation_not_preregistered": "T1 on faiss_store_v2 without any reranker scores 23/29/30 (MRR 0.875) vs T1 on faiss_store 18/28/28, close to B (24/28/30, MRR 0.883).",
+      "recommendation": "Reject A (meets neither criterion; MiniLM without headings pushes N4 from retrieval rank 1 to 8). Provisionally accept B under criterion B (N4 miss -> rank 1, Top-5 29 -> 30, no question leaves the top 5, no category loses more than 1 at Top-3, Top-1 unchanged), recording the C5 and N1 regressions. Development evidence only.",
+      "decision": {
+        "date": "2026-10-08",
+        "by": "project owner",
+        "A": "rejected: heading-aware retrieval moved N4's answer chunk to candidate rank 1, but MiniLM without the heading pushed it back to rank 8",
+        "B": "provisionally accepted under Criterion B: N4 miss -> rank 1; overall Top-5 29 -> 30; no question leaves the top 5; overall Top-1 unchanged (24)",
+        "known_regressions": [
+          "C5 (needs a programme table) rank 1 -> 4; an incorrect inherited heading on the table chunk (SEGE 405 ...) contributed",
+          "N1 rank 1 -> 2",
+          "code_in_context Top-3 10 -> 9 (C5); natural_language Top-3 8 -> 9; overall Top-3 unchanged at 28",
+          "B added rerank latency P95 2.76 s (single noisy pass), close to the 3 s budget"
+        ],
+        "limitation": "heading detection v2 is 24/30 correct on a fresh sample; heading extraction is an imperfect component",
+        "rules": [
+          "Do not tune the heading detector further using the Stage 5 development questions"
+        ],
+        "S6-4": "not triggered under the predefined rule (code questions 17/20 Top-1 >= 16; no description-answer code question misses the top 5); skipped for now",
+        "S6-6_additions": [
+          "Add arm: T1 on faiss_store_v2 without MiniLM (development 23/29/30)",
+          "To fix before S6-6: B is the primary candidate for the held-out claim; a pre-stated rule for the reranker-free arm; whether to include the isolated S6-1 tie-break arm"
+        ],
+        "fallback": "still T1 on faiss_store/; whether it moves to faiss_store_v2 to be decided after S6-6",
+        "heading_review": "owner reviewed 10 random v2 cases (seed 65): 8 correct, 2 wrong; agrees with all 10 of Claude's verdicts",
+        "heading_detector_frozen": {
+          "file": "src/structure.py",
+          "structure_version": "v2",
+          "sha256": "d9a0c6074b4b838b69f57a8f5965c1c859426546a0d20fa55cc9077cc874c7a4",
+          "rule": "no further detector changes, from the Stage 5 questions or from this review",
+          "known_limitations": [
+            "chunk boundaries: a chunk starting with the end of one subsection gets the next subsection's heading (overlap)",
+            "table notes and values read as numbered headings (e.g. '6 Compulsory modules plus 2 electives', '3 Years (Visiting)')",
+            "faculty names in front-matter lists read as part titles",
+            "module code and title on separate lines not recognised (e.g. BMS 116)",
+            "a 'sub' heading (Level/Semester) found later in a chunk is combined with the section governing its start",
+            "some programme titles truncated when the wrapped line is not joined",
+            "a programme table can inherit the previous programme's module heading (seen on C5's table chunk)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S6-5",
+      "date": "2026-10-08",
+      "status": "completed - awaiting owner review",
+      "what": "Ambiguous course codes: a code -> titles map built from the yearbook text (src/ambiguity.py); codes with more than one distinct title are flagged and reported with their pages. Metadata only: retrieval and ranking unchanged.",
+      "hypothesis": "Codes like SEMA204 can be detected from the corpus so Stage 7 can name every meaning instead of picking one.",
+      "development": {
+        "codes_with_titles": 5509,
+        "flagged": 246,
+        "dev_code_questions_flagged": [
+          "E3",
+          "C10"
+        ],
+        "E3": "SEMA204 flagged; both meanings ('Real Analysis' p.556, 'Introduction to Numerical Methods' pp.571/573) are in variant B's top 5",
+        "C10": "BM135 flagged; 'Commercial Law' (14 places) and 'Business Law I' (Sci p.432 programme table) - checked, genuine in the corpus"
+      },
+      "precision": {
+        "v1_seed66": "about 10/20 genuine (same-module title variants counted as ambiguous)",
+        "v2_seed68": "16/20 genuine (fresh sample after the title-matching fix)",
+        "recall": "not measured"
+      },
+      "title_matching_change": "v1 -> v2 after the seed-66 sample: compare titles by shared words (>=75% of the shorter title, any order), drop bracketed notes and titles that are lists of other codes; measured again on a fresh sample (seed 68). Not tuned on Stage 5 questions.",
+      "ambiguity_py_sha256": "c37b74f6492249914d71d3cecb2dee0f7e60cea117ecdbc11abfd33a23dd5c82",
+      "stage7_requirement": "eval/stage6/stage7_requirements.md (R1)",
+      "retrieval_changed": false,
+      "recommendation": "Accept as metadata for Stage 7; no ranking change.",
+      "decision": null
+    }
+  ]
+}

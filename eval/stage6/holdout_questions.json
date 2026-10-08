@@ -1,0 +1,335 @@
+{
+ "status": "FROZEN - approved by project owner 2026-10-07; do not edit; not to be run until S6-6",
+ "frozen_at": "2026-10-07",
+ "baseline_hashes_sha256": "c9c2e4f4700980dae0367d8b386b7a49ca4f474cef7298956e17b9ddd0815ccc",
+ "selection": {
+  "script": "eval/stage6/sample_holdout.py (seed 20261009)",
+  "course_codes": "Stage 5 procedure unchanged: random.Random(20261009).sample of 12 codes per yearbook from module-description chunks (title + 'This/The module/course ...'), excluding Stage 4 codes, all 24 Stage 5 sampled codes (including spares) and codes whose description titles differ. First 5 per book -> exact code (interleaved Hum/Sci as E1..E10), next 5 -> code in context (Hum -> C1..C5, Sci -> C6..C10), 2 spares per book (unused: MHRM745, MAEHD504, GS201, GS212)",
+  "question_forms": "Exact-code wording reuses the Stage 5 E1..E10 templates in the same order. Code-in-context questions reuse the Stage 5 C1..C10 templates in the same order, so table-answer questions sit in the same positions as Stage 5 (C2, C5, C6, C9). Stage 5 did not record this position rule; it is fixed here before any retrieval run",
+  "natural_language_topics": "Stage 5 procedure unchanged: random.Random(20261009).sample from the 142 numbered section headings on pages <= 200 (Stage 4 topics excluded by the Stage 5 regex; the 10 Stage 5 topics excluded), taken in sample order, skipping (a) department/faculty names and learning-outcome bullets, (b) more than 2 postgraduate-research (MPhil/PhD) topics, (c) headings with no substantive section text. Skipped: #9 'Department of Crop Production and Horticulture' (rule a). Used: sample positions 1-8, 10, 11",
+  "out_of_scope": "Five questions in the Stage 5 style (general knowledge / campus life not covered by the yearbooks), each checked by plain text search",
+  "answer_pages_found_by": "plain text search of the chunk text for each section's or code's distinctive wording - no retriever used"
+ },
+ "grading": "2 = chunk alone is sufficient for an LLM to answer correctly; 1 = relevant but insufficient; 0 = irrelevant",
+ "questions": [
+  {
+   "id": "H-N1",
+   "category": "natural_language",
+   "question": "When can a PhD or MPhil student apply for full registration?",
+   "sufficient": "At the end of the provisional registration period, provided the candidate has successfully presented their final supervised proposal at a scheduled Faculty, School or Institute Seminar Series (otherwise extension or termination may be recommended)",
+   "pages": [
+    "Hum 150",
+    "Sci 152"
+   ]
+  },
+  {
+   "id": "H-N2",
+   "category": "natural_language",
+   "question": "How early must I submit my master's dissertation proposal for approval?",
+   "sufficient": "To the appropriate department not less than six months before the completion of the dissertation; once approved it may not be changed without Senate permission",
+   "pages": [
+    "Hum 144",
+    "Sci 146"
+   ]
+  },
+  {
+   "id": "H-N3",
+   "category": "natural_language",
+   "question": "What do I need to do to be allowed to sit the exam for a module?",
+   "sufficient": "Attend all lectures, tutorials, seminars and practical work and do the approved activities/assignments, and meet the department's (Senate-approved) requirements for the module; otherwise the student may not take that module's examination",
+   "pages": [
+    "Hum 122",
+    "Hum 144",
+    "Sci 145"
+   ]
+  },
+  {
+   "id": "H-N4",
+   "category": "natural_language",
+   "question": "Can the university refuse to admit someone because of their religion or race?",
+   "sufficient": "No test of religious or political belief, race, ethnic origin, nationality or gender may be imposed for admission as staff or student or to hold office; the University may still give preference to citizens or residents of Zimbabwe",
+   "pages": [
+    "Hum 15",
+    "Sci 15"
+   ]
+  },
+  {
+   "id": "H-N5",
+   "category": "natural_language",
+   "question": "What is included in a lecturer's annual performance report?",
+   "sufficient": "An assessment of the member's teaching, research, innovation and industrialisation (items 7.4 and 7.5), with an additional section for innovation, consultancy, creative work and enterprise development; placed in the personal file by the Head/Chairperson of Department",
+   "pages": [
+    "Hum 94"
+   ]
+  },
+  {
+   "id": "H-N6",
+   "category": "natural_language",
+   "question": "Who sits on the university's Finance Committee?",
+   "sufficient": "Every Pro-Vice-Chancellor; 3 Council members who are not staff (one is Chairperson); 2 persons appointed by Senate; the Bursar (secretary); the Registrar; a representative of the deans appointed by Council",
+   "pages": [
+    "Hum 25",
+    "Sci 25"
+   ]
+  },
+  {
+   "id": "H-N7",
+   "category": "natural_language",
+   "question": "What is work-related learning?",
+   "sufficient": "A prescribed period of hands-on practical experience in a relevant industrial, commercial/professional or community setting (Hum 122), or supervised work-related learning of normally at least ten months during the third level (Hum 136)",
+   "pages": [
+    "Hum 122",
+    "Hum 136"
+   ]
+  },
+  {
+   "id": "H-N8",
+   "category": "natural_language",
+   "question": "How is an honours degree programme structured?",
+   "sufficient": "The main structural elements: one or more major modules studied over at least six or ten semesters, normally a period of work-related learning in the third level, modules studied intensively and progressively (structure prescribed in Special Faculty Regulations); later elements (project/dissertation, focused module combinations) alone are grade 1",
+   "pages": [
+    "Hum 125"
+   ]
+  },
+  {
+   "id": "H-N9",
+   "category": "natural_language",
+   "question": "When does a Council member lose their seat?",
+   "sufficient": "A member vacates office (a) after resigning with the required notice, (b) on starting a prison sentence of 6 months or more without the option of a fine, (c) if disqualified under section 12(a)/(b), (d) if absent without permission from three consecutive Council meetings. Grade 2 for a chunk with at least three of the four grounds; fewer is grade 1",
+   "pages": [
+    "Hum 18",
+    "Sci 18"
+   ],
+   "note": "answer split across chunks (Hum 18 chunk has (a)-(b); Sci 18 chunk has (a)-(c))"
+  },
+  {
+   "id": "H-N10",
+   "category": "natural_language",
+   "question": "I'm an older applicant without the normal entry qualifications. What do I need to get into a bachelor's degree?",
+   "sufficient": "Mature Entry: at least 25 (males) / 23 (females) on the first day of the academic year and not eligible under Normal or Special Entry; at least five approved O Levels including English Language and Mathematics (where required) or equivalents; demonstrated suitability through attainments/work experience. Programme-specific mature-entry rules (e.g. Hum 190) are grade 1",
+   "pages": [
+    "Hum 129"
+   ]
+  },
+  {
+   "id": "H-E1",
+   "category": "exact_code",
+   "question": "What is MLMD 111 about?",
+   "sufficient": "Description of MLMD111 Advanced Guidance and Counselling for Educational Managers",
+   "pages": [
+    "Hum 461",
+    "Hum 465"
+   ]
+  },
+  {
+   "id": "H-E2",
+   "category": "exact_code",
+   "question": "Describe HMECH113",
+   "sufficient": "Description of HMECH113 Engineering Physics",
+   "pages": [
+    "Sci 664"
+   ]
+  },
+  {
+   "id": "H-E3",
+   "category": "exact_code",
+   "question": "SEBI 203",
+   "sufficient": "Description of SEBI203 Plant Morphology, Physiology and Productivity",
+   "pages": [
+    "Hum 537",
+    "Hum 538",
+    "Hum 552"
+   ]
+  },
+  {
+   "id": "H-E4",
+   "category": "exact_code",
+   "question": "what is mof736",
+   "sufficient": "Description of MOF736 Optical Engineering",
+   "pages": [
+    "Sci 1092"
+   ]
+  },
+  {
+   "id": "H-E5",
+   "category": "exact_code",
+   "question": "Tell me about the module DPH211",
+   "sufficient": "Description of DPH211 Famines and Food Security",
+   "pages": [
+    "Hum 193"
+   ]
+  },
+  {
+   "id": "H-E6",
+   "category": "exact_code",
+   "question": "What is MSE 112 about?",
+   "sufficient": "Description of MSE112 Software Development Methodologies",
+   "pages": [
+    "Sci 962"
+   ]
+  },
+  {
+   "id": "H-E7",
+   "category": "exact_code",
+   "question": "Describe SOC 401",
+   "sufficient": "Description of SOC401 Race, Class and Identities",
+   "pages": [
+    "Hum 698"
+   ]
+  },
+  {
+   "id": "H-E8",
+   "category": "exact_code",
+   "question": "MHORT711",
+   "sufficient": "Description of MHORT711 Viticulture and Oenology",
+   "pages": [
+    "Sci 274"
+   ]
+  },
+  {
+   "id": "H-E9",
+   "category": "exact_code",
+   "question": "what is indso 413",
+   "sufficient": "Description of INDSO413 Economy, Society and Governance",
+   "pages": [
+    "Hum 730"
+   ]
+  },
+  {
+   "id": "H-E10",
+   "category": "exact_code",
+   "question": "Tell me about the module FDB 206",
+   "sufficient": "Description of FDB206 Programming in Finance and Banking",
+   "pages": [
+    "Sci 408"
+   ]
+  },
+  {
+   "id": "H-C1",
+   "category": "code_in_context",
+   "question": "I'm a first-year education student thinking of taking BSH 109. What topics does it cover?",
+   "sufficient": "Description of BSH109 Assessment and Evaluation Techniques",
+   "pages": [
+    "Hum 421"
+   ]
+  },
+  {
+   "id": "H-C2",
+   "category": "code_in_context",
+   "question": "How many credits is HISH232 worth, and which semester is it taught in?",
+   "sufficient": "Programme table: 12 credits, Level 2 Semester 1",
+   "pages": [
+    "Hum 213",
+    "Hum 232"
+   ],
+   "answer_type": "table"
+  },
+  {
+   "id": "H-C3",
+   "category": "code_in_context",
+   "question": "My lecturer recommended BAEH444 for communication students. What will I learn in it?",
+   "sufficient": "Description of BAEH444 Globalisation and International Communication",
+   "pages": [
+    "Hum 250"
+   ]
+  },
+  {
+   "id": "H-C4",
+   "category": "code_in_context",
+   "question": "What kind of project management techniques does DPCR635 cover?",
+   "sufficient": "Description of DPCR635 Project Management",
+   "pages": [
+    "Hum 880"
+   ]
+  },
+  {
+   "id": "H-C5",
+   "category": "code_in_context",
+   "question": "How many credits do I get for passing MLMD 106?",
+   "sufficient": "Programme table listing MLMD106 Policy and Legal Issues in Education with 18 credits",
+   "pages": [
+    "Hum 463"
+   ],
+   "answer_type": "table"
+  },
+  {
+   "id": "H-C6",
+   "category": "code_in_context",
+   "question": "In which level and semester is BHC234 normally taken?",
+   "sufficient": "Programme table: Level 2 Semester 1. Grade 2 only for a chunk showing BHC234 under its 'Level 2 Semester 1' heading; the row without that heading is grade 1",
+   "pages": [
+    "Sci 549",
+    "Sci 550"
+   ],
+   "answer_type": "table",
+   "note": "answer split across chunks: the 'Level 2 Semester 1' heading ends one chunk (p549) and the BHC234 row starts the next (p550), so no chunk may be sufficient on its own"
+  },
+  {
+   "id": "H-C7",
+   "category": "code_in_context",
+   "question": "I'm studying water and sanitation. What does WST 201 teach about health?",
+   "sufficient": "Description of WST201 Health and Epidemiology",
+   "pages": [
+    "Sci 340"
+   ]
+  },
+  {
+   "id": "H-C8",
+   "category": "code_in_context",
+   "question": "Is MAIDA706 about designing databases for socio-economic data? What does it cover?",
+   "sufficient": "Description of MAIDA706 Socio-economic Data Base Systems Design",
+   "pages": [
+    "Sci 210"
+   ]
+  },
+  {
+   "id": "H-C9",
+   "category": "code_in_context",
+   "question": "Which other modules are taken in the same semester as MHORT709?",
+   "sufficient": "Programme table, Level 1 Semester 2: MHORT706 Advanced Crop Protection, MHORT707 Postharvest Physiology, Processing and Value Addition; optionals (choose 2): MHORT708 Horticulture Biotechnology, MHORT710 Genetics, Seed Production and Breeding of Horticultural Crops, MHORT711 Viticulture and Oenology",
+   "pages": [
+    "Sci 272"
+   ],
+   "answer_type": "table"
+  },
+  {
+   "id": "H-C10",
+   "category": "code_in_context",
+   "question": "As a first-year animal breeding student I have to take MABB705. What is it about?",
+   "sufficient": "Description of MABB705 Population and Quantitative Genetics",
+   "pages": [
+    "Sci 320"
+   ]
+  },
+  {
+   "id": "H-O1",
+   "category": "out_of_scope",
+   "question": "Who is the current captain of the Zimbabwe national cricket team?",
+   "check": "'cricket' absent"
+  },
+  {
+   "id": "H-O2",
+   "category": "out_of_scope",
+   "question": "What will the weather be like in Gweru tomorrow?",
+   "check": "'weather' only in module/programme text (meteorology, agro-climatology); no forecasts"
+  },
+  {
+   "id": "H-O3",
+   "category": "out_of_scope",
+   "question": "How do I reset my Google account password?",
+   "check": "'Google' only as a teaching platform or technology in module text; 'password' only in security module descriptions (Sci 901, 936, 939)"
+  },
+  {
+   "id": "H-O4",
+   "category": "out_of_scope",
+   "question": "What is today's exchange rate between the US dollar and the ZiG?",
+   "check": "'ZiG' absent; 'exchange rate' only in economics module text (Hum 812, Sci 459, 463)"
+  },
+  {
+   "id": "H-O5",
+   "category": "out_of_scope",
+   "question": "Which restaurants near campus deliver pizza?",
+   "check": "'pizza' absent; 'restaurant' only in a hospitality module (Sci 593)"
+  }
+ ]
+}

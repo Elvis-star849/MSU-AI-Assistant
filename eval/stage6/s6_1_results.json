@@ -1,0 +1,414 @@
+{
+ "summary": {
+  "baseline": {
+   "natural_language": {
+    "top1": 6,
+    "top3": 9,
+    "top5": 9,
+    "mrr10": 0.733
+   },
+   "exact_code": {
+    "top1": 3,
+    "top3": 10,
+    "top5": 10,
+    "mrr10": 0.633
+   },
+   "code_in_context": {
+    "top1": 6,
+    "top3": 9,
+    "top5": 9,
+    "mrr10": 0.76
+   },
+   "overall": {
+    "top1": 15,
+    "top3": 28,
+    "top5": 28,
+    "mrr10": 0.709
+   }
+  },
+  "T1": {
+   "natural_language": {
+    "top1": 6,
+    "top3": 9,
+    "top5": 9,
+    "mrr10": 0.733
+   },
+   "exact_code": {
+    "top1": 6,
+    "top3": 10,
+    "top5": 10,
+    "mrr10": 0.783
+   },
+   "code_in_context": {
+    "top1": 6,
+    "top3": 9,
+    "top5": 9,
+    "mrr10": 0.76
+   },
+   "overall": {
+    "top1": 18,
+    "top3": 28,
+    "top5": 28,
+    "mrr10": 0.759
+   }
+  },
+  "T2": {
+   "natural_language": {
+    "top1": 6,
+    "top3": 9,
+    "top5": 9,
+    "mrr10": 0.733
+   },
+   "exact_code": {
+    "top1": 2,
+    "top3": 10,
+    "top5": 10,
+    "mrr10": 0.583
+   },
+   "code_in_context": {
+    "top1": 6,
+    "top3": 9,
+    "top5": 9,
+    "mrr10": 0.76
+   },
+   "overall": {
+    "top1": 14,
+    "top3": 28,
+    "top5": 28,
+    "mrr10": 0.692
+   }
+  }
+ },
+ "per_question": [
+  {
+   "id": "N1",
+   "category": "natural_language",
+   "table_answer": false,
+   "route": "vector",
+   "baseline": 2,
+   "T1": 2,
+   "T1_change": "unchanged",
+   "T2": 2,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "N2",
+   "category": "natural_language",
+   "table_answer": false,
+   "route": "vector",
+   "baseline": 1,
+   "T1": 1,
+   "T1_change": "unchanged",
+   "T2": 1,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "N3",
+   "category": "natural_language",
+   "table_answer": false,
+   "route": "vector",
+   "baseline": 1,
+   "T1": 1,
+   "T1_change": "unchanged",
+   "T2": 1,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "N4",
+   "category": "natural_language",
+   "table_answer": false,
+   "route": "vector",
+   "baseline": null,
+   "T1": null,
+   "T1_change": "unchanged",
+   "T2": null,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "N5",
+   "category": "natural_language",
+   "table_answer": false,
+   "route": "vector",
+   "baseline": 1,
+   "T1": 1,
+   "T1_change": "unchanged",
+   "T2": 1,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "N6",
+   "category": "natural_language",
+   "table_answer": false,
+   "route": "vector",
+   "baseline": 1,
+   "T1": 1,
+   "T1_change": "unchanged",
+   "T2": 1,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "N7",
+   "category": "natural_language",
+   "table_answer": false,
+   "route": "vector",
+   "baseline": 3,
+   "T1": 3,
+   "T1_change": "unchanged",
+   "T2": 3,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "N8",
+   "category": "natural_language",
+   "table_answer": false,
+   "route": "vector",
+   "baseline": 1,
+   "T1": 1,
+   "T1_change": "unchanged",
+   "T2": 1,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "N9",
+   "category": "natural_language",
+   "table_answer": false,
+   "route": "vector",
+   "baseline": 1,
+   "T1": 1,
+   "T1_change": "unchanged",
+   "T2": 1,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "N10",
+   "category": "natural_language",
+   "table_answer": false,
+   "route": "vector",
+   "baseline": 2,
+   "T1": 2,
+   "T1_change": "unchanged",
+   "T2": 2,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "E1",
+   "category": "exact_code",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 2,
+   "T1": 1,
+   "T1_change": "improved",
+   "T2": 2,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "E2",
+   "category": "exact_code",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 2,
+   "T1": 2,
+   "T1_change": "unchanged",
+   "T2": 2,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "E3",
+   "category": "exact_code",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 3,
+   "T1": 3,
+   "T1_change": "unchanged",
+   "T2": 3,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "E4",
+   "category": "exact_code",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 2,
+   "T1": 2,
+   "T1_change": "unchanged",
+   "T2": 2,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "E5",
+   "category": "exact_code",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 1,
+   "T1": 1,
+   "T1_change": "unchanged",
+   "T2": 1,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "E6",
+   "category": "exact_code",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 2,
+   "T1": 1,
+   "T1_change": "improved",
+   "T2": 2,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "E7",
+   "category": "exact_code",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 2,
+   "T1": 1,
+   "T1_change": "improved",
+   "T2": 2,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "E8",
+   "category": "exact_code",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 1,
+   "T1": 2,
+   "T1_change": "worse",
+   "T2": 2,
+   "T2_change": "worse"
+  },
+  {
+   "id": "E9",
+   "category": "exact_code",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 1,
+   "T1": 1,
+   "T1_change": "unchanged",
+   "T2": 1,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "E10",
+   "category": "exact_code",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 2,
+   "T1": 1,
+   "T1_change": "improved",
+   "T2": 2,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "C1",
+   "category": "code_in_context",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 2,
+   "T1": 2,
+   "T1_change": "unchanged",
+   "T2": 2,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "C2",
+   "category": "code_in_context",
+   "table_answer": true,
+   "route": "code_hybrid",
+   "baseline": 1,
+   "T1": 1,
+   "T1_change": "unchanged",
+   "T2": 1,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "C3",
+   "category": "code_in_context",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 2,
+   "T1": 1,
+   "T1_change": "improved",
+   "T2": 2,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "C4",
+   "category": "code_in_context",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 1,
+   "T1": 1,
+   "T1_change": "unchanged",
+   "T2": 1,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "C5",
+   "category": "code_in_context",
+   "table_answer": true,
+   "route": "code_hybrid",
+   "baseline": 1,
+   "T1": 1,
+   "T1_change": "unchanged",
+   "T2": 1,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "C6",
+   "category": "code_in_context",
+   "table_answer": true,
+   "route": "code_hybrid",
+   "baseline": 1,
+   "T1": 1,
+   "T1_change": "unchanged",
+   "T2": 1,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "C7",
+   "category": "code_in_context",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 2,
+   "T1": 2,
+   "T1_change": "unchanged",
+   "T2": 2,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "C8",
+   "category": "code_in_context",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 1,
+   "T1": 1,
+   "T1_change": "unchanged",
+   "T2": 1,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "C9",
+   "category": "code_in_context",
+   "table_answer": true,
+   "route": "code_hybrid",
+   "baseline": 1,
+   "T1": 2,
+   "T1_change": "worse",
+   "T2": 1,
+   "T2_change": "unchanged"
+  },
+  {
+   "id": "C10",
+   "category": "code_in_context",
+   "table_answer": false,
+   "route": "code_hybrid",
+   "baseline": 10,
+   "T1": 10,
+   "T1_change": "unchanged",
+   "T2": 10,
+   "T2_change": "unchanged"
+  }
+ ]
+}

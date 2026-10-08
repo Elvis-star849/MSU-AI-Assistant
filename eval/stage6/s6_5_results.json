@@ -1,0 +1,204 @@
+{
+ "codes_with_titles": 5509,
+ "ambiguous_codes": 246,
+ "development": {
+  "E1": {
+   "codes": [
+    "dsc603"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "E2": {
+   "codes": [
+    "bm134"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "E3": {
+   "codes": [
+    "sema204"
+   ],
+   "flagged": [
+    "sema204"
+   ],
+   "note_top5": [
+    {
+     "code": "SEMA204",
+     "titles": [
+      {
+       "title": "Real Analysis",
+       "pages": [
+        "MSU Humanities Yearbook p. 556"
+       ],
+       "in_results": true
+      },
+      {
+       "title": "Introduction to Numerical Methods",
+       "pages": [
+        "MSU Humanities Yearbook p. 571",
+        "MSU Humanities Yearbook p. 573"
+       ],
+       "in_results": true
+      }
+     ]
+    }
+   ]
+  },
+  "E4": {
+   "codes": [
+    "ham105"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "E5": {
+   "codes": [
+    "seps101"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "E6": {
+   "codes": [
+    "mscm703"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "E7": {
+   "codes": [
+    "hphs201"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "E8": {
+   "codes": [
+    "mim732"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "E9": {
+   "codes": [
+    "baeh141"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "E10": {
+   "codes": [
+    "cit135"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "C1": {
+   "codes": [
+    "halcs211"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "C2": {
+   "codes": [
+    "mecdp704"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "C3": {
+   "codes": [
+    "mehd733"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "C4": {
+   "codes": [
+    "msech704"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "C5": {
+   "codes": [
+    "sema102"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "C6": {
+   "codes": [
+    "hmete103"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "C7": {
+   "codes": [
+    "hns124"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "C8": {
+   "codes": [
+    "mip845"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "C9": {
+   "codes": [
+    "mfa700"
+   ],
+   "flagged": [],
+   "note_top5": []
+  },
+  "C10": {
+   "codes": [
+    "bm135"
+   ],
+   "flagged": [
+    "bm135"
+   ],
+   "note_top5": [
+    {
+     "code": "BM135",
+     "titles": [
+      {
+       "title": "Commercial Law",
+       "pages": [
+        "MSU Sciences Yearbook Vol. 2 p. 385",
+        "MSU Sciences Yearbook Vol. 2 p. 385",
+        "MSU Sciences Yearbook Vol. 2 p. 388",
+        "MSU Sciences Yearbook Vol. 2 p. 396",
+        "MSU Sciences Yearbook Vol. 2 p. 398",
+        "MSU Sciences Yearbook Vol. 2 p. 434",
+        "MSU Sciences Yearbook Vol. 2 p. 440",
+        "MSU Sciences Yearbook Vol. 2 p. 442",
+        "MSU Sciences Yearbook Vol. 2 p. 449",
+        "MSU Sciences Yearbook Vol. 2 p. 451",
+        "MSU Sciences Yearbook Vol. 2 p. 451",
+        "MSU Sciences Yearbook Vol. 2 p. 541",
+        "MSU Sciences Yearbook Vol. 2 p. 542",
+        "MSU Sciences Yearbook Vol. 2 p. 568"
+       ],
+       "in_results": true
+      },
+      {
+       "title": "Business Law I",
+       "pages": [
+        "MSU Sciences Yearbook Vol. 2 p. 432"
+       ],
+       "in_results": false
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

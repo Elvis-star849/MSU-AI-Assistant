@@ -1,0 +1,7806 @@
+{
+ "pool": 10,
+ "runs": {
+  "accepted": {
+   "N1": [
+    {
+     "rank": 1,
+     "chunk_id": 5710,
+     "page": 32,
+     "retrieval_rank": 2,
+     "rerank_score": 6.532304763793945,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 298,
+     "page": 81,
+     "retrieval_rank": 1,
+     "rerank_score": 5.472625732421875,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 111,
+     "page": 31,
+     "retrieval_rank": 3,
+     "rerank_score": 5.045970916748047,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 299,
+     "page": 82,
+     "retrieval_rank": 7,
+     "rerank_score": 3.4923934936523438,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 112,
+     "page": 32,
+     "retrieval_rank": 10,
+     "rerank_score": 3.0548243522644043,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5709,
+     "page": 31,
+     "retrieval_rank": 4,
+     "rerank_score": 2.3604042530059814,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 305,
+     "page": 83,
+     "retrieval_rank": 6,
+     "rerank_score": 1.99989914894104,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 371,
+     "page": 95,
+     "retrieval_rank": 5,
+     "rerank_score": 0.3547308146953583,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 291,
+     "page": 80,
+     "retrieval_rank": 9,
+     "rerank_score": -0.4443865418434143,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 289,
+     "page": 79,
+     "retrieval_rank": 8,
+     "rerank_score": -0.9055547714233398,
+     "route": "vector"
+    }
+   ],
+   "N2": [
+    {
+     "rank": 1,
+     "chunk_id": 731,
+     "page": 169,
+     "retrieval_rank": 1,
+     "rerank_score": 4.078023910522461,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 730,
+     "page": 169,
+     "retrieval_rank": 8,
+     "rerank_score": 2.2991228103637695,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 747,
+     "page": 172,
+     "retrieval_rank": 9,
+     "rerank_score": 0.9790791273117065,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 697,
+     "page": 164,
+     "retrieval_rank": 5,
+     "rerank_score": 0.9374709725379944,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 727,
+     "page": 169,
+     "retrieval_rank": 2,
+     "rerank_score": 0.6891387701034546,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1205,
+     "page": 235,
+     "retrieval_rank": 6,
+     "rerank_score": 0.4224439263343811,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 742,
+     "page": 171,
+     "retrieval_rank": 4,
+     "rerank_score": 0.3587782382965088,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 729,
+     "page": 169,
+     "retrieval_rank": 10,
+     "rerank_score": 0.023835577070713043,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 734,
+     "page": 170,
+     "retrieval_rank": 3,
+     "rerank_score": -0.1983988732099533,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 733,
+     "page": 170,
+     "retrieval_rank": 7,
+     "rerank_score": -2.938169002532959,
+     "route": "vector"
+    }
+   ],
+   "N3": [
+    {
+     "rank": 1,
+     "chunk_id": 5652,
+     "page": 19,
+     "retrieval_rank": 1,
+     "rerank_score": 7.173834323883057,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 56,
+     "page": 18,
+     "retrieval_rank": 3,
+     "rerank_score": 5.380955219268799,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 12,
+     "page": 8,
+     "retrieval_rank": 8,
+     "rerank_score": 0.5199300050735474,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 107,
+     "page": 30,
+     "retrieval_rank": 7,
+     "rerank_score": 0.11569583415985107,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 106,
+     "page": 30,
+     "retrieval_rank": 4,
+     "rerank_score": -0.3125760555267334,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5713,
+     "page": 32,
+     "retrieval_rank": 6,
+     "rerank_score": -0.4276178181171417,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 13,
+     "page": 8,
+     "retrieval_rank": 10,
+     "rerank_score": -0.5292590856552124,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 105,
+     "page": 29,
+     "retrieval_rank": 2,
+     "rerank_score": -1.1395299434661865,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5703,
+     "page": 30,
+     "retrieval_rank": 5,
+     "rerank_score": -2.12481689453125,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 302,
+     "page": 83,
+     "retrieval_rank": 9,
+     "rerank_score": -2.5079736709594727,
+     "route": "vector"
+    }
+   ],
+   "N4": [
+    {
+     "rank": 1,
+     "chunk_id": 19,
+     "page": 10,
+     "retrieval_rank": 7,
+     "rerank_score": 6.463515281677246,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10723,
+     "page": 1129,
+     "retrieval_rank": 6,
+     "rerank_score": 5.255410194396973,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5737,
+     "page": 75,
+     "retrieval_rank": 4,
+     "rerank_score": 4.903302192687988,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 257,
+     "page": 74,
+     "retrieval_rank": 5,
+     "rerank_score": 4.903302192687988,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 393,
+     "page": 99,
+     "retrieval_rank": 8,
+     "rerank_score": 4.858097076416016,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5747,
+     "page": 76,
+     "retrieval_rank": 9,
+     "rerank_score": 4.267194747924805,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 322,
+     "page": 87,
+     "retrieval_rank": 10,
+     "rerank_score": 3.813152313232422,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5604,
+     "page": 929,
+     "retrieval_rank": 2,
+     "rerank_score": 3.5739409923553467,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 10724,
+     "page": 1129,
+     "retrieval_rank": 3,
+     "rerank_score": 3.5739409923553467,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 596,
+     "page": 141,
+     "retrieval_rank": 1,
+     "rerank_score": 1.9211796522140503,
+     "route": "vector"
+    }
+   ],
+   "N5": [
+    {
+     "rank": 1,
+     "chunk_id": 640,
+     "page": 151,
+     "retrieval_rank": 2,
+     "rerank_score": 3.6925129890441895,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5826,
+     "page": 154,
+     "retrieval_rank": 1,
+     "rerank_score": 3.5388548374176025,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5827,
+     "page": 154,
+     "retrieval_rank": 3,
+     "rerank_score": 3.0658953189849854,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 641,
+     "page": 152,
+     "retrieval_rank": 4,
+     "rerank_score": 3.0658953189849854,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5819,
+     "page": 152,
+     "retrieval_rank": 6,
+     "rerank_score": 2.7842955589294434,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 632,
+     "page": 150,
+     "retrieval_rank": 8,
+     "rerank_score": 0.37417832016944885,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5829,
+     "page": 154,
+     "retrieval_rank": 9,
+     "rerank_score": -0.27111202478408813,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5813,
+     "page": 151,
+     "retrieval_rank": 5,
+     "rerank_score": -0.744192361831665,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 626,
+     "page": 149,
+     "retrieval_rank": 7,
+     "rerank_score": -0.744192361831665,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5816,
+     "page": 152,
+     "retrieval_rank": 10,
+     "rerank_score": -2.061920166015625,
+     "route": "vector"
+    }
+   ],
+   "N6": [
+    {
+     "rank": 1,
+     "chunk_id": 443,
+     "page": 109,
+     "retrieval_rank": 2,
+     "rerank_score": -5.109103202819824,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 438,
+     "page": 108,
+     "retrieval_rank": 1,
+     "rerank_score": -5.463626861572266,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 434,
+     "page": 107,
+     "retrieval_rank": 6,
+     "rerank_score": -7.300771713256836,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 442,
+     "page": 109,
+     "retrieval_rank": 9,
+     "rerank_score": -8.661018371582031,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 444,
+     "page": 109,
+     "retrieval_rank": 5,
+     "rerank_score": -8.991231918334961,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 439,
+     "page": 108,
+     "retrieval_rank": 8,
+     "rerank_score": -9.854101181030273,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5610,
+     "page": 930,
+     "retrieval_rank": 3,
+     "rerank_score": -10.319438934326172,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10729,
+     "page": 1130,
+     "retrieval_rank": 4,
+     "rerank_score": -10.364346504211426,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5611,
+     "page": 930,
+     "retrieval_rank": 7,
+     "rerank_score": -10.852120399475098,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 556,
+     "page": 134,
+     "retrieval_rank": 10,
+     "rerank_score": -11.216426849365234,
+     "route": "vector"
+    }
+   ],
+   "N7": [
+    {
+     "rank": 1,
+     "chunk_id": 5816,
+     "page": 152,
+     "retrieval_rank": 1,
+     "rerank_score": 5.398465156555176,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5829,
+     "page": 154,
+     "retrieval_rank": 2,
+     "rerank_score": 5.081716537475586,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 643,
+     "page": 152,
+     "retrieval_rank": 4,
+     "rerank_score": 5.016053199768066,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 628,
+     "page": 149,
+     "retrieval_rank": 3,
+     "rerank_score": 4.537817001342773,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 641,
+     "page": 152,
+     "retrieval_rank": 9,
+     "rerank_score": 3.420535087585449,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5819,
+     "page": 152,
+     "retrieval_rank": 7,
+     "rerank_score": 1.4399582147598267,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 653,
+     "page": 154,
+     "retrieval_rank": 6,
+     "rerank_score": 1.3418753147125244,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 4656,
+     "page": 781,
+     "retrieval_rank": 5,
+     "rerank_score": 0.14894089102745056,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 4057,
+     "page": 692,
+     "retrieval_rank": 8,
+     "rerank_score": -2.624582290649414,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 866,
+     "page": 190,
+     "retrieval_rank": 10,
+     "rerank_score": -2.9762463569641113,
+     "route": "vector"
+    }
+   ],
+   "N8": [
+    {
+     "rank": 1,
+     "chunk_id": 421,
+     "page": 105,
+     "retrieval_rank": 1,
+     "rerank_score": 6.7230730056762695,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 630,
+     "page": 150,
+     "retrieval_rank": 3,
+     "rerank_score": 0.9508817791938782,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 529,
+     "page": 130,
+     "retrieval_rank": 2,
+     "rerank_score": 0.22238951921463013,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5817,
+     "page": 152,
+     "retrieval_rank": 4,
+     "rerank_score": -0.33639684319496155,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 7723,
+     "page": 520,
+     "retrieval_rank": 6,
+     "rerank_score": -1.2563689947128296,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 532,
+     "page": 130,
+     "retrieval_rank": 10,
+     "rerank_score": -2.0006308555603027,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1220,
+     "page": 237,
+     "retrieval_rank": 5,
+     "rerank_score": -4.038104057312012,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 6950,
+     "page": 379,
+     "retrieval_rank": 9,
+     "rerank_score": -4.924925804138184,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 8253,
+     "page": 622,
+     "retrieval_rank": 8,
+     "rerank_score": -5.398440837860107,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7724,
+     "page": 521,
+     "retrieval_rank": 7,
+     "rerank_score": -7.062554836273193,
+     "route": "vector"
+    }
+   ],
+   "N9": [
+    {
+     "rank": 1,
+     "chunk_id": 664,
+     "page": 156,
+     "retrieval_rank": 2,
+     "rerank_score": 4.605149269104004,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5023,
+     "page": 839,
+     "retrieval_rank": 5,
+     "rerank_score": 4.025485038757324,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5851,
+     "page": 159,
+     "retrieval_rank": 1,
+     "rerank_score": 3.3584187030792236,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5131,
+     "page": 855,
+     "retrieval_rank": 3,
+     "rerank_score": 2.592188596725464,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4066,
+     "page": 694,
+     "retrieval_rank": 4,
+     "rerank_score": 2.2219836711883545,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 4717,
+     "page": 789,
+     "retrieval_rank": 6,
+     "rerank_score": 0.5910266041755676,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 662,
+     "page": 156,
+     "retrieval_rank": 8,
+     "rerank_score": -0.8425559401512146,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5848,
+     "page": 159,
+     "retrieval_rank": 7,
+     "rerank_score": -1.9649107456207275,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5844,
+     "page": 158,
+     "retrieval_rank": 10,
+     "rerank_score": -7.4740118980407715,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 419,
+     "page": 104,
+     "retrieval_rank": 9,
+     "rerank_score": -8.710956573486328,
+     "route": "vector"
+    }
+   ],
+   "N10": [
+    {
+     "rank": 1,
+     "chunk_id": 2364,
+     "page": 424,
+     "retrieval_rank": 2,
+     "rerank_score": 3.3100953102111816,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2329,
+     "page": 418,
+     "retrieval_rank": 3,
+     "rerank_score": 3.2943050861358643,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2293,
+     "page": 413,
+     "retrieval_rank": 6,
+     "rerank_score": 2.930438995361328,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 2085,
+     "page": 378,
+     "retrieval_rank": 7,
+     "rerank_score": 2.9233992099761963,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 2019,
+     "page": 368,
+     "retrieval_rank": 4,
+     "rerank_score": 2.8363797664642334,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 497,
+     "page": 122,
+     "retrieval_rank": 10,
+     "rerank_score": 2.7981979846954346,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 2253,
+     "page": 407,
+     "retrieval_rank": 8,
+     "rerank_score": 2.753589153289795,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 2050,
+     "page": 372,
+     "retrieval_rank": 9,
+     "rerank_score": 2.6736841201782227,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 566,
+     "page": 136,
+     "retrieval_rank": 1,
+     "rerank_score": 1.441237211227417,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 8319,
+     "page": 636,
+     "retrieval_rank": 5,
+     "rerank_score": -0.15779703855514526,
+     "route": "vector"
+    }
+   ],
+   "E1": [
+    {
+     "rank": 1,
+     "chunk_id": 1618,
+     "page": 304,
+     "retrieval_rank": 1,
+     "rerank_score": 6.824729919433594,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1616,
+     "page": 303,
+     "retrieval_rank": 2,
+     "rerank_score": 2.387404441833496,
+     "route": "code_hybrid"
+    }
+   ],
+   "E2": [
+    {
+     "rank": 1,
+     "chunk_id": 7837,
+     "page": 542,
+     "retrieval_rank": 2,
+     "rerank_score": 5.898134231567383,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7832,
+     "page": 541,
+     "retrieval_rank": 1,
+     "rerank_score": 4.264046669006348,
+     "route": "code_hybrid"
+    }
+   ],
+   "E3": [
+    {
+     "rank": 1,
+     "chunk_id": 3190,
+     "page": 556,
+     "retrieval_rank": 1,
+     "rerank_score": 0.2977810502052307,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3300,
+     "page": 573,
+     "retrieval_rank": 3,
+     "rerank_score": 0.2912854850292206,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3282,
+     "page": 571,
+     "retrieval_rank": 2,
+     "rerank_score": -4.278708457946777,
+     "route": "code_hybrid"
+    }
+   ],
+   "E4": [
+    {
+     "rank": 1,
+     "chunk_id": 8084,
+     "page": 590,
+     "retrieval_rank": 2,
+     "rerank_score": 5.80903434753418,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8076,
+     "page": 589,
+     "retrieval_rank": 1,
+     "rerank_score": 1.8076597452163696,
+     "route": "code_hybrid"
+    }
+   ],
+   "E5": [
+    {
+     "rank": 1,
+     "chunk_id": 3314,
+     "page": 576,
+     "retrieval_rank": 1,
+     "rerank_score": 5.564548492431641,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3308,
+     "page": 575,
+     "retrieval_rank": 2,
+     "rerank_score": -1.5547784566879272,
+     "route": "code_hybrid"
+    }
+   ],
+   "E6": [
+    {
+     "rank": 1,
+     "chunk_id": 8053,
+     "page": 584,
+     "retrieval_rank": 1,
+     "rerank_score": 2.27681827545166,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8050,
+     "page": 583,
+     "retrieval_rank": 2,
+     "rerank_score": 1.698025107383728,
+     "route": "code_hybrid"
+    }
+   ],
+   "E7": [
+    {
+     "rank": 1,
+     "chunk_id": 5180,
+     "page": 864,
+     "retrieval_rank": 1,
+     "rerank_score": 6.202322006225586,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5169,
+     "page": 862,
+     "retrieval_rank": 2,
+     "rerank_score": 1.3662035465240479,
+     "route": "code_hybrid"
+    }
+   ],
+   "E8": [
+    {
+     "rank": 1,
+     "chunk_id": 7762,
+     "page": 528,
+     "retrieval_rank": 2,
+     "rerank_score": 0.27608177065849304,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7760,
+     "page": 528,
+     "retrieval_rank": 1,
+     "rerank_score": -3.081501007080078,
+     "route": "code_hybrid"
+    }
+   ],
+   "E9": [
+    {
+     "rank": 1,
+     "chunk_id": 1277,
+     "page": 247,
+     "retrieval_rank": 1,
+     "rerank_score": 7.888100624084473,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1271,
+     "page": 246,
+     "retrieval_rank": 2,
+     "rerank_score": 1.8821215629577637,
+     "route": "code_hybrid"
+    }
+   ],
+   "E10": [
+    {
+     "rank": 1,
+     "chunk_id": 7557,
+     "page": 489,
+     "retrieval_rank": 1,
+     "rerank_score": 1.6823413372039795,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7549,
+     "page": 487,
+     "retrieval_rank": 2,
+     "rerank_score": -4.607760429382324,
+     "route": "code_hybrid"
+    }
+   ],
+   "C1": [
+    {
+     "rank": 1,
+     "chunk_id": 1371,
+     "page": 261,
+     "retrieval_rank": 2,
+     "rerank_score": -1.7649385929107666,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1360,
+     "page": 259,
+     "retrieval_rank": 1,
+     "rerank_score": -1.8227641582489014,
+     "route": "code_hybrid"
+    }
+   ],
+   "C2": [
+    {
+     "rank": 1,
+     "chunk_id": 2409,
+     "page": 431,
+     "retrieval_rank": 1,
+     "rerank_score": 2.529984951019287,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2415,
+     "page": 432,
+     "retrieval_rank": 2,
+     "rerank_score": -4.309562683105469,
+     "route": "code_hybrid"
+    }
+   ],
+   "C3": [
+    {
+     "rank": 1,
+     "chunk_id": 2993,
+     "page": 525,
+     "retrieval_rank": 1,
+     "rerank_score": 4.047335624694824,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2987,
+     "page": 524,
+     "retrieval_rank": 2,
+     "rerank_score": -1.5667593479156494,
+     "route": "code_hybrid"
+    }
+   ],
+   "C4": [
+    {
+     "rank": 1,
+     "chunk_id": 3490,
+     "page": 604,
+     "retrieval_rank": 1,
+     "rerank_score": 7.500905513763428,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3484,
+     "page": 603,
+     "retrieval_rank": 2,
+     "rerank_score": 1.8659709692001343,
+     "route": "code_hybrid"
+    }
+   ],
+   "C5": [
+    {
+     "rank": 1,
+     "chunk_id": 3185,
+     "page": 556,
+     "retrieval_rank": 1,
+     "rerank_score": -4.865674018859863,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3280,
+     "page": 570,
+     "retrieval_rank": 3,
+     "rerank_score": -9.399216651916504,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3237,
+     "page": 564,
+     "retrieval_rank": 2,
+     "rerank_score": -9.551481246948242,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3250,
+     "page": 566,
+     "retrieval_rank": 5,
+     "rerank_score": -9.878608703613281,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 3287,
+     "page": 571,
+     "retrieval_rank": 4,
+     "rerank_score": -10.112525939941406,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3187,
+     "page": 556,
+     "retrieval_rank": 6,
+     "rerank_score": -10.435213088989258,
+     "route": "code_hybrid"
+    }
+   ],
+   "C6": [
+    {
+     "rank": 1,
+     "chunk_id": 8511,
+     "page": 674,
+     "retrieval_rank": 1,
+     "rerank_score": 3.986872434616089,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8560,
+     "page": 684,
+     "retrieval_rank": 2,
+     "rerank_score": 3.137218475341797,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8510,
+     "page": 674,
+     "retrieval_rank": 3,
+     "rerank_score": 2.2612903118133545,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 8518,
+     "page": 676,
+     "retrieval_rank": 6,
+     "rerank_score": -3.176527500152588,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8517,
+     "page": 676,
+     "retrieval_rank": 4,
+     "rerank_score": -3.7413370609283447,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8567,
+     "page": 686,
+     "retrieval_rank": 5,
+     "rerank_score": -4.390223979949951,
+     "route": "code_hybrid"
+    }
+   ],
+   "C7": [
+    {
+     "rank": 1,
+     "chunk_id": 10586,
+     "page": 1105,
+     "retrieval_rank": 1,
+     "rerank_score": 3.812803030014038,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10599,
+     "page": 1108,
+     "retrieval_rank": 2,
+     "rerank_score": 3.6346921920776367,
+     "route": "code_hybrid"
+    }
+   ],
+   "C8": [
+    {
+     "rank": 1,
+     "chunk_id": 10530,
+     "page": 1095,
+     "retrieval_rank": 1,
+     "rerank_score": 5.834718704223633,
+     "route": "code_hybrid"
+    }
+   ],
+   "C9": [
+    {
+     "rank": 1,
+     "chunk_id": 7153,
+     "page": 415,
+     "retrieval_rank": 1,
+     "rerank_score": 1.519399881362915,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7151,
+     "page": 414,
+     "retrieval_rank": 2,
+     "rerank_score": 0.7846699953079224,
+     "route": "code_hybrid"
+    }
+   ],
+   "C10": [
+    {
+     "rank": 1,
+     "chunk_id": 7838,
+     "page": 542,
+     "retrieval_rank": 10,
+     "rerank_score": -0.06836679577827454,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7350,
+     "page": 451,
+     "retrieval_rank": 1,
+     "rerank_score": -2.262138843536377,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 7832,
+     "page": 541,
+     "retrieval_rank": 2,
+     "rerank_score": -2.540200710296631,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 7297,
+     "page": 442,
+     "retrieval_rank": 3,
+     "rerank_score": -3.6266889572143555,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 6981,
+     "page": 385,
+     "retrieval_rank": 5,
+     "rerank_score": -4.596667766571045,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7971,
+     "page": 568,
+     "retrieval_rank": 4,
+     "rerank_score": -4.838947296142578,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7045,
+     "page": 396,
+     "retrieval_rank": 6,
+     "rerank_score": -5.147760391235352,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 6980,
+     "page": 385,
+     "retrieval_rank": 7,
+     "rerank_score": -5.179525375366211,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7246,
+     "page": 434,
+     "retrieval_rank": 9,
+     "rerank_score": -5.353228569030762,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7339,
+     "page": 449,
+     "retrieval_rank": 8,
+     "rerank_score": -5.6471099853515625,
+     "route": "code_hybrid"
+    }
+   ],
+   "O1": [
+    {
+     "rank": 1,
+     "chunk_id": 8087,
+     "page": 591,
+     "retrieval_rank": 2,
+     "rerank_score": -3.4084999561309814,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8167,
+     "page": 606,
+     "retrieval_rank": 5,
+     "rerank_score": -6.167758941650391,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8172,
+     "page": 606,
+     "retrieval_rank": 10,
+     "rerank_score": -7.978796482086182,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 8168,
+     "page": 606,
+     "retrieval_rank": 1,
+     "rerank_score": -8.24498462677002,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 10549,
+     "page": 1099,
+     "retrieval_rank": 8,
+     "rerank_score": -9.404363632202148,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8165,
+     "page": 605,
+     "retrieval_rank": 9,
+     "rerank_score": -10.157159805297852,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 8086,
+     "page": 591,
+     "retrieval_rank": 6,
+     "rerank_score": -10.33717155456543,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 241,
+     "page": 67,
+     "retrieval_rank": 3,
+     "rerank_score": -11.019399642944336,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 10544,
+     "page": 1098,
+     "retrieval_rank": 7,
+     "rerank_score": -11.17123031616211,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 3505,
+     "page": 606,
+     "retrieval_rank": 4,
+     "rerank_score": -11.291601181030273,
+     "route": "vector"
+    }
+   ],
+   "O2": [
+    {
+     "rank": 1,
+     "chunk_id": 257,
+     "page": 74,
+     "retrieval_rank": 1,
+     "rerank_score": -2.2630558013916016,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5737,
+     "page": 75,
+     "retrieval_rank": 2,
+     "rerank_score": -2.2630558013916016,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5633,
+     "page": 15,
+     "retrieval_rank": 3,
+     "rerank_score": -6.633999347686768,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 40,
+     "page": 15,
+     "retrieval_rank": 5,
+     "rerank_score": -6.633999347686768,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4758,
+     "page": 795,
+     "retrieval_rank": 8,
+     "rerank_score": -7.11952543258667,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1041,
+     "page": 215,
+     "retrieval_rank": 9,
+     "rerank_score": -7.719170570373535,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1158,
+     "page": 229,
+     "retrieval_rank": 4,
+     "rerank_score": -8.128326416015625,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 3225,
+     "page": 562,
+     "retrieval_rank": 10,
+     "rerank_score": -9.338030815124512,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 2216,
+     "page": 401,
+     "retrieval_rank": 7,
+     "rerank_score": -9.396504402160645,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 2829,
+     "page": 499,
+     "retrieval_rank": 6,
+     "rerank_score": -9.436763763427734,
+     "route": "vector"
+    }
+   ],
+   "O3": [
+    {
+     "rank": 1,
+     "chunk_id": 5599,
+     "page": 928,
+     "retrieval_rank": 1,
+     "rerank_score": 0.35049110651016235,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10719,
+     "page": 1128,
+     "retrieval_rank": 2,
+     "rerank_score": 0.35049110651016235,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5595,
+     "page": 928,
+     "retrieval_rank": 4,
+     "rerank_score": -2.097959518432617,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 10715,
+     "page": 1127,
+     "retrieval_rank": 7,
+     "rerank_score": -2.097959518432617,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5604,
+     "page": 929,
+     "retrieval_rank": 9,
+     "rerank_score": -3.550159454345703,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 10724,
+     "page": 1129,
+     "retrieval_rank": 10,
+     "rerank_score": -3.550159454345703,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 10730,
+     "page": 1131,
+     "retrieval_rank": 8,
+     "rerank_score": -3.552933692932129,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5374,
+     "page": 897,
+     "retrieval_rank": 5,
+     "rerank_score": -4.7422285079956055,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 9556,
+     "page": 901,
+     "retrieval_rank": 3,
+     "rerank_score": -10.092321395874023,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 9858,
+     "page": 956,
+     "retrieval_rank": 6,
+     "rerank_score": -11.291543006896973,
+     "route": "vector"
+    }
+   ],
+   "O4": [
+    {
+     "rank": 1,
+     "chunk_id": 528,
+     "page": 129,
+     "retrieval_rank": 5,
+     "rerank_score": -2.502497911453247,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7807,
+     "page": 536,
+     "retrieval_rank": 8,
+     "rerank_score": -4.589284896850586,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 6940,
+     "page": 377,
+     "retrieval_rank": 6,
+     "rerank_score": -6.391985893249512,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1317,
+     "page": 252,
+     "retrieval_rank": 1,
+     "rerank_score": -6.408587455749512,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 527,
+     "page": 129,
+     "retrieval_rank": 2,
+     "rerank_score": -6.963624000549316,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7964,
+     "page": 566,
+     "retrieval_rank": 7,
+     "rerank_score": -8.226168632507324,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1220,
+     "page": 237,
+     "retrieval_rank": 4,
+     "rerank_score": -8.480873107910156,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 6950,
+     "page": 379,
+     "retrieval_rank": 3,
+     "rerank_score": -8.627471923828125,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7724,
+     "page": 521,
+     "retrieval_rank": 9,
+     "rerank_score": -9.482193946838379,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 6939,
+     "page": 377,
+     "retrieval_rank": 10,
+     "rerank_score": -9.897588729858398,
+     "route": "vector"
+    }
+   ],
+   "O5": [
+    {
+     "rank": 1,
+     "chunk_id": 441,
+     "page": 109,
+     "retrieval_rank": 6,
+     "rerank_score": -6.867771148681641,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5598,
+     "page": 928,
+     "retrieval_rank": 7,
+     "rerank_score": -6.886505126953125,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 10718,
+     "page": 1128,
+     "retrieval_rank": 4,
+     "rerank_score": -7.052058696746826,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5767,
+     "page": 80,
+     "retrieval_rank": 2,
+     "rerank_score": -9.583630561828613,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 287,
+     "page": 79,
+     "retrieval_rank": 3,
+     "rerank_score": -9.583630561828613,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 418,
+     "page": 104,
+     "retrieval_rank": 5,
+     "rerank_score": -9.918785095214844,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5751,
+     "page": 77,
+     "retrieval_rank": 8,
+     "rerank_score": -10.478353500366211,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 271,
+     "page": 76,
+     "retrieval_rank": 9,
+     "rerank_score": -10.478353500366211,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5750,
+     "page": 77,
+     "retrieval_rank": 10,
+     "rerank_score": -10.5930814743042,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 9,
+     "page": 6,
+     "retrieval_rank": 1,
+     "rerank_score": -10.607585906982422,
+     "route": "vector"
+    }
+   ]
+  },
+  "A": {
+   "N1": [
+    {
+     "rank": 1,
+     "chunk_id": 5710,
+     "page": 32,
+     "retrieval_rank": 3,
+     "rerank_score": 6.532304763793945,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 298,
+     "page": 81,
+     "retrieval_rank": 2,
+     "rerank_score": 5.472625732421875,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 111,
+     "page": 31,
+     "retrieval_rank": 1,
+     "rerank_score": 5.045970916748047,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 299,
+     "page": 82,
+     "retrieval_rank": 4,
+     "rerank_score": 3.4923934936523438,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 112,
+     "page": 32,
+     "retrieval_rank": 9,
+     "rerank_score": 3.0548243522644043,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5709,
+     "page": 31,
+     "retrieval_rank": 5,
+     "rerank_score": 2.3604042530059814,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 305,
+     "page": 83,
+     "retrieval_rank": 6,
+     "rerank_score": 1.99989914894104,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 289,
+     "page": 79,
+     "retrieval_rank": 7,
+     "rerank_score": -0.9055547714233398,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 310,
+     "page": 84,
+     "retrieval_rank": 10,
+     "rerank_score": -3.9592459201812744,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 300,
+     "page": 83,
+     "retrieval_rank": 8,
+     "rerank_score": -7.8200788497924805,
+     "route": "vector"
+    }
+   ],
+   "N2": [
+    {
+     "rank": 1,
+     "chunk_id": 731,
+     "page": 169,
+     "retrieval_rank": 1,
+     "rerank_score": 4.078023910522461,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 697,
+     "page": 164,
+     "retrieval_rank": 3,
+     "rerank_score": 0.9374709725379944,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 727,
+     "page": 169,
+     "retrieval_rank": 8,
+     "rerank_score": 0.6891387701034546,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1205,
+     "page": 235,
+     "retrieval_rank": 10,
+     "rerank_score": 0.4224439263343811,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 742,
+     "page": 171,
+     "retrieval_rank": 6,
+     "rerank_score": 0.3587782382965088,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 734,
+     "page": 170,
+     "retrieval_rank": 2,
+     "rerank_score": -0.1983988732099533,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 732,
+     "page": 170,
+     "retrieval_rank": 4,
+     "rerank_score": -0.7510257959365845,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 733,
+     "page": 170,
+     "retrieval_rank": 5,
+     "rerank_score": -2.938169002532959,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 710,
+     "page": 166,
+     "retrieval_rank": 9,
+     "rerank_score": -2.958982229232788,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 714,
+     "page": 167,
+     "retrieval_rank": 7,
+     "rerank_score": -4.523265838623047,
+     "route": "vector"
+    }
+   ],
+   "N3": [
+    {
+     "rank": 1,
+     "chunk_id": 5652,
+     "page": 19,
+     "retrieval_rank": 1,
+     "rerank_score": 7.173834323883057,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 56,
+     "page": 18,
+     "retrieval_rank": 4,
+     "rerank_score": 5.380955219268799,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5625,
+     "page": 8,
+     "retrieval_rank": 10,
+     "rerank_score": 0.5785186290740967,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 12,
+     "page": 8,
+     "retrieval_rank": 6,
+     "rerank_score": 0.5199288725852966,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 106,
+     "page": 30,
+     "retrieval_rank": 3,
+     "rerank_score": -0.3125760555267334,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5626,
+     "page": 8,
+     "retrieval_rank": 9,
+     "rerank_score": -0.40641072392463684,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5713,
+     "page": 32,
+     "retrieval_rank": 7,
+     "rerank_score": -0.4276178181171417,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 13,
+     "page": 8,
+     "retrieval_rank": 8,
+     "rerank_score": -0.5292590856552124,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 105,
+     "page": 29,
+     "retrieval_rank": 2,
+     "rerank_score": -1.1395299434661865,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5703,
+     "page": 30,
+     "retrieval_rank": 5,
+     "rerank_score": -2.12481689453125,
+     "route": "vector"
+    }
+   ],
+   "N4": [
+    {
+     "rank": 1,
+     "chunk_id": 19,
+     "page": 10,
+     "retrieval_rank": 2,
+     "rerank_score": 6.463515281677246,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 257,
+     "page": 74,
+     "retrieval_rank": 5,
+     "rerank_score": 4.903302192687988,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5737,
+     "page": 75,
+     "retrieval_rank": 6,
+     "rerank_score": 4.903302192687988,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 393,
+     "page": 99,
+     "retrieval_rank": 4,
+     "rerank_score": 4.858097076416016,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5747,
+     "page": 76,
+     "retrieval_rank": 9,
+     "rerank_score": 4.267194747924805,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 322,
+     "page": 87,
+     "retrieval_rank": 3,
+     "rerank_score": 3.813152313232422,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 3,
+     "page": 4,
+     "retrieval_rank": 7,
+     "rerank_score": 0.08483341336250305,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 38,
+     "page": 14,
+     "retrieval_rank": 1,
+     "rerank_score": -2.72764253616333,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 46,
+     "page": 16,
+     "retrieval_rank": 10,
+     "rerank_score": -5.502542972564697,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 45,
+     "page": 16,
+     "retrieval_rank": 8,
+     "rerank_score": -7.216017723083496,
+     "route": "vector"
+    }
+   ],
+   "N5": [
+    {
+     "rank": 1,
+     "chunk_id": 640,
+     "page": 151,
+     "retrieval_rank": 1,
+     "rerank_score": 3.6925129890441895,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5826,
+     "page": 154,
+     "retrieval_rank": 2,
+     "rerank_score": 3.5388548374176025,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 641,
+     "page": 152,
+     "retrieval_rank": 3,
+     "rerank_score": 3.0658953189849854,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5827,
+     "page": 154,
+     "retrieval_rank": 4,
+     "rerank_score": 3.0658953189849854,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5819,
+     "page": 152,
+     "retrieval_rank": 5,
+     "rerank_score": 2.7842955589294434,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 632,
+     "page": 150,
+     "retrieval_rank": 7,
+     "rerank_score": 0.37417832016944885,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5813,
+     "page": 151,
+     "retrieval_rank": 6,
+     "rerank_score": -0.744192361831665,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 626,
+     "page": 149,
+     "retrieval_rank": 9,
+     "rerank_score": -0.744192361831665,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 648,
+     "page": 153,
+     "retrieval_rank": 10,
+     "rerank_score": -1.7639243602752686,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 625,
+     "page": 149,
+     "retrieval_rank": 8,
+     "rerank_score": -2.558058261871338,
+     "route": "vector"
+    }
+   ],
+   "N6": [
+    {
+     "rank": 1,
+     "chunk_id": 443,
+     "page": 109,
+     "retrieval_rank": 2,
+     "rerank_score": -5.109103202819824,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 438,
+     "page": 108,
+     "retrieval_rank": 1,
+     "rerank_score": -5.463626861572266,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 434,
+     "page": 107,
+     "retrieval_rank": 5,
+     "rerank_score": -7.300771713256836,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 442,
+     "page": 109,
+     "retrieval_rank": 6,
+     "rerank_score": -8.661018371582031,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 444,
+     "page": 109,
+     "retrieval_rank": 4,
+     "rerank_score": -8.991231918334961,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 437,
+     "page": 108,
+     "retrieval_rank": 10,
+     "rerank_score": -9.730840682983398,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 439,
+     "page": 108,
+     "retrieval_rank": 3,
+     "rerank_score": -9.854101181030273,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5610,
+     "page": 930,
+     "retrieval_rank": 7,
+     "rerank_score": -10.319438934326172,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 10729,
+     "page": 1130,
+     "retrieval_rank": 8,
+     "rerank_score": -10.364346504211426,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 556,
+     "page": 134,
+     "retrieval_rank": 9,
+     "rerank_score": -11.216426849365234,
+     "route": "vector"
+    }
+   ],
+   "N7": [
+    {
+     "rank": 1,
+     "chunk_id": 5816,
+     "page": 152,
+     "retrieval_rank": 1,
+     "rerank_score": 5.398465156555176,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5829,
+     "page": 154,
+     "retrieval_rank": 2,
+     "rerank_score": 5.081716537475586,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 643,
+     "page": 152,
+     "retrieval_rank": 7,
+     "rerank_score": 5.016053199768066,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 628,
+     "page": 149,
+     "retrieval_rank": 4,
+     "rerank_score": 4.537817001342773,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 642,
+     "page": 152,
+     "retrieval_rank": 8,
+     "rerank_score": 2.8765599727630615,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5828,
+     "page": 154,
+     "retrieval_rank": 10,
+     "rerank_score": 2.8765599727630615,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5819,
+     "page": 152,
+     "retrieval_rank": 6,
+     "rerank_score": 1.4399582147598267,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 653,
+     "page": 154,
+     "retrieval_rank": 9,
+     "rerank_score": 1.3418753147125244,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 4656,
+     "page": 781,
+     "retrieval_rank": 5,
+     "rerank_score": 0.14894089102745056,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5454,
+     "page": 907,
+     "retrieval_rank": 3,
+     "rerank_score": -4.529709815979004,
+     "route": "vector"
+    }
+   ],
+   "N8": [
+    {
+     "rank": 1,
+     "chunk_id": 421,
+     "page": 105,
+     "retrieval_rank": 2,
+     "rerank_score": 6.7230730056762695,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 630,
+     "page": 150,
+     "retrieval_rank": 3,
+     "rerank_score": 0.9508817791938782,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 529,
+     "page": 130,
+     "retrieval_rank": 1,
+     "rerank_score": 0.22238965332508087,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5817,
+     "page": 152,
+     "retrieval_rank": 4,
+     "rerank_score": -0.33639684319496155,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 7723,
+     "page": 520,
+     "retrieval_rank": 10,
+     "rerank_score": -1.2563689947128296,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 532,
+     "page": 130,
+     "retrieval_rank": 5,
+     "rerank_score": -2.0006308555603027,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 531,
+     "page": 130,
+     "retrieval_rank": 7,
+     "rerank_score": -2.434304714202881,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 8833,
+     "page": 742,
+     "retrieval_rank": 6,
+     "rerank_score": -5.022146224975586,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5811,
+     "page": 150,
+     "retrieval_rank": 8,
+     "rerank_score": -5.137102127075195,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 528,
+     "page": 129,
+     "retrieval_rank": 9,
+     "rerank_score": -5.408963680267334,
+     "route": "vector"
+    }
+   ],
+   "N9": [
+    {
+     "rank": 1,
+     "chunk_id": 664,
+     "page": 156,
+     "retrieval_rank": 1,
+     "rerank_score": 4.605149269104004,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5851,
+     "page": 159,
+     "retrieval_rank": 2,
+     "rerank_score": 3.3584187030792236,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5131,
+     "page": 855,
+     "retrieval_rank": 4,
+     "rerank_score": 2.592188596725464,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5849,
+     "page": 159,
+     "retrieval_rank": 10,
+     "rerank_score": -0.7176973819732666,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4938,
+     "page": 824,
+     "retrieval_rank": 7,
+     "rerank_score": -0.7995173931121826,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 662,
+     "page": 156,
+     "retrieval_rank": 8,
+     "rerank_score": -0.8425557017326355,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5848,
+     "page": 159,
+     "retrieval_rank": 9,
+     "rerank_score": -1.9649107456207275,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5850,
+     "page": 159,
+     "retrieval_rank": 6,
+     "rerank_score": -4.972700119018555,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5825,
+     "page": 154,
+     "retrieval_rank": 5,
+     "rerank_score": -7.573962211608887,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 419,
+     "page": 104,
+     "retrieval_rank": 3,
+     "rerank_score": -8.710956573486328,
+     "route": "vector"
+    }
+   ],
+   "N10": [
+    {
+     "rank": 1,
+     "chunk_id": 2364,
+     "page": 424,
+     "retrieval_rank": 2,
+     "rerank_score": 3.3100953102111816,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2329,
+     "page": 418,
+     "retrieval_rank": 4,
+     "rerank_score": 3.2943050861358643,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2293,
+     "page": 413,
+     "retrieval_rank": 3,
+     "rerank_score": 2.930438995361328,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 2085,
+     "page": 378,
+     "retrieval_rank": 5,
+     "rerank_score": 2.9233992099761963,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 497,
+     "page": 122,
+     "retrieval_rank": 9,
+     "rerank_score": 2.7981979846954346,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 2253,
+     "page": 407,
+     "retrieval_rank": 8,
+     "rerank_score": 2.753589153289795,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 2050,
+     "page": 372,
+     "retrieval_rank": 6,
+     "rerank_score": 2.6736841201782227,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 566,
+     "page": 136,
+     "retrieval_rank": 1,
+     "rerank_score": 1.441237211227417,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 8889,
+     "page": 755,
+     "retrieval_rank": 7,
+     "rerank_score": -2.9904065132141113,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5803,
+     "page": 148,
+     "retrieval_rank": 10,
+     "rerank_score": -8.679668426513672,
+     "route": "vector"
+    }
+   ],
+   "E1": [
+    {
+     "rank": 1,
+     "chunk_id": 1618,
+     "page": 304,
+     "retrieval_rank": 1,
+     "rerank_score": 6.824729919433594,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1616,
+     "page": 303,
+     "retrieval_rank": 2,
+     "rerank_score": 2.387404441833496,
+     "route": "code_hybrid"
+    }
+   ],
+   "E2": [
+    {
+     "rank": 1,
+     "chunk_id": 7837,
+     "page": 542,
+     "retrieval_rank": 1,
+     "rerank_score": 5.898134231567383,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7832,
+     "page": 541,
+     "retrieval_rank": 2,
+     "rerank_score": 4.264046669006348,
+     "route": "code_hybrid"
+    }
+   ],
+   "E3": [
+    {
+     "rank": 1,
+     "chunk_id": 3190,
+     "page": 556,
+     "retrieval_rank": 2,
+     "rerank_score": 0.2977810502052307,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3300,
+     "page": 573,
+     "retrieval_rank": 1,
+     "rerank_score": 0.2912854850292206,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3282,
+     "page": 571,
+     "retrieval_rank": 3,
+     "rerank_score": -4.278708457946777,
+     "route": "code_hybrid"
+    }
+   ],
+   "E4": [
+    {
+     "rank": 1,
+     "chunk_id": 8084,
+     "page": 590,
+     "retrieval_rank": 1,
+     "rerank_score": 5.80903434753418,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8076,
+     "page": 589,
+     "retrieval_rank": 2,
+     "rerank_score": 1.8076597452163696,
+     "route": "code_hybrid"
+    }
+   ],
+   "E5": [
+    {
+     "rank": 1,
+     "chunk_id": 3314,
+     "page": 576,
+     "retrieval_rank": 1,
+     "rerank_score": 5.564548492431641,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3308,
+     "page": 575,
+     "retrieval_rank": 2,
+     "rerank_score": -1.5547784566879272,
+     "route": "code_hybrid"
+    }
+   ],
+   "E6": [
+    {
+     "rank": 1,
+     "chunk_id": 8053,
+     "page": 584,
+     "retrieval_rank": 1,
+     "rerank_score": 2.27681827545166,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8050,
+     "page": 583,
+     "retrieval_rank": 2,
+     "rerank_score": 1.698025107383728,
+     "route": "code_hybrid"
+    }
+   ],
+   "E7": [
+    {
+     "rank": 1,
+     "chunk_id": 5180,
+     "page": 864,
+     "retrieval_rank": 1,
+     "rerank_score": 6.202322006225586,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5169,
+     "page": 862,
+     "retrieval_rank": 2,
+     "rerank_score": 1.3662035465240479,
+     "route": "code_hybrid"
+    }
+   ],
+   "E8": [
+    {
+     "rank": 1,
+     "chunk_id": 7762,
+     "page": 528,
+     "retrieval_rank": 2,
+     "rerank_score": 0.27608177065849304,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7760,
+     "page": 528,
+     "retrieval_rank": 1,
+     "rerank_score": -3.081501007080078,
+     "route": "code_hybrid"
+    }
+   ],
+   "E9": [
+    {
+     "rank": 1,
+     "chunk_id": 1277,
+     "page": 247,
+     "retrieval_rank": 1,
+     "rerank_score": 7.888100624084473,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1271,
+     "page": 246,
+     "retrieval_rank": 2,
+     "rerank_score": 1.8821215629577637,
+     "route": "code_hybrid"
+    }
+   ],
+   "E10": [
+    {
+     "rank": 1,
+     "chunk_id": 7557,
+     "page": 489,
+     "retrieval_rank": 1,
+     "rerank_score": 1.6823413372039795,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7549,
+     "page": 487,
+     "retrieval_rank": 2,
+     "rerank_score": -4.607760429382324,
+     "route": "code_hybrid"
+    }
+   ],
+   "C1": [
+    {
+     "rank": 1,
+     "chunk_id": 1371,
+     "page": 261,
+     "retrieval_rank": 1,
+     "rerank_score": -1.7649385929107666,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1360,
+     "page": 259,
+     "retrieval_rank": 2,
+     "rerank_score": -1.8227641582489014,
+     "route": "code_hybrid"
+    }
+   ],
+   "C2": [
+    {
+     "rank": 1,
+     "chunk_id": 2409,
+     "page": 431,
+     "retrieval_rank": 1,
+     "rerank_score": 2.529984951019287,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2415,
+     "page": 432,
+     "retrieval_rank": 2,
+     "rerank_score": -4.309562683105469,
+     "route": "code_hybrid"
+    }
+   ],
+   "C3": [
+    {
+     "rank": 1,
+     "chunk_id": 2993,
+     "page": 525,
+     "retrieval_rank": 1,
+     "rerank_score": 4.047335624694824,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2987,
+     "page": 524,
+     "retrieval_rank": 2,
+     "rerank_score": -1.5667593479156494,
+     "route": "code_hybrid"
+    }
+   ],
+   "C4": [
+    {
+     "rank": 1,
+     "chunk_id": 3490,
+     "page": 604,
+     "retrieval_rank": 1,
+     "rerank_score": 7.500905513763428,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3484,
+     "page": 603,
+     "retrieval_rank": 2,
+     "rerank_score": 1.8659709692001343,
+     "route": "code_hybrid"
+    }
+   ],
+   "C5": [
+    {
+     "rank": 1,
+     "chunk_id": 3185,
+     "page": 556,
+     "retrieval_rank": 1,
+     "rerank_score": -4.865674018859863,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3280,
+     "page": 570,
+     "retrieval_rank": 6,
+     "rerank_score": -9.399216651916504,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3237,
+     "page": 564,
+     "retrieval_rank": 4,
+     "rerank_score": -9.551481246948242,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3250,
+     "page": 566,
+     "retrieval_rank": 5,
+     "rerank_score": -9.878608703613281,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 3287,
+     "page": 571,
+     "retrieval_rank": 2,
+     "rerank_score": -10.112525939941406,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3187,
+     "page": 556,
+     "retrieval_rank": 3,
+     "rerank_score": -10.435213088989258,
+     "route": "code_hybrid"
+    }
+   ],
+   "C6": [
+    {
+     "rank": 1,
+     "chunk_id": 8511,
+     "page": 674,
+     "retrieval_rank": 2,
+     "rerank_score": 3.986872434616089,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8560,
+     "page": 684,
+     "retrieval_rank": 1,
+     "rerank_score": 3.137218475341797,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8510,
+     "page": 674,
+     "retrieval_rank": 5,
+     "rerank_score": 2.2612903118133545,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 8518,
+     "page": 676,
+     "retrieval_rank": 4,
+     "rerank_score": -3.176527500152588,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8517,
+     "page": 676,
+     "retrieval_rank": 3,
+     "rerank_score": -3.7413370609283447,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8567,
+     "page": 686,
+     "retrieval_rank": 6,
+     "rerank_score": -4.390223979949951,
+     "route": "code_hybrid"
+    }
+   ],
+   "C7": [
+    {
+     "rank": 1,
+     "chunk_id": 10586,
+     "page": 1105,
+     "retrieval_rank": 1,
+     "rerank_score": 3.812803030014038,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10599,
+     "page": 1108,
+     "retrieval_rank": 2,
+     "rerank_score": 3.6346921920776367,
+     "route": "code_hybrid"
+    }
+   ],
+   "C8": [
+    {
+     "rank": 1,
+     "chunk_id": 10530,
+     "page": 1095,
+     "retrieval_rank": 1,
+     "rerank_score": 5.834718704223633,
+     "route": "code_hybrid"
+    }
+   ],
+   "C9": [
+    {
+     "rank": 1,
+     "chunk_id": 7153,
+     "page": 415,
+     "retrieval_rank": 1,
+     "rerank_score": 1.519399881362915,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7151,
+     "page": 414,
+     "retrieval_rank": 2,
+     "rerank_score": 0.7846699953079224,
+     "route": "code_hybrid"
+    }
+   ],
+   "C10": [
+    {
+     "rank": 1,
+     "chunk_id": 6992,
+     "page": 388,
+     "retrieval_rank": 2,
+     "rerank_score": -0.04137483611702919,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7054,
+     "page": 398,
+     "retrieval_rank": 8,
+     "rerank_score": -0.04137483611702919,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 7838,
+     "page": 542,
+     "retrieval_rank": 6,
+     "rerank_score": -0.06836679577827454,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 7350,
+     "page": 451,
+     "retrieval_rank": 1,
+     "rerank_score": -2.262138843536377,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 7832,
+     "page": 541,
+     "retrieval_rank": 5,
+     "rerank_score": -2.540200710296631,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7297,
+     "page": 442,
+     "retrieval_rank": 3,
+     "rerank_score": -3.6266889572143555,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7971,
+     "page": 568,
+     "retrieval_rank": 4,
+     "rerank_score": -4.838947296142578,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7045,
+     "page": 396,
+     "retrieval_rank": 9,
+     "rerank_score": -5.147760391235352,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 6980,
+     "page": 385,
+     "retrieval_rank": 10,
+     "rerank_score": -5.179525375366211,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7246,
+     "page": 434,
+     "retrieval_rank": 7,
+     "rerank_score": -5.353228569030762,
+     "route": "code_hybrid"
+    }
+   ],
+   "O1": [
+    {
+     "rank": 1,
+     "chunk_id": 8168,
+     "page": 606,
+     "retrieval_rank": 2,
+     "rerank_score": -8.24498462677002,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10605,
+     "page": 1108,
+     "retrieval_rank": 3,
+     "rerank_score": -9.698963165283203,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8165,
+     "page": 605,
+     "retrieval_rank": 7,
+     "rerank_score": -10.157159805297852,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 241,
+     "page": 67,
+     "retrieval_rank": 1,
+     "rerank_score": -11.019399642944336,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 10544,
+     "page": 1098,
+     "retrieval_rank": 5,
+     "rerank_score": -11.17123031616211,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 10543,
+     "page": 1098,
+     "retrieval_rank": 8,
+     "rerank_score": -11.2175874710083,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 3505,
+     "page": 606,
+     "retrieval_rank": 4,
+     "rerank_score": -11.291601181030273,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 3518,
+     "page": 608,
+     "retrieval_rank": 6,
+     "rerank_score": -11.316262245178223,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 3205,
+     "page": 559,
+     "retrieval_rank": 10,
+     "rerank_score": -11.329120635986328,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 3206,
+     "page": 560,
+     "retrieval_rank": 9,
+     "rerank_score": -11.354015350341797,
+     "route": "vector"
+    }
+   ],
+   "O2": [
+    {
+     "rank": 1,
+     "chunk_id": 257,
+     "page": 74,
+     "retrieval_rank": 1,
+     "rerank_score": -2.263057231903076,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5737,
+     "page": 75,
+     "retrieval_rank": 2,
+     "rerank_score": -2.263057231903076,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5633,
+     "page": 15,
+     "retrieval_rank": 3,
+     "rerank_score": -6.633998870849609,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 40,
+     "page": 15,
+     "retrieval_rank": 4,
+     "rerank_score": -6.633998870849609,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1041,
+     "page": 215,
+     "retrieval_rank": 6,
+     "rerank_score": -7.719171047210693,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1158,
+     "page": 229,
+     "retrieval_rank": 7,
+     "rerank_score": -8.128326416015625,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1195,
+     "page": 234,
+     "retrieval_rank": 8,
+     "rerank_score": -9.065142631530762,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 2829,
+     "page": 499,
+     "retrieval_rank": 9,
+     "rerank_score": -9.436761856079102,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 212,
+     "page": 57,
+     "retrieval_rank": 10,
+     "rerank_score": -10.66731071472168,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1083,
+     "page": 219,
+     "retrieval_rank": 5,
+     "rerank_score": -11.047956466674805,
+     "route": "vector"
+    }
+   ],
+   "O3": [
+    {
+     "rank": 1,
+     "chunk_id": 5599,
+     "page": 928,
+     "retrieval_rank": 1,
+     "rerank_score": 0.35049110651016235,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10719,
+     "page": 1128,
+     "retrieval_rank": 3,
+     "rerank_score": 0.35049110651016235,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5597,
+     "page": 928,
+     "retrieval_rank": 5,
+     "rerank_score": -0.258924663066864,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5595,
+     "page": 928,
+     "retrieval_rank": 9,
+     "rerank_score": -2.097959518432617,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5608,
+     "page": 930,
+     "retrieval_rank": 4,
+     "rerank_score": -2.710326910018921,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5604,
+     "page": 929,
+     "retrieval_rank": 2,
+     "rerank_score": -3.550159454345703,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 10724,
+     "page": 1129,
+     "retrieval_rank": 8,
+     "rerank_score": -3.550159454345703,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10730,
+     "page": 1131,
+     "retrieval_rank": 7,
+     "rerank_score": -3.552933692932129,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5596,
+     "page": 928,
+     "retrieval_rank": 6,
+     "rerank_score": -4.5272722244262695,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 9858,
+     "page": 956,
+     "retrieval_rank": 10,
+     "rerank_score": -11.291543006896973,
+     "route": "vector"
+    }
+   ],
+   "O4": [
+    {
+     "rank": 1,
+     "chunk_id": 528,
+     "page": 129,
+     "retrieval_rank": 1,
+     "rerank_score": -2.502497911453247,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7807,
+     "page": 536,
+     "retrieval_rank": 8,
+     "rerank_score": -4.589283466339111,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 6940,
+     "page": 377,
+     "retrieval_rank": 10,
+     "rerank_score": -6.391985893249512,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1317,
+     "page": 252,
+     "retrieval_rank": 4,
+     "rerank_score": -6.408587455749512,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 527,
+     "page": 129,
+     "retrieval_rank": 2,
+     "rerank_score": -6.963624000549316,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7964,
+     "page": 566,
+     "retrieval_rank": 3,
+     "rerank_score": -8.226168632507324,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 8106,
+     "page": 594,
+     "retrieval_rank": 7,
+     "rerank_score": -8.529021263122559,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 8113,
+     "page": 595,
+     "retrieval_rank": 6,
+     "rerank_score": -8.578330993652344,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 8154,
+     "page": 603,
+     "retrieval_rank": 5,
+     "rerank_score": -8.586995124816895,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 6950,
+     "page": 379,
+     "retrieval_rank": 9,
+     "rerank_score": -8.627472877502441,
+     "route": "vector"
+    }
+   ],
+   "O5": [
+    {
+     "rank": 1,
+     "chunk_id": 441,
+     "page": 109,
+     "retrieval_rank": 4,
+     "rerank_score": -6.867771148681641,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5598,
+     "page": 928,
+     "retrieval_rank": 6,
+     "rerank_score": -6.886505126953125,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 10718,
+     "page": 1128,
+     "retrieval_rank": 5,
+     "rerank_score": -7.052058696746826,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 287,
+     "page": 79,
+     "retrieval_rank": 2,
+     "rerank_score": -9.583630561828613,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5767,
+     "page": 80,
+     "retrieval_rank": 3,
+     "rerank_score": -9.583630561828613,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5751,
+     "page": 77,
+     "retrieval_rank": 7,
+     "rerank_score": -10.478353500366211,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 271,
+     "page": 76,
+     "retrieval_rank": 8,
+     "rerank_score": -10.478353500366211,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5750,
+     "page": 77,
+     "retrieval_rank": 9,
+     "rerank_score": -10.5930814743042,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 270,
+     "page": 76,
+     "retrieval_rank": 10,
+     "rerank_score": -10.5930814743042,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 9,
+     "page": 6,
+     "retrieval_rank": 1,
+     "rerank_score": -10.607585906982422,
+     "route": "vector"
+    }
+   ]
+  },
+  "B": {
+   "N1": [
+    {
+     "rank": 1,
+     "chunk_id": 298,
+     "page": 81,
+     "retrieval_rank": 2,
+     "rerank_score": 5.023599624633789,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5710,
+     "page": 32,
+     "retrieval_rank": 3,
+     "rerank_score": 5.005025863647461,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 111,
+     "page": 31,
+     "retrieval_rank": 1,
+     "rerank_score": 4.959333419799805,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 299,
+     "page": 82,
+     "retrieval_rank": 4,
+     "rerank_score": 4.165960311889648,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 305,
+     "page": 83,
+     "retrieval_rank": 6,
+     "rerank_score": 3.7274255752563477,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 112,
+     "page": 32,
+     "retrieval_rank": 9,
+     "rerank_score": 2.429441213607788,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5709,
+     "page": 31,
+     "retrieval_rank": 5,
+     "rerank_score": 1.3437116146087646,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 300,
+     "page": 83,
+     "retrieval_rank": 8,
+     "rerank_score": 0.1667110174894333,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 310,
+     "page": 84,
+     "retrieval_rank": 10,
+     "rerank_score": -2.0495102405548096,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 289,
+     "page": 79,
+     "retrieval_rank": 7,
+     "rerank_score": -2.15458083152771,
+     "route": "vector"
+    }
+   ],
+   "N2": [
+    {
+     "rank": 1,
+     "chunk_id": 731,
+     "page": 169,
+     "retrieval_rank": 1,
+     "rerank_score": 3.5901174545288086,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 697,
+     "page": 164,
+     "retrieval_rank": 3,
+     "rerank_score": 1.6609041690826416,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 734,
+     "page": 170,
+     "retrieval_rank": 2,
+     "rerank_score": 1.121324896812439,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 732,
+     "page": 170,
+     "retrieval_rank": 4,
+     "rerank_score": 0.9381726980209351,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 727,
+     "page": 169,
+     "retrieval_rank": 8,
+     "rerank_score": 0.25147825479507446,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 742,
+     "page": 171,
+     "retrieval_rank": 6,
+     "rerank_score": 0.23046617209911346,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 733,
+     "page": 170,
+     "retrieval_rank": 5,
+     "rerank_score": -0.42587772011756897,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1205,
+     "page": 235,
+     "retrieval_rank": 10,
+     "rerank_score": -0.5958906412124634,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 710,
+     "page": 166,
+     "retrieval_rank": 9,
+     "rerank_score": -1.4669153690338135,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 714,
+     "page": 167,
+     "retrieval_rank": 7,
+     "rerank_score": -2.1231651306152344,
+     "route": "vector"
+    }
+   ],
+   "N3": [
+    {
+     "rank": 1,
+     "chunk_id": 5652,
+     "page": 19,
+     "retrieval_rank": 1,
+     "rerank_score": 7.180225372314453,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 56,
+     "page": 18,
+     "retrieval_rank": 4,
+     "rerank_score": 3.9041953086853027,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5625,
+     "page": 8,
+     "retrieval_rank": 10,
+     "rerank_score": 0.5785186290740967,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 12,
+     "page": 8,
+     "retrieval_rank": 6,
+     "rerank_score": 0.5199288725852966,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 106,
+     "page": 30,
+     "retrieval_rank": 3,
+     "rerank_score": -0.122166208922863,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5626,
+     "page": 8,
+     "retrieval_rank": 9,
+     "rerank_score": -0.40641072392463684,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 13,
+     "page": 8,
+     "retrieval_rank": 8,
+     "rerank_score": -0.5292590856552124,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5713,
+     "page": 32,
+     "retrieval_rank": 7,
+     "rerank_score": -2.9696011543273926,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 105,
+     "page": 29,
+     "retrieval_rank": 2,
+     "rerank_score": -3.2940175533294678,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5703,
+     "page": 30,
+     "retrieval_rank": 5,
+     "rerank_score": -3.3652114868164062,
+     "route": "vector"
+    }
+   ],
+   "N4": [
+    {
+     "rank": 1,
+     "chunk_id": 38,
+     "page": 14,
+     "retrieval_rank": 1,
+     "rerank_score": 8.446250915527344,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 46,
+     "page": 16,
+     "retrieval_rank": 10,
+     "rerank_score": 7.754062652587891,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 45,
+     "page": 16,
+     "retrieval_rank": 8,
+     "rerank_score": 6.96990442276001,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 19,
+     "page": 10,
+     "retrieval_rank": 2,
+     "rerank_score": 6.222943305969238,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 393,
+     "page": 99,
+     "retrieval_rank": 4,
+     "rerank_score": 4.676033973693848,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 257,
+     "page": 74,
+     "retrieval_rank": 5,
+     "rerank_score": 4.6375837326049805,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5737,
+     "page": 75,
+     "retrieval_rank": 6,
+     "rerank_score": 4.6375837326049805,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 322,
+     "page": 87,
+     "retrieval_rank": 3,
+     "rerank_score": 3.763890027999878,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5747,
+     "page": 76,
+     "retrieval_rank": 9,
+     "rerank_score": 3.500126838684082,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 3,
+     "page": 4,
+     "retrieval_rank": 7,
+     "rerank_score": 0.08483437448740005,
+     "route": "vector"
+    }
+   ],
+   "N5": [
+    {
+     "rank": 1,
+     "chunk_id": 640,
+     "page": 151,
+     "retrieval_rank": 1,
+     "rerank_score": 3.1316709518432617,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5826,
+     "page": 154,
+     "retrieval_rank": 2,
+     "rerank_score": 2.913235664367676,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 641,
+     "page": 152,
+     "retrieval_rank": 3,
+     "rerank_score": 2.077862024307251,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5827,
+     "page": 154,
+     "retrieval_rank": 4,
+     "rerank_score": 2.077862024307251,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5819,
+     "page": 152,
+     "retrieval_rank": 5,
+     "rerank_score": 0.8565534353256226,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 632,
+     "page": 150,
+     "retrieval_rank": 7,
+     "rerank_score": -0.9908828139305115,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5813,
+     "page": 151,
+     "retrieval_rank": 6,
+     "rerank_score": -1.798235535621643,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 626,
+     "page": 149,
+     "retrieval_rank": 9,
+     "rerank_score": -1.798235535621643,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 648,
+     "page": 153,
+     "retrieval_rank": 10,
+     "rerank_score": -2.5414953231811523,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 625,
+     "page": 149,
+     "retrieval_rank": 8,
+     "rerank_score": -2.8211026191711426,
+     "route": "vector"
+    }
+   ],
+   "N6": [
+    {
+     "rank": 1,
+     "chunk_id": 443,
+     "page": 109,
+     "retrieval_rank": 2,
+     "rerank_score": -5.702080726623535,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 438,
+     "page": 108,
+     "retrieval_rank": 1,
+     "rerank_score": -6.235073089599609,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 434,
+     "page": 107,
+     "retrieval_rank": 5,
+     "rerank_score": -8.194684982299805,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 442,
+     "page": 109,
+     "retrieval_rank": 6,
+     "rerank_score": -9.567327499389648,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 444,
+     "page": 109,
+     "retrieval_rank": 4,
+     "rerank_score": -9.84216594696045,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 439,
+     "page": 108,
+     "retrieval_rank": 3,
+     "rerank_score": -10.266921997070312,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 437,
+     "page": 108,
+     "retrieval_rank": 10,
+     "rerank_score": -10.37684154510498,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5610,
+     "page": 930,
+     "retrieval_rank": 7,
+     "rerank_score": -10.707582473754883,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 10729,
+     "page": 1130,
+     "retrieval_rank": 8,
+     "rerank_score": -10.85817813873291,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 556,
+     "page": 134,
+     "retrieval_rank": 9,
+     "rerank_score": -11.252476692199707,
+     "route": "vector"
+    }
+   ],
+   "N7": [
+    {
+     "rank": 1,
+     "chunk_id": 643,
+     "page": 152,
+     "retrieval_rank": 7,
+     "rerank_score": 3.8958559036254883,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5829,
+     "page": 154,
+     "retrieval_rank": 2,
+     "rerank_score": 3.8668696880340576,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5816,
+     "page": 152,
+     "retrieval_rank": 1,
+     "rerank_score": 3.6490464210510254,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 628,
+     "page": 149,
+     "retrieval_rank": 4,
+     "rerank_score": 2.1403582096099854,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 642,
+     "page": 152,
+     "retrieval_rank": 8,
+     "rerank_score": 1.3911259174346924,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5828,
+     "page": 154,
+     "retrieval_rank": 10,
+     "rerank_score": 1.3911259174346924,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5819,
+     "page": 152,
+     "retrieval_rank": 6,
+     "rerank_score": 1.0553841590881348,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 653,
+     "page": 154,
+     "retrieval_rank": 9,
+     "rerank_score": 0.911824643611908,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 4656,
+     "page": 781,
+     "retrieval_rank": 5,
+     "rerank_score": -0.14624306559562683,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5454,
+     "page": 907,
+     "retrieval_rank": 3,
+     "rerank_score": -5.999326705932617,
+     "route": "vector"
+    }
+   ],
+   "N8": [
+    {
+     "rank": 1,
+     "chunk_id": 421,
+     "page": 105,
+     "retrieval_rank": 2,
+     "rerank_score": 5.393735885620117,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 529,
+     "page": 130,
+     "retrieval_rank": 1,
+     "rerank_score": -0.8301193118095398,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 630,
+     "page": 150,
+     "retrieval_rank": 3,
+     "rerank_score": -1.4122531414031982,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5817,
+     "page": 152,
+     "retrieval_rank": 4,
+     "rerank_score": -1.672746181488037,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8833,
+     "page": 742,
+     "retrieval_rank": 6,
+     "rerank_score": -2.937669038772583,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 532,
+     "page": 130,
+     "retrieval_rank": 5,
+     "rerank_score": -3.0962369441986084,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 531,
+     "page": 130,
+     "retrieval_rank": 7,
+     "rerank_score": -3.203550100326538,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7723,
+     "page": 520,
+     "retrieval_rank": 10,
+     "rerank_score": -3.2164952754974365,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 528,
+     "page": 129,
+     "retrieval_rank": 9,
+     "rerank_score": -6.040454864501953,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5811,
+     "page": 150,
+     "retrieval_rank": 8,
+     "rerank_score": -7.33223819732666,
+     "route": "vector"
+    }
+   ],
+   "N9": [
+    {
+     "rank": 1,
+     "chunk_id": 664,
+     "page": 156,
+     "retrieval_rank": 1,
+     "rerank_score": 2.6087636947631836,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5851,
+     "page": 159,
+     "retrieval_rank": 2,
+     "rerank_score": 1.7962000370025635,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5131,
+     "page": 855,
+     "retrieval_rank": 4,
+     "rerank_score": -0.4149734079837799,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5849,
+     "page": 159,
+     "retrieval_rank": 10,
+     "rerank_score": -0.8654016852378845,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 662,
+     "page": 156,
+     "retrieval_rank": 8,
+     "rerank_score": -2.028189182281494,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5848,
+     "page": 159,
+     "retrieval_rank": 9,
+     "rerank_score": -2.527557849884033,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5850,
+     "page": 159,
+     "retrieval_rank": 6,
+     "rerank_score": -2.704756259918213,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 4938,
+     "page": 824,
+     "retrieval_rank": 7,
+     "rerank_score": -2.7134642601013184,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5825,
+     "page": 154,
+     "retrieval_rank": 5,
+     "rerank_score": -5.968753814697266,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 419,
+     "page": 104,
+     "retrieval_rank": 3,
+     "rerank_score": -8.885540008544922,
+     "route": "vector"
+    }
+   ],
+   "N10": [
+    {
+     "rank": 1,
+     "chunk_id": 497,
+     "page": 122,
+     "retrieval_rank": 9,
+     "rerank_score": 2.253445625305176,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2329,
+     "page": 418,
+     "retrieval_rank": 4,
+     "rerank_score": 1.834180235862732,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2364,
+     "page": 424,
+     "retrieval_rank": 2,
+     "rerank_score": 1.7778122425079346,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 2085,
+     "page": 378,
+     "retrieval_rank": 5,
+     "rerank_score": 1.2539381980895996,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 2253,
+     "page": 407,
+     "retrieval_rank": 8,
+     "rerank_score": 1.249267339706421,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 2050,
+     "page": 372,
+     "retrieval_rank": 6,
+     "rerank_score": 1.1204538345336914,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 2293,
+     "page": 413,
+     "retrieval_rank": 3,
+     "rerank_score": 1.0441968441009521,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 566,
+     "page": 136,
+     "retrieval_rank": 1,
+     "rerank_score": 0.3415650725364685,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 8889,
+     "page": 755,
+     "retrieval_rank": 7,
+     "rerank_score": -4.667271614074707,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5803,
+     "page": 148,
+     "retrieval_rank": 10,
+     "rerank_score": -9.455057144165039,
+     "route": "vector"
+    }
+   ],
+   "E1": [
+    {
+     "rank": 1,
+     "chunk_id": 1618,
+     "page": 304,
+     "retrieval_rank": 1,
+     "rerank_score": 5.7116522789001465,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1616,
+     "page": 303,
+     "retrieval_rank": 2,
+     "rerank_score": 1.908573865890503,
+     "route": "code_hybrid"
+    }
+   ],
+   "E2": [
+    {
+     "rank": 1,
+     "chunk_id": 7837,
+     "page": 542,
+     "retrieval_rank": 1,
+     "rerank_score": 4.191369533538818,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7832,
+     "page": 541,
+     "retrieval_rank": 2,
+     "rerank_score": 2.8549370765686035,
+     "route": "code_hybrid"
+    }
+   ],
+   "E3": [
+    {
+     "rank": 1,
+     "chunk_id": 3190,
+     "page": 556,
+     "retrieval_rank": 2,
+     "rerank_score": 6.659151077270508,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3300,
+     "page": 573,
+     "retrieval_rank": 1,
+     "rerank_score": 6.570777893066406,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3282,
+     "page": 571,
+     "retrieval_rank": 3,
+     "rerank_score": -5.288993835449219,
+     "route": "code_hybrid"
+    }
+   ],
+   "E4": [
+    {
+     "rank": 1,
+     "chunk_id": 8084,
+     "page": 590,
+     "retrieval_rank": 1,
+     "rerank_score": 3.27776837348938,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8076,
+     "page": 589,
+     "retrieval_rank": 2,
+     "rerank_score": 0.5060823559761047,
+     "route": "code_hybrid"
+    }
+   ],
+   "E5": [
+    {
+     "rank": 1,
+     "chunk_id": 3314,
+     "page": 576,
+     "retrieval_rank": 1,
+     "rerank_score": 3.4143543243408203,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3308,
+     "page": 575,
+     "retrieval_rank": 2,
+     "rerank_score": -2.9394850730895996,
+     "route": "code_hybrid"
+    }
+   ],
+   "E6": [
+    {
+     "rank": 1,
+     "chunk_id": 8053,
+     "page": 584,
+     "retrieval_rank": 1,
+     "rerank_score": 4.958545207977295,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8050,
+     "page": 583,
+     "retrieval_rank": 2,
+     "rerank_score": -0.7928570508956909,
+     "route": "code_hybrid"
+    }
+   ],
+   "E7": [
+    {
+     "rank": 1,
+     "chunk_id": 5180,
+     "page": 864,
+     "retrieval_rank": 1,
+     "rerank_score": 5.607870101928711,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5169,
+     "page": 862,
+     "retrieval_rank": 2,
+     "rerank_score": 1.9653754234313965,
+     "route": "code_hybrid"
+    }
+   ],
+   "E8": [
+    {
+     "rank": 1,
+     "chunk_id": 7762,
+     "page": 528,
+     "retrieval_rank": 2,
+     "rerank_score": -2.2569615840911865,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7760,
+     "page": 528,
+     "retrieval_rank": 1,
+     "rerank_score": -3.797801971435547,
+     "route": "code_hybrid"
+    }
+   ],
+   "E9": [
+    {
+     "rank": 1,
+     "chunk_id": 1277,
+     "page": 247,
+     "retrieval_rank": 1,
+     "rerank_score": 6.775808334350586,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1271,
+     "page": 246,
+     "retrieval_rank": 2,
+     "rerank_score": 0.7895652651786804,
+     "route": "code_hybrid"
+    }
+   ],
+   "E10": [
+    {
+     "rank": 1,
+     "chunk_id": 7557,
+     "page": 489,
+     "retrieval_rank": 1,
+     "rerank_score": 3.8076796531677246,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7549,
+     "page": 487,
+     "retrieval_rank": 2,
+     "rerank_score": -6.172427177429199,
+     "route": "code_hybrid"
+    }
+   ],
+   "C1": [
+    {
+     "rank": 1,
+     "chunk_id": 1371,
+     "page": 261,
+     "retrieval_rank": 1,
+     "rerank_score": -0.9603348970413208,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1360,
+     "page": 259,
+     "retrieval_rank": 2,
+     "rerank_score": -1.9627054929733276,
+     "route": "code_hybrid"
+    }
+   ],
+   "C2": [
+    {
+     "rank": 1,
+     "chunk_id": 2409,
+     "page": 431,
+     "retrieval_rank": 1,
+     "rerank_score": 2.095968246459961,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2415,
+     "page": 432,
+     "retrieval_rank": 2,
+     "rerank_score": -4.639244079589844,
+     "route": "code_hybrid"
+    }
+   ],
+   "C3": [
+    {
+     "rank": 1,
+     "chunk_id": 2993,
+     "page": 525,
+     "retrieval_rank": 1,
+     "rerank_score": 2.605983257293701,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2987,
+     "page": 524,
+     "retrieval_rank": 2,
+     "rerank_score": -1.25380539894104,
+     "route": "code_hybrid"
+    }
+   ],
+   "C4": [
+    {
+     "rank": 1,
+     "chunk_id": 3490,
+     "page": 604,
+     "retrieval_rank": 1,
+     "rerank_score": 6.673562526702881,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3484,
+     "page": 603,
+     "retrieval_rank": 2,
+     "rerank_score": 1.1399970054626465,
+     "route": "code_hybrid"
+    }
+   ],
+   "C5": [
+    {
+     "rank": 1,
+     "chunk_id": 3250,
+     "page": 566,
+     "retrieval_rank": 5,
+     "rerank_score": -4.4311017990112305,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3287,
+     "page": 571,
+     "retrieval_rank": 2,
+     "rerank_score": -4.501298904418945,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3187,
+     "page": 556,
+     "retrieval_rank": 3,
+     "rerank_score": -4.556728363037109,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3185,
+     "page": 556,
+     "retrieval_rank": 1,
+     "rerank_score": -5.323890686035156,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 3237,
+     "page": 564,
+     "retrieval_rank": 4,
+     "rerank_score": -8.968108177185059,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3280,
+     "page": 570,
+     "retrieval_rank": 6,
+     "rerank_score": -9.237907409667969,
+     "route": "code_hybrid"
+    }
+   ],
+   "C6": [
+    {
+     "rank": 1,
+     "chunk_id": 8511,
+     "page": 674,
+     "retrieval_rank": 2,
+     "rerank_score": 2.8773107528686523,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8560,
+     "page": 684,
+     "retrieval_rank": 1,
+     "rerank_score": 2.0422019958496094,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8510,
+     "page": 674,
+     "retrieval_rank": 5,
+     "rerank_score": 1.3065617084503174,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 8518,
+     "page": 676,
+     "retrieval_rank": 4,
+     "rerank_score": -1.4768654108047485,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8517,
+     "page": 676,
+     "retrieval_rank": 3,
+     "rerank_score": -2.206671953201294,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8567,
+     "page": 686,
+     "retrieval_rank": 6,
+     "rerank_score": -2.7770705223083496,
+     "route": "code_hybrid"
+    }
+   ],
+   "C7": [
+    {
+     "rank": 1,
+     "chunk_id": 10599,
+     "page": 1108,
+     "retrieval_rank": 2,
+     "rerank_score": 3.8132424354553223,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10586,
+     "page": 1105,
+     "retrieval_rank": 1,
+     "rerank_score": 3.8042752742767334,
+     "route": "code_hybrid"
+    }
+   ],
+   "C8": [
+    {
+     "rank": 1,
+     "chunk_id": 10530,
+     "page": 1095,
+     "retrieval_rank": 1,
+     "rerank_score": 4.2468109130859375,
+     "route": "code_hybrid"
+    }
+   ],
+   "C9": [
+    {
+     "rank": 1,
+     "chunk_id": 7153,
+     "page": 415,
+     "retrieval_rank": 1,
+     "rerank_score": 0.38117438554763794,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7151,
+     "page": 414,
+     "retrieval_rank": 2,
+     "rerank_score": 0.37825483083724976,
+     "route": "code_hybrid"
+    }
+   ],
+   "C10": [
+    {
+     "rank": 1,
+     "chunk_id": 6992,
+     "page": 388,
+     "retrieval_rank": 2,
+     "rerank_score": 0.67545485496521,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7838,
+     "page": 542,
+     "retrieval_rank": 6,
+     "rerank_score": -1.8121261596679688,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 7054,
+     "page": 398,
+     "retrieval_rank": 8,
+     "rerank_score": -1.918507695198059,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 7350,
+     "page": 451,
+     "retrieval_rank": 1,
+     "rerank_score": -2.3481943607330322,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 7832,
+     "page": 541,
+     "retrieval_rank": 5,
+     "rerank_score": -2.590640068054199,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7246,
+     "page": 434,
+     "retrieval_rank": 7,
+     "rerank_score": -2.7259774208068848,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7297,
+     "page": 442,
+     "retrieval_rank": 3,
+     "rerank_score": -3.0843138694763184,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 6980,
+     "page": 385,
+     "retrieval_rank": 10,
+     "rerank_score": -3.9978697299957275,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7971,
+     "page": 568,
+     "retrieval_rank": 4,
+     "rerank_score": -4.784780025482178,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7045,
+     "page": 396,
+     "retrieval_rank": 9,
+     "rerank_score": -5.226451396942139,
+     "route": "code_hybrid"
+    }
+   ],
+   "O1": [
+    {
+     "rank": 1,
+     "chunk_id": 8168,
+     "page": 606,
+     "retrieval_rank": 2,
+     "rerank_score": -10.184043884277344,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10605,
+     "page": 1108,
+     "retrieval_rank": 3,
+     "rerank_score": -10.672680854797363,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8165,
+     "page": 605,
+     "retrieval_rank": 7,
+     "rerank_score": -11.10116958618164,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 241,
+     "page": 67,
+     "retrieval_rank": 1,
+     "rerank_score": -11.183074951171875,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 10543,
+     "page": 1098,
+     "retrieval_rank": 8,
+     "rerank_score": -11.245356559753418,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 10544,
+     "page": 1098,
+     "retrieval_rank": 5,
+     "rerank_score": -11.292867660522461,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 3205,
+     "page": 559,
+     "retrieval_rank": 10,
+     "rerank_score": -11.317253112792969,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 3206,
+     "page": 560,
+     "retrieval_rank": 9,
+     "rerank_score": -11.326311111450195,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 3505,
+     "page": 606,
+     "retrieval_rank": 4,
+     "rerank_score": -11.327740669250488,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 3518,
+     "page": 608,
+     "retrieval_rank": 6,
+     "rerank_score": -11.32796573638916,
+     "route": "vector"
+    }
+   ],
+   "O2": [
+    {
+     "rank": 1,
+     "chunk_id": 257,
+     "page": 74,
+     "retrieval_rank": 1,
+     "rerank_score": -3.303847551345825,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5737,
+     "page": 75,
+     "retrieval_rank": 2,
+     "rerank_score": -3.303847551345825,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5633,
+     "page": 15,
+     "retrieval_rank": 3,
+     "rerank_score": -7.628787040710449,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 40,
+     "page": 15,
+     "retrieval_rank": 4,
+     "rerank_score": -8.330538749694824,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1041,
+     "page": 215,
+     "retrieval_rank": 6,
+     "rerank_score": -8.70921516418457,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1083,
+     "page": 219,
+     "retrieval_rank": 5,
+     "rerank_score": -9.430061340332031,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1158,
+     "page": 229,
+     "retrieval_rank": 7,
+     "rerank_score": -9.46493911743164,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1195,
+     "page": 234,
+     "retrieval_rank": 8,
+     "rerank_score": -9.625673294067383,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 2829,
+     "page": 499,
+     "retrieval_rank": 9,
+     "rerank_score": -10.240083694458008,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 212,
+     "page": 57,
+     "retrieval_rank": 10,
+     "rerank_score": -10.964975357055664,
+     "route": "vector"
+    }
+   ],
+   "O3": [
+    {
+     "rank": 1,
+     "chunk_id": 5599,
+     "page": 928,
+     "retrieval_rank": 1,
+     "rerank_score": -0.4534263610839844,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10719,
+     "page": 1128,
+     "retrieval_rank": 3,
+     "rerank_score": -0.725954532623291,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5597,
+     "page": 928,
+     "retrieval_rank": 5,
+     "rerank_score": -0.7710509300231934,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5595,
+     "page": 928,
+     "retrieval_rank": 9,
+     "rerank_score": -2.442030668258667,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5608,
+     "page": 930,
+     "retrieval_rank": 4,
+     "rerank_score": -2.988420009613037,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5604,
+     "page": 929,
+     "retrieval_rank": 2,
+     "rerank_score": -4.138989448547363,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 10730,
+     "page": 1131,
+     "retrieval_rank": 7,
+     "rerank_score": -4.1906938552856445,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10724,
+     "page": 1129,
+     "retrieval_rank": 8,
+     "rerank_score": -4.294564247131348,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5596,
+     "page": 928,
+     "retrieval_rank": 6,
+     "rerank_score": -4.7096452713012695,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 9858,
+     "page": 956,
+     "retrieval_rank": 10,
+     "rerank_score": -10.293721199035645,
+     "route": "vector"
+    }
+   ],
+   "O4": [
+    {
+     "rank": 1,
+     "chunk_id": 528,
+     "page": 129,
+     "retrieval_rank": 1,
+     "rerank_score": -4.737104892730713,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7807,
+     "page": 536,
+     "retrieval_rank": 8,
+     "rerank_score": -6.212390422821045,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 6940,
+     "page": 377,
+     "retrieval_rank": 10,
+     "rerank_score": -8.256203651428223,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1317,
+     "page": 252,
+     "retrieval_rank": 4,
+     "rerank_score": -8.480766296386719,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 527,
+     "page": 129,
+     "retrieval_rank": 2,
+     "rerank_score": -8.651042938232422,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8154,
+     "page": 603,
+     "retrieval_rank": 5,
+     "rerank_score": -9.360666275024414,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 8113,
+     "page": 595,
+     "retrieval_rank": 6,
+     "rerank_score": -9.626397132873535,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 8106,
+     "page": 594,
+     "retrieval_rank": 7,
+     "rerank_score": -9.922232627868652,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 6950,
+     "page": 379,
+     "retrieval_rank": 9,
+     "rerank_score": -9.972137451171875,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7964,
+     "page": 566,
+     "retrieval_rank": 3,
+     "rerank_score": -10.052350997924805,
+     "route": "vector"
+    }
+   ],
+   "O5": [
+    {
+     "rank": 1,
+     "chunk_id": 441,
+     "page": 109,
+     "retrieval_rank": 4,
+     "rerank_score": -7.807100296020508,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10718,
+     "page": 1128,
+     "retrieval_rank": 5,
+     "rerank_score": -8.67768669128418,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5598,
+     "page": 928,
+     "retrieval_rank": 6,
+     "rerank_score": -8.76717472076416,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 287,
+     "page": 79,
+     "retrieval_rank": 2,
+     "rerank_score": -9.835724830627441,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5767,
+     "page": 80,
+     "retrieval_rank": 3,
+     "rerank_score": -9.835724830627441,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 9,
+     "page": 6,
+     "retrieval_rank": 1,
+     "rerank_score": -10.607585906982422,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5750,
+     "page": 77,
+     "retrieval_rank": 9,
+     "rerank_score": -10.825235366821289,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 270,
+     "page": 76,
+     "retrieval_rank": 10,
+     "rerank_score": -10.825235366821289,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5751,
+     "page": 77,
+     "retrieval_rank": 7,
+     "rerank_score": -10.92304801940918,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 271,
+     "page": 76,
+     "retrieval_rank": 8,
+     "rerank_score": -10.92304801940918,
+     "route": "vector"
+    }
+   ]
+  },
+  "T1_v1": {
+   "N1": [
+    {
+     "rank": 1,
+     "chunk_id": 298,
+     "page": 81,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5710,
+     "page": 32,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 111,
+     "page": 31,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5709,
+     "page": 31,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 371,
+     "page": 95,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 305,
+     "page": 83,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 299,
+     "page": 82,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 289,
+     "page": 79,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 291,
+     "page": 80,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 112,
+     "page": 32,
+     "route": "vector"
+    }
+   ],
+   "N2": [
+    {
+     "rank": 1,
+     "chunk_id": 731,
+     "page": 169,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 727,
+     "page": 169,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 734,
+     "page": 170,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 742,
+     "page": 171,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 697,
+     "page": 164,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1205,
+     "page": 235,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 733,
+     "page": 170,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 730,
+     "page": 169,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 747,
+     "page": 172,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 729,
+     "page": 169,
+     "route": "vector"
+    }
+   ],
+   "N3": [
+    {
+     "rank": 1,
+     "chunk_id": 5652,
+     "page": 19,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 105,
+     "page": 29,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 56,
+     "page": 18,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 106,
+     "page": 30,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5703,
+     "page": 30,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5713,
+     "page": 32,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 107,
+     "page": 30,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 12,
+     "page": 8,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 302,
+     "page": 83,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 13,
+     "page": 8,
+     "route": "vector"
+    }
+   ],
+   "N4": [
+    {
+     "rank": 1,
+     "chunk_id": 596,
+     "page": 141,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5604,
+     "page": 929,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 10724,
+     "page": 1129,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5737,
+     "page": 75,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 257,
+     "page": 74,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 10723,
+     "page": 1129,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 19,
+     "page": 10,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 393,
+     "page": 99,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5747,
+     "page": 76,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 322,
+     "page": 87,
+     "route": "vector"
+    }
+   ],
+   "N5": [
+    {
+     "rank": 1,
+     "chunk_id": 5826,
+     "page": 154,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 640,
+     "page": 151,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5827,
+     "page": 154,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 641,
+     "page": 152,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5813,
+     "page": 151,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5819,
+     "page": 152,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 626,
+     "page": 149,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 632,
+     "page": 150,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5829,
+     "page": 154,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5816,
+     "page": 152,
+     "route": "vector"
+    }
+   ],
+   "N6": [
+    {
+     "rank": 1,
+     "chunk_id": 438,
+     "page": 108,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 443,
+     "page": 109,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5610,
+     "page": 930,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 10729,
+     "page": 1130,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 444,
+     "page": 109,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 434,
+     "page": 107,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5611,
+     "page": 930,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 439,
+     "page": 108,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 442,
+     "page": 109,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 556,
+     "page": 134,
+     "route": "vector"
+    }
+   ],
+   "N7": [
+    {
+     "rank": 1,
+     "chunk_id": 5816,
+     "page": 152,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5829,
+     "page": 154,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 628,
+     "page": 149,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 643,
+     "page": 152,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4656,
+     "page": 781,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 653,
+     "page": 154,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5819,
+     "page": 152,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 4057,
+     "page": 692,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 641,
+     "page": 152,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 866,
+     "page": 190,
+     "route": "vector"
+    }
+   ],
+   "N8": [
+    {
+     "rank": 1,
+     "chunk_id": 421,
+     "page": 105,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 529,
+     "page": 130,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 630,
+     "page": 150,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5817,
+     "page": 152,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1220,
+     "page": 237,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7723,
+     "page": 520,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7724,
+     "page": 521,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 8253,
+     "page": 622,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 6950,
+     "page": 379,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 532,
+     "page": 130,
+     "route": "vector"
+    }
+   ],
+   "N9": [
+    {
+     "rank": 1,
+     "chunk_id": 5851,
+     "page": 159,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 664,
+     "page": 156,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5131,
+     "page": 855,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 4066,
+     "page": 694,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5023,
+     "page": 839,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 4717,
+     "page": 789,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5848,
+     "page": 159,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 662,
+     "page": 156,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 419,
+     "page": 104,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5844,
+     "page": 158,
+     "route": "vector"
+    }
+   ],
+   "N10": [
+    {
+     "rank": 1,
+     "chunk_id": 566,
+     "page": 136,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2364,
+     "page": 424,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2329,
+     "page": 418,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 2019,
+     "page": 368,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8319,
+     "page": 636,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 2293,
+     "page": 413,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 2085,
+     "page": 378,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 2253,
+     "page": 407,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 2050,
+     "page": 372,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 497,
+     "page": 122,
+     "route": "vector"
+    }
+   ],
+   "E1": [
+    {
+     "rank": 1,
+     "chunk_id": 1618,
+     "page": 304,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1616,
+     "page": 303,
+     "route": "code_hybrid"
+    }
+   ],
+   "E2": [
+    {
+     "rank": 1,
+     "chunk_id": 7832,
+     "page": 541,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7837,
+     "page": 542,
+     "route": "code_hybrid"
+    }
+   ],
+   "E3": [
+    {
+     "rank": 1,
+     "chunk_id": 3190,
+     "page": 556,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3282,
+     "page": 571,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3300,
+     "page": 573,
+     "route": "code_hybrid"
+    }
+   ],
+   "E4": [
+    {
+     "rank": 1,
+     "chunk_id": 8076,
+     "page": 589,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8084,
+     "page": 590,
+     "route": "code_hybrid"
+    }
+   ],
+   "E5": [
+    {
+     "rank": 1,
+     "chunk_id": 3314,
+     "page": 576,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3308,
+     "page": 575,
+     "route": "code_hybrid"
+    }
+   ],
+   "E6": [
+    {
+     "rank": 1,
+     "chunk_id": 8053,
+     "page": 584,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8050,
+     "page": 583,
+     "route": "code_hybrid"
+    }
+   ],
+   "E7": [
+    {
+     "rank": 1,
+     "chunk_id": 5180,
+     "page": 864,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5169,
+     "page": 862,
+     "route": "code_hybrid"
+    }
+   ],
+   "E8": [
+    {
+     "rank": 1,
+     "chunk_id": 7760,
+     "page": 528,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7762,
+     "page": 528,
+     "route": "code_hybrid"
+    }
+   ],
+   "E9": [
+    {
+     "rank": 1,
+     "chunk_id": 1277,
+     "page": 247,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1271,
+     "page": 246,
+     "route": "code_hybrid"
+    }
+   ],
+   "E10": [
+    {
+     "rank": 1,
+     "chunk_id": 7557,
+     "page": 489,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7549,
+     "page": 487,
+     "route": "code_hybrid"
+    }
+   ],
+   "C1": [
+    {
+     "rank": 1,
+     "chunk_id": 1360,
+     "page": 259,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1371,
+     "page": 261,
+     "route": "code_hybrid"
+    }
+   ],
+   "C2": [
+    {
+     "rank": 1,
+     "chunk_id": 2409,
+     "page": 431,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2415,
+     "page": 432,
+     "route": "code_hybrid"
+    }
+   ],
+   "C3": [
+    {
+     "rank": 1,
+     "chunk_id": 2993,
+     "page": 525,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2987,
+     "page": 524,
+     "route": "code_hybrid"
+    }
+   ],
+   "C4": [
+    {
+     "rank": 1,
+     "chunk_id": 3490,
+     "page": 604,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3484,
+     "page": 603,
+     "route": "code_hybrid"
+    }
+   ],
+   "C5": [
+    {
+     "rank": 1,
+     "chunk_id": 3185,
+     "page": 556,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3237,
+     "page": 564,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3280,
+     "page": 570,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3287,
+     "page": 571,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 3250,
+     "page": 566,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3187,
+     "page": 556,
+     "route": "code_hybrid"
+    }
+   ],
+   "C6": [
+    {
+     "rank": 1,
+     "chunk_id": 8511,
+     "page": 674,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8560,
+     "page": 684,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8510,
+     "page": 674,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 8517,
+     "page": 676,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8567,
+     "page": 686,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8518,
+     "page": 676,
+     "route": "code_hybrid"
+    }
+   ],
+   "C7": [
+    {
+     "rank": 1,
+     "chunk_id": 10586,
+     "page": 1105,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10599,
+     "page": 1108,
+     "route": "code_hybrid"
+    }
+   ],
+   "C8": [
+    {
+     "rank": 1,
+     "chunk_id": 10530,
+     "page": 1095,
+     "route": "code_hybrid"
+    }
+   ],
+   "C9": [
+    {
+     "rank": 1,
+     "chunk_id": 7153,
+     "page": 415,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7151,
+     "page": 414,
+     "route": "code_hybrid"
+    }
+   ],
+   "C10": [
+    {
+     "rank": 1,
+     "chunk_id": 7350,
+     "page": 451,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7832,
+     "page": 541,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 7297,
+     "page": 442,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 7971,
+     "page": 568,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 6981,
+     "page": 385,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7045,
+     "page": 396,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 6980,
+     "page": 385,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7339,
+     "page": 449,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7246,
+     "page": 434,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7838,
+     "page": 542,
+     "route": "code_hybrid"
+    }
+   ],
+   "O1": [
+    {
+     "rank": 1,
+     "chunk_id": 8168,
+     "page": 606,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8087,
+     "page": 591,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 241,
+     "page": 67,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3505,
+     "page": 606,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8167,
+     "page": 606,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8086,
+     "page": 591,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 10544,
+     "page": 1098,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10549,
+     "page": 1099,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 8165,
+     "page": 605,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 8172,
+     "page": 606,
+     "route": "vector"
+    }
+   ],
+   "O2": [
+    {
+     "rank": 1,
+     "chunk_id": 257,
+     "page": 74,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5737,
+     "page": 75,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5633,
+     "page": 15,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1158,
+     "page": 229,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 40,
+     "page": 15,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 2829,
+     "page": 499,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 2216,
+     "page": 401,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 4758,
+     "page": 795,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 1041,
+     "page": 215,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 3225,
+     "page": 562,
+     "route": "vector"
+    }
+   ],
+   "O3": [
+    {
+     "rank": 1,
+     "chunk_id": 5599,
+     "page": 928,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10719,
+     "page": 1128,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 9556,
+     "page": 901,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5595,
+     "page": 928,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5374,
+     "page": 897,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 9858,
+     "page": 956,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 10715,
+     "page": 1127,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10730,
+     "page": 1131,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5604,
+     "page": 929,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 10724,
+     "page": 1129,
+     "route": "vector"
+    }
+   ],
+   "O4": [
+    {
+     "rank": 1,
+     "chunk_id": 1317,
+     "page": 252,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 527,
+     "page": 129,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 6950,
+     "page": 379,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1220,
+     "page": 237,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 528,
+     "page": 129,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 6940,
+     "page": 377,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7964,
+     "page": 566,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7807,
+     "page": 536,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7724,
+     "page": 521,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 6939,
+     "page": 377,
+     "route": "vector"
+    }
+   ],
+   "O5": [
+    {
+     "rank": 1,
+     "chunk_id": 9,
+     "page": 6,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5767,
+     "page": 80,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 287,
+     "page": 79,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 10718,
+     "page": 1128,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 418,
+     "page": 104,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 441,
+     "page": 109,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5598,
+     "page": 928,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5751,
+     "page": 77,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 271,
+     "page": 76,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5750,
+     "page": 77,
+     "route": "vector"
+    }
+   ]
+  },
+  "T1_v2": {
+   "N1": [
+    {
+     "rank": 1,
+     "chunk_id": 111,
+     "page": 31,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 298,
+     "page": 81,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5710,
+     "page": 32,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 299,
+     "page": 82,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5709,
+     "page": 31,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 305,
+     "page": 83,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 289,
+     "page": 79,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 300,
+     "page": 83,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 112,
+     "page": 32,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 310,
+     "page": 84,
+     "route": "vector"
+    }
+   ],
+   "N2": [
+    {
+     "rank": 1,
+     "chunk_id": 731,
+     "page": 169,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 734,
+     "page": 170,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 697,
+     "page": 164,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 732,
+     "page": 170,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 733,
+     "page": 170,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 742,
+     "page": 171,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 714,
+     "page": 167,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 727,
+     "page": 169,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 710,
+     "page": 166,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 1205,
+     "page": 235,
+     "route": "vector"
+    }
+   ],
+   "N3": [
+    {
+     "rank": 1,
+     "chunk_id": 5652,
+     "page": 19,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 105,
+     "page": 29,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 106,
+     "page": 30,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 56,
+     "page": 18,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5703,
+     "page": 30,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 12,
+     "page": 8,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5713,
+     "page": 32,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 13,
+     "page": 8,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5626,
+     "page": 8,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5625,
+     "page": 8,
+     "route": "vector"
+    }
+   ],
+   "N4": [
+    {
+     "rank": 1,
+     "chunk_id": 38,
+     "page": 14,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 19,
+     "page": 10,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 322,
+     "page": 87,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 393,
+     "page": 99,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 257,
+     "page": 74,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5737,
+     "page": 75,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 3,
+     "page": 4,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 45,
+     "page": 16,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5747,
+     "page": 76,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 46,
+     "page": 16,
+     "route": "vector"
+    }
+   ],
+   "N5": [
+    {
+     "rank": 1,
+     "chunk_id": 640,
+     "page": 151,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5826,
+     "page": 154,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 641,
+     "page": 152,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5827,
+     "page": 154,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5819,
+     "page": 152,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5813,
+     "page": 151,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 632,
+     "page": 150,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 625,
+     "page": 149,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 626,
+     "page": 149,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 648,
+     "page": 153,
+     "route": "vector"
+    }
+   ],
+   "N6": [
+    {
+     "rank": 1,
+     "chunk_id": 438,
+     "page": 108,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 443,
+     "page": 109,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 439,
+     "page": 108,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 444,
+     "page": 109,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 434,
+     "page": 107,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 442,
+     "page": 109,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5610,
+     "page": 930,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10729,
+     "page": 1130,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 556,
+     "page": 134,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 437,
+     "page": 108,
+     "route": "vector"
+    }
+   ],
+   "N7": [
+    {
+     "rank": 1,
+     "chunk_id": 5816,
+     "page": 152,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5829,
+     "page": 154,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5454,
+     "page": 907,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 628,
+     "page": 149,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 4656,
+     "page": 781,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5819,
+     "page": 152,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 643,
+     "page": 152,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 642,
+     "page": 152,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 653,
+     "page": 154,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5828,
+     "page": 154,
+     "route": "vector"
+    }
+   ],
+   "N8": [
+    {
+     "rank": 1,
+     "chunk_id": 529,
+     "page": 130,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 421,
+     "page": 105,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 630,
+     "page": 150,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5817,
+     "page": 152,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 532,
+     "page": 130,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8833,
+     "page": 742,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 531,
+     "page": 130,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 5811,
+     "page": 150,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 528,
+     "page": 129,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 7723,
+     "page": 520,
+     "route": "vector"
+    }
+   ],
+   "N9": [
+    {
+     "rank": 1,
+     "chunk_id": 664,
+     "page": 156,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5851,
+     "page": 159,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 419,
+     "page": 104,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5131,
+     "page": 855,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5825,
+     "page": 154,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5850,
+     "page": 159,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 4938,
+     "page": 824,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 662,
+     "page": 156,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5848,
+     "page": 159,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5849,
+     "page": 159,
+     "route": "vector"
+    }
+   ],
+   "N10": [
+    {
+     "rank": 1,
+     "chunk_id": 566,
+     "page": 136,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2364,
+     "page": 424,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2293,
+     "page": 413,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 2329,
+     "page": 418,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 2085,
+     "page": 378,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 2050,
+     "page": 372,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 8889,
+     "page": 755,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 2253,
+     "page": 407,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 497,
+     "page": 122,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 5803,
+     "page": 148,
+     "route": "vector"
+    }
+   ],
+   "E1": [
+    {
+     "rank": 1,
+     "chunk_id": 1618,
+     "page": 304,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1616,
+     "page": 303,
+     "route": "code_hybrid"
+    }
+   ],
+   "E2": [
+    {
+     "rank": 1,
+     "chunk_id": 7837,
+     "page": 542,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7832,
+     "page": 541,
+     "route": "code_hybrid"
+    }
+   ],
+   "E3": [
+    {
+     "rank": 1,
+     "chunk_id": 3300,
+     "page": 573,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3190,
+     "page": 556,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3282,
+     "page": 571,
+     "route": "code_hybrid"
+    }
+   ],
+   "E4": [
+    {
+     "rank": 1,
+     "chunk_id": 8084,
+     "page": 590,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8076,
+     "page": 589,
+     "route": "code_hybrid"
+    }
+   ],
+   "E5": [
+    {
+     "rank": 1,
+     "chunk_id": 3314,
+     "page": 576,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3308,
+     "page": 575,
+     "route": "code_hybrid"
+    }
+   ],
+   "E6": [
+    {
+     "rank": 1,
+     "chunk_id": 8053,
+     "page": 584,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8050,
+     "page": 583,
+     "route": "code_hybrid"
+    }
+   ],
+   "E7": [
+    {
+     "rank": 1,
+     "chunk_id": 5180,
+     "page": 864,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5169,
+     "page": 862,
+     "route": "code_hybrid"
+    }
+   ],
+   "E8": [
+    {
+     "rank": 1,
+     "chunk_id": 7760,
+     "page": 528,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7762,
+     "page": 528,
+     "route": "code_hybrid"
+    }
+   ],
+   "E9": [
+    {
+     "rank": 1,
+     "chunk_id": 1277,
+     "page": 247,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1271,
+     "page": 246,
+     "route": "code_hybrid"
+    }
+   ],
+   "E10": [
+    {
+     "rank": 1,
+     "chunk_id": 7557,
+     "page": 489,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7549,
+     "page": 487,
+     "route": "code_hybrid"
+    }
+   ],
+   "C1": [
+    {
+     "rank": 1,
+     "chunk_id": 1371,
+     "page": 261,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1360,
+     "page": 259,
+     "route": "code_hybrid"
+    }
+   ],
+   "C2": [
+    {
+     "rank": 1,
+     "chunk_id": 2409,
+     "page": 431,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2415,
+     "page": 432,
+     "route": "code_hybrid"
+    }
+   ],
+   "C3": [
+    {
+     "rank": 1,
+     "chunk_id": 2993,
+     "page": 525,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2987,
+     "page": 524,
+     "route": "code_hybrid"
+    }
+   ],
+   "C4": [
+    {
+     "rank": 1,
+     "chunk_id": 3490,
+     "page": 604,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3484,
+     "page": 603,
+     "route": "code_hybrid"
+    }
+   ],
+   "C5": [
+    {
+     "rank": 1,
+     "chunk_id": 3185,
+     "page": 556,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3287,
+     "page": 571,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3187,
+     "page": 556,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3237,
+     "page": 564,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 3250,
+     "page": 566,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3280,
+     "page": 570,
+     "route": "code_hybrid"
+    }
+   ],
+   "C6": [
+    {
+     "rank": 1,
+     "chunk_id": 8560,
+     "page": 684,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8511,
+     "page": 674,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8517,
+     "page": 676,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 8518,
+     "page": 676,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8510,
+     "page": 674,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8567,
+     "page": 686,
+     "route": "code_hybrid"
+    }
+   ],
+   "C7": [
+    {
+     "rank": 1,
+     "chunk_id": 10586,
+     "page": 1105,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10599,
+     "page": 1108,
+     "route": "code_hybrid"
+    }
+   ],
+   "C8": [
+    {
+     "rank": 1,
+     "chunk_id": 10530,
+     "page": 1095,
+     "route": "code_hybrid"
+    }
+   ],
+   "C9": [
+    {
+     "rank": 1,
+     "chunk_id": 7153,
+     "page": 415,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7151,
+     "page": 414,
+     "route": "code_hybrid"
+    }
+   ],
+   "C10": [
+    {
+     "rank": 1,
+     "chunk_id": 7350,
+     "page": 451,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 6992,
+     "page": 388,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 7297,
+     "page": 442,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 7971,
+     "page": 568,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 7832,
+     "page": 541,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 7838,
+     "page": 542,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 7246,
+     "page": 434,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7054,
+     "page": 398,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 7045,
+     "page": 396,
+     "route": "code_hybrid"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 6980,
+     "page": 385,
+     "route": "code_hybrid"
+    }
+   ],
+   "O1": [
+    {
+     "rank": 1,
+     "chunk_id": 241,
+     "page": 67,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8168,
+     "page": 606,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 10605,
+     "page": 1108,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3505,
+     "page": 606,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 10544,
+     "page": 1098,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 3518,
+     "page": 608,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 8165,
+     "page": 605,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10543,
+     "page": 1098,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 3206,
+     "page": 560,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 3205,
+     "page": 559,
+     "route": "vector"
+    }
+   ],
+   "O2": [
+    {
+     "rank": 1,
+     "chunk_id": 257,
+     "page": 74,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5737,
+     "page": 75,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5633,
+     "page": 15,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 40,
+     "page": 15,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1083,
+     "page": 219,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 1041,
+     "page": 215,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 1158,
+     "page": 229,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 1195,
+     "page": 234,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 2829,
+     "page": 499,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 212,
+     "page": 57,
+     "route": "vector"
+    }
+   ],
+   "O3": [
+    {
+     "rank": 1,
+     "chunk_id": 5599,
+     "page": 928,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5604,
+     "page": 929,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 10719,
+     "page": 1128,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5608,
+     "page": 930,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5597,
+     "page": 928,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5596,
+     "page": 928,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 10730,
+     "page": 1131,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 10724,
+     "page": 1129,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5595,
+     "page": 928,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 9858,
+     "page": 956,
+     "route": "vector"
+    }
+   ],
+   "O4": [
+    {
+     "rank": 1,
+     "chunk_id": 528,
+     "page": 129,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 527,
+     "page": 129,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 7964,
+     "page": 566,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1317,
+     "page": 252,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 8154,
+     "page": 603,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 8113,
+     "page": 595,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 8106,
+     "page": 594,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 7807,
+     "page": 536,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 6950,
+     "page": 379,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 6940,
+     "page": 377,
+     "route": "vector"
+    }
+   ],
+   "O5": [
+    {
+     "rank": 1,
+     "chunk_id": 9,
+     "page": 6,
+     "route": "vector"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 287,
+     "page": 79,
+     "route": "vector"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5767,
+     "page": 80,
+     "route": "vector"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 441,
+     "page": 109,
+     "route": "vector"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 10718,
+     "page": 1128,
+     "route": "vector"
+    },
+    {
+     "rank": 6,
+     "chunk_id": 5598,
+     "page": 928,
+     "route": "vector"
+    },
+    {
+     "rank": 7,
+     "chunk_id": 5751,
+     "page": 77,
+     "route": "vector"
+    },
+    {
+     "rank": 8,
+     "chunk_id": 271,
+     "page": 76,
+     "route": "vector"
+    },
+    {
+     "rank": 9,
+     "chunk_id": 5750,
+     "page": 77,
+     "route": "vector"
+    },
+    {
+     "rank": 10,
+     "chunk_id": 270,
+     "page": 76,
+     "route": "vector"
+    }
+   ]
+  }
+ },
+ "added_ms": {
+  "accepted": {
+   "median": 405,
+   "p95": 1392
+  },
+  "A": {
+   "median": 394,
+   "p95": 1660
+  },
+  "B": {
+   "median": 601,
+   "p95": 2757
+  }
+ },
+ "n4_diagnosis": {
+  "v1": {
+   "vector_rank": 109,
+   "bm25_rank": 71
+  },
+  "v2": {
+   "vector_rank": 1,
+   "bm25_rank": 1
+  },
+  "v2_heading": "Section: MIDLANDS STATE UNIVERSITY ACT > 5 Membership of the University"
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "v1": {
+  "seed": 63,
+  "correct": 25,
+  "of": 30,
+  "wrong": {
+   "494": "wrong: part and section come from a list of faculties",
+   "984": "wrong: governing module is MADP 825 ('CODE - Title' form not recognised)",
+   "7278": "wrong: programme title cut off before '(BS09)' line",
+   "9815": "wrong: governing module HCSEC 221 is the last line of the previous chunk",
+   "10013": "wrong: governing module HACS 231 missed (description starts on a short line)"
+  },
+  "sample": [
+   494,
+   547,
+   984,
+   1211,
+   1235,
+   1286,
+   1426,
+   2096,
+   2671,
+   3317,
+   3644,
+   3732,
+   3847,
+   4144,
+   4485,
+   4764,
+   4818,
+   5029,
+   5376,
+   6335,
+   7010,
+   7278,
+   7293,
+   7934,
+   9103,
+   9776,
+   9815,
+   10013,
+   10042,
+   10292
+  ]
+ },
+ "v2": {
+  "seed": 64,
+  "correct": 24,
+  "section_correct": 25,
+  "of": 30,
+  "wrong": {
+   "276": "wrong: chunk is a front-matter list of faculties; part and section are list items",
+   "403": "wrong part (stale faculty name from a list); section 5.4 Experience is right",
+   "1727": "wrong (minor): chunk starts with the end of 2.2 Special entry; 2.3 was taken from the overlap with the previous chunk",
+   "3592": "wrong: '6 Compulsory modules plus 2 electives' is a table note, not a heading",
+   "8784": "wrong: governing module is BMS 116 (code and title on separate lines)",
+   "9648": "wrong: '3 Years (Visiting)' is a table value, not a heading"
+  },
+  "sample": [
+   87,
+   276,
+   403,
+   749,
+   1045,
+   1307,
+   1370,
+   1727,
+   2045,
+   2415,
+   2860,
+   3248,
+   3299,
+   3334,
+   3592,
+   4325,
+   4401,
+   6601,
+   6618,
+   6827,
+   7209,
+   7801,
+   8784,
+   8834,
+   9612,
+   9648,
+   10043,
+   10325,
+   10363,
+   10698
+  ],
+  "owner_review_sample": {
+   "seed": 65,
+   "chunk_ids": [
+    1727,
+    2415,
+    3334,
+    3592,
+    4401,
+    6601,
+    8834,
+    9612,
+    10043,
+    10363
+   ]
+  },
+  "owner_review": {
+   "date": "2026-10-08",
+   "cases": 10,
+   "owner_correct": 8,
+   "owner_wrong": 2,
+   "agreement_with_claude": "10/10",
+   "notes": {
+    "1727": "wrong - chunk-boundary limitation (chunk starts with the end of 2.2 Special Entry)",
+    "3334": "correct under the frozen rule, structurally awkward (later 'Level 1 Semester 1' combined with 7.0 GENERAL PROVISIONS)",
+    "3592": "wrong - false heading / table-structure limitation (table note read as a heading)",
+    "8834": "section correct; truncated programme title is a separate preprocessing limitation"
+   }
+  }
+ }
+}
