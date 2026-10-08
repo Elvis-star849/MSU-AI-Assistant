@@ -1,0 +1,8 @@
+{
+ "absolute_mapping_sha256": "sha256:b32ee74162fe1fe7bb5276c513893dd9d29b48f504e94fc2c94fadb19f846211",
+ "pairwise_mapping_sha256": "sha256:f61782a7aabdb2814cc798d0b6c5635ec3ae5d632bc135a7becedb751f79f904",
+ "absolute_package_sha256": "sha256:18f262b486b845384db321e3f45defd8c15ba0c806749034fdfc64fb9237040d",
+ "pairwise_package_sha256": "sha256:45fcd48356a831ffb6c8124748d38ccf06847bfb1e21bbe6a78ecac20679e8fc",
+ "private_dir": "~/rag_private/s7_1",
+ "note": "mappings stay private until grading is complete"
+}

@@ -1,0 +1,36 @@
+{
+ "experiment": "S7-1",
+ "status": "FROZEN before any S7-1 answer generation - approved by project owner",
+ "source": "eval/stage5_questions.json (Stage 5 development set); the Stage 6 held-out set is not used",
+ "main": {
+  "natural_language": ["N1", "N4", "N5", "N7", "N10"],
+  "exact_code": ["E3", "E4", "E5", "E6", "E7"],
+  "code_in_context": ["C1", "C5", "C8", "C9", "C10"]
+ },
+ "oos_diagnostic_S7_1B": ["O1", "O2", "O3", "O4", "O5"],
+ "excluded": {"N3": "used as the S7-0 live connectivity question; its answers have been seen"},
+ "rationale": {
+  "N1": "list answer; first sufficient evidence at rank 2; both yearbooks",
+  "N4": "answer split across two chunks (completeness)",
+  "N5": "two-part question with conditions",
+  "N7": "only sufficient chunk at rank 4 behind distractors",
+  "N10": "five consistent sufficient chunks (redundancy)",
+  "E3": "bare-code query form; known conflicting titles for SEMA204 (general conflicting-evidence rule only)",
+  "E4": "lowercase 'what is' query form; Sciences yearbook",
+  "E5": "'tell me about the module' query form; Humanities yearbook",
+  "E6": "'what is ... about' query form; Sciences yearbook",
+  "E7": "'describe' query form; Humanities yearbook",
+  "C1": "description question with user-supplied context the evidence does not confirm",
+  "C5": "programme-table credit question; known table weakness (sufficient at rank 4)",
+  "C8": "yes/no question containing a premise; single evidence chunk",
+  "C9": "list answer from a programme table; sufficient at rank 2",
+  "C10": "description question; known conflicting titles for BM135 (general conflicting-evidence rule only)"
+ },
+ "representativeness": {
+  "note": "This subset is somewhat harder than the complete Stage 5 in-scope pool, and conflict cases are intentionally overrepresented.",
+  "first_sufficient_at_rank_1": {"subset": "10/15", "in_scope_pool": "24/30"},
+  "conflict_cases": {"subset": "2/15 (E3, C10)", "in_scope_pool": "2/30"},
+  "evidence_chunks": "natural-language questions always have 5; code questions mostly 2 (E3: 3; C8: 1; C5, C10: 5) - the accepted Stage 6 code-aware behaviour"
+ },
+ "r1_ambiguity": "The S6-5 ambiguity metadata is not introduced in S7-1. R1 ambiguity-aware answer behaviour is deferred to S7-4. E3 and C10 exercise only the general conflicting-evidence rule; they are not an evaluation of the S6-5 ambiguity metadata."
+}

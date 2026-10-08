@@ -1,0 +1,780 @@
+{
+ "validity": {
+  "all_items_succeeded": true,
+  "all_finish_stop": true,
+  "no_reasoning_leakage": true,
+  "failed_attempts": [
+   "O2/arm2"
+  ],
+  "extra_attempts": [
+   "O2/arm2"
+  ],
+  "passed": true
+ },
+ "summary": {
+  "arm0": {
+   "overall": {
+    "correctness": 30,
+    "groundedness": 29,
+    "completeness": 30,
+    "directness": 30,
+    "hallucinations": 0
+   },
+   "natural_language": {
+    "correctness": 10,
+    "groundedness": 10,
+    "completeness": 10,
+    "directness": 10
+   },
+   "exact_code": {
+    "correctness": 10,
+    "groundedness": 10,
+    "completeness": 10,
+    "directness": 10
+   },
+   "code_in_context": {
+    "correctness": 10,
+    "groundedness": 9,
+    "completeness": 10,
+    "directness": 10
+   },
+   "per_question": {
+    "N1": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "N4": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "N5": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "N7": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "N10": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E3": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E4": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E5": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E6": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E7": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C1": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C5": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C8": {
+     "correctness": 2,
+     "groundedness": 1,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C9": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C10": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    }
+   }
+  },
+  "arm1": {
+   "overall": {
+    "correctness": 29,
+    "groundedness": 27,
+    "completeness": 30,
+    "directness": 29,
+    "hallucinations": 1
+   },
+   "natural_language": {
+    "correctness": 10,
+    "groundedness": 9,
+    "completeness": 10,
+    "directness": 9
+   },
+   "exact_code": {
+    "correctness": 9,
+    "groundedness": 9,
+    "completeness": 10,
+    "directness": 10
+   },
+   "code_in_context": {
+    "correctness": 10,
+    "groundedness": 9,
+    "completeness": 10,
+    "directness": 10
+   },
+   "per_question": {
+    "N1": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "N4": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "N5": {
+     "correctness": 2,
+     "groundedness": 1,
+     "completeness": 2,
+     "directness": 1,
+     "hallucination": false
+    },
+    "N7": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "N10": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E3": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E4": {
+     "correctness": 1,
+     "groundedness": 1,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": true
+    },
+    "E5": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E6": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E7": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C1": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C5": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C8": {
+     "correctness": 2,
+     "groundedness": 1,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C9": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C10": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    }
+   }
+  },
+  "arm2": {
+   "overall": {
+    "correctness": 30,
+    "groundedness": 27,
+    "completeness": 30,
+    "directness": 30,
+    "hallucinations": 1
+   },
+   "natural_language": {
+    "correctness": 10,
+    "groundedness": 9,
+    "completeness": 10,
+    "directness": 10
+   },
+   "exact_code": {
+    "correctness": 10,
+    "groundedness": 10,
+    "completeness": 10,
+    "directness": 10
+   },
+   "code_in_context": {
+    "correctness": 10,
+    "groundedness": 8,
+    "completeness": 10,
+    "directness": 10
+   },
+   "per_question": {
+    "N1": {
+     "correctness": 2,
+     "groundedness": 1,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": true
+    },
+    "N4": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "N5": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "N7": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "N10": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E3": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E4": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E5": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E6": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E7": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C1": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C5": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C8": {
+     "correctness": 2,
+     "groundedness": 1,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C9": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C10": {
+     "correctness": 2,
+     "groundedness": 1,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    }
+   }
+  },
+  "arm0_replicate": {
+   "overall": {
+    "correctness": 30,
+    "groundedness": 27,
+    "completeness": 30,
+    "directness": 30,
+    "hallucinations": 1
+   },
+   "natural_language": {
+    "correctness": 10,
+    "groundedness": 9,
+    "completeness": 10,
+    "directness": 10
+   },
+   "exact_code": {
+    "correctness": 10,
+    "groundedness": 9,
+    "completeness": 10,
+    "directness": 10
+   },
+   "code_in_context": {
+    "correctness": 10,
+    "groundedness": 9,
+    "completeness": 10,
+    "directness": 10
+   },
+   "per_question": {
+    "N1": {
+     "correctness": 2,
+     "groundedness": 1,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": true
+    },
+    "N4": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "N5": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "N7": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "N10": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E3": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E4": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E5": {
+     "correctness": 2,
+     "groundedness": 1,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E6": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "E7": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C1": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C5": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C8": {
+     "correctness": 2,
+     "groundedness": 1,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C9": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    },
+    "C10": {
+     "correctness": 2,
+     "groundedness": 2,
+     "completeness": 2,
+     "directness": 2,
+     "hallucination": false
+    }
+   }
+  }
+ },
+ "pairwise": {
+  "arm1_vs_arm0": {
+   "per_question": {
+    "N10": "win",
+    "E4": "loss",
+    "N4": "tie",
+    "N1": "tie",
+    "E5": "loss",
+    "C8": "tie",
+    "C10": "tie",
+    "C5": "tie",
+    "N5": "tie",
+    "C1": "loss",
+    "E7": "loss",
+    "N7": "tie",
+    "E3": "tie",
+    "C9": "tie",
+    "E6": "tie"
+   },
+   "win": 1,
+   "tie": 10,
+   "loss": 4,
+   "wins_minus_losses": -3
+  },
+  "arm2_vs_arm0": {
+   "per_question": {
+    "N10": "tie",
+    "C8": "tie",
+    "N5": "win",
+    "E3": "tie",
+    "N4": "win",
+    "C1": "loss",
+    "E4": "tie",
+    "C10": "loss",
+    "E6": "win",
+    "C9": "tie",
+    "E7": "loss",
+    "N7": "tie",
+    "N1": "loss",
+    "E5": "tie",
+    "C5": "tie"
+   },
+   "win": 3,
+   "tie": 8,
+   "loss": 4,
+   "wins_minus_losses": -1
+  },
+  "replicate_vs_arm0": {
+   "per_question": {
+    "N5": "tie",
+    "C8": "tie",
+    "C10": "tie",
+    "E3": "tie",
+    "E7": "tie",
+    "E4": "tie",
+    "N4": "tie",
+    "E6": "tie",
+    "C9": "tie",
+    "N7": "tie",
+    "N10": "tie",
+    "E5": "loss",
+    "C5": "tie",
+    "N1": "loss",
+    "C1": "tie"
+   },
+   "win": 0,
+   "tie": 13,
+   "loss": 2,
+   "wins_minus_losses": -2
+  }
+ },
+ "eligibility": {
+  "arm1": {
+   "conditions": {
+    "hallucinations_le_arm0": false,
+    "groundedness_ge_arm0": false,
+    "correctness_ge_arm0": false,
+    "no_correctness_2_to_0": true,
+    "completeness_within_2_of_arm0": true,
+    "pairwise_wins_minus_losses_ge_3": false
+   },
+   "eligible": false
+  },
+  "arm2": {
+   "conditions": {
+    "hallucinations_le_arm0": false,
+    "groundedness_ge_arm0": false,
+    "correctness_ge_arm0": true,
+    "no_correctness_2_to_0": true,
+    "completeness_within_2_of_arm0": true,
+    "pairwise_wins_minus_losses_ge_3": false
+   },
+   "eligible": false
+  }
+ },
+ "selected_prompt": "arm0",
+ "selection_rule_applied": "neither arm qualified: retain Arm 0",
+ "instability": {
+  "replicate_abs_wins_minus_losses": 2,
+  "questions_differing_in_correctness_or_hallucination": [
+   "N1"
+  ],
+  "absolute_grade_differences_any_dimension": [
+   "N1",
+   "E5"
+  ],
+  "flag_less_reliable": false
+ },
+ "oos_S7_1B": {
+  "per_question": {
+   "arm0": {
+    "O1": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    },
+    "O2": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    },
+    "O3": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    },
+    "O4": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    },
+    "O5": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    }
+   },
+   "arm1": {
+    "O1": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    },
+    "O2": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    },
+    "O3": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    },
+    "O4": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    },
+    "O5": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    }
+   },
+   "arm2": {
+    "O1": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    },
+    "O2": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    },
+    "O3": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    },
+    "O4": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    },
+    "O5": {
+     "outcome": "pass",
+     "general_knowledge_answer": false
+    }
+   }
+  },
+  "counts": {
+   "arm0": {
+    "pass": 5,
+    "abstention_failure": 0,
+    "serious_failure": 0,
+    "unclassified_owner_review": 0
+   },
+   "arm1": {
+    "pass": 5,
+    "abstention_failure": 0,
+    "serious_failure": 0,
+    "unclassified_owner_review": 0
+   },
+   "arm2": {
+    "pass": 5,
+    "abstention_failure": 0,
+    "serious_failure": 0,
+    "unclassified_owner_review": 0
+   }
+  },
+  "serious_failures": {
+   "arm0": [],
+   "arm1": [],
+   "arm2": []
+  }
+ },
+ "conclusiveness": {
+  "treat_as_conclusive": true,
+  "reasons_against": []
+ },
+ "directness_note": "directness is descriptive only; not an acceptance gate",
+ "wording": "A winning arm passed the predefined S7-1 criteria on a 15-question development subset; this is not proof and no held-out claim is made.",
+ "owner_corrections_applied": 3,
+ "latency_and_tokens": {
+  "arm0": {
+   "median_latency_ms": 919.3,
+   "total_tokens": 26164
+  },
+  "arm1": {
+   "median_latency_ms": 1222.7,
+   "total_tokens": 26721
+  },
+  "arm2": {
+   "median_latency_ms": 1156.4,
+   "total_tokens": 29250
+  },
+  "arm0_replicate": {
+   "median_latency_ms": 1244.0,
+   "total_tokens": 19882
+  }
+ }
+}

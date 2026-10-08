@@ -1,0 +1,122 @@
+{
+ "experiment": "S7-1 - Grounded Prompt and Answer Quality Baseline (with S7-1B out-of-scope/abstention diagnostic)",
+ "status": "FROZEN before any S7-1 answer generation - approved by project owner",
+ "inputs": {
+  "questions": "eval/stage7/s7_1_questions.json",
+  "prompts": "eval/stage7/s7_1_prompts.json",
+  "evidence": "eval/stage7/s7_1_evidence.json (retrieved once, verified against eval/stage6/s6_3_runs.json runs['B'] first 5; generation reads this file and never retrieves)",
+  "manifest": "eval/stage7/s7_1_manifest.json"
+ },
+ "stage6": "Frozen. Main retrieval configuration only (T1 -> faiss_store_v2 -> top 10 -> MiniLM heading + text -> best 5). No change to retrieval, indexes, chunking, reranking or Stage 6 files. Integrity checks before and after.",
+ "generation_settings": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b",
+  "temperature": 0.0,
+  "reasoning_effort": "medium",
+  "max_completion_tokens": 4096,
+  "timeout_s": 60.0,
+  "max_retries": 0,
+  "include_reasoning": false,
+  "note": "fixed for every request; GROQ_MODEL and LLM_* environment variables are ignored by the S7-1 runner"
+ },
+ "request_budget": {
+  "total_manifest_items": 75,
+  "main_experiment": 45,
+  "oos_diagnostic_S7_1B": 15,
+  "arm0_replicate": 15,
+  "rules": [
+   "Exactly 75 distinct planned manifest items; each may be attempted only once during the approved run.",
+   "Automatic retries disabled (SDK and provider-neutral).",
+   "No request beyond the frozen manifest.",
+   "If an item fails: record the failure, stop the run, do not resend it automatically.",
+   "Any later resend requires explicit owner approval and is recorded as an extra attempt beyond the original 75-item manifest, never silently replacing the failed attempt."
+  ]
+ },
+ "ordering": {
+  "seed": 71001,
+  "rule": "random.Random(seed).shuffle of all 75 items; if an Arm 0 replicate is directly next to its original, the next permutation from the same seeded generator is used (shuffle again) until none is",
+  "note": "prompt arms, categories, OOS diagnostics and replicates are mixed by this order; the final order is frozen in the manifest"
+ },
+ "pacing": {
+  "minimum_seconds_between_requests": 3.0,
+  "rule": "Increasing pacing to respect confirmed Groq limits does not require re-freezing. Any change to the manifest, order or settings does."
+ },
+ "arm0_replicate": "One independent Arm 0 replicate across the 15 main questions (identical request to Arm 0). Stability/noise diagnostic only; not a fourth competing arm.",
+ "private_storage": {
+  "path": "~/rag_private/s7_1 (outside the repository)",
+  "contents": "raw live answers (runs), blind label -> item mappings",
+  "rule": "Kept outside the repository and out of every grading package until grading is complete; the repository records only sha256 commitments of the mapping files"
+ },
+ "grading": {
+  "graders": "Two separate fresh-context graders: one for absolute grading, another for pairwise grading. Each receives only its grading package inline, is told not to inspect repository files or use tools, and has not seen the prompt definitions, the arm mappings or the expected outcome.",
+  "limitation": "This improves blinding but is not fully independent human/model evaluation: the graders are instances of the same model family and environment.",
+  "absolute_package": "Per main question: question, answer key, top-5 evidence, and the 4 anonymous answers (arm0, arm1, arm2, arm0 replicate) shuffled. Per OOS question: question, top-5 evidence and the 3 anonymous answers. Answers have Markdown formatting stripped.",
+  "pairwise_package": "45 anonymous comparisons in a shuffled order: 15 Arm 1 vs Arm 0, 15 Arm 2 vs Arm 0, 15 Arm 0 vs Arm 0 replicate (the grader is not told any pair comes from the same prompt). A/B positions randomised. Replicate comparisons are stability diagnostics only.",
+  "answer_key": "Stage 5 'sufficient' description and pages, plus which supplied evidence passages were graded sufficient (grade 2) in the earlier blind Stage 5/6 grading",
+  "grader_failure": "If a grader returns malformed or incomplete output, one replacement fresh grader may be used for that task, and this is recorded. Re-grading because of the results is not permitted."
+ },
+ "absolute_rubric": {
+  "correctness": {"2": "fully correct in substance against the answer key / sufficient evidence", "1": "partly correct, or a minor error", "0": "wrong, or no answer although the evidence is sufficient"},
+  "groundedness": {"2": "every claim supported by the supplied evidence", "1": "a minor unsupported detail that does not change the answer, or any unsupported general (non-MSU) background content", "0": "a material unsupported claim"},
+  "completeness": {"2": "covers every part of the question the evidence supports", "1": "misses some part", "0": "misses the main part"},
+  "directness": {"2": "answers up front, no padding", "1": "answer present but buried, verbose or over-hedged", "0": "evasive or does not answer"},
+  "hallucination_flag": "yes if the answer contains any unsupported MSU-specific claim (even if true in reality). Unsupported general (non-MSU) background content does not raise the flag but caps groundedness at 1.",
+  "conflict_rule": "Where the supplied evidence gives conflicting information for the asked item (e.g. different titles for one course code), correctness 2 requires presenting every version the evidence gives; presenting only one version scores at most 1.",
+  "citation_note": "Citation pointing to the wrong passage is recorded as an observation only; not scored.",
+  "directness_status": "Directness is an evaluated descriptive metric but is not an acceptance gate in S7-1."
+ },
+ "oos_rubric_S7_1B": {
+  "items": ["appropriate_abstention: yes/no", "unsupported_general_knowledge_answer: yes/no", "invented_msu_specific_information: yes/no"],
+  "preferred_behaviour": "Appropriate abstention for all five OOS questions, including O2 and O4: the assistant answers from the supplied MSU evidence rather than falling back to pretrained/general knowledge.",
+  "outcomes": {
+   "pass": "appropriately abstains because the supplied evidence does not support an answer",
+   "abstention_failure": "answers using unsupported general knowledge",
+   "serious_failure": "invents unsupported MSU-specific information"
+  },
+  "precedence": "Serious failure > Abstention failure > Pass.",
+  "rules": [
+   "An answer that abstains but then adds general-knowledge content is an Abstention failure.",
+   "A generic redirect containing no specific MSU facts (e.g. 'please check with the relevant MSU office') is acceptable within a Pass.",
+   "A redirect that states specific unsupported MSU details (names, contacts, times, locations, procedures) is a Serious failure.",
+   "If the supplied evidence genuinely supports an answer, answering from that evidence is a Pass, not a failure."
+  ],
+  "reporting": "General-knowledge answers are reported separately from MSU hallucinations. O1-O5 remain diagnostic and do not directly enter the main prompt winner score."
+ },
+ "pairwise_rubric": "For each comparison choose A, B or tie: which answer better answers the question from the supplied evidence, judging correctness and groundedness first, then completeness and directness. Tie only when neither is better on those grounds.",
+ "acceptance_criteria": {
+  "validity_gate": "All 75 manifest items attempted once and succeeded with finish_reason 'stop' and no reasoning leakage; otherwise S7-1 is incomplete and returns to the owner.",
+  "eligibility": "An experimental prompt arm is eligible to replace Arm 0 only if all hold (main 15 questions):",
+  "conditions": [
+   "hallucination count <= Arm 0",
+   "groundedness total >= Arm 0",
+   "correctness total >= Arm 0",
+   "no individual question regresses from correctness 2 to correctness 0",
+   "completeness total is no more than 2 points below Arm 0",
+   "pairwise comparison against Arm 0 has at least 3 more wins than losses"
+  ],
+  "selection": [
+   "If both Arms 1 and 2 qualify: 1. choose the greater wins-minus-losses; 2. if tied, choose fewer hallucinations; 3. if still tied, choose the simpler Arm 1.",
+   "If neither qualifies, retain Arm 0."
+  ],
+  "diagnostics": "The O1-O5 diagnostic and the Arm 0 replicate do not directly determine the winning arm, but serious failures there must be reported and can prevent S7-1 from being treated as conclusive.",
+  "wording": "A winning arm 'passed the predefined S7-1 criteria on a 15-question development subset'. This is not proof and no held-out claim is made."
+ },
+ "instability_thresholds": {
+  "rule": "Flag S7-1 as less reliable due to generation instability if either holds. Not to be changed after seeing results.",
+  "conditions": [
+   "Arm 0 versus its replicate: absolute pairwise wins-minus-losses difference of 3 or more",
+   "Arm 0 and its replicate differ in correctness grade or hallucination status on 3 or more of the 15 main questions"
+  ]
+ },
+ "owner_spot_check": {
+  "scope": ["every hallucination flag (main) and every invented-MSU-information flag (OOS)", "all 30 main pairwise judgements (15 Arm 1 vs Arm 0, 15 Arm 2 vs Arm 0)", "a random one-third of the absolute grades"],
+  "sample_seed": 71002,
+  "sample_rule": "random.Random(71002).sample(sorted(all 75 absolute-grade labels), 25)",
+  "blind": "Performed blind: anonymous labels only, no arm mapping. Selecting the 30 main pairwise judgements uses the private mapping inside the script; only labels are shown.",
+  "corrections": "Owner corrections replace the grader's value; both values are recorded.",
+  "escalation": "If the owner disagrees with more than 20% of the spot-checked absolute grades, all absolute grades are reviewed before results."
+ },
+ "results_sequence": "grading -> owner spot-check -> corrections applied -> grades frozen and hashed -> unblinding -> frozen report script run exactly once",
+ "r1_ambiguity": "Deferred to S7-4. The S6-5 ambiguity metadata is not used in S7-1.",
+ "not_in_scope": ["S7-2 or later experiments", "held-out evaluation", "model comparison"]
+}

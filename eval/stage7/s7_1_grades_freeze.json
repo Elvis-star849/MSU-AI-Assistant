@@ -1,0 +1,5 @@
+{
+ "s7_1_grades_sha256": "sha256:7658c2ae14d9d97eca70d62137649274d66a7e9608eb039899eb671d4391e261",
+ "frozen_at": "2026-10-08T15:53:26+0200",
+ "sequence": "owner corrections recorded -> grades frozen and hashed -> unblinding -> report run once"
+}

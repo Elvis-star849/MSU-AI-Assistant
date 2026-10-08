@@ -6,7 +6,9 @@
    "main": "T1 tie-break -> faiss_store_v2 (heading-aware) -> top 10 -> MiniLM (heading + original chunk text) -> best 5",
    "fallback": "T1 tie-break -> faiss_store -> top 10 -> first 5, no reranker",
    "rule": "Stage 7 imports the frozen Stage 6 modules and must not change Stage 6 behaviour"
-  }
+  },
+  "r1_ambiguity": "deferred to S7-4",
+  "accepted_prompt": "s7-0-baseline-v1 (Arm 0; retained in S7-1)"
  },
  "experiments": [
   {
@@ -54,7 +56,10 @@
     "note": "S7-0 defaults, not tuned; all overridable by environment variables"
    },
    "dependencies": {
-    "requirements.txt": ["added groq==0.37.1", "pinned python-dotenv -> python-dotenv==1.2.3 (already listed, already installed)"],
+    "requirements.txt": [
+     "added groq==0.37.1",
+     "pinned python-dotenv -> python-dotenv==1.2.3 (already listed, already installed)"
+    ],
     "installed": "nothing new; both packages were already installed",
     "tests": "standard-library unittest (no pytest dependency added)"
    },
@@ -80,8 +85,32 @@
     "question": "Stage 5 development N3 (no course code, no known ambiguity), main retrieval configuration",
     "identical_input": "evidence retrieved once, prompt built once; both requests prompt sha256:ca51984ea3237abeb4ca425c6bac1338ce639fbae616d65e29218957e86fe2ff",
     "max_retries": 0,
-    "openai/gpt-oss-20b": {"succeeded": true, "attempts": 1, "returned_model": "openai/gpt-oss-20b", "latency_ms": 1802.8, "tokens": {"prompt": 1389, "completion": 326, "reasoning": 149, "total": 1715}, "only_final_answer_returned": true},
-    "openai/gpt-oss-120b": {"succeeded": true, "attempts": 1, "returned_model": "openai/gpt-oss-120b", "latency_ms": 1081.6, "tokens": {"prompt": 1389, "completion": 188, "reasoning": 89, "total": 1577}, "only_final_answer_returned": true},
+    "openai/gpt-oss-20b": {
+     "succeeded": true,
+     "attempts": 1,
+     "returned_model": "openai/gpt-oss-20b",
+     "latency_ms": 1802.8,
+     "tokens": {
+      "prompt": 1389,
+      "completion": 326,
+      "reasoning": 149,
+      "total": 1715
+     },
+     "only_final_answer_returned": true
+    },
+    "openai/gpt-oss-120b": {
+     "succeeded": true,
+     "attempts": 1,
+     "returned_model": "openai/gpt-oss-120b",
+     "latency_ms": 1081.6,
+     "tokens": {
+      "prompt": 1389,
+      "completion": 188,
+      "reasoning": 89,
+      "total": 1577
+     },
+     "only_final_answer_returned": true
+    },
     "total_requests_attempted": 2,
     "reasoning_leakage_check": "include_reasoning=False was sent; Groq returned no reasoning field; the adapter has no reasoning field; no reasoning markers in either answer. The text inspection is a heuristic, not proof.",
     "answers": "saved in s7_0_live.json, labelled 'S7-0 connectivity output — NOT FOR MODEL QUALITY COMPARISON'",
@@ -97,6 +126,155 @@
     "prompt optimisation -> S7-1",
     "model/prompt quality evaluation, out-of-scope handling -> later controlled Stage 7 experiments"
    ]
+  },
+  {
+   "id": "S7-1",
+   "title": "Grounded prompt and answer quality baseline (+ S7-1B out-of-scope/abstention diagnostic)",
+   "status": "accepted - completed",
+   "date": "2026-10-08",
+   "design": "eval/stage7/s7_1_design.json (criteria, thresholds, rubrics, grading and spot-check procedure, points 10-15)",
+   "freeze": "eval/stage7/s7_1_freeze.json (20 files at git 48b6fe3 + working files)",
+   "inputs": {
+    "questions": "eval/stage7/s7_1_questions.json",
+    "prompts": "eval/stage7/s7_1_prompts.json",
+    "evidence": "eval/stage7/s7_1_evidence.json",
+    "manifest": "eval/stage7/s7_1_manifest.json"
+   },
+   "preflight": {
+    "stage6_integrity": "before and after: passed (eval/stage7/s7_1_integrity_before.json, s7_1_integrity_after.json)",
+    "evidence": "20 questions retrieved once; top-5 chunk IDs identical to eval/stage6/s6_3_runs.json runs['B']",
+    "arm0_reproduces_s7_0": "N3 prompt hash identical to the S7-0 recorded hash",
+    "manifest": "75 distinct items (45 main + 15 OOS + 15 Arm 0 replicate), seed 71001, 0 reshuffles, no replicate adjacent to its original",
+    "dry_run": "all 75 requests rebuilt from frozen evidence and matched the manifest hashes; no Groq client created",
+    "tests": "44 non-live tests passed (27 S7-0 + 17 S7-1)",
+    "api_key": ".env ignored, untracked, unstaged, absent from history; no key pattern in tracked, untracked or private files"
+   },
+   "notes": [
+    "This subset is somewhat harder than the complete Stage 5 in-scope pool, and conflict cases are intentionally overrepresented.",
+    "Directness is an evaluated descriptive metric but is not an acceptance gate in S7-1.",
+    "R1 ambiguity-aware answer behaviour is deferred to S7-4; E3 and C10 exercise only the general conflicting-evidence rule.",
+    "Fresh-context graders improve blinding but are not fully independent human/model evaluation (same model family/environment)."
+   ],
+   "live_run": {
+    "date": "2026-10-08",
+    "private_runs": "~/rag_private/s7_1/s7_1_runs.jsonl (76 attempts; copied into the repository only at unblinding)",
+    "requests_1_to_10": "succeeded, frozen order, original >=3-second pacing (14:53:35-14:54:11)",
+    "request_11": "O2/arm2 failed with HTTP 429 rate_limit (request id req_01m4ds89ageqya2amjc2fr9r96) at 14:54:15; run stopped as specified; failure preserved in the audit record",
+    "approved_resend": "owner explicitly approved one extra attempt for O2/arm2; sent 15:01:13 with 15-second pacing; succeeded; recorded as attempt_type approved_resend_extra_attempt (beyond the 75-item manifest)",
+    "resumed_items": "the 64 unsent manifest items, frozen order, 15-second pacing; all succeeded (last 15:18:35)",
+    "totals": "76 attempts; 75/75 manifest items succeeded; no request needed more than one attempt; no automatic retries",
+    "validity_observations": "all finish_reason stop; all returned model openai/gpt-oss-20b; no reasoning field returned; no reasoning markers in any answer",
+    "frozen_files": "all 20 S7-1 frozen hashes unchanged after the run; Stage 6 integrity passed (s7_1_integrity_after_live.json)"
+   },
+   "grading": {
+    "packages": "eval/stage7/s7_1_grading/absolute_package.txt and pairwise_package.txt (blind); mappings private; sha256 commitments in eval/stage7/s7_1_blinding_commitment.json",
+    "deviation_approved": "Packages were too large to pass inline (118k and 210k characters). With owner approval, each package was copied alone (hash-verified) to an isolated folder outside the repository; each grader was restricted to Read on that one file and one Write of its output, and told to use no other tool.",
+    "audit": "Grader transcripts checked: absolute grader 5 Reads of its package (all 2114 lines) + 1 Write; pairwise grader 10 Reads of its package (all 4341 lines) + 1 Write; no other tool calls.",
+    "outputs": "eval/stage7/s7_1_grading/absolute_grades_raw.json (60 main + 15 oos) and pairwise_grades_raw.json (45); both validated complete and well formed; no replacement grader used",
+    "limitation": "Fresh-context graders improve blinding but are not fully independent human/model evaluation (same model family/environment)."
+   },
+   "owner_spot_check": {
+    "hallucination_flags": "3/3 agreed",
+    "absolute_sample_disagreements": "0/25",
+    "pairwise_corrections": "P02 A->tie, P10 B->tie, P11 A->tie (citation detail should not determine the prompt comparison); original grader values preserved in eval/stage7/s7_1_grades.json",
+    "grades_frozen": "eval/stage7/s7_1_grades_freeze.json"
+   },
+   "results": {
+    "file": "eval/stage7/s7_1_results.json (frozen report run exactly once; unblinding copied runs and mappings into eval/stage7/)",
+    "validity_gate": "passed (75/75 items succeeded, all finish stop, no reasoning leakage; O2/arm2 original 429 failure + one approved extra attempt recorded)",
+    "main_totals_C_G_Cm_D_H": {
+     "arm0": [
+      30,
+      29,
+      30,
+      30,
+      0
+     ],
+     "arm1": [
+      29,
+      27,
+      30,
+      29,
+      1
+     ],
+     "arm2": [
+      30,
+      27,
+      30,
+      30,
+      1
+     ],
+     "arm0_replicate": [
+      30,
+      27,
+      30,
+      30,
+      1
+     ]
+    },
+    "pairwise_vs_arm0_W_T_L": {
+     "arm1": [
+      1,
+      10,
+      4
+     ],
+     "arm2": [
+      3,
+      8,
+      4
+     ],
+     "arm0_replicate": [
+      0,
+      13,
+      2
+     ]
+    },
+    "eligibility": {
+     "arm1": "not eligible (hallucinations, groundedness, correctness, pairwise W-L -3)",
+     "arm2": "not eligible (hallucinations, groundedness, pairwise W-L -1)"
+    },
+    "selected_prompt": "arm0 (s7-0-baseline-v1) retained: neither experimental arm qualified",
+    "instability": "not flagged under the frozen thresholds (replicate |W-L| = 2 < 3; 1 question (N1) differs in correctness/hallucination < 3)",
+    "oos_S7_1B": "all three arms 5/5 pass; 0 abstention failures; 0 serious failures",
+    "conclusiveness": "treat_as_conclusive true under the frozen rules",
+    "observation": "The Arm 0 replicate (identical prompt) showed the same groundedness total (27) and hallucination count (1) as Arms 1 and 2, so the experimental arms' failures on those two gates are of the same size as Arm 0's own run-to-run variation. Under the frozen thresholds the run is not flagged as unstable, and the frozen selection rule retains Arm 0. The result means neither experimental prompt demonstrated an improvement; it does not show Arm 0 is better than them.",
+    "wording": "Arm 0 was retained under the predefined S7-1 criteria on a 15-question development subset; this is not proof and no held-out claim is made."
+   },
+   "decision": {
+    "accepted_by": "project owner",
+    "accepted_on": "2026-10-08",
+    "selected_prompt": "Retain Arm 0 - s7-0-baseline-v1 (frozen selection result)",
+    "statement": "Neither Arm 1 nor Arm 2 satisfied the predefined replacement criteria. Arm 0 is not claimed to be proven intrinsically superior: the Arm 0 replicate demonstrated generation variability in groundedness and hallucination outcomes.",
+    "conclusions": [
+     "Arm 0 remains the accepted prompt.",
+     "Arm 1: pairwise wins-minus-losses = -3 and failed the replacement gates.",
+     "Arm 2: pairwise wins-minus-losses = -1 and failed the replacement gates.",
+     "Arm 0 replicate did not trigger the predefined instability threshold, but showed meaningful generation noise.",
+     "All 15 OOS evaluations appropriately abstained with zero invented MSU-specific information and zero general-knowledge answers.",
+     "S7-1 is development evidence only and makes no held-out performance claim.",
+     "Stage 6 integrity remained intact."
+    ],
+    "limitations": [
+     "Ceiling effect: 59/60 correctness and 60/60 completeness grades were 2; the decision rested on a few groundedness points and pairwise judgements.",
+     "Single sample per arm; the identical-prompt replicate differed from Arm 0 by as much as the experimental arms did on groundedness and hallucinations.",
+     "15-question development subset, somewhat harder than the pool, conflict cases overrepresented; prompts drafted after seeing the pool; no held-out claim.",
+     "Graders are fresh-context instances of the same model family/environment; packages delivered as isolated files (owner-approved deviation from inline delivery, audited).",
+     "Execution: request 11 (O2/arm2) HTTP 429 preserved; one owner-approved extra attempt; 15-second pacing from the resend onward (requests 1-10 used >=3-second pacing).",
+     "R1 ambiguity-aware behaviour not tested (deferred to S7-4).",
+     "Per-arm latency/token totals cover different request counts and are not comparable."
+    ],
+    "frozen_hashes": {
+     "freeze_record": "eval/stage7/s7_1_freeze.json (20 files)",
+     "grades": "sha256:7658c2ae14d9d97eca70d62137649274d66a7e9608eb039899eb671d4391e261 (eval/stage7/s7_1_grades_freeze.json)",
+     "blinding_commitment": "eval/stage7/s7_1_blinding_commitment.json",
+     "system_prompts": {
+      "arm0": "sha256:e924c5b5020507a23dd75c653449cbe301343f846a5ea8e02db31a5027435113",
+      "arm1": "sha256:834412d0a3b22c0fa26357dbbd8e3b5a386246c7489d80054413486ef91887be",
+      "arm2": "sha256:c66d30f7bce9586ac7467bae4aeff5d8be3fbc09e808f815238e8fcdf5e960a1"
+     }
+    },
+    "next": "S7-2 not started; awaiting owner instruction"
+   }
   }
  ]
 }

@@ -1,0 +1,788 @@
+S7-1 OWNER SPOT-CHECK (blind: labels only, no arm mapping)
+
+######## HALLUCINATION / INVENTED-MSU FLAGS (3)
+---- E4-d | what is ham105
+HAM105 is a 12‑credit‑hour module titled “Adventure Tourism.”
+It is part of the Bachelor of Commerce Honours degree in Agri‑Tourism Management (BS01) and is offered in Level 1 Semester 1 of the programme. The module introduces students to the growth and development of adventure tourism, covering its history, environmental relationships, models, theories, and issues, and uses case‑study materials from both local and international contexts.
+
+Sources:
+Evidence 1, MSU Sciences Yearbook Vol. 2, p. 590 – description of HAM105 Adventure Tourism.
+Evidence 2, MSU Sciences Yearbook Vol. 2, p. 589 – listing of HAM105 as a 12‑credit module in Level 1 Semester 1.
+GRADE: {"label": "E4-d", "correctness": 1, "groundedness": 1, "completeness": 2, "directness": 2, "hallucination": true, "hallucination_detail": "States Level 1 Semester 1; evidence lists HAM105 in Level 1 Semester 2", "citation_note": "Evidence 2 cited for wrong semester", "notes": ""}
+
+---- N1-a | What is a faculty board responsible for?
+A faculty board is responsible for:
+
+Regulating the teaching and study of the subjects assigned to the faculty (subject to Senate approval)【Evidence 1】【Evidence 2】【Evidence 3】【Evidence 4】.
+Reporting to the Senate on any matter specifically relating to the work of the faculty【Evidence 1】【Evidence 2】【Evidence 3】【Evidence 4】.
+Dealing with any matter referred or delegated to it by the Senate【Evidence 2】【Evidence 3】【Evidence 4】.
+Appointing committees (which may include a minority of persons who are not members of the board) to carry out any of its duties or exercise its powers【Evidence 2】【Evidence 4】.
+
+In addition, the board is required to call regular meetings to discuss faculty policy and appointments, with the Executive Dean responsible for convening at least three meetings per term【Evidence 4】.
+GRADE: {"label": "N1-a", "correctness": 2, "groundedness": 1, "completeness": 2, "directness": 2, "hallucination": true, "hallucination_detail": "'at least three meetings per term' - 'per term' not in evidence", "citation_note": "Evidence 4 cited for (a)/(b) which it does not contain", "notes": ""}
+
+---- N1-d | What is a faculty board responsible for?
+A faculty board is responsible for:
+
+Regulating the teaching and study of the subjects assigned to the faculty – subject to the approval of the Senate.
+Evidence:
+MSU Humanities Yearbook, p. 81, §5 (a) and §6 (a)【1】
+MSU Sciences Yearbook Vol. 2, p. 32, §(a)【2】
+MSU Humanities Yearbook, p. 31, §14 (a)【3】
+
+Reporting to the Senate on any matter specifically relating to the work of the faculty.
+Evidence:
+MSU Humanities Yearbook, p. 81, §6 (b)【1】
+MSU Sciences Yearbook Vol. 2, p. 32, §(b)【2】
+MSU Humanities Yearbook, p. 31, §14 (b)【3】
+
+Dealing with any matter referred or delegated to it by the Senate.
+Evidence:
+MSU Humanities Yearbook, p. 82, §6 (c)【4】
+MSU Sciences Yearbook Vol. 2, p. 32, §(c)【2】
+MSU Humanities Yearbook, p. 31, §14 (c)【3】
+
+Appointing committees (which may include a minority of persons who are not members of the faculty board) to carry out any of the duties or exercise any of the powers of the board.
+Evidence:
+MSU Humanities Yearbook, p. 82, §6 (d)【4】
+MSU Sciences Yearbook Vol. 2, p. 32, §(d)【2】
+
+Meeting regularly to discuss policy and appointments, with the Executive Dean calling at least three meetings per term.
+Evidence:
+MSU Humanities Yearbook, p. 82, §7 (i)【4】
+MSU Sciences Yearbook Vol. 2, p. 32, §15 (1)【2】
+
+These duties collectively define the responsibilities of a faculty board at Midlands State University.
+GRADE: {"label": "N1-d", "correctness": 2, "groundedness": 1, "completeness": 2, "directness": 2, "hallucination": true, "hallucination_detail": "'at least three meetings per term' - 'per term' not in evidence", "citation_note": "p.81 section 5(a) cited for a function; section 5 is composition", "notes": ""}
+
+######## RANDOM ONE-THIRD OF ABSOLUTE GRADES (25)
+---- C1-b | I'm a second-year languages student thinking of taking HALCS 211. What topics does it cover?
+HALCS 211 – Introduction to Gender Studies (Level 2, Semester 1) covers the following topics:
+
+The concept and study of gender, emphasizing its social construction and the construction of gender roles.
+Historical development of the discipline of gender studies.
+Theoretical perspectives related to gender.
+Gender analysis and strategies for redressing gender imbalances.
+Gender issues specific to Southern Africa.
+Empowerment of both males and females within gender‑responsive environments.
+
+These topics are outlined in the module description (MSU Humanities Yearbook, p. 261) and the course is listed as a Level 2 Semester 1 module in the programme structure (MSU Humanities Yearbook, p. 259).
+GRADE: {"label": "C1-b", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- C1-d | I'm a second-year languages student thinking of taking HALCS 211. What topics does it cover?
+HALCS 211 “Introduction to Gender Studies” covers the following topics:
+
+The concept and study of gender, emphasizing its social constructedness and the roles associated with it.
+The historical development of the discipline of gender studies.
+Theoretical perspectives related to gender.
+Gender analysis and strategies for redressing gender imbalances.
+Gender issues specific to Southern Africa.
+Ways in which both males and females can be empowered within gender‑responsive environments.
+
+(These topics are listed in the module description in the MSU Humanities Yearbook, p. 261.)
+GRADE: {"label": "C1-d", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- C10-b | As a first-year accounting student I have to take BM135. What is it about?
+BM135 is the Commercial Law module.
+It is designed to give students a concise foundation in legal principles that are relevant to business and accounting practice. The module covers:
+
+general principles of law and their interpretation
+law of contract, purchase and sales, agency, and negotiable instruments
+insurance, partnership, and law of derelict
+insolvency and consumer protection
+
+The goal is to equip students with the legal knowledge needed to make sound, legally‑informed business decisions, whether they are working in accounting or moving into managerial roles.
+
+Sources:
+Evidence 1 (MSU Sciences Yearbook Vol. 2, p. 388)
+Evidence 2 (MSU Sciences Yearbook Vol. 2, p. 542)
+Evidence 3 (MSU Sciences Yearbook Vol. 2, p. 398)
+GRADE: {"label": "C10-b", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- C5-a | How many credits do I get for passing SEMA 102?
+You receive 12 credits for passing SEMA 102 (Linear Mathematics).
+Both the Level 1 Semester 1 schedule (Evidence 4) and the Level 2 Semester 1 schedule (Evidence 5) list SEMA 102 with a credit value of 12.
+GRADE: {"label": "C5-a", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- C5-d | How many credits do I get for passing SEMA 102?
+You receive 12 credits for passing SEMA 102.
+This is shown in the course listings for both the Bachelor of Education Honours and the Dual Honours programmes:
+
+Evidence 4 lists SEMA 102 “Linear Mathematics” with 12 credits (Level 1 Semester 1).
+Evidence 5 also lists SEMA 102 “Linear Mathematics” with 12 credits (Level 2 Semester 1).
+GRADE: {"label": "C5-d", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- C8-a | Is MIP845 about solar and other renewable energy sources? What does it cover?
+Yes.
+MIP845 is a course on renewable energies. According to the yearbook, it “provides an introduction to the principles of renewable energy” and “covers different types of renewable and alternative energy sources” (including solar). It discusses their basic principles of operation, achievable efficiency, cost, and their effect on the environment. The course also introduces the impact of new energy technologies on the environment, obstacles to their wide implementation in industrial and consumer applications, and the role of social attitudes, government planning, financial investments, and incentives.
+
+Source: MSU Sciences Yearbook Vol. 2, p. 1095.
+GRADE: {"label": "C8-a", "correctness": 2, "groundedness": 1, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": "'including solar' not stated in evidence; inferred"}
+
+---- C8-c | Is MIP845 about solar and other renewable energy sources? What does it cover?
+Yes.
+MIP 845 is titled “Renewable Energies” and is described as an introductory course that covers a range of renewable and alternative energy sources—including solar—along with their basic principles of operation, achievable efficiency, cost, and environmental impact. It also discusses the broader effects of new energy technologies, obstacles to widespread implementation, and the roles of social attitudes, government planning, financial investments, and incentives. (Evidence 1)
+GRADE: {"label": "C8-c", "correctness": 2, "groundedness": 1, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": "'including solar' not stated in evidence; inferred"}
+
+---- C8-d | Is MIP845 about solar and other renewable energy sources? What does it cover?
+Yes.
+MIP 845 is titled “Renewable Energies” and is described as an introductory course that covers a range of renewable and alternative energy sources—including solar—along with their basic principles of operation, achievable efficiency, cost, and environmental impact. It also discusses the broader effects of new energy technologies, obstacles to widespread implementation, and the roles of social attitudes, government planning, financial investments, and incentives. (Evidence 1)
+GRADE: {"label": "C8-d", "correctness": 2, "groundedness": 1, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": "'including solar' not stated in evidence; inferred"}
+
+---- C9-a | Which other modules are taken in the same semester as MFA700?
+MFA700 is offered in Level 1 Semester 1, along with the following modules:
+MFA701 Money Laundering and Asset Tracing
+MFA702 Compliance and Governance
+MFA703 Big Data Analytics in Forensic Accounting
+MFA704 Professional Ethics in Forensic Auditing
+
+These are listed together in the Level 1 Semester 1 programme structure【Evidence 2】.
+GRADE: {"label": "C9-a", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- C9-c | Which other modules are taken in the same semester as MFA700?
+The other modules that are taken in the same semester as MFA700 are:
+
+MFA701 Money Laundering and Asset Tracing
+MFA702 Compliance and Governance
+MFA703 Big Data Analytics in Forensic Accounting
+MFA704 Professional Ethics in Forensic Auditing
+
+These modules are listed together with MFA700 in the Level 1 Semester 1 programme structure (MSU Sciences Yearbook Vol. 2, p. 414).
+GRADE: {"label": "C9-c", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- E4-d | what is ham105
+HAM105 is a 12‑credit‑hour module titled “Adventure Tourism.”
+It is part of the Bachelor of Commerce Honours degree in Agri‑Tourism Management (BS01) and is offered in Level 1 Semester 1 of the programme. The module introduces students to the growth and development of adventure tourism, covering its history, environmental relationships, models, theories, and issues, and uses case‑study materials from both local and international contexts.
+
+Sources:
+Evidence 1, MSU Sciences Yearbook Vol. 2, p. 590 – description of HAM105 Adventure Tourism.
+Evidence 2, MSU Sciences Yearbook Vol. 2, p. 589 – listing of HAM105 as a 12‑credit module in Level 1 Semester 1.
+GRADE: {"label": "E4-d", "correctness": 1, "groundedness": 1, "completeness": 2, "directness": 2, "hallucination": true, "hallucination_detail": "States Level 1 Semester 1; evidence lists HAM105 in Level 1 Semester 2", "citation_note": "Evidence 2 cited for wrong semester", "notes": ""}
+
+---- E7-b | Describe HPHS 201
+HPHS 201 – Public Policy and Human Rights
+
+Course focus: The module studies public policy and human rights, giving students a critical appreciation of the concepts, theories, principles, processes and practical issues involved in public‑policy making and human‑rights work.
+Learning approach: It uses public‑policy experiences from local, regional and global contexts as illustrative cases.
+Learning outcome: The substantive goal is to enable students to relate conceptual and theoretical constructs to global public‑policy practices and human‑rights dimensions in relation to national development.
+Programme placement: HPHS 201 is a 12‑credit module offered at Level 2.1 of the Bachelor of Science (Honours) in Human Rights and Social Justice.
+
+Sources:
+Evidence 1, MSU Humanities Yearbook, p. 864.
+Evidence 2, MSU Humanities Yearbook, p. 862.
+GRADE: {"label": "E7-b", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- E7-c | Describe HPHS 201
+HPHS 201 Public Policy and Human Rights is a 12‑credit module that focuses on the study of public policy and human rights. It aims to give students a critical appreciation of the concepts, theories, principles, processes and practical issues in public‑policy making and human rights, using local, regional and global cases to illustrate how conceptual and theoretical constructs can be applied to global public‑policy practices and human‑rights dimensions in relation to national development【Evidence 1】【Evidence 2】.
+GRADE: {"label": "E7-c", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- N10-a | If I repeat a module, which marks will count?
+If you repeat a module, only the marks you obtain on the repeat examination will be credited; earlier marks for that module will not be counted.
+This is stated in the regulations for several Bachelor of Education Honours programmes: “If a student is repeating a module(s) he or she shall only be credited with the marks obtained during the repeat examination”【Evidence 1, p. 122】【Evidence 2, p. 418】【Evidence 3, p. 424】【Evidence 4, p. 378】.
+GRADE: {"label": "N10-a", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- N10-d | If I repeat a module, which marks will count?
+If you repeat a module, only the marks you obtain on the repeat examination will be credited. The earlier marks from the original attempt are not counted.
+
+This is stated in the regulations for several Bachelor of Education Honours programmes:
+
+Evidence 1 (Faculty of Education, p. 122): “If a student is repeating a module(s) he or she shall only be credited with the marks obtained during the ‘repeat’ examination.”
+Evidence 2 (EDU58, p. 418): “If a student is repeating a module(s) he or she shall only be credited with the marks obtained during the repeat examination.”
+Evidence 3 (EDU06, p. 424): “If a student is repeating a module(s) he or she shall only be credited with the marks obtained during the repeat examination.”
+Evidence 4 (EDU57, p. 378): “If a student is repeating a module(s) he or she shall only be credited with the marks obtained during the repeat examination.”
+
+Thus, the repeat marks are the only ones that count toward your final grade.
+GRADE: {"label": "N10-d", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- N4-d | Who are the members of Midlands State University?
+The Midlands State University is composed of the following groups of members:
+
+A Chancellor
+A Vice‑Chancellor
+One or more Pro‑Vice‑Chancellors
+Members of the Council
+Members of the Senate
+Members of staff (including both teaching and administrative personnel)
+
+These categories are listed in the “Membership of the University” section of the MSU Humanities Yearbook【Evidence 1】.
+GRADE: {"label": "N4-d", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": "Staff elaboration inferable from Evidence 5, not cited"}
+
+---- N5-a | Can I switch from an MPhil to a PhD, and when?
+Yes – you may upgrade from an MPhil to a PhD/DPhil.
+The upgrade can be requested after the student has completed at least 12 months of MPhil study and the supervisor(s) recommend the change. The application must be accompanied by a written recommendation from the Faculty Higher‑Degrees Committee (or the relevant School/Institute) and submitted to the Research and Innovation Division. The DCAA will review the application and recommend it to Senate, which will then approve the upgrade and prescribe any additional study required for the PhD/DPhil.
+
+The MPhil must be finished within 24 months of full registration, and the PhD/DPhil within 48 months after full registration, but the upgrade itself is governed by the 12‑month rule and the recommendation process described above. (MSU Humanities Yearbook p. 151; MSU Sciences Yearbook Vol. 2 p. 154)
+GRADE: {"label": "N5-a", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- N5-c | Can I switch from an MPhil to a PhD, and when?
+Yes.
+An MPhil candidate may apply to upgrade to a PhD/DPHIL after completing at least 12 months of MPhil study. The upgrade requires:
+
+Supervisor recommendation – the candidate’s supervisor(s) must recommend the upgrade.
+Written recommendation from the Faculty Higher Degrees Committee, School or Institute – this must be submitted to the Research and Innovation Division.
+Application to the DCAA – the DCAA will review the application and recommend it to Senate.
+Senate approval – Senate will prescribe any additional duration of study required for the PhD/DPHIL.
+
+These requirements are stated in the MSU Humanities Yearbook (p. 151) and the MSU Sciences Yearbook Vol. 2 (p. 154).
+GRADE: {"label": "N5-c", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- N5-d | Can I switch from an MPhil to a PhD, and when?
+Yes.
+An MPhil student may apply to upgrade to a PhD/DPHIL after completing at least 12 months of MPhil study. The upgrade requires:
+
+Supervisor recommendation – the candidate’s supervisor(s) must recommend the upgrade.
+Written recommendation from the Faculty Higher Degrees Committee, School or Institute – this must be submitted to the Research and Innovation Division.
+Application to the DCAA – the DCAA will review the application and recommend it to Senate.
+Senate approval – Senate will prescribe any additional duration of study required for the PhD/DPHIL.
+
+These requirements are stated in the MSU Humanities Yearbook (p. 151) and the MSU Sciences Yearbook Vol. 2 (p. 154).
+GRADE: {"label": "N5-d", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- N7-d | What qualification do I need to apply for an MPhil?
+To apply for an MPhil at MSU you must hold an appropriate honours degree (ZNQF Level 8) or an equivalent qualification 【Evidence 4, MSU Humanities Yearbook, p. 149】.
+GRADE: {"label": "N7-d", "correctness": 2, "groundedness": 2, "completeness": 2, "directness": 2, "hallucination": false, "hallucination_detail": "", "citation_note": "", "notes": ""}
+
+---- O1-b | What is on the menu in the student cafeteria today?
+I’m sorry, but none of the supplied MSU yearbook passages contain information about the current menu in the student cafeteria. The evidence only describes academic modules, staff titles, and course listings, and does not mention any specific food items or daily offerings.
+GRADE: {"label": "O1-b", "appropriate_abstention": true, "unsupported_general_knowledge_answer": false, "invented_msu_specific_information": false, "evidence_supports_answer": false, "detail": ""}
+
+---- O4-b | How do I apply for a UK student visa?
+The yearbook passages you provided relate only to MSU admission procedures and academic regulations. They do not contain any information about applying for a UK student visa. Therefore, the evidence does not answer your question.
+GRADE: {"label": "O4-b", "appropriate_abstention": true, "unsupported_general_knowledge_answer": false, "invented_msu_specific_information": false, "evidence_supports_answer": false, "detail": ""}
+
+---- O5-a | What time does the campus gym open?
+I’m sorry, but none of the supplied evidence passages mention the opening time of the campus gym.
+GRADE: {"label": "O5-a", "appropriate_abstention": true, "unsupported_general_knowledge_answer": false, "invented_msu_specific_information": false, "evidence_supports_answer": false, "detail": ""}
+
+---- O5-b | What time does the campus gym open?
+The provided yearbook evidence does not say what time the campus gym opens.
+GRADE: {"label": "O5-b", "appropriate_abstention": true, "unsupported_general_knowledge_answer": false, "invented_msu_specific_information": false, "evidence_supports_answer": false, "detail": ""}
+
+---- O5-c | What time does the campus gym open?
+The provided yearbook evidence does not contain any information about the opening time of the campus gym.
+GRADE: {"label": "O5-c", "appropriate_abstention": true, "unsupported_general_knowledge_answer": false, "invented_msu_specific_information": false, "evidence_supports_answer": false, "detail": ""}
+
+######## MAIN PAIRWISE JUDGEMENTS (30)
+---- P01 | If I repeat a module, which marks will count?
+A: If you repeat a module, only the marks you obtain on the repeat examination will be credited. The yearbooks state that a student “shall only be credited with the marks obtained during the ‘repeat’ examination” (see Evidence 1, 2, 3, 4).
+B: If you repeat a module, only the marks you obtain on the repeat examination will be credited. The earlier marks from the original attempt are not counted.
+
+This is stated in the regulations for several Bachelor of Education Honours programmes:
+
+Evidence 1 (Faculty of Education, p. 122): “If a student is repeating a module(s) he or she shall only be credited with the marks obtained during the ‘repeat’ examination.”
+Evidence 2 (EDU58, p. 418): “If a student is repeating a module(s) he or she shall only be credited with the marks obtained during the repeat examination.”
+Evidence 3 (EDU06, p. 424): “If a student is repeating a module(s) he or she shall only be credited with the marks obtained during the repeat examination.”
+Evidence 4 (EDU57, p. 378): “If a student is repeating a module(s) he or she shall only be credited with the marks obtained during the repeat examination.”
+
+Thus, the repeat marks are the only ones that count toward your final grade.
+JUDGEMENT: {"label": "P01", "preferred": "B", "reason": "Both correct; B is more complete with explicit per-source quotes and notes original marks do not count."}
+
+---- P02 | If I repeat a module, which marks will count?
+A: If you repeat a module, only the marks you obtain on the repeat examination will be credited; earlier marks for that module will not be counted.
+This is stated in the regulations for several Bachelor of Education Honours programmes: “If a student is repeating a module(s) he or she shall only be credited with the marks obtained during the repeat examination”【Evidence 1, p. 122】【Evidence 2, p. 418】【Evidence 3, p. 424】【Evidence 4, p. 378】.
+B: If you repeat a module, only the marks you obtain on the repeat examination will be credited. The yearbooks state that a student “shall only be credited with the marks obtained during the ‘repeat’ examination” (see Evidence 1, 2, 3, 4).
+JUDGEMENT: {"label": "P02", "preferred": "A", "reason": "Both correct; A adds that earlier marks are not counted and gives page-level citations."}
+
+---- P04 | Is MIP845 about solar and other renewable energy sources? What does it cover?
+A: Yes.
+MIP 845 is titled “Renewable Energies” and is described as an introductory course that covers a range of renewable and alternative energy sources—including solar—along with their basic principles of operation, achievable efficiency, cost, and environmental impact. It also discusses the broader effects of new energy technologies, obstacles to widespread implementation, and the roles of social attitudes, government planning, financial investments, and incentives. (Evidence 1)
+B: Answer:
+Yes. MIP 845 is a course on renewable energies that includes solar and other renewable sources. It covers the basic principles of operation, achievable efficiency, cost, and environmental impact of various renewable and alternative energy sources. The course also discusses obstacles to widespread implementation, the role of social attitudes, government planning, financial investments, and incentives.
+
+Evidence
+MSU Sciences Yearbook Vol. 2, p. 1095: “MIP845 Renewable Energies…covers different types of renewable and alternative energy sources, and discuss their basic principles of operation, achievable efficiency, cost, and their effect on the environment…the impact of the new energy technologies on the environment, obstacles to their wide implementation…the role of social attitudes and government planning, financial investments and incentives.”
+JUDGEMENT: {"label": "P04", "preferred": "tie", "reason": "Same correct content and the same unsupported solar inference in both."}
+
+---- P05 | Can I switch from an MPhil to a PhD, and when?
+A: Yes.
+An MPhil student may apply to upgrade to a PhD/DPHIL after completing at least 12 months of MPhil study. The upgrade requires:
+
+Supervisor recommendation – the candidate’s supervisor(s) must recommend the upgrade.
+Written recommendation from the Faculty Higher Degrees Committee, School or Institute – this must be submitted to the Research and Innovation Division.
+Application to the DCAA – the DCAA will review the application and recommend it to Senate.
+Senate approval – Senate will prescribe any additional duration of study required for the PhD/DPHIL.
+
+These requirements are stated in the MSU Humanities Yearbook (p. 151) and the MSU Sciences Yearbook Vol. 2 (p. 154).
+B: Yes – you may upgrade from an MPhil to a PhD/DPhil.
+The upgrade can be requested after the student has completed at least 12 months of MPhil study and the supervisor(s) recommend the change. The application must be accompanied by a written recommendation from the Faculty Higher‑Degrees Committee (or the relevant School/Institute) and submitted to the Research and Innovation Division. The DCAA will review the application and recommend it to Senate, which will then approve the upgrade and prescribe any additional study required for the PhD/DPhil.
+
+The MPhil must be finished within 24 months of full registration, and the PhD/DPhil within 48 months after full registration, but the upgrade itself is governed by the 12‑month rule and the recommendation process described above. (MSU Humanities Yearbook p. 151; MSU Sciences Yearbook Vol. 2 p. 154)
+JUDGEMENT: {"label": "P05", "preferred": "B", "reason": "B describes the submission route more accurately, while A wrongly says the application goes to the DCAA."}
+
+---- P06 | what is ham105
+A: HAM105 is a 12‑credit‑hour module titled “Adventure Tourism.”
+It is part of the Bachelor of Commerce Honours degree in Agri‑Tourism Management (BS01) and is offered in Level 1 Semester 1 of the programme. The module introduces students to the growth and development of adventure tourism, covering its history, environmental relationships, models, theories, and issues, and uses case‑study materials from both local and international contexts.
+
+Sources:
+Evidence 1, MSU Sciences Yearbook Vol. 2, p. 590 – description of HAM105 Adventure Tourism.
+Evidence 2, MSU Sciences Yearbook Vol. 2, p. 589 – listing of HAM105 as a 12‑credit module in Level 1 Semester 1.
+B: HAM105 is the Adventure Tourism module in the Bachelor of Commerce Honours degree in Agri‑Tourism Management.
+It carries 12 credits and is offered in Level 1 Semester 2 of the programme.
+The module introduces students to the growth and development of adventure tourism, covering its history, environmental relationships, models, theories, and issues, and uses case‑study materials from both local and international contexts.
+
+Sources:
+[Evidence 1, MSU Sciences Yearbook Vol. 2, p. 590]
+[Evidence 2, MSU Sciences Yearbook Vol. 2, p. 589]
+JUDGEMENT: {"label": "P06", "preferred": "B", "reason": "A wrongly places HAM105 in Level 1 Semester 1; B correctly says Semester 2."}
+
+---- P08 | Who are the members of Midlands State University?
+A: The Midlands State University is composed of the following groups of members:
+
+A Chancellor
+A Vice‑Chancellor
+One or more Pro‑Vice‑Chancellors
+Members of the Council
+Members of the Senate
+Members of staff (including both teaching and administrative personnel)
+
+These categories are listed in the “Membership of the University” section of the MSU Humanities Yearbook【Evidence 1】.
+B: The MSU yearbook states that the University’s membership is composed of the following groups:
+
+The Chancellor
+The Vice‑Chancellor
+One or more Pro‑Vice‑Chancellors
+Members of the Council
+Members of the Senate
+Members of staff (which includes all persons employed by the University, both teaching and administrative staff)
+
+These categories together constitute the membership of Midlands State University【Evidence 1】【Evidence 5】.
+JUDGEMENT: {"label": "P08", "preferred": "tie", "reason": "Both list the same six categories with a similar staff inference."}
+
+---- P10 | SEMA 204
+A: SEMA 204 can refer to two different modules at MSU, depending on the degree program:
+
+Program; Module title; Key content; Credits
+Bachelor of Education Dual Honours in Science; Real Analysis; Covers a firm foundation in the theory of real analysis, using definitions and logical reasoning to prove mathematical results or theorems; develops strong analytical skills and techniques for solving mathematical problems, preparing students for higher studies in mathematics and related fields.; Not specified in the evidence
+Bachelor of Education Honours in Mathematics and Applied Statistics (EDU26); Introduction to Numerical Methods; Introduces modern methods, techniques, and computational methods for solving problems in linear algebra, nonlinear equations, interpolation, approximation, and integration; includes basic mathematical foundations of numerical methods and computing, with hands‑on experience using Matlab software.; 12 credits (Level 2 Semester 2)【Evidence 3】
+
+Thus, if you encounter “SEMA 204” in the context of the B.Ed Dual Honours in Science, it refers to Real Analysis; in the context of the B.Ed Honours in Mathematics and Applied Statistics (EDU26), it refers to Introduction to Numerical Methods.
+B: SEMA 204 – What the yearbooks say
+
+Program; Module title; Key points from the yearbook
+Bachelor of Education Dual Honours in Science; Real Analysis; • Covers a firm foundation in the theory of real analysis.<br>• Uses definitions and logical reasoning to prove mathematical results or theorems.<br>• Aims to develop strong analytical skills useful in day‑to‑day life.<br>• Provides techniques for solving mathematical problems and prepares students for higher studies in mathematics and related fields.; (Evidence 1, MSU Humanities Yearbook, p. 556)
+Bachelor of Education Honours in Mathematics and Applied Statistics (EDU26); Introduction to Numerical Methods; • Introduces modern methods, techniques, and computational methods for solving problems in linear algebra, nonlinear equations, interpolation, approximation, and integration.<br>• Includes basic mathematical foundations of numerical methods and computing.<br>• Provides hands‑on experience solving problems and offers useful scientific tools for scientists, engineers, and others.<br>• Matlab software is of prime importance in this module.; (Evidence 2, MSU Humanities Yearbook, p. 573)
+Program structure (Level 2, Semester 2); Introduction to Numerical Methods; Listed as SEMA 204 with a 12‑credit weight.; (Evidence 3, MSU Humanities Yearbook, p. 571)
+
+Summary
+
+In the Dual Honours in Science track, SEMA 204 is a Real Analysis module focused on theory, proofs, and analytical skill development.
+In the Honours in Mathematics and Applied Statistics track, SEMA 204 is an Introduction to Numerical Methods module that emphasizes computational techniques, Matlab, and practical problem solving.
+
+These are the only descriptions of SEMA 204 found in the supplied MSU yearbook evidence. If you need further details (e.g., learning outcomes, assessment methods), the evidence provided does not contain that information.
+JUDGEMENT: {"label": "P10", "preferred": "B", "reason": "Same content, but B cites each description to its correct source."}
+
+---- P11 | What is a faculty board responsible for?
+A: A faculty board’s responsibilities, as recorded in the MSU yearbooks, are:
+
+Responsibility; Evidence
+Regulate the teaching and study of the subjects assigned to the faculty (subject to Senate approval); Evidence 1, §6(a); Evidence 2, §(a); Evidence 3, §14(a)
+Report to the Senate on any matter specifically relating to the work of the faculty; Evidence 1, §6(b); Evidence 2, §(b); Evidence 3, §14(b)
+Deal with any matter referred or delegated to it by the Senate; Evidence 2, §(c); Evidence 3, §14(c); Evidence 4, §c
+Appoint committees (which may include a minority of persons who are not members of the board) to carry out any of the duties or exercise any of the powers of the board; Evidence 2, §(d); Evidence 4, §d
+Hold regular meetings to discuss policy and appointments, with the Executive Dean calling at least three meetings; Evidence 2, §15(1); Evidence 4, §7(i)
+Allow the Vice‑Chancellor and Pro‑Vice‑Chancellors to attend any meeting of the board or its committees; Evidence 4, §7(ii)
+
+These duties collectively define what a faculty board is responsible for according to the MSU yearbook evidence.
+B: A faculty board is responsible for:
+
+Regulating the teaching and study of the subjects assigned to the faculty – subject to the approval of the Senate.
+Evidence: MSU Humanities Yearbook, p. 81 (5a) and MSU Sciences Yearbook Vol. 2, p. 32 (a).
+
+Reporting to the Senate on any matter specifically relating to the work of the faculty.
+Evidence: MSU Humanities Yearbook, p. 81 (5b) and MSU Sciences Yearbook Vol. 2, p. 32 (b).
+
+Dealing with any matter referred or delegated to it by the Senate.
+Evidence: MSU Humanities Yearbook, p. 82 (c) and MSU Sciences Yearbook Vol. 2, p. 32 (c).
+
+Appointing committees (which may include a minority of persons who are not members of the faculty board) to carry out any of the duties or exercise any of the powers of the board.
+Evidence: MSU Humanities Yearbook, p. 82 (d) and MSU Sciences Yearbook Vol. 2, p. 32 (d).
+
+Calling and conducting regular meetings to discuss policy matters and appointments, with recommendations submitted to the appropriate authorities.
+Evidence: MSU Humanities Yearbook, p. 82 (7.i) and MSU Sciences Yearbook Vol. 2, p. 32 (15.1).
+
+These responsibilities collectively define the faculty board’s role in overseeing academic governance within its faculty.
+JUDGEMENT: {"label": "P11", "preferred": "A", "reason": "Both cover the functions; A's section citations are accurate, while B miscites 5a/5b."}
+
+---- P13 | Tell me about the module SEPS101
+A: SEPS101 – Historical Issues of Physical Education, Sports and the Olympic Movement
+The module focuses on the value of Physical Education, Sport Science and Management in the development of individuals and societies throughout the history of the human race. It has been and is still an important part of society in terms of economic and social development. This introductory module helps students appreciate the role that Physical Education and Sport have been playing in the holistic development of individuals from time immemorial. (Evidence 1, MSU Humanities Yearbook, p. 576)
+It is a Level 1 Semester 1 course and carries 12 credits. (Evidence 2, MSU Humanities Yearbook, p. 575)
+B: SEPS101 – Historical Issues of Physical Education, Sports and the Olympic Movement
+
+Course description:
+The module focuses on the value of Physical Education, Sport Science and Management in the development of individuals and societies throughout the history of the human race. It has been and is still an important part of society in terms of economic and social development. This introductory module helps students appreciate the role that Physical Education and Sport have been playing in the holistic development of individuals from time immemorial. 【Evidence 1】
+
+Program placement:
+It is a Level 1, Semester 1 module in the Bachelor of Education Honours degree in Physical Education, Sports Science and Management.
+Credits: 12 【Evidence 2】
+
+That is all the information provided in the supplied MSU yearbook evidence.
+JUDGEMENT: {"label": "P13", "preferred": "B", "reason": "Both correct; B also names the programme."}
+
+---- P14 | Is MIP845 about solar and other renewable energy sources? What does it cover?
+A: Yes.
+MIP845 is a course on renewable energies. According to the yearbook, it “provides an introduction to the principles of renewable energy” and “covers different types of renewable and alternative energy sources” (including solar). It discusses their basic principles of operation, achievable efficiency, cost, and their effect on the environment. The course also introduces the impact of new energy technologies on the environment, obstacles to their wide implementation in industrial and consumer applications, and the role of social attitudes, government planning, financial investments, and incentives.
+
+Source: MSU Sciences Yearbook Vol. 2, p. 1095.
+B: Yes.
+MIP 845 is titled “Renewable Energies” and is described as an introductory course that covers a range of renewable and alternative energy sources—including solar—along with their basic principles of operation, achievable efficiency, cost, and environmental impact. It also discusses the broader effects of new energy technologies, obstacles to widespread implementation, and the roles of social attitudes, government planning, financial investments, and incentives. (Evidence 1)
+JUDGEMENT: {"label": "P14", "preferred": "tie", "reason": "Equivalent correct content with the same solar inference."}
+
+---- P16 | Who are the members of Midlands State University?
+A: Answer:
+Midlands State University is composed of the following categories of members: the Chancellor; the Vice‑Chancellor; one or more Pro‑Vice‑Chancellors; members of the University Council; members of the University Senate; and all members of staff (both teaching and administrative staff).
+
+Supporting evidence
+Section 5 of the Act lists the membership as “a Chancellor; a Vice‑Chancellor; 1 or more Pro‑Vice‑Chancellors; members of the Council; members of the Senate; members of staff”【Evidence 1, MSU Humanities Yearbook, p. 14】.
+The definition of “administrative staff” (a subset of staff) is given in the Faculty of Engineering and Geosciences ordinance, clarifying that staff includes those in grades 4‑8 who are not teaching staff【Evidence 5, MSU Humanities Yearbook, p. 99】.
+
+No other parts of the provided yearbook evidence add additional categories of members.
+B: The Midlands State University is composed of the following groups of members:
+
+A Chancellor
+A Vice‑Chancellor
+One or more Pro‑Vice‑Chancellors
+Members of the Council
+Members of the Senate
+Members of staff (including both teaching and administrative personnel)
+
+These categories are listed in the “Membership of the University” section of the MSU Humanities Yearbook【Evidence 1】.
+JUDGEMENT: {"label": "P16", "preferred": "A", "reason": "Same list; A grounds the staff clarification in a quote with explicit evidence."}
+
+---- P17 | As a first-year accounting student I have to take BM135. What is it about?
+A: BM135 is the Commercial Law module.
+It is designed to give students a concise foundation in legal principles that are relevant to business and accounting practice. The module covers:
+
+general principles of law and their interpretation
+law of contract, purchase and sales, agency, and negotiable instruments
+insurance, partnership, and law of derelict
+insolvency and consumer protection
+
+The goal is to equip students with the legal knowledge needed to make sound, legally‑informed business decisions, whether they are working in accounting or moving into managerial roles.
+
+Sources:
+Evidence 1 (MSU Sciences Yearbook Vol. 2, p. 388)
+Evidence 2 (MSU Sciences Yearbook Vol. 2, p. 542)
+Evidence 3 (MSU Sciences Yearbook Vol. 2, p. 398)
+B: BM135 Commercial Law is a first‑year module that gives students a concise grounding in the legal aspects of business.
+According to the yearbook, the module is “designed to equip students with basic but concise legal knowledge to enable students to make legally sound and informed business decisions at work or as managers.” It covers the general principles of law and its interpretation, and then moves through the core areas of commercial law:
+
+law of contract
+purchase and sales
+agency
+negotiable instruments
+insurance
+partnership
+law of derelict
+insolvency
+consumer protection
+
+(See MSU Sciences Yearbook Vol. 2, p. 388 [Evidence 1]; p. 542 [Evidence 2]; p. 398 [Evidence 3]).
+JUDGEMENT: {"label": "P17", "preferred": "tie", "reason": "Both accurately describe BM135 with citations."}
+
+---- P18 | I'm a second-year languages student thinking of taking HALCS 211. What topics does it cover?
+A: HALCS 211 “Introduction to Gender Studies” (Level 2, Semester 1) covers the following topics:
+
+Concept and study of gender – an overview of what gender is and how it is socially constructed.
+Historical development of the discipline – tracing how gender studies has evolved over time.
+Theoretical perspectives on gender – exploring key theories that explain gender roles and relations.
+Gender analysis – learning how to analyse gender in various contexts.
+Strategies to redress gender imbalances – discussing practical approaches to address inequalities.
+Gender issues in Southern Africa – examining specific challenges and dynamics in the region.
+Empowerment within gender‑responsive environments – concluding with ways both males and females can be empowered.
+
+These points are drawn from the module description in the MSU Humanities Yearbook (p. 261)【Evidence 1】.
+B: HALCS 211 “Introduction to Gender Studies” covers the following topics:
+
+The concept and study of gender, emphasizing its social constructedness and the roles associated with it.
+The historical development of the discipline of gender studies.
+Theoretical perspectives related to gender.
+Gender analysis and strategies for redressing gender imbalances.
+Gender issues specific to Southern Africa.
+Ways in which both males and females can be empowered within gender‑responsive environments.
+
+(These topics are listed in the module description in the MSU Humanities Yearbook, p. 261.)
+JUDGEMENT: {"label": "P18", "preferred": "A", "reason": "Same topics; A also correctly gives the Level 2 Semester 1 placement."}
+
+---- P19 | what is ham105
+A: HAM105 is the “Adventure Tourism” module in the Bachelor of Commerce Honours degree in Agri‑Tourism Management (BS01).
+It is offered in Level 1 Semester 2 and carries 12 credits【Evidence 2, p. 589】.
+The module introduces students to the growth and development of adventure tourism, covering the history of adventurous leisure practices, their environmental relationships, models of adventure tourism, and theories and issues illustrated with local and international case studies【Evidence 1, p. 590】.
+B: HAM105 is the Adventure Tourism module in the Bachelor of Commerce Honours degree in Agri‑Tourism Management.
+It carries 12 credits and is offered in Level 1 Semester 2 of the programme.
+The module introduces students to the growth and development of adventure tourism, covering its history, environmental relationships, models, theories, and issues, and uses case‑study materials from both local and international contexts.
+
+Sources:
+[Evidence 1, MSU Sciences Yearbook Vol. 2, p. 590]
+[Evidence 2, MSU Sciences Yearbook Vol. 2, p. 589]
+JUDGEMENT: {"label": "P19", "preferred": "tie", "reason": "Both are correct and equivalent."}
+
+---- P25 | How many credits do I get for passing SEMA 102?
+A: You receive 12 credits for passing SEMA 102.
+This is shown in the course listings for both the Bachelor of Education Honours and the Dual Honours programmes:
+
+Evidence 4 (Level 1 Semester 1) lists SEMA 102 “Linear Mathematics” with 12 credits【4】.
+Evidence 5 (Level 2 Semester 1) also lists SEMA 102 “Linear Mathematics” with 12 credits【5】.
+B: You receive 12 credits for passing SEMA 102 (Linear Mathematics).
+Both the Level 1 Semester 1 schedule (Evidence 4) and the Level 2 Semester 1 schedule (Evidence 5) list SEMA 102 with a credit value of 12.
+JUDGEMENT: {"label": "P25", "preferred": "tie", "reason": "Both correctly give 12 credits with the same support."}
+
+---- P28 | Can I switch from an MPhil to a PhD, and when?
+A: Answer
+
+Yes – you can upgrade from an MPhil to a PhD (or DPhil).
+The upgrade is allowed after you have completed at least 12 months of MPhil study and you have a supervisor’s recommendation. The application must be accompanied by a written recommendation from the Faculty Higher Degrees Committee (or the relevant School/Institute) and submitted to the Research and Innovation Division. The DCAA will review the application and recommend it to Senate, which will then approve the upgrade and set any additional study time required for the PhD/DPhil.
+
+Key points from the yearbook evidence
+
+Requirement; Evidence
+Minimum 12‑month MPhil study before applying; [Evidence 1, p. 151] and [Evidence 2, p. 154]
+Supervisor(s) must recommend the upgrade; [Evidence 1, p. 151] and [Evidence 2, p. 154]
+Written recommendation from Faculty Higher Degrees Committee (or School/Institute); [Evidence 1, p. 151] and [Evidence 2, p. 154]
+Application submitted to the Research and Innovation Division; [Evidence 1, p. 151] and [Evidence 2, p. 154]
+DCAA makes a determination and recommends to Senate; [Evidence 1, p. 151] and [Evidence 2, p. 154]
+Senate prescribes any further study time required for the PhD/DPhil; [Evidence 1, p. 151] and [Evidence 2, p. 154]
+MPhil students must complete their studies within 24 months; [Evidence 5, p. 152]
+PhD/DPhil students must complete within 48 months after full registration; [Evidence 5, p. 152]
+
+When to apply
+
+You should apply after completing at least 12 months of MPhil study and before the 24‑month deadline for completing the MPhil. The application process involves the steps above and will be finalized by Senate approval.
+B: Yes.
+An MPhil student may apply to upgrade to a PhD/DPHIL after completing at least 12 months of MPhil study. The upgrade requires:
+
+Supervisor recommendation – the candidate’s supervisor(s) must recommend the upgrade.
+Written recommendation from the Faculty Higher Degrees Committee, School or Institute – this must be submitted to the Research and Innovation Division.
+Application to the DCAA – the DCAA will review the application and recommend it to Senate.
+Senate approval – Senate will prescribe any additional duration of study required for the PhD/DPHIL.
+
+These requirements are stated in the MSU Humanities Yearbook (p. 151) and the MSU Sciences Yearbook Vol. 2 (p. 154).
+JUDGEMENT: {"label": "P28", "preferred": "tie", "reason": "A adds an unsupported 24-month timing inference and B misstates the DCAA step, so they balance."}
+
+---- P29 | I'm a second-year languages student thinking of taking HALCS 211. What topics does it cover?
+A: HALCS 211 “Introduction to Gender Studies” (Level 2, Semester 1) covers the following topics:
+
+Concept and study of gender – an overview of what gender is and how it is socially constructed.
+Historical development of the discipline – tracing how gender studies has evolved over time.
+Theoretical perspectives on gender – exploring key theories that explain gender roles and relations.
+Gender analysis – learning how to analyse gender in various contexts.
+Strategies to redress gender imbalances – discussing practical approaches to address inequalities.
+Gender issues in Southern Africa – examining specific challenges and dynamics in the region.
+Empowerment within gender‑responsive environments – concluding with ways both males and females can be empowered.
+
+These points are drawn from the module description in the MSU Humanities Yearbook (p. 261)【Evidence 1】.
+B: HALCS 211 “Introduction to Gender Studies” covers the following topics:
+
+The concept and study of gender, emphasizing its social constructedness and the roles associated with it.
+A historical overview of the discipline of gender studies.
+Theoretical perspectives related to gender.
+Gender analysis and strategies for redressing gender imbalances.
+Gender issues specific to Southern Africa.
+Ways in which both males and females can be empowered within gender‑responsive environments.
+
+(These topics are taken from the module description in the MSU Humanities Yearbook, p. 261.)
+JUDGEMENT: {"label": "P29", "preferred": "A", "reason": "Same topics; A also gives the correct semester placement."}
+
+---- P30 | As a first-year accounting student I have to take BM135. What is it about?
+A: BM 135 is the Commercial Law module.
+It is a 12‑credit course offered in Level 1 Semester 2 that gives students a concise introduction to the legal foundations needed for sound business decision‑making. The syllabus covers general principles of law and their interpretation, the law of contract, purchase and sales, agency, negotiable instruments, insurance, partnership, law of derelict, insolvency and consumer protection 【Evidence 1, MSU Sciences Yearbook Vol. 2, p. 388】, and is listed as a 12‑credit module in the first‑year programme 【Evidence 5, MSU Sciences Yearbook Vol. 2, p. 541】.
+B: BM135 is the Commercial Law module.
+It is designed to give students a concise foundation in legal principles that are relevant to business and accounting practice. The module covers:
+
+general principles of law and their interpretation
+law of contract, purchase and sales, agency, and negotiable instruments
+insurance, partnership, and law of derelict
+insolvency and consumer protection
+
+The goal is to equip students with the legal knowledge needed to make sound, legally‑informed business decisions, whether they are working in accounting or moving into managerial roles.
+
+Sources:
+Evidence 1 (MSU Sciences Yearbook Vol. 2, p. 388)
+Evidence 2 (MSU Sciences Yearbook Vol. 2, p. 542)
+Evidence 3 (MSU Sciences Yearbook Vol. 2, p. 398)
+JUDGEMENT: {"label": "P30", "preferred": "B", "reason": "A applies Business Management programme placement to an accounting student; B stays with the description."}
+
+---- P31 | What is MSCM 703 about?
+A: MSCM 703 is the “Procurement Theory and Practice” module.
+It is designed to give students a detailed understanding of procurement, covering topics such as procurement management, the changing role of purchasing and supply, and procurement concepts.
+
+Source: MSU Sciences Yearbook Vol. 2, p. 584.
+B: MSCM 703 is the “Procurement Theory and Practice” module.
+It is a 18‑credit course that gives students a detailed understanding of procurement, covering topics such as procurement management, the changing role of purchasing and supply, and procurement concepts. (MSU Sciences Yearbook Vol. 2, p. 584; p. 583)
+JUDGEMENT: {"label": "P31", "preferred": "B", "reason": "Both correct; B adds the supported 18-credit value."}
+
+---- P32 | Describe HPHS 201
+A: HPHS 201 – Public Policy and Human Rights
+
+The module focuses on the study of public policy and human rights.
+It aims to give students a critical appreciation of the concepts, theories, principles, processes and practical issues involved in public policy‑making and human rights.
+Public‑policy experiences within local, regional and global environments are used throughout the module as illustrative cases.
+Its substantive goal is to enable students to relate conceptual and theoretical constructs to global public‑policy practices and human‑rights dimensions in relation to national development.
+The course carries 12 credit hours.
+
+Sources: Evidence 1 (MSU Humanities Yearbook, p. 864) and Evidence 2 (MSU Humanities Yearbook, p. 862).
+B: HPHS 201 – Public Policy and Human Rights
+
+Course focus: The module studies public policy and human rights, giving students a critical appreciation of the concepts, theories, principles, processes and practical issues involved in public‑policy making and human‑rights work.
+Learning approach: It uses public‑policy experiences from local, regional and global contexts as illustrative cases.
+Learning outcome: The substantive goal is to enable students to relate conceptual and theoretical constructs to global public‑policy practices and human‑rights dimensions in relation to national development.
+Programme placement: HPHS 201 is a 12‑credit module offered at Level 2.1 of the Bachelor of Science (Honours) in Human Rights and Social Justice.
+
+Sources:
+Evidence 1, MSU Humanities Yearbook, p. 864.
+Evidence 2, MSU Humanities Yearbook, p. 862.
+JUDGEMENT: {"label": "P32", "preferred": "B", "reason": "Both correct; B adds the level and programme placement."}
+
+---- P34 | Which other modules are taken in the same semester as MFA700?
+A: MFA700 is offered in Level 1 Semester 1, along with the following modules:
+MFA701 Money Laundering and Asset Tracing
+MFA702 Compliance and Governance
+MFA703 Big Data Analytics in Forensic Accounting
+MFA704 Professional Ethics in Forensic Auditing
+
+These are listed together in the Level 1 Semester 1 programme structure【Evidence 2】.
+B: The other modules taken in the same semester as MFA700 Forensic Accounting and Auditing are:
+
+MFA701 Money Laundering and Asset Tracing
+MFA702 Compliance and Governance
+MFA703 Big Data Analytics in Forensic Accounting
+MFA704 Professional Ethics in Forensic Auditing
+
+These modules are listed together with MFA700 in the Level 1 Semester 1 programme structure【Evidence 2, p. 414】.
+JUDGEMENT: {"label": "P34", "preferred": "tie", "reason": "Both list the same correct modules."}
+
+---- P36 | Describe HPHS 201
+A: HPHS 201 Public Policy and Human Rights is a 12‑credit module that focuses on the study of public policy and human rights. It aims to give students a critical appreciation of the concepts, theories, principles, processes and practical issues in public‑policy making and human rights, using local, regional and global cases to illustrate how conceptual and theoretical constructs can be applied to global public‑policy practices and human‑rights dimensions in relation to national development【Evidence 1】【Evidence 2】.
+B: HPHS 201 – Public Policy and Human Rights
+
+Course focus: The module studies public policy and human rights, giving students a critical appreciation of the concepts, theories, principles, processes and practical issues involved in public‑policy making and human‑rights work.
+Learning approach: It uses public‑policy experiences from local, regional and global contexts as illustrative cases.
+Learning outcome: The substantive goal is to enable students to relate conceptual and theoretical constructs to global public‑policy practices and human‑rights dimensions in relation to national development.
+Programme placement: HPHS 201 is a 12‑credit module offered at Level 2.1 of the Bachelor of Science (Honours) in Human Rights and Social Justice.
+
+Sources:
+Evidence 1, MSU Humanities Yearbook, p. 864.
+Evidence 2, MSU Humanities Yearbook, p. 862.
+JUDGEMENT: {"label": "P36", "preferred": "B", "reason": "Both correct; B adds the level and programme placement."}
+
+---- P37 | What qualification do I need to apply for an MPhil?
+A: To apply for an MPhil at MSU you must hold an appropriate honours degree (ZNQF Level 8) or an equivalent qualification 【Evidence 4, MSU Humanities Yearbook, p. 149】.
+B: You must hold an appropriate honours degree (ZNQF Level 8) or an equivalent qualification to apply for an MPhil 【Evidence 4, MSU Humanities Yearbook, p. 149】. The yearbook does not list any additional required qualifications for MPhil applicants.
+JUDGEMENT: {"label": "P37", "preferred": "tie", "reason": "Both give the correct qualification."}
+
+---- P38 | What is a faculty board responsible for?
+A: A faculty board is responsible for:
+
+Regulating the teaching and study of the subjects assigned to the faculty – subject to the approval of the Senate.
+Evidence: MSU Humanities Yearbook, p. 81 (5a) and MSU Sciences Yearbook Vol. 2, p. 32 (a).
+
+Reporting to the Senate on any matter specifically relating to the work of the faculty.
+Evidence: MSU Humanities Yearbook, p. 81 (5b) and MSU Sciences Yearbook Vol. 2, p. 32 (b).
+
+Dealing with any matter referred or delegated to it by the Senate.
+Evidence: MSU Humanities Yearbook, p. 82 (c) and MSU Sciences Yearbook Vol. 2, p. 32 (c).
+
+Appointing committees (which may include a minority of persons who are not members of the faculty board) to carry out any of the duties or exercise any of the powers of the board.
+Evidence: MSU Humanities Yearbook, p. 82 (d) and MSU Sciences Yearbook Vol. 2, p. 32 (d).
+
+Calling and conducting regular meetings to discuss policy matters and appointments, with recommendations submitted to the appropriate authorities.
+Evidence: MSU Humanities Yearbook, p. 82 (7.i) and MSU Sciences Yearbook Vol. 2, p. 32 (15.1).
+
+These responsibilities collectively define the faculty board’s role in overseeing academic governance within its faculty.
+B: A faculty board is responsible for:
+
+Regulating the teaching and study of the subjects assigned to the faculty (subject to Senate approval)【Evidence 1】【Evidence 2】【Evidence 3】【Evidence 4】.
+Reporting to the Senate on any matter specifically relating to the work of the faculty【Evidence 1】【Evidence 2】【Evidence 3】【Evidence 4】.
+Dealing with any matter referred or delegated to it by the Senate【Evidence 2】【Evidence 3】【Evidence 4】.
+Appointing committees (which may include a minority of persons who are not members of the board) to carry out any of its duties or exercise its powers【Evidence 2】【Evidence 4】.
+
+In addition, the board is required to call regular meetings to discuss faculty policy and appointments, with the Executive Dean responsible for convening at least three meetings per term【Evidence 4】.
+JUDGEMENT: {"label": "P38", "preferred": "A", "reason": "B adds an unsupported 'per term' detail for meetings; A does not."}
+
+---- P40 | What qualification do I need to apply for an MPhil?
+A: To apply for an MPhil at MSU, you must hold an appropriate honours degree (ZNQF Level 8) or an equivalent qualification.
+[Evidence 4, MSU Humanities Yearbook, p. 149]
+B: To apply for an MPhil at MSU you must hold an appropriate honours degree (ZNQF Level 8) or an equivalent qualification 【Evidence 4, MSU Humanities Yearbook, p. 149】.
+JUDGEMENT: {"label": "P40", "preferred": "tie", "reason": "Answers are essentially identical."}
+
+---- P41 | SEMA 204
+A: SEMA 204 – What the yearbooks say
+
+Program; Module title; Key points from the yearbook
+Bachelor of Education Dual Honours in Science; Real Analysis; • Covers a firm foundation in the theory of real analysis.<br>• Uses definitions and logical reasoning to prove mathematical results or theorems.<br>• Aims to develop strong analytical skills useful in day‑to‑day life.<br>• Provides techniques for solving mathematical problems and prepares students for higher studies in mathematics and related fields.; (Evidence 1, MSU Humanities Yearbook, p. 556)
+Bachelor of Education Honours in Mathematics and Applied Statistics (EDU26); Introduction to Numerical Methods; • Introduces modern methods, techniques, and computational methods for solving problems in linear algebra, nonlinear equations, interpolation, approximation, and integration.<br>• Includes basic mathematical foundations of numerical methods and computing.<br>• Provides hands‑on experience solving problems and offers useful scientific tools for scientists, engineers, and others.<br>• Matlab software is of prime importance in this module.; (Evidence 2, MSU Humanities Yearbook, p. 573)
+Program structure (Level 2, Semester 2); Introduction to Numerical Methods; Listed as SEMA 204 with a 12‑credit weight.; (Evidence 3, MSU Humanities Yearbook, p. 571)
+
+Summary
+
+In the Dual Honours in Science track, SEMA 204 is a Real Analysis module focused on theory, proofs, and analytical skill development.
+In the Honours in Mathematics and Applied Statistics track, SEMA 204 is an Introduction to Numerical Methods module that emphasizes computational techniques, Matlab, and practical problem solving.
+
+These are the only descriptions of SEMA 204 found in the supplied MSU yearbook evidence. If you need further details (e.g., learning outcomes, assessment methods), the evidence provided does not contain that information.
+B: SEMA 204 – Module Information (as recorded in the MSU yearbooks)
+
+Version; Course Title; Description; Credit Hours
+1; Real Analysis; “The module covers a firm foundation in the theory of real analysis and uses definitions and logical reasoning to prove mathematical results or theorems. The students shall develop strong analytical skills which are useful in students' day‑to‑day lives. It provides students with various techniques for solving mathematical problems and prepares students for higher studies in mathematics and related fields.”; Not specified in the passage
+2; Introduction to Numerical Methods; “The module introduces students to modern methods, techniques, and computational methods for solving problems in linear algebra, nonlinear equations, interpolation, approximation and integration. It will also involve the presentation of basic mathematical foundations of numerical methods and computing. Students will get hands‑on experience in solving problems and give useful scientific tools for scientists, engineers and others. Matlab software is of prime importance in this module.”; 12 credit hours (Level 2 Semester 2)
+
+Sources
+
+Evidence 1 (MSU Humanities Yearbook, p. 556) – description of SEMA 204 Real Analysis.
+Evidence 2 (MSU Humanities Yearbook, p. 573) – description of SEMA 204 Introduction to Numerical Methods.
+Evidence 3 (MSU Humanities Yearbook, p. 571) – lists SEMA 204 Introduction to Numerical Methods as a 12‑credit‑hour module in Level 2 Semester 2.
+JUDGEMENT: {"label": "P41", "preferred": "tie", "reason": "Both correctly present both SEMA 204 descriptions and the credits."}
+
+---- P42 | Tell me about the module SEPS101
+A: SEPS101 – Historical Issues of Physical Education, Sports and the Olympic Movement
+
+Course description:
+The module focuses on the value of Physical Education, Sport Science and Management in the development of individuals and societies throughout the history of the human race. It has been and is still an important part of society in terms of economic and social development. This introductory module helps students appreciate the role that Physical Education and Sport have been playing in the holistic development of individuals from time immemorial. 【Evidence 1】
+
+Program placement:
+It is a Level 1, Semester 1 module in the Bachelor of Education Honours degree in Physical Education, Sports Science and Management.
+Credits: 12 【Evidence 2】
+
+That is all the information provided in the supplied MSU yearbook evidence.
+B: SEPS101 is the module “Historical Issues of Physical Education, Sports and the Olympic Movement.”
+It is a Level 1, Semester 1 course in the Bachelor of Education Honours degree in Physical Education, Sports Science and Management (EDU73).
+The module carries 12 credits (see the programme structure list).
+Its focus is on the value of Physical Education, Sport Science and Management in the development of individuals and societies throughout history, highlighting the economic and social importance of sport and its role in holistic development. (MSU Humanities Yearbook, p. 576)
+JUDGEMENT: {"label": "P42", "preferred": "tie", "reason": "Both are accurate with placement and credits."}
+
+---- P43 | Which other modules are taken in the same semester as MFA700?
+A: The other modules that are taken in the same semester as MFA700 are:
+
+MFA701 Money Laundering and Asset Tracing
+MFA702 Compliance and Governance
+MFA703 Big Data Analytics in Forensic Accounting
+MFA704 Professional Ethics in Forensic Auditing
+
+These modules are listed together with MFA700 in the Level 1 Semester 1 programme structure (MSU Sciences Yearbook Vol. 2, p. 414).
+B: The other modules taken in the same semester as MFA700 Forensic Accounting and Auditing are:
+
+MFA701 Money Laundering and Asset Tracing
+MFA702 Compliance and Governance
+MFA703 Big Data Analytics in Forensic Accounting
+MFA704 Professional Ethics in Forensic Auditing
+
+These modules are listed together with MFA700 in the Level 1 Semester 1 programme structure【Evidence 2, p. 414】.
+JUDGEMENT: {"label": "P43", "preferred": "tie", "reason": "Both list the same correct modules."}
+
+---- P44 | How many credits do I get for passing SEMA 102?
+A: You receive 12 credits for passing SEMA 102.
+This is shown in the course listings for both the Bachelor of Education Honours and the Dual Honours programmes:
+
+Evidence 4 (Level 1 Semester 1) lists SEMA 102 “Linear Mathematics” with 12 credits【4】.
+Evidence 5 (Level 2 Semester 1) also lists SEMA 102 “Linear Mathematics” with 12 credits【5】.
+B: You receive 12 credits for passing SEMA 102.
+Both the course schedule (Evidence 4, page 556) and the programme structure (Evidence 5, page 564) list SEMA 102 Linear Mathematics as a 12‑credit module.
+JUDGEMENT: {"label": "P44", "preferred": "tie", "reason": "Both correctly give 12 credits."}
+
+---- P45 | What is MSCM 703 about?
+A: MSCM 703 – Procurement Theory and Practice
+This module is designed to give students a detailed understanding of procurement. It covers topics such as procurement management, the changing role of purchasing and supply, and procurement concepts.【Evidence 1, MSU Sciences Yearbook Vol. 2, p. 584】
+B: MSCM 703 is the “Procurement Theory and Practice” module.
+It is designed to give students a detailed understanding of procurement, covering topics such as procurement management, the changing role of purchasing and supply, and procurement concepts.
+
+Source: MSU Sciences Yearbook Vol. 2, p. 584.
+JUDGEMENT: {"label": "P45", "preferred": "tie", "reason": "Both give the same correct description."}

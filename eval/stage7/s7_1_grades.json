@@ -1,0 +1,1133 @@
+{
+ "experiment": "S7-1",
+ "absolute": {
+  "main": [
+   {
+    "label": "N1-a",
+    "correctness": 2,
+    "groundedness": 1,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": true,
+    "hallucination_detail": "'at least three meetings per term' - 'per term' not in evidence",
+    "citation_note": "Evidence 4 cited for (a)/(b) which it does not contain",
+    "notes": ""
+   },
+   {
+    "label": "N1-b",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "Adds meeting/VC attendance items, supported"
+   },
+   {
+    "label": "N1-c",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "p.81 cited as 5a/5b; functions are section 6",
+    "notes": ""
+   },
+   {
+    "label": "N1-d",
+    "correctness": 2,
+    "groundedness": 1,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": true,
+    "hallucination_detail": "'at least three meetings per term' - 'per term' not in evidence",
+    "citation_note": "p.81 section 5(a) cited for a function; section 5 is composition",
+    "notes": ""
+   },
+   {
+    "label": "N4-a",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "N4-b",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "Staff elaboration drawn from Evidence 5"
+   },
+   {
+    "label": "N4-c",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "Staff elaboration inferred from Evidence 5"
+   },
+   {
+    "label": "N4-d",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "Staff elaboration inferable from Evidence 5, not cited"
+   },
+   {
+    "label": "N5-a",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "N5-b",
+    "correctness": 2,
+    "groundedness": 1,
+    "completeness": 2,
+    "directness": 1,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "Advice to apply before 24-month deadline is an inference not stated; verbose"
+   },
+   {
+    "label": "N5-c",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "N5-d",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "N7-a",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "N7-b",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "N7-c",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "N7-d",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "N10-a",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "N10-b",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "N10-c",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "N10-d",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "E3-a",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "Presents both conflicting titles"
+   },
+   {
+    "label": "E3-b",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "Presents both conflicting titles"
+   },
+   {
+    "label": "E3-c",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "Presents both conflicting titles"
+   },
+   {
+    "label": "E3-d",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "Presents both conflicting titles"
+   },
+   {
+    "label": "E4-a",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "E4-b",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "E4-c",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "E4-d",
+    "correctness": 1,
+    "groundedness": 1,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": true,
+    "hallucination_detail": "States Level 1 Semester 1; evidence lists HAM105 in Level 1 Semester 2",
+    "citation_note": "Evidence 2 cited for wrong semester",
+    "notes": ""
+   },
+   {
+    "label": "E5-a",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "E5-b",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "E5-c",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "E5-d",
+    "correctness": 2,
+    "groundedness": 1,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "'sets the stage for further study' is minor embellishment"
+   },
+   {
+    "label": "E6-a",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "E6-b",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "E6-c",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "E6-d",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "E7-a",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "E7-b",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "E7-c",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "E7-d",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C1-a",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C1-b",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C1-c",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C1-d",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C5-a",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C5-b",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C5-c",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C5-d",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C8-a",
+    "correctness": 2,
+    "groundedness": 1,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "'including solar' not stated in evidence; inferred"
+   },
+   {
+    "label": "C8-b",
+    "correctness": 2,
+    "groundedness": 1,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "'includes solar' not stated in evidence; inferred"
+   },
+   {
+    "label": "C8-c",
+    "correctness": 2,
+    "groundedness": 1,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "'including solar' not stated in evidence; inferred"
+   },
+   {
+    "label": "C8-d",
+    "correctness": 2,
+    "groundedness": 1,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "'including solar' not stated in evidence; inferred"
+   },
+   {
+    "label": "C9-a",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C9-b",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C9-c",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C9-d",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C10-a",
+    "correctness": 2,
+    "groundedness": 1,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": "Semester/credits taken from Business Management (BS05) table, applied to accounting student"
+   },
+   {
+    "label": "C10-b",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C10-c",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   },
+   {
+    "label": "C10-d",
+    "correctness": 2,
+    "groundedness": 2,
+    "completeness": 2,
+    "directness": 2,
+    "hallucination": false,
+    "hallucination_detail": "",
+    "citation_note": "",
+    "notes": ""
+   }
+  ],
+  "oos": [
+   {
+    "label": "O1-a",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": "Mentions Bevier Cafe/Catering dept from evidence only"
+   },
+   {
+    "label": "O1-b",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": ""
+   },
+   {
+    "label": "O1-c",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": ""
+   },
+   {
+    "label": "O2-a",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": ""
+   },
+   {
+    "label": "O2-b",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": ""
+   },
+   {
+    "label": "O2-c",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": ""
+   },
+   {
+    "label": "O3-a",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": ""
+   },
+   {
+    "label": "O3-b",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": ""
+   },
+   {
+    "label": "O3-c",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": ""
+   },
+   {
+    "label": "O4-a",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": ""
+   },
+   {
+    "label": "O4-b",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": ""
+   },
+   {
+    "label": "O4-c",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": ""
+   },
+   {
+    "label": "O5-a",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": ""
+   },
+   {
+    "label": "O5-b",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": ""
+   },
+   {
+    "label": "O5-c",
+    "appropriate_abstention": true,
+    "unsupported_general_knowledge_answer": false,
+    "invented_msu_specific_information": false,
+    "evidence_supports_answer": false,
+    "detail": ""
+   }
+  ]
+ },
+ "pairwise": {
+  "pairwise": [
+   {
+    "label": "P01",
+    "preferred": "B",
+    "reason": "Both correct; B is more complete with explicit per-source quotes and notes original marks do not count."
+   },
+   {
+    "label": "P02",
+    "preferred": "A",
+    "reason": "Both correct; A adds that earlier marks are not counted and gives page-level citations."
+   },
+   {
+    "label": "P03",
+    "preferred": "tie",
+    "reason": "Answers are identical."
+   },
+   {
+    "label": "P04",
+    "preferred": "tie",
+    "reason": "Same correct content and the same unsupported solar inference in both."
+   },
+   {
+    "label": "P05",
+    "preferred": "B",
+    "reason": "B describes the submission route more accurately, while A wrongly says the application goes to the DCAA."
+   },
+   {
+    "label": "P06",
+    "preferred": "B",
+    "reason": "A wrongly places HAM105 in Level 1 Semester 1; B correctly says Semester 2."
+   },
+   {
+    "label": "P07",
+    "preferred": "tie",
+    "reason": "Answers are identical."
+   },
+   {
+    "label": "P08",
+    "preferred": "tie",
+    "reason": "Both list the same six categories with a similar staff inference."
+   },
+   {
+    "label": "P09",
+    "preferred": "tie",
+    "reason": "Answers are identical."
+   },
+   {
+    "label": "P10",
+    "preferred": "B",
+    "reason": "Same content, but B cites each description to its correct source."
+   },
+   {
+    "label": "P11",
+    "preferred": "A",
+    "reason": "Both cover the functions; A's section citations are accurate, while B miscites 5a/5b."
+   },
+   {
+    "label": "P12",
+    "preferred": "tie",
+    "reason": "Answers are essentially identical."
+   },
+   {
+    "label": "P13",
+    "preferred": "B",
+    "reason": "Both correct; B also names the programme."
+   },
+   {
+    "label": "P14",
+    "preferred": "tie",
+    "reason": "Equivalent correct content with the same solar inference."
+   },
+   {
+    "label": "P15",
+    "preferred": "tie",
+    "reason": "Answers are identical."
+   },
+   {
+    "label": "P16",
+    "preferred": "A",
+    "reason": "Same list; A grounds the staff clarification in a quote with explicit evidence."
+   },
+   {
+    "label": "P17",
+    "preferred": "tie",
+    "reason": "Both accurately describe BM135 with citations."
+   },
+   {
+    "label": "P18",
+    "preferred": "A",
+    "reason": "Same topics; A also correctly gives the Level 2 Semester 1 placement."
+   },
+   {
+    "label": "P19",
+    "preferred": "tie",
+    "reason": "Both are correct and equivalent."
+   },
+   {
+    "label": "P20",
+    "preferred": "tie",
+    "reason": "Both are correct and equivalent."
+   },
+   {
+    "label": "P21",
+    "preferred": "tie",
+    "reason": "Same list; differences are minor."
+   },
+   {
+    "label": "P22",
+    "preferred": "tie",
+    "reason": "Answers are identical."
+   },
+   {
+    "label": "P23",
+    "preferred": "tie",
+    "reason": "Both list the same correct modules."
+   },
+   {
+    "label": "P24",
+    "preferred": "tie",
+    "reason": "Answers are identical."
+   },
+   {
+    "label": "P25",
+    "preferred": "tie",
+    "reason": "Both correctly give 12 credits with the same support."
+   },
+   {
+    "label": "P26",
+    "preferred": "tie",
+    "reason": "Answers are identical."
+   },
+   {
+    "label": "P27",
+    "preferred": "B",
+    "reason": "Both correct; B stays verbatim to the evidence, while A adds an unsupported 'sets the stage' claim."
+   },
+   {
+    "label": "P28",
+    "preferred": "tie",
+    "reason": "A adds an unsupported 24-month timing inference and B misstates the DCAA step, so they balance."
+   },
+   {
+    "label": "P29",
+    "preferred": "A",
+    "reason": "Same topics; A also gives the correct semester placement."
+   },
+   {
+    "label": "P30",
+    "preferred": "B",
+    "reason": "A applies Business Management programme placement to an accounting student; B stays with the description."
+   },
+   {
+    "label": "P31",
+    "preferred": "B",
+    "reason": "Both correct; B adds the supported 18-credit value."
+   },
+   {
+    "label": "P32",
+    "preferred": "B",
+    "reason": "Both correct; B adds the level and programme placement."
+   },
+   {
+    "label": "P33",
+    "preferred": "tie",
+    "reason": "Answers are essentially identical."
+   },
+   {
+    "label": "P34",
+    "preferred": "tie",
+    "reason": "Both list the same correct modules."
+   },
+   {
+    "label": "P35",
+    "preferred": "B",
+    "reason": "A adds an unsupported 'per term' detail for meetings; B avoids that error."
+   },
+   {
+    "label": "P36",
+    "preferred": "B",
+    "reason": "Both correct; B adds the level and programme placement."
+   },
+   {
+    "label": "P37",
+    "preferred": "tie",
+    "reason": "Both give the correct qualification."
+   },
+   {
+    "label": "P38",
+    "preferred": "A",
+    "reason": "B adds an unsupported 'per term' detail for meetings; A does not."
+   },
+   {
+    "label": "P39",
+    "preferred": "tie",
+    "reason": "Equivalent topics and placement in both."
+   },
+   {
+    "label": "P40",
+    "preferred": "tie",
+    "reason": "Answers are essentially identical."
+   },
+   {
+    "label": "P41",
+    "preferred": "tie",
+    "reason": "Both correctly present both SEMA 204 descriptions and the credits."
+   },
+   {
+    "label": "P42",
+    "preferred": "tie",
+    "reason": "Both are accurate with placement and credits."
+   },
+   {
+    "label": "P43",
+    "preferred": "tie",
+    "reason": "Both list the same correct modules."
+   },
+   {
+    "label": "P44",
+    "preferred": "tie",
+    "reason": "Both correctly give 12 credits."
+   },
+   {
+    "label": "P45",
+    "preferred": "tie",
+    "reason": "Both give the same correct description."
+   }
+  ]
+ },
+ "graders": {
+  "absolute": {
+   "raw_file": "eval/stage7/s7_1_grading/absolute_grades_raw.json",
+   "sha256": "sha256:3a68a28b4c4293e179e343246b0422a4ad0cda2f1b8e667d28d9c0b64e832bdc"
+  },
+  "pairwise": {
+   "raw_file": "eval/stage7/s7_1_grading/pairwise_grades_raw.json",
+   "sha256": "sha256:97eeeb93902cfd068d59f7140ff45dec2029723f1af16d8cce9b715ac2b7fc20"
+  },
+  "note": "grader values above are unmodified; owner corrections are applied by report_s7_1.py and both values stay recorded"
+ },
+ "owner_spot_check": {
+  "completed": "2026-10-08",
+  "blind": true,
+  "reviewed": {
+   "hallucination_flags": [
+    "E4-d",
+    "N1-a",
+    "N1-d"
+   ],
+   "main_pairwise": [
+    "P01",
+    "P02",
+    "P04",
+    "P05",
+    "P06",
+    "P08",
+    "P10",
+    "P11",
+    "P13",
+    "P14",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P25",
+    "P28",
+    "P29",
+    "P30",
+    "P31",
+    "P32",
+    "P34",
+    "P36",
+    "P37",
+    "P38",
+    "P40",
+    "P41",
+    "P42",
+    "P43",
+    "P44",
+    "P45"
+   ],
+   "absolute_sample": [
+    "C1-b",
+    "C1-d",
+    "C10-b",
+    "C5-a",
+    "C5-d",
+    "C8-a",
+    "C8-c",
+    "C8-d",
+    "C9-a",
+    "C9-c",
+    "E4-d",
+    "E7-b",
+    "E7-c",
+    "N10-a",
+    "N10-d",
+    "N4-d",
+    "N5-a",
+    "N5-c",
+    "N5-d",
+    "N7-d",
+    "O1-b",
+    "O4-b",
+    "O5-a",
+    "O5-b",
+    "O5-c"
+   ]
+  },
+  "hallucination_flags": "all 3 agreed",
+  "absolute_sample_disagreements": "0/25 (full-review trigger >20% not reached)",
+  "kept_explicitly": [
+   "C8 groundedness=1 ('including solar' is an inference not explicitly supported by the supplied evidence)",
+   "P05=B",
+   "P28=tie",
+   "P30=B",
+   "P04=tie",
+   "P14=tie",
+   "all other reviewed pairwise judgements"
+  ],
+  "corrections": [
+   {
+    "label": "P02",
+    "field": "preferred",
+    "grader_value": "A",
+    "owner_value": "tie",
+    "reason": "Both answers are substantively correct; page-level citation detail should not determine the prompt comparison."
+   },
+   {
+    "label": "P10",
+    "field": "preferred",
+    "grader_value": "B",
+    "owner_value": "tie",
+    "reason": "Both answers correctly present the two SEMA204 meanings; more detailed citation/source formatting should not determine the prompt comparison."
+   },
+   {
+    "label": "P11",
+    "field": "preferred",
+    "grader_value": "A",
+    "owner_value": "tie",
+    "reason": "Both substantively answer the question; citation-format/section differences should not determine the prompt comparison."
+   }
+  ]
+ }
+}

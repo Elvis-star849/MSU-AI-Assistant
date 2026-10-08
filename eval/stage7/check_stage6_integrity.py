@@ -5,8 +5,8 @@ Checks, against eval/stage6/s6_6_freeze.json and the accepted milestone commit 5
     (the three S6-6 evaluation scripts are excluded: documented line-ending issue, see the S6-6 commit notes)
   - the corpus fingerprint of both indexes and the heading fingerprint / structure version of faiss_store_v2
   - that the working copy of the retrieval source and indexes has no difference from commit 5fc1370
-Usage: python eval/stage7/check_stage6_integrity.py before|after   (run from the project root)
-Writes eval/stage7/s7_0_integrity_<label>.json and exits non-zero on any mismatch.
+Usage: python eval/stage7/check_stage6_integrity.py before|after [experiment, default s7_0]   (from the project root)
+Writes eval/stage7/<experiment>_integrity_<label>.json and exits non-zero on any mismatch.
 """
 import hashlib, json, os, subprocess, sys, time
 
@@ -17,6 +17,7 @@ STAGE6_PATHS = ["src/vectorstore.py", "src/embedding.py", "src/retrieval_v2.py",
                 "src/heading_store.py", "src/ambiguity.py", "faiss_store", "faiss_store_v2"]
 
 label = sys.argv[1]
+experiment = sys.argv[2] if len(sys.argv) > 2 else "s7_0"
 freeze = json.load(open("eval/stage6/s6_6_freeze.json"))
 
 
@@ -47,13 +48,13 @@ git_checks = {
     "stage6_paths_unchanged_since_accepted_commit": git("diff", "--name-only", ACCEPTED_COMMIT, "--", *STAGE6_PATHS) == "",
 }
 passed = all(files.values()) and all(fingerprints.values()) and all(git_checks.values())
-report = {"label": label, "checked_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "head": head,
+report = {"experiment": experiment, "label": label, "checked_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "head": head,
           "accepted_stage6_commit": ACCEPTED_COMMIT, "freeze_record": "eval/stage6/s6_6_freeze.json",
           "excluded_from_hash_check": sorted(EXCLUDED),
           "excluded_reason": "S6-6 evaluation scripts: documented LF/CRLF line-ending issue; not modified in S7-0",
           "files_checked": len(files), "file_hash_matches": files, "fingerprints": fingerprints, "git": git_checks,
           "passed": passed}
-json.dump(report, open(f"eval/stage7/s7_0_integrity_{label}.json", "w"), indent=1)
+json.dump(report, open(f"eval/stage7/{experiment}_integrity_{label}.json", "w"), indent=1)
 print(f"{label}: {sum(files.values())}/{len(files)} hashes match | fingerprints {fingerprints} | git {git_checks}")
 print("PASSED" if passed else "FAILED: " + ", ".join(p for p, ok in files.items() if not ok))
 sys.exit(0 if passed else 1)

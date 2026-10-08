@@ -1,0 +1,40 @@
+{
+ "experiment": "S7-1",
+ "frozen_at": "2026-10-08T14:39:19+0200",
+ "git_head": "48b6fe35c9bb1869bd3870f43a224eebf5550b40",
+ "note": "git HEAD plus uncommitted S7-1 working files, frozen by hash below",
+ "manifest_items": 75,
+ "order_seed": 71001,
+ "system_prompt_sha256": {
+  "arm0": "sha256:e924c5b5020507a23dd75c653449cbe301343f846a5ea8e02db31a5027435113",
+  "arm1": "sha256:834412d0a3b22c0fa26357dbbd8e3b5a386246c7489d80054413486ef91887be",
+  "arm2": "sha256:c66d30f7bce9586ac7467bae4aeff5d8be3fbc09e808f815238e8fcdf5e960a1"
+ },
+ "prompt_versions": {
+  "arm0": "s7-0-baseline-v1",
+  "arm1": "s7-1-arm1-v1",
+  "arm2": "s7-1-arm2-v1"
+ },
+ "sha256": {
+  "eval/stage7/s7_1_design.json": "sha256:9f60f2caa8e33e5e2262c655daeebb5845cd617e395eb69d92d1184242cb635b",
+  "eval/stage7/s7_1_questions.json": "sha256:340ba8eba75977827d00d52ae290c67e56a3ddb3c3aaff3f88182c219db6e64d",
+  "eval/stage7/s7_1_prompts.json": "sha256:8a91797ab8578763f4a9836671d8f1fa0d95771c746256f07e7768bd4f22ed82",
+  "eval/stage7/s7_1_evidence.json": "sha256:328db78db491a27e392c293da8e1b7b68591fe9d1f1ad02cb35fe2a414599061",
+  "eval/stage7/s7_1_manifest.json": "sha256:49733b50504d93ed70f0f725fe2fce0f3396ea41bfef0208ec21cd4622c9b650",
+  "eval/stage7/s7_1_core.py": "sha256:7159138cbdce69f2b1fccd7d5b00473b6860301c949cfc5be730f709da43de36",
+  "eval/stage7/prepare_s7_1.py": "sha256:a10fe9fbf3e220ce1e2c3c4312d8f5ecf28fb32c1f3c46762ce54f98056d1874",
+  "eval/stage7/run_s7_1.py": "sha256:e94c1a5a48f800d331e2f46f691a769dd1f7f75287d53124acdb4c97c5e908d3",
+  "eval/stage7/s7_1_blind.py": "sha256:a2faf21b5e73959d713d0cb048ff04d5c582f849fc8017ae8889ec9d9182bcb6",
+  "eval/stage7/report_s7_1.py": "sha256:59f3fa96fd0968a588ed1dc65c7383d7f3988f2eaa47755d11cd35014bb13e6d",
+  "eval/stage7/freeze_s7_1.py": "sha256:c9633d1925820a8c70a4b69375a9c59f832b623fc48d7f293d41d25e4e7f68b1",
+  "eval/stage7/check_stage6_integrity.py": "sha256:ebb01c3ff0bdcb56f7c9ffdd991fd152ce32b690b1cf7ecbdcd363dbc365af5b",
+  "tests/test_s7_1.py": "sha256:bdbdbcf466e83755a622e8658453f6badf0be3985fccf8ca2d406fafeb0a29fc",
+  "src/context.py": "sha256:59776af33b2806834e44797c8c104a058d25047f21bbd12e4939e710104a61e3",
+  "src/evidence.py": "sha256:97863c48216e0b137c77e9815dcf8a5aab393e5a2376cf08ee110dbfc2ccc949",
+  "src/answer.py": "sha256:077a972b4329c537d58662054a5cf80a8949e7abc3956a1eb1719078e3eca815",
+  "src/llm/__init__.py": "sha256:371c3098c723ea0ad52a6067c3f37120d1fc52d30ca344371f97c69eec3d74d4",
+  "src/llm/base.py": "sha256:31ce092e4f2f1461a22482d70f30d13fcd2028a4a3462f9624719c09fbe0cebc",
+  "src/llm/config.py": "sha256:fb922621cbcd77f889f2daace557973414e3893226c8fed3063979d8158f57ab",
+  "src/llm/groq_client.py": "sha256:84238118a65574468a3d27b547bf32ca7ef5d3c727b85e884fda20f4ca19658d"
+ }
+}

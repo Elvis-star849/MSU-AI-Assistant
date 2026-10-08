@@ -1,0 +1,1305 @@
+{
+ "experiment": "S7-1",
+ "retrieval": "Stage6Retriever('main'), retrieved once before generation",
+ "reference": "eval/stage6/s6_3_runs.json runs['B'], first 5",
+ "questions": {
+  "N1": {
+   "question": "What is a faculty board responsible for?",
+   "category": "natural_language",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "Lists faculty board functions: regulate teaching and study of the faculty's subjects (subject to Senate approval), report to Senate on faculty matters, deal with matters referred/delegated by Senate",
+    "pages": [
+     "Hum 31",
+     "Sci 32",
+     "Hum 81"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    2,
+    3
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 298,
+     "source": "MSU Humanities Yearbook",
+     "page": 81,
+     "heading": "Section: FACULTY OF ENGINEERING AND GEOSCIENCES > 5 Composition of Faculty Boards",
+     "text": "[MSU Humanities Yearbook, p. 81]\n5. Composition of Faculty Boards\n\nFor each Faculty there shall be a Faculty Board which shall consist of:\na. the Executive Dean;\nb. all the full-time academic staff of the Faculty; such persons as may be assigned to the Faculty Board by\nthe Senate; and\nc. two students elected annually by the students in the Faculty.\n\n6. Functions of Faculty Boards\n\nA Faculty Board shall have the following functions:\na. to regulate, subject to the approval of the Senate, the teaching and study of the\nsubjects assigned to the faculty;\nb. to report to the Senate on any matter specifically relating to the work of the faculty;",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.74430251121521,
+     "rerank_score": 5.023599624633789,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5710,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 32,
+     "heading": "Section: STATUTES OF THE UNIVERSITY ARRANGEMENT OF STATUTES",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 32]\nA faculty board shall have the following functions-\n(a) to regulate, subject to the approval of the Senate, the teaching and study of the subjects assigned to the\nfaculty;\n(b) to report to the Senate on any matter specifically relating to the work of the faculty;\n(c) to deal with any matter referred or delegated to it by the Senate;\n(d) to appoint committees, which may include a minority of persons who are not members of the faculty\nboard, to carry out any of the duties or exercise any of the powers of the board.\nMeetings of faculty boards\n15. (1) The dean of each faculty shall call regular meetings of the faculty board at which matters relating to the policy of\nthe faculty and appointments shall be discussed and recommendations adopted for submission to the appropriate",
+     "retrieval_rank": 3,
+     "retrieval_score": 0.7357962727546692,
+     "rerank_score": 5.005025863647461,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 111,
+     "source": "MSU Humanities Yearbook",
+     "page": 31,
+     "heading": "Section: STATUTES OF THE UNIVERSITY ARRANGEMENT OF STATUTES",
+     "text": "[MSU Humanities Yearbook, p. 31]\nthinks appropriate.\nComposition of faculty boards\n13. For each faculty there shall be a faculty board which shall consist of-\n(a) all the full-time academic staff of the faculty; and\n(b) such persons as may be assigned to the faculty board by the Senate; and\n(c) two students elected annually by the students in the faculty.\nFunctions of faculty boards\n14. A faculty board shall have the following functions-\n(a) to regulate, subject to the approval of the Senate, the teaching and study of the subjects assigned to the\nfaculty;\n(b) to report to the Senate on any matter specifically relating to the work of the faculty;\n(c) to deal with any matter referred or delegated to it by the Senate;",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.7453057169914246,
+     "rerank_score": 4.959333419799805,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 299,
+     "source": "MSU Humanities Yearbook",
+     "page": 82,
+     "heading": "Section: FACULTY OF ENGINEERING AND GEOSCIENCES > 6 Functions of Faculty Boards",
+     "text": "[MSU Humanities Yearbook, p. 82]\nc. to deal with any matter referred or delegated to it by the Senate; and\nd. to appoint committees, which may include a minority of persons who are not members of the Faculty\nBoard, to carry out any of the duties or exercise any of the powers of the Board.\n\n7. Meetings of Faculty Boards\ni. The Executive Dean of each faculty shall call for at least three (3) meetings of the Faculty Board\nat which matters relating to the policy of the faculty and appointments shall be discussed and\nrecommendations adopted for submission to the appropriate authorities on appointments.\nii. The Vice-Chancellor and every Pro-Vice-Chancellor shall be entitled to attend\nany meeting of a Faculty Board or committee thereof.",
+     "retrieval_rank": 4,
+     "retrieval_score": 0.7314337491989136,
+     "rerank_score": 4.165960311889648,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 305,
+     "source": "MSU Humanities Yearbook",
+     "page": 83,
+     "heading": "Section: FACULTY OF ENGINEERING AND GEOSCIENCES > 2 Duties and Powers of the Departmental Board",
+     "text": "[MSU Humanities Yearbook, p. 83]\nSubject to the provisions of the University Statutes, the authority of the Senate, provisions of this Ordinance and\nsuch limitations as the Faculty of which the Department forms a part may impose, the Departmental Board;\n2.1 shall arrange for, conduct and control the teaching and instruction of students within the Department\nand the setting and marking of examination papers in accordance with regulations approved by Senate,\nthe general academic policy agreed by the Faculty Board and the approved administrative procedures\nof the University.\n2.2 shall make recommendations to the Faculty Board for the establishment of new courses and the\namendment of existing regulations and syllabi relating to studies within the Department.",
+     "retrieval_rank": 6,
+     "retrieval_score": 0.7227468490600586,
+     "rerank_score": 3.7274255752563477,
+     "route": "vector",
+     "configuration": "main"
+    }
+   ]
+  },
+  "N4": {
+   "question": "Who are the members of Midlands State University?",
+   "category": "natural_language",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "The membership list: Chancellor, Vice-Chancellor, Pro-Vice-Chancellors, Council members, Senate members, staff (+ registered students and Convocation, which continue on p.15). Grade 2 for the chunk with the main list (a)-(f); the p.15 continuation alone is grade 1",
+    "pages": [
+     "Hum 14",
+     "Hum 15"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    1
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 38,
+     "source": "MSU Humanities Yearbook",
+     "page": 14,
+     "heading": "Section: MIDLANDS STATE UNIVERSITY ACT > 5 Membership of the University",
+     "text": "[MSU Humanities Yearbook, p. 14]\n5 Membership of the University\nThe University shall consist of-\n(a) a Chancellor; and\n(b) a Vice-Chancellor; and\n(c) 1 or more Pro-Vice-Chancellors; and\n(d) members of the Council; and\n(e) members of the Senate; and\n(f) members of staff; and",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.7164156436920166,
+     "rerank_score": 8.446250915527344,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 46,
+     "source": "MSU Humanities Yearbook",
+     "page": 16,
+     "heading": "Section: MIDLANDS STATE UNIVERSITY ACT > 10 Council",
+     "text": "[MSU Humanities Yearbook, p. 16]\n(c) 2 persons who are members of the academic staff appointed by the Senate, other than the Vice-\nChancellor and any Pro-Vice-Chancellor; and\n(d) the President of the Students' Representative Council, who shall be an ex-officio member; and\n(e) 2 persons elected by the workers' committee of the University.\n(2) In appointing members to the Council, the Minister or any appointing authority under this section shall-\n(a) ensure that both genders are equally represented and for the avoidance of doubt that women constitute\nhalf the membership of the Council; and\n(b) ensure that there is fair regional representation;\n(c) appoint members of relevant and appropriate professions.",
+     "retrieval_rank": 10,
+     "retrieval_score": 0.6715771555900574,
+     "rerank_score": 7.754062652587891,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 45,
+     "source": "MSU Humanities Yearbook",
+     "page": 16,
+     "heading": "Section: MIDLANDS STATE UNIVERSITY ACT > 10 Council",
+     "text": "[MSU Humanities Yearbook, p. 16]\n10 Council\n[Substituted by Act 4/2022 w.e.f. 2nd September, 2022.]\n(1) Subject to this Act and any general directions as to policy given by the Minister, the government and executive\nauthority of the University shall be vested in the Council which shall consist of not less than ten (10) and not more than\ntwenty (20) members including-\n(a) the Chancellor and the Vice-Chancellor (and the Pro-Vice Chancellors who may attend the Council\nmeeting at the invitation of the Vice Chancellor but shall not have voting privileges), who shall be ex-\nofficio members; and\n(b) 10 persons appointed by the Minister including a Ministry representative; and\n(c) 2 persons who are members of the academic staff appointed by the Senate, other than the Vice-\nChancellor and any Pro-Vice-Chancellor; and",
+     "retrieval_rank": 8,
+     "retrieval_score": 0.6747590899467468,
+     "rerank_score": 6.96990442276001,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 19,
+     "source": "MSU Humanities Yearbook",
+     "page": 10,
+     "heading": "Section: MIDLANDS STATE UNIVERSITY ACT",
+     "text": "[MSU Humanities Yearbook, p. 10]\nMIDLANDS STATE UNIVERSITY ACT [Chapter 25:21]\nChapter 25:21\nMIDLANDS STATE UNIVERSITY ACT\nActs 4/1999, 22/2001, 14/2002, 4/2022\nARRANGEMENT OF SECTIONS\nSections\n1. Short title.\n2. Interpretation.\n3. Establishment of University.\n4. Objects and powers of the University.\n5. Membership of the University.\n6. Prohibition against discrimination in membership of University.\n7. Chancellor.\n8. Vice-Chancellor.\n9. Pro-Vice-Chancellors.\n10. Council.\n11. Functions of Council.\n12. Disqualifications for appointment as Council member.\n13. Vacation of office by Council member.\n14. Chairman and vice-chairman of Council.\n15. Executive Committee of Council.\n16. Senate.\n17. Functions of Senate.\n18. Academic Board.\n19. Registrar.\n20. Bursar.\n21. Librarian.\n22. Convocation.",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.6945115327835083,
+     "rerank_score": 6.222943305969238,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 393,
+     "source": "MSU Humanities Yearbook",
+     "page": 99,
+     "heading": "Section: FACULTY OF ENGINEERING AND GEOSCIENCES > 8 TENURE",
+     "text": "[MSU Humanities Yearbook, p. 99]\nPREAMBLE\nIn terms of section 29 (3) (h) of the University Act No.4 of 1999, the Council of the Midlands State University,\nwith the approval of the Minister of Higher and Tertiary Education, Innovation, Science and Technology\nDevelopment or such other Minister to whom the President may from time to time assign the administration of\nthe Midlands State University Act, on the recommendation of the University Senate, makes the following\nOrdinance, which shall be administered in conjunction with other labour legislations and in-house policies and\nprocedures.\n1. INTERPRETATION\n(i) In this Ordinance - \"administrative staff\" refers to all persons employed by the University in the\ngrades 4 to 8 ranges and are not members of the teaching staff.",
+     "retrieval_rank": 4,
+     "retrieval_score": 0.6868646144866943,
+     "rerank_score": 4.676033973693848,
+     "route": "vector",
+     "configuration": "main"
+    }
+   ]
+  },
+  "N5": {
+   "question": "Can I switch from an MPhil to a PhD, and when?",
+   "category": "natural_language",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "Yes: after at least 12 months of study, on supervisor recommendation, with a Faculty Higher Degrees Committee recommendation to Research and Innovation; DCAA recommends to Senate",
+    "pages": [
+     "Hum 151",
+     "Sci 154"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    1,
+    2
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 640,
+     "source": "MSU Humanities Yearbook",
+     "page": 151,
+     "heading": "Section: GENERAL ACADEMIC REGULATIONS FOR MASTER OF PHILOSOPHY AND DOCTOR OF PHILOSOPHY DEGREES > 8 UPGRADE FROM MPHIL TO PhD/DPHIL",
+     "text": "[MSU Humanities Yearbook, p. 151]\n7.3.1 Recommend to Senate for Provisional, Full Registration, Termination or Extension of Studies decisions.\n\n8. UPGRADE FROM MPHIL TO PhD/DPHIL\n\nA candidate registered for the MPhil degree may apply for upgrading to PhD/DPhil, after completion of not less than twelve\n(12) months' studies if their supervisor(s) so recommend(s), upgrade registration to PhD/DPhil. The application shall be\naccompanied by a written recommendation from the Faculty Higher Degrees Committee, School or Institute, submitted to\nthe Research and Innovation Division. DCAA shall make a determination and recommend to Senate for approval. The\nduration of further study, if any, which shall be required to pursue for the PhD/DPhil shall be prescribed by Senate.",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.749879002571106,
+     "rerank_score": 3.1316709518432617,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5826,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 154,
+     "heading": "Section: GENERAL ACADEMIC REGULATIONS FOR MASTER OF PHILOSOPHY AND DOCTOR OF PHILOSOPHY DEGREES > 8 UPGRADE FROM MPHIL TO PhD/DPHIL",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 154]\n7.3.1 Recommend to Senate for Provisional, Full Registration, Termination or Extension of Studies\ndecisions.\n\n8. UPGRADE FROM MPHIL TO PhD/DPHIL\n\nA candidate registered for the MPhil degree may apply for upgrading to PhD/DPhil, after completion\nof not less than twelve (12) months' studies if their supervisor(s) so recommend(s), upgrade\nregistration to PhD/DPhil. The application shall be accompanied by a written recommendation from\nthe Faculty Higher Degrees Committee, School or Institute, submitted to the Research and Innovation\nDivision. DCAA shall make a determination and recommend to Senate for approval. The duration of\nfurther study, if any, which shall be required to pursue for the PhD/DPhil shall be prescribed by Senate.\n\n9. DOWNGRADE FROM PhD/DPHIL TO MPHIL",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.7470639944076538,
+     "rerank_score": 2.913235664367676,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 641,
+     "source": "MSU Humanities Yearbook",
+     "page": 152,
+     "heading": "Section: GENERAL ACADEMIC REGULATIONS FOR MASTER OF PHILOSOPHY AND DOCTOR OF PHILOSOPHY DEGREES > 9 DOWNGRADE FROM PhD/DPHIL TO MPHIL",
+     "text": "[MSU Humanities Yearbook, p. 152]\n9. DOWNGRADE FROM PhD/DPHIL TO MPHIL\n\nA candidate registered for the PhD/DPhil, who wishes to downgrade to MPhil may apply for permission to downgrade to\nMPhil. The following shall be required by DCAA for recommendation to Senate:\n\ni. Supervisor(s), Faculty Higher Degrees Committee, School or Institute written recommendation.\n\n10. SUPERVISION OF MPHIL OR PhD/DPHIL\n\n10.1 Supervision Requirements",
+     "retrieval_rank": 3,
+     "retrieval_score": 0.7456466555595398,
+     "rerank_score": 2.077862024307251,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5827,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 154,
+     "heading": "Section: GENERAL ACADEMIC REGULATIONS FOR MASTER OF PHILOSOPHY AND DOCTOR OF PHILOSOPHY DEGREES > 9 DOWNGRADE FROM PhD/DPHIL TO MPHIL",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 154]\n9. DOWNGRADE FROM PhD/DPHIL TO MPHIL\n\nA candidate registered for the PhD/DPhil, who wishes to downgrade to MPhil may apply for\npermission to downgrade to MPhil. The following shall be required by DCAA for recommendation to\nSenate:\n\ni. Supervisor(s), Faculty Higher Degrees Committee, School or Institute written\nrecommendation.\n\n10. SUPERVISION OF MPHIL OR PhD/DPHIL\n\n10.1 Supervision Requirements",
+     "retrieval_rank": 4,
+     "retrieval_score": 0.7447562217712402,
+     "rerank_score": 2.077862024307251,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5819,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 152,
+     "heading": "Section: GENERAL ACADEMIC REGULATIONS FOR MASTER OF PHILOSOPHY AND DOCTOR OF PHILOSOPHY DEGREES > 6.2 Full Registration",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 152]\n6.2.1 MPhil students must complete their studies within 24 months (2 years), and PhD/DPhil\nfour years (48 months) after registering for full registration, continuation, thereafter is\nsubject to approval by Senate.\n\n6.3 Progress Reporting",
+     "retrieval_rank": 5,
+     "retrieval_score": 0.7077102661132812,
+     "rerank_score": 0.8565534353256226,
+     "route": "vector",
+     "configuration": "main"
+    }
+   ]
+  },
+  "N7": {
+   "question": "What qualification do I need to apply for an MPhil?",
+   "category": "natural_language",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "An appropriate honours degree (ZNQF Level 8) or equivalent",
+    "pages": [
+     "Hum 149",
+     "Sci 151"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    4
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 643,
+     "source": "MSU Humanities Yearbook",
+     "page": 152,
+     "heading": "Section: GENERAL ACADEMIC REGULATIONS FOR MASTER OF PHILOSOPHY AND DOCTOR OF PHILOSOPHY DEGREES > 10.2 Supervisor qualities and qualifications",
+     "text": "[MSU Humanities Yearbook, p. 152]\n10.2.1 The MPhil or PhD/DPhil supervisor must be a doctoral graduate with proven academic accomplishments, and or\nindustrial experience in research; and must have a solid or respectful publication record in peer reviewed journals\nor assessed equivalents.\n10.2.2 Preferably, be in the professorial grade or have credentials that qualify them to be in that grade.\n10.2.3 The MPhil or PhD/DPhil supervisor must be knowledgeable and possess deep, current content knowledge, and\nstays ahead of the supervisee for effective mentoring; demonstrates awareness of research, innovation and\nindustrialisation needs and preferably, have experience in building collaborative relationships with a range of",
+     "retrieval_rank": 7,
+     "retrieval_score": 0.6965534687042236,
+     "rerank_score": 3.8958559036254883,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5829,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 154,
+     "heading": "Section: GENERAL ACADEMIC REGULATIONS FOR MASTER OF PHILOSOPHY AND DOCTOR OF PHILOSOPHY DEGREES > 10.2 Supervisor qualities and qualifications",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 154]\n10.2.1 The MPhil or PhD/DPhil supervisor must be a doctoral graduate with proven academic\naccomplishments, and or industrial experience in research; and must have a solid or respectful\npublication record in peer reviewed journals or assessed equivalents.\n10.2.2 Preferably, be in the professorial grade or have credentials that qualify them to be in that grade.\n10.2.3 The MPhil or PhD/DPhil supervisor must be knowledgeable and possess deep, current content\nknowledge, and stays ahead of the supervisee for effective mentoring; demonstrates awareness\nof research, innovation and industrialisation needs and preferably, have experience in building",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.7151448130607605,
+     "rerank_score": 3.8668696880340576,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5816,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 152,
+     "heading": "Section: GENERAL ACADEMIC REGULATIONS FOR MASTER OF PHILOSOPHY AND DOCTOR OF PHILOSOPHY DEGREES > 5.2 PhD/Doctor of Philosophy",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 152]\n5.2 PhD/Doctor of Philosophy\n\n5.2.1 A candidate must be in possession of a pass in a relevant Master's or MPhil degree (ZNQF\nLevel 9) or its equivalence, in a field offered by the University.\n\n5.3 Application Requirements and Procedure\n\n5.3.1 Application for MPhil or PhD/DPhil shall be made online on https://ww5.msu.ac.zw on the\nMSU-Postgraduate Studies Portal.\n\n5.3.2 A one-to-four paged concept note, certified copies of academic, and professional\nqualifications shall be required.\n\n5.3.3 A motivational statement, or curriculum vitae or resume, and or any such additional\ndocuments, and or artefacts, recordings or publications may be requested.\n\n5.3.4 Proficiency in English language, or any such, as may be deemed relevant to be used for\ntraining shall be verified.\n\n6. REGISTRATION",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.7351411581039429,
+     "rerank_score": 3.6490464210510254,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 628,
+     "source": "MSU Humanities Yearbook",
+     "page": 149,
+     "heading": "Section: GENERAL ACADEMIC REGULATIONS FOR MASTER OF PHILOSOPHY AND DOCTOR OF PHILOSOPHY DEGREES > 5.1 Master of Philosophy Degree",
+     "text": "[MSU Humanities Yearbook, p. 149]\n5.1 Master of Philosophy Degree\n\n5.1.1 Applicants must have obtained an appropriate honours degree (ZNQF Level 8), or equivalent.\n\n5.2 PhD/Doctor of Philosophy\n\n5.2.1 A candidate must be in possession of a pass in a relevant Master's or MPhil degree (ZNQF Level 9) or its\nequivalence, in a field offered by the University.\n\n5.3 Application Requirements and Procedure\n\n5.3.1 Application for MPhil or PhD/DPhil shall be made online on https://ww5.msu.ac.zw on the MSU-Postgraduate\nStudies Portal.",
+     "retrieval_rank": 4,
+     "retrieval_score": 0.7024616003036499,
+     "rerank_score": 2.1403582096099854,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 642,
+     "source": "MSU Humanities Yearbook",
+     "page": 152,
+     "heading": "Section: GENERAL ACADEMIC REGULATIONS FOR MASTER OF PHILOSOPHY AND DOCTOR OF PHILOSOPHY DEGREES > 10.1 Supervision Requirements",
+     "text": "[MSU Humanities Yearbook, p. 152]\n10. SUPERVISION OF MPHIL OR PhD/DPHIL\n\n10.1 Supervision Requirements\n\nAn MPhil or PhD/DPhil candidate shall conduct research under the guidance of a supervisor(s) as approved by Senate. All\nmembers of the supervisory team shall be suitably qualified scholars or may be experts/practitioners who shall report on\neach candidate's progress at the end of each semester. Normally, a supervisor shall be permitted to supervise a maximum\nof five (5) MPhil candidates and four (4) PhD/DPhil.\n10.2 Supervisor qualities and qualifications",
+     "retrieval_rank": 8,
+     "retrieval_score": 0.6933853030204773,
+     "rerank_score": 1.3911259174346924,
+     "route": "vector",
+     "configuration": "main"
+    }
+   ]
+  },
+  "N10": {
+   "question": "If I repeat a module, which marks will count?",
+   "category": "natural_language",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "Only the marks obtained in the repeat examination are credited",
+    "pages": [
+     "Hum 122",
+     "Hum 368",
+     "Hum 372",
+     "Hum 378",
+     "Hum 407",
+     "Hum 413",
+     "Hum 418",
+     "Hum 424"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 497,
+     "source": "MSU Humanities Yearbook",
+     "page": 122,
+     "heading": "Section: FACULTY OF EDUCATION > 11 FAILURE TO SATISFY EXAMINERS",
+     "text": "[MSU Humanities Yearbook, p. 122]\n11. FAILURE TO SATISFY EXAMINERS\n\n11.1 A candidate who fails to satisfy the examiners may be required by senate to write 'supplementary\nexaminations' or to 'repeat' or to 'withdraw.'\n11.2 If a student is repeating a module(s) he or she shall only be credited with the marks obtained during the\n'repeat' examination.\n11.3 \"Withdraw\" means that the student shall withdraw from the university.\n11.4 For the prescribed project candidates shall be informed in advance of the deadline\nfor submission of such project.\n11.5 \"Carry over\" means carryover modules from previous level to the Subsequent\nlevel.",
+     "retrieval_rank": 9,
+     "retrieval_score": 0.68599534034729,
+     "rerank_score": 2.253445625305176,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 2329,
+     "source": "MSU Humanities Yearbook",
+     "page": 418,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF EDUCATION HONOURS DEGREE IN SOCIOLOGY, HERITAGE AND CIVIC STUDIES (EDU58) > 10 FAILURE TO SATISFY EXAMINERS",
+     "text": "[MSU Humanities Yearbook, p. 418]\n10. FAILURE TO SATISFY EXAMINERS\nA candidate who fails to satisfy the examiners may be required by the Senate to write 'supplementary\nexaminations or 'repeat' or 'withdraw'.\nIf a student is repeating a module(s) he or she shall only be credited with the marks obtained during the repeat\nexamination.\n'Withdraw' means that the student shall withdraw from the university.\nFor the prescribed project candidates shall be informed in advance of the deadline for submission of such\nproject.\n'Carry over' means carry over modules from the previous level to the subsequent level.\nRetake means redo module(s) failed in the previous semester within the same level.",
+     "retrieval_rank": 4,
+     "retrieval_score": 0.7019068002700806,
+     "rerank_score": 1.834180235862732,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 2364,
+     "source": "MSU Humanities Yearbook",
+     "page": 424,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF EDUCATION HONOURS DEGREE IN EARLY CHILDHOOD DEVELOPMENT AND CHILD PROTECTION (EDU06) > 10.0 FAILURE TO SATISFY EXAMINERS",
+     "text": "[MSU Humanities Yearbook, p. 424]\nA candidate who fails to satisfy the examiners may be required by the Senate to write 'supplementary examinations or\n'repeat' or 'withdraw'.\nIf a student is repeating a module(s) he or she shall only be credited with the marks obtained during the repeat\nexamination.\n'Withdraw' means that the student shall withdraw from the university.\nFor the prescribed project candidates shall be informed in advance of the deadline for submission of such project.\n'Carry over' means carry over modules from the previous level to the subsequent level.\nRetake means redo module(s) failed in the previous semester within the same level.",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.7094180583953857,
+     "rerank_score": 1.7778122425079346,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 2085,
+     "source": "MSU Humanities Yearbook",
+     "page": 378,
+     "heading": "Section: REGULATIONS FOR BACHELOR OF EDUCATION HONOURS DEGREE IN PRIMARY EDUCATION AND MANAGEMENT PRACTICES (EDU57) > 10 FAILURE TO SATISFY EXAMINERS",
+     "text": "[MSU Humanities Yearbook, p. 378]\n10. FAILURE TO SATISFY EXAMINERS\nRefer to Section 8 of the Faculty Regulations\nA candidate who fails to satisfy the examiners may be required by the Senate to write 'supplementary examinations or\n'repeat' or to 'withdraw'.\nIf a student is repeating a module(s) he or she shall only be credited with the marks obtained during the repeat examination.\n'Withdraw' means that the student shall withdraw from the university.\nFor the prescribed project candidates shall be informed in advance of the deadline for submission of such project.\n'Carry over' means carry over modules from the previous level to the subsequent level.\nRetake means redo module(s) that failed in the previous semester within the same level.",
+     "retrieval_rank": 5,
+     "retrieval_score": 0.6992172002792358,
+     "rerank_score": 1.2539381980895996,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 2253,
+     "source": "MSU Humanities Yearbook",
+     "page": 407,
+     "heading": "Section: REGULATIONS FOR BACHELOR OF EDUCATION HONOURS DEGREE IN EARLY CHILDHOOD DEVELOPMENT AND CHILD PROTECTION (EDU60) > 9 PROVISION FOR PROGRESSION",
+     "text": "[MSU Humanities Yearbook, p. 407]\nTo proceed to the next level, a student should have passed at least 75% of the modules normally scheduled for\nthat level.\nStudents carrying over modules will be examined at the next regularly scheduled examination normally taken at\nthe end of the semester.\n10. FAILURE TO SATISFY EXAMINERS\nRefer to Section 8 of the Faculty Regulations\nA candidate who fails to satisfy the examiners may be required by the Senate to write 'supplementary examinations\nor 'repeat' or 'withdraw'.\nIf a student is repeating a module(s) he or she shall only be credited with the marks obtained during the repeat\nexamination.\n'Withdraw' means that the student shall withdraw from the university.\nFor the prescribed project candidates shall be informed in advance of the deadline for submission of such project.",
+     "retrieval_rank": 8,
+     "retrieval_score": 0.6925877332687378,
+     "rerank_score": 1.249267339706421,
+     "route": "vector",
+     "configuration": "main"
+    }
+   ]
+  },
+  "E3": {
+   "question": "SEMA 204",
+   "category": "exact_code",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "Description of SEMA204 Introduction to Numerical Methods",
+    "pages": [
+     "Hum 573"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    2
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 3190,
+     "source": "MSU Humanities Yearbook",
+     "page": 556,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF EDUCATION DUAL HONOURS IN SCIENCE DEGREE > SEMA 204 Real Analysis",
+     "text": "[MSU Humanities Yearbook, p. 556]\nSEMA204: Real Analysis\n\nThe module covers a firm foundation in the theory of real analysis and uses definitions and logical reasoning to prove\nmathematical results or theorems. The students shall develop strong analytical skills which are useful in students' day-to-\nday lives. It provides students with various techniques for solving mathematical problems and prepares students for higher\nstudies in mathematics and related fields.\n\nSEMA401: Mechanics",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.03252247488101534,
+     "rerank_score": 6.659151077270508,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3300,
+     "source": "MSU Humanities Yearbook",
+     "page": 573,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF EDUCATION HONOURS DEGREE IN MATHEMATICS AND APPLIED STATISTICS (EDU26) > SEMA 204 Introduction to Numerical Methods",
+     "text": "[MSU Humanities Yearbook, p. 573]\nSEMA204: Introduction to Numerical Methods\nThe module introduces students to modern methods, techniques, and computational methods for solving problems in linear\nalgebra, nonlinear equations, interpolation, approximation and integration. It will also involve the presentation of basic\nmathematical foundations of numerical methods and computing. Students will get hands-on experience in solving problems\nand give useful scientific tools for scientists, and engineers and others. Matlab software is of prime importance in this\nmodule.",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.03252247488101534,
+     "rerank_score": 6.570777893066406,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3282,
+     "source": "MSU Humanities Yearbook",
+     "page": 571,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF EDUCATION HONOURS DEGREE IN MATHEMATICS AND APPLIED STATISTICS (EDU26) > 13.0 PROGRAMME STRUCTURE > Level 2 Semester 1",
+     "text": "[MSU Humanities Yearbook, p. 571]\nSociological Issues in Education\n\n12\nor\nEFPS 131:\n\nPsychological Issues in Education\n\n12\nor\nEFPH 131:\n\nPhilosophical Issues in Education\n\n12\n\nLevel 2 Semester 2\nSEMA203\nStatistical Inference\n12\nSEMA204\nIntroduction to Numerical Methods\n12\nSEMA205\nReal Analysis\n12\nBED232\nResearch Project\n24\nBED135\nContemporary Issues in Education\n12\n\nModule synopses",
+     "retrieval_rank": 3,
+     "retrieval_score": 0.031746031746031744,
+     "rerank_score": -5.288993835449219,
+     "route": "code_hybrid",
+     "configuration": "main"
+    }
+   ]
+  },
+  "E4": {
+   "question": "what is ham105",
+   "category": "exact_code",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "Description of HAM105 Adventure Tourism",
+    "pages": [
+     "Sci 590"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    1
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 8084,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 590,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF COMMERCE HONOURS DEGREE IN AGRI- TOURISM MANAGEMENT (BS01) > HAM 105 Adventure Tourism",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 590]\nHAM105 Adventure Tourism\nThe module introduces students to the growth and development of adventure tourism. Aspects covered\ninclude an appreciation of the history of adventurous leisure practices and their relationships to the\nenvironment, including models of adventure tourism. Theories and issues associated with adventure\ntourism are illustrated using case study materials from both the local and international context.\n\nENT131 Entrepreneurship 1\nThe aim of this module is to develop entrepreneurial acumen in students. Students will appreciate the\nimportance of entrepreneurship to the individual and in nation building and will be able to analyse and\nexplain how PESTLEG factors affect the entrepreneur and to design a bankable business plan.",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.03278688524590164,
+     "rerank_score": 3.27776837348938,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8076,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 589,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF COMMERCE HONOURS DEGREE IN AGRI- TOURISM MANAGEMENT (BS01) > 14 PROGRAMME STRUCTURE > Level 1 Semester 1",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 589]\nLevel 1 Semester 1\nHAM101\n\nIntroduction to Agri-tourism\n\n12\nTHM136\n\nZimbabwe Tourism Geography\n\n12\n\nLevel 1 Semester 2\nHAM102\n\nPrinciples of Agri-tourism Marketing\n\n12\nHAM103\n\nTour Guiding\n\n12\nHAM104\n\nAgri-tourism Operations\n\n12\nTHM140\n\nRooms Division\n\n12\nHAM105\n\nAdventure Tourism\n\n12\nLevel 2 Semester 1\nENT131\n\nEntrepreneurship\n\n12\nTHM 231\n\nFood and Beverage Operations\n\n12\nHAM 201\n\nAgritourism Development and Planning\n\n12\nHAM 202\n\nNatural Resources and Conservation Management\n12\nGSB211\n\nGender Studies for Business\n\n12\nLevel 2 Semester 2\nHAM203\n\nAgritourism Enterprise Management\n\n12\nTHM236\n\nTourism Research Methods\n\n12\nTHM232\n\nFood and Beverage Production\n\n12\nHAM204\n\nGeographical Information Systems\n\n12\nTHM238\n\nInnovation and Entrepreneurship\n\n12",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.03225806451612903,
+     "rerank_score": 0.5060823559761047,
+     "route": "code_hybrid",
+     "configuration": "main"
+    }
+   ]
+  },
+  "E5": {
+   "question": "Tell me about the module SEPS101",
+   "category": "exact_code",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "Description of SEPS101 Historical Issues of Physical Education, Sports and the Olympic Movement",
+    "pages": [
+     "Hum 576"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    1
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 3314,
+     "source": "MSU Humanities Yearbook",
+     "page": 576,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF EDUCATION HONOURS DEGREE IN PHYSICAL EDUCATION, SPORTS SCIENCE AND MANAGEMENT (EDU73) > SEPS 101 Historical Issues of Physical Education, Sports and the Olympic Movement",
+     "text": "[MSU Humanities Yearbook, p. 576]\nSEPS101: Historical Issues of Physical Education, Sports and the Olympic Movement\nThe module focuses on the value of Physical Education, Sport Science and Management in the development of individuals\nand societies throughout the history of the human race. It has been and is still an important part of society in terms of\neconomic and social development. This introductory module helps students appreciate the role that Physical Education and\nSport have been playing in the holistic development of individuals from time immemorial.",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.03278688524590164,
+     "rerank_score": 3.4143543243408203,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3308,
+     "source": "MSU Humanities Yearbook",
+     "page": 575,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF EDUCATION HONOURS DEGREE IN PHYSICAL EDUCATION, SPORTS SCIENCE AND MANAGEMENT (EDU73) > 9.0 PROVISION FOR PROGRESSION > Level 1 Semester 2",
+     "text": "[MSU Humanities Yearbook, p. 575]\n9.0 PROVISION FOR PROGRESSION\nRefer to Section 5 of the Faculty Regulations\n10.0 FAILURE TO SATISFY EXAMINERS\nRefer to Section 8 of the Faculty Regulations\n11.0 GRADING AND DEGREE CLASSIFICATION\nRefer to Section 6 of the Faculty Regulations\n12.0 DEGREE WEIGHTING\nRefer to Section 7 of the Faculty Regulations.\n13.0 PROGRAMME STRUCTURE\n\nLevel 1 Semester 1\n\nCode\nModule Description\n\nCredits\nBED133\nInformation Communication Technology\n\n12\nBED144\nSchool Curriculum and Innovation\n\n12\nBCHS131\nCultural and Heritage Studies\n\n12\nSEPS101\nHistorical Issues of Physical Education, Sports and the Olympic\nMovement\n\n12\nSEPS102\nAthletics Skills, Coaching and Officiating\n\n12\nSEPS103\nPedagogy and Coaching: The Science for Attainment\n\n12\n\nLevel 1 Semester 2\nBED131\nResearch Methods and Statistics",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.03225806451612903,
+     "rerank_score": -2.9394850730895996,
+     "route": "code_hybrid",
+     "configuration": "main"
+    }
+   ]
+  },
+  "E6": {
+   "question": "What is MSCM 703 about?",
+   "category": "exact_code",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "Description of MSCM703 Procurement Theory and Practice",
+    "pages": [
+     "Sci 584"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    1
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 8053,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 584,
+     "heading": "Section: REGULATIONS FOR THE MASTER OF COMMERCE DEGREE IN SUPPLY CHAIN MANAGEMENT (BS26) > MSCM 702 Project Management and Evaluation",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 584]\nchain issues designed and consideration in the Zimbabwe economy.\nMSCM702 Project Management and Evaluation\nThis module aims to give students an understanding of project planning techniques including critical\npath method (CPM)earned value management (EVM), resource and budgeting, project scheduling,\nlinear programming, replacement of items, computer projects, assignment problems, problem\nidentification, project control techniques, project performance management, team building, teamwork\nand team. leadership, project post audit and evaluation.\nMSCM703 Procurement Theory and Practice\nThis module aims to give students detailed understanding of procurement as reflected in the following;\nprocurement management, the changing role of purchasing and supply, procurement concepts,",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.03252247488101534,
+     "rerank_score": 4.958545207977295,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 8050,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 583,
+     "heading": "Section: REGULATIONS FOR THE MASTER OF COMMERCE DEGREE IN SUPPLY CHAIN MANAGEMENT (BS26) > 12 GRADING AND DEGREE CLASSIFICATION > Level 1 Semester 1",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 583]\nDistinction\n70%- 79%\n\nMerit\n50%-69%\n\nPass\nBelow 50%\n\nFail\n13. PROGRAMME STRUCTURE\nLevel 1 Semester 1\nCODE\n\nDESCRIPTION\n\nCREDITS\nMSCM703\n\nProcurement Theory and Practice\n\n18\nMSCM704\n\nResearch Methods\n\n18\nMSCM705\n\nStatistics and Data Analysis\n\n18\nMSCM701\n\nSupply Chain Management\n\n18\nMSCM702\n\nProject Management and Evaluation\n\n18\nMSCM706\n\nSustainability Management\n\n18",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.03252247488101534,
+     "rerank_score": -0.7928570508956909,
+     "route": "code_hybrid",
+     "configuration": "main"
+    }
+   ]
+  },
+  "E7": {
+   "question": "Describe HPHS 201",
+   "category": "exact_code",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "Description of HPHS201 Public Policy and Human Rights",
+    "pages": [
+     "Hum 864"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    1
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 5180,
+     "source": "MSU Humanities Yearbook",
+     "page": 864,
+     "heading": "Section: REGULATIONS FOR BACHELOR OF SCIENCE HONOURS DEGREE IN HUMAN RIGHTS AND SOCIAL JUSTICE (HPHS) > HPHS 201 Public Policy and Human Rights",
+     "text": "[MSU Humanities Yearbook, p. 864]\nHPHS 201 Public Policy and Human Rights\nThis module focuses on the study of public policy and Human rights. This module gives students a critical appreciation of\nthe concepts, theories, principles, processes and practical issues in public policy-making and Human rights. Public Policy\nexperiences within local, regional and global environments are used throughout the module as illustrative cases. Its\nsubstantive goal is to enable students to relate conceptual and theoretical constructs to global public policy practices and\nHuman rights dimensions in relation to national development.\nHPHS 202 Poverty and Social Justice\nThis course seeks to explore the causes, extents and effects of poverty in various societies. Poverty is one of the leading",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.03278688524590164,
+     "rerank_score": 5.607870101928711,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5169,
+     "source": "MSU Humanities Yearbook",
+     "page": 862,
+     "heading": "Section: REGULATIONS FOR BACHELOR OF SCIENCE HONOURS DEGREE IN HUMAN RIGHTS AND SOCIAL JUSTICE (HPHS) > 13.0 Programme Structure > LEVEL 1.1",
+     "text": "[MSU Humanities Yearbook, p. 862]\n13.0 Programme Structure\nLEVEL 1.1\n\nHPHS 101 Introduction to Peace, Human-Rights and Social- Justice\n\n12\nHPHS 102 Human Rights and Sustainable Development\n\n12\nHPHS 103 Peace, Leadership and Governance\n\n12\nHPHS 104 Human Rights Education\n\n12\nHCS115 Introduction to Information Technology\n\n12\nCS101 Communication Skills\n\n12\n\nLEVEL 1.2\n\nHPHS105 Social Justice and Development\n\n12\nHPHS106 ConflictTtransformation\n\n12\nHPHS 107 Conflict and Human Displacement\n\n12\nHPHS 108 Diversity and Social Justice\n\n12\nHPHS 109 International Human Rights Law\n\n12\n\nLEVEL 2.1\n\nHPHS 201 Public Policy and Human Rights\n\n12\nHPHS 202 Poverty and Social Justice\n\n12\nHPHS 203 Pandemics and Human Rights\n\n12\nHPHS 204 Research Methods\n\n12\nGSSS231 Gender Studies for Social Sciences\n\n12\nENT205 Entrepreneurship 1\n\n12\n\nLEVEL 2.2",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.03225806451612903,
+     "rerank_score": 1.9653754234313965,
+     "route": "code_hybrid",
+     "configuration": "main"
+    }
+   ]
+  },
+  "C1": {
+   "question": "I'm a second-year languages student thinking of taking HALCS 211. What topics does it cover?",
+   "category": "code_in_context",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "Description of HALCS211 Introduction to Gender Studies",
+    "pages": [
+     "Hum 261"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    1
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 1371,
+     "source": "MSU Humanities Yearbook",
+     "page": 261,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF ARTS HONOURS DEGREE IN LANGUAGE AND CULTURAL STUDIES (AH07) > HALCS 211 Introduction to Gender Studies",
+     "text": "[MSU Humanities Yearbook, p. 261]\nHALCS 211 Introduction to Gender Studies\nThis module introduces students to the concept/study of gender and stresses the social constructedness of gender and gender\nroles. With a conceptualisation of gender and related concepts as its point of departure, the module traces the historical\ndevelopment of the discipline and addresses theoretical perspectives related to gender. Thereafter, the module looks at the\nconcept of gender analysis and discusses strategies to redress gender imbalances. The module then explores gender issues\nin Southern Africa and concludes with a discussion on how both males and females can be empowered within the context\nof gender-responsive environments.\n\nENT 131 Entrepreneurship 1\nRefer to the Department of Entrepreneurship.",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.03278688524590164,
+     "rerank_score": -0.9603348970413208,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 1360,
+     "source": "MSU Humanities Yearbook",
+     "page": 259,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF ARTS HONOURS DEGREE IN LANGUAGE AND CULTURAL STUDIES (AH07) > 12.0 PROGRAMME STRUCTURE > Level 2 Semester 1",
+     "text": "[MSU Humanities Yearbook, p. 259]\n12\nHALCS 202\nLanguage, Culture and Identity\n\n12\nHALCS 203\nIntercultural Communication\n\n12\nHALCS 204\nChildren's Literature and Child Development\n\n12\nHALCS 211\nIntroduction to Gender Studies\n\n12\nENT 131\nEntrepreneurship\n\n12\n\nLevel 2 Semester 2\nHALCS 205\nTranslation and Interpreting Studies\n\n12\nHALCS 206\nLanguage Policy and Planning\n\n12\nHALCS 207\nLanguage Change and Development\n\n12\n\nLevel 3 Work- Related Learning\nHALCS 300\nWork Placement Report\n\n20\nHALCS 301\nWork- Related Learning Report\n\n45\nHALCS 302\nAcademic Supervisor's Report\n\n30\nHALCS 303\nEmployers Assessment Report\n\n30\n\nLevel 4 Semester 1\nHALCS 401\nDiscourse, Society and Culture\n\n12\nHALCS 402\nDialectology and Linguistic Geography\n\n12\nHALCS 403\nMulticulturalism, Diversity and the Nation\n\n12",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.03225806451612903,
+     "rerank_score": -1.9627054929733276,
+     "route": "code_hybrid",
+     "configuration": "main"
+    }
+   ]
+  },
+  "C5": {
+   "question": "How many credits do I get for passing SEMA 102?",
+   "category": "code_in_context",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "Programme table listing SEMA102 Linear Mathematics with 12 credits",
+    "pages": [
+     "Hum 556",
+     "Hum 564",
+     "Hum 570"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    4,
+    5
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 3250,
+     "source": "MSU Humanities Yearbook",
+     "page": 566,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF EDUCATION HONOURS DEGREE IN MATHEMATICS AND APPLIED STATISTICS (EDU26) > SEMA 102 Linear Mathematics",
+     "text": "[MSU Humanities Yearbook, p. 566]\nSEMA102: Linear Mathematics\nThe module focuses on complex numbers (geometric representation, algebra), De Moivre's theorem, polynomials and roots\nof polynomial equations, matrices and determinants (algebra of matrices, inverses, definition and manipulation of\ndeterminants, solutions of simultaneous linear equations, applications to geometry and vectors), differential equations:\nseparable, homogeneous, exact, integrating factors, linear equation with constant coefficients.",
+     "retrieval_rank": 5,
+     "retrieval_score": 0.03128054740957967,
+     "rerank_score": -4.4311017990112305,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 3287,
+     "source": "MSU Humanities Yearbook",
+     "page": 571,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF EDUCATION HONOURS DEGREE IN MATHEMATICS AND APPLIED STATISTICS (EDU26) > SEMA 102 Linear Mathematics",
+     "text": "[MSU Humanities Yearbook, p. 571]\nSEMA102: Linear Mathematics\nThe module focuses on complex numbers: geometric representation, algebra, De Moivres theorem polynomials and roots\nof polynomial equations, matrices and determinants: algebra of matrices, inverses, definition and manipulation of\ndeterminants, solutions of simultaneous linear equations, applications to geometry and vectors, differential equations:\nseparable, homogeneous, exact, integrating factors, linear equation with constant coefficients.",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.03177805800756621,
+     "rerank_score": -4.501298904418945,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 3187,
+     "source": "MSU Humanities Yearbook",
+     "page": 556,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF EDUCATION DUAL HONOURS IN SCIENCE DEGREE > SEMA 102 Linear Mathematics",
+     "text": "[MSU Humanities Yearbook, p. 556]\nSEMA102: Linear Mathematics\nThe module shall focus on Complex numbers: geometric representation, algebra, De Moivre's theorem polynomials and\nroots of polynomial equations, Matrices and determinants. It also covers the algebra of matrices, inverses, definition and\nmanipulation of determinants, solutions of simultaneous linear equations, applications to geometry and vectors, Differential\nequations: separable, homogeneous, exact, integrating factors, and linear equations with constant coefficients.\nSEMA106: Probability Theory\nThe module covers axiomatic probability, sets and events, sample space, conditional probability, independence, laws\ndiscrete and continuous random variables. It also covers probability density functions, means, variance, expectation,",
+     "retrieval_rank": 3,
+     "retrieval_score": 0.03149801587301587,
+     "rerank_score": -4.556728363037109,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 3185,
+     "source": "MSU Humanities Yearbook",
+     "page": 556,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF EDUCATION DUAL HONOURS IN SCIENCE DEGREE > SEGE 405 Mineral Beneficiation, Industrialisation and Trade > Level 1 Semester 1",
+     "text": "[MSU Humanities Yearbook, p. 556]\nCode\nModule Description\n\nCredits\nSEMA101\nCalculus\n\n12\nSEMA102\nLinear Mathematics\n\n12\n\nLevel 1 Semester 2\nSEMA103\nApplied Statistics\n\n12\nSEMA104\nNumerical Methods\n\n12\n\nLevel 2 Semester 1\nSEMA105\nApplications of Ordinary Differential Equations\n\n12\nSEMA106\nProbability Theory\n\n12\n\nLevel 2 Semester 2\nSEMA401\nMechanics\n\n12\nSEM402\nVector Analysis (Optional)\n\n12",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.032266458495966696,
+     "rerank_score": -5.323890686035156,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 3237,
+     "source": "MSU Humanities Yearbook",
+     "page": 564,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF EDUCATION HONOURS DEGREE IN MATHEMATICS AND APPLIED STATISTICS (EDU26) > 14 PROGRAMME STRUCTURE > Level 2 Semester 1",
+     "text": "[MSU Humanities Yearbook, p. 564]\n12\nSEM106 Complex Numbers and Vectors\n\n12\nSEM107 Coordinate and Analytic Geometry\n\n12\nSEM108 Algebra and Functions\n\n12\n\nLevel 2 Semester 1\n\nEFA331\nSociology of Education\n\n12\nEFA332\nPsychology of Education\n\n12\nCS131 Basic Communication Skills\n\n12\nBCHS131\nCulture and Heritage Studies\n\n12\nAECS131\nIntroduction to Information Communication Technology 12\nSEMA101\nCalculus\n\n12\nSEMA102\nLinear Mathematics\n\n12\n\nLevel 2 Semester 2\nSEMA103 Applied Statistics\n\n12\nEFA333\nPhilosophy of Education\n\n12\nEFA334 Schools Curriculum Competencies and Innovation\n\n12\n\nLevel 3 Semester 1\nSEMA105\nApplications of Ordinary Differential Equations\n\n12\nSEMA201\nIntroduction to Discrete Mathematics\n\n12\nSEMA205\nReal Analysis\n\n12\nSEMA206\nHypothesis Testing\n\n12\nSEMA301\nFurther Calculus",
+     "retrieval_rank": 4,
+     "retrieval_score": 0.03128054740957967,
+     "rerank_score": -8.968108177185059,
+     "route": "code_hybrid",
+     "configuration": "main"
+    }
+   ]
+  },
+  "C8": {
+   "question": "Is MIP845 about solar and other renewable energy sources? What does it cover?",
+   "category": "code_in_context",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "Description of MIP845 Renewable Energies",
+    "pages": [
+     "Sci 1095"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    1
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 10530,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1095,
+     "heading": "Section: REGULATIONS FOR MASTER OF SCIENCE DEGREE IN OPTIC FIBRE AND PHOTONIC ENGINEERING (MOF) > MIP 845 Renewable Energies",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 1095]\nMIP845 Renewable Energies\nThis course provides an introduction to the principles of renewable energy. The\ncourse covers different types of renewable and alternative energy sources, and\ndiscuss their basic principles of operation, achievable efficiency, cost, and their\neffect on the environment. The impact of the new energy technologies on the\nenvironment, obstacles to their wide implementation in industrial and consumer\napplications, and the role of social attitudes and government planning, financial\ninvestments and incentives are also introduced.",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.03278688524590164,
+     "rerank_score": 4.2468109130859375,
+     "route": "code_hybrid",
+     "configuration": "main"
+    }
+   ]
+  },
+  "C9": {
+   "question": "Which other modules are taken in the same semester as MFA700?",
+   "category": "code_in_context",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "Programme table, Level 1 Semester 1: MFA701 Money Laundering and Asset Tracing, MFA702 Compliance and Governance, MFA703 Big Data Analytics in Forensic Accounting, MFA704 Professional Ethics in Forensic Auditing",
+    "pages": [
+     "Sci 414"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    2
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 7153,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 415,
+     "heading": "Section: REGULATIONS FOR MASTER OF COMMERCE DEGREE IN FORENSIC AUDITING AND ACCOUNTING (BS16) > MFA 700 Forensic Accounting and Auditing",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 415]\nMFA700 Forensic Accounting and Auditing\nThe module introduces students to investigative techniques for planning, gathering,\ninterpreting, and documenting evidence in areas such as valuation of closely held\nbusinesses, lost profits analyses, and various types of litigation support services. Legal\nconcepts governing expert witness testimony are also examined.\nMFA701 Money Laundering and Asset Tracing\nThe module introduces students to money laundering, international controls and\nregulations to prevent and detect potential sources of money laundering, various methods\nand techniques of tracing assets\nMFA702 Compliance and Governance\nThe module introduces students to the Zimbabwean regulatory environment,\ninternational regulatory environment (UK and USA), compliance framework,",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.03278688524590164,
+     "rerank_score": 0.38117438554763794,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7151,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 414,
+     "heading": "Section: REGULATIONS FOR MASTER OF COMMERCE DEGREE IN FORENSIC AUDITING AND ACCOUNTING (BS16) > 11 GRADING AND DEGREE CLASSIFICATION > Level 1 Semester 2",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 414]\n11. GRADING AND DEGREE CLASSIFICATION\nThe following grading scale shall be used for all the modules and grading of the\ndegree:\n80% - 100%\nDistinction\n70% - 79%\nMerit\n60% - 69% Credit\n50% - 59%\nPass\n49% and below Fail\n\n12. DEGREE WEIGHTING\nFor purposes of degree classification, the parts of the degree programme will be\nclassified as follows:\nLevel 1 50%\nLevel 2 50%\n\n13. PROGRAMME STRUCTURE\n\nLevel 1 Semester 1\nCode Module Description Credits\nMFA700 Forensic Accounting and Auditing 18\nMFA701 Money Laundering and Asset Tracing 18\nMFA702 Compliance and Governance 18\nMFA703 Big Data Analytics in Forensic Accounting 18\nMFA704 Professional Ethics in Forensic Auditing 18\n\nLevel 1 Semester 2\nCode Module Description Credits",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.03225806451612903,
+     "rerank_score": 0.37825483083724976,
+     "route": "code_hybrid",
+     "configuration": "main"
+    }
+   ]
+  },
+  "C10": {
+   "question": "As a first-year accounting student I have to take BM135. What is it about?",
+   "category": "code_in_context",
+   "set": "main",
+   "answer_key": {
+    "sufficient": "Description of BM135 Commercial Law",
+    "pages": [
+     "Sci 388",
+     "Sci 398",
+     "Sci 542"
+    ]
+   },
+   "sufficient_evidence_numbers": [
+    1,
+    2,
+    3
+   ],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 6992,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 388,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF COMMERCE HONOURS DEGREE IN APPLIED ACCOUNTING (BS02) > BM 135 Commercial Law",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 388]\nBM135 Commercial Law\nThe module is designed to equip students with basic but concise legal knowledge to enable students\nto make legally sound and informed business decisions at work or as managers. The module is an\nintroduction to general principles of law and its interpretation, law of contract, purchase and sales,\nagency, negotiable instruments, insurance, partnership, law of derelict, insolvency and consumer\nprotection.",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.031544957774465976,
+     "rerank_score": 0.67545485496521,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7838,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 542,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF COMMERCE HONOURS DEGREE IN BUSINESS MANAGEMENT (BS05) > BM 135 Commercial Law",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 542]\nBM135 Commercial Law\nThe module is designed to equip students with basic but concise legal knowledge to enable students\nto make legally sound and informed business decisions at work or managers. The module is an\nintroduction to general principles of law and its interpretation, law of contract, purchase and sales,\nagency, negotiable instruments, insurance, partnership, law of derelict, insolvency and consumer\nprotection.",
+     "retrieval_rank": 6,
+     "retrieval_score": 0.030090497737556562,
+     "rerank_score": -1.8121261596679688,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 7054,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 398,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF COMMERCE HONOURS DEGREE IN AUDIT AND RISK MANAGEMENT (BS03) > BM 135 Commercial Law",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 398]\nBM135 Commercial Law\nThe module is designed to equip students with basic but concise legal knowledge to enable students\nto make legally sound and informed business decisions at work or as managers. The module is an\nintroduction to general principles of law and its interpretation, law of contract, purchase and sales,\nagency, negotiable instruments, insurance, partnership, law of derelict, insolvency and consumer\nprotection.",
+     "retrieval_rank": 8,
+     "retrieval_score": 0.02964426877470356,
+     "rerank_score": -1.918507695198059,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 7350,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 451,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF COMMERCE HONOURS DEGREE IN FINANCIAL ECONOMICS AND INVESTMENT (BS11) > BM 131 Principles of Management",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 451]\nBM131 Principles of Management\n(Refer to Department of Management Sciences for the module synopsis)\n\nACC135 Financial Accounting IA\n(Refer to Department of Accounting Sciences for the module synopsis)\n\nHCS135 Introduction to Information Technology\n(Refer to Department of Information and Marketing Sciences for the module synopsis)\n\nACC136 Financial Accounting IB\n(Refer to Department of Accounting Sciences for the module synopsis)\n\nBM135 Commercial Law\n\n(Refer to Department of Management Sciences for the module synopsis)",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.03252247488101534,
+     "rerank_score": -2.3481943607330322,
+     "route": "code_hybrid",
+     "configuration": "main"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 7832,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 541,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF COMMERCE HONOURS DEGREE IN BUSINESS MANAGEMENT (BS05) > 14 PROGRAMME STRUCTURE > Level 1 Semester 1",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 541]\nBM133\nFinancial Accounting for Business 1A\n\n12\nCMI131\nPrinciples of Marketing 1\n\n12\nBM131\nPrinciples of Management\n\n12\n\nLevel 1 Semester 2\nCode\nModule Description\n\nCredits\nBM135\nCommercial Law\n\n12\nBM136\nFinancial Accounting for Business1B\n\n12\nBM138\nE-Commerce\n\n12\nBM132\nBusiness Communication\n\n12\nBM134\nBusiness Ethics\n\n12\nBM137\nQuantitative Analysis for Business\n\n12\nEC134 Macroeconomics 12\n\nLevel 2 Semester 1\nCode\nModule Description\n\nCredits\nBM231\nHuman Resource Management\n\n12\nBM233\nCompany Law and Practice\n\n12\nENT131\nPrinciples of Entrepreneurship\n\n12\nBM235\nFinancial Accounting IIA\n\n12\nBM240 Management Appreciation of Taxation\n\n12\nBM249\nQuality Management\n\n12\n\nLevel 2 Semester 2\nCode\nModule Description\n\nCredits\nBM239 Industrial and Labour Relations\n\n12\nBM246 Digital Marketing",
+     "retrieval_rank": 5,
+     "retrieval_score": 0.03055037313432836,
+     "rerank_score": -2.590640068054199,
+     "route": "code_hybrid",
+     "configuration": "main"
+    }
+   ]
+  },
+  "O1": {
+   "question": "What is on the menu in the student cafeteria today?",
+   "category": "out_of_scope",
+   "set": "oos",
+   "answer_key": null,
+   "sufficient_evidence_numbers": [],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 8168,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 606,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF COMMERCE HONOURS DEGREE IN TOURISM AND HOSPITALITY MANAGEMENT (BS15) > THM 232 Food and Beverage Production",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 606]\nand baking, production of larder kitchen items. Students also learn advanced modern food\npresentation, garnishing and display work for the dishes produced",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.6072758436203003,
+     "rerank_score": -10.184043884277344,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10605,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1108,
+     "heading": "Section: REGULATIONS FOR BACHELOR OF SCIENCE HONOURS DEGREE IN NUTRITION SCIENCE (HNS) > HNS 211 Nutrition Education and Counseling I",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 1108]\nHNS 212 *Food Service Management I\nThis module focuses on the introduction to the management of commercial and noncommercial food\nservice systems through the operation of Bevier Café. Students experience managing the procurement\nproduction and service of food, as well as the sanitation and maintenance of equipment and facilities.\nThis module also examines, national, regional, and international food laws, adoption, interpretation and\nenforcement of laws and regulations governing food preparation and food service systems, impact of\nregulation on food production availability, marketing and safety.",
+     "retrieval_rank": 3,
+     "retrieval_score": 0.5955801010131836,
+     "rerank_score": -10.672680854797363,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 8165,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 605,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF COMMERCE HONOURS DEGREE IN TOURISM AND HOSPITALITY MANAGEMENT (BS15) > THM 231 Food and Beverage Management",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 605]\nTHM 231 Food and Beverage Management\nA professionally oriented course that introduces students to the structure and organization of the\nfunctional areas of the food and beverage department of the hotel including other non-hotel based food\nand beverage segments. The module will focus on the basic principles of these operations. This module\ncovers planning, organizing, leading and control of food service operations; marketing of food and\nbeverages- marketing concepts, and hospitality marketing mix among others.",
+     "retrieval_rank": 7,
+     "retrieval_score": 0.5856624245643616,
+     "rerank_score": -11.10116958618164,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 241,
+     "source": "MSU Humanities Yearbook",
+     "page": 67,
+     "heading": "Section: CENTRE FOR PUBLIC POLICY AND DEVOLUTION",
+     "text": "[MSU Humanities Yearbook, p. 67]\nExecutive Dean\nF C Chakauya, LLB Hons (Wits), LLM (UCT)\n\nCATERING SERVICES DEPARTMENT\n\nCatering Manager\nM Chipato, BCom (MSU), MCom (MSU)\n\nAssistant Catering Manager",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.6268293857574463,
+     "rerank_score": -11.183074951171875,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 10543,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1098,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF SCIENCE HONOURS DEGREE IN FOOD SCIENCE AND TECHNOLOGY (FST) > 3 ASSESSMENT > Level 2 Semester 1",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 1098]\n12\nFTS 126 Analytical biochemistry\n\n12\nFST 127 Principles of Nutrition\n\n12\nLevel 2 Semester 1\nCredits\nGS 211 Introduction to Gender Studies\n\n12\nTCNP 201 Technopreneurship\n\n12\nFST 211 Fruits and Vegetables Technology\n\n`\n12\nFST 212* Dairy Technology\n\n12\nFST 213* Meat, Poultry and Fish Technology\n\n12\nFST 214 Cereals and Legume Technology\n\n12\n\nLevel 2 Semester 2\nFST 221* Food analysis and Sensory evaluation\n\n12\nFST 222* Research Methods and Statistics\n\n12\nFST 223 Quality Assurance and Food Laws\n\n12\nFST 224 Fats and Oils Technology\n\n12\nChoose one elective\nFST 225 Beverage Technology\n\n12\nFST 226 Sugar and Confectionary Technology\n\n12\nFST 227 Bakery Technology\n\n12\n\nLevel 3 Semesters 1\nFST 331 Work-Related Learning I\n\n40\n\nLevel 3 Semester 2\nFST 332 Work-Related Learning II\n\n80",
+     "retrieval_rank": 8,
+     "retrieval_score": 0.5825070142745972,
+     "rerank_score": -11.245356559753418,
+     "route": "vector",
+     "configuration": "main"
+    }
+   ]
+  },
+  "O2": {
+   "question": "Who won the 2023 Zimbabwe presidential election?",
+   "category": "out_of_scope",
+   "set": "oos",
+   "answer_key": null,
+   "sufficient_evidence_numbers": [],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 257,
+     "source": "MSU Humanities Yearbook",
+     "page": 74,
+     "heading": "Section: FACULTY OF ENGINEERING AND GEOSCIENCES",
+     "text": "[MSU Humanities Yearbook, p. 74]\nthe Midlands State University. The then President of the Republic of Zimbabwe, His Excellency, Cde. Robert Gabriel\nMugabe, on the nudging of the provincial political leadership of the Midlands, acceded to the idea of a national university\nbeing built in the Midlands and announced that at two provincial rallies held at Gokwe and Mataga growth points. The\nPresident's declarations coincided with the Ministry of Higher Education and Technology's policy of devolution, which\nwas aimed at expanding access to higher education by converting teachers' and technical colleges into degree-granting\ninstitutions. These colleges would offer Bachelor of Education and Bachelor of Technology degree programmes.",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.5980403423309326,
+     "rerank_score": -3.303847551345825,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 5737,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 75,
+     "heading": "Section: FACULTY OF ENGINEERING AND GEOSCIENCES",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 75]\nthe Midlands State University. The then President of the Republic of Zimbabwe, His Excellency, Cde. Robert Gabriel\nMugabe, on the nudging of the provincial political leadership of the Midlands, acceded to the idea of a national university\nbeing built in the Midlands and announced that at two provincial rallies held at Gokwe and Mataga growth points. The\nPresident's declarations coincided with the Ministry of Higher Education and Technology's policy of devolution, which\nwas aimed at expanding access to higher education by converting teachers' and technical colleges into degree-granting\ninstitutions. These colleges would offer Bachelor of Education and Bachelor of Technology degree programmes.",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.5967164039611816,
+     "rerank_score": -3.303847551345825,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5633,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 15,
+     "heading": "Section: 7 Chancellor",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 15]\n7 Chancellor\n(1) The President of Zimbabwe shall be Chancellor of the University.\n(2) The Chancellor shall be the head of the University.\n(3) The Chancellor shall have the right-\n(a) to preside over any assembly or meeting held by or under the authority of the University; and\n(b) upon the recommendation of the Council and the Senate, to confer degrees, diplomas, certificates and\nother awards and distinctions of the University and to withdraw or restore such awards.",
+     "retrieval_rank": 3,
+     "retrieval_score": 0.5894115567207336,
+     "rerank_score": -7.628787040710449,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 40,
+     "source": "MSU Humanities Yearbook",
+     "page": 15,
+     "heading": "Section: MIDLANDS STATE UNIVERSITY ACT > 7 Chancellor",
+     "text": "[MSU Humanities Yearbook, p. 15]\n7 Chancellor\n(1) The President of Zimbabwe shall be Chancellor of the University.\n(2) The Chancellor shall be the head of the University.\n(3) The Chancellor shall have the right-\n(a) to preside over any assembly or meeting held by or under the authority of the University; and\n(b) upon the recommendation of the Council and the Senate, to confer degrees, diplomas, certificates and\nother awards and distinctions of the University and to withdraw or restore such awards.",
+     "retrieval_rank": 4,
+     "retrieval_score": 0.5796361565589905,
+     "rerank_score": -8.330538749694824,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 1041,
+     "source": "MSU Humanities Yearbook",
+     "page": 215,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF ARTS HONOURS DEGREE IN HISTORY AND INTERNATIONAL STUDIES HONOURS (AH06) > HISH 230 History of Zimbabwe 1890-1980",
+     "text": "[MSU Humanities Yearbook, p. 215]\nthe ZAPU split and rise of ZANU, UDI and sanctions as well as the War of Liberation. It also looks at false starts to\nindependence - the Internal Settlement and the creation of the Zimbabwe-Rhodesia Government, and lastly the Lancaster\nHouse Agreement and the coming of Uhuru-independence",
+     "retrieval_rank": 6,
+     "retrieval_score": 0.5719946622848511,
+     "rerank_score": -8.70921516418457,
+     "route": "vector",
+     "configuration": "main"
+    }
+   ]
+  },
+  "O3": {
+   "question": "What is the WiFi password for the MSU library?",
+   "category": "out_of_scope",
+   "set": "oos",
+   "answer_key": null,
+   "sufficient_evidence_numbers": [],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 5599,
+     "source": "MSU Humanities Yearbook",
+     "page": 928,
+     "heading": "Section: REGULATIONS FOR MASTER OF SCIENCE DEGREE IN SOCIAL WORK (MSW) (DEVELOPMENTAL) > 2.5 Branch Libraries",
+     "text": "[MSU Humanities Yearbook, p. 928]\n2.5 Branch Libraries\nThe MSU Libraries are available on all campuses and learning centres due to the university's multicampus structure.\nThe libraries are conveniently located and easily accessible for all students and staff. All 10 libraries have plug-top\ndesks and wireless hotspots for internet connectivity, which support the University's Bring Your Device (BYOD)\npolicy. This allows students to have the best experience while using the facilities.\n\n3. MSU LIBRARY COLLECTIONS\n\n3.1 Print Book Collection\nOver the years, the MSU Library has established a robust hardcopy book collection of books that are well-selected\nrecent and relevant titles of books necessary for programs on offer.",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.730279803276062,
+     "rerank_score": -0.4534263610839844,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10719,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1128,
+     "heading": "Section: REGULATIONS FOR MASTER OF SCIENCE DEGREE IN FOOD SAFETY AND QUALITY MANAGEMENT (MFSQ) > 2.5 Branch Libraries",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 1128]\n2.5 Branch Libraries\nThe MSU Libraries are available on all campuses and learning centres due to the university's\nmulticampus structure. The libraries are conveniently located and easily accessible for all students\nand staff. All 10 libraries have plug-top desks and wireless hotspots for internet connectivity,\nwhich support the University's Bring Your Device (BYOD) policy. This allows students to have\nthe best experience while using the facilities.\n\n3. MSU LIBRARY COLLECTIONS\n\n3.1 Print Book Collection\nOver the years, the MSU Library has established a robust hardcopy book collection of books\nthat are well-selected recent and relevant titles of books necessary for programs on offer.",
+     "retrieval_rank": 3,
+     "retrieval_score": 0.7144277095794678,
+     "rerank_score": -0.725954532623291,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5597,
+     "source": "MSU Humanities Yearbook",
+     "page": 928,
+     "heading": "Section: REGULATIONS FOR MASTER OF SCIENCE DEGREE IN SOCIAL WORK (MSW) (DEVELOPMENTAL) > 2.1 Reading and Study",
+     "text": "[MSU Humanities Yearbook, p. 928]\n2.1 Reading and Study\nThese Sections of the libraries are designed to provide readers with a peaceful and studious environment. Users can\nfully immerse themselves in their research and independent reading with comfortable reading desks and carrels. The\nspaces also offer wifi access, enabling users to access online resources and conduct research efficiently.\n\n2.2 Learning Commons\nA great feature in MSU libraries is the learning commons, which provide access to networked desktop computers with\nhigh-speed internet. These spaces also serve as venues for undergraduates, allowing individuals to enhance their\nresearch skills and knowledge.\n\n2.3 Research Commons\nThis space is primarily designed for postgraduate students who wish to research independently.",
+     "retrieval_rank": 5,
+     "retrieval_score": 0.7027660608291626,
+     "rerank_score": -0.7710509300231934,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 5595,
+     "source": "MSU Humanities Yearbook",
+     "page": 928,
+     "heading": "Section: REGULATIONS FOR MASTER OF SCIENCE DEGREE IN SOCIAL WORK (MSW) (DEVELOPMENTAL) > MSW 745 Advanced Project Management for Development Interventions",
+     "text": "[MSU Humanities Yearbook, p. 928]\nINTRODUCTION\n\nThe Midlands State University (MSU) Library comprises multiple individual libraries, including the main and nine branch\nlibraries. These libraries provide critical academic support to the university's mission in various areas, such as teaching and\nlearning, research, innovation, community engagement, and industrialisation, in line with national development strategies.\nThe MSU Library is crucial in enabling the Education 5.0 design, which aims to leverage natural resources and intellectual\ncapital to promote and achieve sustainable, inclusive socio-economic development. The Library provides top-quality,\ninnovative, and user-focused services, spaces, and collections in a welcoming study environment that encourages teaching\nand learning, research, and innovation.",
+     "retrieval_rank": 9,
+     "retrieval_score": 0.6974685192108154,
+     "rerank_score": -2.442030668258667,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5608,
+     "source": "MSU Humanities Yearbook",
+     "page": 930,
+     "heading": "Section: REGULATIONS FOR MASTER OF SCIENCE DEGREE IN SOCIAL WORK (MSW) (DEVELOPMENTAL) > 6 MSU LIBRARIES GENERAL RULES AND REGULATIONS",
+     "text": "[MSU Humanities Yearbook, p. 930]\n• The right to use library facilities is exclusively reserved for bonafide students and staff of MSU.\n• Users must present a valid MSU ID Card to the security personnel upon entering the Library.\n• A borrower will be held responsible for all material that is taken out under their\nname and may not lend such material to other people. Borrower privileges are not\ntransferable.\n• Lost staff or student cards must be reported immediately to the Libraries.\n• Any acts of theft or attempted theft of library items are not tolerated in the library.\n• Personal belongings like bags should be deposited in the Baggage area against a token/disc. Loss of the token will\nattract a fine.\n• Smoking and eating in the Library is strictly prohibited.",
+     "retrieval_rank": 4,
+     "retrieval_score": 0.7133653163909912,
+     "rerank_score": -2.988420009613037,
+     "route": "vector",
+     "configuration": "main"
+    }
+   ]
+  },
+  "O4": {
+   "question": "How do I apply for a UK student visa?",
+   "category": "out_of_scope",
+   "set": "oos",
+   "answer_key": null,
+   "sufficient_evidence_numbers": [],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 528,
+     "source": "MSU Humanities Yearbook",
+     "page": 129,
+     "heading": "Section: GENERAL ACADEMIC REGULATIONS FOR UNDERGRADUATE DEGREES > 3.4 Submission of Applications",
+     "text": "[MSU Humanities Yearbook, p. 129]\nadditional qualifications and/ or experience.\n3.4 Submission of Applications\n3.4.1 Applications must be submitted either in hard copy or soft copy to Admissions, Registration and Student\nStatistics Office or online through the university online admissions platform.\n3.4.2 The closing dates for receipt of application forms for Normal Entry shall be advertised by the\nRegistrar's Office each year. Late applicants may be considered upon payment of the prescribed late\napplication fee.\n3.4.3 The closing date for Special Entry and Mature Entry applications shall also be advertised by the Registrar's\nOffice.\n3.5 General Provisions\n3.5.1 Every student must satisfy the University that he/she has adequate command of the English Language.",
+     "retrieval_rank": 1,
+     "retrieval_score": 0.634365975856781,
+     "rerank_score": -4.737104892730713,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 7807,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 536,
+     "heading": "Section: REGULATIONS FOR THE MASTER OF COMMERCE DEGREE IN INFORMATION AND KNOWLEDGE MANAGEMENT (BS23) > 7 GENERAL PROVISIONS",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 536]\nHowever, the student has to apply for the credit transfer. In his/her application the following should be\nattached:\na) A transcript of the module(s) to be credit transferred.\nb) A synopsis of the module(s) from the University/College where the module was attained.\nc) A support letter from the Registrar's Office of the institution where the module(s) were attained.\n7.3 The respective Departmental Boards will sit and assess applications for credits transfers and would\nrecommend accordingly to Senate.\n7.4 No student shall be exempted more than 50% of the modules offered in the programme.\n\n8. PROGRAMME ASSESSMENT\nCoursework\n40 (Test 15%, Assignments 5%,\nPracticals\n15% T\n10%)\nWritten Examinations\n60",
+     "retrieval_rank": 8,
+     "retrieval_score": 0.6134722232818604,
+     "rerank_score": -6.212390422821045,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 6940,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 377,
+     "heading": "Section: FACULTY OF BUSINESS SCIENCES > 2.1 Normal Entry",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 377]\nProspective students from academic jurisdiction whose prior qualifications do not\nmatch 'A' Level qualification, will undergo a bridging programme for a period\nof one year before they are enrolled into a programme in the Faculty\n\n2.2 Visiting School Undergraduate degree programmes\n2.2.1 To qualify for entry into the Bachelor of Commerce Honours Degree in\nApplied Accounting Degree (Visiting School) programme, a candidate, in\naddition to satisfying the minimum conditions prescribed under the General\nRegulations must have:\neither:\nA National Diploma (complete qualification) in Accounting, or any\nequivalent tertiary qualification\nor:\nAt least two (2) passes in relevant \"A\" Level subjects\nand:\nConfirmation of employment in relevant accounting departments.",
+     "retrieval_rank": 10,
+     "retrieval_score": 0.6096762418746948,
+     "rerank_score": -8.256203651428223,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 1317,
+     "source": "MSU Humanities Yearbook",
+     "page": 252,
+     "heading": "Section: REGULATIONS FOR THE BACHELOR OF ARTS HONOURS DEGREE IN TRANSLATION AND INTERCULTURAL COMMUNICATION (AH13) > 2.3 MATURE ENTRY",
+     "text": "[MSU Humanities Yearbook, p. 252]\n2.3.1 Applicants must have passed at least five approved 'O' Level subjects including English\nlanguage and Mathematics (or equivalents) and must have demonstrated potential suitability for\nUniversity studies by virtue of their attainments and/or relevant work experience.\n2.3.2 Normally, applicants should have completed their full-time school or college education at\nleast five years before the start of the academic year in which admission is sought.\n2.3.3 Applicants who wish to be considered under the Mature Entry provisions may be required to\nattend interviews and/or special tests at the University designed to assess their command of the\nEnglish Language, numeracy and reasoning ability and general suitability for admission to the\nBachelor's degree studies.",
+     "retrieval_rank": 4,
+     "retrieval_score": 0.6174830794334412,
+     "rerank_score": -8.480766296386719,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 527,
+     "source": "MSU Humanities Yearbook",
+     "page": 129,
+     "heading": "Section: GENERAL ACADEMIC REGULATIONS FOR UNDERGRADUATE DEGREES > 3.3 Mature Entry",
+     "text": "[MSU Humanities Yearbook, p. 129]\n3.3.2 normally, applicants should have completed their full-time school or college education at least five\nyears before the start of the academic year in which admission is sought.\n3.3.3 applicants who wish to be considered under the Mature Entry provisions may be required to attend\ninterviews and/or special tests at the University designed to assess their command of the English Language,\nnumeracy and reasoning ability and general suitability for admission to the Bachelor's degree studies.\n3.3.4 applicants who have previously attended Mature Entry tests and/or interviews without success will not be\nconsidered for admissions under this form of entry unless in the intervening period they have acquired\nadditional qualifications and/ or experience.\n3.4 Submission of Applications",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.6272910833358765,
+     "rerank_score": -8.651042938232422,
+     "route": "vector",
+     "configuration": "main"
+    }
+   ]
+  },
+  "O5": {
+   "question": "What time does the campus gym open?",
+   "category": "out_of_scope",
+   "set": "oos",
+   "answer_key": null,
+   "sufficient_evidence_numbers": [],
+   "evidence": [
+    {
+     "rank": 1,
+     "chunk_id": 441,
+     "source": "MSU Humanities Yearbook",
+     "page": 109,
+     "heading": "Section: FACULTY OF ENGINEERING AND GEOSCIENCES > 6.7 Visitors",
+     "text": "[MSU Humanities Yearbook, p. 109]\n6.7 Visitors\n6.7.1 Resident students' parent may visit them in their rooms from 1000 to 2230\nhours.\n6.7.2 Male students may be entertained in female halls and female students\nmay be entertained in male halls between the following hours:\nMonday to Friday\n1200 to 2230 hours\nSaturday\n1200 to 0000 hours\nSunday\n1030 to 2230 hours\n6.7.3 Outside the prescribed visiting hours, all parts to the halls except the Common Rooms and\nentrance foyers are out of bounds to members of the opposite sex.\n6.7.4 Special arrangements may be made by application to the Warden of the\nHall concerned.\n6.7.5 These provisions apply to all students - undergraduate and Post-Graduate.\n6.7.6 No visitor or non-resident student may make unauthorized use of accommodation in hall of",
+     "retrieval_rank": 4,
+     "retrieval_score": 0.582923412322998,
+     "rerank_score": -7.807100296020508,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 2,
+     "chunk_id": 10718,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1128,
+     "heading": "Section: REGULATIONS FOR MASTER OF SCIENCE DEGREE IN FOOD SAFETY AND QUALITY MANAGEMENT (MFSQ) > 2.3 Research Commons",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 1128]\nThis space is primarily designed for postgraduate students who wish to research independently.\n\n2.4 24-Hour Study Centres\nThese are dedicated spaces opened 24 hours a day and designed to facilitate a focused, quiet, and\ncomfortable study experience. The 24-Hour Study Centres are fitted with plug-top desktops for\nplugging in laptops and have WIFI hotspots.",
+     "retrieval_rank": 5,
+     "retrieval_score": 0.5765256881713867,
+     "rerank_score": -8.67768669128418,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 3,
+     "chunk_id": 5598,
+     "source": "MSU Humanities Yearbook",
+     "page": 928,
+     "heading": "Section: REGULATIONS FOR MASTER OF SCIENCE DEGREE IN SOCIAL WORK (MSW) (DEVELOPMENTAL) > 2.3 Research Commons",
+     "text": "[MSU Humanities Yearbook, p. 928]\n2.3 Research Commons\nThis space is primarily designed for postgraduate students who wish to research independently.\n\n2.4 24-Hour Study Centres\nThese are dedicated spaces opened 24 hours a day and designed to facilitate a focused, quiet, and comfortable study\nexperience. The 24-Hour Study Centres are fitted with plug-top desktops for plugging in laptops and have WIFI\nhotspots.",
+     "retrieval_rank": 6,
+     "retrieval_score": 0.5555406808853149,
+     "rerank_score": -8.76717472076416,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 4,
+     "chunk_id": 287,
+     "source": "MSU Humanities Yearbook",
+     "page": 79,
+     "heading": "Section: FACULTY OF ENGINEERING AND GEOSCIENCES > 3 Department of Crop Production and Horticulture",
+     "text": "[MSU Humanities Yearbook, p. 79]\nTechnology Development.\nIn 2021, the University was licenced for MSU Radio and the station was allocated two frequencies, one in Zvishavane at\n90.3 FM and another in Gweru at 101.7 FM. MSU Radio manned shifts started on February 18, 2023. At the moment the\nstation is on air every day of the week from 0600hrs to 2100hrs broadcasting programmes such as; Breakfast Show, Mid-\nMorning Show, Lunchtime Listening, Drive Time Show and The After Drive. The year 2024 saw the launch of the Our\nDestiny (OD) Stores. Established as a retail shop, OD Stores pursue the Education 5.0 blueprint's agenda to locally\nproduce and distribute goods & services for the nation.\nTrue to our motto, \"Our Hands, Our Minds, Our Destiny\", we rely on ourselves to build a university which is truly",
+     "retrieval_rank": 2,
+     "retrieval_score": 0.6012308597564697,
+     "rerank_score": -9.835724830627441,
+     "route": "vector",
+     "configuration": "main"
+    },
+    {
+     "rank": 5,
+     "chunk_id": 5767,
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 80,
+     "heading": "Section: FACULTY OF ENGINEERING AND GEOSCIENCES > 3 Department of Crop Production and Horticulture",
+     "text": "[MSU Sciences Yearbook Vol. 2, p. 80]\nTechnology Development.\nIn 2021, the University was licenced for MSU Radio and the station was allocated two frequencies, one in Zvishavane at\n90.3 FM and another in Gweru at 101.7 FM. MSU Radio manned shifts started on February 18, 2023. At the moment the\nstation is on air every day of the week from 0600hrs to 2100hrs broadcasting programmes such as; Breakfast Show, Mid-\nMorning Show, Lunchtime Listening, Drive Time Show and The After Drive. The year 2024 saw the launch of the Our\nDestiny (OD) Stores. Established as a retail shop, OD Stores pursue the Education 5.0 blueprint's agenda to locally\nproduce and distribute goods & services for the nation.\nTrue to our motto, \"Our Hands, Our Minds, Our Destiny\", we rely on ourselves to build a university which is truly",
+     "retrieval_rank": 3,
+     "retrieval_score": 0.5989612340927124,
+     "rerank_score": -9.835724830627441,
+     "route": "vector",
+     "configuration": "main"
+    }
+   ]
+  }
+ }
+}

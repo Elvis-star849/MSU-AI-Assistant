@@ -38,9 +38,10 @@ def build_context(evidence: List[Dict[str, Any]]) -> str:
     return "\n\n".join(blocks)
 
 
-def build_messages(question: str, evidence: List[Dict[str, Any]]) -> List[Message]:
+def build_messages(question: str, evidence: List[Dict[str, Any]], system_prompt: str = SYSTEM_PROMPT) -> List[Message]:
+    """system_prompt: S7-1 prompt arms vary only this; the default is the frozen S7-0 baseline."""
     user = f"Evidence:\n\n{build_context(evidence)}\n\nQuestion: {question}"
-    return [Message("system", SYSTEM_PROMPT), Message("user", user)]
+    return [Message("system", system_prompt), Message("user", user)]
 
 
 def prompt_sha256(messages: List[Message]) -> str:
