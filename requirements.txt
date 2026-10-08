@@ -7,8 +7,9 @@ sentence-transformers
 faiss-cpu
 chromadb
 langchain-groq
-python-dotenv
+python-dotenv==1.2.3
 typesense
 langchain_openai
 langgraph
 rank-bm25
+groq==0.37.1

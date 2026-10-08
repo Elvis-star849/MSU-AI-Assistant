@@ -1,0 +1,102 @@
+{
+ "stage7": {
+  "status": "in progress",
+  "accepted_stage6_milestone": "5fc13708bc6e03f29fc0d12c02884fde647d1cfb",
+  "retrieval_consumed": {
+   "main": "T1 tie-break -> faiss_store_v2 (heading-aware) -> top 10 -> MiniLM (heading + original chunk text) -> best 5",
+   "fallback": "T1 tie-break -> faiss_store -> top 10 -> first 5, no reranker",
+   "rule": "Stage 7 imports the frozen Stage 6 modules and must not change Stage 6 behaviour"
+  }
+ },
+ "experiments": [
+  {
+   "id": "S7-0",
+   "title": "Groq LLM adapter and integration baseline",
+   "type": "infrastructure/integration experiment only",
+   "status": "accepted",
+   "date": "2026-10-08",
+   "decision": {
+    "accepted_by": "project owner",
+    "accepted_on": "2026-10-08",
+    "acceptance_means": [
+     "the provider-independent LLM architecture is accepted",
+     "Groq connectivity is confirmed",
+     "both GPT-OSS 20B and GPT-OSS 120B successfully completed the minimal connectivity test",
+     "the frozen Stage 6 retrieval system remained unchanged",
+     "main and fallback retrieval reproduced the accepted Top-5 evidence on 35/35 Stage 5 development questions",
+     "API-key safety checks passed",
+     "the two generated answers remain connectivity/audit outputs only and must not be used for model-quality conclusions",
+     "no conclusion has yet been made about whether GPT-OSS 20B or GPT-OSS 120B is the better model"
+    ],
+    "next": "S7-1 not started; awaiting owner instruction"
+   },
+   "not_claimed": [
+    "S7-0 does not show that GPT-OSS 20B or GPT-OSS 120B is better; the two live answers are connectivity output only and are not scored, ranked or compared",
+    "S7-0 does not evaluate answer quality, the prompt, out-of-scope handling or ambiguity handling"
+   ],
+   "architecture": {
+    "src/llm/base.py": "provider-independent interface: Message, GenerationSettings, LLMResponse (final answer only), LLMError (provider-neutral kinds), LLMClient (retries with exponential backoff for retryable kinds, attempt counting, latency)",
+    "src/llm/groq_client.py": "Groq provider via the official SDK; SDK retries disabled (max_retries=0); include_reasoning=False; Groq exceptions mapped to LLMError without provider message text; supported models openai/gpt-oss-20b and openai/gpt-oss-120b",
+    "src/llm/config.py": "configuration from the process environment, then the Git-ignored .env (read without changing os.environ); key excluded from repr and records",
+    "src/llm/__init__.py": "create_client(config) factory; application code never imports a provider SDK",
+    "src/evidence.py": "read-only wrapper over the frozen Stage 6 retrieval (main and fallback configurations); returns top 5 with original chunk text, source, page, heading and ranking information",
+    "src/context.py": "context builder (number, source, page, heading when present, original chunk text; scores and ranks not shown) and the S7-0 baseline grounded prompt (PROMPT_VERSION s7-0-baseline-v1, not optimised)",
+    "src/answer.py": "answer_question(): question -> Stage 6 retrieval -> context -> LLM interface -> final answer, with the evidence returned alongside"
+   },
+   "default_generation_settings": {
+    "model": "openai/gpt-oss-20b (GROQ_MODEL)",
+    "temperature": 0.0,
+    "reasoning_effort": "medium (provider default for gpt-oss)",
+    "max_completion_tokens": 4096,
+    "timeout_s": 60.0,
+    "max_retries": 2,
+    "retry_backoff_s": 1.0,
+    "note": "S7-0 defaults, not tuned; all overridable by environment variables"
+   },
+   "dependencies": {
+    "requirements.txt": ["added groq==0.37.1", "pinned python-dotenv -> python-dotenv==1.2.3 (already listed, already installed)"],
+    "installed": "nothing new; both packages were already installed",
+    "tests": "standard-library unittest (no pytest dependency added)"
+   },
+   "stage6_integrity": {
+    "before": "eval/stage7/s7_0_integrity_before.json: 29/29 frozen hashes, corpus/heading fingerprints, no change since 5fc1370 - passed",
+    "after": "eval/stage7/s7_0_integrity_after.json: identical checks - passed",
+    "excluded": "eval/stage6/run_s6_6.py, make_s6_6_sheet.py, report_s6_6.py (documented line-ending issue; not modified)"
+   },
+   "reproducibility": {
+    "file": "eval/stage7/s7_0_reproducibility.json",
+    "questions": "Stage 5 development set, all 35; Stage 6 held-out set not used",
+    "main": "reference method (a): eval/stage6/s6_3_runs.json runs['B'] first 5 (T1, faiss_store_v2, pool 10, MiniLM with_heading=True; same faiss_store_v2 build as now) - 35/35 identical top-5 chunk IDs",
+    "fallback": "reference method (a): eval/stage6/s6_3_runs.json runs['T1_v1'] first 5 (routed_search(faiss_store, q, 10, 'vector'); identical to s6_1_runs.json 'T1' top 5 on every question) - 35/35 identical top-5 chunk IDs"
+   },
+   "non_live_tests": {
+    "file": "tests/test_s7_0.py",
+    "command": "python -m unittest discover -s tests -t .",
+    "result": "27 tests, all passed",
+    "isolation": "configuration from explicit dicts with dotenv_path=None; fake SDK clients; no network call; real key never read"
+   },
+   "live_connectivity": {
+    "file": "eval/stage7/s7_0_live.json",
+    "question": "Stage 5 development N3 (no course code, no known ambiguity), main retrieval configuration",
+    "identical_input": "evidence retrieved once, prompt built once; both requests prompt sha256:ca51984ea3237abeb4ca425c6bac1338ce639fbae616d65e29218957e86fe2ff",
+    "max_retries": 0,
+    "openai/gpt-oss-20b": {"succeeded": true, "attempts": 1, "returned_model": "openai/gpt-oss-20b", "latency_ms": 1802.8, "tokens": {"prompt": 1389, "completion": 326, "reasoning": 149, "total": 1715}, "only_final_answer_returned": true},
+    "openai/gpt-oss-120b": {"succeeded": true, "attempts": 1, "returned_model": "openai/gpt-oss-120b", "latency_ms": 1081.6, "tokens": {"prompt": 1389, "completion": 188, "reasoning": 89, "total": 1577}, "only_final_answer_returned": true},
+    "total_requests_attempted": 2,
+    "reasoning_leakage_check": "include_reasoning=False was sent; Groq returned no reasoning field; the adapter has no reasoning field; no reasoning markers in either answer. The text inspection is a heuristic, not proof.",
+    "answers": "saved in s7_0_live.json, labelled 'S7-0 connectivity output — NOT FOR MODEL QUALITY COMPARISON'",
+    "latency_note": "single requests; latency is not a model comparison"
+   },
+   "api_key_safety": [
+    ".env added to .gitignore (it was not ignored before S7-0); verified ignored, untracked, unstaged and absent from history before the live test",
+    "key reported only as configured: yes; never printed, logged or written to any file",
+    "key-pattern scan (gsk_ prefix, confirmed to match the configured key's format by count only) of tracked files, untracked non-ignored files, the staged diff and s7_0_live.json: no matches"
+   ],
+   "deferred": [
+    "ambiguity-answer behaviour (stage6 R1) -> S7-1",
+    "prompt optimisation -> S7-1",
+    "model/prompt quality evaluation, out-of-scope handling -> later controlled Stage 7 experiments"
+   ]
+  }
+ ]
+}

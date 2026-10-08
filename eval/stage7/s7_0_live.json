@@ -1,0 +1,157 @@
+{
+ "experiment": "S7-0",
+ "purpose": "Groq connectivity/integration only; not an answer-quality experiment",
+ "label": "S7-0 connectivity output — NOT FOR MODEL QUALITY COMPARISON",
+ "preflight": {
+  "env_ignored": true,
+  "env_not_tracked": true,
+  "env_not_staged": true,
+  "env_not_in_history": true,
+  "groq_api_key_configured": true
+ },
+ "question_set": "Stage 5 development (held-out set not used)",
+ "question_id": "N3",
+ "question": "Who chairs Council meetings when the Chancellor is not there?",
+ "retrieval_configuration": "main",
+ "evidence": [
+  {
+   "rank": 1,
+   "chunk_id": 5652,
+   "source": "MSU Sciences Yearbook Vol. 2",
+   "page": 19,
+   "heading": "Section: 14 Chairman and vice-chairman of Council",
+   "retrieval_rank": 1,
+   "rerank_score": 7.180225372314453
+  },
+  {
+   "rank": 2,
+   "chunk_id": 56,
+   "source": "MSU Humanities Yearbook",
+   "page": 18,
+   "heading": "Section: MIDLANDS STATE UNIVERSITY ACT > 14 Chairman and vice-chairman of Council",
+   "retrieval_rank": 4,
+   "rerank_score": 3.9041953086853027
+  },
+  {
+   "rank": 3,
+   "chunk_id": 5625,
+   "source": "MSU Sciences Yearbook Vol. 2",
+   "page": 8,
+   "heading": "",
+   "retrieval_rank": 10,
+   "rerank_score": 0.5785186290740967
+  },
+  {
+   "rank": 4,
+   "chunk_id": 12,
+   "source": "MSU Humanities Yearbook",
+   "page": 8,
+   "heading": "",
+   "retrieval_rank": 6,
+   "rerank_score": 0.5199288725852966
+  },
+  {
+   "rank": 5,
+   "chunk_id": 106,
+   "source": "MSU Humanities Yearbook",
+   "page": 30,
+   "heading": "Section: STATUTES OF THE UNIVERSITY ARRANGEMENT OF STATUTES",
+   "retrieval_rank": 3,
+   "rerank_score": -0.122166208922863
+  }
+ ],
+ "prompt_version": "s7-0-baseline-v1",
+ "prompt_sha256": "sha256:ca51984ea3237abeb4ca425c6bac1338ce639fbae616d65e29218957e86fe2ff",
+ "calls": [
+  {
+   "requested_model": "openai/gpt-oss-20b",
+   "settings": {
+    "model": "openai/gpt-oss-20b",
+    "temperature": 0.0,
+    "reasoning_effort": "medium",
+    "max_completion_tokens": 4096,
+    "timeout_s": 60.0,
+    "max_retries": 0,
+    "retry_backoff_s": 1.0
+   },
+   "prompt_sha256": "sha256:ca51984ea3237abeb4ca425c6bac1338ce639fbae616d65e29218957e86fe2ff",
+   "requested_at": "2026-10-08T12:00:30+0200",
+   "succeeded": true,
+   "attempts": 1,
+   "returned_model": "openai/gpt-oss-20b",
+   "latency_ms": 1802.8,
+   "usage": {
+    "completion_tokens": 326,
+    "prompt_tokens": 1389,
+    "total_tokens": 1715,
+    "completion_time": 0.337546798,
+    "completion_tokens_details": {
+     "reasoning_tokens": 149
+    },
+    "prompt_time": 0.077603952,
+    "queue_time": 0.194721955,
+    "total_time": 0.41515075
+   },
+   "finish_reason": "stop",
+   "request_id": "req_01m4dfa4tcea6rfpw7xf565nmc",
+   "reasoning_check": {
+    "reasoning_requested_excluded": true,
+    "provider_returned_reasoning_field": false,
+    "adapter_exposes_reasoning_field": false,
+    "answer_reasoning_markers_found": [],
+    "only_final_answer_returned": true,
+    "note": "answer-text inspection is a heuristic, not proof"
+   },
+   "answer": {
+    "label": "S7-0 connectivity output — NOT FOR MODEL QUALITY COMPARISON",
+    "text": "When the Chancellor is not present at a Council meeting, the meeting is presided over by the **chairman of the Council**.  \nIf the chairman is also absent, the **vice‑chairman of the Council** presides.  \n\nThis is stated in the MSU yearbooks:\n\n- **Evidence 1** (MSU Sciences Yearbook Vol. 2, p. 19): “At all meetings of the Council at which the Chancellor is not present the chairman of the Council or, in his absence, the vice‑chairman shall preside.”  \n- **Evidence 2** (MSU Humanities Yearbook, p. 18): “At all meetings of the Council at which the Chancellor is not present the chairman of the Council or, in his absence, the vice‑chairman shall preside.”"
+   }
+  },
+  {
+   "requested_model": "openai/gpt-oss-120b",
+   "settings": {
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0.0,
+    "reasoning_effort": "medium",
+    "max_completion_tokens": 4096,
+    "timeout_s": 60.0,
+    "max_retries": 0,
+    "retry_backoff_s": 1.0
+   },
+   "prompt_sha256": "sha256:ca51984ea3237abeb4ca425c6bac1338ce639fbae616d65e29218957e86fe2ff",
+   "requested_at": "2026-10-08T12:00:31+0200",
+   "succeeded": true,
+   "attempts": 1,
+   "returned_model": "openai/gpt-oss-120b",
+   "latency_ms": 1081.6,
+   "usage": {
+    "completion_tokens": 188,
+    "prompt_tokens": 1389,
+    "total_tokens": 1577,
+    "completion_time": 0.401371257,
+    "completion_tokens_details": {
+     "reasoning_tokens": 89
+    },
+    "prompt_time": 0.079320228,
+    "queue_time": 0.308260238,
+    "total_time": 0.480691485
+   },
+   "finish_reason": "stop",
+   "request_id": "req_01m4dfa5p6eh5tg4n0vw5r5sy7",
+   "reasoning_check": {
+    "reasoning_requested_excluded": true,
+    "provider_returned_reasoning_field": false,
+    "adapter_exposes_reasoning_field": false,
+    "answer_reasoning_markers_found": [],
+    "only_final_answer_returned": true,
+    "note": "answer-text inspection is a heuristic, not proof"
+   },
+   "answer": {
+    "label": "S7-0 connectivity output — NOT FOR MODEL QUALITY COMPARISON",
+    "text": "When the Chancellor is absent, the Council is presided over by its elected chairman; if the chairman is also absent, the vice‑chairman steps in to chair the meeting【Evidence 1, MSU Sciences Yearbook Vol. 2 p. 19】. The same rule is reproduced in the Humanities Yearbook【Evidence 2, MSU Humanities Yearbook p. 18】."
+   }
+  }
+ ],
+ "identical_input_to_both_models": true,
+ "total_requests_attempted": 2
+}

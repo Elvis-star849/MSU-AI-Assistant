@@ -1,0 +1,21 @@
+{
+ "questions": "Stage 5 development set (eval/stage5_questions.json), all 35; held-out set not used",
+ "reference_method": "(a) existing recorded Stage 6 development run with exactly matching settings",
+ "checks": {
+  "main": {
+   "reference": "eval/stage6/s6_3_runs.json runs['B'], first 5",
+   "questions": 35,
+   "identical": 35,
+   "mismatches": [],
+   "passed": true
+  },
+  "fallback": {
+   "reference": "eval/stage6/s6_3_runs.json runs['T1_v1'], first 5",
+   "questions": 35,
+   "identical": 35,
+   "mismatches": [],
+   "passed": true
+  }
+ },
+ "passed": true
+}
