@@ -1,0 +1,57 @@
+{
+ "experiment": "app",
+ "label": "before_commit",
+ "checked_at": "2026-10-09T02:04:56+0200",
+ "head": "70850572a1fef1e254c0c2f8aa6f1a603a752941",
+ "accepted_stage6_commit": "5fc13708bc6e03f29fc0d12c02884fde647d1cfb",
+ "freeze_record": "eval/stage6/s6_6_freeze.json",
+ "excluded_from_hash_check": [
+  "eval/stage6/make_s6_6_sheet.py",
+  "eval/stage6/report_s6_6.py",
+  "eval/stage6/run_s6_6.py"
+ ],
+ "excluded_reason": "S6-6 evaluation scripts: documented LF/CRLF line-ending issue; not modified in S7-0",
+ "files_checked": 29,
+ "file_hash_matches": {
+  "src/vectorstore.py": true,
+  "src/embedding.py": true,
+  "src/retrieval_v2.py": true,
+  "src/rerank.py": true,
+  "src/structure.py": true,
+  "src/heading_store.py": true,
+  "src/ambiguity.py": true,
+  "faiss_store/index.faiss": true,
+  "faiss_store/chunks.jsonl": true,
+  "faiss_store/manifest.json": true,
+  "faiss_store_v2/index.faiss": true,
+  "faiss_store_v2/chunks.jsonl": true,
+  "faiss_store_v2/manifest.json": true,
+  "eval/stage6/holdout_questions.json": true,
+  "eval/stage6/baseline_hashes.json": true,
+  "eval/stage5_questions.json": true,
+  "eval/stage5_grades.json": true,
+  "~/.cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L-6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a/config.json": true,
+  "~/.cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L-6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a/model.safetensors": true,
+  "~/.cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L-6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a/tokenizer.json": true,
+  "~/.cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L-6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a/tokenizer_config.json": true,
+  "~/.cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L-6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a/special_tokens_map.json": true,
+  "~/.cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L-6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a/vocab.txt": true,
+  "~/.cache/huggingface/hub/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json": true,
+  "~/.cache/huggingface/hub/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/model.safetensors": true,
+  "~/.cache/huggingface/hub/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer.json": true,
+  "~/.cache/huggingface/hub/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json": true,
+  "~/.cache/huggingface/hub/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/sentence_bert_config.json": true,
+  "~/.cache/huggingface/hub/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/1_Pooling/config.json": true
+ },
+ "fingerprints": {
+  "faiss_store corpus": true,
+  "faiss_store_v2 corpus": true,
+  "faiss_store_v2 heading": true,
+  "faiss_store_v2 structure_version": true
+ },
+ "git": {
+  "accepted_commit_is_ancestor_of_head": true,
+  "stage6_paths_unchanged_since_accepted_commit": true
+ },
+ "passed": true
+}

@@ -1,0 +1,10 @@
+[server]
+# The project folder is large (indexes, notebooks) and synced by OneDrive: do not watch it for changes.
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#1f4e79"

@@ -13,3 +13,4 @@ langchain_openai
 langgraph
 rank-bm25
 groq==0.37.1
+streamlit==1.64.0
