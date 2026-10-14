@@ -1,9 +1,12 @@
 """
-MSU AI Assistant - presentation prototype (Streamlit chat interface).
+MSU AI Assistant (Streamlit chat interface).
 
-Run from the project root:  streamlit run app.py
-Retrieval-only backup mode (no Groq calls):  set MSU_ASSISTANT_OFFLINE=1 before starting.
-UI only: the RAG pipeline is src/assistant.py (unchanged); follow-ups and chats are src/conversation.py.
+Run from the project root:  streamlit run app.py          (see DEPLOYMENT.md)
+Configuration (environment variables or .streamlit/secrets.toml; never committed):
+  GROQ_API_KEY            required for answers (without it the app shows retrieved passages only)
+  MSU_ASSISTANT_PROFILE   c3_public_0005 (default, evaluated configuration) | baseline (rollback)
+  MSU_ASSISTANT_OFFLINE   1 = retrieval-only mode (no Groq calls)
+UI only: the RAG pipeline is src/assistant.py; follow-ups and chats are src/conversation.py.
 """
 import os
 
@@ -13,7 +16,22 @@ import streamlit as st
 
 from src.assistant import EXAMPLE_QUESTIONS, Assistant, escape_markdown
 from src.conversation import ChatStore
+from src.profiles import C3, LABELS, ProfileError, current_profile
 
+
+def _secrets_to_env():
+    """Hosted deployments may supply settings as Streamlit secrets; copy them into the process environment (where
+    src/llm/config.py reads them) without ever displaying them. A local .env file keeps working as before."""
+    try:
+        secrets = dict(st.secrets)
+    except Exception:
+        return
+    for name in ("GROQ_API_KEY", "GROQ_MODEL", "MSU_ASSISTANT_PROFILE", "MSU_ASSISTANT_OFFLINE"):
+        if name in secrets and not os.environ.get(name):
+            os.environ[name] = str(secrets[name])
+
+
+_secrets_to_env()
 OFFLINE = os.environ.get("MSU_ASSISTANT_OFFLINE", "").strip().lower() in ("1", "true", "yes")
 
 # Presentation-only CSS: students' messages on the left, assistant messages on the right, as bubbles.
@@ -75,8 +93,17 @@ def render_technical(turn):
                            "route": s["route"]} for s in result.sources], hide_index=True)
 
 
+def render_safety_notes(notes):
+    """Safeguard notes from src/safeguards.py: cautions are warnings, the admissions reminder is an info box."""
+    for note in notes or []:
+        if note.get("kind") == "admissions":
+            st.info(note["text"], icon="🎓")
+        else:
+            st.warning(note["text"], icon="⚠️")
+
+
 def render_assistant_message(turn):
-    """1 answer, 2 ambiguity warning, 3 'Interpreted as', 4 Sources (collapsed), 5 Technical details (collapsed)."""
+    """1 answer, 2 safeguard notes, 3 ambiguity warning, 4 'Interpreted as', 5 Sources, 6 Technical details."""
     result = turn.result
     if result.status == "answered":
         st.markdown(result.answer)
@@ -84,6 +111,7 @@ def render_assistant_message(turn):
         st.info(result.answer, icon="🔎")
     else:
         st.error(result.error_message, icon="❗")
+    render_safety_notes(getattr(result, "safety_notes", None))
     if result.ambiguity:
         render_ambiguity(result.ambiguity)
     if turn.resolution.is_followup:
@@ -98,6 +126,12 @@ def render_user_message(chat_id, index, question):
         with st.chat_message("user"):
             st.markdown(escape_markdown(question))
 
+
+try:
+    PROFILE = current_profile()
+except ProfileError as error:
+    st.error(f"The assistant could not start: {error}.", icon="❗")
+    st.stop()
 
 # ---------------------------------------------------------------- state
 if "chats" not in st.session_state:
@@ -119,37 +153,50 @@ with st.sidebar:
         st.button(session.title, key=f"chat-{session.id}", use_container_width=True,
                   type="primary" if session.id == chats.current_id else "tertiary",
                   on_click=chats.switch, args=(session.id,))
+    st.caption(f"Configuration: {LABELS[PROFILE]}")
     with st.expander("About"):
+        knowledge = ("MSU Humanities Yearbook, MSU Sciences Yearbook Vol. 2 and the approved MSU 2027 Road Map "
+                     "(public knowledge base version 0005, 10,753 passages). The 2027 intake advert is not yet "
+                     "published and is not used." if PROFILE == C3 else
+                     "MSU Humanities Yearbook and MSU Sciences Yearbook Vol. 2 (10,732 passages).")
         st.markdown(
-            "**Knowledge source:** MSU Humanities Yearbook and MSU Sciences Yearbook Vol. 2 (10,732 passages).\n\n"
-            "**How it works:** your question is matched against the yearbooks (semantic, keyword and course-code "
+            f"**Knowledge source:** {knowledge}\n\n"
+            "**How it works:** your question is matched against these documents (semantic, keyword and course-code "
             "search); the 10 best passages are re-ranked and the top 5 are given to GPT-OSS 20B (via Groq), which "
-            "answers **only from those passages**. Sources are listed under each answer.\n\n"
+            "answers **only from those passages** and cites them. Sources are listed under each answer.\n\n"
             "**Basic contextual follow-up support:** a short follow-up such as *How many credits is it?* is "
             "rewritten into a complete question (shown as *Interpreted as …*) before searching. Earlier answers "
             "are never used as evidence. Complex references or topic changes may require a complete standalone "
             "question.\n\n"
-            "**Limitations:** answers cover only what the two yearbooks contain; page numbers are PDF pages; "
-            "this is a prototype and can make mistakes, so check important details in the sources.")
+            "**Limitations:** answers cover only what these documents contain; yearbook regulations may be older "
+            "than current requirements; page numbers are PDF pages; the assistant can make mistakes (for example "
+            "small unsupported details), so check important details in the sources and confirm admissions matters "
+            "with MSU.")
     if OFFLINE:
         st.info("Retrieval-only mode: answers are not generated.")
 
 # ---------------------------------------------------------------- startup
 loading = st.empty()
 try:
-    with loading.status("Loading the MSU yearbook index and models (about a minute on first start)…", expanded=False):
+    with loading.status("Loading the MSU knowledge base and models (about a minute on first start)…", expanded=False):
         assistant = load_assistant(OFFLINE)
+except ProfileError as error:
+    loading.empty()
+    st.error(f"The assistant could not start: {error}. The knowledge base was not changed.", icon="❗")
+    st.stop()
 except Exception:
     loading.empty()
-    st.error("The assistant could not start: the yearbook index or models failed to load. "
+    st.error("The assistant could not start: the knowledge base or models failed to load. "
              "Please check the installation and restart the application.", icon="❗")
     st.stop()
 loading.empty()
 
 # ---------------------------------------------------------------- conversation
 st.title("MSU AI Assistant")
+st.caption("Controlled demonstration. Answers are generated only from official MSU documents and cite their sources; "
+           "they can contain mistakes. Check the sources, and confirm admissions decisions with MSU.")
 if assistant.llm_unavailable_reason:
-    st.warning(f"{assistant.llm_unavailable_reason} Retrieved yearbook passages will still be shown.", icon="ℹ️")
+    st.warning(f"{assistant.llm_unavailable_reason} Retrieved document passages will still be shown.", icon="ℹ️")
 
 chat = chats.current
 clicked = None
@@ -173,6 +220,6 @@ if question and question.strip():
     render_user_message(chat.id, index, question)
     with st.container(key=f"amsg-{chat.id}-{index}"):
         with st.chat_message("assistant", avatar=":material/school:"):
-            with st.spinner("Searching the yearbooks and writing a grounded answer…"):
+            with st.spinner("Searching the MSU documents and writing a grounded answer…"):
                 chat.ask(assistant, question)
     st.rerun()

@@ -8,3 +8,8 @@ gatherUsageStats = false
 [theme]
 base = "light"
 primaryColor = "#1f4e79"
+
+[client]
+# demo users should not see developer menus (Deploy, rerun, settings)
+toolbarMode = "viewer"
+showErrorDetails = false

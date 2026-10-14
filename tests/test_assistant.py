@@ -142,7 +142,9 @@ class ServiceTests(unittest.TestCase):
         with patch("src.evidence.Stage6Retriever", StubRetriever), \
                 patch("src.ambiguity.code_titles", lambda records: {}), \
                 patch("src.ambiguity.ambiguous_codes", lambda titles: {"x": []}):
-            a = Assistant.create(config_loader=lambda: LLMConfig("groq", cfg, api_key="fake-test-key-not-real"))
+            # this test pins the baseline (rollback) wiring; the C3 profile is covered in tests/test_c3_profile.py
+            a = Assistant.create(config_loader=lambda: LLMConfig("groq", cfg, api_key="fake-test-key-not-real"),
+                                 profile="baseline")
             self.assertEqual(a.retriever.configuration, "main")
             self.assertTrue(a.retriever.loaded)
             self.assertTrue(a.retriever.warmed_up)
@@ -152,10 +154,11 @@ class ServiceTests(unittest.TestCase):
             self.assertEqual((s.timeout_s, s.max_retries), (30.0, 1))  # infrastructure settings from config
             self.assertIsNotNone(a.llm)
             self.assertNotIn("fake-test-key-not-real", repr(vars(a)))
-            missing = Assistant.create(config_loader=lambda: LLMConfig("groq", cfg, api_key=None))
+            missing = Assistant.create(config_loader=lambda: LLMConfig("groq", cfg, api_key=None), profile="baseline")
             self.assertIsNone(missing.llm)
             self.assertIn("not configured", missing.llm_unavailable_reason)
-            offline = Assistant.create(offline=True, config_loader=lambda: self.fail("must not load config"))
+            offline = Assistant.create(offline=True, config_loader=lambda: self.fail("must not load config"),
+                                       profile="baseline")
             self.assertIsNone(offline.llm)
 
     def test_helpers(self):
