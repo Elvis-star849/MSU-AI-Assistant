@@ -2,25 +2,35 @@
 
 ## What runs
 
-A Streamlit chat app (`app.py`). Its default profile is **`c3_public_0005`**, the configuration that passed the pre-registered held-out release gates (`remediation/REMEDIATION_FINAL_REPORT.md`).
+A Streamlit chat app (`app.py`). The profile is chosen with `MSU_ASSISTANT_PROFILE`:
 
-| Part | Setting |
-|---|---|
-| Retrieval | `PublicRetriever` on the active **public** knowledge-base pointer, verified at startup to be version **0005** (manifest `25956ff5…`): MSU Humanities Yearbook, MSU Sciences Yearbook Vol. 2, MSU 2027 Road Map; 10,753 passages. Routed hybrid search → top 10 → MiniLM reranker → top 5. |
-| Prompt | G2 grounding prompt + F2 evidence formatting (`src/c3_candidate.py`, a byte-identical copy of the frozen `remediation/candidate.py`). |
-| Model | `openai/gpt-oss-20b` via Groq; temperature 0, reasoning medium, 4,096 completion tokens. |
-| Safeguards | `src/safeguards.py`, described below. |
-| Not used | The 2027 intake advert (staging KB **0006**, unpublished). The public profile never opens the staging pointer, and no setting can select it. |
+| Profile | Knowledge base | Use |
+|---|---|---|
+| **`c3_intake_0006`** (default) | Staging pointer, verified version **0006** (manifest `04169e83…`): MSU Humanities Yearbook, MSU Sciences Yearbook Vol. 2, MSU 2027 Road Map **and the MSU January/February 2027 Intake Advert**; 10,979 passages. The yearbook and road-map records are identical to 0005. | Local demonstration with the 2027 intake information. The owner approved this on 2026-10-14 for the **local demonstration only**; it is not authorised for public internet hosting. |
+| `c3_public_0005` | Active public pointer, verified version **0005** (manifest `25956ff5…`): yearbooks + road map; no advert. | The configuration that passed the pre-registered public release gates. |
+| `baseline` | Stage 6 yearbook index (`faiss_store_v2`), S7-0 prompt. | Rollback to the pre-C3 app. |
 
-**Parity.** `tests/test_c3_profile.py` proves the app reproduces the evaluated retrieval (top 5) and the byte-identical prompts for all 18 public held-out questions.
+**Common to the two C3 profiles:**
+- Routed hybrid search → top 10 → MiniLM reranker → top 5.
+- G2 grounding prompt + F2 evidence formatting (`src/c3_candidate.py`, a byte-identical copy of the frozen `remediation/candidate.py`). G2 tells the model to present the 2027 advert as the current requirement and to attribute differing yearbook rules. F2 labels every passage's source type and marks a missing commencement date as "not stated" (never inferred from the intake name).
+- `openai/gpt-oss-20b` via Groq: temperature 0, reasoning medium, 4,096 completion tokens.
+- Profiles only *read* knowledge-base versions. No pointer is written or switched. The intake profile reads the staging version as the local-demo actor `msu-assistant-local-demo`.
+
+**Parity.** `tests/test_c3_profile.py` proves the app reproduces the evaluated retrieval (top 5) and the byte-identical prompts for all 18 public (0005) and all 22 intake (0006) held-out questions.
+
+**Evaluated quality on the held-out set (`remediation/REMEDIATION_FINAL_REPORT.md`):**
+- Public questions: 0 critical claims; reliable-sufficient 0.833.
+- Intake questions: 0 critical claims; reliable-sufficient 0.545, below the 0.80 intake-readiness bar. Intake answers therefore need the most care in demonstrations.
 
 **Safeguards (`src/safeguards.py`):**
 - Question length limit (1,000 characters) and control-character removal.
-- Retrieved passages containing instruction-like text are withheld from the model. No passage in KB 0005 matches, so evaluated behaviour is unchanged.
+- Retrieved passages containing instruction-like text are withheld from the model. No passage in KB 0005 or 0006 matches, so evaluated behaviour is unchanged.
 - Visible notes under the answer:
   - missing or invalid evidence citations;
-  - an admissions reminder (yearbook regulations may be older; the 2027 advert is not published; confirm with MSU Admissions);
-  - any mention of an "advert" (not among the public sources).
+  - an admissions reminder (intake profile: the 2027 advert is the current source for the January/February 2027 intake and yearbook regulations may be older; confirm with MSU Admissions);
+  - on the intake profile, when an answer cites both an advert passage and a yearbook passage: "Where they differ, the 2027 advert applies";
+  - on the public profile only, any mention of an "advert", which is not among the public sources.
+- Each source under an answer is labelled: *2027 intake advert · current*, *Yearbook regulations · may be older*, or *2027 academic road map*.
 - The model's answer text is never rewritten.
 - Errors such as rate limit, timeout or an empty response show a friendly message, and the retrieved sources stay visible.
 
@@ -38,16 +48,16 @@ A Streamlit chat app (`app.py`). Its default profile is **`c3_public_0005`**, th
 | Variable | Purpose |
 |---|---|
 | `GROQ_API_KEY` | Required for answers. Set it as an environment variable or in `.env` / `.streamlit/secrets.toml`. Without it, the app shows the retrieved passages only. |
-| `MSU_ASSISTANT_PROFILE` | `c3_public_0005` (default) or `baseline` (rollback). Any other value stops the app at startup. |
+| `MSU_ASSISTANT_PROFILE` | `c3_intake_0006` (default), `c3_public_0005`, or `baseline` (rollback). Any other value stops the app at startup. |
 | `MSU_ASSISTANT_OFFLINE` | `1` = retrieval-only mode, no Groq calls. |
 
 ## Start, check, stop (Windows host, current deployment)
 
 ```powershell
-.\scripts\start_assistant.ps1                    # detached server, http://127.0.0.1:8502, logs in logs\
+.\scripts\start_assistant.ps1                    # detached server, intake profile, http://127.0.0.1:8502, logs in logs\
 python healthcheck.py --url http://127.0.0.1:8502   # profile, key present, KB 0005, retrieval, web server
 python healthcheck.py --live-llm                 # adds one real answer (< US$0.001)
-python scripts\e2e_live_ui.py --url http://127.0.0.1:8502   # 11 live browser checks (about 10 Groq calls)
+python scripts\e2e_live_ui.py --url http://127.0.0.1:8502   # 18 live browser checks on the intake profile (~17 Groq calls)
 .\scripts\stop_assistant.ps1
 ```
 
@@ -60,7 +70,14 @@ On Linux or macOS: `scripts/start_assistant.sh [profile] [port]`. Set `MSU_BIND_
 
 ## Rollback (fastest first)
 
-1. **Configuration, seconds:**
+1. **Configuration, seconds.** Without the advert:
+
+   ```powershell
+   .\scripts\stop_assistant.ps1
+   .\scripts\start_assistant.ps1 -Profile c3_public_0005
+   ```
+
+   Or back to the pre-C3 app:
 
    ```powershell
    .\scripts\stop_assistant.ps1

@@ -4,7 +4,7 @@ MSU AI Assistant (Streamlit chat interface).
 Run from the project root:  streamlit run app.py          (see DEPLOYMENT.md)
 Configuration (environment variables or .streamlit/secrets.toml; never committed):
   GROQ_API_KEY            required for answers (without it the app shows retrieved passages only)
-  MSU_ASSISTANT_PROFILE   c3_public_0005 (default, evaluated configuration) | baseline (rollback)
+  MSU_ASSISTANT_PROFILE   c3_intake_0006 (default: + 2027 intake advert) | c3_public_0005 | baseline (rollback)
   MSU_ASSISTANT_OFFLINE   1 = retrieval-only mode (no Groq calls)
 UI only: the RAG pipeline is src/assistant.py; follow-ups and chats are src/conversation.py.
 """
@@ -16,7 +16,7 @@ import streamlit as st
 
 from src.assistant import EXAMPLE_QUESTIONS, Assistant, escape_markdown
 from src.conversation import ChatStore
-from src.profiles import C3, LABELS, ProfileError, current_profile
+from src.profiles import ADVERT_SOURCE, BASELINE, INTAKE, LABELS, ROADMAP_SOURCE, ProfileError, current_profile
 
 
 def _secrets_to_env():
@@ -68,12 +68,21 @@ def render_ambiguity(notes):
                    "Check which programme applies to you:\n" + "\n".join(meanings), icon="⚠️")
 
 
+def source_type(document):
+    if document == ADVERT_SOURCE:
+        return "2027 intake advert · current for the January/February 2027 intake"
+    if document == ROADMAP_SOURCE:
+        return "2027 academic road map"
+    return "Yearbook regulations · may be older than the 2027 advert"
+
+
 def render_sources(sources):
     with st.expander(f"Sources ({len(sources)})"):
         st.caption("Numbers match the evidence numbers cited in the answer. Page numbers are PDF page numbers, "
-                   "which may differ from the printed yearbook page numbers.")
+                   "which may differ from the printed document page numbers.")
         for s in sources:
             st.markdown(f"**[{s['number']}] {s['document']}** — PDF page {s['pdf_page']}  \n"
+                        f"*{source_type(s['document'])}*  \n"
                         f"**Section at start of passage:** {escape_markdown(s['heading']) if s['heading'] else '—'}")
             with st.container(height=180, border=True):
                 st.markdown(escape_markdown(s["passage"]))
@@ -96,7 +105,7 @@ def render_technical(turn):
 def render_safety_notes(notes):
     """Safeguard notes from src/safeguards.py: cautions are warnings, the admissions reminder is an info box."""
     for note in notes or []:
-        if note.get("kind") == "admissions":
+        if note.get("kind") in ("admissions", "sources"):
             st.info(note["text"], icon="🎓")
         else:
             st.warning(note["text"], icon="⚠️")
@@ -155,10 +164,13 @@ with st.sidebar:
                   on_click=chats.switch, args=(session.id,))
     st.caption(f"Configuration: {LABELS[PROFILE]}")
     with st.expander("About"):
-        knowledge = ("MSU Humanities Yearbook, MSU Sciences Yearbook Vol. 2 and the approved MSU 2027 Road Map "
-                     "(public knowledge base version 0005, 10,753 passages). The 2027 intake advert is not yet "
-                     "published and is not used." if PROFILE == C3 else
-                     "MSU Humanities Yearbook and MSU Sciences Yearbook Vol. 2 (10,732 passages).")
+        knowledge = {
+            INTAKE: "MSU Humanities Yearbook, MSU Sciences Yearbook Vol. 2, the approved MSU 2027 Road Map and the MSU "
+                    "January/February 2027 Intake Advert (knowledge base version 0006, 10,979 passages). For the 2027 "
+                    "intake, the advert is the current source; yearbook regulations may be older.",
+            BASELINE: "MSU Humanities Yearbook and MSU Sciences Yearbook Vol. 2 (10,732 passages).",
+        }.get(PROFILE, "MSU Humanities Yearbook, MSU Sciences Yearbook Vol. 2 and the approved MSU 2027 Road Map "
+                       "(public knowledge base version 0005, 10,753 passages). The 2027 intake advert is not used.")
         st.markdown(
             f"**Knowledge source:** {knowledge}\n\n"
             "**How it works:** your question is matched against these documents (semantic, keyword and course-code "

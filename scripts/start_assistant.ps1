@@ -1,10 +1,10 @@
 # Start the MSU AI Assistant as a detached background server (Windows PowerShell).
-#   .\scripts\start_assistant.ps1                      C3 profile (default), http://localhost:8502
+#   .\scripts\start_assistant.ps1                      C3 + 2027 intake advert (default), http://localhost:8502
 #   .\scripts\start_assistant.ps1 -Profile baseline    rollback configuration
 #   .\scripts\start_assistant.ps1 -Port 8510 -Address 127.0.0.1
 # The Groq key is read from the environment or the Git-ignored .env file; it is never printed or logged.
 param(
-    [ValidateSet("c3_public_0005", "baseline")] [string]$Profile = "c3_public_0005",
+    [ValidateSet("c3_intake_0006", "c3_public_0005", "baseline")] [string]$Profile = "c3_intake_0006",
     [int]$Port = 8502,
     [string]$Address = "127.0.0.1"
 )

@@ -5,8 +5,8 @@ __pycache__/
 logs/
 .streamlit/secrets.toml
 
-# Local data and evaluation records: preserved on disk, never pushed. They contain the unpublished 2027 intake
-# advert (KB 0006) and evaluation evidence derived from it.
+# Local data and evaluation records: preserved on disk, never pushed. They contain the 2027 intake advert (KB 0006),
+# approved for the local demonstration only, not for publication, and evaluation evidence derived from it.
 knowledge_base/
 remediation/
 stage4/

@@ -1,9 +1,10 @@
 """
 MSU AI Assistant service layer (no UI code here).
 
-Profile c3_public_0005 (default; src/profiles.py): question -> KB PublicRetriever on the verified public version 0005
-(yearbooks + 2027 road map; accepted Stage 6 configuration: routed search -> top 10 -> MiniLM heading + text -> top 5)
--> G2 grounding prompt + F2 evidence formatting -> openai/gpt-oss-20b -> AssistantResult.
+Profile c3_intake_0006 (default; src/profiles.py): question -> KB StagingRetriever on the verified version 0006
+(yearbooks + 2027 road map + 2027 intake advert; accepted Stage 6 configuration: routed search -> top 10 -> MiniLM
+heading + text -> top 5) -> G2 grounding prompt + F2 evidence formatting -> openai/gpt-oss-20b -> AssistantResult.
+Profile c3_public_0005: the same on the public version 0005 (no intake advert).
 Profile baseline (rollback): Stage6Retriever("main") over faiss_store_v2 -> s7-0-baseline-v1 prompt -> same model.
 
 - Safeguards (src/safeguards.py): bounded question text; retrieved passages with instruction-like text are withheld
@@ -24,7 +25,8 @@ from typing import Any, Callable, Dict, List, Optional
 from src.context import PROMPT_VERSION
 from src.llm import LLMError, create_client, load_config
 from src.llm.base import GenerationSettings
-from src.profiles import BASELINE, C3, C3_PROMPT_VERSION, build_c3_messages, current_profile, open_public_retriever
+from src.profiles import (BASELINE, C3, C3_PROMPT_VERSION, INTAKE, KB_PROFILES, build_c3_messages, current_profile,
+                          open_profile_retriever)
 from src.safeguards import NOTE_INJECTION, clean_question, review_answer, screen_evidence
 
 # The accepted Stage 7 generation configuration (S7-0/S7-1). Credentials, timeout and retries come from load_config().
@@ -135,9 +137,9 @@ class Assistant:
         models = Stage6Retriever("main")      # yearbook index, embedding model and MiniLM reranker
         models._load()
         ambiguous = ambiguous_codes(code_titles(models._store.records))
-        if profile == C3:
-            retriever = open_public_retriever(models)
-            extra = {"message_builder": build_c3_messages, "prompt_version": C3_PROMPT_VERSION, "profile": C3}
+        if profile in KB_PROFILES:
+            retriever = open_profile_retriever(profile, models)
+            extra = {"message_builder": build_c3_messages, "prompt_version": C3_PROMPT_VERSION, "profile": profile}
         else:
             retriever, extra = models, {"profile": BASELINE}
         retriever.retrieve("MSU yearbook warm-up")  # loads the query embedding model now, not on the first question
@@ -196,7 +198,9 @@ class Assistant:
                 result.answer = answered.answer
                 try:
                     result.safety_notes += review_answer(question, result.answer, len(evidence),
-                                                         public_profile=self.profile == C3)
+                                                         public_profile=self.profile == C3,
+                                                         intake=self.profile == INTAKE,
+                                                         sources=[e.get("source") for e in evidence])
                 except Exception:
                     pass  # display-only notes; never block an answer
                 result.usage = answered.llm.usage

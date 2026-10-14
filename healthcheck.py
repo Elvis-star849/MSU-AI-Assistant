@@ -40,7 +40,7 @@ def main() -> int:
               flush=True)
         return results[-1][1]
 
-    from src.profiles import C3, LABELS, current_profile, verify_public_pointer
+    from src.profiles import C3, INTAKE, LABELS, current_profile, verify_public_pointer, verify_staging_pointer
     profile = check("profile", lambda: (lambda p: f"{p} - {LABELS[p]}")(current_profile()))
 
     def key():
@@ -53,6 +53,9 @@ def main() -> int:
 
     if profile and current_profile() == C3:
         check("public knowledge base", lambda: (lambda p: f"active public version {p['version']} verified")(verify_public_pointer()))
+    if profile and current_profile() == INTAKE:
+        check("intake knowledge base",
+              lambda: (lambda p: f"version {p['version']} (with 2027 intake advert) verified")(verify_staging_pointer()))
 
     holder = {}
 
@@ -68,7 +71,11 @@ def main() -> int:
                 raise RuntimeError(f"unexpected sources {sorted(sources)}")
             return f"{len(ev)} passages; sources {sorted(sources)}"
         check("retrieval: yearbook", lambda: retrieve("Describe BM134", None))
-        if current_profile() == C3:
+        if current_profile() == INTAKE:
+            check("retrieval: 2027 intake advert",
+                  lambda: retrieve("How long is the Bachelor of Commerce Honours Degree in Security Risk Management "
+                                   "and how is it offered?", "MSU January/February 2027 Intake Advert"))
+        if current_profile() in (C3, INTAKE):
             check("retrieval: 2027 road map", lambda: retrieve("When does second-quarter face-to-face tuition run in 2027?",
                                                               "MSU 2027 Road Map"))
     if a.live_llm:
