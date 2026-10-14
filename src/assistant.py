@@ -27,7 +27,8 @@ from src.llm import LLMError, create_client, load_config
 from src.llm.base import GenerationSettings
 from src.profiles import (BASELINE, C3, C3_PROMPT_VERSION, INTAKE, KB_PROFILES, build_c3_messages, current_profile,
                           open_profile_retriever)
-from src.safeguards import NOTE_INJECTION, clean_question, review_answer, screen_evidence
+from src.query_normalise import normalise_query
+from src.safeguards import NOTE_INJECTION, clean_question, miss_tip, present_answer, review_answer, screen_evidence
 
 # The accepted Stage 7 generation configuration (S7-0/S7-1). Credentials, timeout and retries come from load_config().
 ACCEPTED_MODEL = "openai/gpt-oss-20b"
@@ -102,6 +103,8 @@ class AssistantResult:
     route: Optional[str] = None
     profile: str = BASELINE
     safety_notes: List[Dict[str, str]] = field(default_factory=list)
+    normalised_question: Optional[str] = None   # set when spelling/intake clean-up changed the searched question
+    raw_answer: Optional[str] = None            # model text before the wording correction (present_answer)
 
 
 class Assistant:
@@ -168,6 +171,11 @@ class Assistant:
             result.status, result.error_kind, result.error_message = "rejected", "input", str(error)
             result.timings_ms["total"] = round((time.perf_counter() - start) * 1000, 1)
             return result
+        c3_profile = self.profile in KB_PROFILES          # baseline (rollback) keeps the previous behaviour exactly
+        if c3_profile:
+            normalised, changes = normalise_query(question)
+            if changes:
+                question, result.normalised_question = normalised, normalised
         try:
             evidence, withheld = screen_evidence(self.retriever.retrieve(question))
         except Exception:
@@ -197,12 +205,17 @@ class Assistant:
                 answered = self._answer(question, self.retriever, self.llm, self.settings, evidence=evidence, **kwargs)
                 result.answer = answered.answer
                 try:
+                    if c3_profile:
+                        result.raw_answer = answered.answer
+                        result.answer = present_answer(answered.answer)
                     result.safety_notes += review_answer(question, result.answer, len(evidence),
                                                          public_profile=self.profile == C3,
                                                          intake=self.profile == INTAKE,
                                                          sources=[e.get("source") for e in evidence])
+                    if c3_profile:
+                        result.safety_notes += miss_tip(result.answer, "intake" if self.profile == INTAKE else "public")
                 except Exception:
-                    pass  # display-only notes; never block an answer
+                    pass  # display-only notes and wording; never block an answer
                 result.usage = answered.llm.usage
                 result.model = answered.llm.returned_model or result.model
             except LLMError as error:

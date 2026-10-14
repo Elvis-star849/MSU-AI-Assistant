@@ -96,6 +96,11 @@ def render_technical(turn):
                     f"**Model:** {result.model or '—'}  \n**Prompt:** {result.prompt_version}  \n"
                     "**Timings (ms):** " + ", ".join(f"{k} {v:,.0f}" for k, v in result.timings_ms.items()) +
                     (f"  \n**Tokens:** {result.usage.get('total_tokens')}" if result.usage else ""))
+        raw = getattr(result, "raw_answer", None)
+        if raw and raw != result.answer:
+            st.caption("Answer wording corrected (references to documents 'you provided' or requests to supply "
+                       "documents). Original model text:")
+            st.text(raw)
         if result.sources:
             st.dataframe([{"#": s["number"], "chunk": s["chunk_id"], "retrieval rank": s["retrieval_rank"],
                            "retrieval score": s["retrieval_score"], "rerank score": s["rerank_score"],
@@ -107,6 +112,8 @@ def render_safety_notes(notes):
     for note in notes or []:
         if note.get("kind") in ("admissions", "sources"):
             st.info(note["text"], icon="🎓")
+        elif note.get("kind") == "tip":
+            st.info(note["text"], icon="💡")
         else:
             st.warning(note["text"], icon="⚠️")
 
@@ -125,6 +132,9 @@ def render_assistant_message(turn):
         render_ambiguity(result.ambiguity)
     if turn.resolution.is_followup:
         st.caption(f"Interpreted as: {escape_markdown(turn.resolution.standalone)}")
+    searched = getattr(result, "normalised_question", None)
+    if searched:
+        st.caption(f"Searched as: {escape_markdown(searched)}")
     if result.sources:
         render_sources(result.sources)
     render_technical(turn)

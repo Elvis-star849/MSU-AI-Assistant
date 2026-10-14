@@ -136,6 +136,39 @@ class ParityTests(unittest.TestCase):
         for doc in ("yearbook-humanities", "yearbook-sciences-v2", "roadmap-2027", "intake-2027-jan-feb"):
             self.assertIn(doc, docs)
 
+    def test_advert_supplement(self):
+        """IntakeAwareRetriever (the app's 0006 retriever): fixes the reported Computer Science miss, leaves
+        questions whose top 5 already has an advert passage unchanged, and never touches calendar questions."""
+        from src.profiles import ADVERT_SOURCE, IntakeAwareRetriever
+        from src.query_normalise import normalise_query
+        wrapped = IntakeAwareRetriever(self.intake_retriever)
+        # fix 1 alone: the reported question, cleaned up, already reaches the Computer Science advert records
+        cleaned, _ = normalise_query("what are the requrements for computer science for the following intake")
+        self.assertTrue(any(e["source"] == ADVERT_SOURCE and "Computer Science" in (e.get("heading") or "")
+                            for e in self.intake_retriever.retrieve(cleaned)))
+        # fix 2: a question with no intake cue retrieves yearbook passages only; the supplement adds the advert
+        user_q = "What are the requirements for computer science?"
+        base_ev = self.intake_retriever.retrieve(user_q)
+        self.assertFalse(any(e["source"] == ADVERT_SOURCE for e in base_ev))
+        ev = wrapped.retrieve(user_q)
+        self.assertEqual(len(ev), 5)
+        advert = [e for e in ev if e["source"] == ADVERT_SOURCE]
+        self.assertTrue(advert and all(e["route"] == "advert_supplement" for e in advert))
+        self.assertTrue(any("Computer Science" in (e.get("heading") or "") for e in advert))
+        self.assertEqual([e["rank"] for e in ev], [1, 2, 3, 4, 5])
+        changed = []
+        for q in self.intake_questions:
+            base = self.evidence[q["id"]]
+            new = wrapped.retrieve(q["question"])
+            if any(e["source"] == ADVERT_SOURCE for e in base):
+                self.assertEqual([e["passage_uid"] for e in new], [e["passage_uid"] for e in base], q["id"])
+            elif [e["passage_uid"] for e in new] != [e["passage_uid"] for e in base]:
+                changed.append(q["id"])
+        print(f"\n[advert supplement] evaluated intake questions changed: {changed or 'none'}")
+        cal = "When does second-quarter face-to-face tuition run in 2027?"
+        self.assertEqual([e["passage_uid"] for e in wrapped.retrieve(cal)],
+                         [e["passage_uid"] for e in self.intake_retriever.retrieve(cal)])
+
     def test_road_map_is_answerable_and_advert_is_absent(self):
         sources = {e["source"] for q in self.questions for e in self.evidence[q["id"]]}
         self.assertIn("MSU 2027 Road Map", sources)

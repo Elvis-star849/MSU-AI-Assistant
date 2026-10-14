@@ -34,6 +34,14 @@ A Streamlit chat app (`app.py`). The profile is chosen with `MSU_ASSISTANT_PROFI
 - The model's answer text is never rewritten.
 - Errors such as rate limit, timeout or an empty response show a friendly message, and the retrieved sources stay visible.
 
+**Intake question handling (C3 profiles only; `baseline` is unchanged):**
+
+| Fix | What it does |
+|---|---|
+| Query clean-up (`src/query_normalise.py`) | Corrects common misspellings of admissions words ("requrements" → "requirements") and resolves "the following / next / this intake" to "the 2027 intake". The UI shows a *Searched as …* caption when the question was changed. None of the 80 evaluated questions is altered (tested). |
+| Advert supplement (`IntakeAwareRetriever` in `src/profiles.py`, intake profile) | For an admissions question whose top 5 contains no advert passage, the advert records alone are searched (vector + BM25, then MiniLM rerank, relevance floor 1.0) and up to 2 replace the lowest-ranked passages. Calendar (road-map) questions and questions that already retrieved an advert passage are untouched. None of the 22 evaluated intake questions changes (tested). |
+| Wording on misses (`present_answer`, `miss_tip` in `src/safeguards.py`) | "The documents you provided / the documents provided" becomes "the MSU documents I searched". Sentences asking the user to supply documents are removed. A misses-only tip suggests naming the programme. The original model text is shown under *Technical details* whenever the wording was corrected. |
+
 ## Requirements
 
 **Software:** Python 3.12 and `pip install -r requirements-app.txt` (pinned app dependencies).

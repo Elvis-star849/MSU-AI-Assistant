@@ -67,7 +67,16 @@ INTAKE_CASES = [
      "Psychology?", [r"2\.2", r"advert"], [], True, "Where they differ, the 2027 advert applies"),
     ("intake: not in the documents", "What are the 2027 entry requirements for the Bachelor of Science Honours "
      "Degree in Astronautics?", [r"not contain|could not find|no information|not (?:listed|included|mentioned|provided)|"
-                                  r"do(?:es)? not (?:include|list|mention|provide)"], [], None, None),
+                                  r"do(?:es)? not (?:include|list|mention|provide)"],
+     [r"\byou (?:have )?(?:provided|supplied)\b", r"\b(?:please|if you can) (?:provide|supply|share)\b",
+      r"\bdocuments (?:provided|supplied)\b"], None, "try naming the programme"),
+    # the reported failure: misspelled, relative intake ("Searched as" shows the cleaned question)
+    ("fix: reported question", "what are the requrements for computer science for the following intake",
+     [r"Mathematics", r"Physics", r"advert", r"Searched as: what are the requirements for "
+      r"computer science for the 2027 intake"],                    # requirements asked; duration/mode not required
+     [r"\byou (?:have )?(?:provided|supplied)\b", r"\b(?:please|if you can) (?:provide|supply|share)\b"], True, None),
+    ("fix: no intake cue", "What are the requirements for computer science?", [r"Mathematics", r"Physics", r"advert"],
+     [], True, None),
 ]
 
 

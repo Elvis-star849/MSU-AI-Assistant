@@ -1,6 +1,8 @@
 """
-Application safeguards around the grounded answer. They never rewrite the model's answer (the evaluated behaviour is
-kept); they check inputs and evidence, and attach visible notes for the reader.
+Application safeguards around the grounded answer. They check inputs and evidence and attach visible notes for the
+reader. The model's answer is changed in one narrow way only (present_answer): references to documents the user
+"provided", and requests that the user supply documents, are corrected, because the assistant searches its own MSU
+documents; the original text is kept in AssistantResult.raw_answer.
 
 - clean_question   bounded, control-character-free question text
 - screen_evidence  drops a retrieved passage that contains instruction-like text aimed at the model (prompt
@@ -79,7 +81,11 @@ def review_answer(question: str, answer: str, n_evidence: int, public_profile: b
     bad = [n for n in cited if n < 1 or n > n_evidence]
     if bad:
         notes.append({"kind": "citation", "text": NOTE_BAD_CITATION.format(nums=", ".join(map(str, bad)))})
-    cited_sources = [sources[n - 1] for n in cited if sources and 1 <= n <= len(sources)]
+    sources = sources or []
+    cited_sources = [sources[n - 1] for n in cited if 1 <= n <= len(sources)]
+    if not cited:   # attributed by document name instead of evidence number: use the names it mentions
+        cited_sources = [s for s in sources if (s == ADVERT_SOURCE and ADVERT.search(text)) or
+                         ("Yearbook" in (s or "") and re.search(r"\byearbook", text, re.I))]
     if intake and ADVERT_SOURCE in cited_sources and any("Yearbook" in (s or "") for s in cited_sources):
         notes.append({"kind": "sources", "text": NOTE_MIXED_SOURCES})
     if ADMISSIONS.search(question or "") or ADMISSIONS.search(text):
@@ -87,3 +93,55 @@ def review_answer(question: str, answer: str, n_evidence: int, public_profile: b
     if public_profile and ADVERT.search(text):
         notes.append({"kind": "advert", "text": NOTE_ADVERT})
     return notes
+
+
+# ------------------------------------------------------------------ wording on misses
+_USER_PROVIDED = re.compile(
+    r"\b(?:the|these|those)\s+(?:MSU\s+)?(?:documents?|evidence|passages?|excerpts?|sources?|information|materials?|"
+    r"yearbook(?:\s+(?:excerpts?|passages?))?)\s+(?:that\s+)?you(?:\s+have|'ve|’ve)?\s+(?:provided|supplied|gave|given|"
+    r"shared|sent|uploaded)\b"
+    r"|\b(?:the\s+)?(?:supplied|provided)\s+(?:MSU\s+)?(?:documents?|evidence(?:\s+passages?)?|passages?|excerpts?|"
+    r"yearbook\s+(?:excerpts?|passages?)|sources?)\b"
+    # "the documents provided do not ..." (but not "the information provided in Evidence 1")
+    r"|\bthe\s+(?:MSU\s+)?(?:documents?|evidence|passages?|excerpts?|sources?|materials?)\s+(?:provided|supplied)\b"
+    r"(?!\s+(?:in|by|for|on|under|with|at|from)\b)", re.I)
+_ASK_TO_PROVIDE = re.compile(
+    r"\b(?:if\s+you\s+(?:can\s+|could\s+)?(?:provide|supply|share|upload|send)|"
+    r"(?:please|kindly)\s+(?:provide|supply|share|upload|send)|you\s+(?:may|might|could)\s+(?:provide|supply|share|upload))"
+    r"\b", re.I)
+_ABBREVIATIONS = re.compile(r"\b(?:e\.g|i\.e|etc|cf|vs|No|p|pp|Vol)\.", re.I)
+_SENTENCE_SPLIT = re.compile(r"(?<=[.?!])\s+(?=[A-Z“\"(])")
+SEARCHED = "the MSU documents I searched"
+TIP_SOURCES = {"intake": "the MSU yearbooks, the 2027 academic road map and the January/February 2027 intake advert",
+               "public": "the MSU yearbooks and the 2027 academic road map",
+               "baseline": "the MSU yearbooks"}
+NOTE_MISS_TIP = ("I searched {sources}. If you expected an answer, try naming the programme and what you need, for "
+                 "example: “BSc Honours in Computer Science 2027 entry requirements”.")
+
+
+def present_answer(answer: str) -> str:
+    """Correct 'documents you provided' wording and drop sentences asking the user to supply documents."""
+    original = answer or ""
+
+    def searched(m: "re.Match") -> str:
+        plural = re.search(r"(?:documents|passages|excerpts|sources|materials)\b", m.group(0), re.I)
+        phrase = SEARCHED if plural else "the MSU evidence I searched"
+        sentence_start = not original[:m.start()].strip() or re.search(r"(?:[.?!]|\n)\s*$", original[:m.start()])
+        return phrase[0].upper() + phrase[1:] if sentence_start else phrase
+    text = _USER_PROVIDED.sub(searched, original)
+
+    lines = []
+    for line in text.split("\n"):
+        protected = _ABBREVIATIONS.sub(lambda m: m.group(0).replace(".", "․"), line)   # one-dot leader
+        kept = [s for s in _SENTENCE_SPLIT.split(protected) if not _ASK_TO_PROVIDE.search(s)]
+        if kept or not line.strip():
+            lines.append(" ".join(kept).replace("․", "."))
+    text = re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip()
+    return text or original
+
+
+def miss_tip(answer: str, kind: str) -> List[Dict[str, str]]:
+    """A rephrasing tip when the answer says the information was not found."""
+    if DECLINE.search(answer or "") and not cited_numbers(answer):
+        return [{"kind": "tip", "text": NOTE_MISS_TIP.format(sources=TIP_SOURCES.get(kind, TIP_SOURCES["public"]))}]
+    return []

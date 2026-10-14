@@ -16,6 +16,7 @@ version as the local-demonstration actor "msu-assistant-local-demo" (kb_approver
 src/c3_candidate.py is a byte-for-byte copy of the frozen remediation/candidate.py (checked by tests).
 """
 import os
+import re
 from pathlib import Path
 from typing import Any, Dict, List, Mapping, Optional
 
@@ -105,8 +106,62 @@ def open_intake_retriever(models: Any, kb_root: Path = ROOT / "knowledge_base") 
     return _share_models(retriever, models, EXPECTED_STAGING)
 
 
+ADMISSION_WORDS = re.compile(r"\b(?:entry|requirements?|admissions?|admit|apply|applying|applications?|eligib\w*|"
+                             r"qualif\w*|intake|[oa][\s'’-]?levels?)\b", re.I)
+PROGRAMME_FACT_WORDS = re.compile(r"\b(?:duration|how long|modes?|offered|study options?|visiting|weekend|"
+                                  r"block release|conventional|start|starts|begin|begins|commenc\w*)\b", re.I)
+PROGRAMME_WORDS = re.compile(r"\b(?:degree|bachelor\w*|master\w*|diploma|certificate|programmes?|course|honours|"
+                             r"bsc|ba|bcom|bed|beng|msc|ma|mba|med|mcom|phd)\b", re.I)
+
+
+def is_intake_question(question: str) -> bool:
+    """Admissions vocabulary, or a programme fact (duration, mode, start) asked about a named programme."""
+    return bool(ADMISSION_WORDS.search(question) or
+                (PROGRAMME_FACT_WORDS.search(question) and PROGRAMME_WORDS.search(question)))
+SUPPLEMENT_MAX = 2            # advert records added when none was retrieved
+SUPPLEMENT_MIN_SCORE = 1.0    # MiniLM rerank score a supplemented advert record must reach (relevance floor)
+
+
+class IntakeAwareRetriever:
+    """Wraps the 0006 StagingRetriever. For an admissions/intake question whose top 5 contains NO advert passage, it
+    searches the advert records only (vector + BM25, then the same MiniLM reranker) and replaces the lowest-ranked
+    passages with up to SUPPLEMENT_MAX relevant advert records, so the current 2027 requirements reach the model.
+    Questions whose top 5 already contains an advert passage are unchanged (evaluated behaviour)."""
+
+    def __init__(self, base: Any):
+        self.base = base
+        self._advert_ids = [r["chunk_id"] for r in base.store.records if r["source"] == ADVERT_SOURCE]
+
+    def __getattr__(self, name):          # store, version, _rerank, ... come from the wrapped retriever
+        return getattr(self.base, name)
+
+    def retrieve(self, question: str) -> List[Dict[str, Any]]:
+        evidence = self.base.retrieve(question)
+        if not self._advert_ids or not is_intake_question(question) or \
+                any(e["source"] in (ADVERT_SOURCE, ROADMAP_SOURCE) for e in evidence):
+            return evidence                # advert already present, or a calendar question: unchanged
+        try:
+            pool = {}
+            for r in self.base.store.vector_search(question, 10, chunk_ids=self._advert_ids) + \
+                    self.base.store.bm25_search(question, 10, chunk_ids=self._advert_ids):
+                pool.setdefault(r["chunk_id"], r)
+            ranked = [r for r in self.base._rerank(question, list(pool.values()))
+                      if (r.get("rerank_score") or 0) >= SUPPLEMENT_MIN_SCORE][:SUPPLEMENT_MAX]
+        except Exception:
+            return evidence                # the supplement is best-effort; never break retrieval
+        if not ranked:
+            return evidence
+        from src.evidence import to_evidence
+        extra = [{**to_evidence({**r, "route": "advert_supplement"}, self.base.configuration),
+                  "passage_uid": r["passage_uid"]} for r in ranked]
+        merged = evidence[:max(0, len(evidence) - len(extra))] + extra
+        return [{**e, "rank": i} for i, e in enumerate(merged, 1)]
+
+
 def open_profile_retriever(profile: str, models: Any) -> Any:
-    return open_intake_retriever(models) if profile == INTAKE else open_public_retriever(models)
+    if profile == INTAKE:
+        return IntakeAwareRetriever(open_intake_retriever(models))
+    return open_public_retriever(models)
 
 
 def build_c3_messages(question: str, evidence: List[Dict[str, Any]]) -> List[Message]:

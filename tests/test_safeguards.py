@@ -70,6 +70,10 @@ class UnitTests(unittest.TestCase):
         only_advert = review_answer("How long is BCom Business Management?", "4 years [Evidence 1].", 1,
                                     public_profile=False, intake=True, sources=mixed[:1])
         self.assertEqual(only_advert, [])          # no mixed-sources note, no advert caution on the intake profile
+        by_name = review_answer("Entry requirements for the MSc Community Psychology?",
+                                "2027 Intake Advert (current): 2.2. MSU Humanities Yearbook (older): 2.1.", 2,
+                                public_profile=False, intake=True, sources=mixed)
+        self.assertIn(NOTE_MIXED_SOURCES, [n["text"] for n in by_name])   # attributed by name, not number
         advert_cited_only = review_answer("When does Exploration Geophysics start?", "August 2027 [Evidence 1].", 2,
                                           public_profile=False, intake=True, sources=mixed)
         self.assertEqual(advert_cited_only, [])    # yearbook passage retrieved but not cited: no mixed-sources note
