@@ -1,0 +1,1268 @@
+{
+ "stage": "3.4",
+ "checks": {
+  "pre-state: both validated, CURRENT 0001, no STAGING, no embeddings": {
+   "ok": true,
+   "detail": null
+  },
+  "roadmap-2027: revalidated with 0 errors, 0 warnings": {
+   "ok": true,
+   "detail": []
+  },
+  "intake-2027-jan-feb: revalidated with 0 errors, 0 warnings": {
+   "ok": true,
+   "detail": []
+  },
+  "passages unchanged by the metadata correction (same units SHA-256)": {
+   "ok": true,
+   "detail": null
+  },
+  "current metadata no longer says 'not verified', 'not obtained' or 'not a formal approval'": {
+   "ok": true,
+   "detail": null
+  },
+  "road map: DRAFT filename, 2 corrections with original-source text, 21 events": {
+   "ok": true,
+   "detail": null
+  },
+  "247 passages embedded (21 + 226), nothing re-embedded": {
+   "ok": true,
+   "detail": null
+  },
+  "statuses: road map published, intake staged (not approved), base published": {
+   "ok": true,
+   "detail": {
+    "yearbook-humanities": "published",
+    "yearbook-sciences-v2": "published",
+    "roadmap-2027": "published",
+    "intake-2027-jan-feb": "staged"
+   }
+  },
+  "intake has no knowledge-base approval": {
+   "ok": true,
+   "detail": null
+  },
+  "public version: 10,753 passages (base + 21 road map events)": {
+   "ok": true,
+   "detail": null
+  },
+  "staging version: 10,979 passages (base + road map + intake)": {
+   "ok": true,
+   "detail": null
+  },
+  "public: base lines byte-identical to faiss_store_v2 (CRLF) and base fingerprints 545d/7ce5/4a4a": {
+   "ok": true,
+   "detail": null
+  },
+  "staging: base lines byte-identical to faiss_store_v2 (CRLF) and base fingerprints 545d/7ce5/4a4a": {
+   "ok": true,
+   "detail": null
+  },
+  "faiss_store_v2 unchanged": {
+   "ok": true,
+   "detail": null
+  },
+  "CURRENT points to the new public version": {
+   "ok": true,
+   "detail": null
+  },
+  "public: no intake rows, no intake passage in a full-corpus vector search": {
+   "ok": true,
+   "detail": null
+  },
+  "public BM25: intake-only terms score nothing; staging finds them": {
+   "ok": true,
+   "detail": null
+  },
+  "public and staging BM25 statistics differ (separate corpora)": {
+   "ok": true,
+   "detail": null
+  },
+  "course-code maps: identical to v2 in both (no new codes)": {
+   "ok": true,
+   "detail": null
+  },
+  "staging retriever refuses a non-administrator": {
+   "ok": true,
+   "detail": null
+  },
+  "no public result for any query contains an intake passage": {
+   "ok": true,
+   "detail": null
+  },
+  "road map samples found in public and staging top 5": {
+   "ok": true,
+   "detail": [
+    [
+     "S1",
+     null
+    ],
+    [
+     "S2",
+     null
+    ],
+    [
+     "S3",
+     null
+    ],
+    [
+     "S4",
+     null
+    ],
+    [
+     "S5",
+     null
+    ],
+    [
+     "S6",
+     null
+    ],
+    [
+     "S7",
+     null
+    ],
+    [
+     "S8",
+     null
+    ],
+    [
+     "S9",
+     null
+    ]
+   ]
+  },
+  "kb.verify(): ok, no warnings, no override": {
+   "ok": true,
+   "detail": {
+    "ok": true,
+    "problems": [],
+    "warnings": [],
+    "versions": {
+     "public": {
+      "version": "0005",
+      "passages": 10753,
+      "documents": [
+       [
+        "yearbook-humanities",
+        1,
+        "published"
+       ],
+       [
+        "yearbook-sciences-v2",
+        1,
+        "published"
+       ],
+       [
+        "roadmap-2027",
+        1,
+        "published"
+       ]
+      ]
+     },
+     "staging": {
+      "version": "0006",
+      "passages": 10979,
+      "documents": [
+       [
+        "yearbook-humanities",
+        1,
+        "published"
+       ],
+       [
+        "yearbook-sciences-v2",
+        1,
+        "published"
+       ],
+       [
+        "roadmap-2027",
+        1,
+        "published"
+       ],
+       [
+        "intake-2027-jan-feb",
+        1,
+        "staged"
+       ]
+      ]
+     }
+    },
+    "active_override": null
+   }
+  },
+  "publishing again is a no-op (no new version)": {
+   "ok": true,
+   "detail": null
+  },
+  "journal: no open operations": {
+   "ok": true,
+   "detail": null
+  },
+  "embedding cache: 247 vectors for the pinned model revision": {
+   "ok": true,
+   "detail": {
+    "dir": "knowledge_base\\embeddings\\fe498636342e5cb6",
+    "meta": {
+     "model": "BAAI/bge-small-en-v1.5",
+     "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+     "recipe": "heading_store.index_text"
+    }
+   }
+  },
+  "rollback test (copy): 0001 suspends the road map, publish does not resurrect it, forward restores it": {
+   "ok": true,
+   "detail": null
+  },
+  "real knowledge base untouched by the rollback test": {
+   "ok": true,
+   "detail": null
+  }
+ },
+ "failures": [],
+ "timings_s": {
+  "stage_roadmap_embed21_build": 17.1,
+  "stage_intake_embed226_build": 67.96,
+  "approve_roadmap_rebuild_staging": 11.89,
+  "publish_public_and_refresh_staging": 19.88,
+  "load_verify_public": 4.05,
+  "load_verify_staging": 4.22,
+  "retrieval_ms": {
+   "v2": {
+    "median": 360,
+    "max": 1010
+   },
+   "public": {
+    "median": 375,
+    "max": 860
+   },
+   "staging": {
+    "median": 365,
+    "max": 930
+   }
+  },
+  "kb_verify": 7.98,
+  "rollback_to_0001": 12.83,
+  "rollback_forward": 12.42
+ },
+ "memory": {
+  "start": {
+   "rss_mb": 460,
+   "peak_mb": 460
+  },
+  "before_embedding": {
+   "rss_mb": 477,
+   "peak_mb": 478
+  },
+  "after_staging": {
+   "rss_mb": 677,
+   "peak_mb": 931
+  },
+  "after_publish": {
+   "rss_mb": 562,
+   "peak_mb": 931
+  },
+  "after_retrievers": {
+   "rss_mb": 1239,
+   "peak_mb": 1288
+  },
+  "end": {
+   "rss_mb": 1322,
+   "peak_mb": 1449
+  }
+ },
+ "metadata": {
+  "roadmap": {
+   "no_op": false,
+   "doc_id": "roadmap-2027",
+   "doc_version": 1,
+   "status": "uploaded",
+   "changed": [
+    "correction_history",
+    "notes",
+    "prior_approval"
+   ]
+  },
+  "intake": {
+   "no_op": false,
+   "doc_id": "intake-2027-jan-feb",
+   "doc_version": 1,
+   "status": "uploaded",
+   "changed": [
+    "notes",
+    "prior_approval"
+   ]
+  }
+ },
+ "staging_results": {
+  "roadmap": {
+   "no_op": false,
+   "version": "0002",
+   "embedded_now": 21,
+   "near_duplicates": 23
+  },
+  "intake": {
+   "no_op": false,
+   "version": "0003",
+   "embedded_now": 226,
+   "near_duplicates": 47
+  }
+ },
+ "near_duplicates_semantic": {
+  "roadmap-2027": {
+   "count": 23,
+   "within_document": 23,
+   "vs_public_store": 0,
+   "top": [
+    {
+     "a": "RM2027-15",
+     "b": "RM2027-16",
+     "cosine": 0.999,
+     "where": "within document"
+    },
+    {
+     "a": "RM2027-14",
+     "b": "RM2027-18",
+     "cosine": 0.9887,
+     "where": "within document"
+    },
+    {
+     "a": "RM2027-01",
+     "b": "RM2027-03",
+     "cosine": 0.9878,
+     "where": "within document"
+    },
+    {
+     "a": "RM2027-04",
+     "b": "RM2027-06",
+     "cosine": 0.9873,
+     "where": "within document"
+    },
+    {
+     "a": "RM2027-06",
+     "b": "RM2027-12",
+     "cosine": 0.9866,
+     "where": "within document"
+    },
+    {
+     "a": "RM2027-15",
+     "b": "RM2027-19",
+     "cosine": 0.9866,
+     "where": "within document"
+    },
+    {
+     "a": "RM2027-02",
+     "b": "RM2027-08",
+     "cosine": 0.9863,
+     "where": "within document"
+    },
+    {
+     "a": "RM2027-16",
+     "b": "RM2027-19",
+     "cosine": 0.9863,
+     "where": "within document"
+    },
+    {
+     "a": "RM2027-17",
+     "b": "RM2027-21",
+     "cosine": 0.9849,
+     "where": "within document"
+    },
+    {
+     "a": "RM2027-20",
+     "b": "RM2027-21",
+     "cosine": 0.9843,
+     "where": "within document"
+    },
+    {
+     "a": "RM2027-06",
+     "b": "RM2027-10",
+     "cosine": 0.9834,
+     "where": "within document"
+    },
+    {
+     "a": "RM2027-07",
+     "b": "RM2027-13",
+     "cosine": 0.9815,
+     "where": "within document"
+    },
+    {
+     "a": "RM2027-03",
+     "b": "RM2027-09",
+     "cosine": 0.9811,
+     "where": "within document"
+    },
+    {
+     "a": "RM2027-10",
+     "b": "RM2027-12",
+     "cosine": 0.98,
+     "where": "within document"
+    },
+    {
+     "a": "RM2027-05",
+     "b": "RM2027-11",
+     "cosine": 0.977,
+     "where": "within document"
+    }
+   ]
+  },
+  "intake-2027-jan-feb": {
+   "count": 47,
+   "within_document": 47,
+   "vs_public_store": 0,
+   "top": [
+    {
+     "a": "MSU-JF2027-130",
+     "b": "MSU-JF2027-131",
+     "cosine": 0.9982,
+     "where": "within document"
+    },
+    {
+     "a": "MSU-JF2027-127",
+     "b": "MSU-JF2027-128",
+     "cosine": 0.998,
+     "where": "within document"
+    },
+    {
+     "a": "MSU-JF2027-144",
+     "b": "MSU-JF2027-145",
+     "cosine": 0.9979,
+     "where": "within document"
+    },
+    {
+     "a": "MSU-JF2027-141",
+     "b": "MSU-JF2027-142",
+     "cosine": 0.9975,
+     "where": "within document"
+    },
+    {
+     "a": "MSU-JF2027-140",
+     "b": "MSU-JF2027-142",
+     "cosine": 0.9939,
+     "where": "within document"
+    },
+    {
+     "a": "MSU-JF2027-134",
+     "b": "MSU-JF2027-135",
+     "cosine": 0.9934,
+     "where": "within document"
+    },
+    {
+     "a": "MSU-JF2027-140",
+     "b": "MSU-JF2027-141",
+     "cosine": 0.9932,
+     "where": "within document"
+    },
+    {
+     "a": "MSU-JF2027-143",
+     "b": "MSU-JF2027-144",
+     "cosine": 0.9931,
+     "where": "within document"
+    },
+    {
+     "a": "MSU-JF2027-138",
+     "b": "MSU-JF2027-139",
+     "cosine": 0.9921,
+     "where": "within document"
+    },
+    {
+     "a": "MSU-JF2027-143",
+     "b": "MSU-JF2027-145",
+     "cosine": 0.9919,
+     "where": "within document"
+    },
+    {
+     "a": "MSU-JF2027-126",
+     "b": "MSU-JF2027-128",
+     "cosine": 0.9918,
+     "where": "within document"
+    },
+    {
+     "a": "MSU-JF2027-126",
+     "b": "MSU-JF2027-127",
+     "cosine": 0.9913,
+     "where": "within document"
+    },
+    {
+     "a": "MSU-JF2027-129",
+     "b": "MSU-JF2027-131",
+     "cosine": 0.9907,
+     "where": "within document"
+    },
+    {
+     "a": "MSU-JF2027-129",
+     "b": "MSU-JF2027-130",
+     "cosine": 0.9906,
+     "where": "within document"
+    },
+    {
+     "a": "MSU-JF2027-132",
+     "b": "MSU-JF2027-133",
+     "cosine": 0.9905,
+     "where": "within document"
+    }
+   ]
+  }
+ },
+ "publish": {
+  "no_op": false,
+  "version": "0005",
+  "staging": {
+   "no_op": false,
+   "version": "0006"
+  },
+  "archived": [
+   "0002",
+   "0003",
+   "0004"
+  ]
+ },
+ "versions": {
+  "public": {
+   "version": "0005",
+   "passages": 10753,
+   "documents": [
+    [
+     "yearbook-humanities",
+     [
+      0,
+      5613
+     ],
+     "published"
+    ],
+    [
+     "yearbook-sciences-v2",
+     [
+      5614,
+      10731
+     ],
+     "published"
+    ],
+    [
+     "roadmap-2027",
+     [
+      10732,
+      10752
+     ],
+     "published"
+    ]
+   ],
+   "files_sha256": {
+    "chunks.jsonl": "7a9658d062e84663524f05ca6925b5b4f7e6cbe9d2773a8296d9e02c7891721c",
+    "index.faiss": "f459ca77e84eac50b7d4d9cf0fc2f6949e5bcf2877f031ba206f2f870640da06",
+    "manifest.json": "25956ff5099f876a23b1f5d7c1d5daefc977ee3625a0345502698b2f71a1c82c",
+    "passages.jsonl": "909cfcb49f97a9473a50979f97b1ad16b2bf77827aaa5d7f42cfb093fa1aec6a",
+    "registry_snapshot.json": "b6bcb5762deb70cfb55039f60b0aa459527a598ed81f3ecdf6901d80e533a30d"
+   },
+   "bm25_corpus_fingerprint": "sha256:24a62037d06c38c57845466fdf78b4da3fab2f17dcaac6d3038cad641b79fe46"
+  },
+  "staging": {
+   "version": "0006",
+   "passages": 10979,
+   "documents": [
+    [
+     "yearbook-humanities",
+     [
+      0,
+      5613
+     ],
+     "published"
+    ],
+    [
+     "yearbook-sciences-v2",
+     [
+      5614,
+      10731
+     ],
+     "published"
+    ],
+    [
+     "roadmap-2027",
+     [
+      10732,
+      10752
+     ],
+     "published"
+    ],
+    [
+     "intake-2027-jan-feb",
+     [
+      10753,
+      10978
+     ],
+     "staged"
+    ]
+   ],
+   "files_sha256": {
+    "chunks.jsonl": "ea08e9ef5c26bbf6e2a94fca4bad5969aa24b5d90e7e478f94cd9bc54041948a",
+    "index.faiss": "f1508177f44fac22eddf38aaff9f1a121be99a0e1704a6853aa4243769f6ef5b",
+    "manifest.json": "04169e83fa22291406ae3371d6225348f66519b0e90eb7517c463593d1c9aca6",
+    "passages.jsonl": "174c3303171dc59c5a3ad5c741556207d1d88cb21c5cd4e5fcd493475a52b84f",
+    "registry_snapshot.json": "04de197c0a584544b621eae992c131c6bbb16cb6363c9571a29abedf81915224"
+   },
+   "bm25_corpus_fingerprint": "sha256:576136e3e2e34f4730d2eb26469aedbeeb0324a7f49d0fce5737da79c23417de"
+  },
+  "all": [
+   "0001",
+   "0005",
+   "0006"
+  ]
+ },
+ "regression": [
+  {
+   "id": "N1",
+   "category": "natural_language",
+   "route": "vector",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "N2",
+   "category": "natural_language",
+   "route": "vector",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "N3",
+   "category": "natural_language",
+   "route": "vector",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "N4",
+   "category": "natural_language",
+   "route": "vector",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "N5",
+   "category": "natural_language",
+   "route": "vector",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "N6",
+   "category": "natural_language",
+   "route": "vector",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "N7",
+   "category": "natural_language",
+   "route": "vector",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "N8",
+   "category": "natural_language",
+   "route": "vector",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "N9",
+   "category": "natural_language",
+   "route": "vector",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "N10",
+   "category": "natural_language",
+   "route": "vector",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "E1",
+   "category": "exact_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "E2",
+   "category": "exact_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "E3",
+   "category": "exact_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "E4",
+   "category": "exact_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "E5",
+   "category": "exact_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "E6",
+   "category": "exact_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "E7",
+   "category": "exact_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "E8",
+   "category": "exact_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "E9",
+   "category": "exact_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "E10",
+   "category": "exact_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "C1",
+   "category": "code_in_context",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "C2",
+   "category": "code_in_context",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "C3",
+   "category": "code_in_context",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "C4",
+   "category": "code_in_context",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "C5",
+   "category": "code_in_context",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "C6",
+   "category": "code_in_context",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "C7",
+   "category": "code_in_context",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "C8",
+   "category": "code_in_context",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "C9",
+   "category": "code_in_context",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "C10",
+   "category": "code_in_context",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "O1",
+   "category": "out_of_scope",
+   "route": "vector",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "O2",
+   "category": "out_of_scope",
+   "route": "vector",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "O3",
+   "category": "out_of_scope",
+   "route": "vector",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "O4",
+   "category": "out_of_scope",
+   "route": "vector",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": false,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": [
+    "intake-2027-jan-feb/v1/MSU-JF2027-INFO-01"
+   ]
+  },
+  {
+   "id": "O5",
+   "category": "out_of_scope",
+   "route": "vector",
+   "public_identical_to_v2": false,
+   "staging_identical_to_v2": false,
+   "public_new_doc_hits": [
+    "roadmap-2027/v1/RM2027-02"
+   ],
+   "staging_new_doc_hits": [
+    "roadmap-2027/v1/RM2027-02"
+   ]
+  },
+  {
+   "id": "A1",
+   "category": "ambiguous_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "A2",
+   "category": "ambiguous_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "A3",
+   "category": "ambiguous_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "A4",
+   "category": "ambiguous_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  },
+  {
+   "id": "A5",
+   "category": "ambiguous_code",
+   "route": "code_hybrid",
+   "public_identical_to_v2": true,
+   "staging_identical_to_v2": true,
+   "public_new_doc_hits": [],
+   "staging_new_doc_hits": []
+  }
+ ],
+ "regression_summary": {
+  "queries": 40,
+  "public_identical_to_v2": 39,
+  "staging_identical_to_v2": 38,
+  "public_queries_with_road_map_hits": [
+   "O5"
+  ],
+  "staging_queries_with_new_doc_hits": [
+   "O4",
+   "O5"
+  ]
+ },
+ "samples": [
+  {
+   "id": "S1",
+   "question": "What is the application fee for the January/February 2027 intake?",
+   "expected": [
+    "intake-2027-jan-feb/v1/MSU-JF2027-INFO-02"
+   ],
+   "staging_top5": [
+    "intake-2027-jan-feb/v1/MSU-JF2027-INFO-02",
+    "intake-2027-jan-feb/v1/MSU-JF2027-INFO-03",
+    "intake-2027-jan-feb/v1/MSU-JF2027-INFO-01",
+    "intake-2027-jan-feb/v1/MSU-JF2027-092",
+    "intake-2027-jan-feb/v1/MSU-JF2027-109"
+   ],
+   "public_top5": [
+    "roadmap-2027/v1/RM2027-04",
+    "roadmap-2027/v1/RM2027-15",
+    "roadmap-2027/v1/RM2027-14",
+    "roadmap-2027/v1/RM2027-06",
+    "roadmap-2027/v1/RM2027-12"
+   ],
+   "staging_found": true,
+   "staging_rank": 1,
+   "public_found": false,
+   "public_has_intake": false
+  },
+  {
+   "id": "S2",
+   "question": "When does the Bachelor of Education Honours Degree in Science and Applied Technologies start?",
+   "expected": [
+    "intake-2027-jan-feb/v1/MSU-JF2027-107"
+   ],
+   "staging_top5": [
+    "intake-2027-jan-feb/v1/MSU-JF2027-107",
+    "intake-2027-jan-feb/v1/MSU-JF2027-113",
+    "intake-2027-jan-feb/v1/MSU-JF2027-117",
+    "yearbook-humanities/v1/c03105",
+    "intake-2027-jan-feb/v1/MSU-JF2027-114"
+   ],
+   "public_top5": [
+    "yearbook-humanities/v1/c03105",
+    "yearbook-humanities/v1/c03056",
+    "yearbook-humanities/v1/c03335",
+    "yearbook-humanities/v1/c03051",
+    "yearbook-humanities/v1/c03083"
+   ],
+   "staging_found": true,
+   "staging_rank": 1,
+   "public_found": false,
+   "public_has_intake": false
+  },
+  {
+   "id": "S3",
+   "question": "What are the entry requirements for Mining Engineering?",
+   "expected": [
+    "intake-2027-jan-feb/v1/MSU-JF2027-132",
+    "intake-2027-jan-feb/v1/MSU-JF2027-133"
+   ],
+   "staging_top5": [
+    "yearbook-sciences-v2/v1/c08597",
+    "yearbook-sciences-v2/v1/c08598",
+    "intake-2027-jan-feb/v1/MSU-JF2027-133",
+    "intake-2027-jan-feb/v1/MSU-JF2027-132",
+    "yearbook-sciences-v2/v1/c08548"
+   ],
+   "public_top5": [
+    "yearbook-sciences-v2/v1/c08597",
+    "yearbook-sciences-v2/v1/c08598",
+    "yearbook-sciences-v2/v1/c08602",
+    "yearbook-sciences-v2/v1/c08548",
+    "yearbook-sciences-v2/v1/c08601"
+   ],
+   "staging_found": true,
+   "staging_rank": 4,
+   "public_found": false,
+   "public_has_intake": false
+  },
+  {
+   "id": "S4",
+   "question": "Which bank accounts can I use to pay the MSU application fee?",
+   "expected": [
+    "intake-2027-jan-feb/v1/MSU-JF2027-INFO-03"
+   ],
+   "staging_top5": [
+    "intake-2027-jan-feb/v1/MSU-JF2027-INFO-03",
+    "intake-2027-jan-feb/v1/MSU-JF2027-INFO-02",
+    "intake-2027-jan-feb/v1/MSU-JF2027-INFO-01",
+    "yearbook-humanities/v1/c00597",
+    "intake-2027-jan-feb/v1/MSU-JF2027-079"
+   ],
+   "public_top5": [
+    "yearbook-sciences-v2/v1/c10724",
+    "yearbook-humanities/v1/c00597",
+    "yearbook-sciences-v2/v1/c05781",
+    "yearbook-humanities/v1/c00533",
+    "yearbook-sciences-v2/v1/c07212"
+   ],
+   "staging_found": true,
+   "staging_rank": 1,
+   "public_found": false,
+   "public_has_intake": false
+  },
+  {
+   "id": "S5",
+   "question": "How can I contact MSU admissions?",
+   "expected": [
+    "intake-2027-jan-feb/v1/MSU-JF2027-INFO-04"
+   ],
+   "staging_top5": [
+    "intake-2027-jan-feb/v1/MSU-JF2027-INFO-04",
+    "intake-2027-jan-feb/v1/MSU-JF2027-INFO-01",
+    "yearbook-humanities/v1/c00597",
+    "yearbook-humanities/v1/c05613",
+    "yearbook-sciences-v2/v1/c05781"
+   ],
+   "public_top5": [
+    "yearbook-humanities/v1/c00597",
+    "yearbook-humanities/v1/c05613",
+    "yearbook-sciences-v2/v1/c05781",
+    "yearbook-sciences-v2/v1/c10731",
+    "yearbook-humanities/v1/c00528"
+   ],
+   "staging_found": true,
+   "staging_rank": 1,
+   "public_found": false,
+   "public_has_intake": false
+  },
+  {
+   "id": "S6",
+   "question": "When are the second semester examinations in 2027?",
+   "expected": [
+    "roadmap-2027/v1/RM2027-13"
+   ],
+   "staging_top5": [
+    "roadmap-2027/v1/RM2027-21",
+    "roadmap-2027/v1/RM2027-13",
+    "roadmap-2027/v1/RM2027-06",
+    "roadmap-2027/v1/RM2027-07",
+    "roadmap-2027/v1/RM2027-20"
+   ],
+   "public_top5": [
+    "roadmap-2027/v1/RM2027-21",
+    "roadmap-2027/v1/RM2027-13",
+    "roadmap-2027/v1/RM2027-06",
+    "roadmap-2027/v1/RM2027-07",
+    "roadmap-2027/v1/RM2027-20"
+   ],
+   "staging_found": true,
+   "staging_rank": 2,
+   "public_found": true,
+   "public_has_intake": false
+  },
+  {
+   "id": "S7",
+   "question": "When is the second semester break in 2027?",
+   "expected": [
+    "roadmap-2027/v1/RM2027-11"
+   ],
+   "staging_top5": [
+    "roadmap-2027/v1/RM2027-11",
+    "roadmap-2027/v1/RM2027-10",
+    "roadmap-2027/v1/RM2027-12",
+    "roadmap-2027/v1/RM2027-06",
+    "roadmap-2027/v1/RM2027-05"
+   ],
+   "public_top5": [
+    "roadmap-2027/v1/RM2027-11",
+    "roadmap-2027/v1/RM2027-10",
+    "roadmap-2027/v1/RM2027-12",
+    "roadmap-2027/v1/RM2027-06",
+    "roadmap-2027/v1/RM2027-05"
+   ],
+   "staging_found": true,
+   "staging_rank": 1,
+   "public_found": true,
+   "public_has_intake": false
+  },
+  {
+   "id": "S8",
+   "question": "When does registration start for the first semester of 2027?",
+   "expected": [
+    "roadmap-2027/v1/RM2027-01"
+   ],
+   "staging_top5": [
+    "roadmap-2027/v1/RM2027-01",
+    "roadmap-2027/v1/RM2027-02",
+    "roadmap-2027/v1/RM2027-03",
+    "roadmap-2027/v1/RM2027-04",
+    "roadmap-2027/v1/RM2027-07"
+   ],
+   "public_top5": [
+    "roadmap-2027/v1/RM2027-01",
+    "roadmap-2027/v1/RM2027-02",
+    "roadmap-2027/v1/RM2027-03",
+    "roadmap-2027/v1/RM2027-04",
+    "roadmap-2027/v1/RM2027-07"
+   ],
+   "staging_found": true,
+   "staging_rank": 1,
+   "public_found": true,
+   "public_has_intake": false
+  },
+  {
+   "id": "S9",
+   "question": "When do Faculty of Education block release students write first semester examinations?",
+   "expected": [
+    "roadmap-2027/v1/RM2027-17"
+   ],
+   "staging_top5": [
+    "roadmap-2027/v1/RM2027-17",
+    "roadmap-2027/v1/RM2027-16",
+    "roadmap-2027/v1/RM2027-15",
+    "roadmap-2027/v1/RM2027-14",
+    "roadmap-2027/v1/RM2027-21"
+   ],
+   "public_top5": [
+    "roadmap-2027/v1/RM2027-17",
+    "roadmap-2027/v1/RM2027-16",
+    "roadmap-2027/v1/RM2027-15",
+    "roadmap-2027/v1/RM2027-14",
+    "roadmap-2027/v1/RM2027-21"
+   ],
+   "staging_found": true,
+   "staging_rank": 1,
+   "public_found": true,
+   "public_has_intake": false
+  }
+ ],
+ "sample_summary": {
+  "staging_found": 9,
+  "of": 9
+ },
+ "rollback_test": {
+  "on": "temporary copy of knowledge_base/",
+  "rollback": {
+   "no_op": false,
+   "version": "0001",
+   "previous": "0005",
+   "emergency": false,
+   "status_changes": [
+    [
+     "roadmap-2027",
+     1,
+     "published",
+     "suspended"
+    ]
+   ],
+   "staging": {
+    "no_op": false,
+    "version": "0007"
+   }
+  },
+  "statuses_after": {
+   "yearbook-humanities": "published",
+   "yearbook-sciences-v2": "published",
+   "roadmap-2027": "suspended",
+   "intake-2027-jan-feb": "staged"
+  },
+  "publish_after_rollback_kept_roadmap_out": true,
+  "forward": {
+   "no_op": false,
+   "version": "0005",
+   "previous": "0001",
+   "emergency": false,
+   "status_changes": [
+    [
+     "roadmap-2027",
+     1,
+     "suspended",
+     "published"
+    ]
+   ],
+   "staging": {
+    "no_op": false,
+    "version": "0008"
+   }
+  }
+ },
+ "knowledge_base_size_mb": 170.1
+}

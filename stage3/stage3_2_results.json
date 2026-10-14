@@ -1,0 +1,1466 @@
+{
+ "stage": "3.2",
+ "memory": {
+  "start": {
+   "rss_mb": 459.8,
+   "peak_mb": 459.8
+  },
+  "after_build": {
+   "rss_mb": 481.0,
+   "peak_mb": 687.3
+  },
+  "after_loads": {
+   "rss_mb": 673.1,
+   "peak_mb": 765.0
+  },
+  "after_retrievers": {
+   "rss_mb": 1123.4,
+   "peak_mb": 1154.8
+  },
+  "end": {
+   "rss_mb": 1192.5,
+   "peak_mb": 1277.5
+  }
+ },
+ "timings_s": {
+  "build_version_0001": 8.658,
+  "load_verify_v0001_full": 3.905,
+  "load_v0001_breakdown": {
+   "read_s": 0.103,
+   "verify_s": 0.168,
+   "bm25_build_s": 1.765
+  },
+  "load_verify_v0001_without_bm25_check": 2.879,
+  "load_verify_frozen_v2_reference": 2.072,
+  "load_v2_retriever_with_models": 0.0,
+  "retrieval_per_query_ms": {
+   "v2": {
+    "median": 336.0,
+    "max": 928.0
+   },
+   "v0001": {
+    "median": 352.0,
+    "max": 1119.0
+   }
+  },
+  "kb_verify": 3.83,
+  "seed_again_no_op": 0.022,
+  "base_material_load_per_future_operation": 2.72
+ },
+ "checks": {
+  "version is 0001 and CURRENT points to it": {
+   "ok": true,
+   "detail": null
+  },
+  "no passage embedding performed": {
+   "ok": true,
+   "detail": null
+  },
+  "chunks.jsonl byte-identical to faiss_store_v2 (incl. CRLF)": {
+   "ok": true,
+   "detail": {
+    "v2": "a58bc3d7ea8478ca2c40d4ec288324c32692b549708f0a8733a4c52282bd136c",
+    "v3": "a58bc3d7ea8478ca2c40d4ec288324c32692b549708f0a8733a4c52282bd136c"
+   }
+  },
+  "every base line ends with CRLF": {
+   "ok": true,
+   "detail": {
+    "crlf": 10732,
+    "lf": 10732
+   }
+  },
+  "index.faiss byte-identical to faiss_store_v2": {
+   "ok": true,
+   "detail": {
+    "v2": "5cbc37d0499c442a764dd20ebee3b239129ff9aa87d7c0f02796694b1289f466",
+    "v3": "5cbc37d0499c442a764dd20ebee3b239129ff9aa87d7c0f02796694b1289f466"
+   }
+  },
+  "faiss_store_v2 unchanged by the build": {
+   "ok": true,
+   "detail": null
+  },
+  "chunk_count: recomputed v0001 == frozen v2 manifest": {
+   "ok": true,
+   "detail": {
+    "v2": 10732,
+    "v0001": 10732
+   }
+  },
+  "corpus_fingerprint: recomputed v0001 == frozen v2 manifest": {
+   "ok": true,
+   "detail": {
+    "v2": "sha256:545d0dabe1fbe022baf9dd5dfaadaaee6637490e9a2f5fef9e04cf1d455e41f5",
+    "v0001": "sha256:545d0dabe1fbe022baf9dd5dfaadaaee6637490e9a2f5fef9e04cf1d455e41f5"
+   }
+  },
+  "heading_fingerprint: recomputed v0001 == frozen v2 manifest": {
+   "ok": true,
+   "detail": {
+    "v2": "sha256:7ce5f4d96a17b4498b3de1240afb563c5b73cefd9ef92114e6c467cd49c68b8c",
+    "v0001": "sha256:7ce5f4d96a17b4498b3de1240afb563c5b73cefd9ef92114e6c467cd49c68b8c"
+   }
+  },
+  "vectors_checksum: recomputed v0001 == frozen v2 manifest": {
+   "ok": true,
+   "detail": {
+    "v2": "sha256:4a4abafb5234021ec95d7020a7f91a8697a99e2b1fb9cd543c1a105b655218fc",
+    "v0001": "sha256:4a4abafb5234021ec95d7020a7f91a8697a99e2b1fb9cd543c1a105b655218fc"
+   }
+  },
+  "corpus fingerprint == s6_6_freeze.json": {
+   "ok": true,
+   "detail": null
+  },
+  "kb.base block records the frozen values": {
+   "ok": true,
+   "detail": null
+  },
+  "embedding/BM25/structure settings carried over unchanged": {
+   "ok": true,
+   "detail": null
+  },
+  "records keep exactly the original schema": {
+   "ok": true,
+   "detail": null
+  },
+  "base document ranges": {
+   "ok": true,
+   "detail": [
+    [
+     "yearbook-humanities",
+     [
+      0,
+      5613
+     ],
+     5614
+    ],
+    [
+     "yearbook-sciences-v2",
+     [
+      5614,
+      10731
+     ],
+     5118
+    ]
+   ]
+  },
+  "passages.jsonl: one unique uid per row, matching chunk_id": {
+   "ok": true,
+   "detail": {
+    "first": "yearbook-humanities/v1/c00000",
+    "last": "yearbook-sciences-v2/v1/c10731"
+   }
+  },
+  "course-code map identical": {
+   "ok": true,
+   "detail": {
+    "codes": 5559
+   }
+  },
+  "ambiguous-code metadata identical": {
+   "ok": true,
+   "detail": {
+    "ambiguous_codes": 246
+   }
+  },
+  "retrieval identical on all 40 queries (top-10 candidates with scores, reranked top 5 with scores and text, ambiguity notes)": {
+   "ok": true,
+   "detail": []
+  },
+  "kb.verify() ok with no warnings": {
+   "ok": true,
+   "detail": {
+    "ok": true,
+    "problems": [],
+    "warnings": [],
+    "versions": {
+     "public": {
+      "version": "0001",
+      "passages": 10732,
+      "documents": [
+       [
+        "yearbook-humanities",
+        1,
+        "published"
+       ],
+       [
+        "yearbook-sciences-v2",
+        1,
+        "published"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "re-running the seed is a no-op": {
+   "ok": true,
+   "detail": null
+  },
+  "journal: every operation committed": {
+   "ok": true,
+   "detail": null
+  }
+ },
+ "failures": [],
+ "frozen_v2": {
+  "files_sha256": {
+   "chunks.jsonl": "a58bc3d7ea8478ca2c40d4ec288324c32692b549708f0a8733a4c52282bd136c",
+   "index.faiss": "5cbc37d0499c442a764dd20ebee3b239129ff9aa87d7c0f02796694b1289f466",
+   "manifest.json": "535a13bd18c174358e3a80304c05d9246150e6baa531cd58c28f499dfd8dae09"
+  },
+  "chunk_count": 10732,
+  "corpus_fingerprint": "sha256:545d0dabe1fbe022baf9dd5dfaadaaee6637490e9a2f5fef9e04cf1d455e41f5",
+  "heading_fingerprint": "sha256:7ce5f4d96a17b4498b3de1240afb563c5b73cefd9ef92114e6c467cd49c68b8c",
+  "vectors_checksum": "sha256:4a4abafb5234021ec95d7020a7f91a8697a99e2b1fb9cd543c1a105b655218fc"
+ },
+ "seed": {
+  "no_op": false,
+  "version": "0001"
+ },
+ "version_0001": {
+  "files_sha256": {
+   "chunks.jsonl": "a58bc3d7ea8478ca2c40d4ec288324c32692b549708f0a8733a4c52282bd136c",
+   "index.faiss": "5cbc37d0499c442a764dd20ebee3b239129ff9aa87d7c0f02796694b1289f466",
+   "manifest.json": "0e6213342b8319596ccbdd6eaec755dcdd16667e6ad6dc2b3b1239a6a709b685",
+   "passages.jsonl": "84ac6c5d2aa9ecf22856362d02ef3c870965e4b7881173a6b2dc1d1c2d657864",
+   "registry_snapshot.json": "f66519e6650bfb03debcd1b83b0bedca8b6be25d29eb937a36a81c7924bb9d6d"
+  },
+  "chunk_count": 10732,
+  "corpus_fingerprint": "sha256:545d0dabe1fbe022baf9dd5dfaadaaee6637490e9a2f5fef9e04cf1d455e41f5",
+  "heading_fingerprint": "sha256:7ce5f4d96a17b4498b3de1240afb563c5b73cefd9ef92114e6c467cd49c68b8c",
+  "vectors_checksum": "sha256:4a4abafb5234021ec95d7020a7f91a8697a99e2b1fb9cd543c1a105b655218fc",
+  "kb_base": {
+   "chunk_count": 10732,
+   "chunks_sha256": "a58bc3d7ea8478ca2c40d4ec288324c32692b549708f0a8733a4c52282bd136c",
+   "corpus_fingerprint": "sha256:545d0dabe1fbe022baf9dd5dfaadaaee6637490e9a2f5fef9e04cf1d455e41f5",
+   "heading_fingerprint": "sha256:7ce5f4d96a17b4498b3de1240afb563c5b73cefd9ef92114e6c467cd49c68b8c",
+   "vectors_checksum": "sha256:4a4abafb5234021ec95d7020a7f91a8697a99e2b1fb9cd543c1a105b655218fc"
+  }
+ },
+ "retrieval_comparison": [
+  {
+   "id": "N1",
+   "category": "natural_language",
+   "question": "What is a faculty board responsible for?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    298,
+    5710,
+    111,
+    299,
+    305
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 81",
+    "MSU Sciences Yearbook Vol. 2 p. 32",
+    "MSU Humanities Yearbook p. 31",
+    "MSU Humanities Yearbook p. 82",
+    "MSU Humanities Yearbook p. 83"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c00298",
+    "yearbook-sciences-v2/v1/c05710",
+    "yearbook-humanities/v1/c00111",
+    "yearbook-humanities/v1/c00299",
+    "yearbook-humanities/v1/c00305"
+   ],
+   "ms_v2": 507.0,
+   "ms_v0001": 498.0
+  },
+  {
+   "id": "N2",
+   "category": "natural_language",
+   "question": "How are archaeology students taught and assessed?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    731,
+    697,
+    734,
+    732,
+    727
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 169",
+    "MSU Humanities Yearbook p. 164",
+    "MSU Humanities Yearbook p. 170",
+    "MSU Humanities Yearbook p. 170",
+    "MSU Humanities Yearbook p. 169"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c00731",
+    "yearbook-humanities/v1/c00697",
+    "yearbook-humanities/v1/c00734",
+    "yearbook-humanities/v1/c00732",
+    "yearbook-humanities/v1/c00727"
+   ],
+   "ms_v2": 507.0,
+   "ms_v0001": 558.0
+  },
+  {
+   "id": "N3",
+   "category": "natural_language",
+   "question": "Who chairs Council meetings when the Chancellor is not there?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    5652,
+    56,
+    5625,
+    12,
+    106
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 19",
+    "MSU Humanities Yearbook p. 18",
+    "MSU Sciences Yearbook Vol. 2 p. 8",
+    "MSU Humanities Yearbook p. 8",
+    "MSU Humanities Yearbook p. 30"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c05652",
+    "yearbook-humanities/v1/c00056",
+    "yearbook-sciences-v2/v1/c05625",
+    "yearbook-humanities/v1/c00012",
+    "yearbook-humanities/v1/c00106"
+   ],
+   "ms_v2": 684.0,
+   "ms_v0001": 676.0
+  },
+  {
+   "id": "N4",
+   "category": "natural_language",
+   "question": "Who are the members of Midlands State University?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    38,
+    46,
+    45,
+    19,
+    393
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 14",
+    "MSU Humanities Yearbook p. 16",
+    "MSU Humanities Yearbook p. 16",
+    "MSU Humanities Yearbook p. 10",
+    "MSU Humanities Yearbook p. 99"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c00038",
+    "yearbook-humanities/v1/c00046",
+    "yearbook-humanities/v1/c00045",
+    "yearbook-humanities/v1/c00019",
+    "yearbook-humanities/v1/c00393"
+   ],
+   "ms_v2": 614.0,
+   "ms_v0001": 612.0
+  },
+  {
+   "id": "N5",
+   "category": "natural_language",
+   "question": "Can I switch from an MPhil to a PhD, and when?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    640,
+    5826,
+    641,
+    5827,
+    5819
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 151",
+    "MSU Sciences Yearbook Vol. 2 p. 154",
+    "MSU Humanities Yearbook p. 152",
+    "MSU Sciences Yearbook Vol. 2 p. 154",
+    "MSU Sciences Yearbook Vol. 2 p. 152"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c00640",
+    "yearbook-sciences-v2/v1/c05826",
+    "yearbook-humanities/v1/c00641",
+    "yearbook-sciences-v2/v1/c05827",
+    "yearbook-sciences-v2/v1/c05819"
+   ],
+   "ms_v2": 667.0,
+   "ms_v0001": 653.0
+  },
+  {
+   "id": "N6",
+   "category": "natural_language",
+   "question": "If something in my residence room gets broken, will I have to pay for it?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    443,
+    438,
+    434,
+    442,
+    444
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 109",
+    "MSU Humanities Yearbook p. 108",
+    "MSU Humanities Yearbook p. 107",
+    "MSU Humanities Yearbook p. 109",
+    "MSU Humanities Yearbook p. 109"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c00443",
+    "yearbook-humanities/v1/c00438",
+    "yearbook-humanities/v1/c00434",
+    "yearbook-humanities/v1/c00442",
+    "yearbook-humanities/v1/c00444"
+   ],
+   "ms_v2": 699.0,
+   "ms_v0001": 643.0
+  },
+  {
+   "id": "N7",
+   "category": "natural_language",
+   "question": "What qualification do I need to apply for an MPhil?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    643,
+    5829,
+    5816,
+    628,
+    642
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 152",
+    "MSU Sciences Yearbook Vol. 2 p. 154",
+    "MSU Sciences Yearbook Vol. 2 p. 152",
+    "MSU Humanities Yearbook p. 149",
+    "MSU Humanities Yearbook p. 152"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c00643",
+    "yearbook-sciences-v2/v1/c05829",
+    "yearbook-sciences-v2/v1/c05816",
+    "yearbook-humanities/v1/c00628",
+    "yearbook-humanities/v1/c00642"
+   ],
+   "ms_v2": 730.0,
+   "ms_v0001": 722.0
+  },
+  {
+   "id": "N8",
+   "category": "natural_language",
+   "question": "What do I have to sign when I register as a student?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    421,
+    529,
+    630,
+    5817,
+    8833
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 105",
+    "MSU Humanities Yearbook p. 130",
+    "MSU Humanities Yearbook p. 150",
+    "MSU Sciences Yearbook Vol. 2 p. 152",
+    "MSU Sciences Yearbook Vol. 2 p. 742"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c00421",
+    "yearbook-humanities/v1/c00529",
+    "yearbook-humanities/v1/c00630",
+    "yearbook-sciences-v2/v1/c05817",
+    "yearbook-sciences-v2/v1/c08833"
+   ],
+   "ms_v2": 599.0,
+   "ms_v0001": 536.0
+  },
+  {
+   "id": "N9",
+   "category": "natural_language",
+   "question": "How does the university decide to award an honorary doctorate?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    664,
+    5851,
+    5131,
+    5849,
+    662
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 156",
+    "MSU Sciences Yearbook Vol. 2 p. 159",
+    "MSU Humanities Yearbook p. 855",
+    "MSU Sciences Yearbook Vol. 2 p. 159",
+    "MSU Humanities Yearbook p. 156"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c00664",
+    "yearbook-sciences-v2/v1/c05851",
+    "yearbook-humanities/v1/c05131",
+    "yearbook-sciences-v2/v1/c05849",
+    "yearbook-humanities/v1/c00662"
+   ],
+   "ms_v2": 695.0,
+   "ms_v0001": 635.0
+  },
+  {
+   "id": "N10",
+   "category": "natural_language",
+   "question": "If I repeat a module, which marks will count?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    497,
+    2329,
+    2364,
+    2085,
+    2253
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 122",
+    "MSU Humanities Yearbook p. 418",
+    "MSU Humanities Yearbook p. 424",
+    "MSU Humanities Yearbook p. 378",
+    "MSU Humanities Yearbook p. 407"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c00497",
+    "yearbook-humanities/v1/c02329",
+    "yearbook-humanities/v1/c02364",
+    "yearbook-humanities/v1/c02085",
+    "yearbook-humanities/v1/c02253"
+   ],
+   "ms_v2": 621.0,
+   "ms_v0001": 1119.0
+  },
+  {
+   "id": "E1",
+   "category": "exact_code",
+   "question": "What is DSC 603 about?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    1618,
+    1616
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 304",
+    "MSU Humanities Yearbook p. 303"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c01618",
+    "yearbook-humanities/v1/c01616"
+   ],
+   "ms_v2": 195.0,
+   "ms_v0001": 201.0
+  },
+  {
+   "id": "E2",
+   "category": "exact_code",
+   "question": "Describe BM134",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    7837,
+    7832
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 542",
+    "MSU Sciences Yearbook Vol. 2 p. 541"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c07837",
+    "yearbook-sciences-v2/v1/c07832"
+   ],
+   "ms_v2": 217.0,
+   "ms_v0001": 177.0
+  },
+  {
+   "id": "E3",
+   "category": "exact_code",
+   "question": "SEMA 204",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    3190,
+    3300,
+    3282
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 556",
+    "MSU Humanities Yearbook p. 573",
+    "MSU Humanities Yearbook p. 571"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [
+    "SEMA204"
+   ],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c03190",
+    "yearbook-humanities/v1/c03300",
+    "yearbook-humanities/v1/c03282"
+   ],
+   "ms_v2": 152.0,
+   "ms_v0001": 137.0
+  },
+  {
+   "id": "E4",
+   "category": "exact_code",
+   "question": "what is ham105",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    8084,
+    8076
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 590",
+    "MSU Sciences Yearbook Vol. 2 p. 589"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c08084",
+    "yearbook-sciences-v2/v1/c08076"
+   ],
+   "ms_v2": 136.0,
+   "ms_v0001": 144.0
+  },
+  {
+   "id": "E5",
+   "category": "exact_code",
+   "question": "Tell me about the module SEPS101",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    3314,
+    3308
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 576",
+    "MSU Humanities Yearbook p. 575"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c03314",
+    "yearbook-humanities/v1/c03308"
+   ],
+   "ms_v2": 189.0,
+   "ms_v0001": 173.0
+  },
+  {
+   "id": "E6",
+   "category": "exact_code",
+   "question": "What is MSCM 703 about?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    8053,
+    8050
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 584",
+    "MSU Sciences Yearbook Vol. 2 p. 583"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c08053",
+    "yearbook-sciences-v2/v1/c08050"
+   ],
+   "ms_v2": 138.0,
+   "ms_v0001": 128.0
+  },
+  {
+   "id": "E7",
+   "category": "exact_code",
+   "question": "Describe HPHS 201",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    5180,
+    5169
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 864",
+    "MSU Humanities Yearbook p. 862"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c05180",
+    "yearbook-humanities/v1/c05169"
+   ],
+   "ms_v2": 141.0,
+   "ms_v0001": 233.0
+  },
+  {
+   "id": "E8",
+   "category": "exact_code",
+   "question": "MIM732",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    7762,
+    7760
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 528",
+    "MSU Sciences Yearbook Vol. 2 p. 528"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c07762",
+    "yearbook-sciences-v2/v1/c07760"
+   ],
+   "ms_v2": 153.0,
+   "ms_v0001": 135.0
+  },
+  {
+   "id": "E9",
+   "category": "exact_code",
+   "question": "what is baeh 141",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    1277,
+    1271
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 247",
+    "MSU Humanities Yearbook p. 246"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c01277",
+    "yearbook-humanities/v1/c01271"
+   ],
+   "ms_v2": 138.0,
+   "ms_v0001": 128.0
+  },
+  {
+   "id": "E10",
+   "category": "exact_code",
+   "question": "Tell me about the module CIT 135",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    7557,
+    7549
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 489",
+    "MSU Sciences Yearbook Vol. 2 p. 487"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c07557",
+    "yearbook-sciences-v2/v1/c07549"
+   ],
+   "ms_v2": 170.0,
+   "ms_v0001": 136.0
+  },
+  {
+   "id": "C1",
+   "category": "code_in_context",
+   "question": "I'm a second-year languages student thinking of taking HALCS 211. What topics does it cover?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    1371,
+    1360
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 261",
+    "MSU Humanities Yearbook p. 259"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c01371",
+    "yearbook-humanities/v1/c01360"
+   ],
+   "ms_v2": 218.0,
+   "ms_v0001": 174.0
+  },
+  {
+   "id": "C2",
+   "category": "code_in_context",
+   "question": "How many credits is MECDP704 worth, and which semester is it taught in?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    2409,
+    2415
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 431",
+    "MSU Humanities Yearbook p. 432"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c02409",
+    "yearbook-humanities/v1/c02415"
+   ],
+   "ms_v2": 225.0,
+   "ms_v0001": 187.0
+  },
+  {
+   "id": "C3",
+   "category": "code_in_context",
+   "question": "My lecturer recommended MEHD733 for history teachers. What will I learn in it?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    2993,
+    2987
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 525",
+    "MSU Humanities Yearbook p. 524"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c02993",
+    "yearbook-humanities/v1/c02987"
+   ],
+   "ms_v2": 170.0,
+   "ms_v0001": 185.0
+  },
+  {
+   "id": "C4",
+   "category": "code_in_context",
+   "question": "What kind of instrumentation and analytical techniques does MSECH704 cover?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    3490,
+    3484
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 604",
+    "MSU Humanities Yearbook p. 603"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c03490",
+    "yearbook-humanities/v1/c03484"
+   ],
+   "ms_v2": 202.0,
+   "ms_v0001": 178.0
+  },
+  {
+   "id": "C5",
+   "category": "code_in_context",
+   "question": "How many credits do I get for passing SEMA 102?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    3250,
+    3287,
+    3187,
+    3185,
+    3237
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 566",
+    "MSU Humanities Yearbook p. 571",
+    "MSU Humanities Yearbook p. 556",
+    "MSU Humanities Yearbook p. 556",
+    "MSU Humanities Yearbook p. 564"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c03250",
+    "yearbook-humanities/v1/c03287",
+    "yearbook-humanities/v1/c03187",
+    "yearbook-humanities/v1/c03185",
+    "yearbook-humanities/v1/c03237"
+   ],
+   "ms_v2": 425.0,
+   "ms_v0001": 360.0
+  },
+  {
+   "id": "C6",
+   "category": "code_in_context",
+   "question": "In which level and semester is HMETE103 normally taken?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    8511,
+    8560,
+    8510,
+    8518,
+    8517
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 674",
+    "MSU Sciences Yearbook Vol. 2 p. 684",
+    "MSU Sciences Yearbook Vol. 2 p. 674",
+    "MSU Sciences Yearbook Vol. 2 p. 676",
+    "MSU Sciences Yearbook Vol. 2 p. 676"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c08511",
+    "yearbook-sciences-v2/v1/c08560",
+    "yearbook-sciences-v2/v1/c08510",
+    "yearbook-sciences-v2/v1/c08518",
+    "yearbook-sciences-v2/v1/c08517"
+   ],
+   "ms_v2": 374.0,
+   "ms_v0001": 466.0
+  },
+  {
+   "id": "C7",
+   "category": "code_in_context",
+   "question": "I'm studying nutrition. What does HNS 124 teach about food?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    10599,
+    10586
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 1108",
+    "MSU Sciences Yearbook Vol. 2 p. 1105"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c10599",
+    "yearbook-sciences-v2/v1/c10586"
+   ],
+   "ms_v2": 275.0,
+   "ms_v0001": 215.0
+  },
+  {
+   "id": "C8",
+   "category": "code_in_context",
+   "question": "Is MIP845 about solar and other renewable energy sources? What does it cover?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    10530
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 1095"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c10530"
+   ],
+   "ms_v2": 137.0,
+   "ms_v0001": 111.0
+  },
+  {
+   "id": "C9",
+   "category": "code_in_context",
+   "question": "Which other modules are taken in the same semester as MFA700?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    7153,
+    7151
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 415",
+    "MSU Sciences Yearbook Vol. 2 p. 414"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c07153",
+    "yearbook-sciences-v2/v1/c07151"
+   ],
+   "ms_v2": 170.0,
+   "ms_v0001": 175.0
+  },
+  {
+   "id": "C10",
+   "category": "code_in_context",
+   "question": "As a first-year accounting student I have to take BM135. What is it about?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    6992,
+    7838,
+    7054,
+    7350,
+    7832
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 388",
+    "MSU Sciences Yearbook Vol. 2 p. 542",
+    "MSU Sciences Yearbook Vol. 2 p. 398",
+    "MSU Sciences Yearbook Vol. 2 p. 451",
+    "MSU Sciences Yearbook Vol. 2 p. 541"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [
+    "BM135"
+   ],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c06992",
+    "yearbook-sciences-v2/v1/c07838",
+    "yearbook-sciences-v2/v1/c07054",
+    "yearbook-sciences-v2/v1/c07350",
+    "yearbook-sciences-v2/v1/c07832"
+   ],
+   "ms_v2": 690.0,
+   "ms_v0001": 811.0
+  },
+  {
+   "id": "O1",
+   "category": "out_of_scope",
+   "question": "What is on the menu in the student cafeteria today?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    8168,
+    10605,
+    8165,
+    241,
+    10543
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 606",
+    "MSU Sciences Yearbook Vol. 2 p. 1108",
+    "MSU Sciences Yearbook Vol. 2 p. 605",
+    "MSU Humanities Yearbook p. 67",
+    "MSU Sciences Yearbook Vol. 2 p. 1098"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c08168",
+    "yearbook-sciences-v2/v1/c10605",
+    "yearbook-sciences-v2/v1/c08165",
+    "yearbook-humanities/v1/c00241",
+    "yearbook-sciences-v2/v1/c10543"
+   ],
+   "ms_v2": 718.0,
+   "ms_v0001": 706.0
+  },
+  {
+   "id": "O2",
+   "category": "out_of_scope",
+   "question": "Who won the 2023 Zimbabwe presidential election?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    257,
+    5737,
+    5633,
+    40,
+    1041
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 74",
+    "MSU Sciences Yearbook Vol. 2 p. 75",
+    "MSU Sciences Yearbook Vol. 2 p. 15",
+    "MSU Humanities Yearbook p. 15",
+    "MSU Humanities Yearbook p. 215"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c00257",
+    "yearbook-sciences-v2/v1/c05737",
+    "yearbook-sciences-v2/v1/c05633",
+    "yearbook-humanities/v1/c00040",
+    "yearbook-humanities/v1/c01041"
+   ],
+   "ms_v2": 928.0,
+   "ms_v0001": 898.0
+  },
+  {
+   "id": "O3",
+   "category": "out_of_scope",
+   "question": "What is the WiFi password for the MSU library?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    5599,
+    10719,
+    5597,
+    5595,
+    5608
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 928",
+    "MSU Sciences Yearbook Vol. 2 p. 1128",
+    "MSU Humanities Yearbook p. 928",
+    "MSU Humanities Yearbook p. 928",
+    "MSU Humanities Yearbook p. 930"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c05599",
+    "yearbook-sciences-v2/v1/c10719",
+    "yearbook-humanities/v1/c05597",
+    "yearbook-humanities/v1/c05595",
+    "yearbook-humanities/v1/c05608"
+   ],
+   "ms_v2": 769.0,
+   "ms_v0001": 694.0
+  },
+  {
+   "id": "O4",
+   "category": "out_of_scope",
+   "question": "How do I apply for a UK student visa?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    528,
+    7807,
+    6940,
+    1317,
+    527
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 129",
+    "MSU Sciences Yearbook Vol. 2 p. 536",
+    "MSU Sciences Yearbook Vol. 2 p. 377",
+    "MSU Humanities Yearbook p. 252",
+    "MSU Humanities Yearbook p. 129"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c00528",
+    "yearbook-sciences-v2/v1/c07807",
+    "yearbook-sciences-v2/v1/c06940",
+    "yearbook-humanities/v1/c01317",
+    "yearbook-humanities/v1/c00527"
+   ],
+   "ms_v2": 576.0,
+   "ms_v0001": 604.0
+  },
+  {
+   "id": "O5",
+   "category": "out_of_scope",
+   "question": "What time does the campus gym open?",
+   "route": "vector",
+   "top5_chunk_ids": [
+    441,
+    10718,
+    5598,
+    287,
+    5767
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 109",
+    "MSU Sciences Yearbook Vol. 2 p. 1128",
+    "MSU Humanities Yearbook p. 928",
+    "MSU Humanities Yearbook p. 79",
+    "MSU Sciences Yearbook Vol. 2 p. 80"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c00441",
+    "yearbook-sciences-v2/v1/c10718",
+    "yearbook-humanities/v1/c05598",
+    "yearbook-humanities/v1/c00287",
+    "yearbook-sciences-v2/v1/c05767"
+   ],
+   "ms_v2": 701.0,
+   "ms_v0001": 680.0
+  },
+  {
+   "id": "A1",
+   "category": "ambiguous_code",
+   "question": "What is ACC 135?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    7613,
+    7661,
+    7971,
+    7297,
+    7350
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 499",
+    "MSU Sciences Yearbook Vol. 2 p. 509",
+    "MSU Sciences Yearbook Vol. 2 p. 568",
+    "MSU Sciences Yearbook Vol. 2 p. 442",
+    "MSU Sciences Yearbook Vol. 2 p. 451"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [
+    "ACC135"
+   ],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c07613",
+    "yearbook-sciences-v2/v1/c07661",
+    "yearbook-sciences-v2/v1/c07971",
+    "yearbook-sciences-v2/v1/c07297",
+    "yearbook-sciences-v2/v1/c07350"
+   ],
+   "ms_v2": 597.0,
+   "ms_v0001": 663.0
+  },
+  {
+   "id": "A2",
+   "category": "ambiguous_code",
+   "question": "Tell me about ACC 136.",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    7245,
+    7664,
+    7971,
+    8037,
+    7297
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 433",
+    "MSU Sciences Yearbook Vol. 2 p. 509",
+    "MSU Sciences Yearbook Vol. 2 p. 568",
+    "MSU Sciences Yearbook Vol. 2 p. 581",
+    "MSU Sciences Yearbook Vol. 2 p. 442"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [
+    "ACC136"
+   ],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c07245",
+    "yearbook-sciences-v2/v1/c07664",
+    "yearbook-sciences-v2/v1/c07971",
+    "yearbook-sciences-v2/v1/c08037",
+    "yearbook-sciences-v2/v1/c07297"
+   ],
+   "ms_v2": 620.0,
+   "ms_v0001": 642.0
+  },
+  {
+   "id": "A3",
+   "category": "ambiguous_code",
+   "question": "What is AECS 131 about?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    3248,
+    3380,
+    3368,
+    3237
+   ],
+   "top5_pages": [
+    "MSU Humanities Yearbook p. 566",
+    "MSU Humanities Yearbook p. 587",
+    "MSU Humanities Yearbook p. 584",
+    "MSU Humanities Yearbook p. 564"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [
+    "AECS131"
+   ],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-humanities/v1/c03248",
+    "yearbook-humanities/v1/c03380",
+    "yearbook-humanities/v1/c03368",
+    "yearbook-humanities/v1/c03237"
+   ],
+   "ms_v2": 291.0,
+   "ms_v0001": 259.0
+  },
+  {
+   "id": "A4",
+   "category": "ambiguous_code",
+   "question": "What is covered in HAWS 443?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    6519,
+    6561,
+    6536,
+    6493,
+    6535
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 292",
+    "MSU Sciences Yearbook Vol. 2 p. 300",
+    "MSU Sciences Yearbook Vol. 2 p. 296",
+    "MSU Sciences Yearbook Vol. 2 p. 289",
+    "MSU Sciences Yearbook Vol. 2 p. 296"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [
+    "HAWS443"
+   ],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c06519",
+    "yearbook-sciences-v2/v1/c06561",
+    "yearbook-sciences-v2/v1/c06536",
+    "yearbook-sciences-v2/v1/c06493",
+    "yearbook-sciences-v2/v1/c06535"
+   ],
+   "ms_v2": 298.0,
+   "ms_v0001": 344.0
+  },
+  {
+   "id": "A5",
+   "category": "ambiguous_code",
+   "question": "What does HAWS 444 cover?",
+   "route": "code_hybrid",
+   "top5_chunk_ids": [
+    6520,
+    6564,
+    6565,
+    6536,
+    6493
+   ],
+   "top5_pages": [
+    "MSU Sciences Yearbook Vol. 2 p. 292",
+    "MSU Sciences Yearbook Vol. 2 p. 300",
+    "MSU Sciences Yearbook Vol. 2 p. 300",
+    "MSU Sciences Yearbook Vol. 2 p. 296",
+    "MSU Sciences Yearbook Vol. 2 p. 289"
+   ],
+   "candidates_identical": true,
+   "top5_identical": true,
+   "ambiguity_notes": [
+    "HAWS444"
+   ],
+   "ambiguity_identical": true,
+   "passage_uids_v0001": [
+    "yearbook-sciences-v2/v1/c06520",
+    "yearbook-sciences-v2/v1/c06564",
+    "yearbook-sciences-v2/v1/c06565",
+    "yearbook-sciences-v2/v1/c06536",
+    "yearbook-sciences-v2/v1/c06493"
+   ],
+   "ms_v2": 280.0,
+   "ms_v0001": 292.0
+  }
+ ],
+ "query_mix": {
+  "natural_language": {
+   "n": 10,
+   "routes": {
+    "vector": 10
+   }
+  },
+  "exact_code": {
+   "n": 10,
+   "routes": {
+    "code_hybrid": 10
+   }
+  },
+  "code_in_context": {
+   "n": 10,
+   "routes": {
+    "code_hybrid": 10
+   }
+  },
+  "out_of_scope": {
+   "n": 5,
+   "routes": {
+    "vector": 5
+   }
+  },
+  "ambiguous_code": {
+   "n": 5,
+   "routes": {
+    "code_hybrid": 5
+   }
+  }
+ },
+ "knowledge_base_files": [
+  "knowledge_base/ingest_log.jsonl",
+  "knowledge_base/registry.json",
+  "knowledge_base/store/CURRENT",
+  "knowledge_base/store/versions/0001/chunks.jsonl",
+  "knowledge_base/store/versions/0001/index.faiss",
+  "knowledge_base/store/versions/0001/manifest.json",
+  "knowledge_base/store/versions/0001/passages.jsonl",
+  "knowledge_base/store/versions/0001/registry_snapshot.json"
+ ],
+ "knowledge_base_size_mb": 27.5
+}

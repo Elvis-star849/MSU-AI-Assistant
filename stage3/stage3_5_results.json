@@ -1,0 +1,420 @@
+{
+ "stage": "3.5",
+ "checks": {
+  "registry: 4 documents with the expected statuses": {
+   "ok": true,
+   "detail": null
+  },
+  "intake: staged, no knowledge-base approval, recorded as an approved university source document": {
+   "ok": true,
+   "detail": null
+  },
+  "road map: published with one formal approval; approved university document; DRAFT filename; 2 corrections": {
+   "ok": true,
+   "detail": null
+  },
+  "provenance: datasets, source PDFs, units and reports match their recorded hashes": {
+   "ok": true,
+   "detail": []
+  },
+  "current approval metadata free of 'not verified / not obtained / not a formal approval'": {
+   "ok": true,
+   "detail": null
+  },
+  "journal: every operation committed, none open, no aborts or torn lines": {
+   "ok": true,
+   "detail": {
+    "entries": 38,
+    "operations": {
+     "seed_base": 1,
+     "register_upload": 2,
+     "validate": 6,
+     "update_metadata": 4,
+     "stage": 2,
+     "approve": 1,
+     "publish": 2,
+     "refresh_staging": 1
+    },
+    "aborts": 0,
+    "corrupt_lines": 0
+   }
+  },
+  "journal: every committed version exists (store/versions or archive)": {
+   "ok": true,
+   "detail": []
+  },
+  "CURRENT = 0005 (public, 10,753 passages); STAGING = 0006 (staging, 10,979 passages); manifest hashes match": {
+   "ok": true,
+   "detail": {
+    "CURRENT": {
+     "kind": "public",
+     "manifest_sha256": "25956ff5099f876a23b1f5d7c1d5daefc977ee3625a0345502698b2f71a1c82c",
+     "version": "0005"
+    },
+    "STAGING": {
+     "kind": "staging",
+     "manifest_sha256": "04169e83fa22291406ae3371d6225348f66519b0e90eb7517c463593d1c9aca6",
+     "version": "0006"
+    }
+   }
+  },
+  "all 6 versions (3 active + 3 archived) pass full verification": {
+   "ok": true,
+   "detail": {
+    "0001": {
+     "where": "versions",
+     "kind": "public",
+     "passages": 10732,
+     "documents": []
+    },
+    "0005": {
+     "where": "versions",
+     "kind": "public",
+     "passages": 10753,
+     "documents": [
+      [
+       "roadmap-2027",
+       "published"
+      ]
+     ]
+    },
+    "0006": {
+     "where": "versions",
+     "kind": "staging",
+     "passages": 10979,
+     "documents": [
+      [
+       "roadmap-2027",
+       "published"
+      ],
+      [
+       "intake-2027-jan-feb",
+       "staged"
+      ]
+     ]
+    },
+    "0002": {
+     "where": "archive",
+     "kind": "staging",
+     "passages": 10753,
+     "documents": [
+      [
+       "roadmap-2027",
+       "staged"
+      ]
+     ]
+    },
+    "0003": {
+     "where": "archive",
+     "kind": "staging",
+     "passages": 10979,
+     "documents": [
+      [
+       "roadmap-2027",
+       "staged"
+      ],
+      [
+       "intake-2027-jan-feb",
+       "staged"
+      ]
+     ]
+    },
+    "0004": {
+     "where": "archive",
+     "kind": "staging",
+     "passages": 10979,
+     "documents": [
+      [
+       "roadmap-2027",
+       "approved"
+      ],
+      [
+       "intake-2027-jan-feb",
+       "staged"
+      ]
+     ]
+    }
+   }
+  },
+  "10,732 yearbook records byte-identical and vectors bit-identical to faiss_store_v2 in 0001, 0005, 0006": {
+   "ok": true,
+   "detail": {
+    "0001": true,
+    "0005": true,
+    "0006": true
+   }
+  },
+  "frozen fingerprints in every active version: 545d / 7ce5 / 4a4a": {
+   "ok": true,
+   "detail": null
+  },
+  "intake physically absent from every public structure": {
+   "ok": true,
+   "detail": {
+    "identifier map": true,
+    "chunk records (texts)": true,
+    "registry snapshot": true,
+    "manifest documents": true,
+    "FAISS rows (count)": true,
+    "BM25 corpus size": true,
+    "BM25 intake-only terms": true,
+    "course-code map": true
+   }
+  },
+  "staging contains all 226 intake passages": {
+   "ok": true,
+   "detail": null
+  },
+  "embedding cache: 247 vectors for the pinned revision, equal to the staging index rows 10,732-10,978": {
+   "ok": true,
+   "detail": {
+    "model": "BAAI/bge-small-en-v1.5",
+    "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "recipe": "heading_store.index_text"
+   }
+  },
+  "missing() reports nothing to embed": {
+   "ok": true,
+   "detail": null
+  },
+  "restart + no-op refresh_staging and publish: no new version, model never called": {
+   "ok": true,
+   "detail": null
+  },
+  "forced rebuild of the staging content from the cache (no model) is byte-identical to 0006": {
+   "ok": true,
+   "detail": {
+    "chunks.jsonl": true,
+    "passages.jsonl": true,
+    "index.faiss": true,
+    "registry_snapshot.json": true
+   }
+  },
+  "normal rollback suspends, publish does not resurrect, forward rollback restores": {
+   "ok": true,
+   "detail": null
+  },
+  "emergency rollback blocks publishing, is reported, and restore_registry reconciles": {
+   "ok": true,
+   "detail": {
+    "reconcile": {
+     "no_op": false,
+     "version": "0009",
+     "mode": "restore_registry",
+     "staging": {
+      "no_op": true,
+      "version": "0008"
+     },
+     "archived": [
+      "0007"
+     ]
+    }
+   }
+  },
+  "rollback refuses to reinstate a withdrawn document without an explicit approval (no change made)": {
+   "ok": true,
+   "detail": null
+  },
+  "no embedding call during any copy operation (forbidden embedder never raised)": {
+   "ok": true,
+   "detail": null
+  },
+  "kb.verify() on the real knowledge base: ok, no problems, no warnings, no override": {
+   "ok": true,
+   "detail": {
+    "ok": true,
+    "problems": [],
+    "warnings": [],
+    "versions": {
+     "public": {
+      "version": "0005",
+      "passages": 10753,
+      "documents": [
+       [
+        "yearbook-humanities",
+        1,
+        "published"
+       ],
+       [
+        "yearbook-sciences-v2",
+        1,
+        "published"
+       ],
+       [
+        "roadmap-2027",
+        1,
+        "published"
+       ]
+      ]
+     },
+     "staging": {
+      "version": "0006",
+      "passages": 10979,
+      "documents": [
+       [
+        "yearbook-humanities",
+        1,
+        "published"
+       ],
+       [
+        "yearbook-sciences-v2",
+        1,
+        "published"
+       ],
+       [
+        "roadmap-2027",
+        1,
+        "published"
+       ],
+       [
+        "intake-2027-jan-feb",
+        1,
+        "staged"
+       ]
+      ]
+     }
+    },
+    "active_override": null
+   }
+  },
+  "the real knowledge base was not modified by Stage 3.5": {
+   "ok": true,
+   "detail": []
+  }
+ },
+ "failures": [],
+ "timings_s": {
+  "open_and_verify_both_pointers": 7.99,
+  "forced_staging_rebuild_from_cache": 9.08,
+  "kb_verify": 10.47
+ },
+ "registry": {
+  "yearbook-humanities": {
+   "version": 1,
+   "status": "published",
+   "approvals": 0,
+   "passages": 5614
+  },
+  "yearbook-sciences-v2": {
+   "version": 1,
+   "status": "published",
+   "approvals": 0,
+   "passages": 5118
+  },
+  "roadmap-2027": {
+   "version": 1,
+   "status": "published",
+   "approvals": 1,
+   "passages": 21
+  },
+  "intake-2027-jan-feb": {
+   "version": 1,
+   "status": "staged",
+   "approvals": 0,
+   "passages": 226
+  }
+ },
+ "journal": {
+  "entries": 38,
+  "operations": {
+   "seed_base": 1,
+   "register_upload": 2,
+   "validate": 6,
+   "update_metadata": 4,
+   "stage": 2,
+   "approve": 1,
+   "publish": 2,
+   "refresh_staging": 1
+  },
+  "aborts": 0,
+  "corrupt_lines": 0
+ },
+ "all_versions": {
+  "0001": {
+   "where": "versions",
+   "kind": "public",
+   "passages": 10732,
+   "documents": []
+  },
+  "0005": {
+   "where": "versions",
+   "kind": "public",
+   "passages": 10753,
+   "documents": [
+    [
+     "roadmap-2027",
+     "published"
+    ]
+   ]
+  },
+  "0006": {
+   "where": "versions",
+   "kind": "staging",
+   "passages": 10979,
+   "documents": [
+    [
+     "roadmap-2027",
+     "published"
+    ],
+    [
+     "intake-2027-jan-feb",
+     "staged"
+    ]
+   ]
+  },
+  "0002": {
+   "where": "archive",
+   "kind": "staging",
+   "passages": 10753,
+   "documents": [
+    [
+     "roadmap-2027",
+     "staged"
+    ]
+   ]
+  },
+  "0003": {
+   "where": "archive",
+   "kind": "staging",
+   "passages": 10979,
+   "documents": [
+    [
+     "roadmap-2027",
+     "staged"
+    ],
+    [
+     "intake-2027-jan-feb",
+     "staged"
+    ]
+   ]
+  },
+  "0004": {
+   "where": "archive",
+   "kind": "staging",
+   "passages": 10979,
+   "documents": [
+    [
+     "roadmap-2027",
+     "approved"
+    ],
+    [
+     "intake-2027-jan-feb",
+     "staged"
+    ]
+   ]
+  }
+ },
+ "disk_mb": {
+  "total": 170.1,
+  "store/versions/0001": 27.5,
+  "store/versions/0005": 27.6,
+  "store/versions/0006": 28.2,
+  "archive": 84.0,
+  "embeddings": 0.4,
+  "uploads": 1.5,
+  "units": 0.6,
+  "validation": 0.0,
+  "registry+journal": 0.29,
+  "faiss_store_v2 (reference)": 25.3
+ }
+}

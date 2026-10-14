@@ -1,0 +1,371 @@
+{
+  "date": "2026-10-13",
+  "files": {
+    "MSU_2027_Intake_Corrected_v2.json": "a91f01d6c67f3f90e21d99f03408eed7d01a18d9dcd8def1ea3d76898a470cbc",
+    "2027_ROADMAP_RAG_Ready_v2.json": "27f98ef3c0f4df82874f2db495dc7ca3fd4d3838ad396db004accb3d07f4ed17"
+  },
+  "passed": 60,
+  "failed": 0,
+  "checks": [
+    {
+      "group": "intake",
+      "check": "every programme record has the same keys",
+      "ok": true,
+      "detail": "[(('application_channel', 'commencement', 'commencement_basis', 'duration_as_advertised', 'duration_by_mode', 'entry_requirements', 'faculty', 'faculty_conditions_inherited', 'faculty_note', 'id', 'level', 'modes_of_entry', 'programme', 'programme_note', 'programme_title_as_advertised', 'rag_text', 'source_document', 'source_page', 'source_page_type', 'source_sha256', 'verification'), 222)]"
+    },
+    {
+      "group": "intake",
+      "check": "every information record has the same keys",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "record ids unique",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "222 programme records (same as original)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "4 information records",
+      "ok": true,
+      "detail": "['application_procedure', 'application_fee', 'fee_payment_banking_details', 'enquiries_contacts']"
+    },
+    {
+      "group": "intake",
+      "check": "programme_count per faculty matches records",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "source PDF sha256 matches recorded hash",
+      "ok": true,
+      "detail": "c6c767189da07a9b5b0bfaca0aa8583eb2db68ebcb4c3b05ea6f09a6b8267c95"
+    },
+    {
+      "group": "intake",
+      "check": "source filename matches the real file",
+      "ok": true,
+      "detail": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf"
+    },
+    {
+      "group": "intake",
+      "check": "every record carries the PDF filename and sha256",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "derived_from hash matches the untouched original JSON",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "every source_page within 1..37",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "no programme word absent from the PDF",
+      "ok": true,
+      "detail": "{}"
+    },
+    {
+      "group": "intake",
+      "check": "no PDF table word missing from programme records (pp.1-36)",
+      "ok": true,
+      "detail": "{}"
+    },
+    {
+      "group": "intake",
+      "check": "rag_text agrees with structured fields (programme, duration, requirements, faculty, commencement, modes, page)",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "intake",
+      "check": "commencement follows explicit row notes, then faculty banners",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "intake",
+      "check": "exactly the 4 'commences February 2027' programmes are February",
+      "ok": true,
+      "detail": "['MSU-JF2027-099', 'MSU-JF2027-100', 'MSU-JF2027-107', 'MSU-JF2027-108']"
+    },
+    {
+      "group": "intake",
+      "check": "PDF contains exactly 4 'commences February' notes",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "group": "intake",
+      "check": "no entry requirement ends with a dangling list marker",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-01 source_text is verbatim from p.1 (1 excerpt)",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-01 rag_text contains the full source_text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-01 every number/code/email in rag_text and facts exists on the page",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-01 rag_text cites page 1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-02 source_text is verbatim from p.36 (2 excerpts)",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-02 rag_text contains the full source_text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-02 every number/code/email in rag_text and facts exists on the page",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-02 rag_text cites page 36",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-03 source_text is verbatim from p.36 (1 excerpt)",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-03 rag_text contains the full source_text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-03 every number/code/email in rag_text and facts exists on the page",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-03 rag_text cites page 36",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-04 source_text is verbatim from p.37 (1 excerpt)",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-04 rag_text contains the full source_text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-04 every number/code/email in rag_text and facts exists on the page",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "intake",
+      "check": "MSU-JF2027-INFO-04 rag_text cites page 37",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "automated verification recorded on every record",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "human approval kept separate and pending on every record",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "old verification_status/verification_note fields removed (history kept only under verification.prior_check)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "intake",
+      "check": "content changed only in -099, -100, -107, -108, -133",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "intake",
+      "check": "top-level text fields unchanged",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "roadmap",
+      "check": "21 events",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "roadmap",
+      "check": "every event has the same keys",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "roadmap",
+      "check": "event ids unique and sequential",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "roadmap",
+      "check": "source PDF sha256 matches",
+      "ok": true,
+      "detail": "c9790a92ba690fcf02b77d9cbadd057f36c3be369e7997eecdbd52df9c6c3b75"
+    },
+    {
+      "group": "roadmap",
+      "check": "source filename preserved (contains DRAFT)",
+      "ok": true,
+      "detail": "2027 DRAFT ROADMAP fin (1).pdf"
+    },
+    {
+      "group": "roadmap",
+      "check": "every event and summary carries filename, sha256 and page 1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "roadmap",
+      "check": "derived_from hash matches the untouched original JSON",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "roadmap",
+      "check": "status is 'approved' at top level and on every event/summary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "roadmap",
+      "check": "status basis cites the project owner's confirmation",
+      "ok": true,
+      "detail": "Confirmed by the project owner on 2026-10-13 as the approved 2027 road map for this project. Not independently verified with the Registry."
+    },
+    {
+      "group": "roadmap",
+      "check": "status basis disclaims independent Registry verification",
+      "ok": true,
+      "detail": "Confirmed by the project owner on 2026-10-13 as the approved 2027 road map for this project. Not independently verified with the Registry."
+    },
+    {
+      "group": "roadmap",
+      "check": "corrections not described as 'inferred'",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "roadmap",
+      "check": "no claim of Registry verification",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "roadmap",
+      "check": "every dates_in_source is verbatim in the PDF",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "roadmap",
+      "check": "date tokens in PDF == date tokens in dates_in_source (both directions)",
+      "ok": true,
+      "detail": "(Counter(), Counter())"
+    },
+    {
+      "group": "roadmap",
+      "check": "exactly RM2027-11 and RM2027-13 corrected, with the approved values",
+      "ok": true,
+      "detail": "{'RM2027-11': ('13/09/2026 - 17/09/2027', '13/09/2027 - 17/09/2027'), 'RM2027-13': ('01/11/2027 - 12/11/202', '01/11/2027 - 12/11/2027')}"
+    },
+    {
+      "group": "roadmap",
+      "check": "uncorrected events: dates == dates_in_source",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "roadmap",
+      "check": "approved dates equal the original JSON's dates",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "roadmap",
+      "check": "approved dates: valid, 2027, ISO match, end>=start, span<=120d, in order",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "roadmap",
+      "check": "event rag_text: DATES, STATUS, DATE CORRECTION lines consistent",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "roadmap",
+      "check": "semester summaries agree with events (dates, source dates, notes, status)",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "group": "roadmap",
+      "check": "every corrections_applied entry keeps dates_in_source and corrected_to",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

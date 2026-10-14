@@ -1,0 +1,2537 @@
+{
+ "stage": "3.3",
+ "checks": {
+  "pre-state: only version 0001, no STAGING, no embeddings": {
+   "ok": true,
+   "detail": [
+    "0001"
+   ]
+  },
+  "engine validation: roadmap passed with 0 errors": {
+   "ok": true,
+   "detail": []
+  },
+  "engine validation: intake passed with 0 errors": {
+   "ok": true,
+   "detail": []
+  },
+  "source PDF hashes match the Step 1 record": {
+   "ok": true,
+   "detail": null
+  },
+  "dataset hashes match the Stage 2 validation report": {
+   "ok": true,
+   "detail": null
+  },
+  "stored upload copies match their hashes": {
+   "ok": true,
+   "detail": null
+  },
+  "datasets declare the same source file and hash": {
+   "ok": true,
+   "detail": null
+  },
+  "roadmap keeps its original DRAFT source filename": {
+   "ok": true,
+   "detail": null
+  },
+  "every record carries the registered source SHA-256 (provenance check, no adapter problems)": {
+   "ok": true,
+   "detail": null
+  },
+  "units files match the registry hashes": {
+   "ok": true,
+   "detail": null
+  },
+  "roadmap: 21 event passages (RM2027-01..21)": {
+   "ok": true,
+   "detail": 21
+  },
+  "intake: 226 passages = 222 programmes + 4 information records": {
+   "ok": true,
+   "detail": {
+    "programme": 222,
+    "information": 4
+   }
+  },
+  "intake record ids in dataset order": {
+   "ok": true,
+   "detail": null
+  },
+  "247 new passages, all record ids and future passage_uids unique": {
+   "ok": true,
+   "detail": null
+  },
+  "semester summaries excluded (RM2027-S1..S4 not in units; recorded in excluded_units)": {
+   "ok": true,
+   "detail": [
+    "RM2027-S1",
+    "RM2027-S2",
+    "RM2027-S3",
+    "RM2027-S4"
+   ]
+  },
+  "roadmap pages: all 1 of 1": {
+   "ok": true,
+   "detail": null
+  },
+  "intake pages within 1..37 and equal to the dataset's source_page": {
+   "ok": true,
+   "detail": null
+  },
+  "information records on pages 1, 36, 36, 37": {
+   "ok": true,
+   "detail": null
+  },
+  "commencement: passage text == dataset field == advert rule for all 222 programmes": {
+   "ok": true,
+   "detail": {
+    "distribution": {
+     "None": 158,
+     "January 2027": 39,
+     "February 2027": 4,
+     "August 2027": 21
+    },
+    "problems": []
+   }
+  },
+  "field completeness (only the documented Biomedical Sciences gap allowed)": {
+   "ok": true,
+   "detail": []
+  },
+  "corrected dates in passages, with DATE CORRECTION lines": {
+   "ok": true,
+   "detail": null
+  },
+  "registry correction history == dataset corrections_applied": {
+   "ok": true,
+   "detail": null
+  },
+  "prior approval recorded (owner, 2026-10-13, not verified with the Registry)": {
+   "ok": true,
+   "detail": null
+  },
+  "every passage <= 512 tokens (indexed text: header + heading + body)": {
+   "ok": true,
+   "detail": {
+    "roadmap-2027": {
+     "max": 293,
+     "median": 253,
+     "min": 231,
+     "over_512": 0,
+     "longest": "RM2027-11"
+    },
+    "intake-2027-jan-feb": {
+     "max": 423,
+     "median": 198.0,
+     "min": 101,
+     "over_512": 0,
+     "longest": "MSU-JF2027-058"
+    }
+   }
+  },
+  "no exact duplicate passages (within new documents or against the base)": {
+   "ok": true,
+   "detail": {
+    "exact_within_new": [],
+    "exact_vs_base": []
+   }
+  },
+  "registry: both documents 'validated'; intake has no approvals; nothing staged/approved/published": {
+   "ok": true,
+   "detail": null
+  },
+  "CURRENT unchanged, still version 0001": {
+   "ok": true,
+   "detail": null
+  },
+  "no new store version, no STAGING pointer, no embeddings": {
+   "ok": true,
+   "detail": null
+  },
+  "kb.verify() ok, no warnings": {
+   "ok": true,
+   "detail": {
+    "ok": true,
+    "problems": [],
+    "warnings": [],
+    "versions": {
+     "public": {
+      "version": "0001",
+      "passages": 10732,
+      "documents": [
+       [
+        "yearbook-humanities",
+        1,
+        "published"
+       ],
+       [
+        "yearbook-sciences-v2",
+        1,
+        "published"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "journal: no open operations": {
+   "ok": true,
+   "detail": null
+  }
+ },
+ "failures": [],
+ "timings_s": {
+  "register_both": 0.16,
+  "validate_both_incl_tokenizer": 1.76
+ },
+ "registration": {
+  "roadmap": {
+   "no_op": false,
+   "doc_id": "roadmap-2027",
+   "doc_version": 1
+  },
+  "intake": {
+   "no_op": false,
+   "doc_id": "intake-2027-jan-feb",
+   "doc_version": 1
+  }
+ },
+ "validation": {
+  "roadmap-2027": {
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "stats": {
+    "passages": 21,
+    "unit_types": {
+     "roadmap_event": 21
+    },
+    "tokens_max": 293,
+    "tokens_median": 253,
+    "pages": [
+     1,
+     1
+    ],
+    "course_codes": {}
+   },
+   "page_count": 1
+  },
+  "intake-2027-jan-feb": {
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "stats": {
+    "passages": 226,
+    "unit_types": {
+     "programme": 222,
+     "information": 4
+    },
+    "tokens_max": 423,
+    "tokens_median": 198.0,
+    "pages": [
+     1,
+     37
+    ],
+    "course_codes": {}
+   },
+   "page_count": 37
+  }
+ },
+ "known_gaps": [
+  {
+   "record": "MSU-JF2027-146",
+   "programme": "Bachelor of Science in Biomedical Sciences",
+   "duration_as_advertised": "Not stated in the advert",
+   "modes_of_entry": [],
+   "note": "The advert states neither duration nor mode of entry (Stage 2 finding); the passage says so instead of guessing."
+  }
+ ],
+ "tokens": {
+  "roadmap-2027": {
+   "max": 293,
+   "median": 253,
+   "min": 231,
+   "over_512": 0,
+   "longest": "RM2027-11"
+  },
+  "intake-2027-jan-feb": {
+   "max": 423,
+   "median": 198.0,
+   "min": 101,
+   "over_512": 0,
+   "longest": "MSU-JF2027-058"
+  }
+ },
+ "duplicates": {
+  "exact_within_new": [],
+  "exact_vs_base": []
+ },
+ "near_duplicates_lexical": {
+  "method": "word-set Jaccard on passage bodies; vs base = Jaccard with the top BM25 match in version 0001. Semantic (cosine >= 0.97) near-duplicates are computed at staging (Stage 3.4).",
+  "within_new_threshold": 0.85,
+  "within_new_pairs": 271,
+  "within_new_by_document": {
+   "MSU": 259,
+   "RM2027": 12
+  },
+  "within_new_top": [
+   [
+    1.0,
+    "MSU-JF2027-047",
+    "MSU-JF2027-048"
+   ],
+   [
+    0.986,
+    "MSU-JF2027-048",
+    "MSU-JF2027-049"
+   ],
+   [
+    0.986,
+    "MSU-JF2027-047",
+    "MSU-JF2027-049"
+   ],
+   [
+    0.986,
+    "MSU-JF2027-046",
+    "MSU-JF2027-050"
+   ],
+   [
+    0.985,
+    "MSU-JF2027-175",
+    "MSU-JF2027-177"
+   ],
+   [
+    0.978,
+    "MSU-JF2027-142",
+    "MSU-JF2027-144"
+   ],
+   [
+    0.978,
+    "MSU-JF2027-123",
+    "MSU-JF2027-125"
+   ],
+   [
+    0.978,
+    "MSU-JF2027-120",
+    "MSU-JF2027-125"
+   ],
+   [
+    0.978,
+    "MSU-JF2027-120",
+    "MSU-JF2027-123"
+   ],
+   [
+    0.978,
+    "MSU-JF2027-118",
+    "MSU-JF2027-121"
+   ],
+   [
+    0.977,
+    "MSU-JF2027-119",
+    "MSU-JF2027-124"
+   ],
+   [
+    0.976,
+    "MSU-JF2027-199",
+    "MSU-JF2027-201"
+   ],
+   [
+    0.976,
+    "MSU-JF2027-009",
+    "MSU-JF2027-010"
+   ],
+   [
+    0.975,
+    "MSU-JF2027-155",
+    "MSU-JF2027-156"
+   ],
+   [
+    0.974,
+    "MSU-JF2027-115",
+    "MSU-JF2027-116"
+   ],
+   [
+    0.974,
+    "MSU-JF2027-112",
+    "MSU-JF2027-114"
+   ],
+   [
+    0.973,
+    "MSU-JF2027-049",
+    "MSU-JF2027-050"
+   ],
+   [
+    0.973,
+    "MSU-JF2027-046",
+    "MSU-JF2027-048"
+   ],
+   [
+    0.973,
+    "MSU-JF2027-046",
+    "MSU-JF2027-047"
+   ],
+   [
+    0.97,
+    "MSU-JF2027-198",
+    "MSU-JF2027-200"
+   ],
+   [
+    0.969,
+    "MSU-JF2027-068",
+    "MSU-JF2027-070"
+   ],
+   [
+    0.964,
+    "MSU-JF2027-166",
+    "MSU-JF2027-168"
+   ],
+   [
+    0.964,
+    "MSU-JF2027-014",
+    "MSU-JF2027-018"
+   ],
+   [
+    0.964,
+    "MSU-JF2027-007",
+    "MSU-JF2027-014"
+   ],
+   [
+    0.963,
+    "MSU-JF2027-157",
+    "MSU-JF2027-165"
+   ]
+  ],
+  "vs_base_max": 0.452,
+  "vs_base_over_0_5": [],
+  "vs_base_top5": [
+   [
+    0.452,
+    "MSU-JF2027-025",
+    1349,
+    "MSU Humanities Yearbook",
+    257
+   ],
+   [
+    0.442,
+    "MSU-JF2027-195",
+    4551,
+    "MSU Humanities Yearbook",
+    766
+   ],
+   [
+    0.44,
+    "MSU-JF2027-159",
+    9334,
+    "MSU Sciences Yearbook Vol. 2",
+    849
+   ],
+   [
+    0.433,
+    "MSU-JF2027-176",
+    3752,
+    "MSU Humanities Yearbook",
+    645
+   ],
+   [
+    0.43,
+    "MSU-JF2027-162",
+    9292,
+    "MSU Sciences Yearbook Vol. 2",
+    840
+   ]
+  ]
+ },
+ "samples": [
+  {
+   "doc_id": "roadmap-2027",
+   "passage_uid": "roadmap-2027/v1/RM2027-01",
+   "record_id": "RM2027-01",
+   "unit_type": "roadmap_event",
+   "source": "MSU 2027 Road Map",
+   "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+   "page": 1,
+   "heading": "Section: Main academic calendar > First Semester > Commencement of Registration",
+   "text": "[MSU 2027 Road Map, p. 1]\nDOCUMENT: Midlands State University – Road Map 2027 (Deputy Registrar, Academic Affairs)\nCALENDAR: Main academic calendar – Official dates for the commencement of semesters.\nSEMESTER: First Semester\nACTIVITY: Commencement of Registration\nDATES: 03/01/2027\nSTATUS: Approved 2027 road map for this project.\nSTART DATE: 3 January 2027\nEND DATE: 3 January 2027\nPREVIOUS ACTIVITY: None – first activity of this semester\nNEXT ACTIVITY: Orientation of New Students (Conventional) (15/02/2027 - 20/02/2027)\nPOSITION: 1 of 7 in the First Semester (Main academic calendar)\nSUMMARY: At Midlands State University in 2027, Commencement of Registration (Main academic calendar, First Semester) takes place on 3 January 2027.\nNOTE FROM THE ROAD MAP: The roadmap shows the official dates for the commencement of semesters. Dates for Block release and Weekend School may vary by faculty/programme.\nDATE FORMAT IN THE SOURCE: day/month/year\nRECORD: RM2027-01",
+   "tokens": 231
+  },
+  {
+   "doc_id": "roadmap-2027",
+   "passage_uid": "roadmap-2027/v1/RM2027-11",
+   "record_id": "RM2027-11",
+   "unit_type": "roadmap_event",
+   "source": "MSU 2027 Road Map",
+   "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+   "page": 1,
+   "heading": "Section: Main academic calendar > Second Semester > Semester Break",
+   "text": "[MSU 2027 Road Map, p. 1]\nDOCUMENT: Midlands State University – Road Map 2027 (Deputy Registrar, Academic Affairs)\nCALENDAR: Main academic calendar – Official dates for the commencement of semesters.\nSEMESTER: Second Semester\nACTIVITY: Semester Break\nDATES: 13/09/2027 - 17/09/2027\nDATE CORRECTION: The source PDF prints 13/09/2026 - 17/09/2027; the approved date is 13/09/2027 - 17/09/2027.\nSTATUS: Approved 2027 road map for this project.\nSTART DATE: 13 September 2027\nEND DATE: 17 September 2027\nPREVIOUS ACTIVITY: Face to face tuition – Third Quarter (02/08/2027 - 10/09/2027)\nNEXT ACTIVITY: Face to face tuition – Fourth Quarter (20/09/2027 – 30/10/2027)\nPOSITION: 4 of 6 in the Second Semester (Main academic calendar)\nSUMMARY: At Midlands State University in 2027, Semester Break (Main academic calendar, Second Semester) runs from 13 September 2027 to 17 September 2027.\nNOTE FROM THE ROAD MAP: The roadmap shows the official dates for the commencement of semesters. Dates for Block release and Weekend School may vary by faculty/programme.\nDATE FORMAT IN THE SOURCE: day/month/year\nRECORD: RM2027-11",
+   "tokens": 293
+  },
+  {
+   "doc_id": "roadmap-2027",
+   "passage_uid": "roadmap-2027/v1/RM2027-13",
+   "record_id": "RM2027-13",
+   "unit_type": "roadmap_event",
+   "source": "MSU 2027 Road Map",
+   "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+   "page": 1,
+   "heading": "Section: Main academic calendar > Second Semester > Examinations",
+   "text": "[MSU 2027 Road Map, p. 1]\nDOCUMENT: Midlands State University – Road Map 2027 (Deputy Registrar, Academic Affairs)\nCALENDAR: Main academic calendar – Official dates for the commencement of semesters.\nSEMESTER: Second Semester\nACTIVITY: Examinations\nDATES: 01/11/2027 - 12/11/2027\nDATE CORRECTION: The source PDF prints 01/11/2027 - 12/11/202; the approved date is 01/11/2027 - 12/11/2027.\nSTATUS: Approved 2027 road map for this project.\nSTART DATE: 1 November 2027\nEND DATE: 12 November 2027\nPREVIOUS ACTIVITY: Face to face tuition – Fourth Quarter (20/09/2027 – 30/10/2027)\nNEXT ACTIVITY: None – last activity of this semester\nPOSITION: 6 of 6 in the Second Semester (Main academic calendar)\nSUMMARY: At Midlands State University in 2027, Examinations (Main academic calendar, Second Semester) runs from 1 November 2027 to 12 November 2027.\nNOTE FROM THE ROAD MAP: The roadmap shows the official dates for the commencement of semesters. Dates for Block release and Weekend School may vary by faculty/programme.\nDATE FORMAT IN THE SOURCE: day/month/year\nRECORD: RM2027-13",
+   "tokens": 274
+  },
+  {
+   "doc_id": "roadmap-2027",
+   "passage_uid": "roadmap-2027/v1/RM2027-21",
+   "record_id": "RM2027-21",
+   "unit_type": "roadmap_event",
+   "source": "MSU 2027 Road Map",
+   "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+   "page": 1,
+   "heading": "Section: Faculty of Education Block Release > Second Semester > Examinations",
+   "text": "[MSU 2027 Road Map, p. 1]\nDOCUMENT: Midlands State University – Road Map 2027 (Deputy Registrar, Academic Affairs)\nCALENDAR: Faculty of Education Block Release – Dates for the Faculty of Education Block Release programmes.\nSEMESTER: Second Semester\nACTIVITY: Examinations\nDATES: 01/11/2027 - 12/11/2027\nSTATUS: Approved 2027 road map for this project.\nSTART DATE: 1 November 2027\nEND DATE: 12 November 2027\nPREVIOUS ACTIVITY: Online Learning (13/09/2027 - 29/10/2027)\nNEXT ACTIVITY: None – last activity of this semester\nPOSITION: 4 of 4 in the Second Semester (Faculty of Education Block Release)\nSUMMARY: At Midlands State University in 2027, Examinations (Faculty of Education Block Release, Second Semester) runs from 1 November 2027 to 12 November 2027.\nNOTE FROM THE ROAD MAP: The roadmap shows the official dates for the commencement of semesters. Dates for Block release and Weekend School may vary by faculty/programme.\nDATE FORMAT IN THE SOURCE: day/month/year\nRECORD: RM2027-21",
+   "tokens": 240
+  },
+  {
+   "doc_id": "intake-2027-jan-feb",
+   "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-001",
+   "record_id": "MSU-JF2027-001",
+   "unit_type": "programme",
+   "source": "MSU January/February 2027 Intake Advert",
+   "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+   "page": 1,
+   "heading": "Section: Faculty of Agriculture, Environment and Natural Resources Management > Bachelor of Science Honours Degree in Agricultural Economics and Development",
+   "text": "[MSU January/February 2027 Intake Advert, p. 1]\nFACULTY: Faculty of Agriculture, Environment and Natural Resources Management\nFACULTY NOTE: (‘O’ Level Maths required for all programmes)\nPROGRAMME: Bachelor of Science Honours Degree in Agricultural Economics and Development\nLEVEL: Undergraduate – Bachelor’s degree\nDURATION AS ADVERTISED: 4 years\nENTRY REQUIREMENTS: Any two A level passes in Sciences or Commercial subjects preferably Agriculture, Mathematics, Economics, Management of Business, Sociology, Accounts, Geography and Biology\nMODES OF ENTRY: Gweru Conventional\nINTAKE ADVERT: January/February 2027\nGENERAL ADVERT REQUIREMENT: Applicants must hold at least 5 ‘O’ level passes at grade C or better, including ENGLISH LANGUAGE in addition to the specified ‘A’ level subjects or diplomas.\nSOURCE: Original MSU January/February 2027 intake advert, page 1",
+   "tokens": 196
+  },
+  {
+   "doc_id": "intake-2027-jan-feb",
+   "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-107",
+   "record_id": "MSU-JF2027-107",
+   "unit_type": "programme",
+   "source": "MSU January/February 2027 Intake Advert",
+   "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+   "page": 18,
+   "heading": "Section: Faculty of Education > Bachelor of Education Honours Degree in Science and Applied Technologies",
+   "text": "[MSU January/February 2027 Intake Advert, p. 18]\nFACULTY: Faculty of Education\nFACULTY NOTE: All programmes, unless indicated otherwise, commence in January 2027\nPROGRAMME: Bachelor of Education Honours Degree in Science and Applied Technologies\nLEVEL: Undergraduate – Bachelor’s degree\nDURATION AS ADVERTISED: 5 years\nENTRY REQUIREMENTS: Five (5) ‘O’ level passes including English language, Science and Mathematics.\nMODES OF ENTRY: Gweru Conventional (commences February 2027)\nCOMMENCEMENT: February 2027\nINTAKE ADVERT: January/February 2027\nGENERAL ADVERT REQUIREMENT: Applicants must hold at least 5 ‘O’ level passes at grade C or better, including ENGLISH LANGUAGE in addition to the specified ‘A’ level subjects or diplomas.\nSOURCE: Original MSU January/February 2027 intake advert, page 18",
+   "tokens": 184
+  },
+  {
+   "doc_id": "intake-2027-jan-feb",
+   "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-133",
+   "record_id": "MSU-JF2027-133",
+   "unit_type": "programme",
+   "source": "MSU January/February 2027 Intake Advert",
+   "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+   "page": 23,
+   "heading": "Section: Faculty of Engineering and Geosciences > Bachelor of Engineering Honours Degree in Mining Engineering",
+   "text": "[MSU January/February 2027 Intake Advert, p. 23]\nFACULTY: Faculty of Engineering and Geosciences\nFACULTY NOTE: (‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.\nPROGRAMME: Bachelor of Engineering Honours Degree in Mining Engineering\nLEVEL: Undergraduate – Bachelor’s degree\nDURATION AS ADVERTISED: 3 Years\nENTRY REQUIREMENTS: i. Passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent. National Diploma in Mining, Geology, Survey, or any other relevant diploma from a recognized institution. ii. Should be currently employed within the mining industry. Attach proof of employment from your Human Resources office.\nMODES OF ENTRY: Zvishavane Visiting\nCOMMENCEMENT: August 2027\nAPPLICATION CHANNEL: Online only\nINTAKE ADVERT: January/February 2027\nGENERAL ADVERT REQUIREMENT: Applicants must hold at least 5 ‘O’ level passes at grade C or better, including ENGLISH LANGUAGE in addition to the specified ‘A’ level subjects or diplomas.\nSOURCE: Original MSU January/February 2027 intake advert, page 23",
+   "tokens": 255
+  },
+  {
+   "doc_id": "intake-2027-jan-feb",
+   "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-146",
+   "record_id": "MSU-JF2027-146",
+   "unit_type": "programme",
+   "source": "MSU January/February 2027 Intake Advert",
+   "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+   "page": 26,
+   "heading": "Section: Faculty of Medicine and Health Sciences > Bachelor of Science in Biomedical Sciences",
+   "text": "[MSU January/February 2027 Intake Advert, p. 26]\nFACULTY: Faculty of Medicine and Health Sciences\nFACULTY NOTE: ‘O’ Level Mathematics is a Requirement. The programme commences in August 2027. Applications to be submitted online only.\nPROGRAMME: Bachelor of Science in Biomedical Sciences\nLEVEL: Undergraduate – Bachelor’s degree\nDURATION AS ADVERTISED: Not stated in the advert\nENTRY REQUIREMENTS: • ‘A’ Level Passes in Chemistry with an A and any two in Mathematics, Physics or Biology\nMODES OF ENTRY: Not stated in the original advert\nCOMMENCEMENT: August 2027\nAPPLICATION CHANNEL: Online only\nINTAKE ADVERT: January/February 2027\nGENERAL ADVERT REQUIREMENT: Applicants must hold at least 5 ‘O’ level passes at grade C or better, including ENGLISH LANGUAGE in addition to the specified ‘A’ level subjects or diplomas.\nSOURCE: Original MSU January/February 2027 intake advert, page 26",
+   "tokens": 203
+  },
+  {
+   "doc_id": "intake-2027-jan-feb",
+   "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-INFO-02",
+   "record_id": "MSU-JF2027-INFO-02",
+   "unit_type": "information",
+   "source": "MSU January/February 2027 Intake Advert",
+   "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+   "page": 36,
+   "heading": "Section: application_fee",
+   "text": "[MSU January/February 2027 Intake Advert, p. 36]\nTOPIC: Application fee - MSU January/February 2027 intake\nAPPLICATION FEE: Application fee is US$10 or ZIG equivalent at interbank rate for local applicants and US$50 for International applicants. NB*APPLICATION FEE IS NON-REFUNDABLE.\nINTAKE ADVERT: January/February 2027\nSOURCE: Original MSU January/February 2027 intake advert, page 36",
+   "tokens": 101
+  },
+  {
+   "doc_id": "intake-2027-jan-feb",
+   "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-INFO-03",
+   "record_id": "MSU-JF2027-INFO-03",
+   "unit_type": "information",
+   "source": "MSU January/February 2027 Intake Advert",
+   "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+   "page": 36,
+   "heading": "Section: fee_payment_banking_details",
+   "text": "[MSU January/February 2027 Intake Advert, p. 36]\nTOPIC: Paying the application fee - bank accounts - MSU January/February 2027 intake\nBANKING DETAILS: Completed application form should be accompanied by an original deposit slip of the application fee. The application fee should be deposited in the University’s ZB BANK ACCOUNT (ZWL) 4575486039200, Banc ABC (ZWL) 28624025502017 (USD) 28624026633189 AND CBZ ACCOUNT (ZWL) 01820772520046, (USD)10720772520202 Branch Sort Code – 107, Swift Code – COBZZWHA.\nINTAKE ADVERT: January/February 2027\nSOURCE: Original MSU January/February 2027 intake advert, page 36",
+   "tokens": 183
+  }
+ ],
+ "traceability": {
+  "roadmap-2027": {
+   "title": "MSU 2027 Road Map",
+   "source_label": "MSU 2027 Road Map",
+   "status": "validated",
+   "source_file": {
+    "name": "2027 DRAFT ROADMAP fin (1).pdf",
+    "path": "uploads/c9790a92ba690fcf02b77d9cbadd057f36c3be369e7997eecdbd52df9c6c3b75/2027 DRAFT ROADMAP fin (1).pdf",
+    "sha256": "c9790a92ba690fcf02b77d9cbadd057f36c3be369e7997eecdbd52df9c6c3b75"
+   },
+   "dataset": {
+    "name": "2027_ROADMAP_RAG_Ready_v2.json",
+    "path": "uploads/27f98ef3c0f4df82874f2db495dc7ca3fd4d3838ad396db004accb3d07f4ed17/2027_ROADMAP_RAG_Ready_v2.json",
+    "sha256": "27f98ef3c0f4df82874f2db495dc7ca3fd4d3838ad396db004accb3d07f4ed17"
+   },
+   "units": {
+    "count": 21,
+    "path": "units/roadmap-2027@v1.jsonl",
+    "sha256": "5efd4cb7b73df75025b482a98738e49ab32dc904557581868af7eff325ad685c"
+   },
+   "validation_report": "validation/roadmap-2027@v1.json",
+   "passages": [
+    {
+     "record_id": "RM2027-01",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-01"
+    },
+    {
+     "record_id": "RM2027-02",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-02"
+    },
+    {
+     "record_id": "RM2027-03",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-03"
+    },
+    {
+     "record_id": "RM2027-04",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-04"
+    },
+    {
+     "record_id": "RM2027-05",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-05"
+    },
+    {
+     "record_id": "RM2027-06",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-06"
+    },
+    {
+     "record_id": "RM2027-07",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-07"
+    },
+    {
+     "record_id": "RM2027-08",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-08"
+    },
+    {
+     "record_id": "RM2027-09",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-09"
+    },
+    {
+     "record_id": "RM2027-10",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-10"
+    },
+    {
+     "record_id": "RM2027-11",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-11"
+    },
+    {
+     "record_id": "RM2027-12",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-12"
+    },
+    {
+     "record_id": "RM2027-13",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-13"
+    },
+    {
+     "record_id": "RM2027-14",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-14"
+    },
+    {
+     "record_id": "RM2027-15",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-15"
+    },
+    {
+     "record_id": "RM2027-16",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-16"
+    },
+    {
+     "record_id": "RM2027-17",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-17"
+    },
+    {
+     "record_id": "RM2027-18",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-18"
+    },
+    {
+     "record_id": "RM2027-19",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-19"
+    },
+    {
+     "record_id": "RM2027-20",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-20"
+    },
+    {
+     "record_id": "RM2027-21",
+     "unit_type": "roadmap_event",
+     "page": 1,
+     "file_name": "2027 DRAFT ROADMAP fin (1).pdf",
+     "passage_uid": "roadmap-2027/v1/RM2027-21"
+    }
+   ]
+  },
+  "intake-2027-jan-feb": {
+   "title": "MSU January/February 2027 Intake Advert",
+   "source_label": "MSU January/February 2027 Intake Advert",
+   "status": "validated",
+   "source_file": {
+    "name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+    "path": "uploads/c6c767189da07a9b5b0bfaca0aa8583eb2db68ebcb4c3b05ea6f09a6b8267c95/MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+    "sha256": "c6c767189da07a9b5b0bfaca0aa8583eb2db68ebcb4c3b05ea6f09a6b8267c95"
+   },
+   "dataset": {
+    "name": "MSU_2027_Intake_Corrected_v2.json",
+    "path": "uploads/a91f01d6c67f3f90e21d99f03408eed7d01a18d9dcd8def1ea3d76898a470cbc/MSU_2027_Intake_Corrected_v2.json",
+    "sha256": "a91f01d6c67f3f90e21d99f03408eed7d01a18d9dcd8def1ea3d76898a470cbc"
+   },
+   "units": {
+    "count": 226,
+    "path": "units/intake-2027-jan-feb@v1.jsonl",
+    "sha256": "4e0b07511da77ec0b02ac2e1a629c7126055b978d08a36385229e830bc0ef9c8"
+   },
+   "validation_report": "validation/intake-2027-jan-feb@v1.json",
+   "passages": [
+    {
+     "record_id": "MSU-JF2027-001",
+     "unit_type": "programme",
+     "page": 1,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-001"
+    },
+    {
+     "record_id": "MSU-JF2027-002",
+     "unit_type": "programme",
+     "page": 1,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-002"
+    },
+    {
+     "record_id": "MSU-JF2027-003",
+     "unit_type": "programme",
+     "page": 1,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-003"
+    },
+    {
+     "record_id": "MSU-JF2027-004",
+     "unit_type": "programme",
+     "page": 1,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-004"
+    },
+    {
+     "record_id": "MSU-JF2027-005",
+     "unit_type": "programme",
+     "page": 2,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-005"
+    },
+    {
+     "record_id": "MSU-JF2027-006",
+     "unit_type": "programme",
+     "page": 2,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-006"
+    },
+    {
+     "record_id": "MSU-JF2027-007",
+     "unit_type": "programme",
+     "page": 2,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-007"
+    },
+    {
+     "record_id": "MSU-JF2027-008",
+     "unit_type": "programme",
+     "page": 2,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-008"
+    },
+    {
+     "record_id": "MSU-JF2027-009",
+     "unit_type": "programme",
+     "page": 2,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-009"
+    },
+    {
+     "record_id": "MSU-JF2027-010",
+     "unit_type": "programme",
+     "page": 2,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-010"
+    },
+    {
+     "record_id": "MSU-JF2027-011",
+     "unit_type": "programme",
+     "page": 2,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-011"
+    },
+    {
+     "record_id": "MSU-JF2027-012",
+     "unit_type": "programme",
+     "page": 3,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-012"
+    },
+    {
+     "record_id": "MSU-JF2027-013",
+     "unit_type": "programme",
+     "page": 3,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-013"
+    },
+    {
+     "record_id": "MSU-JF2027-014",
+     "unit_type": "programme",
+     "page": 3,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-014"
+    },
+    {
+     "record_id": "MSU-JF2027-015",
+     "unit_type": "programme",
+     "page": 3,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-015"
+    },
+    {
+     "record_id": "MSU-JF2027-016",
+     "unit_type": "programme",
+     "page": 3,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-016"
+    },
+    {
+     "record_id": "MSU-JF2027-017",
+     "unit_type": "programme",
+     "page": 3,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-017"
+    },
+    {
+     "record_id": "MSU-JF2027-018",
+     "unit_type": "programme",
+     "page": 3,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-018"
+    },
+    {
+     "record_id": "MSU-JF2027-019",
+     "unit_type": "programme",
+     "page": 3,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-019"
+    },
+    {
+     "record_id": "MSU-JF2027-020",
+     "unit_type": "programme",
+     "page": 4,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-020"
+    },
+    {
+     "record_id": "MSU-JF2027-021",
+     "unit_type": "programme",
+     "page": 4,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-021"
+    },
+    {
+     "record_id": "MSU-JF2027-022",
+     "unit_type": "programme",
+     "page": 4,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-022"
+    },
+    {
+     "record_id": "MSU-JF2027-023",
+     "unit_type": "programme",
+     "page": 4,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-023"
+    },
+    {
+     "record_id": "MSU-JF2027-024",
+     "unit_type": "programme",
+     "page": 4,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-024"
+    },
+    {
+     "record_id": "MSU-JF2027-025",
+     "unit_type": "programme",
+     "page": 4,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-025"
+    },
+    {
+     "record_id": "MSU-JF2027-026",
+     "unit_type": "programme",
+     "page": 4,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-026"
+    },
+    {
+     "record_id": "MSU-JF2027-027",
+     "unit_type": "programme",
+     "page": 5,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-027"
+    },
+    {
+     "record_id": "MSU-JF2027-028",
+     "unit_type": "programme",
+     "page": 5,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-028"
+    },
+    {
+     "record_id": "MSU-JF2027-029",
+     "unit_type": "programme",
+     "page": 5,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-029"
+    },
+    {
+     "record_id": "MSU-JF2027-030",
+     "unit_type": "programme",
+     "page": 5,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-030"
+    },
+    {
+     "record_id": "MSU-JF2027-031",
+     "unit_type": "programme",
+     "page": 5,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-031"
+    },
+    {
+     "record_id": "MSU-JF2027-032",
+     "unit_type": "programme",
+     "page": 5,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-032"
+    },
+    {
+     "record_id": "MSU-JF2027-033",
+     "unit_type": "programme",
+     "page": 5,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-033"
+    },
+    {
+     "record_id": "MSU-JF2027-034",
+     "unit_type": "programme",
+     "page": 6,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-034"
+    },
+    {
+     "record_id": "MSU-JF2027-035",
+     "unit_type": "programme",
+     "page": 6,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-035"
+    },
+    {
+     "record_id": "MSU-JF2027-036",
+     "unit_type": "programme",
+     "page": 6,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-036"
+    },
+    {
+     "record_id": "MSU-JF2027-037",
+     "unit_type": "programme",
+     "page": 6,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-037"
+    },
+    {
+     "record_id": "MSU-JF2027-038",
+     "unit_type": "programme",
+     "page": 6,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-038"
+    },
+    {
+     "record_id": "MSU-JF2027-039",
+     "unit_type": "programme",
+     "page": 6,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-039"
+    },
+    {
+     "record_id": "MSU-JF2027-040",
+     "unit_type": "programme",
+     "page": 6,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-040"
+    },
+    {
+     "record_id": "MSU-JF2027-041",
+     "unit_type": "programme",
+     "page": 6,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-041"
+    },
+    {
+     "record_id": "MSU-JF2027-042",
+     "unit_type": "programme",
+     "page": 6,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-042"
+    },
+    {
+     "record_id": "MSU-JF2027-043",
+     "unit_type": "programme",
+     "page": 7,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-043"
+    },
+    {
+     "record_id": "MSU-JF2027-044",
+     "unit_type": "programme",
+     "page": 7,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-044"
+    },
+    {
+     "record_id": "MSU-JF2027-045",
+     "unit_type": "programme",
+     "page": 7,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-045"
+    },
+    {
+     "record_id": "MSU-JF2027-046",
+     "unit_type": "programme",
+     "page": 7,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-046"
+    },
+    {
+     "record_id": "MSU-JF2027-047",
+     "unit_type": "programme",
+     "page": 7,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-047"
+    },
+    {
+     "record_id": "MSU-JF2027-048",
+     "unit_type": "programme",
+     "page": 7,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-048"
+    },
+    {
+     "record_id": "MSU-JF2027-049",
+     "unit_type": "programme",
+     "page": 7,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-049"
+    },
+    {
+     "record_id": "MSU-JF2027-050",
+     "unit_type": "programme",
+     "page": 7,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-050"
+    },
+    {
+     "record_id": "MSU-JF2027-051",
+     "unit_type": "programme",
+     "page": 7,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-051"
+    },
+    {
+     "record_id": "MSU-JF2027-052",
+     "unit_type": "programme",
+     "page": 8,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-052"
+    },
+    {
+     "record_id": "MSU-JF2027-053",
+     "unit_type": "programme",
+     "page": 8,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-053"
+    },
+    {
+     "record_id": "MSU-JF2027-054",
+     "unit_type": "programme",
+     "page": 8,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-054"
+    },
+    {
+     "record_id": "MSU-JF2027-055",
+     "unit_type": "programme",
+     "page": 8,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-055"
+    },
+    {
+     "record_id": "MSU-JF2027-056",
+     "unit_type": "programme",
+     "page": 8,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-056"
+    },
+    {
+     "record_id": "MSU-JF2027-057",
+     "unit_type": "programme",
+     "page": 9,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-057"
+    },
+    {
+     "record_id": "MSU-JF2027-058",
+     "unit_type": "programme",
+     "page": 9,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-058"
+    },
+    {
+     "record_id": "MSU-JF2027-059",
+     "unit_type": "programme",
+     "page": 10,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-059"
+    },
+    {
+     "record_id": "MSU-JF2027-060",
+     "unit_type": "programme",
+     "page": 10,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-060"
+    },
+    {
+     "record_id": "MSU-JF2027-061",
+     "unit_type": "programme",
+     "page": 10,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-061"
+    },
+    {
+     "record_id": "MSU-JF2027-062",
+     "unit_type": "programme",
+     "page": 10,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-062"
+    },
+    {
+     "record_id": "MSU-JF2027-063",
+     "unit_type": "programme",
+     "page": 10,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-063"
+    },
+    {
+     "record_id": "MSU-JF2027-064",
+     "unit_type": "programme",
+     "page": 11,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-064"
+    },
+    {
+     "record_id": "MSU-JF2027-065",
+     "unit_type": "programme",
+     "page": 11,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-065"
+    },
+    {
+     "record_id": "MSU-JF2027-066",
+     "unit_type": "programme",
+     "page": 11,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-066"
+    },
+    {
+     "record_id": "MSU-JF2027-067",
+     "unit_type": "programme",
+     "page": 11,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-067"
+    },
+    {
+     "record_id": "MSU-JF2027-068",
+     "unit_type": "programme",
+     "page": 11,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-068"
+    },
+    {
+     "record_id": "MSU-JF2027-069",
+     "unit_type": "programme",
+     "page": 12,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-069"
+    },
+    {
+     "record_id": "MSU-JF2027-070",
+     "unit_type": "programme",
+     "page": 12,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-070"
+    },
+    {
+     "record_id": "MSU-JF2027-071",
+     "unit_type": "programme",
+     "page": 12,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-071"
+    },
+    {
+     "record_id": "MSU-JF2027-072",
+     "unit_type": "programme",
+     "page": 12,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-072"
+    },
+    {
+     "record_id": "MSU-JF2027-073",
+     "unit_type": "programme",
+     "page": 12,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-073"
+    },
+    {
+     "record_id": "MSU-JF2027-074",
+     "unit_type": "programme",
+     "page": 12,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-074"
+    },
+    {
+     "record_id": "MSU-JF2027-075",
+     "unit_type": "programme",
+     "page": 12,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-075"
+    },
+    {
+     "record_id": "MSU-JF2027-076",
+     "unit_type": "programme",
+     "page": 13,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-076"
+    },
+    {
+     "record_id": "MSU-JF2027-077",
+     "unit_type": "programme",
+     "page": 13,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-077"
+    },
+    {
+     "record_id": "MSU-JF2027-078",
+     "unit_type": "programme",
+     "page": 13,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-078"
+    },
+    {
+     "record_id": "MSU-JF2027-079",
+     "unit_type": "programme",
+     "page": 13,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-079"
+    },
+    {
+     "record_id": "MSU-JF2027-080",
+     "unit_type": "programme",
+     "page": 13,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-080"
+    },
+    {
+     "record_id": "MSU-JF2027-081",
+     "unit_type": "programme",
+     "page": 13,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-081"
+    },
+    {
+     "record_id": "MSU-JF2027-082",
+     "unit_type": "programme",
+     "page": 13,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-082"
+    },
+    {
+     "record_id": "MSU-JF2027-083",
+     "unit_type": "programme",
+     "page": 14,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-083"
+    },
+    {
+     "record_id": "MSU-JF2027-084",
+     "unit_type": "programme",
+     "page": 14,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-084"
+    },
+    {
+     "record_id": "MSU-JF2027-085",
+     "unit_type": "programme",
+     "page": 14,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-085"
+    },
+    {
+     "record_id": "MSU-JF2027-086",
+     "unit_type": "programme",
+     "page": 14,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-086"
+    },
+    {
+     "record_id": "MSU-JF2027-087",
+     "unit_type": "programme",
+     "page": 14,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-087"
+    },
+    {
+     "record_id": "MSU-JF2027-088",
+     "unit_type": "programme",
+     "page": 15,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-088"
+    },
+    {
+     "record_id": "MSU-JF2027-089",
+     "unit_type": "programme",
+     "page": 15,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-089"
+    },
+    {
+     "record_id": "MSU-JF2027-090",
+     "unit_type": "programme",
+     "page": 15,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-090"
+    },
+    {
+     "record_id": "MSU-JF2027-091",
+     "unit_type": "programme",
+     "page": 15,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-091"
+    },
+    {
+     "record_id": "MSU-JF2027-092",
+     "unit_type": "programme",
+     "page": 15,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-092"
+    },
+    {
+     "record_id": "MSU-JF2027-093",
+     "unit_type": "programme",
+     "page": 16,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-093"
+    },
+    {
+     "record_id": "MSU-JF2027-094",
+     "unit_type": "programme",
+     "page": 16,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-094"
+    },
+    {
+     "record_id": "MSU-JF2027-095",
+     "unit_type": "programme",
+     "page": 16,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-095"
+    },
+    {
+     "record_id": "MSU-JF2027-096",
+     "unit_type": "programme",
+     "page": 16,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-096"
+    },
+    {
+     "record_id": "MSU-JF2027-097",
+     "unit_type": "programme",
+     "page": 16,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-097"
+    },
+    {
+     "record_id": "MSU-JF2027-098",
+     "unit_type": "programme",
+     "page": 16,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-098"
+    },
+    {
+     "record_id": "MSU-JF2027-099",
+     "unit_type": "programme",
+     "page": 17,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-099"
+    },
+    {
+     "record_id": "MSU-JF2027-100",
+     "unit_type": "programme",
+     "page": 17,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-100"
+    },
+    {
+     "record_id": "MSU-JF2027-101",
+     "unit_type": "programme",
+     "page": 17,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-101"
+    },
+    {
+     "record_id": "MSU-JF2027-102",
+     "unit_type": "programme",
+     "page": 17,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-102"
+    },
+    {
+     "record_id": "MSU-JF2027-103",
+     "unit_type": "programme",
+     "page": 17,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-103"
+    },
+    {
+     "record_id": "MSU-JF2027-104",
+     "unit_type": "programme",
+     "page": 17,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-104"
+    },
+    {
+     "record_id": "MSU-JF2027-105",
+     "unit_type": "programme",
+     "page": 18,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-105"
+    },
+    {
+     "record_id": "MSU-JF2027-106",
+     "unit_type": "programme",
+     "page": 18,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-106"
+    },
+    {
+     "record_id": "MSU-JF2027-107",
+     "unit_type": "programme",
+     "page": 18,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-107"
+    },
+    {
+     "record_id": "MSU-JF2027-108",
+     "unit_type": "programme",
+     "page": 18,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-108"
+    },
+    {
+     "record_id": "MSU-JF2027-109",
+     "unit_type": "programme",
+     "page": 18,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-109"
+    },
+    {
+     "record_id": "MSU-JF2027-110",
+     "unit_type": "programme",
+     "page": 18,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-110"
+    },
+    {
+     "record_id": "MSU-JF2027-111",
+     "unit_type": "programme",
+     "page": 19,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-111"
+    },
+    {
+     "record_id": "MSU-JF2027-112",
+     "unit_type": "programme",
+     "page": 19,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-112"
+    },
+    {
+     "record_id": "MSU-JF2027-113",
+     "unit_type": "programme",
+     "page": 19,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-113"
+    },
+    {
+     "record_id": "MSU-JF2027-114",
+     "unit_type": "programme",
+     "page": 19,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-114"
+    },
+    {
+     "record_id": "MSU-JF2027-115",
+     "unit_type": "programme",
+     "page": 19,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-115"
+    },
+    {
+     "record_id": "MSU-JF2027-116",
+     "unit_type": "programme",
+     "page": 19,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-116"
+    },
+    {
+     "record_id": "MSU-JF2027-117",
+     "unit_type": "programme",
+     "page": 20,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-117"
+    },
+    {
+     "record_id": "MSU-JF2027-118",
+     "unit_type": "programme",
+     "page": 20,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-118"
+    },
+    {
+     "record_id": "MSU-JF2027-119",
+     "unit_type": "programme",
+     "page": 20,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-119"
+    },
+    {
+     "record_id": "MSU-JF2027-120",
+     "unit_type": "programme",
+     "page": 20,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-120"
+    },
+    {
+     "record_id": "MSU-JF2027-121",
+     "unit_type": "programme",
+     "page": 20,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-121"
+    },
+    {
+     "record_id": "MSU-JF2027-122",
+     "unit_type": "programme",
+     "page": 20,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-122"
+    },
+    {
+     "record_id": "MSU-JF2027-123",
+     "unit_type": "programme",
+     "page": 20,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-123"
+    },
+    {
+     "record_id": "MSU-JF2027-124",
+     "unit_type": "programme",
+     "page": 20,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-124"
+    },
+    {
+     "record_id": "MSU-JF2027-125",
+     "unit_type": "programme",
+     "page": 20,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-125"
+    },
+    {
+     "record_id": "MSU-JF2027-126",
+     "unit_type": "programme",
+     "page": 21,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-126"
+    },
+    {
+     "record_id": "MSU-JF2027-127",
+     "unit_type": "programme",
+     "page": 21,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-127"
+    },
+    {
+     "record_id": "MSU-JF2027-128",
+     "unit_type": "programme",
+     "page": 21,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-128"
+    },
+    {
+     "record_id": "MSU-JF2027-129",
+     "unit_type": "programme",
+     "page": 22,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-129"
+    },
+    {
+     "record_id": "MSU-JF2027-130",
+     "unit_type": "programme",
+     "page": 22,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-130"
+    },
+    {
+     "record_id": "MSU-JF2027-131",
+     "unit_type": "programme",
+     "page": 23,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-131"
+    },
+    {
+     "record_id": "MSU-JF2027-132",
+     "unit_type": "programme",
+     "page": 23,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-132"
+    },
+    {
+     "record_id": "MSU-JF2027-133",
+     "unit_type": "programme",
+     "page": 23,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-133"
+    },
+    {
+     "record_id": "MSU-JF2027-134",
+     "unit_type": "programme",
+     "page": 23,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-134"
+    },
+    {
+     "record_id": "MSU-JF2027-135",
+     "unit_type": "programme",
+     "page": 24,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-135"
+    },
+    {
+     "record_id": "MSU-JF2027-136",
+     "unit_type": "programme",
+     "page": 24,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-136"
+    },
+    {
+     "record_id": "MSU-JF2027-137",
+     "unit_type": "programme",
+     "page": 24,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-137"
+    },
+    {
+     "record_id": "MSU-JF2027-138",
+     "unit_type": "programme",
+     "page": 24,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-138"
+    },
+    {
+     "record_id": "MSU-JF2027-139",
+     "unit_type": "programme",
+     "page": 24,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-139"
+    },
+    {
+     "record_id": "MSU-JF2027-140",
+     "unit_type": "programme",
+     "page": 25,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-140"
+    },
+    {
+     "record_id": "MSU-JF2027-141",
+     "unit_type": "programme",
+     "page": 25,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-141"
+    },
+    {
+     "record_id": "MSU-JF2027-142",
+     "unit_type": "programme",
+     "page": 25,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-142"
+    },
+    {
+     "record_id": "MSU-JF2027-143",
+     "unit_type": "programme",
+     "page": 25,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-143"
+    },
+    {
+     "record_id": "MSU-JF2027-144",
+     "unit_type": "programme",
+     "page": 25,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-144"
+    },
+    {
+     "record_id": "MSU-JF2027-145",
+     "unit_type": "programme",
+     "page": 26,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-145"
+    },
+    {
+     "record_id": "MSU-JF2027-146",
+     "unit_type": "programme",
+     "page": 26,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-146"
+    },
+    {
+     "record_id": "MSU-JF2027-147",
+     "unit_type": "programme",
+     "page": 26,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-147"
+    },
+    {
+     "record_id": "MSU-JF2027-148",
+     "unit_type": "programme",
+     "page": 26,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-148"
+    },
+    {
+     "record_id": "MSU-JF2027-149",
+     "unit_type": "programme",
+     "page": 27,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-149"
+    },
+    {
+     "record_id": "MSU-JF2027-150",
+     "unit_type": "programme",
+     "page": 27,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-150"
+    },
+    {
+     "record_id": "MSU-JF2027-151",
+     "unit_type": "programme",
+     "page": 27,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-151"
+    },
+    {
+     "record_id": "MSU-JF2027-152",
+     "unit_type": "programme",
+     "page": 27,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-152"
+    },
+    {
+     "record_id": "MSU-JF2027-153",
+     "unit_type": "programme",
+     "page": 27,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-153"
+    },
+    {
+     "record_id": "MSU-JF2027-154",
+     "unit_type": "programme",
+     "page": 27,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-154"
+    },
+    {
+     "record_id": "MSU-JF2027-155",
+     "unit_type": "programme",
+     "page": 28,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-155"
+    },
+    {
+     "record_id": "MSU-JF2027-156",
+     "unit_type": "programme",
+     "page": 28,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-156"
+    },
+    {
+     "record_id": "MSU-JF2027-157",
+     "unit_type": "programme",
+     "page": 28,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-157"
+    },
+    {
+     "record_id": "MSU-JF2027-158",
+     "unit_type": "programme",
+     "page": 28,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-158"
+    },
+    {
+     "record_id": "MSU-JF2027-159",
+     "unit_type": "programme",
+     "page": 28,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-159"
+    },
+    {
+     "record_id": "MSU-JF2027-160",
+     "unit_type": "programme",
+     "page": 29,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-160"
+    },
+    {
+     "record_id": "MSU-JF2027-161",
+     "unit_type": "programme",
+     "page": 29,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-161"
+    },
+    {
+     "record_id": "MSU-JF2027-162",
+     "unit_type": "programme",
+     "page": 29,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-162"
+    },
+    {
+     "record_id": "MSU-JF2027-163",
+     "unit_type": "programme",
+     "page": 29,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-163"
+    },
+    {
+     "record_id": "MSU-JF2027-164",
+     "unit_type": "programme",
+     "page": 29,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-164"
+    },
+    {
+     "record_id": "MSU-JF2027-165",
+     "unit_type": "programme",
+     "page": 29,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-165"
+    },
+    {
+     "record_id": "MSU-JF2027-166",
+     "unit_type": "programme",
+     "page": 30,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-166"
+    },
+    {
+     "record_id": "MSU-JF2027-167",
+     "unit_type": "programme",
+     "page": 30,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-167"
+    },
+    {
+     "record_id": "MSU-JF2027-168",
+     "unit_type": "programme",
+     "page": 30,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-168"
+    },
+    {
+     "record_id": "MSU-JF2027-169",
+     "unit_type": "programme",
+     "page": 30,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-169"
+    },
+    {
+     "record_id": "MSU-JF2027-170",
+     "unit_type": "programme",
+     "page": 30,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-170"
+    },
+    {
+     "record_id": "MSU-JF2027-171",
+     "unit_type": "programme",
+     "page": 30,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-171"
+    },
+    {
+     "record_id": "MSU-JF2027-172",
+     "unit_type": "programme",
+     "page": 31,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-172"
+    },
+    {
+     "record_id": "MSU-JF2027-173",
+     "unit_type": "programme",
+     "page": 31,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-173"
+    },
+    {
+     "record_id": "MSU-JF2027-174",
+     "unit_type": "programme",
+     "page": 31,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-174"
+    },
+    {
+     "record_id": "MSU-JF2027-175",
+     "unit_type": "programme",
+     "page": 31,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-175"
+    },
+    {
+     "record_id": "MSU-JF2027-176",
+     "unit_type": "programme",
+     "page": 31,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-176"
+    },
+    {
+     "record_id": "MSU-JF2027-177",
+     "unit_type": "programme",
+     "page": 31,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-177"
+    },
+    {
+     "record_id": "MSU-JF2027-178",
+     "unit_type": "programme",
+     "page": 31,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-178"
+    },
+    {
+     "record_id": "MSU-JF2027-179",
+     "unit_type": "programme",
+     "page": 31,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-179"
+    },
+    {
+     "record_id": "MSU-JF2027-180",
+     "unit_type": "programme",
+     "page": 31,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-180"
+    },
+    {
+     "record_id": "MSU-JF2027-181",
+     "unit_type": "programme",
+     "page": 32,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-181"
+    },
+    {
+     "record_id": "MSU-JF2027-182",
+     "unit_type": "programme",
+     "page": 32,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-182"
+    },
+    {
+     "record_id": "MSU-JF2027-183",
+     "unit_type": "programme",
+     "page": 32,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-183"
+    },
+    {
+     "record_id": "MSU-JF2027-184",
+     "unit_type": "programme",
+     "page": 32,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-184"
+    },
+    {
+     "record_id": "MSU-JF2027-185",
+     "unit_type": "programme",
+     "page": 32,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-185"
+    },
+    {
+     "record_id": "MSU-JF2027-186",
+     "unit_type": "programme",
+     "page": 32,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-186"
+    },
+    {
+     "record_id": "MSU-JF2027-187",
+     "unit_type": "programme",
+     "page": 32,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-187"
+    },
+    {
+     "record_id": "MSU-JF2027-188",
+     "unit_type": "programme",
+     "page": 32,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-188"
+    },
+    {
+     "record_id": "MSU-JF2027-189",
+     "unit_type": "programme",
+     "page": 32,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-189"
+    },
+    {
+     "record_id": "MSU-JF2027-190",
+     "unit_type": "programme",
+     "page": 33,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-190"
+    },
+    {
+     "record_id": "MSU-JF2027-191",
+     "unit_type": "programme",
+     "page": 33,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-191"
+    },
+    {
+     "record_id": "MSU-JF2027-192",
+     "unit_type": "programme",
+     "page": 33,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-192"
+    },
+    {
+     "record_id": "MSU-JF2027-193",
+     "unit_type": "programme",
+     "page": 33,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-193"
+    },
+    {
+     "record_id": "MSU-JF2027-194",
+     "unit_type": "programme",
+     "page": 33,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-194"
+    },
+    {
+     "record_id": "MSU-JF2027-195",
+     "unit_type": "programme",
+     "page": 33,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-195"
+    },
+    {
+     "record_id": "MSU-JF2027-196",
+     "unit_type": "programme",
+     "page": 33,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-196"
+    },
+    {
+     "record_id": "MSU-JF2027-197",
+     "unit_type": "programme",
+     "page": 34,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-197"
+    },
+    {
+     "record_id": "MSU-JF2027-198",
+     "unit_type": "programme",
+     "page": 34,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-198"
+    },
+    {
+     "record_id": "MSU-JF2027-199",
+     "unit_type": "programme",
+     "page": 34,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-199"
+    },
+    {
+     "record_id": "MSU-JF2027-200",
+     "unit_type": "programme",
+     "page": 34,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-200"
+    },
+    {
+     "record_id": "MSU-JF2027-201",
+     "unit_type": "programme",
+     "page": 34,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-201"
+    },
+    {
+     "record_id": "MSU-JF2027-202",
+     "unit_type": "programme",
+     "page": 34,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-202"
+    },
+    {
+     "record_id": "MSU-JF2027-203",
+     "unit_type": "programme",
+     "page": 34,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-203"
+    },
+    {
+     "record_id": "MSU-JF2027-204",
+     "unit_type": "programme",
+     "page": 34,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-204"
+    },
+    {
+     "record_id": "MSU-JF2027-205",
+     "unit_type": "programme",
+     "page": 35,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-205"
+    },
+    {
+     "record_id": "MSU-JF2027-206",
+     "unit_type": "programme",
+     "page": 35,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-206"
+    },
+    {
+     "record_id": "MSU-JF2027-207",
+     "unit_type": "programme",
+     "page": 35,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-207"
+    },
+    {
+     "record_id": "MSU-JF2027-208",
+     "unit_type": "programme",
+     "page": 35,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-208"
+    },
+    {
+     "record_id": "MSU-JF2027-209",
+     "unit_type": "programme",
+     "page": 35,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-209"
+    },
+    {
+     "record_id": "MSU-JF2027-210",
+     "unit_type": "programme",
+     "page": 35,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-210"
+    },
+    {
+     "record_id": "MSU-JF2027-211",
+     "unit_type": "programme",
+     "page": 35,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-211"
+    },
+    {
+     "record_id": "MSU-JF2027-212",
+     "unit_type": "programme",
+     "page": 35,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-212"
+    },
+    {
+     "record_id": "MSU-JF2027-213",
+     "unit_type": "programme",
+     "page": 35,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-213"
+    },
+    {
+     "record_id": "MSU-JF2027-214",
+     "unit_type": "programme",
+     "page": 36,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-214"
+    },
+    {
+     "record_id": "MSU-JF2027-215",
+     "unit_type": "programme",
+     "page": 36,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-215"
+    },
+    {
+     "record_id": "MSU-JF2027-216",
+     "unit_type": "programme",
+     "page": 36,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-216"
+    },
+    {
+     "record_id": "MSU-JF2027-217",
+     "unit_type": "programme",
+     "page": 36,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-217"
+    },
+    {
+     "record_id": "MSU-JF2027-218",
+     "unit_type": "programme",
+     "page": 36,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-218"
+    },
+    {
+     "record_id": "MSU-JF2027-219",
+     "unit_type": "programme",
+     "page": 36,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-219"
+    },
+    {
+     "record_id": "MSU-JF2027-220",
+     "unit_type": "programme",
+     "page": 36,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-220"
+    },
+    {
+     "record_id": "MSU-JF2027-221",
+     "unit_type": "programme",
+     "page": 36,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-221"
+    },
+    {
+     "record_id": "MSU-JF2027-222",
+     "unit_type": "programme",
+     "page": 36,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-222"
+    },
+    {
+     "record_id": "MSU-JF2027-INFO-01",
+     "unit_type": "information",
+     "page": 1,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-INFO-01"
+    },
+    {
+     "record_id": "MSU-JF2027-INFO-02",
+     "unit_type": "information",
+     "page": 36,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-INFO-02"
+    },
+    {
+     "record_id": "MSU-JF2027-INFO-03",
+     "unit_type": "information",
+     "page": 36,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-INFO-03"
+    },
+    {
+     "record_id": "MSU-JF2027-INFO-04",
+     "unit_type": "information",
+     "page": 37,
+     "file_name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-INFO-04"
+    }
+   ]
+  }
+ },
+ "registry_entries": {
+  "roadmap-2027": {
+   "adapter": "json_records",
+   "adapter_options": {
+    "groups": [
+     {
+      "heading": [
+       "calendar_group",
+       "semester",
+       "activity"
+      ],
+      "id": "id",
+      "name": "events",
+      "page": "source_page",
+      "path": "events",
+      "text": "rag_text",
+      "unit_type": "roadmap_event"
+     }
+    ],
+    "source_sha256_field": "source_sha256"
+   },
+   "approvals": [],
+   "base": false,
+   "correction_history": [
+    {
+     "approved_dates": "13/09/2027 - 17/09/2027",
+     "basis": "Confirmed by the project owner on 2026-10-13 as the approved 2027 road map for this project. Not independently verified with the Registry.",
+     "dates_in_source": "13/09/2026 - 17/09/2027",
+     "event_id": "RM2027-11",
+     "item": "Second Semester – Semester Break"
+    },
+    {
+     "approved_dates": "01/11/2027 - 12/11/2027",
+     "basis": "Confirmed by the project owner on 2026-10-13 as the approved 2027 road map for this project. Not independently verified with the Registry.",
+     "dates_in_source": "01/11/2027 - 12/11/202",
+     "event_id": "RM2027-13",
+     "item": "Second Semester – Examinations"
+    }
+   ],
+   "dataset": {
+    "name": "2027_ROADMAP_RAG_Ready_v2.json",
+    "path": "uploads/27f98ef3c0f4df82874f2db495dc7ca3fd4d3838ad396db004accb3d07f4ed17/2027_ROADMAP_RAG_Ready_v2.json",
+    "sha256": "27f98ef3c0f4df82874f2db495dc7ca3fd4d3838ad396db004accb3d07f4ed17"
+   },
+   "doc_id": "roadmap-2027",
+   "doc_version": 1,
+   "excluded_units": {
+    "semester_summaries": {
+     "count": 4,
+     "ids": [
+      "RM2027-S1",
+      "RM2027-S2",
+      "RM2027-S3",
+      "RM2027-S4"
+     ],
+     "reason": "Kept in the dataset for evaluation and possible later inclusion; not indexed (owner decision R2)."
+    }
+   },
+   "notes": "The source filename contains 'DRAFT'; the content is approved on the project owner's confirmation. Formal approval is recorded after staging (Stage 3.4).",
+   "prior_approval": {
+    "actor": "project-owner",
+    "basis": "The project owner confirmed that the corrected 2027 road map is the approved version for this project.",
+    "decision": "approved",
+    "decision_date": "2026-10-13",
+    "evidence": "Project owner's instruction of 2026-10-13 (Stage 2 corrections); dataset status_basis: Confirmed by the project owner on 2026-10-13 as the approved 2027 road map for this project. Not independently verified with the Registry.",
+    "registry_verification": "not performed"
+   },
+   "publish_seq": null,
+   "source_file": {
+    "name": "2027 DRAFT ROADMAP fin (1).pdf",
+    "path": "uploads/c9790a92ba690fcf02b77d9cbadd057f36c3be369e7997eecdbd52df9c6c3b75/2027 DRAFT ROADMAP fin (1).pdf",
+    "sha256": "c9790a92ba690fcf02b77d9cbadd057f36c3be369e7997eecdbd52df9c6c3b75"
+   },
+   "source_label": "MSU 2027 Road Map",
+   "stage_seq": null,
+   "status": "validated",
+   "supersedes": null,
+   "title": "MSU 2027 Road Map",
+   "units": {
+    "count": 21,
+    "path": "units/roadmap-2027@v1.jsonl",
+    "sha256": "5efd4cb7b73df75025b482a98738e49ab32dc904557581868af7eff325ad685c"
+   },
+   "uploaded_at": "2026-10-13T07:04:38+00:00",
+   "uploaded_by": "stage3-implementation (approved by project owner 2026-10-13)",
+   "valid_for": "2027 academic year",
+   "validation": {
+    "errors": 0,
+    "report": "validation/roadmap-2027@v1.json",
+    "warnings": 0
+   },
+   "history": [
+    {
+     "actor": "stage3-implementation (approved by project owner 2026-10-13)",
+     "at": "2026-10-13T07:04:38+00:00",
+     "from": null,
+     "reason": "registered",
+     "to": "uploaded"
+    },
+    {
+     "actor": "stage3-implementation (approved by project owner 2026-10-13)",
+     "at": "2026-10-13T07:04:39+00:00",
+     "from": "uploaded",
+     "reason": "validation passed",
+     "to": "validated"
+    }
+   ]
+  },
+  "intake-2027-jan-feb": {
+   "adapter": "json_records",
+   "adapter_options": {
+    "groups": [
+     {
+      "heading": [
+       "faculty",
+       "programme"
+      ],
+      "id": "id",
+      "name": "programmes",
+      "page": "source_page",
+      "path": "programmes",
+      "text": "rag_text",
+      "unit_type": "programme"
+     },
+     {
+      "heading": [
+       "topic"
+      ],
+      "id": "id",
+      "name": "information_records",
+      "page": "source_page",
+      "path": "information_records",
+      "text": "rag_text",
+      "unit_type": "information"
+     }
+    ],
+    "source_sha256_field": "source_sha256"
+   },
+   "approvals": [],
+   "base": false,
+   "correction_history": [],
+   "dataset": {
+    "name": "MSU_2027_Intake_Corrected_v2.json",
+    "path": "uploads/a91f01d6c67f3f90e21d99f03408eed7d01a18d9dcd8def1ea3d76898a470cbc/MSU_2027_Intake_Corrected_v2.json",
+    "sha256": "a91f01d6c67f3f90e21d99f03408eed7d01a18d9dcd8def1ea3d76898a470cbc"
+   },
+   "doc_id": "intake-2027-jan-feb",
+   "doc_version": 1,
+   "excluded_units": {},
+   "notes": "Not approved for publication. Record-level human approval is pending (Stage 2); stays out of the public index until the project owner explicitly approves publication (decision D1).",
+   "prior_approval": null,
+   "publish_seq": null,
+   "source_file": {
+    "name": "MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+    "path": "uploads/c6c767189da07a9b5b0bfaca0aa8583eb2db68ebcb4c3b05ea6f09a6b8267c95/MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf",
+    "sha256": "c6c767189da07a9b5b0bfaca0aa8583eb2db68ebcb4c3b05ea6f09a6b8267c95"
+   },
+   "source_label": "MSU January/February 2027 Intake Advert",
+   "stage_seq": null,
+   "status": "validated",
+   "supersedes": null,
+   "title": "MSU January/February 2027 Intake Advert",
+   "units": {
+    "count": 226,
+    "path": "units/intake-2027-jan-feb@v1.jsonl",
+    "sha256": "4e0b07511da77ec0b02ac2e1a629c7126055b978d08a36385229e830bc0ef9c8"
+   },
+   "uploaded_at": "2026-10-13T07:04:38+00:00",
+   "uploaded_by": "stage3-implementation (approved by project owner 2026-10-13)",
+   "valid_for": "January/February 2027 intake",
+   "validation": {
+    "errors": 0,
+    "report": "validation/intake-2027-jan-feb@v1.json",
+    "warnings": 0
+   },
+   "history": [
+    {
+     "actor": "stage3-implementation (approved by project owner 2026-10-13)",
+     "at": "2026-10-13T07:04:38+00:00",
+     "from": null,
+     "reason": "registered",
+     "to": "uploaded"
+    },
+    {
+     "actor": "stage3-implementation (approved by project owner 2026-10-13)",
+     "at": "2026-10-13T07:04:40+00:00",
+     "from": "uploaded",
+     "reason": "validation passed",
+     "to": "validated"
+    }
+   ]
+  }
+ }
+}

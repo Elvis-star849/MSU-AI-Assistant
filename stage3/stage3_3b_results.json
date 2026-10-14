@@ -1,0 +1,373 @@
+{
+ "stage": "3.3b",
+ "checks": {
+  "pre-state: both documents validated, CURRENT 0001, no STAGING, no embeddings": {
+   "ok": true,
+   "detail": null
+  },
+  "both revalidated: status validated, 0 errors, 0 warnings": {
+   "ok": true,
+   "detail": null
+  },
+  "intake: dataset and source file (name, SHA-256, stored copy) unchanged": {
+   "ok": true,
+   "detail": null
+  },
+  "intake: metadata change recorded with the detached earlier units and report": {
+   "ok": true,
+   "detail": null
+  },
+  "roadmap: dataset and source file (name, SHA-256, stored copy) unchanged": {
+   "ok": true,
+   "detail": null
+  },
+  "roadmap: metadata change recorded with the detached earlier units and report": {
+   "ok": true,
+   "detail": null
+  },
+  "intake: 226 passages, same record IDs, pages and text; only the 4 information headings changed": {
+   "ok": true,
+   "detail": [
+    [
+     "MSU-JF2027-INFO-01",
+     "Section: application_procedure",
+     "Section: How to apply for the January/February 2027 intake"
+    ],
+    [
+     "MSU-JF2027-INFO-02",
+     "Section: application_fee",
+     "Section: Application fee for the January/February 2027 intake"
+    ],
+    [
+     "MSU-JF2027-INFO-03",
+     "Section: fee_payment_banking_details",
+     "Section: Paying the application fee: bank accounts and deposit slip"
+    ],
+    [
+     "MSU-JF2027-INFO-04",
+     "Section: enquiries_contacts",
+     "Section: Admissions enquiries: phone, WhatsApp and email"
+    ]
+   ]
+  },
+  "roadmap: 21 passages byte-identical in content (same units SHA-256)": {
+   "ok": true,
+   "detail": null
+  },
+  "roadmap: DRAFT filename and correction history unchanged": {
+   "ok": true,
+   "detail": null
+  },
+  "roadmap: prior approval states owner approval for this assistant, not Registry approval": {
+   "ok": true,
+   "detail": null
+  },
+  "intake still unapproved (no approvals, no prior approval)": {
+   "ok": true,
+   "detail": null
+  },
+  "CURRENT unchanged (same file hash, version 0001)": {
+   "ok": true,
+   "detail": null
+  },
+  "no new store version, no STAGING pointer, no embeddings": {
+   "ok": true,
+   "detail": null
+  },
+  "kb.verify(): ok, no problems, no warnings, no override": {
+   "ok": true,
+   "detail": {
+    "ok": true,
+    "problems": [],
+    "warnings": [],
+    "versions": {
+     "public": {
+      "version": "0001",
+      "passages": 10732,
+      "documents": [
+       [
+        "yearbook-humanities",
+        1,
+        "published"
+       ],
+       [
+        "yearbook-sciences-v2",
+        1,
+        "published"
+       ]
+      ]
+     }
+    },
+    "active_override": null
+   }
+  },
+  "journal: no open operations": {
+   "ok": true,
+   "detail": null
+  }
+ },
+ "failures": [],
+ "intake_update": {
+  "no_op": false,
+  "doc_id": "intake-2027-jan-feb",
+  "doc_version": 1,
+  "status": "uploaded",
+  "changed": [
+   "adapter_options"
+  ]
+ },
+ "intake_revalidation": {
+  "no_op": false,
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+   "passages": 226,
+   "unit_types": {
+    "programme": 222,
+    "information": 4
+   },
+   "tokens_max": 423,
+   "tokens_median": 198.0,
+   "pages": [
+    1,
+    37
+   ],
+   "course_codes": {}
+  }
+ },
+ "roadmap_update": {
+  "no_op": false,
+  "doc_id": "roadmap-2027",
+  "doc_version": 1,
+  "status": "uploaded",
+  "changed": [
+   "notes",
+   "prior_approval"
+  ]
+ },
+ "roadmap_revalidation": {
+  "no_op": false,
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+   "passages": 21,
+   "unit_types": {
+    "roadmap_event": 21
+   },
+   "tokens_max": 293,
+   "tokens_median": 253,
+   "pages": [
+    1,
+    1
+   ],
+   "course_codes": {}
+  }
+ },
+ "information_headings": [
+  {
+   "record_id": "MSU-JF2027-INFO-01",
+   "before": "Section: application_procedure",
+   "after": "Section: How to apply for the January/February 2027 intake"
+  },
+  {
+   "record_id": "MSU-JF2027-INFO-02",
+   "before": "Section: application_fee",
+   "after": "Section: Application fee for the January/February 2027 intake"
+  },
+  {
+   "record_id": "MSU-JF2027-INFO-03",
+   "before": "Section: fee_payment_banking_details",
+   "after": "Section: Paying the application fee: bank accounts and deposit slip"
+  },
+  {
+   "record_id": "MSU-JF2027-INFO-04",
+   "before": "Section: enquiries_contacts",
+   "after": "Section: Admissions enquiries: phone, WhatsApp and email"
+  }
+ ],
+ "registry_after": {
+  "intake-2027-jan-feb": {
+   "status": "validated",
+   "units": {
+    "count": 226,
+    "path": "units/intake-2027-jan-feb@v1.e4e8ad739faf.jsonl",
+    "sha256": "e4e8ad739fafba32630b7075bea3f684340918a1908f64a6c37a9994e1e8326a"
+   },
+   "validation": {
+    "errors": 0,
+    "report": "validation/intake-2027-jan-feb@v1.fe1b8189f2b6.json",
+    "warnings": 0
+   },
+   "metadata_history": [
+    {
+     "actor": "stage3-implementation (approved by project owner 2026-10-13)",
+     "at": "2026-10-13T07:35:27+00:00",
+     "changes": {
+      "adapter_options": {
+       "from": {
+        "groups": [
+         {
+          "heading": [
+           "faculty",
+           "programme"
+          ],
+          "id": "id",
+          "name": "programmes",
+          "page": "source_page",
+          "path": "programmes",
+          "text": "rag_text",
+          "unit_type": "programme"
+         },
+         {
+          "heading": [
+           "topic"
+          ],
+          "id": "id",
+          "name": "information_records",
+          "page": "source_page",
+          "path": "information_records",
+          "text": "rag_text",
+          "unit_type": "information"
+         }
+        ],
+        "source_sha256_field": "source_sha256"
+       },
+       "to": {
+        "groups": [
+         {
+          "heading": [
+           "faculty",
+           "programme"
+          ],
+          "id": "id",
+          "name": "programmes",
+          "page": "source_page",
+          "path": "programmes",
+          "text": "rag_text",
+          "unit_type": "programme"
+         },
+         {
+          "heading": [
+           "topic"
+          ],
+          "heading_labels": {
+           "application_fee": "Application fee for the January/February 2027 intake",
+           "application_procedure": "How to apply for the January/February 2027 intake",
+           "enquiries_contacts": "Admissions enquiries: phone, WhatsApp and email",
+           "fee_payment_banking_details": "Paying the application fee: bank accounts and deposit slip"
+          },
+          "id": "id",
+          "name": "information_records",
+          "page": "source_page",
+          "path": "information_records",
+          "text": "rag_text",
+          "unit_type": "information"
+         }
+        ],
+        "source_sha256_field": "source_sha256"
+       }
+      }
+     },
+     "detached_units": {
+      "count": 226,
+      "path": "units/intake-2027-jan-feb@v1.jsonl",
+      "sha256": "4e0b07511da77ec0b02ac2e1a629c7126055b978d08a36385229e830bc0ef9c8"
+     },
+     "detached_validation": {
+      "errors": 0,
+      "report": "validation/intake-2027-jan-feb@v1.json",
+      "warnings": 0
+     },
+     "reason": "Readable headings for the four information records (project owner request, Stage 3.3b). Source text, record IDs, dataset and provenance unchanged."
+    }
+   ]
+  },
+  "roadmap-2027": {
+   "status": "validated",
+   "units": {
+    "count": 21,
+    "path": "units/roadmap-2027@v1.5efd4cb7b73d.jsonl",
+    "sha256": "5efd4cb7b73df75025b482a98738e49ab32dc904557581868af7eff325ad685c"
+   },
+   "validation": {
+    "errors": 0,
+    "report": "validation/roadmap-2027@v1.888a4509b373.json",
+    "warnings": 0
+   },
+   "prior_approval": {
+    "actor": "project-owner",
+    "basis": "The project owner approved the corrected 2027 road map for use in the MSU AI Assistant on 2026-10-13.",
+    "decision": "approved for use in the MSU AI Assistant",
+    "decision_date": "2026-10-13",
+    "evidence": "Project owner's instructions of 2026-10-13 (Stage 2 corrections; Stage 3.3b wording). Original source file: '2027 DRAFT ROADMAP fin (1).pdf'. Dataset status_basis: Confirmed by the project owner on 2026-10-13 as the approved 2027 road map for this project. Not independently verified with the Registry.",
+    "not_claimed": "This is not an independent verification of the dates and not a formal approval of the road map by the Midlands State University Registry or any other university body.",
+    "registry_verification": "not performed",
+    "scope": "Use of the corrected 2027 road map as a source document for this assistant only.",
+    "university_registry_approval": "not obtained and not claimed"
+   },
+   "notes": "Approved by the project owner for use in this assistant only; not independently verified and not formally approved by the university Registry. The source filename contains 'DRAFT'. The two date corrections are recorded in correction_history. The formal knowledge-base approval is recorded after staging (Stage 3.4).",
+   "correction_history": [
+    {
+     "approved_dates": "13/09/2027 - 17/09/2027",
+     "basis": "Confirmed by the project owner on 2026-10-13 as the approved 2027 road map for this project. Not independently verified with the Registry.",
+     "dates_in_source": "13/09/2026 - 17/09/2027",
+     "event_id": "RM2027-11",
+     "item": "Second Semester – Semester Break"
+    },
+    {
+     "approved_dates": "01/11/2027 - 12/11/2027",
+     "basis": "Confirmed by the project owner on 2026-10-13 as the approved 2027 road map for this project. Not independently verified with the Registry.",
+     "dates_in_source": "01/11/2027 - 12/11/202",
+     "event_id": "RM2027-13",
+     "item": "Second Semester – Examinations"
+    }
+   ],
+   "metadata_history": [
+    {
+     "actor": "stage3-implementation (approved by project owner 2026-10-13)",
+     "at": "2026-10-13T07:35:28+00:00",
+     "changes": {
+      "notes": {
+       "from": "The source filename contains 'DRAFT'; the content is approved on the project owner's confirmation. Formal approval is recorded after staging (Stage 3.4).",
+       "to": "Approved by the project owner for use in this assistant only; not independently verified and not formally approved by the university Registry. The source filename contains 'DRAFT'. The two date corrections are recorded in correction_history. The formal knowledge-base approval is recorded after staging (Stage 3.4)."
+      },
+      "prior_approval": {
+       "from": {
+        "actor": "project-owner",
+        "basis": "The project owner confirmed that the corrected 2027 road map is the approved version for this project.",
+        "decision": "approved",
+        "decision_date": "2026-10-13",
+        "evidence": "Project owner's instruction of 2026-10-13 (Stage 2 corrections); dataset status_basis: Confirmed by the project owner on 2026-10-13 as the approved 2027 road map for this project. Not independently verified with the Registry.",
+        "registry_verification": "not performed"
+       },
+       "to": {
+        "actor": "project-owner",
+        "basis": "The project owner approved the corrected 2027 road map for use in the MSU AI Assistant on 2026-10-13.",
+        "decision": "approved for use in the MSU AI Assistant",
+        "decision_date": "2026-10-13",
+        "evidence": "Project owner's instructions of 2026-10-13 (Stage 2 corrections; Stage 3.3b wording). Original source file: '2027 DRAFT ROADMAP fin (1).pdf'. Dataset status_basis: Confirmed by the project owner on 2026-10-13 as the approved 2027 road map for this project. Not independently verified with the Registry.",
+        "not_claimed": "This is not an independent verification of the dates and not a formal approval of the road map by the Midlands State University Registry or any other university body.",
+        "registry_verification": "not performed",
+        "scope": "Use of the corrected 2027 road map as a source document for this assistant only.",
+        "university_registry_approval": "not obtained and not claimed"
+       }
+      }
+     },
+     "detached_units": {
+      "count": 21,
+      "path": "units/roadmap-2027@v1.jsonl",
+      "sha256": "5efd4cb7b73df75025b482a98738e49ab32dc904557581868af7eff325ad685c"
+     },
+     "detached_validation": {
+      "errors": 0,
+      "report": "validation/roadmap-2027@v1.json",
+      "warnings": 0
+     },
+     "reason": "Explicit approval wording: owner approval for use in this assistant, not Registry verification or approval (project owner request, Stage 3.3b)."
+    }
+   ]
+  }
+ }
+}
