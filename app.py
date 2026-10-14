@@ -119,8 +119,16 @@ def render_safety_notes(notes):
 
 
 def render_assistant_message(turn):
-    """1 answer, 2 safeguard notes, 3 ambiguity warning, 4 'Interpreted as', 5 Sources, 6 Technical details."""
+    """1 answer, 2 safeguard notes, 3 ambiguity warning, 4 'Interpreted as', 5 Sources, 6 Technical details.
+    A response with no answer in the knowledge base (result.not_found) shows the answer only."""
     result = turn.result
+    if getattr(result, "not_found", False):
+        # No answer in the knowledge base: show the main answer only (no sources, technical details or notes).
+        if result.status == "no_evidence":
+            st.info(result.answer, icon="🔎")
+        else:
+            st.markdown(result.answer)
+        return
     if result.status == "answered":
         st.markdown(result.answer)
     elif result.status == "no_evidence":

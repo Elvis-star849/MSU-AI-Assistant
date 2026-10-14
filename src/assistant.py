@@ -28,7 +28,8 @@ from src.llm.base import GenerationSettings
 from src.profiles import (BASELINE, C3, C3_PROMPT_VERSION, INTAKE, KB_PROFILES, build_c3_messages, current_profile,
                           open_profile_retriever)
 from src.query_normalise import normalise_query
-from src.safeguards import NOTE_INJECTION, clean_question, miss_tip, present_answer, review_answer, screen_evidence
+from src.safeguards import (NOTE_INJECTION, clean_question, is_not_found, miss_tip, present_answer, review_answer,
+                            screen_evidence)
 
 # The accepted Stage 7 generation configuration (S7-0/S7-1). Credentials, timeout and retries come from load_config().
 ACCEPTED_MODEL = "openai/gpt-oss-20b"
@@ -105,6 +106,7 @@ class AssistantResult:
     safety_notes: List[Dict[str, str]] = field(default_factory=list)
     normalised_question: Optional[str] = None   # set when spelling/intake clean-up changed the searched question
     raw_answer: Optional[str] = None            # model text before the wording correction (present_answer)
+    not_found: bool = False                     # no answer in the knowledge base: UI shows the answer only
 
 
 class Assistant:
@@ -225,5 +227,6 @@ class Assistant:
                 result.status, result.error_kind = "generation_error", "unknown"
                 result.error_message = f"{DEFAULT_FRIENDLY_ERROR} {EVIDENCE_STILL_SHOWN}"
             result.timings_ms["generation"] = round((time.perf_counter() - generation_start) * 1000, 1)
+        result.not_found = is_not_found(result.status, result.answer)
         result.timings_ms["total"] = round((time.perf_counter() - start) * 1000, 1)
         return result

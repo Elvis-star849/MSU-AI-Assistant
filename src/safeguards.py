@@ -145,3 +145,19 @@ def miss_tip(answer: str, kind: str) -> List[Dict[str, str]]:
     if DECLINE.search(answer or "") and not cited_numbers(answer):
         return [{"kind": "tip", "text": NOTE_MISS_TIP.format(sources=TIP_SOURCES.get(kind, TIP_SOURCES["public"]))}]
     return []
+
+
+# ------------------------------------------------------------------ "not found" responses
+NOT_FOUND = re.compile(
+    r"do(?:es)? not (?:contain|include|mention|provide|have) (?:any |the )?(?:information|details?|data|mention)"
+    r"|(?:could|can)\s?not find|could not locate|no (?:relevant )?information (?:is |was )?(?:available|found|provided)?"
+    r"|no information about|contain no information|cannot (?:answer|provide|help)|can[’']?t (?:help|answer|provide)"
+    r"|not (?:covered|included) in the (?:MSU )?(?:documents|evidence|sources)", re.I)
+
+
+def is_not_found(status: str, answer: str) -> bool:
+    """True when the assistant could not find an answer: no evidence was retrieved, or the generated answer says
+    the documents contain no such information and cites no evidence passage."""
+    if status == "no_evidence":
+        return True
+    return status == "answered" and bool(NOT_FOUND.search(answer or "")) and not cited_numbers(answer)
