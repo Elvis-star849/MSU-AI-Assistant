@@ -1,0 +1,489 @@
+{
+ "summary": {
+  "GPT-OSS-20B": {
+   "model_env": "GROQ_MODEL",
+   "model": "openai/gpt-oss-20b",
+   "attempted": 40,
+   "completed": 40,
+   "correct_sufficient": 34,
+   "partially_correct": 6,
+   "incorrect_insufficient": 0,
+   "accuracy_pct": 85.0,
+   "answers_with_unsupported_claims": 4,
+   "unsupported_claims_total": 4,
+   "critical_unsupported_claims": 0,
+   "citation_attribution_correct_pct": 88.2,
+   "citation_attribution_at_least_partly_pct": 100.0,
+   "citations_in_range_pct": 100.0,
+   "answer_items_citing_evidence_pct": 94.1,
+   "correct_abstentions": 6,
+   "abstention_items": 6,
+   "failed_refusals": 0,
+   "inappropriate_refusals": 0,
+   "conflicts_mishandled": 0,
+   "generation_latency_ms": {
+    "mean": 768.8,
+    "median": 636.8,
+    "p95": 1487.1
+   },
+   "groq_reported_total_time_s_mean": 0.493,
+   "prompt_tokens_mean": 1917.2,
+   "completion_tokens_mean": 337.1,
+   "reasoning_tokens_mean": 216.3,
+   "total_tokens": 90172,
+   "usd": 0.0144,
+   "api_errors": {},
+   "by_stratum": {
+    "S1_prerequisite_table": {
+     "n": 5,
+     "sufficient": 4,
+     "partially_sufficient": 1,
+     "insufficient": 0
+    },
+    "S4_start_date": {
+     "n": 5,
+     "sufficient": 4,
+     "partially_sufficient": 1,
+     "insufficient": 0
+    },
+    "S6_roadmap_calendar": {
+     "n": 4,
+     "sufficient": 4,
+     "partially_sufficient": 0,
+     "insufficient": 0
+    },
+    "S7_ordinary_control": {
+     "n": 7,
+     "sufficient": 7,
+     "partially_sufficient": 0,
+     "insufficient": 0
+    },
+    "S3_ambiguous_duration": {
+     "n": 5,
+     "sufficient": 5,
+     "partially_sufficient": 0,
+     "insufficient": 0
+    },
+    "S2_multiple_routes": {
+     "n": 6,
+     "sufficient": 4,
+     "partially_sufficient": 2,
+     "insufficient": 0
+    },
+    "S8_decline": {
+     "n": 4,
+     "sufficient": 4,
+     "partially_sufficient": 0,
+     "insufficient": 0
+    },
+    "S5_yearbook_vs_advert": {
+     "n": 4,
+     "sufficient": 2,
+     "partially_sufficient": 2,
+     "insufficient": 0
+    }
+   },
+   "non_sufficient_failure_source": {
+    "H05": "generation",
+    "H24": "generation",
+    "H07": "generation",
+    "H20": "generation",
+    "H23": "generation",
+    "H09": "generation"
+   }
+  },
+  "GPT-OSS-120B": {
+   "model_env": "GROQ_MODEL_2",
+   "model": "openai/gpt-oss-120b",
+   "attempted": 40,
+   "completed": 40,
+   "correct_sufficient": 31,
+   "partially_correct": 9,
+   "incorrect_insufficient": 0,
+   "accuracy_pct": 77.5,
+   "answers_with_unsupported_claims": 8,
+   "unsupported_claims_total": 8,
+   "critical_unsupported_claims": 0,
+   "citation_attribution_correct_pct": 100.0,
+   "citation_attribution_at_least_partly_pct": 100.0,
+   "citations_in_range_pct": 100.0,
+   "answer_items_citing_evidence_pct": 100.0,
+   "correct_abstentions": 6,
+   "abstention_items": 6,
+   "failed_refusals": 0,
+   "inappropriate_refusals": 0,
+   "conflicts_mishandled": 0,
+   "generation_latency_ms": {
+    "mean": 1275.1,
+    "median": 999.0,
+    "p95": 2540.5
+   },
+   "groq_reported_total_time_s_mean": 0.988,
+   "prompt_tokens_mean": 1917.2,
+   "completion_tokens_mean": 352.6,
+   "reasoning_tokens_mean": 182.8,
+   "total_tokens": 90792,
+   "usd": 0.0221,
+   "api_errors": {
+    "permission": 1
+   },
+   "by_stratum": {
+    "S5_yearbook_vs_advert": {
+     "n": 4,
+     "sufficient": 2,
+     "partially_sufficient": 2,
+     "insufficient": 0
+    },
+    "S3_ambiguous_duration": {
+     "n": 5,
+     "sufficient": 2,
+     "partially_sufficient": 3,
+     "insufficient": 0
+    },
+    "S1_prerequisite_table": {
+     "n": 5,
+     "sufficient": 4,
+     "partially_sufficient": 1,
+     "insufficient": 0
+    },
+    "S7_ordinary_control": {
+     "n": 7,
+     "sufficient": 7,
+     "partially_sufficient": 0,
+     "insufficient": 0
+    },
+    "S4_start_date": {
+     "n": 5,
+     "sufficient": 4,
+     "partially_sufficient": 1,
+     "insufficient": 0
+    },
+    "S8_decline": {
+     "n": 4,
+     "sufficient": 4,
+     "partially_sufficient": 0,
+     "insufficient": 0
+    },
+    "S6_roadmap_calendar": {
+     "n": 4,
+     "sufficient": 4,
+     "partially_sufficient": 0,
+     "insufficient": 0
+    },
+    "S2_multiple_routes": {
+     "n": 6,
+     "sufficient": 4,
+     "partially_sufficient": 2,
+     "insufficient": 0
+    }
+   },
+   "non_sufficient_failure_source": {
+    "H13": "generation",
+    "H15": "generation",
+    "H12": "generation",
+    "H02": "retrieval (target passage not in top 5)",
+    "H11": "generation",
+    "H25": "generation",
+    "H23": "generation",
+    "H20": "generation",
+    "H07": "generation"
+   }
+  }
+ },
+ "retrieval_metric_identical_for_both_models": {
+  "MRR@5_on_frozen_evidence": 0.787,
+  "note": "retrieval metric, not an LLM-quality metric: both models received byte-identical evidence"
+ },
+ "largest_differences": [
+  {
+   "id": "H02",
+   "difference_score": 15,
+   "GPT-OSS-20B": {
+    "correctness": 2,
+    "completeness": 1,
+    "attribution": 1,
+    "unsupported_claims": [],
+    "refusal": "n.a.",
+    "conflict": "n.a.",
+    "overall": "sufficient",
+    "notes": "Retrieval miss (CS p.898 table not retrieved). Says the documents give no prerequisite for HCSCI237 in CS; consistent with key, cautious, uncited."
+   },
+   "GPT-OSS-120B": {
+    "correctness": 1,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [
+     {
+      "claim": "Reads the cut-off row 'IoT and Cloud Systems Engineering (HCSCI237)' (p.899) as HCSCI237 being listed without a prerequisite; HCSCI237 there is HCSE433's prerequisite",
+      "severity": "minor"
+     }
+    ],
+    "refusal": "n.a.",
+    "conflict": "n.a.",
+    "overall": "partially_sufficient",
+    "notes": "Retrieval miss; conclusion matches key but rests on a misread table row (same convention as HO1)."
+   }
+  },
+  {
+   "id": "H05",
+   "difference_score": 11,
+   "GPT-OSS-20B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [
+     {
+      "claim": "Calls the tables 'the 2027 MSU yearbook'; the yearbook is not dated in the passages",
+      "severity": "minor"
+     }
+    ],
+    "refusal": "n.a.",
+    "conflict": "n.a.",
+    "overall": "partially_sufficient",
+    "notes": "Correct; invented date (HO1 convention: minor)."
+   },
+   "GPT-OSS-120B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [],
+    "refusal": "n.a.",
+    "conflict": "n.a.",
+    "overall": "sufficient",
+    "notes": "Correct: none listed (two tables)."
+   }
+  },
+  {
+   "id": "H09",
+   "difference_score": 11,
+   "GPT-OSS-20B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [
+     {
+      "claim": "Describes the conventional route as a 'full-time programme'; the advert does not say full-time",
+      "severity": "minor"
+     }
+    ],
+    "refusal": "n.a.",
+    "conflict": "handled",
+    "overall": "partially_sufficient",
+    "notes": "All three routes correct and separate; small invented descriptor."
+   },
+   "GPT-OSS-120B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [],
+    "refusal": "n.a.",
+    "conflict": "handled",
+    "overall": "sufficient",
+    "notes": "All three routes correct and separate; yearbook 5 years attributed as older."
+   }
+  },
+  {
+   "id": "H11",
+   "difference_score": 11,
+   "GPT-OSS-20B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [],
+    "refusal": "n.a.",
+    "conflict": "handled",
+    "overall": "sufficient",
+    "notes": "Both routes, durations and starts correct."
+   },
+   "GPT-OSS-120B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [
+     {
+      "claim": "Labels the Gweru Conventional route '(full-time)'; not stated in the advert",
+      "severity": "minor"
+     }
+    ],
+    "refusal": "n.a.",
+    "conflict": "handled",
+    "overall": "partially_sufficient",
+    "notes": "Both routes, durations and starts correct, January basis given; small invented descriptor."
+   }
+  },
+  {
+   "id": "H12",
+   "difference_score": 11,
+   "GPT-OSS-20B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [],
+    "refusal": "n.a.",
+    "conflict": "handled",
+    "overall": "sufficient",
+    "notes": "Block Release 2 years correct; Gweru Block Release mode not named; yearbook 4 years attributed as historical. (HO1 convention: the advertised duration alone earns full completeness.)"
+   },
+   "GPT-OSS-120B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [
+     {
+      "claim": "Treats the yearbook 'Bachelor of Education Dual Honours in Science' (4 years) as the same programme",
+      "severity": "minor"
+     }
+    ],
+    "refusal": "n.a.",
+    "conflict": "handled",
+    "overall": "partially_sufficient",
+    "notes": "Advert duration correct and current; unsupported identity claim for the differently titled yearbook programme (HO1 convention: minor)."
+   }
+  },
+  {
+   "id": "H13",
+   "difference_score": 11,
+   "GPT-OSS-20B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [],
+    "refusal": "n.a.",
+    "conflict": "n.a.",
+    "overall": "sufficient",
+    "notes": "Both durations exactly as advertised; modes not listed. (HO1 convention: the advertised duration alone earns full completeness.)"
+   },
+   "GPT-OSS-120B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [
+     {
+      "claim": "Assigns the 4 years to 'the conventional (full-time) route'; the advert only prints '4 years' and never says full-time",
+      "severity": "minor"
+     }
+    ],
+    "refusal": "n.a.",
+    "conflict": "n.a.",
+    "overall": "partially_sufficient",
+    "notes": "Both durations and all modes given; small unsupported route mapping."
+   }
+  },
+  {
+   "id": "H15",
+   "difference_score": 11,
+   "GPT-OSS-20B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [],
+    "refusal": "n.a.",
+    "conflict": "handled",
+    "overall": "sufficient",
+    "notes": "Both durations as advertised; modes not listed; yearbook agreement attributed. (HO1 convention: the advertised duration alone earns full completeness.)"
+   },
+   "GPT-OSS-120B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [
+     {
+      "claim": "Assigns the 4 years to the conventional and visiting modes; the advert does not map durations to modes",
+      "severity": "minor"
+     }
+    ],
+    "refusal": "n.a.",
+    "conflict": "handled",
+    "overall": "partially_sufficient",
+    "notes": "Both durations correct; unsupported duration-to-mode mapping; refers to 'the developer instruction'."
+   }
+  },
+  {
+   "id": "H24",
+   "difference_score": 11,
+   "GPT-OSS-20B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [
+     {
+      "claim": "States both documents require the O-level English and Mathematics conditions; the advert record requires English only (its faculty note says Maths is required for 'some programmes')",
+      "severity": "minor"
+     }
+    ],
+    "refusal": "n.a.",
+    "conflict": "handled",
+    "overall": "partially_sufficient",
+    "notes": "Advert current, yearbook older, differences stated; one overstatement about advert O-level Maths."
+   },
+   "GPT-OSS-120B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [],
+    "refusal": "n.a.",
+    "conflict": "handled",
+    "overall": "sufficient",
+    "notes": "Advert current; yearbook normal and mature entry attributed and explicitly not the current requirement."
+   }
+  },
+  {
+   "id": "H25",
+   "difference_score": 11,
+   "GPT-OSS-20B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [],
+    "refusal": "n.a.",
+    "conflict": "handled",
+    "overall": "sufficient",
+    "notes": "Advert current, yearbook older, shown side by side with labels."
+   },
+   "GPT-OSS-120B": {
+    "correctness": 2,
+    "completeness": 2,
+    "attribution": 2,
+    "unsupported_claims": [
+     {
+      "claim": "Says the 2027 advert does not mention the need for an Honours degree; the advert requires a special Honours or certificate in Monitoring and Evaluation",
+      "severity": "minor"
+     }
+    ],
+    "refusal": "n.a.",
+    "conflict": "handled",
+    "overall": "partially_sufficient",
+    "notes": "Advert requirement correct and current; difference partly misstated; refers to 'rule 9' and 'documents you provided'."
+   }
+  },
+  {
+   "id": "H20",
+   "difference_score": 1,
+   "GPT-OSS-20B": {
+    "correctness": 1,
+    "completeness": 1,
+    "attribution": 2,
+    "unsupported_claims": [],
+    "refusal": "n.a.",
+    "conflict": "n.a.",
+    "overall": "partially_sufficient",
+    "notes": "Correct month; faculty-default basis not given (key requires it; HO1 convention c1/comp1)."
+   },
+   "GPT-OSS-120B": {
+    "correctness": 1,
+    "completeness": 1,
+    "attribution": 2,
+    "unsupported_claims": [
+     {
+      "claim": "Adds '(the main academic calendar)'; the advert says nothing about an academic calendar",
+      "severity": "minor"
+     }
+    ],
+    "refusal": "n.a.",
+    "conflict": "n.a.",
+    "overall": "partially_sufficient",
+    "notes": "Correct month; basis not given; small unsupported addition."
+   }
+  }
+ ]
+}

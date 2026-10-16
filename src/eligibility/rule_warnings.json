@@ -1,0 +1,13 @@
+{
+ "generated_by": "evaluation/eligibility_audit/audit_rules.py",
+ "rules_file_sha256": "32f7a11ac842874046c94c1392d811a9aaed3c3e9d63cf17780dfc9182d80b82",
+ "warnings": {
+  "MSU-JF2027-126": "Rule under review: the advert wording is ambiguous (Is a third science A Level required for Electrical and Electronic Engineering). Check with the Admissions Office.",
+  "MSU-JF2027-129": "Rule under review: the advert wording is ambiguous (Is a third science A Level required for Fuels and Energy Engineering). Check with the Admissions Office.",
+  "MSU-JF2027-132": "Rule under review: the advert wording is ambiguous (Confirm 3 A Levels for Mining Engineering). Check with the Admissions Office.",
+  "MSU-JF2027-147": "Rule under review: the advert wording is ambiguous (Does 'B or better' apply to all three LLB A Level subjects). Check with the Admissions Office.",
+  "MSU-JF2027-212": "Rule under review: the advert wording is ambiguous ('Humanities/Social Sciences' is coded with the assumed ARTS category; whether e.g. Sociology, Geography or Economics count depends on the unconfirmed taxonomy). Check with the Admissions Office.",
+  "MSU-JF2027-213": "Rule under review: the advert wording is ambiguous (As MSU-JF2027-212). Check with the Admissions Office.",
+  "MSU-JF2027-214": "Rule under review: the advert wording is ambiguous (As MSU-JF2027-212). Check with the Admissions Office."
+ }
+}

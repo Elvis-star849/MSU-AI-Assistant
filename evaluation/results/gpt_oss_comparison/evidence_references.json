@@ -1,0 +1,2043 @@
+{
+ "inputs_file": "remediation/experiments/heldout/HO_S_C3_inputs.json",
+ "inputs_sha256": "21f6f2ce3406f41ecae36e9442951da786c6fb26b7f19cba164ad243e70a59c5",
+ "knowledge_base": {
+  "public": {
+   "version": "0005",
+   "manifest_sha256": "25956ff5099f876a23b1f5d7c1d5daefc977ee3625a0345502698b2f71a1c82c"
+  },
+  "intake": {
+   "version": "0006",
+   "manifest_sha256": "04169e83fa22291406ae3371d6225348f66519b0e90eb7517c463593d1c9aca6"
+  }
+ },
+ "retrieval_configuration": {
+  "stage6_main": {
+   "index": "faiss_store_v2",
+   "tie_break": "vector",
+   "pool": 10,
+   "reranker": "minilm",
+   "with_heading": true,
+   "top_k": 5
+  },
+  "prompt": "G2",
+  "format": "F2",
+  "candidate_module_sha256": "3abeaa7801567fafac760d78a8a9085b290ccc69de4a6781542a7c76ef7573bc"
+ },
+ "all_identical_to_frozen_inputs": true,
+ "retrieval_ms": {
+  "mean": 777.0,
+  "median": 782.1,
+  "max": 1144.6
+ },
+ "items": [
+  {
+   "id": "H01",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 392.5,
+   "messages_sha256": "88eea4b5c8c0fdf482a8da9f67d5f772c225e9d0010ef8eab4d5c5a920cce844",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-sciences-v2/v1/c09561",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 902,
+     "route": "code_hybrid",
+     "rerank_score": 6.9804
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-sciences-v2/v1/c09540",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 898,
+     "route": "code_hybrid",
+     "rerank_score": 5.3507
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-sciences-v2/v1/c09671",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 923,
+     "route": "code_hybrid",
+     "rerank_score": 5.2142
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-sciences-v2/v1/c09653",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 920,
+     "route": "code_hybrid",
+     "rerank_score": 4.9905
+    }
+   ]
+  },
+  {
+   "id": "H02",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 824.5,
+   "messages_sha256": "40b1f7398ab7ac21892b0a3150f53caf48d5a2808aca2bb63c1b4c23ea4e8e7d",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-sciences-v2/v1/c09806",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 947,
+     "route": "code_hybrid",
+     "rerank_score": 6.7638
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-sciences-v2/v1/c09621",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 914,
+     "route": "code_hybrid",
+     "rerank_score": 6.5331
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-sciences-v2/v1/c09710",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 930,
+     "route": "code_hybrid",
+     "rerank_score": 6.0007
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-sciences-v2/v1/c09594",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 909,
+     "route": "code_hybrid",
+     "rerank_score": 5.7173
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-sciences-v2/v1/c09542",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 899,
+     "route": "code_hybrid",
+     "rerank_score": 5.5812
+    }
+   ]
+  },
+  {
+   "id": "H03",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 723.3,
+   "messages_sha256": "6d2ab60364d3e0a6abe4f9cedd8b7ebcb4c6cf1044b92d30218bd17166527771",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-sciences-v2/v1/c09625",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 914,
+     "route": "code_hybrid",
+     "rerank_score": 7.0926
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-sciences-v2/v1/c09685",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 925,
+     "route": "code_hybrid",
+     "rerank_score": 6.7143
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-sciences-v2/v1/c09568",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 904,
+     "route": "code_hybrid",
+     "rerank_score": 6.0298
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-sciences-v2/v1/c09655",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 920,
+     "route": "code_hybrid",
+     "rerank_score": 5.4883
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-sciences-v2/v1/c09541",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 899,
+     "route": "code_hybrid",
+     "rerank_score": 5.1214
+    }
+   ]
+  },
+  {
+   "id": "H04",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 200.9,
+   "messages_sha256": "7e8e7af5b11a9b1600470970be368d9f2bff0eb3d426879b7fd25ae421aa3a59",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-sciences-v2/v1/c09618",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 913,
+     "route": "code_hybrid",
+     "rerank_score": 4.6589
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-sciences-v2/v1/c09594",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 909,
+     "route": "code_hybrid",
+     "rerank_score": 4.3424
+    }
+   ]
+  },
+  {
+   "id": "H05",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 468.2,
+   "messages_sha256": "ad0150c7c9e2373350266dcf50837ca9b255d10f33802a3211b49f88f1c470ec",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-sciences-v2/v1/c08393",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 651,
+     "route": "code_hybrid",
+     "rerank_score": 4.4393
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-sciences-v2/v1/c08330",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 639,
+     "route": "code_hybrid",
+     "rerank_score": 4.3957
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-sciences-v2/v1/c08387",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 649,
+     "route": "code_hybrid",
+     "rerank_score": 4.2395
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-sciences-v2/v1/c08335",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 640,
+     "route": "code_hybrid",
+     "rerank_score": 3.6638
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-sciences-v2/v1/c08388",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 650,
+     "route": "code_hybrid",
+     "rerank_score": -0.4977
+    }
+   ]
+  },
+  {
+   "id": "H06",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 791.3,
+   "messages_sha256": "f3540330dd13e8d58eeaa34faa01d62ffa8be7557ab5a8dde13854aaebf0550f",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-humanities/v1/c04660",
+     "source": "MSU Humanities Yearbook",
+     "page": 781,
+     "route": "vector",
+     "rerank_score": 7.7932
+    },
+    {
+     "number": 2,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-199",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 34,
+     "route": "vector",
+     "rerank_score": 6.6661
+    },
+    {
+     "number": 3,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-198",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 34,
+     "route": "vector",
+     "rerank_score": 6.6605
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c04659",
+     "source": "MSU Humanities Yearbook",
+     "page": 781,
+     "route": "vector",
+     "rerank_score": 6.311
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c04666",
+     "source": "MSU Humanities Yearbook",
+     "page": 782,
+     "route": "vector",
+     "rerank_score": 5.0773
+    }
+   ]
+  },
+  {
+   "id": "H07",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 962.3,
+   "messages_sha256": "3b9018700ca423d17a13f0566ed11c17467d1dbbed4e6b7a40b24de525a54e48",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-humanities/v1/c04936",
+     "source": "MSU Humanities Yearbook",
+     "page": 824,
+     "route": "vector",
+     "rerank_score": 5.3424
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-humanities/v1/c04974",
+     "source": "MSU Humanities Yearbook",
+     "page": 830,
+     "route": "vector",
+     "rerank_score": 3.8484
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-humanities/v1/c04932",
+     "source": "MSU Humanities Yearbook",
+     "page": 823,
+     "route": "vector",
+     "rerank_score": 3.8475
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c04968",
+     "source": "MSU Humanities Yearbook",
+     "page": 829,
+     "route": "vector",
+     "rerank_score": 3.7607
+    },
+    {
+     "number": 5,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-206",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 35,
+     "route": "vector",
+     "rerank_score": 3.3333
+    }
+   ]
+  },
+  {
+   "id": "H08",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 863.6,
+   "messages_sha256": "5334a7f6d7fc3708909cde30842479c668c61e47acd04971c5648460de189282",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-178",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 31,
+     "route": "vector",
+     "rerank_score": 3.538
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-humanities/v1/c03790",
+     "source": "MSU Humanities Yearbook",
+     "page": 651,
+     "route": "vector",
+     "rerank_score": 1.1927
+    },
+    {
+     "number": 3,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-177",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 31,
+     "route": "vector",
+     "rerank_score": -0.2209
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c03794",
+     "source": "MSU Humanities Yearbook",
+     "page": 652,
+     "route": "vector",
+     "rerank_score": -0.7661
+    },
+    {
+     "number": 5,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-176",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 31,
+     "route": "vector",
+     "rerank_score": -0.8394
+    }
+   ]
+  },
+  {
+   "id": "H09",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 1021.4,
+   "messages_sha256": "a3ffdc38ca79515ebc757fc7acd17873a0ec24d9710ead9b23741cf9a73ad938",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-145",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 26,
+     "route": "vector",
+     "rerank_score": 7.1354
+    },
+    {
+     "number": 2,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-144",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 25,
+     "route": "vector",
+     "rerank_score": 7.1231
+    },
+    {
+     "number": 3,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-143",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 25,
+     "route": "vector",
+     "rerank_score": 7.0051
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-sciences-v2/v1/c08497",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 671,
+     "route": "vector",
+     "rerank_score": 6.5068
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-sciences-v2/v1/c08547",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 681,
+     "route": "vector",
+     "rerank_score": 6.4516
+    }
+   ]
+  },
+  {
+   "id": "H10",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 836.0,
+   "messages_sha256": "01545c8428eea4bc34fe1c5665622c708fcaca3b83598a2d02148e6134a1b94b",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-182",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 32,
+     "route": "vector",
+     "rerank_score": 5.8628
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-humanities/v1/c04159",
+     "source": "MSU Humanities Yearbook",
+     "page": 708,
+     "route": "vector",
+     "rerank_score": 4.9456
+    },
+    {
+     "number": 3,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-181",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 32,
+     "route": "vector",
+     "rerank_score": 4.2267
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c04158",
+     "source": "MSU Humanities Yearbook",
+     "page": 707,
+     "route": "vector",
+     "rerank_score": 4.1775
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c04156",
+     "source": "MSU Humanities Yearbook",
+     "page": 707,
+     "route": "vector",
+     "rerank_score": 1.4151
+    }
+   ]
+  },
+  {
+   "id": "H11",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 1083.0,
+   "messages_sha256": "ffd4b3faa97bf70446f8d3f1b0c6e13a86c6aa1d1eb96d49acb326364ae3f160",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-108",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 18,
+     "route": "vector",
+     "rerank_score": 5.4389
+    },
+    {
+     "number": 2,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-109",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 18,
+     "route": "vector",
+     "rerank_score": 4.497
+    },
+    {
+     "number": 3,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-151",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 27,
+     "route": "vector",
+     "rerank_score": 4.0661
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c03276",
+     "source": "MSU Humanities Yearbook",
+     "page": 569,
+     "route": "vector",
+     "rerank_score": 3.3961
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c03275",
+     "source": "MSU Humanities Yearbook",
+     "page": 569,
+     "route": "vector",
+     "rerank_score": 3.3571
+    }
+   ]
+  },
+  {
+   "id": "H12",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 819.0,
+   "messages_sha256": "d54a420835c2317d57945894f9cb8fce4053a6b28b7a5e084b0fabeef55363ba",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-113",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 19,
+     "route": "vector",
+     "rerank_score": 6.7151
+    },
+    {
+     "number": 2,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-107",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 18,
+     "route": "vector",
+     "rerank_score": 6.1567
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-humanities/v1/c03134",
+     "source": "MSU Humanities Yearbook",
+     "page": 548,
+     "route": "vector",
+     "rerank_score": 5.1137
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c03140",
+     "source": "MSU Humanities Yearbook",
+     "page": 549,
+     "route": "vector",
+     "rerank_score": 4.3006
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c02720",
+     "source": "MSU Humanities Yearbook",
+     "page": 481,
+     "route": "vector",
+     "rerank_score": 3.6485
+    }
+   ]
+  },
+  {
+   "id": "H13",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 834.3,
+   "messages_sha256": "030e41a4995832431ed0554b76152ee027c83b4eda96859eca442c77a5bf439e",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-067",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 11,
+     "route": "vector",
+     "rerank_score": 8.3365
+    },
+    {
+     "number": 2,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-066",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 11,
+     "route": "vector",
+     "rerank_score": 6.8542
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-sciences-v2/v1/c07963",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 566,
+     "route": "vector",
+     "rerank_score": 6.3937
+    },
+    {
+     "number": 4,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-055",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 8,
+     "route": "vector",
+     "rerank_score": 6.1968
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-sciences-v2/v1/c07991",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 572,
+     "route": "vector",
+     "rerank_score": 5.5406
+    }
+   ]
+  },
+  {
+   "id": "H14",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 756.7,
+   "messages_sha256": "fa411fd15300c45c3f681639c8be001cb537a02a7ea18197a163ed6766fa922d",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-humanities/v1/c02442",
+     "source": "MSU Humanities Yearbook",
+     "page": 436,
+     "route": "vector",
+     "rerank_score": 7.0687
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-humanities/v1/c02007",
+     "source": "MSU Humanities Yearbook",
+     "page": 365,
+     "route": "vector",
+     "rerank_score": 6.8846
+    },
+    {
+     "number": 3,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-091",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 15,
+     "route": "vector",
+     "rerank_score": 6.3275
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c02441",
+     "source": "MSU Humanities Yearbook",
+     "page": 436,
+     "route": "vector",
+     "rerank_score": 5.8284
+    },
+    {
+     "number": 5,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-084",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 14,
+     "route": "vector",
+     "rerank_score": 5.2485
+    }
+   ]
+  },
+  {
+   "id": "H15",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 1144.6,
+   "messages_sha256": "2c255bcf1fe97a1089ce6a525b022b05c7cdc120e4ac85c3e2e73d11af89efa9",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-056",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 8,
+     "route": "vector",
+     "rerank_score": 7.5102
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-sciences-v2/v1/c07823",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 539,
+     "route": "vector",
+     "rerank_score": 7.4024
+    },
+    {
+     "number": 3,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-060",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 10,
+     "route": "vector",
+     "rerank_score": 7.2523
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-sciences-v2/v1/c07824",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 539,
+     "route": "vector",
+     "rerank_score": 6.2738
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-sciences-v2/v1/c07826",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 539,
+     "route": "vector",
+     "rerank_score": 6.1265
+    }
+   ]
+  },
+  {
+   "id": "H16",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 865.6,
+   "messages_sha256": "62119e97d303192d701b1a3ab2b487f7b669df7da8b266a239a140d8184c18dd",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-111",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 19,
+     "route": "vector",
+     "rerank_score": 6.0274
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-sciences-v2/v1/c06027",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 193,
+     "route": "vector",
+     "rerank_score": 3.2968
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-humanities/v1/c03283",
+     "source": "MSU Humanities Yearbook",
+     "page": 571,
+     "route": "vector",
+     "rerank_score": 3.0319
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c03338",
+     "source": "MSU Humanities Yearbook",
+     "page": 580,
+     "route": "vector",
+     "rerank_score": 2.9638
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c03207",
+     "source": "MSU Humanities Yearbook",
+     "page": 560,
+     "route": "vector",
+     "rerank_score": 2.1253
+    }
+   ]
+  },
+  {
+   "id": "H17",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 694.2,
+   "messages_sha256": "add5434acb7c012a9370f75f5dfc70eb51341dcf12e331ed74d94aec9da4aa34",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-161",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 29,
+     "route": "vector",
+     "rerank_score": 5.5423
+    },
+    {
+     "number": 2,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-162",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 29,
+     "route": "vector",
+     "rerank_score": 3.8047
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-sciences-v2/v1/c09075",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 795,
+     "route": "vector",
+     "rerank_score": 3.2652
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-sciences-v2/v1/c09073",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 795,
+     "route": "vector",
+     "rerank_score": 2.9276
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-sciences-v2/v1/c09074",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 795,
+     "route": "vector",
+     "rerank_score": 2.5922
+    }
+   ]
+  },
+  {
+   "id": "H18",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 634.6,
+   "messages_sha256": "e1f083d64fb3e516f78b9a268d04f04193a5d1b906fa61cbe5533c7a38e86e8b",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-217",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 36,
+     "route": "vector",
+     "rerank_score": 6.2932
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-humanities/v1/c05251",
+     "source": "MSU Humanities Yearbook",
+     "page": 876,
+     "route": "vector",
+     "rerank_score": 6.2451
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-humanities/v1/c05250",
+     "source": "MSU Humanities Yearbook",
+     "page": 876,
+     "route": "vector",
+     "rerank_score": 5.9986
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c05248",
+     "source": "MSU Humanities Yearbook",
+     "page": 875,
+     "route": "vector",
+     "rerank_score": 5.6552
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c05256",
+     "source": "MSU Humanities Yearbook",
+     "page": 877,
+     "route": "vector",
+     "rerank_score": 5.5893
+    }
+   ]
+  },
+  {
+   "id": "H19",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 682.3,
+   "messages_sha256": "29a34227a9bb80a04911dca0f57c2b07181de6535f747005e50aadae19f50468",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-097",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 16,
+     "route": "vector",
+     "rerank_score": 6.7741
+    },
+    {
+     "number": 2,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-096",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 16,
+     "route": "vector",
+     "rerank_score": 5.3946
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-humanities/v1/c02609",
+     "source": "MSU Humanities Yearbook",
+     "page": 463,
+     "route": "vector",
+     "rerank_score": 4.9047
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c02608",
+     "source": "MSU Humanities Yearbook",
+     "page": 463,
+     "route": "vector",
+     "rerank_score": 4.4184
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c02605",
+     "source": "MSU Humanities Yearbook",
+     "page": 462,
+     "route": "vector",
+     "rerank_score": 4.2572
+    }
+   ]
+  },
+  {
+   "id": "H20",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 685.2,
+   "messages_sha256": "6e055033377c99939cc1e4d2d686447ad6c2fbf8330433f91c7acfdac8e2a2db",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-084",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 14,
+     "route": "vector",
+     "rerank_score": 7.2843
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-humanities/v1/c02017",
+     "source": "MSU Humanities Yearbook",
+     "page": 367,
+     "route": "vector",
+     "rerank_score": 4.8088
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-humanities/v1/c02008",
+     "source": "MSU Humanities Yearbook",
+     "page": 366,
+     "route": "vector",
+     "rerank_score": 4.6672
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c02038",
+     "source": "MSU Humanities Yearbook",
+     "page": 370,
+     "route": "vector",
+     "rerank_score": 4.6568
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c02022",
+     "source": "MSU Humanities Yearbook",
+     "page": 368,
+     "route": "vector",
+     "rerank_score": 4.6292
+    }
+   ]
+  },
+  {
+   "id": "H21",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 893.3,
+   "messages_sha256": "748748bee534b5e2ad80e45e9f4c8e603dca58ab40acc39e57425c079bf99cb1",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-136",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 24,
+     "route": "vector",
+     "rerank_score": 8.3316
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-sciences-v2/v1/c08719",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 718,
+     "route": "vector",
+     "rerank_score": 4.9157
+    },
+    {
+     "number": 3,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-134",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 23,
+     "route": "vector",
+     "rerank_score": 4.9067
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-sciences-v2/v1/c08718",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 717,
+     "route": "vector",
+     "rerank_score": 4.4751
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-sciences-v2/v1/c08730",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 721,
+     "route": "vector",
+     "rerank_score": 4.4182
+    }
+   ]
+  },
+  {
+   "id": "H22",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 1102.2,
+   "messages_sha256": "7ba06f7f546b4443560b64628d95524701800f9bcceef2fab0b5c7787d22caf1",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-humanities/v1/c03956",
+     "source": "MSU Humanities Yearbook",
+     "page": 675,
+     "route": "vector",
+     "rerank_score": 9.5014
+    },
+    {
+     "number": 2,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-179",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 31,
+     "route": "vector",
+     "rerank_score": 8.6112
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-humanities/v1/c03957",
+     "source": "MSU Humanities Yearbook",
+     "page": 676,
+     "route": "vector",
+     "rerank_score": 8.0396
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c04007",
+     "source": "MSU Humanities Yearbook",
+     "page": 684,
+     "route": "vector",
+     "rerank_score": 5.256
+    },
+    {
+     "number": 5,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-180",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 31,
+     "route": "vector",
+     "rerank_score": 5.0784
+    }
+   ]
+  },
+  {
+   "id": "H23",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 685.3,
+   "messages_sha256": "2565a6a624a9796c9547743cf5bf84dd30ae757dcf0e2d4a97a0f236e561f070",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-sciences-v2/v1/c06115",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 212,
+     "route": "vector",
+     "rerank_score": 7.8871
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-sciences-v2/v1/c06280",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 247,
+     "route": "vector",
+     "rerank_score": 7.1739
+    },
+    {
+     "number": 3,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-006",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 2,
+     "route": "vector",
+     "rerank_score": 6.0885
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-sciences-v2/v1/c06116",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 212,
+     "route": "vector",
+     "rerank_score": 6.0144
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-sciences-v2/v1/c05963",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 181,
+     "route": "vector",
+     "rerank_score": 2.5216
+    }
+   ]
+  },
+  {
+   "id": "H24",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 819.8,
+   "messages_sha256": "44edabb01b9b25dbbc67d2e070a94b232170fde90d87d0aceab1b1f69bb99cae",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-sciences-v2/v1/c07431",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 465,
+     "route": "vector",
+     "rerank_score": 10.0989
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-sciences-v2/v1/c07436",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 466,
+     "route": "vector",
+     "rerank_score": 8.9295
+    },
+    {
+     "number": 3,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-061",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 10,
+     "route": "vector",
+     "rerank_score": 8.8158
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-sciences-v2/v1/c07434",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 466,
+     "route": "vector",
+     "rerank_score": 8.6792
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-sciences-v2/v1/c07439",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 467,
+     "route": "vector",
+     "rerank_score": 8.404
+    }
+   ]
+  },
+  {
+   "id": "H25",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 720.3,
+   "messages_sha256": "f681747de974701af331c416abb50159c09fe4c945e7f74d67d02a386ef759b6",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-humanities/v1/c00986",
+     "source": "MSU Humanities Yearbook",
+     "page": 207,
+     "route": "vector",
+     "rerank_score": 9.2326
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-humanities/v1/c00927",
+     "source": "MSU Humanities Yearbook",
+     "page": 198,
+     "route": "vector",
+     "rerank_score": 8.4632
+    },
+    {
+     "number": 3,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-037",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 6,
+     "route": "vector",
+     "rerank_score": 8.368
+    },
+    {
+     "number": 4,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-021",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 4,
+     "route": "vector",
+     "rerank_score": 6.4729
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c00988",
+     "source": "MSU Humanities Yearbook",
+     "page": 207,
+     "route": "vector",
+     "rerank_score": 6.3201
+    }
+   ]
+  },
+  {
+   "id": "H26",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 1043.8,
+   "messages_sha256": "be9af48fa1edddc07cbaa7b04bc8b7ba5c621de63af47603b47c3320f6a507c8",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "roadmap-2027/v1/RM2027-06",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 7.9339
+    },
+    {
+     "number": 2,
+     "passage_uid": "roadmap-2027/v1/RM2027-10",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 7.6079
+    },
+    {
+     "number": 3,
+     "passage_uid": "roadmap-2027/v1/RM2027-12",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 7.5491
+    },
+    {
+     "number": 4,
+     "passage_uid": "roadmap-2027/v1/RM2027-11",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 6.0615
+    },
+    {
+     "number": 5,
+     "passage_uid": "roadmap-2027/v1/RM2027-19",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 5.9675
+    }
+   ]
+  },
+  {
+   "id": "H27",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 975.2,
+   "messages_sha256": "2f9a537d5c76a01c807c27b66334cefd715238def6248b9de497015081ec5b1e",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "roadmap-2027/v1/RM2027-08",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 8.9998
+    },
+    {
+     "number": 2,
+     "passage_uid": "roadmap-2027/v1/RM2027-09",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 7.5793
+    },
+    {
+     "number": 3,
+     "passage_uid": "roadmap-2027/v1/RM2027-02",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 7.4607
+    },
+    {
+     "number": 4,
+     "passage_uid": "roadmap-2027/v1/RM2027-18",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 6.959
+    },
+    {
+     "number": 5,
+     "passage_uid": "roadmap-2027/v1/RM2027-01",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 5.1899
+    }
+   ]
+  },
+  {
+   "id": "H28",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 879.1,
+   "messages_sha256": "66cbc64aa5d1d0ece73131e475ca147cffacb02528b51084145e46a7e739effd",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "roadmap-2027/v1/RM2027-19",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 9.0124
+    },
+    {
+     "number": 2,
+     "passage_uid": "roadmap-2027/v1/RM2027-18",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 8.6983
+    },
+    {
+     "number": 3,
+     "passage_uid": "roadmap-2027/v1/RM2027-16",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 8.4024
+    },
+    {
+     "number": 4,
+     "passage_uid": "roadmap-2027/v1/RM2027-15",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 8.2795
+    },
+    {
+     "number": 5,
+     "passage_uid": "roadmap-2027/v1/RM2027-20",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 8.2739
+    }
+   ]
+  },
+  {
+   "id": "H29",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 892.8,
+   "messages_sha256": "11c7bbf99e11384b8f96f26818daab60a0889269fee8ff30db55ce6ed4354795",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "roadmap-2027/v1/RM2027-19",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 9.6147
+    },
+    {
+     "number": 2,
+     "passage_uid": "roadmap-2027/v1/RM2027-18",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 8.7644
+    },
+    {
+     "number": 3,
+     "passage_uid": "roadmap-2027/v1/RM2027-20",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 8.5627
+    },
+    {
+     "number": 4,
+     "passage_uid": "roadmap-2027/v1/RM2027-16",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 8.1925
+    },
+    {
+     "number": 5,
+     "passage_uid": "roadmap-2027/v1/RM2027-15",
+     "source": "MSU 2027 Road Map",
+     "page": 1,
+     "route": "vector",
+     "rerank_score": 8.1177
+    }
+   ]
+  },
+  {
+   "id": "H30",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 617.9,
+   "messages_sha256": "825c533afd68dbeebc88667a5df96d792e1557a41faef44d593fcf9a592f5d07",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-sciences-v2/v1/c07198",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 424,
+     "route": "vector",
+     "rerank_score": 7.9854
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-sciences-v2/v1/c07161",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 416,
+     "route": "vector",
+     "rerank_score": 7.7313
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-sciences-v2/v1/c07181",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 421,
+     "route": "vector",
+     "rerank_score": 5.155
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-sciences-v2/v1/c07180",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 420,
+     "route": "vector",
+     "rerank_score": 4.248
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-sciences-v2/v1/c07164",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 417,
+     "route": "vector",
+     "rerank_score": 3.9989
+    }
+   ]
+  },
+  {
+   "id": "H31",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 592.7,
+   "messages_sha256": "50a5bec14f7d3c2bf19554148d90528765417930a5df4f06bab87527801a91cd",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-humanities/v1/c03716",
+     "source": "MSU Humanities Yearbook",
+     "page": 639,
+     "route": "vector",
+     "rerank_score": 8.7959
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-humanities/v1/c03715",
+     "source": "MSU Humanities Yearbook",
+     "page": 639,
+     "route": "vector",
+     "rerank_score": 7.9063
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-humanities/v1/c03713",
+     "source": "MSU Humanities Yearbook",
+     "page": 639,
+     "route": "vector",
+     "rerank_score": 7.2877
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c03719",
+     "source": "MSU Humanities Yearbook",
+     "page": 640,
+     "route": "vector",
+     "rerank_score": 4.4536
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c03733",
+     "source": "MSU Humanities Yearbook",
+     "page": 641,
+     "route": "vector",
+     "rerank_score": 3.8463
+    }
+   ]
+  },
+  {
+   "id": "H32",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 596.6,
+   "messages_sha256": "88633620d15a443dbc8842e0181d276d59728ff4bc354d23cd0bbb4a8d0e98f4",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-humanities/v1/c05001",
+     "source": "MSU Humanities Yearbook",
+     "page": 835,
+     "route": "vector",
+     "rerank_score": 9.1896
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-humanities/v1/c05002",
+     "source": "MSU Humanities Yearbook",
+     "page": 835,
+     "route": "vector",
+     "rerank_score": 8.5281
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-humanities/v1/c04982",
+     "source": "MSU Humanities Yearbook",
+     "page": 832,
+     "route": "vector",
+     "rerank_score": 5.606
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c04933",
+     "source": "MSU Humanities Yearbook",
+     "page": 823,
+     "route": "vector",
+     "rerank_score": 5.2838
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-sciences-v2/v1/c07907",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 556,
+     "route": "vector",
+     "rerank_score": 5.2351
+    }
+   ]
+  },
+  {
+   "id": "H33",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 738.7,
+   "messages_sha256": "44b52c2ef1622a05f87ab4a4773e997bd1d7accdc196ccc5699b9bd982f805ee",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-sciences-v2/v1/c07722",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 520,
+     "route": "vector",
+     "rerank_score": 9.5083
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-sciences-v2/v1/c07938",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 562,
+     "route": "vector",
+     "rerank_score": 8.4148
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-sciences-v2/v1/c07935",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 561,
+     "route": "vector",
+     "rerank_score": 8.0179
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-sciences-v2/v1/c07907",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 556,
+     "route": "vector",
+     "rerank_score": 7.8046
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-sciences-v2/v1/c07690",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 514,
+     "route": "vector",
+     "rerank_score": 7.6344
+    }
+   ]
+  },
+  {
+   "id": "H34",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 704.3,
+   "messages_sha256": "e008605c91c9e2d49d5bceb631704959a60549a7b057d03c5ec08f611da3a00f",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-humanities/v1/c04826",
+     "source": "MSU Humanities Yearbook",
+     "page": 807,
+     "route": "vector",
+     "rerank_score": 9.6136
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-humanities/v1/c04828",
+     "source": "MSU Humanities Yearbook",
+     "page": 807,
+     "route": "vector",
+     "rerank_score": 6.9626
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-humanities/v1/c04832",
+     "source": "MSU Humanities Yearbook",
+     "page": 807,
+     "route": "vector",
+     "rerank_score": 6.3528
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c04829",
+     "source": "MSU Humanities Yearbook",
+     "page": 807,
+     "route": "vector",
+     "rerank_score": 6.053
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c04836",
+     "source": "MSU Humanities Yearbook",
+     "page": 808,
+     "route": "vector",
+     "rerank_score": 5.8609
+    }
+   ]
+  },
+  {
+   "id": "H35",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 802.5,
+   "messages_sha256": "a1617e517c22934c268bc518fb379dda633c28c50b518d48f8f92b1bb9b106ed",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-humanities/v1/c01458",
+     "source": "MSU Humanities Yearbook",
+     "page": 277,
+     "route": "vector",
+     "rerank_score": 8.9265
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-humanities/v1/c01461",
+     "source": "MSU Humanities Yearbook",
+     "page": 277,
+     "route": "vector",
+     "rerank_score": 8.9014
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-humanities/v1/c01454",
+     "source": "MSU Humanities Yearbook",
+     "page": 276,
+     "route": "vector",
+     "rerank_score": 8.3742
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c01494",
+     "source": "MSU Humanities Yearbook",
+     "page": 283,
+     "route": "vector",
+     "rerank_score": 7.5708
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c01096",
+     "source": "MSU Humanities Yearbook",
+     "page": 221,
+     "route": "vector",
+     "rerank_score": 3.6922
+    }
+   ]
+  },
+  {
+   "id": "H36",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 743.9,
+   "messages_sha256": "84928522903a2277313aad7b2b97966f4bde2556fe6a72113aa96159d0e739cb",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-humanities/v1/c05129",
+     "source": "MSU Humanities Yearbook",
+     "page": 855,
+     "route": "vector",
+     "rerank_score": 6.169
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-humanities/v1/c05120",
+     "source": "MSU Humanities Yearbook",
+     "page": 853,
+     "route": "vector",
+     "rerank_score": 5.4916
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-humanities/v1/c05122",
+     "source": "MSU Humanities Yearbook",
+     "page": 854,
+     "route": "vector",
+     "rerank_score": 5.2713
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c05155",
+     "source": "MSU Humanities Yearbook",
+     "page": 860,
+     "route": "vector",
+     "rerank_score": 4.488
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c05132",
+     "source": "MSU Humanities Yearbook",
+     "page": 855,
+     "route": "vector",
+     "rerank_score": 3.4721
+    }
+   ]
+  },
+  {
+   "id": "H37",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 858.0,
+   "messages_sha256": "956f8cdbc22cb7a9a52375e00f7004a665a3ddd52215c416642344857e9a5ab0",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-098",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 16,
+     "route": "vector",
+     "rerank_score": -1.2662
+    },
+    {
+     "number": 2,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-097",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 16,
+     "route": "vector",
+     "rerank_score": -1.479
+    },
+    {
+     "number": 3,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-105",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 18,
+     "route": "vector",
+     "rerank_score": -1.5016
+    },
+    {
+     "number": 4,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-095",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 16,
+     "route": "vector",
+     "rerank_score": -1.5093
+    },
+    {
+     "number": 5,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-091",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 15,
+     "route": "vector",
+     "rerank_score": -1.8304
+    }
+   ]
+  },
+  {
+   "id": "H38",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 766.6,
+   "messages_sha256": "60d119aabfad888985710bf4e0485408c6a98c1e69b4c4a594dfea8217dc1a79",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-humanities/v1/c00269",
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "route": "vector",
+     "rerank_score": -6.1765
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-humanities/v1/c00596",
+     "source": "MSU Humanities Yearbook",
+     "page": 141,
+     "route": "vector",
+     "rerank_score": -6.3648
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-sciences-v2/v1/c05746",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 76,
+     "route": "vector",
+     "rerank_score": -6.4987
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c00267",
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "route": "vector",
+     "rerank_score": -6.5064
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c00262",
+     "source": "MSU Humanities Yearbook",
+     "page": 75,
+     "route": "vector",
+     "rerank_score": -6.9016
+    }
+   ]
+  },
+  {
+   "id": "H39",
+   "system": "public",
+   "kb_version": "0005",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 773.0,
+   "messages_sha256": "18fb86ad71796262ab12a75897ae799636b1530d248b127ced48433cb8987eee",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-humanities/v1/c00267",
+     "source": "MSU Humanities Yearbook",
+     "page": 76,
+     "route": "vector",
+     "rerank_score": -7.4912
+    },
+    {
+     "number": 2,
+     "passage_uid": "yearbook-humanities/v1/c00000",
+     "source": "MSU Humanities Yearbook",
+     "page": 2,
+     "route": "vector",
+     "rerank_score": -8.8557
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-humanities/v1/c00232",
+     "source": "MSU Humanities Yearbook",
+     "page": 63,
+     "route": "vector",
+     "rerank_score": -10.056
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-humanities/v1/c00238",
+     "source": "MSU Humanities Yearbook",
+     "page": 66,
+     "route": "vector",
+     "rerank_score": -10.2173
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-humanities/v1/c00127",
+     "source": "MSU Humanities Yearbook",
+     "page": 35,
+     "route": "vector",
+     "rerank_score": -10.2342
+    }
+   ]
+  },
+  {
+   "id": "H40",
+   "system": "staging",
+   "kb_version": "0006",
+   "question_unchanged_by_cleanup": true,
+   "retrieval_ms": 590.3,
+   "messages_sha256": "1fbd85eb893c4cbeb63dd7082239f2a7e8339ae7c4b13d26b7892cafb1a47e1c",
+   "identical_to_frozen_inputs": true,
+   "evidence": [
+    {
+     "number": 1,
+     "passage_uid": "yearbook-humanities/v1/c05608",
+     "source": "MSU Humanities Yearbook",
+     "page": 930,
+     "route": "vector",
+     "rerank_score": -3.6607
+    },
+    {
+     "number": 2,
+     "passage_uid": "intake-2027-jan-feb/v1/MSU-JF2027-171",
+     "source": "MSU January/February 2027 Intake Advert",
+     "page": 30,
+     "route": "vector",
+     "rerank_score": -5.7241
+    },
+    {
+     "number": 3,
+     "passage_uid": "yearbook-sciences-v2/v1/c09858",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 956,
+     "route": "vector",
+     "rerank_score": -6.8297
+    },
+    {
+     "number": 4,
+     "passage_uid": "yearbook-sciences-v2/v1/c10469",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1081,
+     "route": "vector",
+     "rerank_score": -8.9373
+    },
+    {
+     "number": 5,
+     "passage_uid": "yearbook-sciences-v2/v1/c10468",
+     "source": "MSU Sciences Yearbook Vol. 2",
+     "page": 1081,
+     "route": "vector",
+     "rerank_score": -9.1185
+    }
+   ]
+  }
+ ]
+}

@@ -152,7 +152,8 @@ NOT_FOUND = re.compile(
     r"do(?:es)? not (?:contain|include|mention|provide|have) (?:any |the )?(?:information|details?|data|mention)"
     r"|(?:could|can)\s?not find|could not locate|no (?:relevant )?information (?:is |was )?(?:available|found|provided)?"
     r"|no information about|contain no information|cannot (?:answer|provide|help)|can[’']?t (?:help|answer|provide)"
-    r"|not (?:covered|included) in the (?:MSU )?(?:documents|evidence|sources)", re.I)
+    r"|not (?:covered|included) in the (?:MSU )?(?:documents|evidence|sources)"
+    r"|documents (?:searched )?do not (?:contain|include|mention|provide)", re.I)
 
 
 def is_not_found(status: str, answer: str) -> bool:
@@ -161,3 +162,158 @@ def is_not_found(status: str, answer: str) -> bool:
     if status == "no_evidence":
         return True
     return status == "answered" and bool(NOT_FOUND.search(answer or "")) and not cited_numbers(answer)
+
+
+# ------------------------------------------------------------------ fact verification against the evidence
+MONTHS = "january|february|march|april|may|june|july|august|september|october|november|december"
+_FACT_DATE = re.compile(rf"\b(\d{{1,2}})(?:st|nd|rd|th)?\s+({MONTHS})\s+(\d{{4}})\b", re.I)
+_FACT_DURATION = re.compile(r"\b(\d+(?:\.\d+)?|\d*\s*½)\s*-?\s*(years?|months?)\b", re.I)
+_FACT_CLASS = re.compile(r"(?<![\d.])2\.[12](?![\d])")
+_FACT_CODE = re.compile(r"\b([A-Z]{2,6})\s?(\d{3}[A-Z]?)\b")
+_NUM_DATE = re.compile(r"\b(\d{1,2})/(\d{1,2})/(\d{4})\b")
+_MONTH_NAMES = MONTHS.split("|")
+_WORD_NUMBERS = {"one": "1", "two": "2", "three": "3", "four": "4", "five": "5", "six": "6", "twelve": "12",
+                 "eighteen": "18"}
+
+
+def _norm_facts_text(text: str) -> str:
+    t = (text or "").lower().replace(" ", " ").replace(" ", " ").replace("‑", "-")
+    t = _NUM_DATE.sub(lambda m: f"{int(m.group(1))} {_MONTH_NAMES[int(m.group(2)) - 1]} {m.group(3)}"
+                      if 1 <= int(m.group(2)) <= 12 else m.group(0), t)
+    t = re.sub(r"(\d)\s*1\s*/\s*2", r"\1.5", t.replace("1½", "1 ½"))
+    t = re.sub(r"(\d+)\s*½", lambda m: f"{m.group(1)}.5", t)
+    for w, n in _WORD_NUMBERS.items():
+        t = re.sub(rf"\b{w}\b", n, t)
+    t = re.sub(r"\b(\d+)\s*\((\d+)\)", lambda m: m.group(2) if m.group(1) == m.group(2) else m.group(0), t)  # 18 (18)
+    t = re.sub(r"(\d+(?:\.\d+)?)\s*-?\s*(year|month)", r"\1 \2", t)
+    return re.sub(r"\s+", " ", t)
+
+
+def unverified_facts(answer: str, evidence_texts: List[str], question: str = "") -> List[str]:
+    """Dates, durations, degree classes (2.1/2.2) and module codes in the answer that appear in none of the evidence
+    passages (nor in the question). Deterministic; used only to show a caution note, never to change the answer."""
+    source = _norm_facts_text(" ".join(evidence_texts) + " " + (question or ""))
+    found = []
+    text = answer or ""
+    for m in _FACT_DATE.finditer(text):
+        key = f"{int(m.group(1))} {m.group(2).lower()} {m.group(3)}"
+        if key not in source:
+            found.append(m.group(0))
+    for m in _FACT_DURATION.finditer(_norm_facts_text(text)):
+        num = m.group(1).replace(" ", "")
+        num = "0.5" if num == "½" else num
+        unit = "year" if m.group(2).startswith("year") else "month"
+        if not re.search(rf"(?<![\d.]){re.escape(num)} {unit}", source):
+            found.append(f"{m.group(1).strip()} {m.group(2)}")
+    for m in _FACT_CLASS.finditer(text):
+        if m.group(0) not in source:
+            found.append(m.group(0))
+    for m in _FACT_CODE.finditer(text):
+        code = (m.group(1) + m.group(2)).lower()
+        if m.group(1) in ("MSU", "ZNQF", "HND", "ND", "UZ") or code in source.replace(" ", ""):
+            continue
+        found.append(m.group(1) + m.group(2))
+    for m in _FACT_DESCRIPTOR.finditer(_norm_facts_text(text)):     # 'full-time' / 'part-time' study descriptors
+        if not re.search(rf"\b{m.group(1)}[- ]?time\b", source):
+            found.append(f"{m.group(1)}-time")
+    return list(dict.fromkeys(found))
+
+
+_FACT_DESCRIPTOR = re.compile(r"\b(full|part)[- ]?time\b", re.I)
+_DESCRIPTOR_PAREN = re.compile(r"\s*\((?:full|part)[\s\-‐‑]?time[^)]*\)", re.I)
+_DESCRIPTOR_WORD = re.compile(r"\b(?:full|part)[\s\-‐‑]?time\b[\s,]*", re.I)
+
+
+def remove_unsupported_descriptors(answer: str, evidence_texts: List[str]) -> str:
+    """Remove 'full-time' / 'part-time' qualifiers that no evidence passage contains (the advert never classifies its
+    study modes that way; the model sometimes adds it). Only that qualifier is removed; the rest of the answer is
+    unchanged, and the original text is kept in AssistantResult.raw_answer."""
+    source = " ".join(evidence_texts).lower()
+    text = answer or ""
+    for kind in ("full", "part"):
+        if re.search(rf"\b{kind}[\s\-‐‑]?time\b", source):
+            continue
+        text = re.sub(rf"\s*\({kind}[\s\-‐‑]?time[^)]*\)", "", text, flags=re.I)
+        text = re.sub(rf"\b{kind}[\s\-‐‑]?time\b[ ,]*", "", text, flags=re.I)
+    text = re.sub(r"[ \t]{2,}", " ", text)
+    text = re.sub(r"\b(a|an)\s+(?=[,.;:)])", "", text)
+    return re.sub(r" +([,.;:)])", r"\1", text)
+
+
+NOTE_UNVERIFIED = ("Check these details against the sources below; they were not found in the retrieved passages: "
+                   "{facts}.")
+
+
+def fact_notes(answer: str, evidence: List[Dict[str, Any]], question: str = "") -> List[Dict[str, str]]:
+    facts = unverified_facts(answer, [e.get("text") or "" for e in evidence], question)
+    notes = [{"kind": "verification", "text": NOTE_UNVERIFIED.format(facts=", ".join(facts[:6]))}] if facts else []
+    return notes + mode_combination_notes(answer, evidence)
+
+
+# ------------------------------------------------------------------ campus / study-mode combinations
+CAMPUSES = ("Gweru", "Harare", "Bulawayo", "Zvishavane", "Kwekwe")
+STUDY_MODES = ("Block Release", "Weekend School", "Weekend Class", "Conventional", "Visiting")
+_MODES_LINE = re.compile(r"MODES OF ENTRY:\s*([^\n]+)", re.I)
+NOTE_MODE_COMBINATION = ("This answer lists a campus and study mode combination that the advert does not show: "
+                         "{pairs}. Use only the routes listed in the sources below.")
+
+
+def _mode_of(text: str) -> Optional[str]:
+    t = text.lower()
+    return next((m for m in STUDY_MODES if m.lower() in t), None)
+
+
+def advertised_pairs(evidence: List[Dict[str, Any]]) -> set:
+    pairs = set()
+    for e in evidence:
+        for line in _MODES_LINE.findall(e.get("text") or ""):
+            for part in line.split(";"):
+                campus = next((c for c in CAMPUSES if c.lower() in part.lower()), None)
+                mode = _mode_of(part)
+                if campus and mode:
+                    pairs.add((campus, "Weekend School" if mode == "Weekend Class" else mode))
+    return pairs
+
+
+_MODE_ALT = "|".join(re.escape(m) for m in STUDY_MODES)
+_CAMPUS_ALT = "|".join(CAMPUSES)
+# an explicit campus + mode phrase: "Bulawayo Visiting", "Gweru – Visiting", "Harare (Weekend School)", "Gweru: Conventional"
+_PAIR_PHRASE = re.compile(rf"\b({_CAMPUS_ALT})(?:\s+campus)?\s*(?:[\-–—:(]\s*)?({_MODE_ALT})\b", re.I)
+
+
+def _canon_mode(m: str) -> str:
+    m = next(s for s in STUDY_MODES if s.lower() == m.lower())
+    return "Weekend School" if m == "Weekend Class" else m
+
+
+def unadvertised_pairs(answer: str, evidence: List[Dict[str, Any]]) -> List[str]:
+    """Campus + mode pairs the answer states explicitly that are not among the advert's MODES OF ENTRY in the
+    evidence. Only high-precision forms are checked: an explicit phrase ('Bulawayo Visiting', 'Gweru – Visiting') and a
+    table row whose cell is a campus followed by a cell that starts with a mode ('| Bulawayo | Visiting | 3 years |').
+    Loose sentences ('a conventional route at Gweru and a weekend-school route at Bulawayo') are not interpreted."""
+    allowed = advertised_pairs(evidence)
+    if not allowed:
+        return []
+    found = []
+    text = re.sub(r"(?<=[A-Za-z])[\-‐‑‒](?=[A-Za-z])", " ", answer or "")   # weekend-school
+    for m in _PAIR_PHRASE.finditer(text):
+        found.append((m.group(1).title(), _canon_mode(m.group(2))))
+    for line in text.splitlines():
+        if line.count("|") < 2:
+            continue
+        cells = [c.strip(" *") for c in line.strip().strip("|").split("|")]
+        for i, cell in enumerate(cells[:-1]):
+            campus = next((c for c in CAMPUSES if re.fullmatch(rf"{c}(?:\s+campus)?", cell, re.I)), None)
+            mode = re.match(rf"({_MODE_ALT})\b", cells[i + 1], re.I) if campus else None
+            if campus and mode:
+                found.append((campus, _canon_mode(mode.group(1))))
+    bad = []
+    for c, m in found:
+        if (c, m) not in allowed and f"{c} {m}" not in bad:
+            bad.append(f"{c} {m}")
+    return bad
+
+
+def mode_combination_notes(answer: str, evidence: List[Dict[str, Any]]) -> List[Dict[str, str]]:
+    bad = unadvertised_pairs(answer, evidence)
+    return [{"kind": "mode_combination", "text": NOTE_MODE_COMBINATION.format(pairs=", ".join(bad[:4]))}] if bad else []

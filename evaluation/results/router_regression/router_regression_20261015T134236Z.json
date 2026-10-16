@@ -1,0 +1,916 @@
+{
+ "summary": {
+  "model": "openai/gpt-oss-20b",
+  "cases": 41,
+  "repeats": 2,
+  "passed": 78,
+  "total": 82,
+  "by_category": {
+   "tuition_vs_fees": "14/14",
+   "deadline": "10/14",
+   "programme_names": "12/12",
+   "eligibility": "10/10",
+   "follow_up": "12/12",
+   "unrelated": "12/12",
+   "other_out_of_scope": "8/8"
+  }
+ },
+ "results": [
+  {
+   "repeat": 1,
+   "cat": "tuition_vs_fees",
+   "q": "When does second-quarter face-to-face tuition run in 2027?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 840
+  },
+  {
+   "repeat": 1,
+   "cat": "tuition_vs_fees",
+   "q": "When is face to face tuition for Faculty of Education block release students in the second semester?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 395
+  },
+  {
+   "repeat": 1,
+   "cat": "tuition_vs_fees",
+   "q": "When does tuition start for first-year students?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 413
+  },
+  {
+   "repeat": 1,
+   "cat": "tuition_vs_fees",
+   "q": "How much is tuition at MSU?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 1,
+   "cat": "tuition_vs_fees",
+   "q": "What are the tuition fees for the Bachelor of Laws?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 1,
+   "cat": "tuition_vs_fees",
+   "q": "Is studying Medicine at MSU expensive?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "model",
+   "ok": true,
+   "ms": 614
+  },
+  {
+   "repeat": 1,
+   "cat": "tuition_vs_fees",
+   "q": "Can I pay my fees in instalments?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 1,
+   "cat": "deadline",
+   "q": "When is the last day to apply?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 1,
+   "cat": "deadline",
+   "q": "Until when can I submit my application for the January intake?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 1,
+   "cat": "deadline",
+   "q": "Is it too late to apply for 2027?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "INFO",
+   "reason": "model_out_of_scope_not_confirmed",
+   "ok": false,
+   "ms": 924
+  },
+  {
+   "repeat": 1,
+   "cat": "deadline",
+   "q": "How long do I have to get my application in?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "INFO",
+   "reason": "model_out_of_scope_not_confirmed",
+   "ok": false,
+   "ms": 340
+  },
+  {
+   "repeat": 1,
+   "cat": "deadline",
+   "q": "When do applications close for the February intake?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 1,
+   "cat": "deadline",
+   "q": "How do I apply to MSU?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 373
+  },
+  {
+   "repeat": 1,
+   "cat": "deadline",
+   "q": "When does the first semester start in 2027?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 697
+  },
+  {
+   "repeat": 1,
+   "cat": "programme_names",
+   "q": "What are the entry requirements for the BCom in Banking and Finance?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 550
+  },
+  {
+   "repeat": 1,
+   "cat": "programme_names",
+   "q": "How long is the Bachelor of Commerce in Applied Accounting?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 995
+  },
+  {
+   "repeat": 1,
+   "cat": "programme_names",
+   "q": "Which campus offers Actuarial Science?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 507
+  },
+  {
+   "repeat": 1,
+   "cat": "programme_names",
+   "q": "What are the entry requirements for Software Engineering?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 330
+  },
+  {
+   "repeat": 1,
+   "cat": "programme_names",
+   "q": "Tell me about the Bachelor of Commerce in Risk Management and Insurance",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 607
+  },
+  {
+   "repeat": 1,
+   "cat": "programme_names",
+   "q": "Is Security Risk Management offered on weekends?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 411
+  },
+  {
+   "repeat": 1,
+   "cat": "eligibility",
+   "q": "I have Mathematics A, Computer Science A and Economics B, what can I study?",
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 361
+  },
+  {
+   "repeat": 1,
+   "cat": "eligibility",
+   "q": "With Physics A, Chemistry B and Biology B can I do medicine?",
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 275
+  },
+  {
+   "repeat": 1,
+   "cat": "eligibility",
+   "q": "I got A, B and C at A Level. What can I study?",
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 391
+  },
+  {
+   "repeat": 1,
+   "cat": "eligibility",
+   "q": "History A, Shona B, Sociology B - do I qualify for law?",
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 710
+  },
+  {
+   "repeat": 1,
+   "cat": "eligibility",
+   "q": "Which programmes can I apply for with two A level passes in Accounting and Economics?",
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 829
+  },
+  {
+   "repeat": 1,
+   "cat": "follow_up",
+   "q": "Mathematics, Physics and Chemistry",
+   "history": [
+    {
+     "user": "I got A, B and C at A Level. What can I study?",
+     "path": "ELIGIBILITY",
+     "asked_for_grades": true
+    }
+   ],
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 1119
+  },
+  {
+   "repeat": 1,
+   "cat": "follow_up",
+   "q": "English B, Maths C, 6 passes",
+   "history": [
+    {
+     "user": "I have Mathematics A, Computer Science A and Economics B, what can I study?",
+     "path": "ELIGIBILITY",
+     "asked_for_o_level": true
+    }
+   ],
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 1154
+  },
+  {
+   "repeat": 1,
+   "cat": "follow_up",
+   "q": "Why can't I do Biotechnology?",
+   "history": [
+    {
+     "user": "I have Mathematics A, Computer Science A and Economics B, what can I study?",
+     "path": "ELIGIBILITY"
+    }
+   ],
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 484
+  },
+  {
+   "repeat": 1,
+   "cat": "follow_up",
+   "q": "How many credits is it?",
+   "history": [
+    {
+     "user": "Describe BM134",
+     "path": "INFO"
+    }
+   ],
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 724
+  },
+  {
+   "repeat": 1,
+   "cat": "follow_up",
+   "q": "And how long is it?",
+   "history": [
+    {
+     "user": "What are the entry requirements for Computer Science?",
+     "path": "INFO"
+    }
+   ],
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 584
+  },
+  {
+   "repeat": 1,
+   "cat": "follow_up",
+   "q": "What about the fees for it?",
+   "history": [
+    {
+     "user": "What are the entry requirements for Computer Science?",
+     "path": "INFO"
+    }
+   ],
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 1,
+   "cat": "unrelated",
+   "q": "What is the WiFi password for the MSU library?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model_out_of_scope_not_confirmed",
+   "ok": true,
+   "ms": 741
+  },
+  {
+   "repeat": 1,
+   "cat": "unrelated",
+   "q": "Who chairs Council meetings when the Chancellor is not there?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model_out_of_scope_not_confirmed",
+   "ok": true,
+   "ms": 637
+  },
+  {
+   "repeat": 1,
+   "cat": "unrelated",
+   "q": "What is the weather in Gweru today?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model_out_of_scope_not_confirmed",
+   "ok": true,
+   "ms": 267
+  },
+  {
+   "repeat": 1,
+   "cat": "unrelated",
+   "q": "Who won the MSU inter-faculty sports day in 2025?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model_out_of_scope_not_confirmed",
+   "ok": true,
+   "ms": 630
+  },
+  {
+   "repeat": 1,
+   "cat": "unrelated",
+   "q": "If I repeat a module, which marks will count?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 310
+  },
+  {
+   "repeat": 1,
+   "cat": "unrelated",
+   "q": "Write me a poem about Zimbabwe",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model_out_of_scope_not_confirmed",
+   "ok": true,
+   "ms": 313
+  },
+  {
+   "repeat": 1,
+   "cat": "other_out_of_scope",
+   "q": "Are there scholarships for engineering students?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 1,
+   "cat": "other_out_of_scope",
+   "q": "What are the cut-off points for law?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 1,
+   "cat": "other_out_of_scope",
+   "q": "What is the bank account number for paying the application fee?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 1,
+   "cat": "other_out_of_scope",
+   "q": "How much is accommodation in the residence halls?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "model",
+   "ok": true,
+   "ms": 324
+  },
+  {
+   "repeat": 2,
+   "cat": "tuition_vs_fees",
+   "q": "When does second-quarter face-to-face tuition run in 2027?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 281
+  },
+  {
+   "repeat": 2,
+   "cat": "tuition_vs_fees",
+   "q": "When is face to face tuition for Faculty of Education block release students in the second semester?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 314
+  },
+  {
+   "repeat": 2,
+   "cat": "tuition_vs_fees",
+   "q": "When does tuition start for first-year students?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 284
+  },
+  {
+   "repeat": 2,
+   "cat": "tuition_vs_fees",
+   "q": "How much is tuition at MSU?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 2,
+   "cat": "tuition_vs_fees",
+   "q": "What are the tuition fees for the Bachelor of Laws?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 2,
+   "cat": "tuition_vs_fees",
+   "q": "Is studying Medicine at MSU expensive?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "model",
+   "ok": true,
+   "ms": 279
+  },
+  {
+   "repeat": 2,
+   "cat": "tuition_vs_fees",
+   "q": "Can I pay my fees in instalments?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 2,
+   "cat": "deadline",
+   "q": "When is the last day to apply?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 2,
+   "cat": "deadline",
+   "q": "Until when can I submit my application for the January intake?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 2,
+   "cat": "deadline",
+   "q": "Is it too late to apply for 2027?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "INFO",
+   "reason": "model_out_of_scope_not_confirmed",
+   "ok": false,
+   "ms": 372
+  },
+  {
+   "repeat": 2,
+   "cat": "deadline",
+   "q": "How long do I have to get my application in?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "INFO",
+   "reason": "model_out_of_scope_not_confirmed",
+   "ok": false,
+   "ms": 292
+  },
+  {
+   "repeat": 2,
+   "cat": "deadline",
+   "q": "When do applications close for the February intake?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 2,
+   "cat": "deadline",
+   "q": "How do I apply to MSU?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 279
+  },
+  {
+   "repeat": 2,
+   "cat": "deadline",
+   "q": "When does the first semester start in 2027?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 264
+  },
+  {
+   "repeat": 2,
+   "cat": "programme_names",
+   "q": "What are the entry requirements for the BCom in Banking and Finance?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 340
+  },
+  {
+   "repeat": 2,
+   "cat": "programme_names",
+   "q": "How long is the Bachelor of Commerce in Applied Accounting?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 293
+  },
+  {
+   "repeat": 2,
+   "cat": "programme_names",
+   "q": "Which campus offers Actuarial Science?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 341
+  },
+  {
+   "repeat": 2,
+   "cat": "programme_names",
+   "q": "What are the entry requirements for Software Engineering?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 325
+  },
+  {
+   "repeat": 2,
+   "cat": "programme_names",
+   "q": "Tell me about the Bachelor of Commerce in Risk Management and Insurance",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 700
+  },
+  {
+   "repeat": 2,
+   "cat": "programme_names",
+   "q": "Is Security Risk Management offered on weekends?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 326
+  },
+  {
+   "repeat": 2,
+   "cat": "eligibility",
+   "q": "I have Mathematics A, Computer Science A and Economics B, what can I study?",
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 409
+  },
+  {
+   "repeat": 2,
+   "cat": "eligibility",
+   "q": "With Physics A, Chemistry B and Biology B can I do medicine?",
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 304
+  },
+  {
+   "repeat": 2,
+   "cat": "eligibility",
+   "q": "I got A, B and C at A Level. What can I study?",
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 1332
+  },
+  {
+   "repeat": 2,
+   "cat": "eligibility",
+   "q": "History A, Shona B, Sociology B - do I qualify for law?",
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 527
+  },
+  {
+   "repeat": 2,
+   "cat": "eligibility",
+   "q": "Which programmes can I apply for with two A level passes in Accounting and Economics?",
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 397
+  },
+  {
+   "repeat": 2,
+   "cat": "follow_up",
+   "q": "Mathematics, Physics and Chemistry",
+   "history": [
+    {
+     "user": "I got A, B and C at A Level. What can I study?",
+     "path": "ELIGIBILITY",
+     "asked_for_grades": true
+    }
+   ],
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 420
+  },
+  {
+   "repeat": 2,
+   "cat": "follow_up",
+   "q": "English B, Maths C, 6 passes",
+   "history": [
+    {
+     "user": "I have Mathematics A, Computer Science A and Economics B, what can I study?",
+     "path": "ELIGIBILITY",
+     "asked_for_o_level": true
+    }
+   ],
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 275
+  },
+  {
+   "repeat": 2,
+   "cat": "follow_up",
+   "q": "Why can't I do Biotechnology?",
+   "history": [
+    {
+     "user": "I have Mathematics A, Computer Science A and Economics B, what can I study?",
+     "path": "ELIGIBILITY"
+    }
+   ],
+   "expect": "ELIGIBILITY",
+   "got": "ELIGIBILITY",
+   "reason": "model",
+   "ok": true,
+   "ms": 429
+  },
+  {
+   "repeat": 2,
+   "cat": "follow_up",
+   "q": "How many credits is it?",
+   "history": [
+    {
+     "user": "Describe BM134",
+     "path": "INFO"
+    }
+   ],
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 1538
+  },
+  {
+   "repeat": 2,
+   "cat": "follow_up",
+   "q": "And how long is it?",
+   "history": [
+    {
+     "user": "What are the entry requirements for Computer Science?",
+     "path": "INFO"
+    }
+   ],
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 297
+  },
+  {
+   "repeat": 2,
+   "cat": "follow_up",
+   "q": "What about the fees for it?",
+   "history": [
+    {
+     "user": "What are the entry requirements for Computer Science?",
+     "path": "INFO"
+    }
+   ],
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 2,
+   "cat": "unrelated",
+   "q": "What is the WiFi password for the MSU library?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model_out_of_scope_not_confirmed",
+   "ok": true,
+   "ms": 441
+  },
+  {
+   "repeat": 2,
+   "cat": "unrelated",
+   "q": "Who chairs Council meetings when the Chancellor is not there?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model_out_of_scope_not_confirmed",
+   "ok": true,
+   "ms": 388
+  },
+  {
+   "repeat": 2,
+   "cat": "unrelated",
+   "q": "What is the weather in Gweru today?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model_out_of_scope_not_confirmed",
+   "ok": true,
+   "ms": 486
+  },
+  {
+   "repeat": 2,
+   "cat": "unrelated",
+   "q": "Who won the MSU inter-faculty sports day in 2025?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model_out_of_scope_not_confirmed",
+   "ok": true,
+   "ms": 345
+  },
+  {
+   "repeat": 2,
+   "cat": "unrelated",
+   "q": "If I repeat a module, which marks will count?",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model",
+   "ok": true,
+   "ms": 293
+  },
+  {
+   "repeat": 2,
+   "cat": "unrelated",
+   "q": "Write me a poem about Zimbabwe",
+   "expect": "INFO",
+   "got": "INFO",
+   "reason": "model_out_of_scope_not_confirmed",
+   "ok": true,
+   "ms": 313
+  },
+  {
+   "repeat": 2,
+   "cat": "other_out_of_scope",
+   "q": "Are there scholarships for engineering students?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 2,
+   "cat": "other_out_of_scope",
+   "q": "What are the cut-off points for law?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 2,
+   "cat": "other_out_of_scope",
+   "q": "What is the bank account number for paying the application fee?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "keyword",
+   "ok": true,
+   "ms": 0
+  },
+  {
+   "repeat": 2,
+   "cat": "other_out_of_scope",
+   "q": "How much is accommodation in the residence halls?",
+   "expect": "OUT_OF_SCOPE",
+   "got": "OUT_OF_SCOPE",
+   "reason": "model",
+   "ok": true,
+   "ms": 275
+  }
+ ]
+}

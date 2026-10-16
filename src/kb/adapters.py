@@ -125,7 +125,87 @@ class PdfProseAdapter:
         return units, problems
 
 
-ADAPTERS = {a.name: a for a in (JsonRecordsAdapter(), PdfProseAdapter())}
+def _split_sections(paragraphs: List[str], section_chars: int) -> List[str]:
+    """Group paragraphs into sections of about section_chars (DOCX and TXT have no pages; the section number is used
+    as the 'page' in citations, and the admin page says so)."""
+    sections, current = [], ""
+    for p in paragraphs:
+        if current and len(current) + len(p) > section_chars:
+            sections.append(current)
+            current = ""
+        current = f"{current}\n\n{p}" if current else p
+    if current:
+        sections.append(current)
+    return sections
+
+
+class _ProseTextAdapter:
+    """Shared chunking for formats without pages: paragraphs -> sections -> the PDF adapter's splitter."""
+    name = ""
+
+    def paragraphs(self, dataset_path: Path) -> Tuple[List[str], List[str]]:
+        raise NotImplementedError
+
+    def extract(self, entry: Dict[str, Any], dataset_path: Path) -> Tuple[List[Unit], List[str]]:
+        from langchain_text_splitters import RecursiveCharacterTextSplitter
+        options = {"chunk_size": 800, "chunk_overlap": 150, "section_chars": 3000, **(entry.get("adapter_options") or {})}
+        splitter = RecursiveCharacterTextSplitter(chunk_size=options["chunk_size"],
+                                                  chunk_overlap=options["chunk_overlap"], length_function=len,
+                                                  separators=["\n\n", "\n", ". ", " ", ""])
+        paragraphs, problems = self.paragraphs(dataset_path)
+        units = []
+        for s, section in enumerate(_split_sections([p for p in paragraphs if p.strip()], options["section_chars"]), 1):
+            for n, chunk in enumerate(splitter.split_text(section)):
+                units.append({"record_id": prose_record_id(s, n), "unit_type": "prose", "source": entry["source_label"],
+                              "file_name": _display_name(entry), "page": s, "heading": "",
+                              "text": f"{citation_header(entry['source_label'], s)}\n{chunk}"})
+        if not units and not problems:
+            problems.append("no text extracted")
+        return units, problems
+
+
+class DocxProseAdapter(_ProseTextAdapter):
+    """Word .docx files, read with the standard library (a .docx is a zip of XML): paragraph text and table rows.
+    Pages are not stored in .docx files, so citations use section numbers."""
+    name = "docx_prose"
+    W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
+
+    def paragraphs(self, dataset_path: Path) -> Tuple[List[str], List[str]]:
+        import zipfile
+        from xml.etree import ElementTree
+        try:
+            with zipfile.ZipFile(dataset_path) as z:
+                xml = z.read("word/document.xml")
+        except (zipfile.BadZipFile, KeyError) as error:
+            return [], [f"not a readable .docx file ({error.__class__.__name__})"]
+        body = ElementTree.fromstring(xml).find(f"{self.W}body")
+        out = []
+        for block in (body if body is not None else []):
+            if block.tag == f"{self.W}p":
+                text = "".join(t.text or "" for t in block.iter(f"{self.W}t")).strip()
+                if text:
+                    out.append(text)
+            elif block.tag == f"{self.W}tbl":                   # each table row as one line, cells joined by " | "
+                for row in block.iter(f"{self.W}tr"):
+                    cells = ["".join(t.text or "" for t in c.iter(f"{self.W}t")).strip() for c in row.iter(f"{self.W}tc")]
+                    if any(cells):
+                        out.append(" | ".join(cells))
+        return out, []
+
+
+class TextProseAdapter(_ProseTextAdapter):
+    """Plain UTF-8 text files; paragraphs are separated by blank lines."""
+    name = "text_prose"
+
+    def paragraphs(self, dataset_path: Path) -> Tuple[List[str], List[str]]:
+        try:
+            text = Path(dataset_path).read_text(encoding="utf-8-sig")
+        except UnicodeDecodeError:
+            return [], ["the text file is not UTF-8"]
+        return [p.strip() for p in re.split(r"\n\s*\n", text.replace("\r\n", "\n"))], []
+
+
+ADAPTERS = {a.name: a for a in (JsonRecordsAdapter(), PdfProseAdapter(), DocxProseAdapter(), TextProseAdapter())}
 
 
 def get_adapter(name: str):

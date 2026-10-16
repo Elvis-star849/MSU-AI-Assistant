@@ -1,0 +1,1189 @@
+{
+ "version": "admissions-eval-v1",
+ "built_from": "knowledge base 0006 advert + road map records",
+ "excludes": "records used by remediation/heldout",
+ "seed": "msu-admissions-eval-v1",
+ "set": "sealed",
+ "items": [
+  {
+   "id": "S001",
+   "programme": "Bachelor of Engineering Honours Degree in Electrical and Electronic Engineering (HEEE)",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-126",
+    "MSU-JF2027-127",
+    "MSU-JF2027-128"
+   ],
+   "source_pages": [
+    21
+   ],
+   "type": "duration",
+   "question": "How long is the Bachelor of Engineering Honours Degree in Electrical and Electronic Engineering (HEEE)?",
+   "required": [
+    "(?<![\\d.])3\\s*-?\\s*(?:years?|yrs)|\\bthree\\s*-?\\s*years?",
+    "(?<![\\d.])4\\s*-?\\s*(?:years?|yrs)|\\bfour\\s*-?\\s*years?",
+    "(?<![\\d.])5\\s*-?\\s*(?:years?|yrs)|\\bfive\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "(5 Years) (Zvishavane Conventional); (4 Years) (Zvishavane Block Release); 3Years (Zvishavane Visiting)"
+  },
+  {
+   "id": "S002",
+   "programme": "Bachelor of Engineering Honours Degree in Electrical and Electronic Engineering (HEEE)",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-126",
+    "MSU-JF2027-127",
+    "MSU-JF2027-128"
+   ],
+   "source_pages": [
+    21
+   ],
+   "type": "modes",
+   "question": "Where and how is the Bachelor of Engineering Honours Degree in Electrical and Electronic Engineering (HEEE) offered?",
+   "required": [
+    "Zvishavane",
+    "Block",
+    "Conventional",
+    "Visiting"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Zvishavane Conventional; Zvishavane Block Release; Zvishavane Visiting"
+  },
+  {
+   "id": "S003",
+   "programme": "Bachelor of Science Honours Degree in Music Business, Musicology and Technology",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-209",
+    "MSU-JF2027-210"
+   ],
+   "source_pages": [
+    35
+   ],
+   "type": "modes",
+   "question": "Where and how is the Bachelor of Science Honours Degree in Music Business, Musicology and Technology offered?",
+   "required": [
+    "Bulawayo",
+    "Gweru",
+    "Harare",
+    "Block",
+    "Conventional",
+    "Weekend"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Conventional; Gweru Block Release, Bulawayo Weekend School, Harare Weekend School"
+  },
+  {
+   "id": "S004",
+   "programme": "Bachelor of Science Honours Degree in Music Business, Musicology and Technology",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-209",
+    "MSU-JF2027-210"
+   ],
+   "source_pages": [
+    35
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Bachelor of Science Honours Degree in Music Business, Musicology and Technology start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "S005",
+   "programme": "Bachelor of Engineering Honours Degree in Fuels and Energy Engineering",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-129",
+    "MSU-JF2027-130",
+    "MSU-JF2027-131"
+   ],
+   "source_pages": [
+    22,
+    23
+   ],
+   "type": "start",
+   "question": "When does the Fuels and Energy Engineering degree start?",
+   "required": [
+    "August\\s+2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "August 2027"
+  },
+  {
+   "id": "S006",
+   "programme": "Bachelor of Engineering Honours Degree in Fuels and Energy Engineering",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-129",
+    "MSU-JF2027-130",
+    "MSU-JF2027-131"
+   ],
+   "source_pages": [
+    22,
+    23
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Fuels and Energy Engineering degree?",
+   "required": [
+    "Mathematics",
+    "Physics",
+    "Chemistry"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "1. Normal Entry For normal entry the candidates should have: (i) Passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent. (ii) At least two Advanced Level passes; Mathematics, Physics or Chemistry and any other relevant science subject. 2. For special entry candidates should: (i) Have passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent. (ii) Applicants with a recognized National Certificate or Diploma in a relevant field may be considered using the ZNQF framework starting in year 1"
+  },
+  {
+   "id": "S007",
+   "programme": "Bachelor of Engineering Honours Degree in Mechanical Engineering Degree",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-137",
+    "MSU-JF2027-138",
+    "MSU-JF2027-139"
+   ],
+   "source_pages": [
+    24
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Bachelor of Engineering Honours Degree in Mechanical Engineering Degree?",
+   "required": [
+    "Mathematics",
+    "Physics",
+    "Chemistry"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "'O' level pass in Mathematics, Physics and English Language with `C 'grade or better. At least two 'A' level passes in Mathematics and Physics. A pass in any one of the following 'A' Level subjects will be an added advantage: Chemistry, Computer Science, Metal Technology and Design, Wood Technology and Design, Design and Technology, Technical Graphics and Design, and Software. Applicants with a recognized National Certificate or Diploma in the relevant field may be considered using the ZNQF framework starting in year 1 and 2 respectively. A National Diploma in Production/Plant Engineering/Drau"
+  },
+  {
+   "id": "S008",
+   "programme": "Bachelor of Engineering Honours Degree in Mechanical Engineering Degree",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-137",
+    "MSU-JF2027-138",
+    "MSU-JF2027-139"
+   ],
+   "source_pages": [
+    24
+   ],
+   "type": "duration",
+   "question": "How long is the Bachelor of Engineering Honours Degree in Mechanical Engineering Degree?",
+   "required": [
+    "(?<![\\d.])3\\s*-?\\s*(?:years?|yrs)|\\bthree\\s*-?\\s*years?",
+    "(?<![\\d.])4\\s*-?\\s*(?:years?|yrs)|\\bfour\\s*-?\\s*years?",
+    "(?<![\\d.])5\\s*-?\\s*(?:years?|yrs)|\\bfive\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "5 years (Zvishavane Conventional); 3 years (Zvishavane Visiting); 4 years (Zvishavane Block Release)"
+  },
+  {
+   "id": "S009",
+   "programme": "Bachelor of Engineering Honours Degree in Mining Engineering",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-132",
+    "MSU-JF2027-133"
+   ],
+   "source_pages": [
+    23
+   ],
+   "type": "duration",
+   "question": "How long is the Bachelor of Engineering Honours Degree in Mining Engineering?",
+   "required": [
+    "(?<![\\d.])3\\s*-?\\s*(?:years?|yrs)|\\bthree\\s*-?\\s*years?",
+    "(?<![\\d.])4\\s*-?\\s*(?:years?|yrs)|\\bfour\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "4 Years (Zvishavane Conventional); 3 Years (Zvishavane Visiting)"
+  },
+  {
+   "id": "S010",
+   "programme": "Bachelor of Engineering Honours Degree in Mining Engineering",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-132",
+    "MSU-JF2027-133"
+   ],
+   "source_pages": [
+    23
+   ],
+   "type": "modes",
+   "question": "Where and how is the Bachelor of Engineering Honours Degree in Mining Engineering offered?",
+   "required": [
+    "Zvishavane",
+    "Conventional",
+    "Visiting"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Zvishavane Conventional; Zvishavane Visiting"
+  },
+  {
+   "id": "S011",
+   "programme": "Bachelor of Science Honours Degree in Sociology and Social Policy",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-183",
+    "MSU-JF2027-184"
+   ],
+   "source_pages": [
+    32
+   ],
+   "type": "modes",
+   "question": "Where and how is the Sociology and Social Policy degree offered?",
+   "required": [
+    "Bulawayo",
+    "Gweru",
+    "Harare",
+    "Conventional",
+    "Weekend"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Conventional; Bulawayo Weekend School, Harare Weekend School"
+  },
+  {
+   "id": "S012",
+   "programme": "Bachelor of Science Honours Degree in Sociology and Social Policy",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-183",
+    "MSU-JF2027-184"
+   ],
+   "source_pages": [
+    32
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Sociology and Social Policy degree start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "S013",
+   "programme": "Master of Arts Degree in Strategic Communication Studies",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-036"
+   ],
+   "source_pages": [
+    6
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Master of Arts Degree in Strategic Communication Studies start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "S014",
+   "programme": "Master of Arts Degree in Strategic Communication Studies",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-036"
+   ],
+   "source_pages": [
+    6
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Master of Arts Degree in Strategic Communication Studies?",
+   "required": [
+    "Literature"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "A good first Degree in Communication, Film, Literature or Linguistics Degree or any other acceptable degree"
+  },
+  {
+   "id": "S015",
+   "programme": "Master of Education Degree in Agriculture and Environmental Education",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-124"
+   ],
+   "source_pages": [
+    20
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Master of Education Degree in Agriculture and Environmental Education?",
+   "required": [
+    "Diploma",
+    "Bachelor"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "BSc Education, Bachelor of Education, or BSc with Post Graduate Diploma in Education, Graduate Diploma in Education or Grad CE (with specialisation in the relevant area), or equivalent from accredited and recognised institutions"
+  },
+  {
+   "id": "S016",
+   "programme": "Master of Education Degree in Agriculture and Environmental Education",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-124"
+   ],
+   "source_pages": [
+    20
+   ],
+   "type": "duration",
+   "question": "How long is the Master of Education Degree in Agriculture and Environmental Education?",
+   "required": [
+    "1\\s*½|1\\.5|one and a half|18\\s*months|eighteen"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "1½ years (Gweru Block Release, Harare Block Release, Bulawayo Block Release, Harare Weekend School, Bulawayo Weekend School, Zvishavane Block Release)"
+  },
+  {
+   "id": "S017",
+   "programme": "Master of Science Degree in Peace and Gender",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-216"
+   ],
+   "source_pages": [
+    36
+   ],
+   "type": "duration",
+   "question": "How long is the Master of Science Degree in Peace and Gender?",
+   "required": [
+    "1\\s*½|1\\.5|one and a half|18\\s*months|eighteen"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "1½years (Harare Weekend School)"
+  },
+  {
+   "id": "S018",
+   "programme": "Master of Science Degree in Peace and Gender",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-216"
+   ],
+   "source_pages": [
+    36
+   ],
+   "type": "modes",
+   "question": "Where and how is the Master of Science Degree in Peace and Gender offered?",
+   "required": [
+    "Harare",
+    "Weekend"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Harare Weekend School"
+  },
+  {
+   "id": "S019",
+   "programme": "Bachelor of Science Honours Degree in Crop Science",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-007"
+   ],
+   "source_pages": [
+    2
+   ],
+   "type": "modes",
+   "question": "Where and how is the Bachelor of Science Honours Degree in Crop Science offered?",
+   "required": [
+    "Gweru",
+    "Visiting"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Visiting"
+  },
+  {
+   "id": "S020",
+   "programme": "Bachelor of Science Honours Degree in Crop Science",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-007"
+   ],
+   "source_pages": [
+    2
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Bachelor of Science Honours Degree in Crop Science start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "S021",
+   "programme": "Bachelor of Science Honours Degree in Chemical Technology (Conventional)",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-162"
+   ],
+   "source_pages": [
+    29
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Bachelor of Science Honours Degree in Chemical Technology (Conventional) start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "S022",
+   "programme": "Bachelor of Science Honours Degree in Chemical Technology (Conventional)",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-162"
+   ],
+   "source_pages": [
+    29
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Bachelor of Science Honours Degree in Chemical Technology (Conventional)?",
+   "required": [
+    "Mathematics",
+    "Physics",
+    "Chemistry"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Any two 'A' level passes in Chemistry and any of the following subjects Mathematics, Physics, Computer Science, Biology. Special Entry: National Certificate, National Diploma or Higher National Diploma in relevant fields."
+  },
+  {
+   "id": "S023",
+   "programme": "Bachelor of Science Honours Degree in Land and Water Resources Management",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-018"
+   ],
+   "source_pages": [
+    3
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Land and Water Resources Management degree?",
+   "required": [
+    "Agriculture",
+    "Diploma"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "The applicant should either have a Diploma in Agriculture or other relevant Tertiary qualification from any college recognised by MSU."
+  },
+  {
+   "id": "S024",
+   "programme": "Bachelor of Science Honours Degree in Land and Water Resources Management",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-018"
+   ],
+   "source_pages": [
+    3
+   ],
+   "type": "duration",
+   "question": "How long is the Land and Water Resources Management degree?",
+   "required": [
+    "(?<![\\d.])2\\s*-?\\s*(?:years?|yrs)|\\btwo\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "2 years (Gweru Visiting)"
+  },
+  {
+   "id": "S025",
+   "programme": "Master of Science Degree in Migration, Citizenship and Refugee Protection",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-190"
+   ],
+   "source_pages": [
+    33
+   ],
+   "type": "duration",
+   "question": "How long is the Master of Science Degree in Migration, Citizenship and Refugee Protection?",
+   "required": [
+    "1\\s*½|1\\.5|one and a half|18\\s*months|eighteen"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "1½ years (Gweru Block Release, Harare Block Release, Bulawayo Weekend School)"
+  },
+  {
+   "id": "S026",
+   "programme": "Master of Science Degree in Migration, Citizenship and Refugee Protection",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-190"
+   ],
+   "source_pages": [
+    33
+   ],
+   "type": "modes",
+   "question": "Where and how is the Master of Science Degree in Migration, Citizenship and Refugee Protection offered?",
+   "required": [
+    "Bulawayo",
+    "Gweru",
+    "Harare",
+    "Block",
+    "Weekend"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Block Release, Harare Block Release, Bulawayo Weekend School"
+  },
+  {
+   "id": "S027",
+   "programme": "Undergraduate Diploma in Social Work",
+   "level": "Diploma (undergraduate)",
+   "records": [
+    "MSU-JF2027-220"
+   ],
+   "source_pages": [
+    36
+   ],
+   "type": "modes",
+   "question": "Where and how is the Undergraduate Diploma in Social Work offered?",
+   "required": [
+    "Harare",
+    "Conventional"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Harare Conventional"
+  },
+  {
+   "id": "S028",
+   "programme": "Undergraduate Diploma in Social Work",
+   "level": "Diploma (undergraduate)",
+   "records": [
+    "MSU-JF2027-220"
+   ],
+   "source_pages": [
+    36
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Undergraduate Diploma in Social Work start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "S029",
+   "programme": "Bachelor of Education Honours Degree in Food Technology and Design",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-114"
+   ],
+   "source_pages": [
+    19
+   ],
+   "type": "start",
+   "question": "When does the Food Technology and Design degree start?",
+   "required": [
+    "January\\s+2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "January 2027"
+  },
+  {
+   "id": "S030",
+   "programme": "Bachelor of Education Honours Degree in Food Technology and Design",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-114"
+   ],
+   "source_pages": [
+    19
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Food Technology and Design degree?",
+   "required": [
+    "Certificate\\ in\\ Education",
+    "Diploma"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Diploma/Certificate in Education with specialisation in Food Technology and Design or equivalent from a recognised institution."
+  },
+  {
+   "id": "S031",
+   "programme": "Bachelor of Science Honours Degree in Nutrition Science",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-165"
+   ],
+   "source_pages": [
+    29
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Bachelor of Science Honours Degree in Nutrition Science?",
+   "required": [
+    "Mathematics",
+    "Chemistry",
+    "Biology"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Any two 'A' level passes in Chemistry, Biology, Food Science or any other relevant science subject. Mature Entry: Five 'O' Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+  },
+  {
+   "id": "S032",
+   "programme": "Bachelor of Science Honours Degree in Nutrition Science",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-165"
+   ],
+   "source_pages": [
+    29
+   ],
+   "type": "duration",
+   "question": "How long is the Bachelor of Science Honours Degree in Nutrition Science?",
+   "required": [
+    "(?<![\\d.])4\\s*-?\\s*(?:years?|yrs)|\\bfour\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "4 years (Gweru Conventional)"
+  },
+  {
+   "id": "S033",
+   "programme": "Bachelor of Science Honours Degree in Peace, Human Rights and Social Justice",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-212"
+   ],
+   "source_pages": [
+    35
+   ],
+   "type": "duration",
+   "question": "How long is the Bachelor of Science Honours Degree in Peace, Human Rights and Social Justice?",
+   "required": [
+    "(?<![\\d.])4\\s*-?\\s*(?:years?|yrs)|\\bfour\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "4 years (Gweru Conventional)"
+  },
+  {
+   "id": "S034",
+   "programme": "Bachelor of Science Honours Degree in Peace, Human Rights and Social Justice",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-212"
+   ],
+   "source_pages": [
+    35
+   ],
+   "type": "modes",
+   "question": "Where and how is the Bachelor of Science Honours Degree in Peace, Human Rights and Social Justice offered?",
+   "required": [
+    "Gweru",
+    "Conventional"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Conventional"
+  },
+  {
+   "id": "S035",
+   "programme": "Bachelor of Science in Biomedical Sciences",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-146"
+   ],
+   "source_pages": [
+    26
+   ],
+   "type": "start",
+   "question": "When does the Biomedical Sciences degree start?",
+   "required": [
+    "August\\s+2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "August 2027"
+  },
+  {
+   "id": "S036",
+   "programme": "Master of Science Degree in Applied Agricultural Economics",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-004"
+   ],
+   "source_pages": [
+    1
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Master of Science Degree in Applied Agricultural Economics start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "S037",
+   "programme": "Master of Science Degree in Applied Agricultural Economics",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-004"
+   ],
+   "source_pages": [
+    1
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Master of Science Degree in Applied Agricultural Economics?",
+   "required": [
+    "2\\.2",
+    "Economics",
+    "Agriculture"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "To be eligible for the programme, a candidate must normally be a holder of at least a lower second class (2.2) first degree in Agriculture, Agricultural Economics; Economics; or any other related programme from a recognized University."
+  },
+  {
+   "id": "S038",
+   "programme": "Master of Science Degree in Land and Water Resources Management",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-019"
+   ],
+   "source_pages": [
+    3
+   ],
+   "type": "duration",
+   "question": "How long is the Master of Science Degree in Land and Water Resources Management?",
+   "required": [
+    "(?<![\\d.])2\\s*-?\\s*(?:years?|yrs)|\\btwo\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "2 years (Gweru Block Release)"
+  },
+  {
+   "id": "S039",
+   "programme": "Master of Science Degree in Crop Production",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-009"
+   ],
+   "source_pages": [
+    2
+   ],
+   "type": "duration",
+   "question": "How long is the Master of Science Degree in Crop Production?",
+   "required": [
+    "(?<![\\d.])2\\s*-?\\s*(?:years?|yrs)|\\btwo\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "2 years (Gweru Block Release)"
+  },
+  {
+   "id": "S040",
+   "programme": "Master of Science Degree in Crop Production",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-009"
+   ],
+   "source_pages": [
+    2
+   ],
+   "type": "modes",
+   "question": "Where and how is the Master of Science Degree in Crop Production offered?",
+   "required": [
+    "Gweru",
+    "Block"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Block Release"
+  },
+  {
+   "id": "S041",
+   "programme": "Bachelor of Education Honours Degree in Philosophy and Critical Thinking",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-087"
+   ],
+   "source_pages": [
+    14
+   ],
+   "type": "modes",
+   "question": "Where and how is the Bachelor of Education Honours Degree in Philosophy and Critical Thinking offered?",
+   "required": [
+    "Bulawayo",
+    "Gweru",
+    "Harare",
+    "Zvishavane",
+    "Block",
+    "Weekend"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Block Release, Harare Block Release, Bulawayo Block Release, Harare Weekend School, Bulawayo Weekend School, Zvishavane Block Release"
+  },
+  {
+   "id": "S042",
+   "programme": "Bachelor of Education Honours Degree in Philosophy and Critical Thinking",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-087"
+   ],
+   "source_pages": [
+    14
+   ],
+   "type": "start",
+   "question": "When does the Bachelor of Education Honours Degree in Philosophy and Critical Thinking start?",
+   "required": [
+    "January\\s+2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "January 2027"
+  },
+  {
+   "id": "S043",
+   "programme": "Special Honours Degree in Animal Science",
+   "level": "Postgraduate - Special Honours degree",
+   "records": [
+    "MSU-JF2027-015"
+   ],
+   "source_pages": [
+    3
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Special Honours Degree in Animal Science start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "S044",
+   "programme": "Special Honours Degree in Animal Science",
+   "level": "Postgraduate - Special Honours degree",
+   "records": [
+    "MSU-JF2027-015"
+   ],
+   "source_pages": [
+    3
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Special Honours Degree in Animal Science?",
+   "required": [
+    "2\\.2",
+    "Agriculture",
+    "Bachelor"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "To be eligible for the programme, a candidate must normally be a holder of Bachelor of Science in Agriculture general degree with at least a Class 2.2 from a recognised University."
+  },
+  {
+   "id": "S045",
+   "programme": "Bachelor of Science Honours Degree in Space Science and Technology",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-158"
+   ],
+   "source_pages": [
+    28
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Space Science and Technology degree?",
+   "required": [
+    "Mathematics",
+    "Physics",
+    "English"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Passes at Ordinary Level including Mathematics, English Language and a Science Subject. Two 'A' Level passes in Physics and Mathematics"
+  },
+  {
+   "id": "S046",
+   "programme": "Bachelor of Science Honours Degree in Space Science and Technology",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-158"
+   ],
+   "source_pages": [
+    28
+   ],
+   "type": "duration",
+   "question": "How long is the Space Science and Technology degree?",
+   "required": [
+    "(?<![\\d.])4\\s*-?\\s*(?:years?|yrs)|\\bfour\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "4 years. (Gweru Conventional)"
+  },
+  {
+   "id": "S047",
+   "type": "calendar",
+   "question": "When is Commencement of Registration in the First Semester of the Main academic calendar in 2027?",
+   "required": [
+    "\\b3(?:st|nd|rd|th)?\\s+January|3/1/2027|0?3/0?1/2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "records": [
+    "RM2027-01"
+   ],
+   "source_pages": [
+    1
+   ],
+   "key": "At Midlands State University in 2027, Commencement of Registration (Main academic calendar, First Semester) takes place on 3 January 2027."
+  },
+  {
+   "id": "S048",
+   "type": "calendar",
+   "question": "When is Semester Break in the Second Semester of the Main academic calendar in 2027?",
+   "required": [
+    "\\b13(?:st|nd|rd|th)?\\s+September|13/9/2027|0?13/0?9/2027",
+    "\\b17(?:st|nd|rd|th)?\\s+September|17/9/2027|0?17/0?9/2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "records": [
+    "RM2027-11"
+   ],
+   "source_pages": [
+    1
+   ],
+   "key": "At Midlands State University in 2027, Semester Break (Main academic calendar, Second Semester) runs from 13 September 2027 to 17 September 2027."
+  },
+  {
+   "id": "S049",
+   "type": "calendar",
+   "question": "When is Orientation of New Students (Conventional) in the First Semester of the Main academic calendar in 2027?",
+   "required": [
+    "\\b15(?:st|nd|rd|th)?\\s+February|15/2/2027|0?15/0?2/2027",
+    "\\b20(?:st|nd|rd|th)?\\s+February|20/2/2027|0?20/0?2/2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "records": [
+    "RM2027-02"
+   ],
+   "source_pages": [
+    1
+   ],
+   "key": "At Midlands State University in 2027, Orientation of New Students (Conventional) (Main academic calendar, First Semester) runs from 15 February 2027 to 20 February 2027."
+  },
+  {
+   "id": "S050",
+   "type": "calendar",
+   "question": "When is Orientation of New Students in the First Semester of the Faculty of Education Block Release in 2027?",
+   "required": [
+    "\\b5(?:st|nd|rd|th)?\\s+January|5/1/2027|0?5/0?1/2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "records": [
+    "RM2027-14"
+   ],
+   "source_pages": [
+    1
+   ],
+   "key": "At Midlands State University in 2027, Orientation of New Students (Faculty of Education Block Release, First Semester) takes place on 5 January 2027."
+  },
+  {
+   "id": "S051",
+   "type": "calendar",
+   "question": "When is Online Learning in the Second Semester of the Faculty of Education Block Release in 2027?",
+   "required": [
+    "\\b13(?:st|nd|rd|th)?\\s+September|13/9/2027|0?13/0?9/2027",
+    "\\b29(?:st|nd|rd|th)?\\s+October|29/10/2027|0?29/0?10/2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "records": [
+    "RM2027-20"
+   ],
+   "source_pages": [
+    1
+   ],
+   "key": "At Midlands State University in 2027, Online Learning (Faculty of Education Block Release, Second Semester) runs from 13 September 2027 to 29 October 2027."
+  },
+  {
+   "id": "S052",
+   "type": "calendar",
+   "question": "When is Examinations in the Second Semester of the Faculty of Education Block Release in 2027?",
+   "required": [
+    "\\b1(?:st|nd|rd|th)?\\s+November|1/11/2027|0?1/0?11/2027",
+    "\\b12(?:st|nd|rd|th)?\\s+November|12/11/2027|0?12/0?11/2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "records": [
+    "RM2027-21"
+   ],
+   "source_pages": [
+    1
+   ],
+   "key": "At Midlands State University in 2027, Examinations (Faculty of Education Block Release, Second Semester) runs from 1 November 2027 to 12 November 2027."
+  },
+  {
+   "id": "S053",
+   "type": "calendar",
+   "question": "When is Examinations in the First Semester of the Faculty of Education Block Release in 2027?",
+   "required": [
+    "\\b24(?:st|nd|rd|th)?\\s+May|24/5/2027|0?24/0?5/2027",
+    "\\b4(?:st|nd|rd|th)?\\s+June|4/6/2027|0?4/0?6/2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "records": [
+    "RM2027-17"
+   ],
+   "source_pages": [
+    1
+   ],
+   "key": "At Midlands State University in 2027, Examinations (Faculty of Education Block Release, First Semester) runs from 24 May 2027 to 4 June 2027."
+  },
+  {
+   "id": "S054",
+   "type": "calendar",
+   "question": "When is Face to Face Tuition in the First Semester of the Faculty of Education Block Release in 2027?",
+   "required": [
+    "\\b5(?:st|nd|rd|th)?\\s+January|5/1/2027|0?5/0?1/2027",
+    "\\b8(?:st|nd|rd|th)?\\s+January|8/1/2027|0?8/0?1/2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "records": [
+    "RM2027-15"
+   ],
+   "source_pages": [
+    1
+   ],
+   "key": "At Midlands State University in 2027, Face to Face Tuition (Faculty of Education Block Release, First Semester) runs from 5 January 2027 to 8 January 2027."
+  },
+  {
+   "id": "S055",
+   "type": "decline",
+   "question": "What is the email address of the Vice Chancellor's personal assistant?",
+   "required": [
+    "not (?:contain|include|have|provide)|could not find|no information|cannot (?:help|answer)|don't have|do not have|not (?:in|among|covered)|outside"
+   ],
+   "forbidden": [],
+   "abstain": true,
+   "records": [],
+   "source_pages": [],
+   "key": "decline"
+  },
+  {
+   "id": "S056",
+   "type": "decline",
+   "question": "How many students failed the 2025 examinations?",
+   "required": [
+    "not (?:contain|include|have|provide)|could not find|no information|cannot (?:help|answer)|don't have|do not have|not (?:in|among|covered)|outside"
+   ],
+   "forbidden": [],
+   "abstain": true,
+   "records": [],
+   "source_pages": [],
+   "key": "decline"
+  },
+  {
+   "id": "S057",
+   "type": "decline",
+   "question": "Which hostel room is the quietest at MSU?",
+   "required": [
+    "not (?:contain|include|have|provide)|could not find|no information|cannot (?:help|answer)|don't have|do not have|not (?:in|among|covered)|outside"
+   ],
+   "forbidden": [],
+   "abstain": true,
+   "records": [],
+   "source_pages": [],
+   "key": "decline"
+  },
+  {
+   "id": "S058",
+   "type": "decline",
+   "question": "What will the exchange rate be in January 2027?",
+   "required": [
+    "not (?:contain|include|have|provide)|could not find|no information|cannot (?:help|answer)|don't have|do not have|not (?:in|among|covered)|outside"
+   ],
+   "forbidden": [],
+   "abstain": true,
+   "records": [],
+   "source_pages": [],
+   "key": "decline"
+  },
+  {
+   "id": "S059",
+   "type": "decline",
+   "question": "Who is the best lecturer in the Faculty of Law?",
+   "required": [
+    "not (?:contain|include|have|provide)|could not find|no information|cannot (?:help|answer)|don't have|do not have|not (?:in|among|covered)|outside"
+   ],
+   "forbidden": [],
+   "abstain": true,
+   "records": [],
+   "source_pages": [],
+   "key": "decline"
+  },
+  {
+   "id": "S060",
+   "type": "decline",
+   "question": "Can you write my application essay for me?",
+   "required": [
+    "not (?:contain|include|have|provide)|could not find|no information|cannot (?:help|answer)|don't have|do not have|not (?:in|among|covered)|outside"
+   ],
+   "forbidden": [],
+   "abstain": true,
+   "records": [],
+   "source_pages": [],
+   "key": "decline"
+  }
+ ]
+}

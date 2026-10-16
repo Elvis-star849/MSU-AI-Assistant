@@ -1,0 +1,932 @@
+{
+ "version": "admissions-eval-v1",
+ "built_from": "knowledge base 0006 advert + road map records",
+ "excludes": "records used by remediation/heldout",
+ "seed": "msu-admissions-eval-v1",
+ "set": "dev",
+ "items": [
+  {
+   "id": "D001",
+   "programme": "Bachelor of Science Honours Degree in Applied Geology",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-134",
+    "MSU-JF2027-135"
+   ],
+   "source_pages": [
+    23,
+    24
+   ],
+   "type": "duration",
+   "question": "How long is the Bachelor of Science Honours Degree in Applied Geology?",
+   "required": [
+    "(?<![\\d.])2\\s*-?\\s*(?:years?|yrs)|\\btwo\\s*-?\\s*years?",
+    "(?<![\\d.])4\\s*-?\\s*(?:years?|yrs)|\\bfour\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "(4 years) (Zvishavane Conventional); 2 years (Zvishavane Visiting)"
+  },
+  {
+   "id": "D002",
+   "programme": "Bachelor of Science Honours Degree in Applied Geology",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-134",
+    "MSU-JF2027-135"
+   ],
+   "source_pages": [
+    23,
+    24
+   ],
+   "type": "modes",
+   "question": "Where and how is the Bachelor of Science Honours Degree in Applied Geology offered?",
+   "required": [
+    "Zvishavane",
+    "Conventional",
+    "Visiting"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Zvishavane Conventional; Zvishavane Visiting"
+  },
+  {
+   "id": "D003",
+   "programme": "Bachelor of Science Honours Degree in Political Science and Governance",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-202",
+    "MSU-JF2027-203"
+   ],
+   "source_pages": [
+    34
+   ],
+   "type": "modes",
+   "question": "Where and how is the Bachelor of Science Honours Degree in Political Science and Governance offered?",
+   "required": [
+    "Bulawayo",
+    "Gweru",
+    "Harare",
+    "Conventional",
+    "Weekend"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Conventional; Harare Weekend School, Bulawayo Weekend School"
+  },
+  {
+   "id": "D004",
+   "programme": "Bachelor of Science Honours Degree in Political Science and Governance",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-202",
+    "MSU-JF2027-203"
+   ],
+   "source_pages": [
+    34
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Bachelor of Science Honours Degree in Political Science and Governance start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "D005",
+   "programme": "Bachelor of Science Honours Degree in Migration and Population Movements",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-186",
+    "MSU-JF2027-187"
+   ],
+   "source_pages": [
+    32
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Migration and Population Movements degree start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "D006",
+   "programme": "Bachelor of Science Honours Degree in Migration and Population Movements",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-186",
+    "MSU-JF2027-187"
+   ],
+   "source_pages": [
+    32
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Migration and Population Movements degree?",
+   "required": [
+    "Arts",
+    "Humanities",
+    "HND"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Any two 'A' Level passes in Arts, Humanities and Social Sciences subjects. At least 5 'O' level passes including English Language. Be a holder of a Diploma, or HND or any related qualification in any of the above disciplines. Be employed in a field related to the above disciplines. Submit a confirmation letter of employment from the employer."
+  },
+  {
+   "id": "D007",
+   "programme": "Bachelor of Science Honours Degree in Public Management and Governance",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-200",
+    "MSU-JF2027-201"
+   ],
+   "source_pages": [
+    34
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Bachelor of Science Honours Degree in Public Management and Governance?",
+   "required": [
+    "Arts",
+    "Humanities",
+    "HND"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Any two 'A' Level passes in Arts, Humanities and Social Sciences subjects. Have at least 5 'O' level passes including English Language. Be a holder of a Diploma, or HND or any related qualification in any of the above disciplines. Be employed in a field related to the above disciplines. Submit a confirmation letter of employment from the employer."
+  },
+  {
+   "id": "D008",
+   "programme": "Bachelor of Science Honours Degree in Public Management and Governance",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-200",
+    "MSU-JF2027-201"
+   ],
+   "source_pages": [
+    34
+   ],
+   "type": "duration",
+   "question": "How long is the Bachelor of Science Honours Degree in Public Management and Governance?",
+   "required": [
+    "(?<![\\d.])3\\s*-?\\s*(?:years?|yrs)|\\bthree\\s*-?\\s*years?",
+    "(?<![\\d.])4\\s*-?\\s*(?:years?|yrs)|\\bfour\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "4 years (Gweru Conventional); 3 years (Gweru Visiting, Bulawayo Weekend School)"
+  },
+  {
+   "id": "D009",
+   "programme": "Bachelor of Science Honours Degree in Industrial Physics and Instrumentation",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-163",
+    "MSU-JF2027-164"
+   ],
+   "source_pages": [
+    29
+   ],
+   "type": "duration",
+   "question": "How long is the Bachelor of Science Honours Degree in Industrial Physics and Instrumentation?",
+   "required": [
+    "(?<![\\d.])3\\s*-?\\s*(?:years?|yrs)|\\bthree\\s*-?\\s*years?",
+    "(?<![\\d.])4\\s*-?\\s*(?:years?|yrs)|\\bfour\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "4 years (Gweru Conventional); 3 years (Gweru Visiting)"
+  },
+  {
+   "id": "D010",
+   "programme": "Bachelor of Science Honours Degree in Industrial Physics and Instrumentation",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-163",
+    "MSU-JF2027-164"
+   ],
+   "source_pages": [
+    29
+   ],
+   "type": "modes",
+   "question": "Where and how is the Bachelor of Science Honours Degree in Industrial Physics and Instrumentation offered?",
+   "required": [
+    "Gweru",
+    "Conventional",
+    "Visiting"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Conventional; Gweru Visiting"
+  },
+  {
+   "id": "D011",
+   "programme": "Bachelor of Science Honours Degree in Psychology",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-175",
+    "MSU-JF2027-176"
+   ],
+   "source_pages": [
+    31
+   ],
+   "type": "modes",
+   "question": "Where and how is the Psychology degree offered?",
+   "required": [
+    "Gweru",
+    "Harare",
+    "Conventional",
+    "Visiting",
+    "Weekend"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Conventional; Gweru Visiting, Harare Weekend School"
+  },
+  {
+   "id": "D012",
+   "programme": "Bachelor of Science Honours Degree in Psychology",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-175",
+    "MSU-JF2027-176"
+   ],
+   "source_pages": [
+    31
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Psychology degree start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "D013",
+   "programme": "Bachelor of Engineering Honours Degree in Metallurgical Engineering",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-140",
+    "MSU-JF2027-141",
+    "MSU-JF2027-142"
+   ],
+   "source_pages": [
+    25
+   ],
+   "type": "start",
+   "question": "When does the Bachelor of Engineering Honours Degree in Metallurgical Engineering start?",
+   "required": [
+    "August\\s+2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "August 2027"
+  },
+  {
+   "id": "D014",
+   "programme": "Bachelor of Engineering Honours Degree in Metallurgical Engineering",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-140",
+    "MSU-JF2027-141",
+    "MSU-JF2027-142"
+   ],
+   "source_pages": [
+    25
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Bachelor of Engineering Honours Degree in Metallurgical Engineering?",
+   "required": [
+    "Mathematics",
+    "Chemistry",
+    "employ"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Five (5) 'O' level passes including English language and Mathematics. 'A' Level passes in Mathematics and Chemistry. Applicants with a recognized National Certificate or Diploma in the relevant field may be considered using the ZNQF framework starting in year 1 and 2 respectively. Five (5) 'O' level passes including English language and Mathematics. A recognized National Certificate in the relevant field Should be currently employed within the relevant industry. Attach proof of employment from your Human Resources office. Five (5) 'O' level passes including English language and Mathematics. A "
+  },
+  {
+   "id": "D015",
+   "programme": "Bachelor of Science Honours Degree in Environmental Safety, Health and Quality Management",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-192",
+    "MSU-JF2027-193"
+   ],
+   "source_pages": [
+    33
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Bachelor of Science Honours Degree in Environmental Safety, Health and Quality Management?",
+   "required": [
+    "Mathematics",
+    "Geography",
+    "employ"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "A pass in 'A' Level Geography and any other Advanced Level subject OR National Foundation Certificates including 'O' Level Mathematics. A pass in 'A' Level Geography and any other Advanced Level subject OR National Foundation Certificates including 'O' Level Mathematics. National Diploma/Higher National Diploma in Environmental Science/Health/Safety, Health and Quality/Environmental Management Field. All applicants must provide proof of employment in a related field."
+  },
+  {
+   "id": "D016",
+   "programme": "Bachelor of Science Honours Degree in Environmental Safety, Health and Quality Management",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-192",
+    "MSU-JF2027-193"
+   ],
+   "source_pages": [
+    33
+   ],
+   "type": "duration",
+   "question": "How long is the Bachelor of Science Honours Degree in Environmental Safety, Health and Quality Management?",
+   "required": [
+    "(?<![\\d.])3\\s*-?\\s*(?:years?|yrs)|\\bthree\\s*-?\\s*years?",
+    "(?<![\\d.])4\\s*-?\\s*(?:years?|yrs)|\\bfour\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "4 years (Gweru Conventional); 3 years (Bulawayo Weekend School, Harare Weekend School)"
+  },
+  {
+   "id": "D017",
+   "programme": "Bachelor of Commerce Honours Degree in Tourism and Hospitality Management",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-068"
+   ],
+   "source_pages": [
+    11
+   ],
+   "type": "duration",
+   "question": "How long is the Tourism and Hospitality Management degree?",
+   "required": [
+    "(?<![\\d.])3\\s*-?\\s*(?:years?|yrs)|\\bthree\\s*-?\\s*years?",
+    "(?<![\\d.])4\\s*-?\\s*(?:years?|yrs)|\\bfour\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "4 years 3 Years for Block Release (Gweru Conventional, Bulawayo Conventional, Gweru Visiting, Harare Weekend School, Bulawayo Weekend School)"
+  },
+  {
+   "id": "D018",
+   "programme": "Bachelor of Commerce Honours Degree in Tourism and Hospitality Management",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-068"
+   ],
+   "source_pages": [
+    11
+   ],
+   "type": "modes",
+   "question": "Where and how is the Tourism and Hospitality Management degree offered?",
+   "required": [
+    "Bulawayo",
+    "Gweru",
+    "Harare",
+    "Conventional",
+    "Visiting",
+    "Weekend"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Conventional, Bulawayo Conventional, Gweru Visiting, Harare Weekend School, Bulawayo Weekend School"
+  },
+  {
+   "id": "D019",
+   "programme": "Master of Science Degree in Sociology and Social Anthropology",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-188"
+   ],
+   "source_pages": [
+    32
+   ],
+   "type": "modes",
+   "question": "Where and how is the Master of Science Degree in Sociology and Social Anthropology offered?",
+   "required": [
+    "Bulawayo",
+    "Gweru",
+    "Harare",
+    "Block",
+    "Weekend"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Block Release, Harare Block Release, Bulawayo Weekend School"
+  },
+  {
+   "id": "D020",
+   "programme": "Master of Science Degree in Sociology and Social Anthropology",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-188"
+   ],
+   "source_pages": [
+    32
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Master of Science Degree in Sociology and Social Anthropology start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "D021",
+   "programme": "Master of Science Degree in Music",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-211"
+   ],
+   "source_pages": [
+    35
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Master of Science Degree in Music start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "D022",
+   "programme": "Master of Science Degree in Music",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-211"
+   ],
+   "source_pages": [
+    35
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Master of Science Degree in Music?",
+   "required": [
+    "2\\.2"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Applicants must be holders of any relevant first degree from a reputable institution with at least a 2.2 class or its equivalent."
+  },
+  {
+   "id": "D023",
+   "programme": "Master of Science Degree in Demography and Population Studies",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-189"
+   ],
+   "source_pages": [
+    32
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Master of Science Degree in Demography and Population Studies?",
+   "required": [
+    "2\\.2",
+    "Mathematics",
+    "Geography"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "An honours degree with at least 2.2 undergraduate degree class in Social Sciences, or BSc Honours in Geography and a pass in Mathematics at 'O' Level with a C or better. A strong background in Demographic Techniques will be an added advantage."
+  },
+  {
+   "id": "D024",
+   "programme": "Master of Science Degree in Demography and Population Studies",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-189"
+   ],
+   "source_pages": [
+    32
+   ],
+   "type": "duration",
+   "question": "How long is the Master of Science Degree in Demography and Population Studies?",
+   "required": [
+    "1\\s*½|1\\.5|one and a half|18\\s*months|eighteen"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "1½ years (Gweru Block Release, Bulawayo Weekend School, Harare Block Release)"
+  },
+  {
+   "id": "D025",
+   "programme": "Bachelor of Education Honours Degree in Textile Technology and Design",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-112"
+   ],
+   "source_pages": [
+    19
+   ],
+   "type": "duration",
+   "question": "How long is the Bachelor of Education Honours Degree in Textile Technology and Design?",
+   "required": [
+    "(?<![\\d.])2\\s*-?\\s*(?:years?|yrs)|\\btwo\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "2 years (Gweru Block Release)"
+  },
+  {
+   "id": "D026",
+   "programme": "Bachelor of Education Honours Degree in Textile Technology and Design",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-112"
+   ],
+   "source_pages": [
+    19
+   ],
+   "type": "modes",
+   "question": "Where and how is the Bachelor of Education Honours Degree in Textile Technology and Design offered?",
+   "required": [
+    "Gweru",
+    "Block"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Block Release"
+  },
+  {
+   "id": "D027",
+   "programme": "Bachelor of Arts Honours Degree in Translation and Intercultural Communication",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-027"
+   ],
+   "source_pages": [
+    5
+   ],
+   "type": "modes",
+   "question": "Where and how is the Bachelor of Arts Honours Degree in Translation and Intercultural Communication offered?",
+   "required": [
+    "Bulawayo",
+    "Zvishavane",
+    "Conventional",
+    "Visiting",
+    "Weekend"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Zvishavane Conventional, Zvishavane Visiting, Bulawayo Weekend School, Bulawayo Conventional"
+  },
+  {
+   "id": "D028",
+   "programme": "Bachelor of Arts Honours Degree in Translation and Intercultural Communication",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-027"
+   ],
+   "source_pages": [
+    5
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Bachelor of Arts Honours Degree in Translation and Intercultural Communication start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "D029",
+   "programme": "Master of Science in Analytical Chemistry",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-172"
+   ],
+   "source_pages": [
+    31
+   ],
+   "type": "start_not_stated",
+   "question": "When does the Master of Science in Analytical Chemistry start?",
+   "required": [
+    "not (?:stated|specified|given|provided|indicated|mentioned)|does not (?:state|specify|give|say|indicate)|no (?:commencement|start) date"
+   ],
+   "forbidden": [
+    "(?:commences?|starts?|begins?)\\s+(?:in|on)?\\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027"
+   ],
+   "abstain": true,
+   "key": "commencement not stated in the advert"
+  },
+  {
+   "id": "D030",
+   "programme": "Master of Science in Analytical Chemistry",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-172"
+   ],
+   "source_pages": [
+    31
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Master of Science in Analytical Chemistry?",
+   "required": [
+    "Chemistry"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Applicants should have at least a good first degree in Chemistry or Chemical Technology or related fields from any university recognized by Midlands State University"
+  },
+  {
+   "id": "D031",
+   "programme": "Master of Science Degree in Clinical Psychology",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-180"
+   ],
+   "source_pages": [
+    31
+   ],
+   "type": "requirements",
+   "question": "What are the entry requirements for the Master of Science Degree in Clinical Psychology?",
+   "required": [
+    "2\\.1",
+    "Mathematics",
+    "Psychology"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "A Bachelor of Science honours degree in Psychology with at least a 2.1-degree class. A pass in Mathematics and a relevant science subject at 'O' Level with a B or better. Applicants have to pass a pre-selection interview as part of the selection process. A strong background in clinical mental health will be an added advantage."
+  },
+  {
+   "id": "D032",
+   "programme": "Master of Science Degree in Clinical Psychology",
+   "level": "Postgraduate - Master's degree",
+   "records": [
+    "MSU-JF2027-180"
+   ],
+   "source_pages": [
+    31
+   ],
+   "type": "duration",
+   "question": "How long is the Master of Science Degree in Clinical Psychology?",
+   "required": [
+    "(?<![\\d.])2\\s*-?\\s*(?:years?|yrs)|\\btwo\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "2 years (Gweru Block Release, Harare Weekend School)"
+  },
+  {
+   "id": "D033",
+   "programme": "Bachelor of Education Honours Degree in Agriculture and Environmental Education",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-116"
+   ],
+   "source_pages": [
+    19
+   ],
+   "type": "duration",
+   "question": "How long is the Bachelor of Education Honours Degree in Agriculture and Environmental Education?",
+   "required": [
+    "(?<![\\d.])2\\s*-?\\s*(?:years?|yrs)|\\btwo\\s*-?\\s*years?"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "2 years (Gweru Block Release)"
+  },
+  {
+   "id": "D034",
+   "programme": "Bachelor of Education Honours Degree in Agriculture and Environmental Education",
+   "level": "Undergraduate - Bachelor's degree",
+   "records": [
+    "MSU-JF2027-116"
+   ],
+   "source_pages": [
+    19
+   ],
+   "type": "modes",
+   "question": "Where and how is the Bachelor of Education Honours Degree in Agriculture and Environmental Education offered?",
+   "required": [
+    "Gweru",
+    "Block"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Block Release"
+  },
+  {
+   "id": "D035",
+   "programme": "Postgraduate Diploma in Tertiary Education",
+   "level": "Postgraduate Diploma",
+   "records": [
+    "MSU-JF2027-095"
+   ],
+   "source_pages": [
+    16
+   ],
+   "type": "modes",
+   "question": "Where and how is the Postgraduate Diploma in Tertiary Education offered?",
+   "required": [
+    "Gweru",
+    "Harare",
+    "Block",
+    "Weekend"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "Gweru Block Release, Harare Block Release, Harare Weekend School"
+  },
+  {
+   "id": "D036",
+   "programme": "Postgraduate Diploma in Tertiary Education",
+   "level": "Postgraduate Diploma",
+   "records": [
+    "MSU-JF2027-095"
+   ],
+   "source_pages": [
+    16
+   ],
+   "type": "start",
+   "question": "When does the Postgraduate Diploma in Tertiary Education start?",
+   "required": [
+    "January\\s+2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "key": "January 2027"
+  },
+  {
+   "id": "D037",
+   "type": "calendar",
+   "question": "When is Commencement of Semester in the Second Semester of the Main academic calendar in 2027?",
+   "required": [
+    "\\b2(?:st|nd|rd|th)?\\s+August|2/8/2027|0?2/0?8/2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "records": [
+    "RM2027-09"
+   ],
+   "source_pages": [
+    1
+   ],
+   "key": "At Midlands State University in 2027, Commencement of Semester (Main academic calendar, Second Semester) takes place on 2 August 2027."
+  },
+  {
+   "id": "D038",
+   "type": "calendar",
+   "question": "When is Face to face tuition - Fourth Quarter in the Second Semester of the Main academic calendar in 2027?",
+   "required": [
+    "\\b20(?:st|nd|rd|th)?\\s+September|20/9/2027|0?20/0?9/2027",
+    "\\b30(?:st|nd|rd|th)?\\s+October|30/10/2027|0?30/0?10/2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "records": [
+    "RM2027-12"
+   ],
+   "source_pages": [
+    1
+   ],
+   "key": "At Midlands State University in 2027, Face to face tuition – Fourth Quarter (Main academic calendar, Second Semester) runs from 20 September 2027 to 30 October 2027."
+  },
+  {
+   "id": "D039",
+   "type": "calendar",
+   "question": "When is Orientation of New Students in the Second Semester of the Faculty of Education Block Release in 2027?",
+   "required": [
+    "\\b12(?:st|nd|rd|th)?\\s+August|12/8/2027|0?12/0?8/2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "records": [
+    "RM2027-18"
+   ],
+   "source_pages": [
+    1
+   ],
+   "key": "At Midlands State University in 2027, Orientation of New Students (Faculty of Education Block Release, Second Semester) takes place on 12 August 2027."
+  },
+  {
+   "id": "D040",
+   "type": "calendar",
+   "question": "When is Examinations in the Second Semester of the Main academic calendar in 2027?",
+   "required": [
+    "\\b1(?:st|nd|rd|th)?\\s+November|1/11/2027|0?1/0?11/2027",
+    "\\b12(?:st|nd|rd|th)?\\s+November|12/11/2027|0?12/0?11/2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "records": [
+    "RM2027-13"
+   ],
+   "source_pages": [
+    1
+   ],
+   "key": "At Midlands State University in 2027, Examinations (Main academic calendar, Second Semester) runs from 1 November 2027 to 12 November 2027."
+  },
+  {
+   "id": "D041",
+   "type": "calendar",
+   "question": "When is Face to face tuition - First Quarter in the First Semester of the Main academic calendar in 2027?",
+   "required": [
+    "\\b23(?:st|nd|rd|th)?\\s+February|23/2/2027|0?23/0?2/2027",
+    "\\b2(?:st|nd|rd|th)?\\s+April|2/4/2027|0?2/0?4/2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "records": [
+    "RM2027-04"
+   ],
+   "source_pages": [
+    1
+   ],
+   "key": "At Midlands State University in 2027, Face to face tuition – First Quarter (Main academic calendar, First Semester) runs from 23 February 2027 to 2 April 2027."
+  },
+  {
+   "id": "D042",
+   "type": "calendar",
+   "question": "When is Face to face tuition - Third Quarter in the Second Semester of the Main academic calendar in 2027?",
+   "required": [
+    "\\b2(?:st|nd|rd|th)?\\s+August|2/8/2027|0?2/0?8/2027",
+    "\\b10(?:st|nd|rd|th)?\\s+September|10/9/2027|0?10/0?9/2027"
+   ],
+   "forbidden": [],
+   "abstain": false,
+   "records": [
+    "RM2027-10"
+   ],
+   "source_pages": [
+    1
+   ],
+   "key": "At Midlands State University in 2027, Face to face tuition – Third Quarter (Main academic calendar, Second Semester) runs from 2 August 2027 to 10 September 2027."
+  },
+  {
+   "id": "D043",
+   "type": "decline",
+   "question": "What is the student Wi-Fi password at the Gweru campus?",
+   "required": [
+    "not (?:contain|include|have|provide)|could not find|no information|cannot (?:help|answer)|don't have|do not have|not (?:in|among|covered)|outside"
+   ],
+   "forbidden": [],
+   "abstain": true,
+   "records": [],
+   "source_pages": [],
+   "key": "decline"
+  },
+  {
+   "id": "D044",
+   "type": "decline",
+   "question": "Who won the MSU football league in 2026?",
+   "required": [
+    "not (?:contain|include|have|provide)|could not find|no information|cannot (?:help|answer)|don't have|do not have|not (?:in|among|covered)|outside"
+   ],
+   "forbidden": [],
+   "abstain": true,
+   "records": [],
+   "source_pages": [],
+   "key": "decline"
+  },
+  {
+   "id": "D045",
+   "type": "decline",
+   "question": "What is the weather forecast for Zvishavane next week?",
+   "required": [
+    "not (?:contain|include|have|provide)|could not find|no information|cannot (?:help|answer)|don't have|do not have|not (?:in|among|covered)|outside"
+   ],
+   "forbidden": [],
+   "abstain": true,
+   "records": [],
+   "source_pages": [],
+   "key": "decline"
+  },
+  {
+   "id": "D046",
+   "type": "decline",
+   "question": "Can you recommend a good restaurant in Harare?",
+   "required": [
+    "not (?:contain|include|have|provide)|could not find|no information|cannot (?:help|answer)|don't have|do not have|not (?:in|among|covered)|outside"
+   ],
+   "forbidden": [],
+   "abstain": true,
+   "records": [],
+   "source_pages": [],
+   "key": "decline"
+  }
+ ]
+}

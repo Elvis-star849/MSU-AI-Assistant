@@ -1,0 +1,154 @@
+{
+ "reviewer": "Claude (AI-assisted review, 2026-10-15); not an MSU decision",
+ "note": "Verdicts on the automatic audit's findings. Confirmed mismatches were fixed in the corrected rules file (corrections.json, applied by apply_corrections.py; the supplied file is unchanged) and are now 'corrected'. 'ambiguous' items stay open for the Admissions Office; the app shows them as conditional.",
+ "verdicts": {
+  "MSU-JF2027-001": {
+   "impact": "high",
+   "finding": "Faculty note: 'O Level Maths required for all programmes'. Rule requires only English Language, so an applicant without O Level Maths can be shown as meeting the requirements.",
+   "proposed_fix": "Add Mathematics to o_level_rule.required_subjects for all 11 Faculty of Agriculture programmes.",
+   "original_verdict": "confirmed_mismatch",
+   "verdict": "corrected",
+   "corrected_by": "C1"
+  },
+  "MSU-JF2027-002": {
+   "impact": "high",
+   "finding": "Same faculty note; O Level Maths missing from the rule.",
+   "proposed_fix": "Add Mathematics to o_level_rule.required_subjects.",
+   "original_verdict": "confirmed_mismatch",
+   "verdict": "corrected",
+   "corrected_by": "C1"
+  },
+  "MSU-JF2027-003": {
+   "impact": "low",
+   "finding": "Same faculty note; diploma route (not decided by grades), so the checker's decision is not affected, only the 'to confirm' text.",
+   "proposed_fix": "Add Mathematics to o_level_rule.required_subjects.",
+   "original_verdict": "confirmed_mismatch",
+   "verdict": "corrected",
+   "corrected_by": "C1"
+  },
+  "MSU-JF2027-006": {
+   "impact": "high",
+   "finding": "Same faculty note; O Level Maths missing from the rule.",
+   "proposed_fix": "Add Mathematics to o_level_rule.required_subjects.",
+   "original_verdict": "confirmed_mismatch",
+   "verdict": "corrected",
+   "corrected_by": "C1"
+  },
+  "MSU-JF2027-007": {
+   "impact": "low",
+   "finding": "Same faculty note; diploma route.",
+   "proposed_fix": "Add Mathematics to o_level_rule.required_subjects.",
+   "original_verdict": "confirmed_mismatch",
+   "verdict": "corrected",
+   "corrected_by": "C1"
+  },
+  "MSU-JF2027-012": {
+   "impact": "high",
+   "finding": "Same faculty note; O Level Maths missing from the rule.",
+   "proposed_fix": "Add Mathematics to o_level_rule.required_subjects.",
+   "original_verdict": "confirmed_mismatch",
+   "verdict": "corrected",
+   "corrected_by": "C1"
+  },
+  "MSU-JF2027-013": {
+   "impact": "high",
+   "finding": "Same faculty note; O Level Maths missing from the rule.",
+   "proposed_fix": "Add Mathematics to o_level_rule.required_subjects.",
+   "original_verdict": "confirmed_mismatch",
+   "verdict": "corrected",
+   "corrected_by": "C1"
+  },
+  "MSU-JF2027-014": {
+   "impact": "low",
+   "finding": "Same faculty note; diploma route.",
+   "proposed_fix": "Add Mathematics to o_level_rule.required_subjects.",
+   "original_verdict": "confirmed_mismatch",
+   "verdict": "corrected",
+   "corrected_by": "C1"
+  },
+  "MSU-JF2027-016": {
+   "impact": "high",
+   "finding": "Same faculty note; O Level Maths missing from the rule.",
+   "proposed_fix": "Add Mathematics to o_level_rule.required_subjects.",
+   "original_verdict": "confirmed_mismatch",
+   "verdict": "corrected",
+   "corrected_by": "C1"
+  },
+  "MSU-JF2027-017": {
+   "impact": "high",
+   "finding": "Same faculty note; O Level Maths missing from the rule.",
+   "proposed_fix": "Add Mathematics to o_level_rule.required_subjects.",
+   "original_verdict": "confirmed_mismatch",
+   "verdict": "corrected",
+   "corrected_by": "C1"
+  },
+  "MSU-JF2027-018": {
+   "impact": "low",
+   "finding": "Same faculty note; diploma route.",
+   "proposed_fix": "Add Mathematics to o_level_rule.required_subjects.",
+   "original_verdict": "confirmed_mismatch",
+   "verdict": "corrected",
+   "corrected_by": "C1"
+  },
+  "MSU-JF2027-054": {
+   "verdict": "audit_false_positive",
+   "impact": "none",
+   "finding": "'Accounting plus any two Commercial subject' = 3 subjects; the rule's 3 slots are correct. The automatic check matched 'two (2) passes' in the alternative (employment) route."
+  },
+  "MSU-JF2027-133": {
+   "impact": "low",
+   "finding": "requirements_as_advertised is split mid-sentence ('...including i.' / 'Mathematics, English and Combined Science...'), so the text shown to users is garbled; the O Level rule also omits Combined Science, which the advert names. Diploma/employment route, so no grade decision is affected.",
+   "proposed_fix": "Use the advert record's three requirement lines; add Combined Science to o_level_rule.required_subjects.",
+   "original_verdict": "confirmed_mismatch",
+   "verdict": "corrected",
+   "corrected_by": "C2, C3"
+  },
+  "MSU-JF2027-126": {
+   "verdict": "ambiguous",
+   "impact": "medium",
+   "finding": "'At least two Advanced Level passes; Mathematics, Physics and any other relevant science subject' can be read as 2 or 3 subjects. Rule: 2 (Mathematics, Physics). Mining Engineering (MSU-JF2027-132) with near-identical wording is coded with 3.",
+   "question_for_admissions": "Is a third science A Level required for Electrical and Electronic Engineering?",
+   "app_handling": "overlay: 2 subjects = lenient reading; a third science is shown as a question, so the result is conditional, never 'meets'"
+  },
+  "MSU-JF2027-129": {
+   "verdict": "ambiguous",
+   "impact": "medium",
+   "finding": "Same 'two passes; Mathematics, Physics or Chemistry and any other relevant science subject' wording; rule: 2.",
+   "question_for_admissions": "Is a third science A Level required for Fuels and Energy Engineering?",
+   "app_handling": "overlay: 2 subjects = lenient reading; a third science is shown as a question, so the result is conditional, never 'meets'"
+  },
+  "MSU-JF2027-132": {
+   "verdict": "ambiguous",
+   "impact": "medium",
+   "finding": "'A Level passes in Mathematics, Physics and any other science subject' coded as 3 subjects; inconsistent with MSU-JF2027-126/129.",
+   "question_for_admissions": "Confirm 3 A Levels for Mining Engineering."
+  },
+  "MSU-JF2027-212": {
+   "verdict": "ambiguous",
+   "impact": "medium",
+   "finding": "'Humanities/Social Sciences' is coded with the assumed ARTS category; whether e.g. Sociology, Geography or Economics count depends on the unconfirmed taxonomy.",
+   "app_handling": "overlay: social-science flag; Economics counts only as a conditional (social-science) match"
+  },
+  "MSU-JF2027-213": {
+   "verdict": "ambiguous",
+   "impact": "medium",
+   "finding": "As MSU-JF2027-212.",
+   "app_handling": "overlay: social-science flag; Economics counts only as a conditional (social-science) match"
+  },
+  "MSU-JF2027-214": {
+   "verdict": "ambiguous",
+   "impact": "medium",
+   "finding": "As MSU-JF2027-212.",
+   "app_handling": "overlay: social-science flag; Economics counts only as a conditional (social-science) match"
+  },
+  "MSU-JF2027-147": {
+   "verdict": "ambiguous",
+   "impact": "high",
+   "finding": "LLB: 'with B or better' modelled as applying to the third (Arts) subject only (the modeller's own note); O Level English B and Mathematics B in the rule come from the advert's programme text and should be confirmed.",
+   "question_for_admissions": "Does 'B or better' apply to all three LLB A Level subjects?",
+   "app_handling": "overlay: strict reading (all three at B) is asked as a question"
+  }
+ },
+ "updated": "2026-10-16: verdicts for corrected rules (C1-C3); earlier copy in evaluation/results/eligibility_rules_audit/pre_correction_backup/"
+}
+

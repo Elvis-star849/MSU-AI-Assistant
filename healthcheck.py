@@ -26,6 +26,8 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--url")
     ap.add_argument("--live-llm", action="store_true")
+    ap.add_argument("--model-env", default=None,
+                    help="model variable to use, e.g. GROQ_MODEL_2 (default: MSU_ASSISTANT_MODEL_ENV, else the accepted model)")
     a = ap.parse_args()
     results = []
 
@@ -44,11 +46,13 @@ def main() -> int:
     profile = check("profile", lambda: (lambda p: f"{p} - {LABELS[p]}")(current_profile()))
 
     def key():
+        from src.assistant import ACCEPTED_MODEL, selected_model_env
         from src.llm import load_config
-        cfg = load_config()
+        model_env = a.model_env or selected_model_env()
+        cfg = load_config(model_env=model_env)
         if not cfg.key_configured:
             raise RuntimeError("GROQ_API_KEY is not set (answers disabled; retrieval still works)")
-        return f"Groq key present (model {cfg.settings.model})"
+        return f"Groq key present (model {cfg.settings.model if model_env else ACCEPTED_MODEL} from {cfg.model_env})"
     check("llm configuration", key)
 
     if profile and current_profile() == C3:
@@ -81,10 +85,10 @@ def main() -> int:
     if a.live_llm:
         def live():
             from src.assistant import Assistant
-            r = Assistant.create().ask("When does second-quarter face-to-face tuition run in 2027?")
+            r = Assistant.create(model_env=a.model_env).ask("When does second-quarter face-to-face tuition run in 2027?")
             if r.status != "answered" or not r.answer:
                 raise RuntimeError(f"status {r.status}: {r.error_message}")
-            return f"answered in {r.timings_ms.get('total', 0):,.0f} ms; {len(r.sources)} sources; {r.answer[:80]!r}…"
+            return f"answered by {r.model} in {r.timings_ms.get('total', 0):,.0f} ms; {len(r.sources)} sources; {r.answer[:80]!r}…"
         check("live answer (one Groq call)", live)
     if a.url:
         def web():
@@ -95,7 +99,7 @@ def main() -> int:
             return f"{a.url} healthy"
         check("web server", web)
     ok = all(r[1] for r in results if r[0] != "llm configuration") and \
-        (any(r[0] == "llm configuration" and r[1] for r in results) or not a.live_llm)
+        (any(r[0] == "llm configuration" and r[1] for r in results) or not (a.live_llm or a.model_env))
     print(json.dumps({"healthy": ok, "failed": [r[0] for r in results if not r[1]]}))
     return 0 if ok else 1
 

@@ -14,7 +14,7 @@ $logs = Join-Path $root "logs"
 New-Item -ItemType Directory -Force $logs | Out-Null
 $env:MSU_ASSISTANT_PROFILE = $Profile
 $env:HF_HUB_OFFLINE = "1"
-$streamlitArgs = @("-m", "streamlit", "run", "app.py", "--server.port", "$Port", "--server.address", $Address,
+$streamlitArgs = @("-m", "streamlit", "run", "msu_app.py", "--server.port", "$Port", "--server.address", $Address,
           "--server.headless", "true", "--browser.gatherUsageStats", "false")
 $proc = Start-Process -FilePath "python" -ArgumentList $streamlitArgs -WorkingDirectory $root -WindowStyle Hidden -PassThru `
     -RedirectStandardOutput (Join-Path $logs "assistant.out.log") -RedirectStandardError (Join-Path $logs "assistant.err.log")

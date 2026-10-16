@@ -5,5 +5,5 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 export MSU_ASSISTANT_PROFILE="${1:-c3_intake_0006}"
 export HF_HUB_OFFLINE=1
-exec python -m streamlit run app.py --server.port "${2:-8502}" --server.address "${MSU_BIND_ADDRESS:-127.0.0.1}" \
+exec python -m streamlit run msu_app.py --server.port "${2:-8502}" --server.address "${MSU_BIND_ADDRESS:-127.0.0.1}" \
   --server.headless true --browser.gatherUsageStats false

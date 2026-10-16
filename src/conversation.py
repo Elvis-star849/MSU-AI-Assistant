@@ -92,7 +92,9 @@ def context_after(context: ChatContext, resolution: Resolution) -> ChatContext:
 class Turn:
     question: str  # what the user typed (shown in the chat)
     resolution: Resolution
-    result: Any  # AssistantResult for resolution.standalone
+    result: Any  # AssistantResult for resolution.standalone (None for eligibility / out-of-scope turns)
+    path: str = "INFO"  # router path: INFO (RAG) | ELIGIBILITY | OUT_OF_SCOPE (src/admissions_flow.py)
+    flow: Any = None  # admissions_flow.FlowResult: answer for non-RAG turns, debug record for every turn
 
 
 _ids = itertools.count(1)
@@ -103,6 +105,12 @@ class ChatSession:
     id: int = field(default_factory=lambda: next(_ids))
     turns: List[Turn] = field(default_factory=list)
     context: ChatContext = field(default_factory=ChatContext)
+    eligibility: Any = None  # last results used by the eligibility checker in this chat ("show all" reuses them)
+    applicant: Any = None    # ApplicantProfile of the current admissions assessment (src/applicant_profile.py)
+
+    def has_assessment(self) -> bool:
+        a = self.applicant
+        return a is not None and (not a.is_empty() or a.pending is not None or a.last_asked is not None)
 
     @property
     def title(self) -> str:

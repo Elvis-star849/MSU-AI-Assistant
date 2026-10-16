@@ -158,9 +158,42 @@ class IntakeAwareRetriever:
         return [{**e, "rank": i} for i, e in enumerate(merged, 1)]
 
 
+class ProgrammeLookupRetriever:
+    """Wraps the intake retriever. When the question names a programme (src/programme_lookup.py: exact name, or every
+    distinctive word of it), the advert records of ALL its routes are put first in the evidence, so the model sees every
+    route (duration, modes, requirements) instead of whichever ones search happened to rank highly. Other evidence
+    follows; the total stays at least 5. Any failure returns the wrapped retriever's evidence unchanged."""
+    MAX_ROUTES = 4
+
+    def __init__(self, base: Any):
+        self.base = base
+
+    def __getattr__(self, name):
+        return getattr(self.base, name)
+
+    def retrieve(self, question: str) -> List[Dict[str, Any]]:
+        evidence = self.base.retrieve(question)
+        try:
+            from src.evidence import to_evidence
+            from src.programme_lookup import programme_groups
+            uids = [r["passage_uid"] for g in programme_groups(question) for r in g.routes][:self.MAX_ROUTES]
+            if not uids:
+                return evidence
+            by_uid = {e.get("passage_uid"): e for e in evidence}
+            store = self.base.store
+            routes = [by_uid[u] if u in by_uid else
+                      {**to_evidence(store._result(store.row_of(u), 0, None, route="programme_lookup"),
+                                     self.base.configuration), "passage_uid": u} for u in uids]
+        except Exception:
+            return evidence
+        rest = [e for e in evidence if e.get("passage_uid") not in set(uids)]
+        merged = (routes + rest)[:max(len(evidence), len(routes) + 1)]
+        return [{**e, "rank": i} for i, e in enumerate(merged, 1)]
+
+
 def open_profile_retriever(profile: str, models: Any) -> Any:
     if profile == INTAKE:
-        return IntakeAwareRetriever(open_intake_retriever(models))
+        return ProgrammeLookupRetriever(IntakeAwareRetriever(open_intake_retriever(models)))
     return open_public_retriever(models)
 
 
@@ -174,3 +207,35 @@ def build_c3_messages(question: str, evidence: List[Dict[str, Any]]) -> List[Mes
 
 
 build_c3_messages.prompt_version = C3_PROMPT_VERSION
+
+# ------------------------------------------------------------------ C4: G2 with the descriptor/mapping fixes
+# Derived from the frozen G2 prompt by these documented edits only (development-set failures, 2026-10-16):
+#  - rules 3 and 10 say "the MSU documents searched" instead of "the documents provided" (the model then echoed
+#    "documents you provided", which src/safeguards.present_answer had to correct afterwards);
+#  - rule 11: never call a study mode full-time or part-time unless a passage says so;
+#  - rule 12: report a combined duration ("4 years 3 Years for Block Release") as printed and never link a duration
+#    to a campus or mode that the passage does not link it to.
+# build_c3_messages above stays byte-identical to the evaluated C3 configuration (parity tests).
+C4_SYSTEM_PROMPT = (c3_candidate.G2_SYSTEM_PROMPT
+                    .replace("say that the documents provided do not contain the information and stop",
+                             "say that the MSU documents searched do not contain the information and stop")
+                    .replace("say the MSU documents provided do not contain this information",
+                             "say the MSU documents searched do not contain this information")
+                    + "\n11. Study modes: describe a mode only in the words of the passages (for example Conventional, "
+                      "Visiting, Block Release, Weekend School). Never call a mode full-time or part-time unless a passage "
+                      "says so. List each campus only with the modes printed for it under MODES OF ENTRY (for example "
+                      "'Bulawayo Weekend School'); never create a campus and mode combination that is not printed."
+                    + "\n12. Combined durations such as '4 years 3 Years for Block Release': report them exactly as printed. "
+                      "Never link a duration to a campus or mode that the passage does not link it to.")
+C4_PROMPT_VERSION = "r-g2-grounding-v1+F2+c4-descriptors"
+assert C4_SYSTEM_PROMPT.count("MSU documents searched") == 2, "G2 wording changed; update the C4 edits"
+
+
+def build_c4_messages(question: str, evidence: List[Dict[str, Any]]) -> List[Message]:
+    """The C4 system prompt + the same F2-formatted user message as C3 (only the system prompt differs)."""
+    messages = build_messages(question, evidence, system_prompt=C4_SYSTEM_PROMPT)
+    user = c3_candidate.format_user_message(question, "kb", evidence, messages[1].content)
+    return [messages[0], Message("user", user)]
+
+
+build_c4_messages.prompt_version = C4_PROMPT_VERSION

@@ -1,0 +1,379 @@
+{
+ "note": "Built by evaluation/eligibility_audit/build_entry_routes.py from the advert wording in MSU_Eligibility_Rules.json and the general regulations quoted below. Do not edit by hand.",
+ "general_regulations": {
+  "mature": {
+   "source": "MSU Humanities Yearbook",
+   "page": 129,
+   "section": "General Academic Regulations for Undergraduate Degrees, 3.3 Mature Entry",
+   "quote": "Persons who are at least 25 years of age for males and 23 years for females on the first day of the academic year in which admission is sought and who are not eligible for entry under the Normal or Special Entry Regulations may apply for Mature Entry provided that: 3.3.1 applicants must have passed at least five approved 'O' Level subjects including English Language and Mathematics (where required) or equivalents, and must have demonstrated potential suitability for University studies by virtue of their attainments and/or relevant work experience. 3.3.2 normally, applicants should have completed their full-time school or college education at least five years before the start of the academic year in which admission is sought. 3.3.3 applicants who wish to be considered under the Mature Entry provisions may be required to attend interviews and/or special tests at the University designed to assess their command of the English Language, numeracy and reasoning ability and general suitability for admission to the Bachelor's degree studies.",
+   "age": {
+    "female": 23,
+    "male": 25
+   }
+  },
+  "special": {
+   "source": "MSU Humanities Yearbook",
+   "page": 129,
+   "section": "General Academic Regulations for Undergraduate Degrees, 3.2 Special Entry",
+   "quote": "The following persons may apply for Special Entry and for permission to proceed to a first degree with exemption from the whole or part of the normal entry requirements: - 3.2.1 a person who has obtained a degree of this or another university or degree awarding institution. 3.2.2 a person who has obtained from a University or an Institution of similar status, academic qualifications (other than degrees) acceptable to Senate. [...] 3.2.4 students who apply for admission under this regulation may be required to attend interviews and/or special tests at the University to determine their suitability for admission to Bachelor's degree studies."
+  }
+ },
+ "mature_entry": {
+  "MSU-JF2027-026": {
+   "programme": "Bachelor of Arts Honours Degree in Language and Cultural Studies",
+   "page": 4,
+   "quote": "Any two ‘A’ Level passes in Arts, Humanities and Social Sciences subjects for example any African language, Literature in English, History, Divinity, Geography, Sociology among others. Mature entry from 23 years for female students and 25 years male.",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language"
+    ],
+    "from_general_regulation": [
+     "o_level_passes",
+     "o_level_subjects"
+    ]
+   }
+  },
+  "MSU-JF2027-027": {
+   "programme": "Bachelor of Arts Honours Degree in Translation and Intercultural Communication",
+   "page": 5,
+   "quote": "Mature entry from 23 years for female students and 25 years male.",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language"
+    ],
+    "from_general_regulation": [
+     "o_level_passes",
+     "o_level_subjects"
+    ]
+   }
+  },
+  "MSU-JF2027-029": {
+   "programme": "Bachelor of Arts Honours Degree in Film and Theatre Arts",
+   "page": 5,
+   "quote": "Mature entry for Harare and Bulawayo Weekend School: 23 years for female students and 25 years for male students. Have five 5 ‘O’ Level passes including English Language and be employed in a related profession. Submit confirmation of employment",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language"
+    ],
+    "employed_related": true,
+    "modes": [
+     "Harare Weekend School",
+     "Bulawayo Weekend School"
+    ]
+   }
+  },
+  "MSU-JF2027-030": {
+   "programme": "Bachelor of Arts Honours Degree in Multi-Media Graphic Design and Editing",
+   "page": 5,
+   "quote": "Mature entry for Harare and Bulawayo Weekend School: 23 years for female students and 25 years for male students. Have five 5 ‘O’ Level passes including English Language and be employed in a related profession. Submit confirmation of employment",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language"
+    ],
+    "employed_related": true,
+    "modes": [
+     "Harare Weekend School",
+     "Bulawayo Weekend School"
+    ]
+   }
+  },
+  "MSU-JF2027-031": {
+   "programme": "Bachelor of Arts Honours in Radio, Television and Multimedia Production",
+   "page": 5,
+   "quote": "Mature entry for Harare and Bulawayo Weekend School: 23 years for female students and 25 years for male students. Have five 5 ‘O’ Level passes including English Language and be employed in a related profession. Submit confirmation of employment",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language"
+    ],
+    "employed_related": true,
+    "modes": [
+     "Harare Weekend School",
+     "Bulawayo Weekend School"
+    ]
+   }
+  },
+  "MSU-JF2027-032": {
+   "programme": "Bachelor of Arts Honours Degree in Journalism and Digital Media Studies",
+   "page": 5,
+   "quote": "Mature entry for Harare and Bulawayo Weekend School: 23 years for female students and 25 years for male students. Have five 5 ‘O’ Level passes including English Language and be employed in a related profession. Submit confirmation of employment",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language"
+    ],
+    "employed_related": true,
+    "modes": [
+     "Harare Weekend School",
+     "Bulawayo Weekend School"
+    ]
+   }
+  },
+  "MSU-JF2027-058": {
+   "programme": "Bachelor of Commerce Honours Degree in Entrepreneurship",
+   "page": 9,
+   "quote": "Mature Entry-Persons who are at least 25 years of age for males and 23 years for females on the first day of the academic year in which admission is sought and who are not eligible for entry under the Normal or Special Entry Regulations may apply for Mature Entry provided that: applicants must have passed at least five approved ‘O’ Level subjects including English Language and Mathematics (where required) or equivalents, and must have demonstrated potential suitability for University studies by virtue of their attainments and/or relevant work experience.\"",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language"
+    ],
+    "suitability": true
+   }
+  },
+  "MSU-JF2027-100": {
+   "programme": "Bachelor of Education Honours Degree in Indigenous, Multicultural Languages and Literature",
+   "page": 17,
+   "quote": "Mature entry; 5 O levels including English Language and an indigenous language (Barwe, Khoisan, Ndau, Chewa, Shangani, Tswana, Xhosa, Venda, Sotho, Kalanga, Nambya and Tonga)",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language"
+    ],
+    "o_level_any_of": [
+     "Barwe",
+     "Khoisan",
+     "Ndau",
+     "Chewa",
+     "Shangani",
+     "Tswana",
+     "Xhosa",
+     "Venda",
+     "Sotho",
+     "Kalanga",
+     "Nambya",
+     "Tonga"
+    ],
+    "from_general_regulation": [
+     "age"
+    ]
+   }
+  },
+  "MSU-JF2027-148": {
+   "programme": "Bachelor of Engineering Honours Degree in Telecommunications Engineering",
+   "page": 26,
+   "quote": "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25years (males) and 23 years (females) of age and 5 years of experience in the relevant field.",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language",
+     "Mathematics",
+     "Science"
+    ],
+    "work_years": 5,
+    "work_relevant": true
+   }
+  },
+  "MSU-JF2027-151": {
+   "programme": "Bachelor of Science Honours Degree in Applied Statistics",
+   "page": 27,
+   "quote": "Mature Entry: Five ‘O’ Level passes including Mathematics, Science, and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field.",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language",
+     "Mathematics",
+     "Science"
+    ],
+    "work_years": 5,
+    "work_relevant": true
+   }
+  },
+  "MSU-JF2027-154": {
+   "programme": "Bachelor of Science Honours Degree in Applied Biosciences and Biotechnology",
+   "page": 27,
+   "quote": "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field.",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language",
+     "Mathematics",
+     "Science"
+    ],
+    "work_years": 5,
+    "work_relevant": true
+   }
+  },
+  "MSU-JF2027-155": {
+   "programme": "Bachelor of Science Honours Degree in Computer Systems Engineering",
+   "page": 28,
+   "quote": "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field.",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language",
+     "Mathematics",
+     "Science"
+    ],
+    "work_years": 5,
+    "work_relevant": true
+   }
+  },
+  "MSU-JF2027-156": {
+   "programme": "Bachelor of Science Honours Degree in Computer Science",
+   "page": 28,
+   "quote": "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field.",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language",
+     "Mathematics",
+     "Science"
+    ],
+    "work_years": 5,
+    "work_relevant": true
+   }
+  },
+  "MSU-JF2027-157": {
+   "programme": "Bachelor of Science Honours Degree in Food Science and Technology",
+   "page": 28,
+   "quote": "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field.",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language",
+     "Mathematics",
+     "Science"
+    ],
+    "work_years": 5,
+    "work_relevant": true
+   }
+  },
+  "MSU-JF2027-159": {
+   "programme": "Bachelor of Science Honours Degree in Industrial Chemistry",
+   "page": 28,
+   "quote": "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field.",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language",
+     "Mathematics",
+     "Science"
+    ],
+    "work_years": 5,
+    "work_relevant": true
+   }
+  },
+  "MSU-JF2027-165": {
+   "programme": "Bachelor of Science Honours Degree in Nutrition Science",
+   "page": 29,
+   "quote": "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field.",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language",
+     "Mathematics",
+     "Science"
+    ],
+    "work_years": 5,
+    "work_relevant": true
+   }
+  },
+  "MSU-JF2027-166": {
+   "programme": "Bachelor of Science Honours Degree in Software Engineering",
+   "page": 30,
+   "quote": "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field.",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language",
+     "Mathematics",
+     "Science"
+    ],
+    "work_years": 5,
+    "work_relevant": true
+   }
+  },
+  "MSU-JF2027-168": {
+   "programme": "Bachelor of Science Honours Degree in Cybersecurity",
+   "page": 30,
+   "quote": "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field.",
+   "conditions": {
+    "age": {
+     "female": 23,
+     "male": 25
+    },
+    "o_level_passes": 5,
+    "o_level_subjects": [
+     "English Language",
+     "Mathematics",
+     "Science"
+    ],
+    "work_years": 5,
+    "work_relevant": true
+   }
+  }
+ }
+}

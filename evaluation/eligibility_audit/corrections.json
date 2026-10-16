@@ -1,0 +1,23 @@
+{
+ "note": "Corrections applied to src/eligibility/MSU_Eligibility_Rules.supplied.json to produce MSU_Eligibility_Rules.json. Only demonstrable transcription or implementation errors with unambiguous evidence in the approved January/February 2027 advert. Genuine ambiguities are not corrected here; they are handled in src/eligibility/rule_overrides.json as confirmation-required readings.",
+ "source": "data/source_pdfs/MSU JANUARY FEBRUARY 2027 INTAKE ADVERT.pdf and the approved structured records MSU_2027_Intake_Corrected_v2.json",
+ "corrections": [
+  {"id": "C1", "programmes": ["MSU-JF2027-001", "MSU-JF2027-002", "MSU-JF2027-003", "MSU-JF2027-006", "MSU-JF2027-007", "MSU-JF2027-012", "MSU-JF2027-013", "MSU-JF2027-014", "MSU-JF2027-016", "MSU-JF2027-017", "MSU-JF2027-018"],
+   "field": "o_level_rule.required_subjects.Mathematics", "old": "(absent)", "new": null,
+   "source_pages": [1, 2, 3], "evidence": "Faculty of Agriculture, Environment and Natural Resources Management faculty note: \"('O' Level Maths required for all programmes)\".",
+   "justification": "The advert states the requirement for every programme of the faculty; the rule omitted it, so an applicant without O Level Mathematics could be shown as meeting the requirements."},
+  {"id": "C2", "programmes": ["MSU-JF2027-133"], "field": "requirements_as_advertised", "old": "4 lines, the first split mid-sentence ('...including i.' / 'Mathematics, English and Combined Science...')",
+   "new": "the advert record's 3 lines", "source_pages": [23],
+   "evidence": "Advert record MSU-JF2027-133 entry_requirements (3 lines, 'i. Passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent. National Diploma ...').",
+   "justification": "Transcription error: the text shown to applicants was garbled."},
+  {"id": "C3", "programmes": ["MSU-JF2027-133"], "field": "o_level_rule.required_subjects.Combined Science", "old": "(absent)", "new": null, "source_pages": [23],
+   "evidence": "'Passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent.'",
+   "justification": "Omitted O Level subject named in the advert."},
+  {"id": "C4", "programmes": ["MSU-JF2027-025"], "field": "o_level_rule.required_subjects.African language", "old": "(absent)", "new": null, "source_pages": [4],
+   "evidence": "'At least five 'O' Level passes or the equivalent, including English language, and an African language.'",
+   "justification": "Omitted O Level requirement named in the advert. The checker cannot match a specific African language name to this requirement, so it is always reported as 'to confirm' (conservative)."},
+  {"id": "C5", "programmes": ["(taxonomy)"], "field": "taxonomy.Geography", "old": ["ARTS"], "new": ["ARTS", "SCI"], "source_pages": [24, 1],
+   "evidence": "p. 24 (MSU-JF2027-136): 'two Advanced level passes in any two of the following Science subjects Mathematics, Physics, Chemistry or Geography'; p. 1 lists Geography among preferred 'Sciences or Commercial subjects'.",
+   "justification": "The advert itself classifies Geography as a science subject; the taxonomy did not, so applicants with Geography were rejected for 'any science' slots. Matches that rely on Geography as a generic science are still shown as conditional (rule_overrides.json), because the advert names it as a science only for some programmes."}
+ ]
+}

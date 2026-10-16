@@ -1,0 +1,20 @@
+{
+ "generated_by": "evaluation/eligibility_audit/audit_rules.py",
+ "rules_file_sha256": "3ffb21c60db1dce19cfee09f000cfe7116d518f27df76eb87f0d4526ef4afa7a",
+ "warnings": {
+  "MSU-JF2027-001": "Rule under review: the advert says O Level Mathematics is required for all programmes in this faculty, but this checker does not test it yet. You need O Level Mathematics; check with the Admissions Office.",
+  "MSU-JF2027-002": "Rule under review: the advert says O Level Mathematics is required for all programmes in this faculty, but this checker does not test it yet. You need O Level Mathematics; check with the Admissions Office.",
+  "MSU-JF2027-006": "Rule under review: the advert says O Level Mathematics is required for all programmes in this faculty, but this checker does not test it yet. You need O Level Mathematics; check with the Admissions Office.",
+  "MSU-JF2027-012": "Rule under review: the advert says O Level Mathematics is required for all programmes in this faculty, but this checker does not test it yet. You need O Level Mathematics; check with the Admissions Office.",
+  "MSU-JF2027-013": "Rule under review: the advert says O Level Mathematics is required for all programmes in this faculty, but this checker does not test it yet. You need O Level Mathematics; check with the Admissions Office.",
+  "MSU-JF2027-016": "Rule under review: the advert says O Level Mathematics is required for all programmes in this faculty, but this checker does not test it yet. You need O Level Mathematics; check with the Admissions Office.",
+  "MSU-JF2027-017": "Rule under review: the advert says O Level Mathematics is required for all programmes in this faculty, but this checker does not test it yet. You need O Level Mathematics; check with the Admissions Office.",
+  "MSU-JF2027-126": "Rule under review: the advert wording is ambiguous (Is a third science A Level required for Electrical and Electronic Engineering). Check with the Admissions Office.",
+  "MSU-JF2027-129": "Rule under review: the advert wording is ambiguous (Is a third science A Level required for Fuels and Energy Engineering). Check with the Admissions Office.",
+  "MSU-JF2027-132": "Rule under review: the advert wording is ambiguous (Confirm 3 A Levels for Mining Engineering). Check with the Admissions Office.",
+  "MSU-JF2027-147": "Rule under review: the advert wording is ambiguous (Does 'B or better' apply to all three LLB A Level subjects). Check with the Admissions Office.",
+  "MSU-JF2027-212": "Rule under review: the advert wording is ambiguous ('Humanities/Social Sciences' is coded with the assumed ARTS category; whether e.g. Sociology, Geography or Economics count depends on the unconfirmed taxonomy). Check with the Admissions Office.",
+  "MSU-JF2027-213": "Rule under review: the advert wording is ambiguous (As MSU-JF2027-212). Check with the Admissions Office.",
+  "MSU-JF2027-214": "Rule under review: the advert wording is ambiguous (As MSU-JF2027-212). Check with the Admissions Office."
+ }
+}

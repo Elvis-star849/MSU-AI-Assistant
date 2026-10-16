@@ -1,0 +1,53 @@
+{
+ "set": "dev",
+ "runs": {
+  "1": {
+   "questions": 46,
+   "sufficient": 46,
+   "partial": 0,
+   "insufficient": 0,
+   "sufficient_pct": 100.0,
+   "critical": 0,
+   "unverified_fact_notes": 0,
+   "abstention_items": 11,
+   "correct_abstentions": 11,
+   "answers_citing_evidence": 41,
+   "by_type": {
+    "calendar": "6/6",
+    "decline": "4/4",
+    "duration": "9/9",
+    "modes": "10/10",
+    "requirements": "8/8",
+    "start": "2/2",
+    "start_not_stated": "7/7"
+   },
+   "median_latency_ms": 2208
+  },
+  "2": {
+   "questions": 46,
+   "sufficient": 46,
+   "partial": 0,
+   "insufficient": 0,
+   "sufficient_pct": 100.0,
+   "critical": 0,
+   "unverified_fact_notes": 0,
+   "abstention_items": 11,
+   "correct_abstentions": 11,
+   "answers_citing_evidence": 42,
+   "by_type": {
+    "calendar": "6/6",
+    "decline": "4/4",
+    "duration": "9/9",
+    "modes": "10/10",
+    "requirements": "8/8",
+    "start": "2/2",
+    "start_not_stated": "7/7"
+   },
+   "median_latency_ms": 2593
+  }
+ },
+ "consistency": {
+  "same_label_pct": 100.0,
+  "same_facts_pct": 100.0
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "url": "http://127.0.0.1:8502",
+ "dev_mode": false,
+ "all_passed": true,
+ "results": [
+  {
+   "check": "eligibility: summary, tabs, O Level request, disclaimer",
+   "pass": true,
+   "excerpt": "school A Level points (best three passes): 14 ✅ 0 meet the advertised requirements · 🟡 42 conditional matches · ❌ 49 do not meet the requirements · ➡️ 50 other entry routes Closest conditional matches Bachelor of Science Honours Degree in Computer Science — Gweru Conventional; 4 years (advert p. 28)"
+  },
+  {
+   "check": "O Level reply completes the check",
+   "pass": true,
+   "excerpt": "school A Level points (best three passes): 14 ✅ 26 meet the advertised requirements · 🟡 14 conditional matches · ❌ 51 do not meet the requirements · ➡️ 50 other entry routes Best matches for your subjects Bachelor of Science Honours Degree in Computer Science — Gweru Conventional; 4 years (advert p."
+  },
+  {
+   "check": "correction applied",
+   "pass": true,
+   "excerpt": "school A Level points (best three passes): 15 ✅ 26 meet the advertised requirements · 🟡 14 conditional matches · ❌ 51 do not meet the requirements · ➡️ 50 other entry routes The programme(s) you asked about ✅ Meets the advertised requirements: Bachelor of Science Honours Degree in Agricultural Econo"
+  },
+  {
+   "check": "why not: named programme first with its reason",
+   "pass": true,
+   "excerpt": "school A Level points (best three passes): 15 ✅ 26 meet the advertised requirements · 🟡 14 conditional matches · ❌ 51 do not meet the requirements · ➡️ 50 other entry routes The programme(s) you asked about ❌ Does not meet the advertised requirements: Bachelor of Science Honours Degree in Biotechnol"
+  },
+  {
+   "check": "named programme answered first",
+   "pass": true,
+   "excerpt": "school A Level points (best three passes): 13 ✅ 0 meet the advertised requirements · 🟡 58 conditional matches · ❌ 33 do not meet the requirements · ➡️ 50 other entry routes The programme(s) you asked about 🟡 Conditional matches (not yet a full eligibility result): Bachelor of Science Honours Degree "
+  },
+  {
+   "check": "grades without subjects -> follow-up",
+   "pass": true,
+   "excerpt": "school Which A Level subjects did you get those grades in? For example: Mathematics A, Physics B, Chemistry C. You can also enter them in the form in the sidebar. Eligibility checker (more details needed)"
+  },
+  {
+   "check": "fees -> fixed reply",
+   "pass": true,
+   "excerpt": "school I don't have verified information on that. Please contact the Admissions Office: admissions@admin.msu.ac.zw or (054) 2260496. Out of scope · fixed reply"
+  },
+  {
+   "check": "deadline paraphrase -> fixed reply",
+   "pass": true,
+   "excerpt": "school I don't have verified information on that. Please contact the Admissions Office: admissions@admin.msu.ac.zw or (054) 2260496. Out of scope · fixed reply"
+  },
+  {
+   "check": "deadline stated in the advert -> quoted with page",
+   "pass": true,
+   "excerpt": "school The 2027 intake advert states: Bachelor of Engineering Honours Degree in Mining Engineering: “Deadline for submission of applications is 31 March 2027.” (2027 intake advert, p. 23) For any other application dates, please contact the Admissions Office: admissions@admin.msu.ac.zw or (054) 22604"
+  },
+  {
+   "check": "documents answer with all routes and programme details",
+   "pass": true,
+   "excerpt": "school Duration Source Route Duration 2027 Intake Advert (page 35) Conventional (Gweru, Bulawayo) 4 years【1】 2027 Intake Advert (page 35) Weekend School (Harare, Bulawayo) 3 years【2】 MSU Humanities Yearbook (page 824) Normal entry 4 years【3】 MSU Humanities Yearbook (page 823) Special/Mature entry 3 "
+  },
+  {
+   "check": "programme explorer page",
+   "pass": true,
+   "excerpt": "keyboard_double_arrow_left 🎓 Chat assistant 🔎 Programme explorer 🔐 Admin Programme explorer January/February 2027 intake programmes as advertised, with every study route (duration, modes, entry requirements) and the advert page. Confirm admissions decisions with MSU. Search programme or faculty Leve"
+  },
+  {
+   "check": "admin page requires sign-in",
+   "pass": true,
+   "excerpt": "keyboard_double_arrow_left 🎓 Chat assistant 🔎 Programme explorer 🔐 Admin Admin First-run setup No administrator account exists yet. Create one (passwords: at least 10 characters). The account is stored locally in instance/admin_users.json with a salted hash."
+  }
+ ]
+}

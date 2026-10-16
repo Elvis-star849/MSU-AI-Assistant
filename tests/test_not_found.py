@@ -29,7 +29,7 @@ class LLM:
         q = messages[1].content
         if "busy" in q:
             raise LLMError("rate_limit", "fake")
-        text = DECLINE if "fee" in q else "BM134 is worth 12 credits [Evidence 1]."
+        text = DECLINE if ("fee" in q or "opening hours" in q) else "BM134 is worth 12 credits [Evidence 1]."
         return LLMResponse(text=text, provider="fake", requested_model=settings.model, returned_model=settings.model,
                            finish_reason="stop", usage={})
 
@@ -69,7 +69,7 @@ class NotFoundUITests(unittest.TestCase):
         create = patch.object(Assistant, "create", classmethod(lambda cls, offline=False: fake))
         create.start()
         self.addCleanup(create.stop)
-        env = patch.dict(os.environ, {"MSU_ASSISTANT_OFFLINE": ""})
+        env = patch.dict(os.environ, {"MSU_ASSISTANT_OFFLINE": "", "MSU_ASSISTANT_DEV_MODE": "1"})
         env.start()
         self.addCleanup(env.stop)
         app = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "app.py")
@@ -89,7 +89,8 @@ class NotFoundUITests(unittest.TestCase):
         self.assertEqual((len(block.warning), len(block.caption)), (0, 0))
 
     def test_declined_answer_shows_answer_only(self):
-        block = self.ask("What is the tuition fee?")
+        # fee questions now get the router's fixed out-of-scope reply, so a non-fee miss is used here
+        block = self.ask("What are the library opening hours?")
         self.assertEqual(len(block.expander), 0)
         self.assertIn(DECLINE, " ".join(e.value for e in block.markdown))
         self.assertEqual((len(block.info), len(block.warning), len(block.caption)), (0, 0, 0))

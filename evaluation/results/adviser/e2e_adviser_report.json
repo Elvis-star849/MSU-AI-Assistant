@@ -1,0 +1,101 @@
+{
+ "url": "http://127.0.0.1:8502",
+ "all_passed": true,
+ "results": [
+  {
+   "check": "example: one follow-up question, no database report",
+   "pass": true,
+   "excerpt": "school Thanks. I've noted: 5 O Level passes, including Mathematics and English Language; age 30. (I've taken “passed” to mean grade C or better, which is how the advert counts O Level passes.) At 30 you may also be able to apply through mature entry. I'll check that once I know a little more. Do you"
+  },
+  {
+   "check": "example: quick-reply buttons",
+   "pass": true,
+   "excerpt": ""
+  },
+  {
+   "check": "only O Levels -> asks about work experience",
+   "pass": true,
+   "excerpt": "school Thanks. I've noted: no A Levels; no post-school qualification. Many mature-entry routes ask for relevant work experience. Have you been working since you left school? If so, for how many years, and in what field? arrow_forward No work experience"
+  },
+  {
+   "check": "work experience -> first shortlist with routes and outstanding requirements",
+   "pass": true,
+   "excerpt": "school Thanks. I've noted: 8 years of work experience; work in information technology. These programmes fit you best so far: 1. Diploma in Adult and Continuing Education ✅ Meets the advertised requirements · Normal entry (O Levels) Advert: “5 ‘O’ Levels including English Language” Why it fits: this "
+  },
+  {
+   "check": "science pass -> shortlist updated with computing programmes",
+   "pass": true,
+   "excerpt": "school Thanks. I've noted: an O Level pass in Science. (I've taken “passed” to mean grade C or better, which is how the advert counts O Level passes.) These programmes fit you best now: 1. Bachelor of Education Honours Degree in Science and Applied Technologies ✅ Meets the advertised requirements · "
+  },
+  {
+   "check": "detailed assessment opens with all routes",
+   "pass": true,
+   "excerpt": "vert p. 36) Bachelor of Science Honours Degree in Political Science and Governance (advert p. 34) Bachelor of Science Honours Degree in Psychology (advert p. 31) Bachelor of Science Honours Degree in Public Management and Governance (advert p. 34) Bachelor of Science Honours Degree in Social Work De"
+  },
+  {
+   "check": "programme question answered route by route",
+   "pass": true,
+   "excerpt": "school Here is how you could get into these programmes, based on what you've told me so far: Bachelor of Science Honours Degree in Computer Science (2027 intake advert, p. 28) Normal entry (A Levels): the advert asks for “Two ‘A’ level passes in Mathematics and Physics or Computer Science/Studies or"
+  },
+  {
+   "check": "profile panel shows provenance",
+   "pass": true,
+   "excerpt": "assed my assumption: please check Post-school qualification: none you told me Age: 30 you told me Work experience: 8 years you told me Field of work: information technology you told me Interested in: computer science you told me restart_alt Start new assessment expand_more Configuration: C3 - knowle"
+  },
+  {
+   "check": "mature entry explained from the regulations, age asked",
+   "pass": true,
+   "excerpt": "school Mature entry at MSU. The university's general regulations say that applicants who are at least 25 (men) or 23 (women) on the first day of the academic year, and who do not qualify through normal or special entry, may apply if they have at least five O Level passes including English Language ("
+  },
+  {
+   "check": "under the mature-entry age: no mature route offered as possible",
+   "pass": true,
+   "excerpt": "school Thanks. I've noted: 5 O Level passes, including English Language and Mathematics; no A Levels; no post-school qualification. (I've taken “passed” to mean grade C or better, which is how the advert counts O Level passes.) These programmes fit you best so far: 1. Diploma in Adult and Continuing"
+  },
+  {
+   "check": "diploma -> asks its field",
+   "pass": true,
+   "excerpt": "school Thanks. I've noted: a diploma (field not given yet). What is your diploma in? For example Accounting, Information Technology or Agriculture."
+  },
+  {
+   "check": "diploma field -> special-entry shortlist, never confirmed",
+   "pass": true,
+   "excerpt": "school Thanks. I've noted: a diploma in accounting. These programmes fit you best so far: 1. Bachelor of Commerce Honours Degree in Entrepreneurship 🟡 Possible: the Admissions Office assesses this route · Special entry (post-school qualification) Advert: “At least two passes at Advanced Level ('A' L"
+  },
+  {
+   "check": "stale data: asks before combining",
+   "pass": true,
+   "excerpt": "school Before I go on: earlier in this chat you told me A Levels: Mathematics A, Computer Science A, Economics B. Are these details for the same person? If so I'll combine them with what you just said; otherwise I'll start a new assessment with only your latest details. arrow_forward Same person, ke"
+  },
+  {
+   "check": "new assessment uses only the latest details",
+   "pass": true,
+   "excerpt": "school Understood. I've started a new assessment using only your latest details, so nothing from earlier is used. At 30 you may also be able to apply through mature entry. I'll check that once I know a little more. Do you also have any A Level passes, or a post-school qualification such as a certifi"
+  },
+  {
+   "check": "correction applied",
+   "pass": true,
+   "excerpt": "school Thanks. I've noted: A Levels: Chemistry A (was C). Your A Levels fit these programmes. I need your O Level results to confirm them: 1. Bachelor of Science in Biomedical Sciences 🔎 Could be possible: some details still needed · Normal entry (A Levels) Advert: “• ‘A’ Level Passes in Chemistry w"
+  },
+  {
+   "check": "brother's results removed",
+   "pass": true,
+   "excerpt": "school Thanks for telling me. I've removed A Level Mathematics A, A Level Physics B and A Level Chemistry A, and I won't use them in your assessment. Let's look at your own qualifications instead. I can help you find MSU programmes that match your qualifications. What qualifications do you have? For"
+  },
+  {
+   "check": "reset asks for confirmation",
+   "pass": true,
+   "excerpt": "school Before I clear anything: start a new assessment? This removes what you've told me so far (A Levels: History A, Shona B, Literature in English B). arrow_forward Yes, start a new assessment arrow_forward No, keep my details"
+  },
+  {
+   "check": "'No, keep my details' keeps them",
+   "pass": true,
+   "excerpt": "school No problem, I've kept your details. That doesn't change your shortlist. The programmes I suggested above still fit best, and every programme and route is in Detailed assessment below. This is guidance based on the January/February 2027 intake advert. Meeting the advertised requirements does n"
+  },
+  {
+   "check": "sidebar button starts a new assessment",
+   "pass": true,
+   "excerpt": "school New assessment started. I've cleared the earlier details. I can help you find MSU programmes that match your qualifications. What qualifications do you have? For example your A Level subjects and grades, your O Level results, or a certificate or diploma. arrow_forward I have A Levels arrow_fo"
+  }
+ ]
+}

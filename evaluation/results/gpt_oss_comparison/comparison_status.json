@@ -1,0 +1,73 @@
+{
+ "checked_at": "2026-10-14",
+ "live_calls_made": {
+  "GROQ_MODEL_2 (openai/gpt-oss-120b)": {
+   "calls": 3,
+   "answered": 0,
+   "http_403": 3,
+   "usd": 0.0
+  },
+  "GROQ_MODEL (openai/gpt-oss-20b)": {
+   "calls": "about 21",
+   "purpose": "1 smoke test, 1 health check, about 19 browser E2E turns (20 checks; the over-long input makes no call)",
+   "usd_estimate": "< 0.01"
+  }
+ },
+ "evaluation_passes": {
+  "GROQ_MODEL": "40/40 answered, 0 errors, 0 retries, US$0.0144",
+  "GROQ_MODEL_2": "40/40 answered, 0 errors, 0 retries, US$0.0221 (the one recorded 403 is the earlier blocked gate call)"
+ },
+ "dataset": {
+  "name": "remediation held-out v1 (40 questions; 18 public KB 0005, 22 intake KB 0006)",
+  "questions_sha256": "88a0ba05b9b97a917addbc902be8a06a86bfb8eb34b39291604cc78ea1bf2379",
+  "keys_sha256": "2fbe49714f1a64017e0576eb75a01d26ff91f4d039704fdf0722e8603d1d9108",
+  "frozen_inputs": "remediation/experiments/heldout/HO_S_C3_inputs.json",
+  "frozen_inputs_sha256": "21f6f2ce3406f41ecae36e9442951da786c6fb26b7f19cba164ad243e70a59c5",
+  "release_status": "consumed by the pre-registered HO1 evaluation (results published in remediation/REMEDIATION_FINAL_REPORT.md); no longer an unreleased holdout"
+ },
+ "evidence_identity_verified": "evidence_references.json: all 40 app-rebuilt messages byte-identical to the frozen inputs",
+ "history": [
+  {
+   "checked_at": "2026-10-14 (morning)",
+   "status": "BLOCKED - GPT-OSS-120B evaluation not executed",
+   "blocker": {
+    "http_status": 403,
+    "type": "permissions_error",
+    "code": "model_permission_blocked_org",
+    "message": "The model `openai/gpt-oss-120b` is blocked at the organization level. Please have the org admin enable this model in the org settings at https://console.groq.com/settings/limits",
+    "request_ids": [
+     "req_01m4wsa8yce6b9ts0jfqfxs4fg",
+     "req_01m4wsbf1zej8bjqwk7t48e5f3",
+     "req_01m4wsf0zae8sa9ecz1bfdxmgq"
+    ],
+    "resolution": "a Groq organisation admin enables openai/gpt-oss-120b (console.groq.com/settings/limits); no code change needed"
+   }
+  }
+ ],
+ "status": "COMPLETE - both passes run, blind-graded and scored",
+ "completed_at": "2026-10-14",
+ "smoke_test_after_unblock": {
+  "http_status": 200,
+  "returned_model": "openai/gpt-oss-120b",
+  "request_id": "req_01m4wvbqksevnavepgpwby0z4e",
+  "rate_limits": {
+   "requests_per_day": 500000,
+   "tokens_per_minute": 250000
+  }
+ },
+ "results": {
+  "GPT-OSS-20B": {
+   "sufficient": 34,
+   "partial": 6,
+   "insufficient": 0,
+   "critical_claims": 0
+  },
+  "GPT-OSS-120B": {
+   "sufficient": 31,
+   "partial": 9,
+   "insufficient": 0,
+   "critical_claims": 0
+  },
+  "recommendation": "Option A: keep GPT-OSS-20B as the default; GPT-OSS-120B stays optional"
+ }
+}

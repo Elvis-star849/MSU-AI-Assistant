@@ -1,0 +1,70 @@
+{
+ "run_at": "2026-10-14T09:07:28+00:00",
+ "model_env": "GROQ_MODEL",
+ "profile": "c3_public_0005",
+ "question": "When does second-quarter face-to-face tuition run in 2027?",
+ "status": "answered",
+ "http_status": 200,
+ "requested_model": "openai/gpt-oss-20b",
+ "returned_model": "openai/gpt-oss-20b",
+ "finish_reason": "stop",
+ "request_id": "req_01m4wtna82ecatecsavnhnfqqr",
+ "generation_latency_ms": 951.1,
+ "pipeline_latency_ms": 2450.9,
+ "timings_ms": {
+  "retrieval": 1498.6,
+  "generation": 952.2,
+  "total": 2450.9
+ },
+ "usage": {
+  "completion_tokens": 159,
+  "prompt_tokens": 2414,
+  "total_tokens": 2573,
+  "completion_time": 0.160612772,
+  "completion_tokens_details": {
+   "reasoning_tokens": 108
+  },
+  "prompt_time": 0.012806918,
+  "prompt_tokens_details": {
+   "cached_tokens": 2304
+  },
+  "queue_time": 0.017361056,
+  "total_time": 0.17341969
+ },
+ "rate_limit_headers": {
+  "x-ratelimit-limit-requests": "500000",
+  "x-ratelimit-limit-tokens": "250000",
+  "x-ratelimit-remaining-requests": "481530",
+  "x-ratelimit-remaining-tokens": "247424",
+  "x-ratelimit-reset-requests": "53m11.616s",
+  "x-ratelimit-reset-tokens": "618ms",
+  "x-request-id": "req_01m4wtna82ecatecsavnhnfqqr"
+ },
+ "error": null,
+ "answer": "Second‑quarter face‑to‑face tuition in 2027 runs from **12 April 2027 to 21 May 2027** on the Main academic calendar【Evidence 1】.",
+ "citations": [
+  1
+ ],
+ "n_sources": 5,
+ "sources": [
+  "[1] MSU 2027 Road Map p. 1",
+  "[2] MSU 2027 Road Map p. 1",
+  "[3] MSU 2027 Road Map p. 1",
+  "[4] MSU 2027 Road Map p. 1",
+  "[5] MSU 2027 Road Map p. 1"
+ ],
+ "safety_notes": [],
+ "not_found": false,
+ "expected_facts_present": true,
+ "prompt_version": "r-g2-grounding-v1+F2",
+ "settings": {
+  "model": "openai/gpt-oss-20b",
+  "temperature": 0.0,
+  "reasoning_effort": "medium",
+  "max_completion_tokens": 4096,
+  "timeout_s": 60.0,
+  "max_retries": 2,
+  "retry_backoff_s": 1.0
+ },
+ "note": "expected_facts_present recomputed from the saved answer after fixing the check for no-break spaces (no new call)"
+}

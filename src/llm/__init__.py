@@ -1,6 +1,6 @@
 """Stage 7 LLM layer. Application code uses create_client() and the types in src.llm.base, never a provider SDK."""
 from src.llm.base import GenerationSettings, LLMClient, LLMError, LLMResponse, Message
-from src.llm.config import LLMConfig, load_config
+from src.llm.config import LLMConfig, ModelSelectionError, load_config
 
 PROVIDERS = ("groq",)
 
@@ -12,5 +12,5 @@ def create_client(config: LLMConfig, **kwargs) -> LLMClient:
     raise LLMError("configuration", f"unknown LLM provider {config.provider!r}; available: {PROVIDERS}")
 
 
-__all__ = ["GenerationSettings", "LLMClient", "LLMConfig", "LLMError", "LLMResponse", "Message", "PROVIDERS",
+__all__ = ["GenerationSettings", "LLMClient", "LLMConfig", "LLMError", "LLMResponse", "Message", "ModelSelectionError", "PROVIDERS",
            "create_client", "load_config"]

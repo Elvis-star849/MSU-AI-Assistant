@@ -1,0 +1,862 @@
+{
+ "H01-b8e28e": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct: HCSCI137 (Software Engineering), cites the CS table."
+ },
+ "H01-2f0c65": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct: HCSCI137, cites the CS table with page."
+ },
+ "H02-0ec23d": {
+  "correctness": 2,
+  "completeness": 1,
+  "attribution": 1,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Retrieval miss (CS p.898 table not retrieved). Says the documents give no prerequisite for HCSCI237 in CS; consistent with key, cautious, uncited."
+ },
+ "H02-24bb97": {
+  "correctness": 1,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [
+   {
+    "claim": "Reads the cut-off row 'IoT and Cloud Systems Engineering (HCSCI237)' (p.899) as HCSCI237 being listed without a prerequisite; HCSCI237 there is HCSE433's prerequisite",
+    "severity": "minor"
+   }
+  ],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "partially_sufficient",
+  "notes": "Retrieval miss; conclusion matches key but rests on a misread table row (same convention as HO1)."
+ },
+ "H03-0a3665": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct: HCSCI237."
+ },
+ "H03-25817b": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct: HCSCI237."
+ },
+ "H04-060d21": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct: no prerequisite listed."
+ },
+ "H04-c14570": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct: no prerequisite listed; synopsis citation accurate."
+ },
+ "H05-c1d3fc": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct: none listed (two tables)."
+ },
+ "H05-4c11e5": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [
+   {
+    "claim": "Calls the tables 'the 2027 MSU yearbook'; the yearbook is not dated in the passages",
+    "severity": "minor"
+   }
+  ],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "partially_sufficient",
+  "notes": "Correct; invented date (HO1 convention: minor)."
+ },
+ "H06-732d22": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "sufficient",
+  "notes": "Both advert routes kept separate; yearbook attributed as older. Mentions 'the developer instructions' (clarity only)."
+ },
+ "H06-43dcf7": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "sufficient",
+  "notes": "Both routes separate; yearbook attributed as older/superseded."
+ },
+ "H07-451986": {
+  "correctness": 2,
+  "completeness": 0,
+  "attribution": 1,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "partially_sufficient",
+  "notes": "Retrieval partial miss: the 3-year weekend-school record (MSU-JF2027-207) is absent from evidence and answer. Yearbook 3-year special/mature duration cited by evidence number but not identified as older yearbook information."
+ },
+ "H07-c39a69": {
+  "correctness": 2,
+  "completeness": 0,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "partially_sufficient",
+  "notes": "Retrieval partial miss: weekend-school route absent. Advert 4-year conventional route correct; yearbook durations attributed as older."
+ },
+ "H08-b2bca9": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct weekend-school record plus the general advert requirement; no yearbook rule added."
+ },
+ "H08-1fa09c": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "sufficient",
+  "notes": "Correct weekend-school record; yearbook all-pathways rule mentioned with attribution and the advert stated as current (not appended as a requirement)."
+ },
+ "H09-132668": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [
+   {
+    "claim": "Describes the conventional route as a 'full-time programme'; the advert does not say full-time",
+    "severity": "minor"
+   }
+  ],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "partially_sufficient",
+  "notes": "All three routes correct and separate; small invented descriptor."
+ },
+ "H09-a1782e": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "sufficient",
+  "notes": "All three routes correct and separate; yearbook 5 years attributed as older."
+ },
+ "H10-d36225": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct 3-year weekend record."
+ },
+ "H10-5b039a": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct 3-year record (harmless paraphrase of 'above disciplines')."
+ },
+ "H11-a413b7": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [
+   {
+    "claim": "Labels the Gweru Conventional route '(full-time)'; not stated in the advert",
+    "severity": "minor"
+   }
+  ],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "partially_sufficient",
+  "notes": "Both routes, durations and starts correct, January basis given; small invented descriptor."
+ },
+ "H11-3dd76b": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "sufficient",
+  "notes": "Both routes, durations and starts correct."
+ },
+ "H12-af0bf1": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "sufficient",
+  "notes": "Block Release 2 years correct; Gweru Block Release mode not named; yearbook 4 years attributed as historical. (HO1 convention: the advertised duration alone earns full completeness.)"
+ },
+ "H12-a28738": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [
+   {
+    "claim": "Treats the yearbook 'Bachelor of Education Dual Honours in Science' (4 years) as the same programme",
+    "severity": "minor"
+   }
+  ],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "partially_sufficient",
+  "notes": "Advert duration correct and current; unsupported identity claim for the differently titled yearbook programme (HO1 convention: minor)."
+ },
+ "H13-3e63ec": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [
+   {
+    "claim": "Assigns the 4 years to 'the conventional (full-time) route'; the advert only prints '4 years' and never says full-time",
+    "severity": "minor"
+   }
+  ],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "partially_sufficient",
+  "notes": "Both durations and all modes given; small unsupported route mapping."
+ },
+ "H13-eb2d08": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Both durations exactly as advertised; modes not listed. (HO1 convention: the advertised duration alone earns full completeness.)"
+ },
+ "H14-76fdeb": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "1.5 years (Block Release) correct, advert and yearbook agree; modes not listed. (HO1 convention: the advertised duration alone earns full completeness.)"
+ },
+ "H14-10a5fb": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "1.5 years correct, both sources cited; modes not listed. (HO1 convention: the advertised duration alone earns full completeness.)"
+ },
+ "H15-1f4f3f": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [
+   {
+    "claim": "Assigns the 4 years to the conventional and visiting modes; the advert does not map durations to modes",
+    "severity": "minor"
+   }
+  ],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "partially_sufficient",
+  "notes": "Both durations correct; unsupported duration-to-mode mapping; refers to 'the developer instruction'."
+ },
+ "H15-1f308b": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "sufficient",
+  "notes": "Both durations as advertised; modes not listed; yearbook agreement attributed. (HO1 convention: the advertised duration alone earns full completeness.)"
+ },
+ "H16-d7d74a": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Block Release 2 years as advertised; modes not listed. (HO1 convention: the advertised duration alone earns full completeness.)"
+ },
+ "H16-c3b40f": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "2 years on Block Release as advertised; modes not listed. (HO1 convention: the advertised duration alone earns full completeness.)"
+ },
+ "H17-2236aa": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "appropriate",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correctly says no commencement date is stated; no month inferred."
+ },
+ "H17-ed03f0": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "appropriate",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correctly says no commencement date is stated; no month inferred."
+ },
+ "H18-8ab4f4": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "appropriate",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correctly says no commencement date is stated."
+ },
+ "H18-ed57df": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "appropriate",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correctly says no commencement date is stated; mentions the intake label without inferring a month."
+ },
+ "H19-276764": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "January 2027 with the faculty-default basis."
+ },
+ "H19-6efde8": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "January 2027 with the faculty-default basis."
+ },
+ "H20-a15e00": {
+  "correctness": 1,
+  "completeness": 1,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "partially_sufficient",
+  "notes": "Correct month; faculty-default basis not given (key requires it; HO1 convention c1/comp1)."
+ },
+ "H20-09c6fd": {
+  "correctness": 1,
+  "completeness": 1,
+  "attribution": 2,
+  "unsupported_claims": [
+   {
+    "claim": "Adds '(the main academic calendar)'; the advert says nothing about an academic calendar",
+    "severity": "minor"
+   }
+  ],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "partially_sufficient",
+  "notes": "Correct month; basis not given; small unsupported addition."
+ },
+ "H21-b7b04d": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "August 2027 with the faculty note."
+ },
+ "H21-b4f949": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "August 2027."
+ },
+ "H22-622aa8": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "sufficient",
+  "notes": "Advert 2.2 as current, yearbook 2.1 as older; 'Psychology' completes the truncated yearbook line (continued in Evidence 3)."
+ },
+ "H22-667759": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "sufficient",
+  "notes": "Advert 2.2 as current, yearbook 2.1 attributed and the difference stated; notes the truncation."
+ },
+ "H23-68087f": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [
+   {
+    "claim": "Frames the yearbook passages as 'earlier/alternative wording and an additional special-entry option' alongside the 2027 advert (yearbook presented as a possibly still-applicable alternative)",
+    "severity": "minor"
+   }
+  ],
+  "refusal": "n.a.",
+  "conflict": "partly",
+  "overall": "partially_sufficient",
+  "notes": "Advert requirement correct and called current; yearbook framed as an alternative (HO1 recurrent minor). Also says 'documents you provided' (corrected by the app's wording fix)."
+ },
+ "H23-0b4fc2": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 1,
+  "unsupported_claims": [
+   {
+    "claim": "Says the yearbook requirement appears 'again in Evidence 4'; Evidence 4 contains only the special-entry line",
+    "severity": "minor"
+   }
+  ],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "partially_sufficient",
+  "notes": "Advert current, yearbook older, difference stated; the only numeric citation (Evidence 4) does not hold the cited requirement."
+ },
+ "H24-6dc704": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [
+   {
+    "claim": "States both documents require the O-level English and Mathematics conditions; the advert record requires English only (its faculty note says Maths is required for 'some programmes')",
+    "severity": "minor"
+   }
+  ],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "partially_sufficient",
+  "notes": "Advert current, yearbook older, differences stated; one overstatement about advert O-level Maths."
+ },
+ "H24-98137a": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "sufficient",
+  "notes": "Advert current; yearbook normal and mature entry attributed and explicitly not the current requirement."
+ },
+ "H25-044a2d": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [
+   {
+    "claim": "Says the 2027 advert does not mention the need for an Honours degree; the advert requires a special Honours or certificate in Monitoring and Evaluation",
+    "severity": "minor"
+   }
+  ],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "partially_sufficient",
+  "notes": "Advert requirement correct and current; difference partly misstated; refers to 'rule 9' and 'documents you provided'."
+ },
+ "H25-558d1b": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "handled",
+  "overall": "sufficient",
+  "notes": "Advert current, yearbook older, shown side by side with labels."
+ },
+ "H26-b60139": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct dates and calendar."
+ },
+ "H26-743fa2": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct dates and calendar."
+ },
+ "H27-b7ef12": {
+  "correctness": 2,
+  "completeness": 1,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct dates; calendar not named."
+ },
+ "H27-b86101": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct dates and calendar."
+ },
+ "H28-7fc3d6": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct block (5-23 April 2027), Faculty of Education block release."
+ },
+ "H28-0c718b": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct block (5-23 April 2027), Faculty of Education block release."
+ },
+ "H29-b84a13": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct dates (13 Aug - 3 Sep 2027) for Faculty of Education block release."
+ },
+ "H29-f0187f": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct dates and calendar."
+ },
+ "H30-fb48b2": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "1.5 years from the MPSA regulation (not the neighbouring BS17 duration)."
+ },
+ "H30-a612f7": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "1.5 years from the MPSA regulation."
+ },
+ "H31-e01aec": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "18 months, block release."
+ },
+ "H31-b2aa78": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "18 months, block release."
+ },
+ "H32-4e31f6": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Normal entry 2.1 and lower-class route with two years' experience."
+ },
+ "H32-ef0362": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Normal entry 2.1 and lower-class route with two years' experience."
+ },
+ "H33-168728": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct (first or upper second; listed fields)."
+ },
+ "H33-b93d44": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct (first or upper second; listed fields)."
+ },
+ "H34-a86589": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct; cites Evidence 1."
+ },
+ "H34-20d045": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 1,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Correct; attributed by document name and page only, no evidence number (the app would show its no-citation note)."
+ },
+ "H35-d035be": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "4 years full-time, correctly cited."
+ },
+ "H35-f2cd6f": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "4 years full-time, correctly cited."
+ },
+ "H36-6197a4": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "4 years and 8 semesters, both cited (two-per-year is arithmetic from the two passages)."
+ },
+ "H36-6095c2": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "n.a.",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "8 semesters / 4 years, both cited."
+ },
+ "H37-4bb0d7": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "appropriate",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Declines correctly; says 'documents you provided' (corrected by the app's wording fix)."
+ },
+ "H37-b92402": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "appropriate",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Declines correctly."
+ },
+ "H38-e15659": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "appropriate",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Declines correctly; no loosely related passage cited."
+ },
+ "H38-4d6292": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "appropriate",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Declines correctly; no loosely related passage cited."
+ },
+ "H39-4a8863": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "appropriate",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Declines correctly; no loosely related passage cited."
+ },
+ "H39-9ef01e": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "appropriate",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Declines correctly; no loosely related passage cited."
+ },
+ "H40-1bc980": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "appropriate",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Declines correctly; no loosely related passage cited."
+ },
+ "H40-439e24": {
+  "correctness": 2,
+  "completeness": 2,
+  "attribution": 2,
+  "unsupported_claims": [],
+  "refusal": "appropriate",
+  "conflict": "n.a.",
+  "overall": "sufficient",
+  "notes": "Declines correctly; no loosely related passage cited."
+ }
+}

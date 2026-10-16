@@ -1,0 +1,6099 @@
+{
+ "meta": {
+  "title": "MSU admissions eligibility rules, January/February 2027 intake (undergraduate and diploma)",
+  "built": "2026-10-14",
+  "source": "MSU January/February 2027 intake advert (entry requirements) and the A Level grade scale supplied for this project",
+  "grade_scale": {
+   "A": 5,
+   "B": 4,
+   "C": 3,
+   "D": 2,
+   "E": 1,
+   "F": 0,
+   "O": 0
+  },
+  "pass_grades": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "o_level_basis": "The advert's general requirement: at least 5 O Level passes at grade C or better, including English Language. Programme-specific subjects and grades are added from each programme's text.",
+  "assumptions": [
+   "Subject categories (science, commercial, arts) are an assumption in this file and must be confirmed by the Admissions Office.",
+   "Rules are modelled on the main A Level route. Diploma, certificate, employment and mature-entry routes are kept as advertised text and are not decided by grades.",
+   "MSU publishes no cut-off points; only Actuarial Science states a points rule (10 points).",
+   "Meeting the rules does not guarantee a place. Admission is decided by the Admissions Office."
+  ],
+  "version": "2027-jf-v2-corrected",
+  "corrections": {
+   "supplied_file_sha256": "3ffb21c60db1dce19cfee09f000cfe7116d518f27df76eb87f0d4526ef4afa7a",
+   "corrections_file": "evaluation/eligibility_audit/corrections.json",
+   "applied": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  }
+ },
+ "taxonomy": {
+  "Mathematics": [
+   "SCI"
+  ],
+  "Further Mathematics": [
+   "SCI"
+  ],
+  "Statistics": [
+   "SCI"
+  ],
+  "Physics": [
+   "SCI"
+  ],
+  "Chemistry": [
+   "SCI"
+  ],
+  "Biology": [
+   "SCI"
+  ],
+  "Botany": [
+   "SCI"
+  ],
+  "Zoology": [
+   "SCI"
+  ],
+  "Agriculture": [
+   "SCI"
+  ],
+  "Food Science": [
+   "SCI"
+  ],
+  "Computer Science": [
+   "SCI"
+  ],
+  "Software Engineering": [
+   "SCI"
+  ],
+  "Accounting": [
+   "COM"
+  ],
+  "Economics": [
+   "COM"
+  ],
+  "Business Studies": [
+   "COM"
+  ],
+  "Management of Business": [
+   "COM"
+  ],
+  "Business Enterprise Skills": [
+   "COM"
+  ],
+  "History": [
+   "ARTS"
+  ],
+  "Literature in English": [
+   "ARTS",
+   "LANG"
+  ],
+  "Shona": [
+   "ARTS",
+   "LANG"
+  ],
+  "Ndebele": [
+   "ARTS",
+   "LANG"
+  ],
+  "Divinity": [
+   "ARTS"
+  ],
+  "Religious Studies": [
+   "ARTS"
+  ],
+  "Family and Religious Studies": [
+   "ARTS"
+  ],
+  "Sociology": [
+   "ARTS"
+  ],
+  "Geography": [
+   "ARTS",
+   "SCI"
+  ],
+  "Art": [
+   "ARTS"
+  ],
+  "Music": [
+   "ARTS"
+  ],
+  "Theatre Arts": [
+   "ARTS"
+  ],
+  "Heritage Studies": [
+   "ARTS"
+  ],
+  "French": [
+   "ARTS",
+   "LANG"
+  ],
+  "Portuguese": [
+   "ARTS",
+   "LANG"
+  ],
+  "Tonga": [
+   "ARTS",
+   "LANG"
+  ],
+  "Kalanga": [
+   "ARTS",
+   "LANG"
+  ],
+  "Venda": [
+   "ARTS",
+   "LANG"
+  ],
+  "Nambya": [
+   "ARTS",
+   "LANG"
+  ],
+  "Sotho": [
+   "ARTS",
+   "LANG"
+  ],
+  "Chewa": [
+   "ARTS",
+   "LANG"
+  ],
+  "Tswana": [
+   "ARTS",
+   "LANG"
+  ],
+  "Xhosa": [
+   "ARTS",
+   "LANG"
+  ],
+  "Shangani": [
+   "ARTS",
+   "LANG"
+  ],
+  "Design and Technology": [],
+  "Metal Technology and Design": [],
+  "Wood Technology and Design": [],
+  "Engineering Drawing": []
+ },
+ "aliases": {
+  "maths": "Mathematics",
+  "math": "Mathematics",
+  "mathematics": "Mathematics",
+  "computer studies": "Computer Science",
+  "computer science": "Computer Science",
+  "cs": "Computer Science",
+  "comp sci": "Computer Science",
+  "lit": "Literature in English",
+  "literature": "Literature in English",
+  "english literature": "Literature in English",
+  "literature in english": "Literature in English",
+  "accounts": "Accounting",
+  "accounting": "Accounting",
+  "business": "Business Studies",
+  "business studies": "Business Studies",
+  "management of business": "Management of Business",
+  "mob": "Management of Business",
+  "religious studies": "Religious Studies",
+  "frs": "Family and Religious Studies",
+  "family and religious studies": "Family and Religious Studies",
+  "divinity": "Divinity",
+  "agric": "Agriculture",
+  "bio": "Biology",
+  "chem": "Chemistry",
+  "phys": "Physics",
+  "econ": "Economics",
+  "economics": "Economics",
+  "geo": "Geography",
+  "food science": "Food Science",
+  "statistics": "Statistics"
+ },
+ "programmes": [
+  {
+   "id": "MSU-JF2027-001",
+   "programme": "Bachelor of Science Honours Degree in Agricultural Economics and Development",
+   "faculty": "Faculty of Agriculture, Environment and Natural Resources Management",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two A level passes in Sciences or Commercial subjects preferably Agriculture, Mathematics, Economics, Management of Business, Sociology, Accounts, Geography and Biology"
+   ],
+   "faculty_note": "(‘O’ Level Maths required for all programmes)",
+   "source_page": 1,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "SCI",
+       "COM"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "SCI",
+       "COM"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Preferred (not required): Agriculture, Mathematics, Economics, Management of Business, Sociology, Accounts, Geography, Biology."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-002",
+   "programme": "Bachelor of Science Honours Degree in Agricultural Value Chain and Marketing",
+   "faculty": "Faculty of Agriculture, Environment and Natural Resources Management",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two A level passes in Sciences or Commercial subjects, preferably Agriculture, Mathematics, Economics, Management of Business, Sociology, Accounts, Geography and Biology"
+   ],
+   "faculty_note": "(‘O’ Level Maths required for all programmes)",
+   "source_page": 1,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "SCI",
+       "COM"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "SCI",
+       "COM"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Preferred (not required): Agriculture, Mathematics, Economics, Management of Business, Sociology, Accounts, Geography, Biology."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-003",
+   "programme": "Bachelor of Science Honours Degree in Agricultural Economics",
+   "faculty": "Faculty of Agriculture, Environment and Natural Resources Management",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Visiting"
+   ],
+   "requirements_as_advertised": [
+    "The applicant should either have a Diploma in Agriculture or other relevant Tertiary qualification from any college recognised by MSU."
+   ],
+   "faculty_note": "(‘O’ Level Maths required for all programmes)",
+   "source_page": 1,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-006",
+   "programme": "Bachelor of Science Honours Degree in Agronomy",
+   "faculty": "Faculty of Agriculture, Environment and Natural Resources Management",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two A level passes preferably Biology/ Agriculture and any Sciences"
+   ],
+   "faculty_note": "(‘O’ Level Maths required for all programmes)",
+   "source_page": 2,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "'preferably Biology/Agriculture and any Sciences' is treated as a preference, not a rule."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-007",
+   "programme": "Bachelor of Science Honours Degree in Crop Science",
+   "faculty": "Faculty of Agriculture, Environment and Natural Resources Management",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Visiting"
+   ],
+   "requirements_as_advertised": [
+    "The applicant should either have a Diploma in Agriculture or other relevant Tertiary qualification from any college recognised by MSU."
+   ],
+   "faculty_note": "(‘O’ Level Maths required for all programmes)",
+   "source_page": 2,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-012",
+   "programme": "Bachelor of Science Honours Degree in Animal and Wildlife Sciences",
+   "faculty": "Faculty of Agriculture, Environment and Natural Resources Management",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two A level passes preferably Biology/ Agriculture and any Sciences"
+   ],
+   "faculty_note": "(‘O’ Level Maths required for all programmes)",
+   "source_page": 3,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "'preferably Biology/Agriculture and any Sciences' is treated as a preference, not a rule."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-013",
+   "programme": "Bachelor of Science Honours Degree in Fisheries and Aquaculture Sciences",
+   "faculty": "Faculty of Agriculture, Environment and Natural Resources Management",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any 2 ‘A’ Level subjects with at least one science subject from the following: Biology, Chemistry, Physics, Agriculture, Botany, Zoology and Mathematics."
+   ],
+   "faculty_note": "(‘O’ Level Maths required for all programmes)",
+   "source_page": 3,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Biology",
+       "Chemistry",
+       "Physics",
+       "Agriculture",
+       "Botany",
+       "Zoology",
+       "Mathematics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-014",
+   "programme": "Bachelor of Science Honours Degree in Animal Science",
+   "faculty": "Faculty of Agriculture, Environment and Natural Resources Management",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Visiting"
+   ],
+   "requirements_as_advertised": [
+    "The applicant should either have a Diploma in Agriculture or other relevant Tertiary qualification from any college recognised by MSU."
+   ],
+   "faculty_note": "(‘O’ Level Maths required for all programmes)",
+   "source_page": 3,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-016",
+   "programme": "Bachelor of Science Honours Degree in Environmental Science and Technology",
+   "faculty": "Faculty of Agriculture, Environment and Natural Resources Management",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two A level passes preferably Biology/Agriculture;",
+    "Mathematics/Physics and or Chemistry, Geography, Engineering Drawing"
+   ],
+   "faculty_note": "(‘O’ Level Maths required for all programmes)",
+   "source_page": 3,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Subjects after 'preferably' are treated as a preference, not a rule."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-017",
+   "programme": "Bachelor of Science Honours Degree in Water and Sanitation Technology",
+   "faculty": "Faculty of Agriculture, Environment and Natural Resources Management",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years 3 years Visiting",
+   "modes": [
+    "Gweru Conventional",
+    "Gweru Visiting"
+   ],
+   "requirements_as_advertised": [
+    "Any two A level passes preferably Biology/ Agriculture and any Sciences"
+   ],
+   "faculty_note": "(‘O’ Level Maths required for all programmes)",
+   "source_page": 3,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "'preferably Biology/Agriculture and any Sciences' is treated as a preference, not a rule."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-018",
+   "programme": "Bachelor of Science Honours Degree in Land and Water Resources Management",
+   "faculty": "Faculty of Agriculture, Environment and Natural Resources Management",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Visiting"
+   ],
+   "requirements_as_advertised": [
+    "The applicant should either have a Diploma in Agriculture or other relevant Tertiary qualification from any college recognised by MSU."
+   ],
+   "faculty_note": "(‘O’ Level Maths required for all programmes)",
+   "source_page": 3,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-020",
+   "programme": "Bachelor of Arts Honours Degree in Development Studies",
+   "faculty": "Faculty of Arts and Humanities",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Zvishavane Conventional",
+    "Zvishavane Visiting",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional",
+    "Harare Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes in Arts, Humanities and Social Sciences subjects"
+   ],
+   "faculty_note": "",
+   "source_page": 4,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-022",
+   "programme": "Bachelor of Arts Honours Degree in Records and Archives Management",
+   "faculty": "Faculty of Arts and Humanities",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two A Level passes, or Diploma in Records and Archives Management."
+   ],
+   "faculty_note": "",
+   "source_page": 4,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-023",
+   "programme": "Bachelor of Arts Honours Degree in History and International Studies",
+   "faculty": "Faculty of Arts and Humanities",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years, 3 years Visiting/ Weekend School",
+   "modes": [
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional",
+    "Zvishavane Conventional"
+   ],
+   "requirements_as_advertised": [
+    "A pass in ‘A’ Level History and any other pass in Arts, Humanities or Social Sciences"
+   ],
+   "faculty_note": "",
+   "source_page": 4,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "History"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-024",
+   "programme": "Bachelor of Arts Honours Degree in English and Communication",
+   "faculty": "Faculty of Arts and Humanities",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years -3 years Visiting/ Weekend School",
+   "modes": [
+    "Zvishavane Conventional",
+    "Zvishavane Visiting",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional"
+   ],
+   "requirements_as_advertised": [
+    "At least five ‘O’ Level passes or the equivalent, including English language.",
+    "At least two ‘A’ Level passes in Arts and Humanities preferably Literature in English and any other, for example, Shona, Ndebele, History, Divinity, Geography or Sociology"
+   ],
+   "faculty_note": "",
+   "source_page": 4,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Preferred (not required): Literature in English."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-025",
+   "programme": "Bachelor of Arts Honours Degree in African Languages and Culture",
+   "faculty": "Faculty of Arts and Humanities",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years -3 years Visiting/ Weekend School",
+   "modes": [
+    "Zvishavane Conventional",
+    "Zvishavane Visiting",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional"
+   ],
+   "requirements_as_advertised": [
+    "At least five ‘O’ Level passes or the equivalent, including English language, and an African language.",
+    "At least two ‘A’ Level passes preferably in Arts and Humanities for example any African language, Literature in English, History, Divinity, Geography, Sociology among others"
+   ],
+   "faculty_note": "",
+   "source_page": 4,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "African language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Preferred (not required): an African language, Literature in English, History, Divinity, Geography, Sociology."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-026",
+   "programme": "Bachelor of Arts Honours Degree in Language and Cultural Studies",
+   "faculty": "Faculty of Arts and Humanities",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years 3 years Visiting/ Weekend School",
+   "modes": [
+    "Zvishavane Conventional",
+    "Zvishavane Visiting",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional"
+   ],
+   "requirements_as_advertised": [
+    "At least five O-level passes including English Language.",
+    "Any two ‘A’ Level passes in Arts, Humanities and Social Sciences subjects for example any African language, Literature in English, History, Divinity, Geography, Sociology among others. Mature entry from 23 years for female students and 25 years male."
+   ],
+   "faculty_note": "",
+   "source_page": 4,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Any two ‘A’ Level passes in Arts, Humanities and Social Sciences subjects for example any African language, Literature in English, History, Divinity, Geography, Sociology among others. Mature entry from 23 years for female students and 25 years male."
+   ],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-027",
+   "programme": "Bachelor of Arts Honours Degree in Translation and Intercultural Communication",
+   "faculty": "Faculty of Arts and Humanities",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years -3 years Visiting/ Weekend School",
+   "modes": [
+    "Zvishavane Conventional",
+    "Zvishavane Visiting",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional"
+   ],
+   "requirements_as_advertised": [
+    "At least five O-Level passes, including English language. Two A-Level passes, including any Language with a grade E or better.",
+    "Mature entry from 23 years for female students and 25 years male."
+   ],
+   "faculty_note": "",
+   "source_page": 5,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "LANG"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature entry from 23 years for female students and 25 years male."
+   ],
+   "modelling_notes": [
+    "Advert says 'any Language with a grade E or better'; E is a pass, so no extra grade condition is applied."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-028",
+   "programme": "Bachelor of Arts Honours Degree in Religion and Human Development",
+   "faculty": "Faculty of Arts and Humanities",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Zvishavane Conventional",
+    "Zvishavane Visiting",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Family and Religious Studies/ Religious Studies/Divinity and any Level passing Arts, Humanities and Social Sciences OR a diploma in Religious Studies/ Theology from a reputable Institution."
+   ],
+   "faculty_note": "",
+   "source_page": 5,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Family and Religious Studies",
+       "Religious Studies",
+       "Divinity"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Also accepts a diploma in Religious Studies or Theology (other route)."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-029",
+   "programme": "Bachelor of Arts Honours Degree in Film and Theatre Arts",
+   "faculty": "Faculty of Arts and Humanities",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Zvishavane Conventional",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional",
+    "Zvishavane Visiting"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes",
+    "Mature entry for Harare and Bulawayo Weekend School: 23 years for female students and 25 years for male students. Have five 5 ‘O’ Level passes including English Language and be employed in a related profession. Submit confirmation of employment"
+   ],
+   "faculty_note": "",
+   "source_page": 5,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature entry for Harare and Bulawayo Weekend School: 23 years for female students and 25 years for male students. Have five 5 ‘O’ Level passes including English Language and be employed in a related profession. Submit confirmation of employment"
+   ],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-030",
+   "programme": "Bachelor of Arts Honours Degree in Multi-Media Graphic Design and Editing",
+   "faculty": "Faculty of Arts and Humanities",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Zvishavane Conventional",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional",
+    "Harare Weekend School",
+    "Zvishavane Visiting"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes",
+    "Mature entry for Harare and Bulawayo Weekend School: 23 years for female students and 25 years for male students. Have five 5 ‘O’ Level passes including English Language and be employed in a related profession. Submit confirmation of employment"
+   ],
+   "faculty_note": "",
+   "source_page": 5,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature entry for Harare and Bulawayo Weekend School: 23 years for female students and 25 years for male students. Have five 5 ‘O’ Level passes including English Language and be employed in a related profession. Submit confirmation of employment"
+   ],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-031",
+   "programme": "Bachelor of Arts Honours in Radio, Television and Multimedia Production",
+   "faculty": "Faculty of Arts and Humanities",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years.",
+   "modes": [
+    "Zvishavane Conventional",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional",
+    "Zvishavane Visiting"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes",
+    "Mature entry for Harare and Bulawayo Weekend School: 23 years for female students and 25 years for male students. Have five 5 ‘O’ Level passes including English Language and be employed in a related profession. Submit confirmation of employment"
+   ],
+   "faculty_note": "",
+   "source_page": 5,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature entry for Harare and Bulawayo Weekend School: 23 years for female students and 25 years for male students. Have five 5 ‘O’ Level passes including English Language and be employed in a related profession. Submit confirmation of employment"
+   ],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-032",
+   "programme": "Bachelor of Arts Honours Degree in Journalism and Digital Media Studies",
+   "faculty": "Faculty of Arts and Humanities",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Zvishavane Conventional",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional",
+    "Zvishavane Visiting"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes",
+    "Mature entry for Harare and Bulawayo Weekend School: 23 years for female students and 25 years for male students. Have five 5 ‘O’ Level passes including English Language and be employed in a related profession. Submit confirmation of employment"
+   ],
+   "faculty_note": "",
+   "source_page": 5,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature entry for Harare and Bulawayo Weekend School: 23 years for female students and 25 years for male students. Have five 5 ‘O’ Level passes including English Language and be employed in a related profession. Submit confirmation of employment"
+   ],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-033",
+   "programme": "Bachelor of Arts Honours Degree in Archaeology, Cultural Heritage and Museum Studies",
+   "faculty": "Faculty of Arts and Humanities",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes"
+   ],
+   "faculty_note": "",
+   "source_page": 5,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-052",
+   "programme": "Bachelor of Science Honours degree in Surveying and Geomatics",
+   "faculty": "Faculty of Built Environment, Art and Design",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "5years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Minimum 5 “O” Levels including Mathematics, Geography and English, Advanced Level passes in Mathematics and Physics, and any other Science subject"
+   ],
+   "faculty_note": "(‘O’ level Maths required for all programmes)",
+   "source_page": 8,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Physics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "SCI"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null,
+     "Geography": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "'any other Science subject' is interpreted as any science subject."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-053",
+   "programme": "Bachelor of Science Honours degree in Geomatics specializing in Geographical Information Science",
+   "faculty": "Faculty of Built Environment, Art and Design",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Minimum 5 “O” Levels including Mathematics, Geography and English, Minimum of 2 “A” level passes in Mathematics and Physics"
+   ],
+   "faculty_note": "(‘O’ level Maths required for all programmes)",
+   "source_page": 8,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Physics"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null,
+     "Geography": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-054",
+   "programme": "Bachelor of Commerce Honours Degree in Applied Accounting",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years 3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Gweru Visiting",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional"
+   ],
+   "requirements_as_advertised": [
+    "A’ Level Accounting plus any two Commercial subject. Pass in ‘O’ Level Mathematics must be at least a C or better.",
+    "A National Diploma / HND (complete qualification) in Accounting or any equivalent tertiary qualification or:",
+    "Complete CIS, CIMA, ACCA or:",
+    "At least two (2) passes in relevant ‘A’ Level subjects and:",
+    "Confirmation of employment in relevant accounting departments."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 8,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Accounting"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "COM"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "COM"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": "C"
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Advert says 'A Level Accounting plus any two Commercial subject'; modelled as Accounting plus two commercial subjects."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-055",
+   "programme": "Bachelor of Commerce Honours Degree in Audit and Risk Management",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years 3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Gweru Visiting",
+    "Harare Weekend school",
+    "Bulawayo Conventional",
+    "Bulawayo Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Any two A' Level Commercial subjects. Pass in ‘O’ Level Mathematics must be at least a C or better.",
+    "A National Diploma in Auditing, Accounting, Risk Management or any other relevant qualification or:",
+    "At least two passes in any relevant ‘A’ Level subjects and:",
+    "Confirmation of employment."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 8,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "COM"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "COM"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": "C"
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-056",
+   "programme": "Bachelor of Commerce Honours Degree in Business Management",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years -3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Gweru Visiting",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level Commercial subjects.",
+    "ND/HND in Business Studies, Accountancy, Purchasing, Banking and Finance and Secretarial Studies or any other relevant Qualification or:",
+    "Two passes in relevant ‘A’ Level subjects and:",
+    "Confirmation of employment."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 8,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "COM"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "COM"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-057",
+   "programme": "Bachelor of Commerce in Business Healthcare Management",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years -3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Gweru Visiting"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level Commercial subjects.",
+    "Diploma (Institute of Bankers), ND in Business Studies, Accountancy, Purchasing, Diploma in Education, Diploma in Nursing, Medical Sales & Marketing, Pharmacy Technician/technology, Clinical Nursing, Nursing Administration, Diploma in Marketing, Diploma in Monitoring and Evaluation, and any other relevant tertiary qualifications approved by the department or passes in relevant ‘A’ Level subjects and proof of employment."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 9,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "COM"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "COM"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-058",
+   "programme": "Bachelor of Commerce Honours Degree in Entrepreneurship",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years 3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Gweru Visiting",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional"
+   ],
+   "requirements_as_advertised": [
+    "At least two passes at Advanced Level ('A' Level) in any A’ Level subjects. A Diploma from the Institute of Bankers; National Diploma (ND) in Business Studies, Accountancy, or Purchasing;",
+    "Diploma in Education; Institute of Administration and Commerce (IAC) qualification; Institute of Personnel Management of Zimbabwe (IPMZ) qualification; Diploma in Business Administration (ZIM); Diploma in Marketing; or any other relevant tertiary qualification deemed equivalent.",
+    "Mature Entry-Persons who are at least 25 years of age for males and 23 years for females on the first day of the academic year in which admission is sought and who are not eligible for entry under the Normal or Special Entry Regulations may apply for Mature Entry provided that: applicants must have passed at least five approved ‘O’ Level subjects including English Language and Mathematics (where required) or equivalents, and must have demonstrated potential suitability for University studies by virtue of their attainments and/or relevant work experience.\"",
+    "Special Entry-This pathway applies to students wishing to transfer from other universities while enrolled in a Business Management-related degree programme. Such applicants shall be assessed on a case-by-case basis in accordance with the University's transfer policy."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 9,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature Entry-Persons who are at least 25 years of age for males and 23 years for females on the first day of the academic year in which admission is sought and who are not eligible for entry under the Normal or Special Entry Regulations may apply for Mature Entry provided that: applicants must have passed at least five approved ‘O’ Level subjects including English Language and Mathematics (where required) or equivalents, and must have demonstrated potential suitability for University studies by virtue of their attainments and/or relevant work experience.\""
+   ],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-059",
+   "programme": "Bachelor of Commerce Honours Degree in Consumer and Marketing Intelligence",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years 3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Gweru Visiting",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes in any subjects ND/HND in Marketing Management, or any other relevant qualification or:",
+    "At least two ‘A’ Level passes in any subjects and:",
+    "Confirmation of employment."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 10,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-060",
+   "programme": "Bachelor of Commerce Honours Degree in Marketing Management",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years 3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Gweru Visiting",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes.",
+    "Pass in ‘O’ Level Mathematics must be at least a B.",
+    "ND/HND in Marketing Management, or any other relevant qualification or:",
+    "At least two ‘A’ Level passes in any subjects and:",
+    "Confirmation of employment."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 10,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": "B"
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-061",
+   "programme": "Bachelor of Commerce Honours Degree in Data Science and Informatics",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 Years 3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Gweru Visiting",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Bulawayo Conventional"
+   ],
+   "requirements_as_advertised": [
+    "A pass in ‘A’ Level Mathematics or Statistics and any other A’level subject ND/HND in an Information Technology related field or any other relevant qualification or:",
+    "Confirmation of employment in the field of IT."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 10,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics",
+       "Statistics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-062",
+   "programme": "Bachelor of Commerce Honours Degree in Economics and Econometric Modelling",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years 3 Years for Visiting",
+   "modes": [
+    "Gweru Conventional",
+    "Bulawayo Conventional",
+    "Gweru Visiting",
+    "Harare Weekend School",
+    "Bulawayo Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level Commercial, Sciences or Arts subjects.",
+    "Pass in ‘O’ Level Mathematics must be at least a C or better ND/HND in a Business-related field or any other relevant qualification or:",
+    "At least two passes in relevant ‘A’ Level subjects and at least a ‘C’or better pass in ‘O’ level Mathematics and:",
+    "Confirmation of employment."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 10,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": "C"
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-063",
+   "programme": "Bachelor of Commerce Honours Degree in Finance and Digital Banking",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years 3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Bulawayo Conventional",
+    "Gweru Visiting",
+    "Harare Weekend School",
+    "Bulawayo Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level Commercial subjects. Pass in Mathematics must be at least a C or better.",
+    "ND/HND in Banking and Finance related field or any other relevant qualification or:",
+    "At least two passes in relevant ‘A’ Level subject and:",
+    "Confirmation of employment."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 10,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "COM"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "COM"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": "C"
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-064",
+   "programme": "Bachelor of Commerce Honours Degree in Financial Economics and Investment",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years 3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Bulawayo Conventional",
+    "Gweru Block Release",
+    "Harare Weekend School",
+    "Bulawayo Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Two ‘A’ level passes from Commercial, Sciences or Arts subjects.",
+    ". Pass in Mathematics must be at least a C or better.",
+    "ND/HND in a Business-related field or any other relevant qualification or:",
+    "At least two passes in relevant ‘A’ Level subjects and:",
+    "Confirmation of employment."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 11,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": "C"
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-065",
+   "programme": "Bachelor of Commerce Honours Degree in Logistics and Supply Chain Management",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years 3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Bulawayo Conventional",
+    "Gweru Visiting",
+    "Harare Weekend School",
+    "Bulawayo Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Two ‘A’ Level passes in any subjects.",
+    "ND/HND in Logistics, Retail, Procurement or any other relevant qualification or:",
+    "At least two passes at ‘A’ Level and:",
+    "Confirmation of employment."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 11,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-066",
+   "programme": "Bachelor of Commerce Honours Degree in Risk Management and Insurance",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years 3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Bulawayo Conventional",
+    "Gweru Visiting",
+    "Harare Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ level Commercial subjects.",
+    "Diploma or Advanced Diploma in Insurance, ND/HND in Business Studies or any other relevant qualification or:",
+    "At least two passes in relevant ‘A’ Level subjects and:",
+    "Confirmation of employment."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 11,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "COM"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "COM"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-067",
+   "programme": "Bachelor of Commerce Honours Degree in Security Risk Management",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years 3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Bulawayo Conventional",
+    "Gweru Visiting",
+    "Harare Weekend School",
+    "Bulawayo Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ level Commercial subjects.",
+    "Diploma or Advanced Diploma in Security, ND/HND in Security, Loss Control, Security Risk Management, Policing or any other relevant tertiary qualification or:",
+    "At least two passes in relevant ‘A’ Level subjects and:",
+    "Confirmation of employment."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 11,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "COM"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "COM"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-068",
+   "programme": "Bachelor of Commerce Honours Degree in Tourism and Hospitality Management",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years 3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Bulawayo Conventional",
+    "Gweru Visiting",
+    "Harare Weekend School",
+    "Bulawayo Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Two ‘A’ Level passes in any subject.",
+    "ND/HND in Tourism, Hospitality, Customer Care, Marketing, Professional Cookery, Tour Guiding or any other relevant qualification or:",
+    "At least two `A’ Level passes and:",
+    "Confirmation of employment in any tourism-related or hospitality organisation."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 11,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-069",
+   "programme": "Bachelor of Commerce Degree in Agrotourism Management",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "Not stated in the advert",
+   "modes": [
+    "Gweru Conventional",
+    "Bulawayo Conventional",
+    "Gweru Visiting",
+    "Harare Weekend School",
+    "Bulawayo Weekend"
+   ],
+   "requirements_as_advertised": [
+    "ND/HND in Tourism, Hospitality, Customer Care, Marketing, Professional Cookery, Tour Guiding or any other relevant qualification or:",
+    "At least two `A’ Level passes and:",
+    "Confirmation of employment in any tourism-related or hospitality organisation."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 12,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": true
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "This programme lists only qualification-holders or employed applicants."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-070",
+   "programme": "Bachelor of Commerce Honours Degree in Sustainable Tourism Management",
+   "faculty": "Faculty of Business Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 Years 3 Years for Block Release",
+   "modes": [
+    "Gweru Conventional",
+    "Bulawayo Conventional",
+    "Gweru Visiting",
+    "Harare Weekend School",
+    "Bulawayo Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Two ‘A’ Level passes in any subject.",
+    "ND/HND in Tourism, Hospitality, Customer Care, Marketing, Professional Cookery, Tour Guiding or any other relevant qualification or:",
+    "At least two `A’ Level passes and:",
+    "Confirmation of employment in any tourism-related or hospitality organisation."
+   ],
+   "faculty_note": "(‘O’ level Maths required for some programmes)",
+   "source_page": 12,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-083",
+   "programme": "Bachelor of Education Honours in Early Childhood Development and Child Protection",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Block Release",
+    "Harare Block Release",
+    "Bulawayo Block Release",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Be a holder of a Diploma/ Certificate in Education (Specialising in Primary/Infant and Early Childhood Development) from a recognised institution"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 14,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-084",
+   "programme": "Bachelor of Education Honours Degree in Psychology and Intervention Designs",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "Block Release – 2 Years",
+   "modes": [
+    "Gweru Block Release",
+    "Harare Block Release",
+    "Bulawayo Block Release",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Be a holder of a Diploma/ Certificate in Education from a recognised institution"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 14,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-085",
+   "programme": "Bachelor of Education Honours Degree in Sociology, Heritage and Civic Studies",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Block Release",
+    "Harare Block Release",
+    "Bulawayo Block Release",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Diploma/Certificate in Education (Primary Education, or Secondary Education) or an equivalent from a recognised institution"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 14,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-086",
+   "programme": "Bachelor of Education Honours Degree in Inclusive Education and Assistive Technologies",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Block Release",
+    "Harare Block Release",
+    "Bulawayo Block Release",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Diploma/Certificate in Education (Primary Education or Secondary Education) or an equivalent from a recognised institution"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 14,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-087",
+   "programme": "Bachelor of Education Honours Degree in Philosophy and Critical Thinking",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Block Release",
+    "Harare Block Release",
+    "Bulawayo Block Release",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Diploma/Certificate in Education (Primary Education, or Secondary Education) or an equivalent from a recognized institution"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 14,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-092",
+   "programme": "Diploma in Adult and Continuing Education",
+   "faculty": "Faculty of Education",
+   "level": "Diploma",
+   "duration": "1½ years",
+   "modes": [
+    "Gweru Block Release",
+    "Harare Block Release",
+    "Harare Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "5 ‘O’ Levels including English Language"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 15,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "o_level_only",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-093",
+   "programme": "Bachelor of Education Honours Degree in Life-long Learning and Global Change",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Block Release",
+    "Harare Block Release",
+    "Harare Weekend School",
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Have passed at least five (5) ‘O’ level subjects including English Language or approved equivalent.",
+    "Be a practitioner in the field of Continuing Education Diploma in Adult and Continuing Education or approved equivalent with at least a lower second-class pass."
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 16,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-096",
+   "programme": "Bachelor of Education in Educational Leadership, Management and Development Degree",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Block Release",
+    "Harare Block Release",
+    "Bulawayo Block Release",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Have a teaching qualification approved by the University.",
+    "Normally be employed as a full-time teacher/administrator in an approved school/college."
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 16,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-099",
+   "programme": "Bachelor of Education Dual Honours Degree in Humanities",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Five (5) ‘O’ level passes including English Language and two ‘A’ Level passes in Humanities"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 17,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-100",
+   "programme": "Bachelor of Education Honours Degree in Indigenous, Multicultural Languages and Literature",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Mature entry; 5 O levels including English Language and an indigenous language (Barwe, Khoisan, Ndau, Chewa, Shangani, Tswana, Xhosa, Venda, Sotho, Kalanga, Nambya and Tonga)"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 17,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature entry; 5 O levels including English Language and an indigenous language (Barwe, Khoisan, Ndau, Chewa, Shangani, Tswana, Xhosa, Venda, Sotho, Kalanga, Nambya and Tonga)"
+   ],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-101",
+   "programme": "Bachelor of Education in Indigenous Multicultural Languages and Literature",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2years",
+   "modes": [
+    "Gweru Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Diploma/Certificate in Education (Primary Education, or Secondary Education with a Specialisation in an indigenous Language or an equivalent from a recognized institution"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 17,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-105",
+   "programme": "Bachelor of Education Honours Degree in History and Development Studies",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Block Release",
+    "Harare Block Release",
+    "Bulawayo Block Release",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Diploma/Certificate in Education (Primary Education, or Secondary Education with a specialisation in History) or an equivalent from a recognized institution"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 18,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-106",
+   "programme": "Bachelor of Education Honours Degree in English and Literacy",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Block Release",
+    "Harare Block Release",
+    "Bulawayo Block Release",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Diploma/Certificate in Education (Primary Education, or Secondary Education with a specialisation in English) or an equivalent from a recognized institution"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 18,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-107",
+   "programme": "Bachelor of Education Honours Degree in Science and Applied Technologies",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "5 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Five (5) ‘O’ level passes including English language, Science and Mathematics."
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 18,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null,
+     "Science": null
+    }
+   },
+   "route": "o_level_only",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-108",
+   "programme": "Bachelor of Education Honours Degree in Mathematics and Applied Statistics",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "5 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Five (5) ‘O’ level passes including English language and Mathematics (with at least a B in Mathematics)."
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 18,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": "B"
+    }
+   },
+   "route": "o_level_only",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-109",
+   "programme": "Bachelor of Education Honours Degree in Mathematics and Applied Statistics",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "Block Release -2 years",
+   "modes": [
+    "Gweru Block Release",
+    "Harare Block Release",
+    "Bulawayo Block Release",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Diploma/Certificate in Education with specialisation in Mathematics or equivalent from a recognised institution"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 18,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-110",
+   "programme": "Bachelor of Education Honours Degree in Physical Education Sport Science and Management",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "Block Release -2 years",
+   "modes": [
+    "Gweru Block Release",
+    "Harare Block Release",
+    "Bulawayo Block Release",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Diploma/Certificate in Education with specialisation in Physical Education Sport Science and Management or equivalent from a recognised institution"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 18,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-111",
+   "programme": "Bachelor of Education Degree in Information Communication Technology",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "Block Release 2 years",
+   "modes": [
+    "Gweru Block Release",
+    "Harare Block Release",
+    "Bulawayo Block Release",
+    "Harare Weekend School",
+    "Bulawayo Weekend School",
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Diploma in Education with ‘O’ Level Mathematics and a Science subject."
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 19,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-112",
+   "programme": "Bachelor of Education Honours Degree in Textile Technology and Design",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Diploma/Certificate in Education with specialisation in Textile Technology and Design or equivalent from a recognised institution."
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 19,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-113",
+   "programme": "Bachelor of Education Dual Honours Degree in Science and Applied Technologies",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "Block Release 2 years",
+   "modes": [
+    "Gweru Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Diploma in Science Education with specialisation in any TWO areas: Biology, Chemistry, Physics, Mathematics, Geography, Computer science"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 19,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-114",
+   "programme": "Bachelor of Education Honours Degree in Food Technology and Design",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Diploma/Certificate in Education with specialisation in Food Technology and Design or equivalent from a recognised institution."
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 19,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-115",
+   "programme": "Bachelor of Education Honours Degree in Geography and Environmental Education",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Diploma/Certificate in Education with specialisation in Geography or equivalent from a recognised institution"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 19,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-116",
+   "programme": "Bachelor of Education Honours Degree in Agriculture and Environmental Education",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Diploma/Certificate in Education with specialisation in Agriculture or equivalent from a recognised institution"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 19,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-117",
+   "programme": "Bachelor of Education Honours Degree in Computer Science and Emerging Technologies",
+   "faculty": "Faculty of Education",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Gweru Block Release",
+    "Harare Block Release",
+    "Harare Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Diploma/Certificate in Education with specialisation in Computer Science or equivalent from a recognised institution"
+   ],
+   "faculty_note": "All programmes, unless indicated otherwise, commence in January 2027",
+   "source_page": 20,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-126",
+   "programme": "Bachelor of Engineering Honours Degree in Electrical and Electronic Engineering (HEEE)",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "(5 Years)",
+   "modes": [
+    "Zvishavane Conventional"
+   ],
+   "requirements_as_advertised": [
+    "1. For Normal Entry the candidates should have:",
+    "(i) Passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent.",
+    "(ii) At least two Advanced Level passes; Mathematics, Physics and any other relevant science subject.",
+    "2. For special entry candidates should:",
+    "(i) Have passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent.",
+    "(ii) Applicants with a recognized National Certificate or Diploma in a relevant field may be considered using the ZNQF framework starting in year 1 and 2 respectively.",
+    "Candidates may be invited for an interview or entrance examination."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 21,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Physics"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null,
+     "Combined Science": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Advert says 'Mathematics, Physics and any other relevant science subject'; modelled as Mathematics and Physics; confirm whether a third subject is needed."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-127",
+   "programme": "Bachelor of Engineering Honours Degree in Electrical and Electronic Engineering (HEEE)",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "(4 Years)",
+   "modes": [
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "i. Have passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent.",
+    "ii. Hold a National Certificate in Electrical Engineering, Electronics Engineering or any other relevant engineering field. Candidates may be invited for an interview or entrance examination.",
+    "iii. Be formally employed in the relevant field of expertise.",
+    "iv. Attach proof of employment from your Human Resources office."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 21,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-128",
+   "programme": "Bachelor of Engineering Honours Degree in Electrical and Electronic Engineering (HEEE)",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3Years",
+   "modes": [
+    "Zvishavane Visiting"
+   ],
+   "requirements_as_advertised": [
+    "i. Have passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent.",
+    "ii. Hold a National Diploma in Electrical Engineering, Electronics Engineering or any other relevant engineering field. Candidates may be invited for an interview or entrance examination.",
+    "iii. Be formally employed in the relevant field of expertise.",
+    "Attach proof of employment from your Human Resources office."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 21,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-129",
+   "programme": "Bachelor of Engineering Honours Degree in Fuels and Energy Engineering",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 Years",
+   "modes": [
+    "Zvishavane Conventional"
+   ],
+   "requirements_as_advertised": [
+    "1. Normal Entry For normal entry the candidates should have:",
+    "(i) Passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent.",
+    "(ii) At least two Advanced Level passes; Mathematics, Physics or Chemistry and any other relevant science subject.",
+    "2. For special entry candidates should:",
+    "(i) Have passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent.",
+    "(ii) Applicants with a recognized National Certificate or Diploma in a relevant field may be considered using the ZNQF framework starting in year 1 and 2 respectively. Candidates may be invited for an interview or entrance examination."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 22,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics",
+       "Physics",
+       "Chemistry"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Mathematics",
+       "Physics",
+       "Chemistry",
+       "SCI"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null,
+     "Combined Science": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Advert wording 'Mathematics, Physics or Chemistry and any other relevant science subject'; modelled as two sciences, the first from Mathematics, Physics or Chemistry."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-130",
+   "programme": "Bachelor of Engineering Honours Degree in Fuels and Energy Engineering",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 Years",
+   "modes": [
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "i. Have passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent.",
+    "ii. Hold a National Certificate in Electrical Engineering, Power plant operations, Chemical Engineering or any other relevant engineering field. Candidates may be invited for an interview or entrance examination.",
+    "iii. Be formally employed in the relevant field of expertise.",
+    "Attach proof of employment from your Human Resources office."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 22,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-131",
+   "programme": "Bachelor of Engineering Honours Degree in Fuels and Energy Engineering",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3Years",
+   "modes": [
+    "Zvishavane Visiting"
+   ],
+   "requirements_as_advertised": [
+    "i. Have passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent.",
+    "ii. Hold a National Diploma in Electrical Engineering, Power plant operations, Chemical Engineering or any other relevant engineering field. Candidates may be invited for an interview or entrance examination.",
+    "iii. Be formally employed in the relevant field of expertise.",
+    "Attach proof of employment from your Human Resources office."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 23,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-132",
+   "programme": "Bachelor of Engineering Honours Degree in Mining Engineering",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 Years",
+   "modes": [
+    "Zvishavane Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent.",
+    "A ‘Level passes in Mathematics, Physics and any other science subject.",
+    "Applicants with a recognized National Diploma in the relevant field may be considered using the ZNQF framework starting in year 2."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 23,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Physics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "SCI"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null,
+     "Combined Science": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "'any other science subject' is interpreted as any science subject."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-133",
+   "programme": "Bachelor of Engineering Honours Degree in Mining Engineering",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 Years",
+   "modes": [
+    "Zvishavane Visiting"
+   ],
+   "requirements_as_advertised": [
+    "i. Passed at least 5 subjects at Ordinary Level including Mathematics, English and Combined Science or equivalent. National Diploma in Mining, Geology, Survey, or any other relevant diploma from a recognized institution.",
+    "ii. Should be currently employed within the mining industry.",
+    "Attach proof of employment from your Human Resources office."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 23,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null,
+     "Combined Science": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-134",
+   "programme": "Bachelor of Science Honours Degree in Applied Geology",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "(4 years)",
+   "modes": [
+    "Zvishavane Conventional"
+   ],
+   "requirements_as_advertised": [
+    "5 Ordinary Level passes including English Language, Mathematics and Chemistry plus two Advanced Level passes in any two of the following Science subjects Mathematics, Physics, Chemistry, Biology.",
+    "Applicants with a recognized National Diploma in the relevant field may be considered using the ZNQF framework starting in year 2."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 23,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics",
+       "Physics",
+       "Chemistry",
+       "Biology"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Mathematics",
+       "Physics",
+       "Chemistry",
+       "Biology"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null,
+     "Chemistry": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-135",
+   "programme": "Bachelor of Science Honours Degree in Applied Geology",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "2 years",
+   "modes": [
+    "Zvishavane Visiting"
+   ],
+   "requirements_as_advertised": [
+    "5 ‘O’ Levels subjects including English Language, Mathematics and Chemistry. National Diploma or Higher National Diploma in Geology plus two years post-diploma working experience.",
+    "Should be currently employed within the relevant industry",
+    "Attach proof of employment from your Human Resources office."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 24,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-136",
+   "programme": "Bachelor of Science Honours Degree in Exploration Geophysics.",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4years",
+   "modes": [
+    "Zvishavane Conventional"
+   ],
+   "requirements_as_advertised": [
+    "5 Ordinary Levels including English Language, Mathematics and Physics; plus, two Advanced level passes in any two of the following Science subjects Mathematics, Physics, Chemistry or Geography.",
+    "Applicants with a recognized National Diploma in the relevant field may be considered using the ZNQF framework starting in year 2."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 24,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics",
+       "Physics",
+       "Chemistry",
+       "Geography"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Mathematics",
+       "Physics",
+       "Chemistry",
+       "Geography"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null,
+     "Physics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-137",
+   "programme": "Bachelor of Engineering Honours Degree in Mechanical Engineering Degree",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "5 years",
+   "modes": [
+    "Zvishavane Conventional"
+   ],
+   "requirements_as_advertised": [
+    "‘O’ level pass in Mathematics, Physics and English Language with `C ‘grade or better.",
+    "At least two ‘A’ level passes in Mathematics and Physics. A pass in any one of the following ‘A’ Level subjects will be an added advantage: Chemistry, Computer Science, Metal Technology and Design, Wood Technology and Design, Design and Technology, Technical Graphics and Design, and Software.",
+    "Applicants with a recognized National Certificate or Diploma in the relevant field may be considered using the ZNQF framework starting in year 1 and 2 respectively."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 24,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Physics"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": "C",
+     "Mathematics": "C",
+     "Physics": "C"
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-138",
+   "programme": "Bachelor of Engineering Honours Degree in Mechanical Engineering Degree",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Zvishavane Visiting"
+   ],
+   "requirements_as_advertised": [
+    "A National Diploma in Production/Plant Engineering/Draughting and Designing Technology ‘O’ level pass in Mathematics, Science and English Language with `C ‘grade or better.",
+    "Should be currently employed within the relevant industry",
+    "Attach proof of employment from your Human Resources office."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 24,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-139",
+   "programme": "Bachelor of Engineering Honours Degree in Mechanical Engineering Degree",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "A National Certificate in Fitting and Turning/Machining/Fabrication /Draughting and Designing Technology ‘O’ level pass in Mathematics, Science and English Language with `C ‘grade or better.",
+    "Should be currently employed within the relevant industry",
+    "Attach proof of employment from your Human Resources office."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 24,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-140",
+   "programme": "Bachelor of Engineering Honours Degree in Metallurgical Engineering",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "5 years",
+   "modes": [
+    "Zvishavane Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Five (5) ‘O’ level passes including English language and Mathematics.",
+    "‘A’ Level passes in Mathematics and Chemistry.",
+    "Applicants with a recognized National Certificate or Diploma in the relevant field may be considered using the ZNQF framework starting in year 1 and 2 respectively."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 25,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Chemistry"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-141",
+   "programme": "Bachelor of Engineering Honours Degree in Metallurgical Engineering",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Five (5) ‘O’ level passes including English language and Mathematics.",
+    "A recognized National Certificate in the relevant field",
+    "Should be currently employed within the relevant industry.",
+    "Attach proof of employment from your Human Resources office."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 25,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-142",
+   "programme": "Bachelor of Engineering Honours Degree in Metallurgical Engineering",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Zvishavane Visiting"
+   ],
+   "requirements_as_advertised": [
+    "Five (5) ‘O’ level passes including English language and Mathematics.",
+    "A recognized Diploma in the relevant field.",
+    "Should be currently employed within the relevant industry.",
+    "Attach proof of employment from your Human Resources office."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 25,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-143",
+   "programme": "Bachelor of Engineering Honours Degree in Materials Engineering",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "5 years",
+   "modes": [
+    "Zvishavane Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Five (5) ‘O’ level passes including English language and Mathematics.",
+    "‘A’ Level passes in Mathematics and Chemistry.",
+    "Applicants with a recognized National Certificate or Diploma in Materials Engineering or any other relevant field may be considered using the ZNQF framework starting in year 1 and 2 respectively."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 25,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Chemistry"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-144",
+   "programme": "Bachelor of Engineering Honours Degree in Materials Engineering",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Zvishavane Visiting"
+   ],
+   "requirements_as_advertised": [
+    "Five (5) ‘O’ level passes including English language and Mathematics.",
+    "A recognized Diploma in the relevant field.",
+    "Should be currently employed within the relevant industry",
+    "Attach proof of employment from your Human Resources office."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 25,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-145",
+   "programme": "Bachelor of Engineering Honours Degree in Materials Engineering",
+   "faculty": "Faculty of Engineering and Geosciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Zvishavane Block Release"
+   ],
+   "requirements_as_advertised": [
+    "Five (5) ‘O’ level passes including English language and Mathematics.",
+    "A recognized National Certificate in the relevant field",
+    "Should be currently employed within the relevant industry.",
+    "Attach proof of employment from your Human Resources office."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement) All programmes in the Faculty of Engineering and Geosciences commence in August 2027. Applications to be submitted online only.",
+   "source_page": 26,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-146",
+   "programme": "Bachelor of Science in Biomedical Sciences",
+   "faculty": "Faculty of Medicine and Health Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "Not stated in the advert",
+   "modes": [],
+   "requirements_as_advertised": [
+    "• ‘A’ Level Passes in Chemistry with an A and any two in Mathematics, Physics or Biology"
+   ],
+   "faculty_note": "‘O’ Level Mathematics is a Requirement. The programme commences in August 2027. Applications to be submitted online only.",
+   "source_page": 26,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Chemistry"
+      ],
+      "min_grade": "A"
+     },
+     {
+      "any_of": [
+       "Mathematics",
+       "Physics",
+       "Biology"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Mathematics",
+       "Physics",
+       "Biology"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-147",
+   "programme": "Bachelor of Laws (LLB)",
+   "faculty": "Faculty of Law",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "5 years",
+   "modes": [
+    "Kwekwe Conventional"
+   ],
+   "requirements_as_advertised": [
+    "‘A’ level passes in English/Shona/Ndebele Literature or other Language and History, and any other ‘A’ level subject form Arts/Humanities with B or better."
+   ],
+   "faculty_note": "Applications to be submitted online only. (‘O’ level Mathematics and English Language with B or better Required)",
+   "source_page": 26,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "LANG"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "History"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": "B"
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": "B",
+     "Mathematics": "B"
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Advert says 'with B or better'; modelled as applying to the Arts/Humanities subject. Confirm whether it applies to all three subjects."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-148",
+   "programme": "Bachelor of Engineering Honours Degree in Telecommunications Engineering",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Passes at Ordinary Level including Mathematics, English Language and a Science Subject. Any Two ‘A’ Level passes in Mathematics, Physics or Computer Science.",
+    "Special Entry: Applicants must have either a relevant NC or Diploma/Professional Qualification in Telecommunications, Computer Science, Electronic or Electrical engineering or equivalent OR two ‘A’ level passes in Mathematics, Physics or Computer Science.",
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 26,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics",
+       "Physics",
+       "Computer Science"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Mathematics",
+       "Physics",
+       "Computer Science"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null,
+     "Science": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-149",
+   "programme": "Bachelor of Engineering Honours Degree in Telecommunications Engineering (Visiting)",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Gweru Visiting"
+   ],
+   "requirements_as_advertised": [
+    "Must be employed for the whole duration of the study in the relevant field and should submit a confirmation letter of employment from the employer."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 27,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-150",
+   "programme": "Bachelor of Science Honours Degree in Applied Mathematics & Computational Science",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Two ‘A’ level passes in Mathematics and any other subject"
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 27,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-151",
+   "programme": "Bachelor of Science Honours Degree in Applied Statistics",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Two ‘A’ level passes including Mathematics or Statistics",
+    "Applicants must have either a relevant Diploma/ Professional Qualification in Statistics or Mathematics and ‘O’ level passes in English and Mathematics",
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science, and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 27,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics",
+       "Statistics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science, and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-152",
+   "programme": "Bachelor of Science Honours Degree in Applied Statistics (Visiting)",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Gweru Visiting"
+   ],
+   "requirements_as_advertised": [
+    "Must be employed for the whole duration of the study in the relevant field and should submit confirmation letter of employment from the employer"
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 27,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-153",
+   "programme": "Bachelor of Science Honours Degree in Biotechnology and Bioinformatics",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years.",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ level passes in Mathematics and Biology/or Chemistry"
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 27,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Biology",
+       "Chemistry"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-154",
+   "programme": "Bachelor of Science Honours Degree in Applied Biosciences and Biotechnology",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years.",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ level passes in Sciences including Biology",
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 27,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Biology"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "SCI"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "modelling_notes": [
+    "'Sciences including Biology': modelled as Biology plus one other science subject."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-155",
+   "programme": "Bachelor of Science Honours Degree in Computer Systems Engineering",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Two ‘A’ level passes in Mathematics and Physics or Computer Science/Studies or any other relevant Science subject.",
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 28,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Physics",
+       "Computer Science",
+       "SCI"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "modelling_notes": [
+    "'any other relevant Science subject' is interpreted as any science subject."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-156",
+   "programme": "Bachelor of Science Honours Degree in Computer Science",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Two ‘A’ level passes in Mathematics and Physics or Computer Science/Studies or any other relevant Science subject.",
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 28,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Physics",
+       "Computer Science",
+       "SCI"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "modelling_notes": [
+    "'any other relevant Science subject' is interpreted as any science subject."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-157",
+   "programme": "Bachelor of Science Honours Degree in Food Science and Technology",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ level passes in Chemistry, Biology, Food Science or any other relevant science subject.",
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 28,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "SCI"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "SCI"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "modelling_notes": [
+    "'any other relevant science subject' is interpreted as any science subject."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-158",
+   "programme": "Bachelor of Science Honours Degree in Space Science and Technology",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years.",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Passes at Ordinary Level including Mathematics, English Language and a Science Subject. Two ‘A’ Level passes in Physics and Mathematics"
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 28,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Physics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Mathematics"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null,
+     "Science": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-159",
+   "programme": "Bachelor of Science Honours Degree in Industrial Chemistry",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ level passes in Chemistry and any Sciences",
+    "Special Entry: National Certificate, National Diploma or Higher National Diploma in relevant fields.",
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 28,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Chemistry"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "SCI"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-160",
+   "programme": "Bachelor of Science Honours Degree in Medicinal and Pharmaceutical Chemistry",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ level passes in Chemistry and any Sciences",
+    "Special Entry: National Certificate, National Diploma or Higher National Diploma in relevant fields."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 29,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Chemistry"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "SCI"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-161",
+   "programme": "Bachelor of Science Honours Degree in Chemical Technology (Visiting)",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 Years",
+   "modes": [
+    "Gweru Visiting"
+   ],
+   "requirements_as_advertised": [
+    "Applicants must have either a relevant National Certificate/Diploma/Higher National Diploma or Professional Qualifications in Chemistry/Applied Chemistry, Chemical Technology or equivalent OR two ‘A’ level passes in Chemistry and any Sciences Must be employed for the whole duration of the study in the relevant field and should submit confirmation letter of employment from the employer"
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 29,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Chemistry"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "SCI"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": true
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-162",
+   "programme": "Bachelor of Science Honours Degree in Chemical Technology (Conventional)",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 Years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ level passes in Chemistry and any of the following subjects Mathematics, Physics, Computer Science, Biology.",
+    "Special Entry: National Certificate, National Diploma or Higher National Diploma in relevant fields."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 29,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Chemistry"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Mathematics",
+       "Physics",
+       "Computer Science",
+       "Biology"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-163",
+   "programme": "Bachelor of Science Honours Degree in Industrial Physics and Instrumentation",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Two ‘A’ level passes in Mathematics and Physics.",
+    "Special Entry: Applicants must have either a relevant NC or Diploma/ Professional Qualification in Physics/Applied Physics, Instrumentation or Electrical engineering or equivalent OR ‘A’ level passes in Physics and Mathematics"
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 29,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Physics"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-164",
+   "programme": "Bachelor of Science Honours Degree in Industrial Physics and Instrumentation",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Gweru Visiting"
+   ],
+   "requirements_as_advertised": [
+    "Must be employed for the whole duration of the study in the relevant field and should submit a confirmation letter of employment from the employer."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 29,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-165",
+   "programme": "Bachelor of Science Honours Degree in Nutrition Science",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ level passes in Chemistry, Biology, Food Science or any other relevant science subject.",
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 29,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "SCI"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "SCI"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "modelling_notes": [
+    "'any other relevant science subject' is interpreted as any science subject."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-166",
+   "programme": "Bachelor of Science Honours Degree in Software Engineering",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "A pass at ‘A’ level in at least two of the following subjects or their equivalents: Software Engineering, Mathematics/Statistics, Computer Science/Studies and Physics",
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 30,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics",
+       "Statistics",
+       "Computer Science",
+       "Software Engineering",
+       "Physics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Mathematics",
+       "Statistics",
+       "Computer Science",
+       "Software Engineering",
+       "Physics"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-167",
+   "programme": "Bachelor of Science Honours Degree in Artificial Intelligence & Machine Learning",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Gweru Visiting"
+   ],
+   "requirements_as_advertised": [
+    "Applicants must have either a relevant National Diploma/Higher National Diploma in Artificial Intelligence, Computer Studies or equivalent.",
+    "Must be employed for the whole duration of the study in the relevant field and should submit confirmation letter of employment from the employer"
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 30,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-168",
+   "programme": "Bachelor of Science Honours Degree in Cybersecurity",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "A pass at ‘A’ level in Mathematics/Statistics and in at least one of the following subjects or their equivalents: Computer Science/Studies, Software Engineering and Physics",
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 30,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics",
+       "Statistics"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "Computer Science",
+       "Software Engineering",
+       "Physics"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": true,
+   "mature_entry_text": [
+    "Mature Entry: Five ‘O’ Level passes including Mathematics, Science and English plus at least 25 years (males) and 23 years (females) of age and 5 years of experience in the relevant field."
+   ],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-169",
+   "programme": "Bachelor of Science Honours in Actuarial Science",
+   "faculty": "Faculty of Science and Technology",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Normal Entry: At least 10 points at A Level with a minimum of a B in Mathematics and any other acceptable subject(s)."
+   ],
+   "faculty_note": "(‘O’ Level Mathematics is a Requirement)",
+   "source_page": 30,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Mathematics"
+      ],
+      "min_grade": "B"
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": 10,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Modelled as 10 points in total with a B or better in Mathematics plus one other subject."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-175",
+   "programme": "Bachelor of Science Honours Degree in Psychology",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "‘O’ Level Mathematics and a relevant Science subject at Grade C or better, plus A minimum of any 2 “A” Level passes."
+   ],
+   "faculty_note": "",
+   "source_page": 31,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": "C",
+     "Science": "C"
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-176",
+   "programme": "Bachelor of Science Honours Degree in Psychology",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Gweru Visiting",
+    "Harare Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "‘O’ Level Mathematics and a relevant Science subject at Grade C or better, plus a professional qualification such as a Diploma in a Psychology-related field in which candidates must be employed."
+   ],
+   "faculty_note": "",
+   "source_page": 31,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-177",
+   "programme": "Bachelor of Science Honours Degree in Counselling Psychology",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "‘O’ Level Mathematics and a relevant Science subject at Grade C or better, plus A minimum of any 2 “A” Level passes."
+   ],
+   "faculty_note": "",
+   "source_page": 31,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null,
+     "Mathematics": "C",
+     "Science": "C"
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-178",
+   "programme": "Bachelor of Science Honours Degree in Counselling Psychology",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3years",
+   "modes": [
+    "Bulawayo Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "O’ Level Mathematics and a relevant Science subject at Grade C or better, plus a professional qualification such as a Diploma in a Psychology-related field in which candidates must be employed."
+   ],
+   "faculty_note": "",
+   "source_page": 31,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-181",
+   "programme": "Bachelor of Science Honours Degree in Industrial Sociology",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes in Arts, Humanities and Social Sciences subjects."
+   ],
+   "faculty_note": "",
+   "source_page": 32,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-182",
+   "programme": "Bachelor of Science Honours Degree in Industrial Sociology",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Bulawayo Weekend School",
+    "Harare Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "At least 5 ‘O’ level passes including English Language.",
+    "Be a holder of a Diploma, or HND or any related qualification in any of the above disciplines.",
+    "Be employed in a field related to the above disciplines.",
+    "Submit a confirmation letter of employment from the employer."
+   ],
+   "faculty_note": "",
+   "source_page": 32,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-183",
+   "programme": "Bachelor of Science Honours Degree in Sociology and Social Policy",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes in Arts, Humanities and Social Sciences subjects."
+   ],
+   "faculty_note": "",
+   "source_page": 32,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-184",
+   "programme": "Bachelor of Science Honours Degree in Sociology and Social Policy",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Bulawayo Weekend School",
+    "Harare Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Have at least 5 ‘O’ level passes including English Language.",
+    "Be a holder of a Diploma, or HND or any related qualification in any of the above disciplines.",
+    "Be employed in a field related to the above disciplines.",
+    "Submit a confirmation letter of employment from the employer."
+   ],
+   "faculty_note": "",
+   "source_page": 32,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-185",
+   "programme": "Bachelor of Science Honours Degree in Anthropology",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes in Arts, Humanities and Social Sciences subjects."
+   ],
+   "faculty_note": "",
+   "source_page": 32,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-186",
+   "programme": "Bachelor of Science Honours Degree in Migration and Population Movements",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes in Arts, Humanities and Social Sciences subjects."
+   ],
+   "faculty_note": "",
+   "source_page": 32,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-187",
+   "programme": "Bachelor of Science Honours Degree in Migration and Population Movements",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Bulawayo Weekend School",
+    "Harare Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "At least 5 ‘O’ level passes including English Language.",
+    "Be a holder of a Diploma, or HND or any related qualification in any of the above disciplines.",
+    "Be employed in a field related to the above disciplines.",
+    "Submit a confirmation letter of employment from the employer."
+   ],
+   "faculty_note": "",
+   "source_page": 32,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-191",
+   "programme": "Bachelor of Science Honours Degree in Geography and Environmental Sustainability",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru conventional"
+   ],
+   "requirements_as_advertised": [
+    "‘A’ Level Geography and any other Advanced Level subject OR National Foundation Certificates including ‘O’ Level Mathematics."
+   ],
+   "faculty_note": "",
+   "source_page": 33,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Geography"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Also accepts National Foundation Certificates including O Level Mathematics (other route)."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-192",
+   "programme": "Bachelor of Science Honours Degree in Environmental Safety, Health and Quality Management",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "A pass in ‘A’ Level Geography and any other Advanced Level subject OR National Foundation Certificates including ‘O’ Level Mathematics."
+   ],
+   "faculty_note": "",
+   "source_page": 33,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Geography"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Also accepts National Foundation Certificates including O Level Mathematics (other route)."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-193",
+   "programme": "Bachelor of Science Honours Degree in Environmental Safety, Health and Quality Management",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Bulawayo Weekend School",
+    "Harare Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "A pass in ‘A’ Level Geography and any other Advanced Level subject OR National Foundation Certificates including ‘O’ Level Mathematics.",
+    "National Diploma/Higher National Diploma in Environmental Science/Health/Safety, Health and Quality/Environmental Management Field.",
+    "All applicants must provide proof of employment in a related field."
+   ],
+   "faculty_note": "",
+   "source_page": 33,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Geography"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": true
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Also accepts National Foundation Certificates; proof of employment in a relevant field is required."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-194",
+   "programme": "Bachelor of Science Honours Degree in Environmental Disaster Risk Management and Resilience Building",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "A pass in ‘A’ Level Geography and any other Advanced Level subject OR National Foundation Certificates including ‘O’ Level Mathematics."
+   ],
+   "faculty_note": "",
+   "source_page": 33,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "Geography"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": [
+    "Also accepts National Foundation Certificates including O Level Mathematics (other route)."
+   ]
+  },
+  {
+   "id": "MSU-JF2027-198",
+   "programme": "Bachelor of Science Honours Degree in Local Governance and Management",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes in Arts, Humanities and Social Sciences subjects."
+   ],
+   "faculty_note": "",
+   "source_page": 34,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-199",
+   "programme": "Bachelor of Science Honours Degree in Local Governance and Management",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Gweru Visiting",
+    "Bulawayo Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Have at least 5 ‘O’ level passes including English Language.",
+    "Be a holder of a Diploma, or HND or any related qualification in any of the above disciplines.",
+    "Be employed in a field related to the above disciplines.",
+    "Submit a confirmation letter of employment from the employer."
+   ],
+   "faculty_note": "",
+   "source_page": 34,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-200",
+   "programme": "Bachelor of Science Honours Degree in Public Management and Governance",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes in Arts, Humanities and Social Sciences subjects."
+   ],
+   "faculty_note": "",
+   "source_page": 34,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-201",
+   "programme": "Bachelor of Science Honours Degree in Public Management and Governance",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Gweru Visiting",
+    "Bulawayo Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Have at least 5 ‘O’ level passes including English Language.",
+    "Be a holder of a Diploma, or HND or any related qualification in any of the above disciplines.",
+    "Be employed in a field related to the above disciplines.",
+    "Submit a confirmation letter of employment from the employer."
+   ],
+   "faculty_note": "",
+   "source_page": 34,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-202",
+   "programme": "Bachelor of Science Honours Degree in Political Science and Governance",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes in Arts, Humanities and Social Sciences subjects."
+   ],
+   "faculty_note": "",
+   "source_page": 34,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-203",
+   "programme": "Bachelor of Science Honours Degree in Political Science and Governance",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Harare Weekend School",
+    "Bulawayo Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Have at least 5 ‘O’ level passes including English Language.",
+    "Be a holder of a Diploma, or HND or any related qualification in any of the above disciplines.",
+    "Be employed in a field related to the above disciplines.",
+    "Submit a confirmation letter of employment from the employer."
+   ],
+   "faculty_note": "",
+   "source_page": 34,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-206",
+   "programme": "Bachelor of Science Honours Degree in Human Resource Management",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional",
+    "Bulawayo Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A’ Level passes in Arts/Humanities."
+   ],
+   "faculty_note": "",
+   "source_page": 35,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-207",
+   "programme": "Bachelor of Science Honours Degree in Human Resource Management",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Harare Weekend School",
+    "Bulawayo Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "Have at least 5 ‘O’ level passes including English Language and Mathematics.",
+    "Be a holder of a Diploma, or HND or any related qualification in any of the above disciplines.",
+    "Be employed in a field related to the above disciplines.",
+    "Have at least two years’ work experience after the attainment of a Diploma or Higher Diploma.",
+    "Submit a confirmation letter of employment from the employer."
+   ],
+   "faculty_note": "",
+   "source_page": 35,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-209",
+   "programme": "Bachelor of Science Honours Degree in Music Business, Musicology and Technology",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "Any two ‘A ‘Level passes in Arts/Humanities."
+   ],
+   "faculty_note": "",
+   "source_page": 35,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-210",
+   "programme": "Bachelor of Science Honours Degree in Music Business, Musicology and Technology",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Gweru Block Release",
+    "Bulawayo Weekend School",
+    "Harare Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "5 ‘O’ Level passes including English Language, at least two years’ work experience after attainment of a Diploma or Higher Diploma.",
+    "Submit a confirmation letter of employment from the employer."
+   ],
+   "faculty_note": "",
+   "source_page": 35,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "other_qualification",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-212",
+   "programme": "Bachelor of Science Honours Degree in Peace, Human Rights and Social Justice",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "At least five (5) ‘O’ level passes including English Language with Grade C or better and at least two (2) Advanced level passes in Humanities/Social Sciences."
+   ],
+   "faculty_note": "",
+   "source_page": 35,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-213",
+   "programme": "Bachelor of Science Honours Degree in Peace and Security Studies",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "3 years",
+   "modes": [
+    "Bulawayo Weekend School"
+   ],
+   "requirements_as_advertised": [
+    "At least five (5) ‘O’ level passes including English Language with Grade C or better and at least two (2) Advanced level passes in Humanities/Social Sciences."
+   ],
+   "faculty_note": "",
+   "source_page": 35,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-214",
+   "programme": "Bachelor of Science Honours Degree in Peace, Leadership and Governance",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Gweru Conventional"
+   ],
+   "requirements_as_advertised": [
+    "At least five (5) ‘O’ level passes including English Language with Grade C or better and at least two (2) Advanced level passes in Humanities/Social Sciences."
+   ],
+   "faculty_note": "",
+   "source_page": 36,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ARTS"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-219",
+   "programme": "Bachelor of Science Honours Degree in Social Work Degree",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Undergraduate – Bachelor’s degree",
+   "duration": "4 years",
+   "modes": [
+    "Harare Conventional"
+   ],
+   "requirements_as_advertised": [
+    "At least five (5) ‘O’ level passes including English Language with Grade C or better and at least two (2) ‘A’ Level passes in Arts, Humanities, Sciences and Social Sciences subjects.",
+    "Applications to be submitted online only"
+   ],
+   "faculty_note": "",
+   "source_page": 36,
+   "a_level_rule": {
+    "slots": [
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     },
+     {
+      "any_of": [
+       "ANY"
+      ],
+      "min_grade": null
+     }
+    ],
+    "min_points": null,
+    "requires_employment": false
+   },
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "a_level",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  },
+  {
+   "id": "MSU-JF2027-220",
+   "programme": "Undergraduate Diploma in Social Work",
+   "faculty": "Faculty of Social Sciences",
+   "level": "Diploma (undergraduate)",
+   "duration": "3years",
+   "modes": [
+    "Harare Conventional"
+   ],
+   "requirements_as_advertised": [
+    "5 O' Levels in 1 sitting; a Certificate in Social Work is an added advantage."
+   ],
+   "faculty_note": "",
+   "source_page": 36,
+   "a_level_rule": null,
+   "o_level_rule": {
+    "min_passes": 5,
+    "min_pass_grade": "C",
+    "required_subjects": {
+     "English Language": null
+    }
+   },
+   "route": "o_level_only",
+   "has_mature_entry": false,
+   "mature_entry_text": [],
+   "modelling_notes": []
+  }
+ ]
+}

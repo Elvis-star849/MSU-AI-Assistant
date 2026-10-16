@@ -1,0 +1,7 @@
+{
+ "sealed_set_sha256": "5827e6f3b15b46d5980fc6a573debabad6b03e6d2158a988bb47be8cc032ce91",
+ "items": 60,
+ "frozen_on": "2026-10-16",
+ "status": "SEALED - not run during development. For the owner's independent final evaluation.",
+ "run": "MSU_SEALED_EVAL_AUTHORISED=1 python evaluation/admissions_eval/run_eval.py --set sealed --runs 2"
+}

@@ -200,7 +200,8 @@ class AppUITests(unittest.TestCase):
         create = patch.object(Assistant, "create", classmethod(lambda cls, offline=False: fake))
         create.start()
         self.addCleanup(create.stop)
-        env = patch.dict(os.environ, {"MSU_ASSISTANT_OFFLINE": "1" if self.offline else ""})
+        env = patch.dict(os.environ, {"MSU_ASSISTANT_OFFLINE": "1" if self.offline else "",
+                                      "MSU_ASSISTANT_DEV_MODE": "1"})  # Technical details are developer-mode only
         env.start()
         self.addCleanup(env.stop)
         app = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "app.py")
